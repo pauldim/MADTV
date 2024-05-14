@@ -120,7 +120,7 @@ You will really have to chew.</en>
 				<en>Coca-Cola</en>
 			</title>
 			<description>
-				<de>Der populärste Konkurrent von Cacca Cola und Pipsi - doch geschmacklich auch so rein?</de>
+				<de>Coca Cola - doch geschmacklich auch so rein?</de>
 				<en>The most popular drink in the world - pure in taste.</en>
 			</description>
 			<conditions min_audience="15.63" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0"/>
@@ -627,11 +627,11 @@ But only with Relocation Rudolph!</en>
 		</ad>
 		<ad id="a81fea24-859f-463e-a69c-0124de937a47" comment="TODO: new version of the ad after 2020? https://github.com/TVTower/TVTower/pull/884#discussion_r1090005501">
 			<title>
-				<de>Serotti</de>
+				<de>Sarotti</de>
 			</title>
 			<description>
 				<de>Der Schorotti-Mohr bietet traumhafte Schokolade. Zugreifen und dahinschmelzen.</de>
-				<en>The Serotti Maure-Mallow features fantastic chocolate. Take one and melt away.</en>
+				<en>The Sarotti Maure-Mallow features fantastic chocolate. Take one and melt away.</en>
 			</description>
 			<conditions min_audience="2.6" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data quality="14" repetitions="4" duration="2" profit="700" penalty="1050" fix_infomercial_profit="1"/>
@@ -1073,7 +1073,7 @@ I feel good with Lemur</en>
 			</title>
 			<description>
 				<de>Hoher Tragekomfort und nahezu unsichtbar - die neuen Maike-Hygieneeinlagen.</de>
-				<en>High wearing comfort and almost invisible - the new Maike hygiene pads.</en>
+				<en>High wearing comfort and almost invisible - the new Always hygiene pads.</en>
 			</description>
 			<conditions min_audience="9.38" min_image="4" target_group="128" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data quality="9" repetitions="3" duration="4" profit="340" penalty="540" infomercial_profit="34" fix_infomercial_profit="1"/>
@@ -1081,10 +1081,11 @@ I feel good with Lemur</en>
 		<ad id="fc24c505-d3cc-467c-a57c-a154f9d308cb">
 			<title>
 				<de>Bonze</de>
+				<en>Honda</en>
 			</title>
 			<description>
 				<de>Der neueste Luxusschlitten aus dem Hause Bonze: Ästethisch einwandfreies Design, robust, klassisch.</de>
-				<en>The latest deluxe car from Bonze: aesthetically impeccable design, robust, classic.</en>
+				<en>The latest Honda Accord: aesthetically impeccable design, robust, classic.</en>
 			</description>
 			<conditions min_audience="31.26" min_image="7" target_group="32" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data quality="19" repetitions="1" duration="4" profit="146" penalty="220" infomercial_profit="14" fix_infomercial_profit="1"/>
@@ -1104,10 +1105,13 @@ I feel good with Lemur</en>
 		<ad id="nichtdiebetty-ad-baroque-01" creator="8659" created_by="Nicht_die_Betty">
 			<title>
 				<de>Baroque</de>
+				<en>Cyberpunk 2077</en>
+				<pl>Cyberpunk 2077</pl>
 			</title>
 			<description>
 				<de>DAS Fantasy-Rollenspiel von Goldfisch Bytes. Lasst uns Wildschweine jagen!</de>
-				<en>THE fantasy RPG by Goldfish Bytes. Lets hunt boars!</en>
+				<en>THE futere RPG by CD Project Red!</en>
+				<pl>Nowy dodatek do gry CyberPunk 2077 dodany. CD Project Red!</pl>
 			</description>
 			<conditions min_audience="5.7301" min_image="0" target_group="0"/>
 			<data infomercial="1" quality="25" repetitions="3" duration="4" profit="472" penalty="661" infomercial_profit="133" fix_infomercial_profit="1"/>
@@ -1115,7 +1119,7 @@ I feel good with Lemur</en>
 		<ad id="nichtdiebetty-ad-tieminister-01" creator="8659" created_by="Nicht_die_Betty">
 			<title>
 				<de>Krawatten-Minister</de>
-				<en>Tie-Minister</en>
+				<en>Sinsay</en>
 			</title>
 			<description>
 				<de>Der Mode Discount nicht nur für Fliegenträger. Dicker Katalog, schmaler Preis.</de>
@@ -1127,11 +1131,11 @@ I feel good with Lemur</en>
 		<ad id="ronny-ad-Handy-Dandy" creator="5578" created_by="Ronny">
 			<title>
 				<de>Handy-Dandy</de>
-				<en>Puny Phones</en>
+				<en>Samsung Galaxy ST-300</en>
 			</title>
 			<description>
 				<de>Hol Dir die knalligen Cover für Dein Handy. Vorbei mit drögem Graublau. Jetzt auch für alle Sumens-Modelle verfügbar.</de>
-				<en>Get our flashy covers for your mobile phone. Gone is the dull gray-blue. Now also available for Sumens models.</en>
+				<en>Get our flashy mobile phone. Gone is the dull gray-blue. Now also available for Sumens models.</en>
 			</description>
 			<conditions min_audience="1.8225" min_image="18" target_group="2" allowed_programme_type="0" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data infomercial="1" quality="20" repetitions="4" duration="4" profit="770" penalty="1100" infomercial_profit="50" fix_infomercial_profit="1"/>
@@ -1140,7 +1144,7 @@ I feel good with Lemur</en>
 		<ad id="ronny-ad-Kaschaemm" creator="5578" created_by="Ronny">
 			<title>
 				<de>Kaschämm</de>
-				<en>Gin Palace</en>
+				<en>Hard Rock Cafe</en>
 			</title>
 			<description>
 				<de>Deine Stammkneipe mit dem Hauch des Prätentiösen. Bierdeckel an den Wänden zeugen von weitreichender Bierkenntnis des Wirtes.</de>
@@ -1152,11 +1156,11 @@ I feel good with Lemur</en>
 		<ad id="ronny-ad-Lammpion" creator="5578" created_by="Ronny">
 			<title>
 				<de>Lammpion</de>
-				<en>Lambion</en>
+				<en>Millenium Bank</en>
 			</title>
 			<description>
 				<de>Lustige Laternen in zahlreichen Tierformen. Jetzt neu: Kuh und Marienkäfer. Der Knaller für jeden Kindergeburtstag.</de>
-				<en>Funny lanterns in numerous animal shapes. Brand new: Cow and Ladybug. The cracker for every child's birthday.</en>
+				<en>Accounts for our generation.</en>
 			</description>
 			<conditions min_audience="0.1" min_image="8" target_group="1" allowed_programme_type="0" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data infomercial="1" quality="15" repetitions="5" duration="3" profit="3800" penalty="4500" infomercial_profit="75" fix_infomercial_profit="1"/>
@@ -1164,11 +1168,11 @@ I feel good with Lemur</en>
 		<ad id="ronny-ad-Meschmucke" creator="5578" created_by="Ronny">
 			<title>
 				<de>Meschmucke</de>
-				<en>DJ Meshugge</en>
+				<en>Riverside</en>
 			</title>
 			<description>
 				<de>Crazy Beats vom israelischen Star-DJ 4Locke. Jetzt alle 3 Hits auf einem Album.</de>
-				<en>Crazy beats from Israelic star DJ Meshugge. Now all 3 hits on one Album.</en>
+				<en>New Album of Polish progresive rock band.</en>
 			</description>
 			<conditions min_audience="1.8225" min_image="18" target_group="2" allowed_programme_type="0" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data infomercial="1" quality="18" repetitions="4" duration="4" profit="770" penalty="1200" infomercial_profit="50" fix_infomercial_profit="1"/>
@@ -1177,11 +1181,11 @@ I feel good with Lemur</en>
 		<ad id="ronny-ad-Senner-Kaes" creator="5578" created_by="Ronny">
 			<title>
 				<de>Senner-Käs</de>
-				<en>Herdsman Cheese</en>
+				<en>Rodos FETA Cheese</en>
 			</title>
 			<description>
 				<de>Handgemachter Käse von hoch in den Alpen. Bärtige Senner, Sonne, saftige Wiesen und glückliche Kühe liefern den Gaumenschmaus für einen jeden Stadtmenschen.</de>
-				<en>Handmade cheese from high up in the Alps. Bearded dairymen, the sun, lush meadows and happy cows provide the palate for any city dweller.</en>
+				<en>Feta cheese in a brine marinade. High quality.</en>
 			</description>
 			<conditions min_audience="1.041" min_image="0" target_group="0" allowed_programme_type="0" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data infomercial="1" quality="21" repetitions="7" duration="6" profit="1050" penalty="2024" infomercial_profit="85" fix_infomercial_profit="1"/>
@@ -1265,11 +1269,11 @@ I feel good with Lemur</en>
 		</ad>
 		<ad id="ronny-ad-arthritis-01" creator="5578" created_by="Ronny">
 			<title>
-				<de>SOS Arthritis</de>
+				<de>Aspirin C</de>
 			</title>
 			<description>
 				<de>Sie hassen es, keinen Finger krumm zu machen? SOS Arthritis lindert die Beschwerden innerhalb weniger Stunden. Jetzt bestellen und 1 Flasche Schlangenöl umsonst dazubekommen.</de>
-				<en>You hate not lifting a finger? SOS Arthritis relieves the discomfort within a few hours. Order now and get 1 bottle of snake oil for free.</en>
+				<en>You hate not lifting a finger? Aspirin C relieves the discomfort within a few hours. Order now and get 1 bottle of snake oil for free.</en>
 			</description>
 			<conditions min_audience="2.86" min_image="12" target_group="64" allowed_programme_type="0" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data infomercial="1" quality="12" repetitions="4" duration="3" profit="685" penalty="990" infomercial_profit="50" fix_infomercial_profit="1"/>
@@ -1303,12 +1307,13 @@ We offer fully automatic charging machines. Insert battery, fill coin slot. Pres
 		<ad id="ronny-ad-brucey-01" creator="5578" created_by="Ronny">
 			<title>
 				<de>Brucey</de>
+				<en>Pure Man</en>
 			</title>
 			<description>
 				<de>Frauen schwören auf den Nerd in Dir. Lass sie Ihn riechen!
 Brucey - herber Duft für Männer vom Fach.</de>
 				<en>Women absolutely love the nerd in you. Let them smell him!
-Brucey - harsh fragrance for expert men.</en>
+Pure Man - harsh fragrance for expert men.</en>
 			</description>
 			<conditions min_audience="5.21" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data infomercial="1" quality="15" repetitions="1" duration="3" profit="470" penalty="800" infomercial_profit="49" fix_infomercial_profit="1"/>
@@ -1316,7 +1321,7 @@ Brucey - harsh fragrance for expert men.</en>
 		<ad id="ronny-ad-einkaufseck-01" creator="5578" created_by="Ronny">
 			<title>
 				<de>Einkaufseck</de>
-				<en>Corner Shop</en>
+				<en>Real</en>
 			</title>
 			<description>
 				<de>Braten, Brot und Bier! Wir haben alles für alleinstehende Männer und Familien mit kochscheuen Hausfrauen.</de>
@@ -1374,7 +1379,7 @@ Brucey - harsh fragrance for expert men.</en>
 		</ad>
 		<ad id="ronny-ad-laola-01" creator="5578" created_by="Ronny">
 			<title>
-				<de>Laola</de>
+				<de>Olala</de>
 			</title>
 			<description>
 				<de>Das freche Jugendmagazin. Wir beantworten Fragen zu Liebe und Sex nur im Winter.</de>
@@ -2514,11 +2519,11 @@ Newspeak &lt;=&gt; English, the new Diggtionary. Now as a mechanical app, i.e.: 
 		</ad>
 		<ad id="speedminister-ad-valvoa-01" creator="8605" created_by="SpeedMinister">
 			<title>
-				<de>Valvoa</de>
+				<de>Volvo</de>
 			</title>
 			<description>
 				<de>Valvoa der Truck fuer die Frau. 460 PS nur 350.000 Euro, auf Wunsch auch in rosa. Valvoa stinkt ab!</de>
-				<en>Valvoa the ladies' truck. 460 PS only 350,000 Euro, also available in pink on request. Valvoa reeks off!</en>
+				<en>Volvo the ladies' truck. 460 PS only 350,000 Euro, also available in pink on request. Valvoa reeks off!</en>
 			</description>
 			<conditions min_audience="20.84" min_image="4" target_group="128"/>
 			<data infomercial="1" quality="15" repetitions="2" duration="5" profit="205" penalty="340" infomercial_profit="47" fix_infomercial_profit="1" />

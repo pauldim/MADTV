@@ -7889,8 +7889,8 @@ Tragic love story.</en>
 
 		<programme id="TheRob-dda6-4d7e-b90a-Nachtvogel" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0056592" creator="">
 			<title>
-				<de>Töte nicht die Spottdrossel</de>
-				<en>Do Not Slay the Mockingbird</en>
+				<de>Wer die Nachtigall stört</de>
+				<en>To Kill a Mockingbird</en>
 			</title>
 			<title_original>
 				<de>Wer die Nachtigall stört</de>
@@ -8066,8 +8066,8 @@ Tragic love story.</en>
 		<programme id="TheRob-b5dc-4663-bd81-JayEfKay" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0102138" creator="8751" created_by="TheRob">
 			<title>
 				<!-- JFK - Tatort Dallas, laut Liste schon im Spiel, aber nicht in der Database gefunden -->
-				<de>Fitzgerald - Es geschah in Dallas</de>
-				<en>Fitzgerald - It happened in Dallas</en>
+				<de>JFK - Tatort Dallas</de>
+				<en>JFK</en>
 			</title>
 			<title_original>
 				<de>JFK - Tatort Dallas</de>
@@ -8101,8 +8101,8 @@ Tragic love story.</en>
 
 		<programme id="TheRob-b0db-439c-a852-ZugnachPeking" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0023458" creator="8751" created_by="TheRob">
 			<title>
-				<de>Zug nach Peking</de>
-				<en>Train to Beijing</en>
+				<de>Shanghai-Express</de>
+				<en>Shanghai Express</en>
 			</title>
 			<title_original>
 				<de>Shanghai-Express</de>
@@ -8123,8 +8123,8 @@ Tragic love story.</en>
 
 		<programme id="TheRob-b0db-439c-a852-LodinRoot" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0102798" creator="8751" created_by="TheRob">
 			<title>
-				<de>Robin Hut</de>
-				<en>Robin Hut</en>
+				<de>Robin Hood - König der Diebe</de>
+				<en>Robin Hood: Prince of Thieves</en>
 			</title>
 			<title_original>
 				<de>Robin Hood - König der Diebe</de>
@@ -8147,8 +8147,8 @@ Tragic love story.</en>
 
 		<programme id="TheRob-dda6-4d7e-b90a-DasLebenistschoen" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0038650" creator="8751" created_by="TheRob">
 			<title>
-				<de>Das Leben ist schön</de>
-				<en>Life is wonderful</en>
+				<de>Ist das Leben nicht schön?</de>
+				<en>It's a Wonderful Life</en>
 			</title>
 			<title_original>
 				<de>Ist das Leben nicht schön?</de>
@@ -9054,8 +9054,10 @@ Weary of the twins' constant pranks, his helping-out sister also strongly recomm
 		<programme id="TheRob-b5dc-4663-bd81-LetzterTanzinParis" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0070849" creator="8751" created_by="TheRob">
 			<title>
 				<!-- Der letzte Tango in Paris, Erotik Sub Romance  -->
-				<de>Letzter Tanz in Paris</de>
-				<en>Last dance in Paris</en>
+				<de>Der letzte Tango in Paris</de>
+				<en>Last Tango in Paris</en>
+				<it>Ultimo tango a Parigi</it>
+				<fr>Le Dernier Tango à Paris</fr>
 			</title>
 			<title_original>
 				<de>Der letzte Tango in Paris</de>
@@ -9128,8 +9130,9 @@ Weary of the twins' constant pranks, his helping-out sister also strongly recomm
 
 		<programme id="TheRob-b5dc-4663-bd81-FantRicky" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0095174" creator="8751" created_by="TheRob">
 			<title>
-				<de>Fant Ricky</de>
-				<en>Fant Ricky</en>
+				<de>Frantic</de>
+				<en>Frantic</en>
+				<fr>Frantic</fr>
 			</title>
 			<title_original>
 				<de>Frantic</de>
@@ -9320,8 +9323,8 @@ Weary of the twins' constant pranks, his helping-out sister also strongly recomm
 
 		<programme id="a51df750-cd95-49be-9d16-ffb8e48513bd" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0061418" creator="8751" created_by="TheRob" comment="previous spoof name: 'Ronny und das Byte' - now 'forked' to d64fae37-49c0-4ba6-a6b5-ef52b1f9399a">
 			<title>
-				<de>Connie und Kyle</de>
-				<en>Connie and Kyle</en>
+				<de>Bonnie und Clyde</de>
+				<en>Bonnie and Clyde</en>
 			</title>
 			<title_original>
 				<de>Bonnie und Clyde</de>
@@ -9345,8 +9348,8 @@ Weary of the twins' constant pranks, his helping-out sister also strongly recomm
 		<programme id="TheRob-b5dc-mov-com-Schlagzeile" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0071524" creator="8751" created_by="TheRob">
 			<title>
 				<!-- Extrablatt, Comedy mit Subgenre Dramma -->
-				<de>Schlagzeile</de>
-				<en>Headline</en>
+				<de>Extrablatt</de>
+				<en>The Front Page</en>
 			</title>
 			<title_original>
 				<de>Extrablatt</de>
@@ -9579,8 +9582,8 @@ Dream scenes and sentiments warp the storyline.</en>
 
 		<programme id="TheRob-mov-hist-AndyKopekjow" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0060107" creator="8751/7430" created_by="Sjaele/TheRob">
 			<title>
-				<de>Andy Kopekjow</de>
-				<en>Andy Kopekjow</en>
+				<de>Andrej Rubljow</de>
+				<en>Andrei Rublev</en>
 			</title>
 			<title_original>
 				<de>Andrej Rubljow</de>
@@ -9628,8 +9631,8 @@ Dream scenes and sentiments warp the storyline.</en>
 		<programme id="TheRob-mov-scifi-Soljaris" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0069293" creator="8751/7430" created_by="Sjaele/TheRob">
 			<title>
 				<!-- Solaris, drama sub scifi mystery -->
-				<de>Soljaris</de>
-				<en>Soljaris</en>
+				<de>Solaris</de>
+				<en>Solaris</en>
 			</title>
 			<title_original>
 				<de>Solaris</de>
@@ -9653,8 +9656,8 @@ Dream scenes and sentiments warp the storyline.</en>
 		<programme id="TheRob-mov-drama-Serkalo" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0072443" creator="8751/7430" created_by="Sjaele/TheRob">
 			<title>
 				<!-- Der Spiegel, Drama -->
-				<de>Serkalo</de>
-				<en>Serkalo</en>
+				<de>Der Spiegel</de>
+				<en>Mirror</en>
 			</title>
 			<title_original>
 				<de>Der Spiegel</de>
@@ -9780,8 +9783,8 @@ Dream scenes and sentiments warp the storyline.</en>
 		<programme id="TheRob-mov-rom-Sabine" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0047437" creator="8751" created_by="TheRob">
 			<title>
 				<!-- Sabrina, romance sub comedy -->
-				<de>Sabine</de>
-				<en>Sabine</en>
+				<de>Sabrina</de>
+				<en>Sabrina</en>
 			</title>
 			<title_original>
 				<de>Sabrina</de>
@@ -9805,8 +9808,8 @@ Dream scenes and sentiments warp the storyline.</en>
 		<programme id="TheRob-mov-crim-DrWarusederSpieler" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0013086" creator="8751" created_by="TheRob">
 			<title>
 				<!-- Dr. Waruse, crime -->
-				<de>Dr. Waruse, der Spieler</de>
-				<en>Dr. Waruse, the Player</en>
+				<de>Dr. Mabuse, der Spieler</de>
+				<en>Dr. Mabuse, the Gambler</en>
 			</title>
 			<title_original>
 				<de>Dr. Mabuse, der Spieler</de>
@@ -10124,8 +10127,8 @@ Dream scenes and sentiments warp the storyline.</en>
 		<programme id="TheRob-serie-SamuraiAdam" product="2" licence_type="3" tmdb_id="0" imdb_id="tt0080274" creator="8751" created_by="TheRob">
 			<title>
 				<!-- Shogun, Serie Abenteuer, Sub Historie -->
-				<de>Samurai Adam</de>
-				<en>Samurai Adam</en>
+				<de>Shogun</de>
+				<en>Shogun</en>
 			</title>
 			<title_original>
 				<de>Shogun</de>
@@ -10172,7 +10175,7 @@ Dream scenes and sentiments warp the storyline.</en>
 					</title_original>
 					<description>
 						<de>Lord Woronga rettet Adam vor dem Tod und benennt ihn in Anrin-san um. Er befiehlt Sariko, der Tutor von Anrin-san zu werden und ihm alles notwendige beizubringen.</de>
-						<en>Lord Woronga saves Adam from death and renames him Anrin-san. He orders Sariko to become Anrin-san's tutor and teach him everything he needs.</en>
+						<en>Lord Toranaga saves Adam from death and renames him Anrin-san. He orders Sariko to become Anjin-san's tutor and teach him everything he needs.</en>
 					</description>
 					<ratings critics="88" speed="67" />
 				</programme>
@@ -10187,7 +10190,7 @@ Dream scenes and sentiments warp the storyline.</en>
 					</title_original>
 					<description>
 						<de>Sariko und Anrin-san beginnen ihre Romanze, Anrin-san wird für seine Tapferkeit geehrt und Lord Woronga bereitet sich und seine Armee auf einen Krieg vor. Und bei all dem taucht auf einmal Sarikos Ehemann auf.</de>
-						<en>Sariko and Anrin-san begin their romance, Anrin-san is honored for his bravery, and Lord Woronga prepares himself and his army for war. And in all of this, Sariko's husband suddenly appears.</en>
+						<en>Mariko and Anjin-san begin their romance, Anjin-san is honored for his bravery, and Lord Toranaga prepares himself and his army for war. And in all of this, Mariko's husband suddenly appears.</en>
 					</description>
 					<ratings critics="86" speed="65" />
 				</programme>
@@ -10202,7 +10205,7 @@ Dream scenes and sentiments warp the storyline.</en>
 					</title_original>
 					<description>
 						<de>Anrin-san wird immer besser als Samurai. Währenddessen nehmen die Intrigen im Adel wieder zu. Sariko verrät einem Priester einen Plan für ein Attentat.</de>
-						<en>Anrin-san is getting better and better as a samurai. Meanwhile, the intrigues in the aristocracy increase again. Sariko reveals a plan for an assassination to a priest.</en>
+						<en>Anjin-san is getting better and better as a samurai. Meanwhile, the intrigues in the aristocracy increase again. Mariko reveals a plan for an assassination to a priest.</en>
 					</description>
 					<ratings critics="83" speed="72" />
 				</programme>
@@ -10217,7 +10220,7 @@ Dream scenes and sentiments warp the storyline.</en>
 					</title_original>
 					<description>
 						<de>Nach dem Sieg in der großen Schlacht wird Lord Woronga zum Shogun. Da aber Sariko in der Schlacht gefallen ist, entschließt sich Anrin-san dazu ein neues Boot zu bauen um Japan mit gebrochenem Herzen zu verlassen.</de>
-						<en>After the victory in the great battle, Lord Woronga becomes the shogun. But since Sariko was killed in the battle, Anrin-san decides to build a new ship to leave Japan with a broken heart.</en>
+						<en>After the victory in the great battle, Lord Toranaga becomes the shogun. But since Mariko was killed in the battle, Anjin-san decides to build a new ship to leave Japan with a broken heart.</en>
 					</description>
 					<ratings critics="90" speed="66" />
 				</programme>
@@ -10922,8 +10925,8 @@ Dream scenes and sentiments warp the storyline.</en>
 
 		<programme id="TheRob-a4d6-adv-AlbinoWal" product="1" fictional="0" licence_type="1" tmdb_id="0" imdb_id="tt0049513" creator="8751" created_by="TheRob">
 			<title>
-				<de>Albino Wal</de>
-				<en>Albino Whale</en>
+				<de>Moby Dick</de>
+				<en>Moby Dick</en>
 			</title>
 			<title_original>
 				<de>Moby Dick</de>
@@ -11383,8 +11386,8 @@ Dream scenes and sentiments warp the storyline.</en>
 
 		<programme id="TheRob-mov-act-DervonSizilien" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0093966" creator="8751" created_by="TheRob">
 			<title>
-				<de>Der aus Sizilien</de>
-				<en>The One from Sicily</en>
+				<de>Der Sizilianer</de>
+				<en>The Sicilian</en>
 			</title>
 			<title_original>
 				<de>Der Sizilianer</de>
@@ -11509,8 +11512,8 @@ Dream scenes and sentiments warp the storyline.</en>
 
 		<programme id="TheRob-a4d6-act-24StundenRennen" product="1" fictional="0" licence_type="1" tmdb_id="0" imdb_id="tt0067334" creator="8751" created_by="TheRob">
 			<title>
-				<de>24 Stunden Rennen</de>
-				<en>24 Hour Race </en>
+				<de>Le Mans</de>
+				<en>Le Mans</en>
 			</title>
 			<title_original>
 				<de>Le Mans</de>
@@ -11584,8 +11587,9 @@ Dream scenes and sentiments warp the storyline.</en>
 		<programme id="TheRob-serie-adv-RobinWusoe" product="2" fictional="0" licence_type="3" tmdb_id="0" imdb_id="tt0167516" creator="8751" created_by="TheRob" comment="kompletter Titel: Die seltsamen und einzigartigen Abenteuer des Robinson Crusoe aus York, berichtet von ihm selbst">
 			<title>
 				<!-- Robinson Crusoe, Abenteuer -->
-				<de>Robin Wusoe</de>
-				<en>Robin Wusoe</en>
+				<de>Robinson Crusoe</de>
+				<en>The Adventures of Robinson Crusoe</en>
+				<fr>Les aventures de Robinson Crusoë</fr>
 			</title>
 			<title_original>
 				<de>Robinson Crusoe</de>
