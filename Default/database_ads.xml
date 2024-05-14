@@ -331,7 +331,7 @@ In Berlin Tempelhof and Steglitz</en>
 		<ad id="589d51a5-52ab-463f-90f9-ddf48abef355">
 			<title>
 				<de>Ulbricht Umzüge</de>
-				<en>Relocation Rudolph</en>
+				<en>Reserved</en>
 			</title>
 			<description>
 				<de>Ausziehen! Ausziehen! Ausziehen!!!
@@ -356,11 +356,11 @@ But only with Relocation Rudolph!</en>
 		</ad>
 		<ad id="5f243d7d-62fa-4cf9-a8f8-a87fe15d76a9">
 			<title>
-				<de>FasterCard</de>
+				<de>MasterCard</de>
 			</title>
 			<description>
 				<de>MacGreifer als Werbeträger für die FasterCard: R. D. Handerson noch einmal in seiner Paraderolle - unbezahlbar.</de>
-				<en>MacGrifter as a promotional campaigner for the FasterCard: R. D. Handerson once again in his signature role - priceless.</en>
+				<en>MacGrifter as a promotional campaigner for the MasterCard: R. D. Handerson once again in his signature role - priceless.</en>
 			</description>
 			<conditions min_audience="12.5" min_image="12" target_group="8" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data quality="21" repetitions="2" duration="3" profit="285" penalty="480" infomercial_profit="27" fix_infomercial_profit="1"/>
@@ -380,11 +380,11 @@ But only with Relocation Rudolph!</en>
 		<ad id="6c93f77e-8180-4811-a5e1-57b375eef68f">
 			<title>
 				<de>Spruzzi Plöpp</de>
-				<en>Fizzy Plop</en>
+				<en>7UP</en>
 			</title>
 			<description>
 				<de>Unsere Limonade beinhaltet nur natürliche Aromastoffe. Hmm lecker Käferflügel...</de>
-				<en>Our lemonade contains only natural aromas. Hmm tasty beetle wings...</en>
+				<en>Our lemonade contains only natural aromas. Hmm tasty.</en>
 			</description>
 			<conditions min_audience="2.08" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data quality="17" repetitions="4" duration="2" profit="775" penalty="1000" infomercial_profit="77" fix_infomercial_profit="1"/>
@@ -392,11 +392,11 @@ But only with Relocation Rudolph!</en>
 		<ad id="6db2fb7a-fa30-4de3-9035-e02c37486d09">
 			<title>
 				<de>Tussishop</de>
-				<en>Broadshop</en>
+				<en>Otto</en>
 			</title>
 			<description>
 				<de>Nette Frauen aus aus dem Katalog. Dank Fernabsatz Rückgabe ohne Probleme möglich.</de>
-				<en>Nice women from the catalog. Thanks to distance selling, return possible without problems.</en>
+				<en>Nice stuff from the catalog. Thanks to distance selling, return possible without problems.</en>
 			</description>
 			<conditions min_audience="0.62" min_image="4" target_group="256" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data quality="12" repetitions="3" duration="3" profit="1583" penalty="2500" infomercial_profit="124" fix_infomercial_profit="1"/>
@@ -404,7 +404,7 @@ But only with Relocation Rudolph!</en>
 		<ad id="7408e6f0-0505-42d9-96e0-bf6dc4869039">
 			<title>
 				<de>Raus Hier</de>
-				<en>Outta Here!</en>
+				<en>TUI</en>
 			</title>
 			<description>
 				<de>Dein freundliches Reisebüro... Wohin Du willst - solang die Kohle stimmt.</de>
@@ -417,11 +417,11 @@ But only with Relocation Rudolph!</en>
 			<title>
 				<de>Tu-doch-so</de>
 				<!-- <en>Fakation</en> -->
-				<en>Pre-Tend-Astic</en>
+				<en>Adidas</en>
 			</title>
 			<description>
 				<de>Kein Geld für den Urlaub oder die Yacht? Wir schicken Postkarten aus Uganda oder fälschen Fotos.</de>
-				<en>No money for the vacation or a yacht? We send postcards from Uganda or fake photos.</en>
+				<en>Adidas sport shoes.</en>
 			</description>
 			<conditions min_audience="0.39" min_image="6" target_group="16" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data quality="16" repetitions="3" duration="3" profit="2100" penalty="3400" infomercial_profit="100" fix_infomercial_profit="1"/>
@@ -429,11 +429,11 @@ But only with Relocation Rudolph!</en>
 		<ad id="79e0a668-f929-4746-bcb2-b073f1f2bf65">
 			<title>
 				<de>Jesse Wasser- und Wärmedienst</de>
-				<en>Jesse water and heat services</en>
+				<en>Porta</en>
 			</title>
 			<description>
 				<de>Wir sorgen für Ihre Sanitäranlagen. Schon ab 10 € - ohne Scheiß!</de>
-				<en>We take care of your sanitary facilities. Starting at 10 € - no shits!</en>
+				<en>Garden SuperMarket</en>
 			</description>
 			<conditions min_audience="0.4679" min_image="4" target_group="8" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data quality="9" repetitions="3" duration="3" profit="1888" penalty="3280" infomercial_profit="119" fix_infomercial_profit="1"/>
@@ -441,11 +441,11 @@ But only with Relocation Rudolph!</en>
 		<ad id="7a86d4cd-7266-4247-ac6a-b63a62d12c93">
 			<title>
 				<de>Hobelmarkt</de>
-				<en>Planer Market</en>
+				<en>Aldi Market</en>
 			</title>
 			<description>
 				<de>Hier fallen nicht nur Späne, nein auch die Preise. Ein Hobelmarkt ist sicher auch in Ihrer Nähe.</de>
-				<en>Not only the woodchips are dropping here, but also the prices. Surely there is a Planer Market also close to you.</en>
+				<en>Not only the woodchips are dropping here, but also the prices. Surely there is a Aldi Market also close to you.</en>
 			</description>
 			<conditions min_audience="2.6" min_image="7" target_group="8" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data quality="12" repetitions="4" duration="3" profit="700" penalty="1100" infomercial_profit="72" fix_infomercial_profit="1"/>
@@ -453,11 +453,11 @@ But only with Relocation Rudolph!</en>
 		<ad id="7bf56c92-52f5-44aa-8cef-2788ece421ac">
 			<title>
 				<de>Weißer Friese</de>
-				<en>White Frieze</en>
+				<en>Ariel colour</en>
 			</title>
 			<description>
 				<de>Waschen Sie ihre Wäsche mit „Weißer Friese“ porentief rein!</de>
-				<en>Clean your laundry down to the pores with "White Frieze"!</en>
+				<en>Clean your laundry down to the pores with "Ariel Colour"!</en>
 			</description>
 			<conditions min_audience="15.63" min_image="7" target_group="8" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data quality="18" repetitions="1" duration="3" profit="240" penalty="400" infomercial_profit="23" fix_infomercial_profit="1"/>
@@ -476,21 +476,22 @@ But only with Relocation Rudolph!</en>
 		<ad id="8384acef-9c23-4efa-9ffa-0d0e370693d4">
 			<title>
 				<de>Vitalon Super Supau</de>
+				<en>Barilla</en>
 			</title>
 			<description>
 				<de>Die „Vitalon Foods Company“ aus Taiwan läßt R. D. Handerson als MacGreifer für ihren Sporttrunk werben: auf dem Fahrrad, im Jeep, beim Tai Chi und auf dem Rennboot.</de>
-				<en>The "Vitalon Foods Company" from Taiwan lets R. D. Handerson advertise as MacGrifter for their sports drink: on a bicycle, in a jeep, during Tai Chi and on a speedboat.</en>
+				<en>The "Barilla spaghetti. Only 12 minutes.</en>
 			</description>
 			<conditions min_audience="6.25" min_image="12" target_group="32" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data quality="16" repetitions="3" duration="4" profit="490" penalty="790" infomercial_profit="43" fix_infomercial_profit="1"/>
 		</ad>
 		<ad id="848b76e8-f93f-4a6f-aa55-b62643c0793d">
 			<title>
-				<de>Saipien</de>
+				<de>Skoda Superb</de>
 			</title>
 			<description>
 				<de>Das neue Modell des renommierten Autoherstellers Saipien verzückt die Presse - auch Sie?</de>
-				<en>The new model of the renowned car manufacturer Saipien delights the press - you too?</en>
+				<en>The new model of the renowned car manufacturer Skoda delights the press - you too?</en>
 			</description>
 			<conditions min_audience="2.86" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data quality="18" repetitions="5" duration="3" profit="672" penalty="812" infomercial_profit="67" fix_infomercial_profit="1"/>
@@ -498,7 +499,7 @@ But only with Relocation Rudolph!</en>
 		<ad id="860fd127-f921-4a06-9fd4-123f0638a94e">
 			<title>
 				<de>Nichts-wie-weg</de>
-				<en>Let's scram</en>
+				<en>DB</en>
 			</title>
 			<description>
 				<de>Günstige Urlaubstrips. Jetzt mit Datingbörse für Pauschaltouristen und „Gepäck zurück”-Garantie.</de>
@@ -510,10 +511,11 @@ But only with Relocation Rudolph!</en>
 		<ad id="872a0f04-852d-4b49-b813-6f051e663fbc">
 			<title>
 				<de>Call-A-Beer</de>
+				<en>Żywiec Bier</en>
 			</title>
 			<description>
 				<de>Kein Bier mehr? Schick nicht die Frau, ruf Call-A-Beer!</de>
-				<en>Out of beer? Don't send the wife, just Call-A-Beer!</en>
+				<en>Out of beer? Don't send the wife, just Call-A-Beer! Żywiec from Poland.</en>
 			</description>
 			<conditions min_audience="3.6461" min_image="18" target_group="8" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data quality="11" repetitions="5" duration="2" profit="620" penalty="1000" infomercial_profit="122" fix_infomercial_profit="1"/>
@@ -533,6 +535,7 @@ But only with Relocation Rudolph!</en>
 		<ad id="914bf7d1-8338-4ace-87c8-a84dca3872f5">
 			<title>
 				<de>Chateau Migraine</de>
+				<en>Shiraz - Red Wine</en>
 			</title>
 			<description>
 				<de>Beim Kauf einer Flasche Rotwein gibts jetzt zwei Kopfschmerztabletten gratis dazu.</de>
@@ -544,11 +547,11 @@ But only with Relocation Rudolph!</en>
 		<ad id="95a1c5b7-c89a-4fe8-85c9-834c07daa2f9">
 			<title>
 				<de>Copyshop Raub</de>
-				<en>Copy-Shop Piraczi</en>
+				<en>BIC products</en>
 			</title>
 			<description>
 				<de>Raub-Kopien sehen fast so gut aus wie die Originale. Wir verkaufen auch Permanentmarker!</de>
-				<en>Piraczi-copies look nearly as good as the originals. We also sell permanent markers!</en>
+				<en>BIC pens, ballpens, pencils and sharpners. We also sell permanent markers!</en>
 			</description>
 			<conditions min_audience="3.13" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data quality="4" repetitions="5" duration="2" profit="670" penalty="950" infomercial_profit="95" fix_infomercial_profit="1"/>
@@ -567,7 +570,8 @@ But only with Relocation Rudolph!</en>
 		</ad>
 		<ad id="Sjaele-spysoft2" creator="7430" created_by="Sjaele">
 			<title>
-				<de>Spysoft</de>
+				<de>Vodaphone</de>
+				<en>Vodaphone</en>
 			</title>
 			<description>
 				<de>Surfen im Garten! WLan-Kabel bis 200m.</de>
@@ -623,11 +627,11 @@ But only with Relocation Rudolph!</en>
 		</ad>
 		<ad id="a81fea24-859f-463e-a69c-0124de937a47" comment="TODO: new version of the ad after 2020? https://github.com/TVTower/TVTower/pull/884#discussion_r1090005501">
 			<title>
-				<de>Schorotti</de>
+				<de>Serotti</de>
 			</title>
 			<description>
 				<de>Der Schorotti-Mohr bietet traumhafte Schokolade. Zugreifen und dahinschmelzen.</de>
-				<en>The Schorotti Maure-Mallow features fantastic chocolate. Take one and melt away.</en>
+				<en>The Serotti Maure-Mallow features fantastic chocolate. Take one and melt away.</en>
 			</description>
 			<conditions min_audience="2.6" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data quality="14" repetitions="4" duration="2" profit="700" penalty="1050" fix_infomercial_profit="1"/>
@@ -649,22 +653,23 @@ The benefit: No postage for remittance slips.</en>
 		<ad id="a8c56723-2603-4622-bf23-4645b8fa3bb5">
 			<title>
 				<de>Gib Pfote</de>
-				<en>Give paw!</en>
+				<en>Deli Cat!</en>
 			</title>
 			<description>
 				<de>Die natürlichen Bestandteile von „Gib Pfote“ wird Ihr Hund lieben. Lecker Pudel.</de>
-				<en>Your dog will love the natural ingredients of "Give paw!". Tasty Poodle.</en>
+				<en>Your cat or dog will love the natural ingredients of "Give paw!". Tasty Poodle.</en>
 			</description>
 			<conditions min_audience="5.21" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data quality="12" repetitions="3" duration="2" profit="470" penalty="690" infomercial_profit="75" fix_infomercial_profit="1"/>
 		</ad>
 		<ad id="ac90b184-af1e-48e3-9f64-eb3ccff0c7aa">
 			<title>
-				<de>MinutePass</de>
+				<de>T-mobile</de>
+				<en>T-mobile</en>
 			</title>
 			<description>
 				<de>R. D. Handerson präsentiert für die Telecom USA in zwei Spots eine nützliche Telefonkarte.</de>
-				<en>In two commercials, the famous R. D. Handerson presents a useful phone card powered by Telecom USA.</en>
+				<en>In two commercials, T-mobile presents a useful phone card powered by Telecom USA.</en>
 			</description>
 			<conditions min_audience="11.46" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data quality="15" repetitions="2" duration="3" profit="315" penalty="448" infomercial_profit="28" fix_infomercial_profit="1"/>

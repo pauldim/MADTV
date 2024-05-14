@@ -3748,8 +3748,9 @@ Film adaptation of the comic book by [1|Last] and [2|Last].</en>
 		</programme>
 		<programme id="0814f68e-89a8-4e54-9b71-962735128df1" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0072901" creator="">
 			<title>
-				<de>Klasterix triumphiert in Rom</de>
-				<en>Klasterix is triumphant in Rome</en>
+				<de>Asterix erobert Rom</de>
+				<en>The Twelve Tasks of Asterix</en>
+				<fr>Les Douze Travaux d'Astérix</fr>
 			</title>
 			<title_original>
 				<de>Asterix erobert Rom</de>
@@ -3758,7 +3759,7 @@ Film adaptation of the comic book by [1|Last] and [2|Last].</en>
 			</title_original>
 			<description>
 				<de>Cäsar stellt den Galliern 12 Aufgaben. Sollten sie diese bewältigen, wird er sich geschlagen geben. Klasterix und Knobelix werden auserwählt, die schwierigen Prüfungen zu bestehen.</de>
-				<en>Caesar sets the Gauls 12 tasks. Should they master them, he will admit defeat. Klasterix and Knobelix are chosen to pass the difficult tests.</en>
+				<en>Caesar sets the Gauls 12 tasks. Should they master them, he will admit defeat. Asterix and Obelix are chosen to pass the difficult tests.</en>
 			</description>
 			<staff>
 				<member index="0" function="1029">60318881-ed5f-4b1e-89cf-f950940d4424</member>
@@ -3778,8 +3779,9 @@ Film adaptation of the comic book by [1|Last] and [2|Last].</en>
 		</programme>
 		<programme id="3daeb4bf-8a17-447f-b194-a1987e1652fc" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0062687" creator="">
 			<title>
-				<de>Klasterix und Kleopatra</de>
-				<en>Klasterix und Cleopatra</en>
+				<de>Asterix und Kleopatra</de>
+				<en>Asterix and Cleopatra</en>
+				<fr>Astérix et Cléopâtre</fr>
 			</title>
 			<title_original>
 				<de>Asterix und Kleopatra</de>
@@ -3789,7 +3791,7 @@ Film adaptation of the comic book by [1|Last] and [2|Last].</en>
 			<description>
 				<de>Klasterix und Knobelix helfen dabei, dass Kleopatra eine Wette mit Julius Cäsar gewinnt.
 Regie-Debüt für [0|Full].</de>
-				<en>Klasterix and Knobelix help Cleopatra win a bet against Julius Caesar.
+				<en>Asterix and Obelix help Cleopatra win a bet against Julius Caesar.
 Directorial debut for [0|Full].</en>
 			</description>
 			<staff>
@@ -3810,8 +3812,9 @@ Directorial debut for [0|Full].</en>
 		</programme>
 		<programme id="c0debc50-3963-4e88-a66d-a45f76f9fa6c" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0371552" creator="">
 			<title>
-				<de>Klasterix und die Nordmänner</de>
-				<en>Klasterix and the Norsemen</en>
+				<de>Asterix und die Wikinger</de>
+				<en>Asterix and the Vikings</en>
+				<fr>Astérix et les Vikings</fr>
 			</title>
 			<title_original>
 				<de>Asterix und die Wikinger</de>
@@ -3821,7 +3824,7 @@ Directorial debut for [0|Full].</en>
 			<description>
 				<de>35 Jahre nach der Comicvorlage „Klasterix und die Normannen“ erschien dieser Animationsfilm, der sich wenigstens bemüht, die gewohnte Optik der Zeichentrickfiguren zu bewahren.
 Ging im WM-Jahr unter.</de>
-				<en>35 years after the comic original "Klasterix and the Normans" appeared this animated film, which at least tries to preserve the familiar look of the cartoon characters.
+				<en>35 years after the comic original "Asterix and the Normans" appeared this animated film, which at least tries to preserve the familiar look of the cartoon characters.
 Went under in the World Cup year.</en>
 			</description>
 			<staff>
@@ -3838,8 +3841,9 @@ Went under in the World Cup year.</en>
 		</programme>
 		<programme id="17de5244-71c7-4407-8b54-f6f49eb1719f" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0053472" creator="">
 			<title>
-				<de>Knappe Luft</de>
-				<en>Short Air</en>
+				<de>Außer Atem</de>
+				<en>Breathless</en>
+				<fr>À bout de souffle</fr>
 			</title>
 			<title_original>
 				<de>Außer Atem</de>
@@ -3863,8 +3867,8 @@ An extraordinary art film and a jewel in any film collection.</en>
 		</programme>
 		<programme id="6dc4a96c-96a6-4470-bff6-8b7e9d8d20a1" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0094651" creator="">
 			<title>
-				<de>Grachtenjagd in Amsterdam</de>
-				<en>Amsterdam canal hunting</en>
+				<de>Verfluchtes Amsterdam</de>
+				<en>Amsterdamned</en>
 			</title>
 			<title_original>
 				<de>Verfluchtes Amsterdam</de>
@@ -3889,8 +3893,8 @@ Atmospheric thriller from Holland.</en>
 		</programme>
 		<programme id="c187ad46-15a6-47a7-b183-7a9e8c54ca56" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0104498" creator="">
 			<title>
-				<de>Kreisch wenn Du es schaffst</de>
-				<en>In the View of an Unknown</en>
+				<de>Schrei, wenn du kannst</de>
+				<en>In the Eyes of a Stranger</en>
 			</title>
 			<title_original>
 				<de>Schrei, wenn du kannst</de>
@@ -3914,8 +3918,8 @@ Atmospheric thriller from Holland.</en>
 		</programme>
 		<programme id="0a1f784a-44d3-4bd0-9045-14e4fc7c1535" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0090555" creator="">
 			<title>
-				<de>Kroko-Skip - Ein Krokodil zum Knutschen</de>
-				<en>Croco-Skip</en>
+				<de>Crocodile Dundee - Ein Krokodil zum Küssen</de>
+				<en>Crocodile Dundee</en>
 			</title>
 			<title_original>
 				<de>Crocodile Dundee - Ein Krokodil zum Küssen</de>
@@ -3942,8 +3946,8 @@ Cinema hit 1986.</en>
 		</programme>
 		<programme id="77e95ae0-1d5f-4109-9f45-704d0a82b55e" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0078346" creator="">
 			<title>
-				<de>Kryptons Superheld</de>
-				<en>Krypton's Superhero</en>
+				<de>Superman</de>
+				<en>Superman</en>
 			</title>
 			<title_original>
 				<de>Superman</de>
@@ -3972,8 +3976,8 @@ Cinema hit 1986.</en>
 		</programme>
 		<programme id="cb16cf80-5fcd-4cfb-8f9c-fbbde94768d0" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0046732" creator="">
 			<title>
-				<de>Kurz nach Mitternacht auf der Reeperbahn</de>
-				<en>On the Reeperbahn Just After Midnight</en>
+				<de>Auf der Reeperbahn nachts um halb eins</de>
+				<en>On the Reeperbahn at Half Past Midnight</en>
 			</title>
 			<title_original>
 				<de>Auf der Reeperbahn nachts um halb eins</de>
@@ -4002,8 +4006,8 @@ on the Reeperbahn just after midnight.</en>
 		</programme>
 		<programme id="c1fd4525-d074-48eb-85e5-844da77d40ea" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0055205" creator="">
 			<title>
-				<de>Kurz vor Fünf 'gen Paddington</de>
-				<en>Murderer She Claimed</en>
+				<de>16 Uhr 50 ab Paddington</de>
+				<en>Murder She Said</en>
 			</title>
 			<title_original>
 				<de>16 Uhr 50 ab Paddington</de>
@@ -4028,8 +4032,8 @@ Based on the novel by [4|Full].</en>
 		</programme>
 		<programme id="4c8d0a86-edf7-4cd2-b18f-16fb66d5fd2b" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0110419" creator="">
 			<title>
-				<de>MacGeifer - Jäger des Atlantisschatzes</de>
-				<en>MacGrifter - In Search of the Atlantis Treasure</en>
+				<de>MacGyver - Jagd nach dem Schatz von Atlantis</de>
+				<en>MacGyver: Lost Treasure of Atlantis</en>
 			</title>
 			<title_original>
 				<de>MacGyver - Jagd nach dem Schatz von Atlantis</de>
@@ -4051,8 +4055,8 @@ After the end of the series, [1|Full] shot two more TV movies as Angus MacGrifte
 		</programme>
 		<programme id="a82f5075-b41b-43ff-9301-ece663dac159" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0110420" creator="">
 			<title>
-				<de>MacGeifer - Sackgasse Hölle</de>
-				<en>MacGrifter - Dead End Hell</en>
+				<de>MacGyver - Endstation Hölle</de>
+				<en>MacGyver: Trail to Doomsday</en>
 			</title>
 			<title_original>
 				<de>MacGyver - Endstation Hölle</de>
@@ -4072,12 +4076,14 @@ After the end of the series, [1|Full] shot two more TV movies as Angus MacGrifte
 		</programme>
 		<programme id="65c5515b-cc7c-4910-acca-ffa0cebd405f" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0181689" creator="">
 			<title>
-				<de>Majoranreport</de>
-				<en>Marjoram Report</en>
+				<de>Minority Report</de>
+				<en>Minority Report</en>
+				<pl>Raport mniejszości<pl>
 			</title>
 			<title_original>
 				<de>Minority Report</de>
 				<en>Minority Report</en>
+				<pl>Raport mniejszości<pl>
 			</title_original>
 			<description>
 				<de>Im Jahre 2054 wird mittels einer Methode, Verbechen zu erkennen, bevor sie begangen wurden, die Kriminalitätsrate drastisch gesenkt. Doch das System arbeitet nicht einwandfrei...</de>
@@ -4096,8 +4102,8 @@ After the end of the series, [1|Full] shot two more TV movies as Angus MacGrifte
 		</programme>
 		<programme id="96167e15-a67b-4894-8f07-dcd4cb29a01f" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0083944" creator="">
 			<title>
-				<de>Mambo</de>
-				<en>Burst Blood</en>
+				<de>Rambo</de>
+				<en>First Blood</en>
 			</title>
 			<title_original>
 				<de>Rambo</de>
@@ -4127,8 +4133,8 @@ Well done action on a continuous flow.</en>
 		</programme>
 		<programme id="877ff6f8-06ae-425f-af02-914a7c1d7921" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0053172" creator="">
 			<title>
-				<de>Matratzenwispern</de>
-				<en>Mattress Whisper</en>
+				<de>Bettgeflüster</de>
+				<en>Pillow Talk</en>
 			</title>
 			<title_original>
 				<de>Bettgeflüster</de>
@@ -4149,8 +4155,8 @@ Well done action on a continuous flow.</en>
 		</programme>
 		<programme id="d8d9ff73-d8d2-4a65-9149-d5e6b48bf1af" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0472043" creator="">
 			<title>
-				<de>[0|Full]s Maya</de>
-				<en>[0|Full]'s Maya</en>
+				<de>Apocalypto</de>
+				<en>Apocalypto</en>
 			</title>
 			<title_original>
 				<de>Apocalypto</de>
@@ -4174,8 +4180,8 @@ Shocking images, which is however no longer surprising with [0|Full].</en>
 		</programme>
 		<programme id="9e07aa7c-5bb2-426a-86dc-f17dcafb53ca" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0072705" creator="">
 			<title>
-				<de>Meilenweit 'gen Westen</de>
-				<en>Ride the Mullet</en>
+				<de>700 Meilen westwärts</de>
+				<en>Bite the Bullet</en>
 			</title>
 			<title_original>
 				<de>700 Meilen westwärts</de>
@@ -4198,8 +4204,9 @@ Shocking images, which is however no longer surprising with [0|Full].</en>
 		</programme>
 		<programme id="dc799d3a-fd8f-42eb-a864-c3ecddb2d33d" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0120737" creator="">
 			<title>
-				<de>Der Ring der Meister: Die Kumpels</de>
-				<en>The Ring of Masters: The Buddies</en>
+				<de>Der Herr der Ringe: Die Gefährten</de>
+				<en>The Lord of the Rings: The Fellowship of the Ring</en>
+				<pl>Władca pierścieni: Drużyna pierścienia</pl>
 			</title>
 			<title_original>
 				<de>Der Herr der Ringe: Die Gefährten</de>
@@ -4231,8 +4238,8 @@ Shocking images, which is however no longer surprising with [0|Full].</en>
 		</programme>
 		<programme id="0a54e57d-ff0b-4099-a2e6-e2a889fd63b4" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0167260" creator="">
 			<title>
-				<de>Der Ring der Meister: Die Rückkehr des Oberhauptes</de>
-				<en>The Ring of Masters: The Return Of the Supreme</en>
+				<de>Der Herr der Ringe: Die Rückkehr des Königs</de>
+				<en>The Lord of the Rings: The Return of the King</en>
 			</title>
 			<title_original>
 				<de>Der Herr der Ringe: Die Rückkehr des Königs</de>
@@ -4263,8 +4270,8 @@ Considered to be the culmination of the trilogy.</en>
 		</programme>
 		<programme id="c5a32c8c-24ff-44ef-b0f4-d09b678a4f4d" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0167261" creator="">
 			<title>
-				<de>Der Ring der Meister: Die Zwei Spitzen</de>
-				<en>The Ring of Masters: The Two Spires</en>
+				<de>Der Herr der Ringe: Die zwei Türme</de>
+				<en>The Lord of the Rings: The Two Towers</en>
 			</title>
 			<title_original>
 				<de>Der Herr der Ringe: Die zwei Türme</de>
@@ -4296,8 +4303,8 @@ Considered to be the culmination of the trilogy.</en>
 		</programme>
 		<programme id="f3264ebf-f0fa-401c-b067-ee58784bc16c" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0146675" creator="">
 			<title>
-				<de>Millennium Day - Die letzte Nacht vorm Chaos</de>
-				<en>Millennium Day</en>
+				<de>End of Days - Nacht ohne Morgen</de>
+				<en>End of Days</en>
 			</title>
 			<title_original>
 				<de>End of Days - Nacht ohne Morgen</de>
@@ -4323,8 +4330,8 @@ Considered to be the culmination of the trilogy.</en>
 		</programme>
 		<programme id="c1bc4a1c-4f63-435c-bdbe-27ebfaec0b31" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0117060" creator="" comment="TODO: Ethan Hunt cast reference">
 			<title>
-				<de>Mission: Vertrackt</de>
-				<en>Mission: Intricate</en>
+				<de>Mission: Impossible</de>
+				<en>Mission: Impossible</en>
 			</title>
 			<title_original>
 				<de>Mission: Impossible</de>
@@ -4353,8 +4360,8 @@ Considered to be the culmination of the trilogy.</en>
 		</programme>
 		<programme id="607ab0bd-7350-41fd-bfbb-515a35d02ad7" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0120755" creator="">
 			<title>
-				<de>Mission: Vertrackt II</de>
-				<en>Mission: Intricate 2</en>
+				<de>Mission: Impossible II</de>
+				<en>Mission: Impossible 2</en>
 			</title>
 			<title_original>
 				<de>Mission: Impossible II</de>
@@ -4381,8 +4388,8 @@ Considered to be the culmination of the trilogy.</en>
 		</programme>
 		<programme id="ffb69a86-8d02-430e-aa6b-bdb8c8098d32" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0077413" creator="">
 			<title>
-				<de>Mord am Nil</de>
-				<en>Murder at the Nile</en>
+				<de>Tod auf dem Nil</de>
+				<en>Death on the Nile</en>
 			</title>
 			<title_original>
 				<de>Tod auf dem Nil</de>
@@ -4415,8 +4422,8 @@ Well cast thriller based on [1|Full].</en>
 		</programme>
 		<programme id="4a8b7373-2f02-4d66-b717-5cfded60c312" product="5" licence_type="1" tmdb_id="0" imdb_id="tt0086879" creator="" comment="TODO: Reference Antonio Salieri">
 			<title>
-				<de>Mozart</de>
-				<en>Mozart</en>
+				<de>Amadeus</de>
+				<en>Amadeus</en>
 			</title>
 			<title_original>
 				<de>Amadeus</de>
@@ -4444,8 +4451,8 @@ Grandiose opera by [0|Full].</en>
 		</programme>
 		<programme id="7e389c3b-ead3-441f-8e51-0298a5190f5a" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0075268" creator="">
 			<title>
-				<de>Mr. Galaxie</de>
-				<en>Mr. Galaxy</en>
+				<de>Mister Universum</de>
+				<en>Stay Hungry</en>
 			</title>
 			<title_original>
 				<de>Mister Universum</de>
@@ -4470,8 +4477,8 @@ Lots of muscles, little brains.</en>
 		</programme>
 		<programme id="ba2469e0-86fe-4212-87f3-b024feeeff9b" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0066999" creator="">
 			<title>
-				<de>Muddy Harry</de>
-				<en>Muddy Harry</en>
+				<de>Dirty Harry</de>
+				<en>Dirty Harry</en>
 			</title>
 			<title_original>
 				<de>Dirty Harry</de>
@@ -4499,8 +4506,8 @@ Thanks to rough methods and his .44 Magnum, the Harry became a crowd favorite.</
 		</programme>
 		<programme id="b3281aba-d3ec-40c0-86b7-3b7147367c2d" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0070355" creator="">
 			<title>
-				<de>Muddy Harry 2 - Magnumkraft</de>
-				<en>Muddy Harry 2 - Magnum Strength</en>
+				<de>Dirty Harry II - Callahan</de>
+				<en>Magnum Force</en>
 			</title>
 			<title_original>
 				<de>Dirty Harry II - Callahan</de>
@@ -4523,12 +4530,12 @@ Thanks to rough methods and his .44 Magnum, the Harry became a crowd favorite.</
 		</programme>
 		<programme id="d246c1c9-335e-43b4-9ce2-ef843960525f" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0074483" creator="">
 			<title>
-				<de>Muddy Harry 3 - Ohne Erbarmen</de>
-				<en>Muddy Harry 3 - The Executor</en>
+				<de>Dirty Harry III - Der Unerbittliche</de>
+				<en>The Enforcer</en>
 			</title>
 			<title_original>
 				<de>Dirty Harry III - Der Unerbittliche</de>
-				<en>The Enforcer</en>
+				<en>The Enforcer - Dirty Harry III</en>
 			</title_original>
 			<description>
 				<de>Harry Callahan, seiner rüden Vorgehensweise wegen aus der Mordkommission entlassen, wird in den aktiven Dienst zurückbeordert, um in San Francisco einen schmutzigen Fall zu lösen.</de>
@@ -4547,8 +4554,8 @@ Thanks to rough methods and his .44 Magnum, the Harry became a crowd favorite.</
 		</programme>
 		<programme id="21bd1171-e56f-4492-87ae-bd873a9e8911" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0086383" creator="">
 			<title>
-				<de>Muddy Harry 4 - Muddy Harry will be back</de>
-				<en>Muddy Harry 4 - Muddy Harry will be back</en>
+				<de>Dirty Harry kommt zurück</de>
+				<en>Sudden Impact</en>
 			</title>
 			<title_original>
 				<de>Dirty Harry kommt zurück</de>
@@ -4571,8 +4578,8 @@ Thanks to rough methods and his .44 Magnum, the Harry became a crowd favorite.</
 		</programme>
 		<programme id="d585abdf-ba12-4e04-a224-f3797a9c62fe" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0094963" creator="">
 			<title>
-				<de>Muddy Harry 5 - Endkampf</de>
-				<en>Muddy Harry 5 - Death Game</en>
+				<de>Das Todesspiel</de>
+				<en>The Dead Pool</en>
 			</title>
 			<title_original>
 				<de>Das Todesspiel</de>
@@ -4594,8 +4601,8 @@ Thanks to rough methods and his .44 Magnum, the Harry became a crowd favorite.</
 		</programme>
 		<programme id="07252cce-a3cb-4672-b089-65c5e7fc1a20" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0053855" creator="">
 			<title>
-				<de>Netter Gott trifft Halunke</de>
-				<en>Dear God Meets Scoundrel</en>
+				<de>Der Gauner und der liebe Gott</de>
+				<en>Crook and the Cross</en>
 			</title>
 			<title_original>
 				<de>Der Gauner und der liebe Gott</de>
@@ -4621,8 +4628,8 @@ Delicious fun with [1|Full].</en>
 		</programme>
 		<programme id="0e3286f9-f2fb-4f6f-bdb9-03326d28c899" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0110357" creator="">
 			<title>
-				<de>Obermotz der Löwen</de>
-				<en>Chief Lion</en>
+				<de>Der König der Löwen</de>
+				<en>The Lion King</en>
 			</title>
 			<title_original>
 				<de>Der König der Löwen</de>
@@ -4651,8 +4658,8 @@ Delicious fun with [1|Full].</en>
 		</programme>
 		<programme id="227054c8-7275-4c5a-9532-a25a3c848741" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0185937" creator="">
 			<title>
-				<de>Osthexen-Projekt</de>
-				<en>The East Witch Project</en>
+				<de>Blair Witch Project</de>
+				<en>The Blair Witch Project</en>
 			</title>
 			<title_original>
 				<de>Blair Witch Project</de>
@@ -4704,8 +4711,8 @@ Oscar nomination for [1|Last] (Best Supporting Actor).</en>
 		</programme>
 		<programme id="9f7eba49-21d8-4539-9f7f-5792f5ceef11" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0099052" creator="">
 			<title>
-				<de>Panic Spiders</de>
-				<en>Panic Spiders</en>
+				<de>Arachnophobia</de>
+				<en>Arachnophobia</en>
 			</title>
 			<title_original>
 				<de>Arachnophobia</de>
@@ -4727,8 +4734,8 @@ Oscar nomination for [1|Last] (Best Supporting Actor).</en>
 		</programme>
 		<programme id="87bd84bd-cdac-4dae-be9a-7812ce1cf93b" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0051152" creator="" comment="No official English title seems to exist, using translation of Danish version">
 			<title>
-				<de>Papa dagegen umso mehr</de>
-				<en>Father Loves Adventure (The Old Building on the Moselle)</en>
+				<de>Vater sein dagegen sehr</de>
+				<en>An Adventurous Father (The Old Tower on the Moselle)</en>
 			</title>
 			<title_original>
 				<de>Vater sein dagegen sehr</de>
@@ -4752,8 +4759,8 @@ Oscar nomination for [1|Last] (Best Supporting Actor).</en>
 		</programme>
 		<programme id="e7d131ab-68fc-4872-b9f6-9a860a4fb543" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0309698" creator="">
 			<title>
-				<de>Persönlichkeit</de>
-				<en>Personhood</en>
+				<de>Identität - Identity</de>
+				<en>Identity</en>
 			</title>
 			<title_original>
 				<de>Identität - Identity</de>
@@ -4778,8 +4785,8 @@ Oscar nomination for [1|Last] (Best Supporting Actor).</en>
 		</programme>
 		<programme id="3600090e-4757-437d-a9bf-8fd5b8895c4b" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0090756" creator="">
 			<title>
-				<de>Pink Silk</de>
-				<en>Pink Silk</en>
+				<de>Blue Velvet: Verbotene Blicke</de>
+				<en>Blue Velvet</en>
 			</title>
 			<title_original>
 				<de>Blue Velvet: Verbotene Blicke</de>
@@ -4805,8 +4812,8 @@ Abysmally dark, frightening and breathtaking - cult film of the 80s.</en>
 		</programme>
 		<programme id="d26578e7-bdce-4a6f-86a9-f9ae24d05345" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0087928" creator="">
 			<title>
-				<de>Polizeikadetten ...zu dumm für andere Jobs</de>
-				<en>Police Cadets</en>
+				<de>Police Academy - Dümmer als die Polizei erlaubt</de>
+				<en>Police Academy</en>
 			</title>
 			<title_original>
 				<de>Police Academy - Dümmer als die Polizei erlaubt</de>
@@ -4832,8 +4839,8 @@ Abysmally dark, frightening and breathtaking - cult film of the 80s.</en>
 		</programme>
 		<programme id="886779ae-39a2-4fe3-b1e4-259220e2cea3" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0089822" creator="">
 			<title>
-				<de>Polizeikadetten 2 - Jetzt geht's los</de>
-				<en>Police Cadets 2: Here we go</en>
+				<de>Police Academy 2 - Jetzt geht's erst richtig los</de>
+				<en>Police Academy 2: Their First Assignment</en>
 			</title>
 			<title_original>
 				<de>Police Academy 2 - Jetzt geht's erst richtig los</de>
@@ -4859,8 +4866,8 @@ Abysmally dark, frightening and breathtaking - cult film of the 80s.</en>
 		</programme>
 		<programme id="6200aa46-d74e-419f-a474-63c4cba3b622" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0091777" creator="">
 			<title>
-				<de>Polizeikadetten 3 - Ohne Bremse</de>
-				<en>Police Cadets 3: Unstoppable</en>
+				<de>Police Academy 3 - ...und keiner kann sie bremsen</de>
+				<en>Police Academy 3: Back in Training</en>
 			</title>
 			<title_original>
 				<de>Police Academy 3 - ...und keiner kann sie bremsen</de>
@@ -4886,8 +4893,8 @@ Abysmally dark, frightening and breathtaking - cult film of the 80s.</en>
 		</programme>
 		<programme id="a8c67b89-a481-4144-bcf8-09873132192f" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0093756" creator="">
 			<title>
-				<de>Polizeikadetten 4 - nun geht's rund</de>
-				<en>Police Cadets 4: now let's roll!</en>
+				<de>Police Academy 4 - Und jetzt geht's rund</de>
+				<en>Police Academy 4: Citizens on Patrol</en>
 			</title>
 			<title_original>
 				<de>Police Academy 4 - Und jetzt geht's rund</de>
@@ -4915,8 +4922,8 @@ Abysmally dark, frightening and breathtaking - cult film of the 80s.</en>
 		</programme>
 		<programme id="5202c7ac-0440-4588-81c4-92fa3352e1bf" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0095882" creator="">
 			<title>
-				<de>Polizeikadetten 5 - Mission: Miami Beach</de>
-				<en>Police Cadets 5: Mission: Miami Beach</en>
+				<de>Police Academy 5 - Auftrag Miami Beach</de>
+				<en>Police Academy 5: Assignment: Miami Beach</en>
 			</title>
 			<title_original>
 				<de>Police Academy 5 - Auftrag Miami Beach</de>
@@ -4944,8 +4951,8 @@ Abysmally dark, frightening and breathtaking - cult film of the 80s.</en>
 		</programme>
 		<programme id="bb60fe78-9fce-40e0-a733-d6151214be22" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0098105" creator="">
 			<title>
-				<de>Polizeikadetten 6 - Keine Gegenwehr</de>
-				<en>Police Cadets 6: No Resistance</en>
+				<de>Police Academy 6 - Widerstand zwecklos</de>
+				<en>Police Academy 6: City Under Siege</en>
 			</title>
 			<title_original>
 				<de>Police Academy 6 - Widerstand zwecklos</de>
@@ -4971,8 +4978,8 @@ Abysmally dark, frightening and breathtaking - cult film of the 80s.</en>
 		</programme>
 		<programme id="cd38cf17-85c6-4591-9a06-67ea59a7820c" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0110857" creator="">
 			<title>
-				<de>Polizeikadetten 7 - Der Moskauauftrag</de>
-				<en>Police Cadets 7: The Moscow Assignment</en>
+				<de>Police Academy 7 - Mission in Moskau</de>
+				<en>Police Academy: Mission to Moscow</en>
 			</title>
 			<title_original>
 				<de>Police Academy 7 - Mission in Moskau</de>
@@ -4996,8 +5003,8 @@ Abysmally dark, frightening and breathtaking - cult film of the 80s.</en>
 		</programme>
 		<programme id="d438f363-6240-4679-9eda-8cd5da00760c" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0080661" creator="">
 			<title>
-				<de>Pressed to Chill</de>
-				<en>Pressed to Chill</en>
+				<de>Dressed to Kill</de>
+				<en>Dressed to Kill</en>
 			</title>
 			<title_original>
 				<de>Dressed to Kill</de>
@@ -5023,8 +5030,8 @@ Abysmally dark, frightening and breathtaking - cult film of the 80s.</en>
 		</programme>
 		<programme id="b9c6190d-a9f6-4a94-8092-4a1266b43b62" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0054215" creator="">
 			<title>
-				<de>Psychopathpath</de>
-				<en>Psychopath's Path</en>
+				<de>Psycho</de>
+				<en>Psycho</en>
 			</title>
 			<title_original>
 				<de>Psycho</de>
@@ -5056,8 +5063,8 @@ Classic by [0|Full].</en>
 		</programme>
 		<programme id="022e3fe7-001e-41ef-8696-89d3ab78dcf1" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0044706" creator="">
 			<title>
-				<de>Pünktlich zum Mittag</de>
-				<en>Just in Time for Noon</en>
+				<de>Zwölf Uhr mittags</de>
+				<en>High Noon</en>
 			</title>
 			<title_original>
 				<de>Zwölf Uhr mittags</de>
@@ -5082,8 +5089,8 @@ Fast in zeitdeckendem Erzähltempo beschreibt [0|Last]s Klassiker das Schicksal 
 		</programme>
 		<programme id="7d34bc7d-91af-47bb-a943-09d8c571a4da" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0074486" creator="">
 			<title>
-				<de>Radiergummikopf</de>
-				<en>Rubberhead</en>
+				<de>Eraserhead</de>
+				<en>Eraserhead</en>
 			</title>
 			<title_original>
 				<de>Eraserhead</de>
@@ -5106,8 +5113,8 @@ Fast in zeitdeckendem Erzähltempo beschreibt [0|Last]s Klassiker das Schicksal 
 		</programme>
 		<programme id="e02b25cf-0485-4f74-b243-5f1a62351b43" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0116213" creator="">
 			<title>
-				<de>Railgun</de>
-				<en>Railgun</en>
+				<de>Eraser</de>
+				<en>Eraser</en>
 			</title>
 			<title_original>
 				<de>Eraser</de>
@@ -5130,8 +5137,8 @@ Fast in zeitdeckendem Erzähltempo beschreibt [0|Last]s Klassiker das Schicksal 
 		</programme>
 		<programme id="3fb3dccb-06da-451f-9b04-4bf1abc2a5fd" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0120201" creator="">
 			<title>
-				<de>Raumschiffkadetten</de>
-				<en>Starship Cadets</en>
+				<de>Starship Troopers</de>
+				<en>Starship Troopers</en>
 			</title>
 			<title_original>
 				<de>Starship Troopers</de>
@@ -5157,8 +5164,8 @@ Fast in zeitdeckendem Erzähltempo beschreibt [0|Last]s Klassiker das Schicksal 
 		</programme>
 		<programme id="6be0ac19-6120-4270-9fba-ed89c71424ab" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0077215" creator="" comment="pilot for TV series but also had theatrical release">
 			<title>
-				<de>Raumschiff Galaktikus</de>
-				<en>Starship Galacticus</en>
+				<de>Kampfstern Galactica - Saga of a Star World</de>
+				<en>Battlestar Galactica: Saga of a Star World</en>
 			</title>
 			<title_original>
 				<de>Kampfstern Galactica - Saga of a Star World</de>
@@ -5180,8 +5187,8 @@ Fast in zeitdeckendem Erzähltempo beschreibt [0|Last]s Klassiker das Schicksal 
 		</programme>
 		<programme id="74b34ac0-150b-494a-aaa8-285f42bad55a" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0093894" creator="">
 			<title>
-				<de>Renn um Dein Leben - mit Todesgarantie</de>
-				<en>Run For Your Life</en>
+				<de>Running Man</de>
+				<en>The Running Man</en>
 			</title>
 			<title_original>
 				<de>Running Man</de>
@@ -5206,8 +5213,8 @@ Fast in zeitdeckendem Erzähltempo beschreibt [0|Last]s Klassiker das Schicksal 
 		</programme>
 		<programme id="e33e9b8c-3869-4cab-978b-904c4a7a423f" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0105236" creator="">
 			<title>
-				<de>Reservoir Cocks - Wilde Hühner</de>
-				<en>Reservoir Cocks</en>
+				<de>Reservoir Dogs: Wilde Hunde</de>
+				<en>Reservoir Dogs</en>
 			</title>
 			<title_original>
 				<de>Reservoir Dogs: Wilde Hunde</de>
@@ -5231,8 +5238,8 @@ Fast in zeitdeckendem Erzähltempo beschreibt [0|Last]s Klassiker das Schicksal 
 		</programme>
 		<programme id="dc98f98f-81c3-48aa-b921-4404ef1a1f19" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0085549" creator="">
 			<title>
-				<de>Rhythmus des Tanzes</de>
-				<en>Rhythm of the Dance</en>
+				<de>Flashdance</de>
+				<en>Flashdance</en>
 			</title>
 			<title_original>
 				<de>Flashdance</de>
@@ -5254,8 +5261,9 @@ Oscar for the title song "What a Feeling".</en>
 		</programme>
 		<programme id="faeda8ec-0111-4afd-b193-22aafe618a48" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0113492" creator="">
 			<title>
-				<de>Richter der Zukunft</de>
-				<en>Judge of the Future</en>
+				<de>Judge Dredd</de>
+				<en>Judge Dredd</en>
+				<pl>Sędzia Dred</pl>
 			</title>
 			<title_original>
 				<de>Judge Dredd</de>
@@ -5279,8 +5287,8 @@ Oscar for the title song "What a Feeling".</en>
 		</programme>
 		<programme id="d3ee7430-978f-4eda-9c7a-9215aa71efa1" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0110989" creator="" comment="TODO: Role reference">
 			<title>
-				<de>Rickie Reich</de>
-				<en>Rickey Rich</en>
+				<de>Richie Rich</de>
+				<en>Richie Rich</en>
 			</title>
 			<title_original>
 				<de>Richie Rich</de>
@@ -5302,8 +5310,8 @@ Likeable.</en>
 		</programme>
 		<programme id="10b21397-415e-46fe-8a06-6ce961c9f17e" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0075148" creator="" comment="TODO: Role reference">
 			<title>
-				<de>Ricky</de>
-				<en>Ricky</en>
+				<de>Rocky</de>
+				<en>Rocky</en>
 			</title>
 			<title_original>
 				<de>Rocky</de>
@@ -5333,8 +5341,8 @@ Surprise success for [1|Last].</en>
 		</programme>
 		<programme id="a95b18f9-7ca8-4179-9eae-b1c2b83f1487" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0079817" creator="" comment="TODO: Role Reference">
 			<title>
-				<de>Ricky II</de>
-				<en>Ricky II</en>
+				<de>Rocky II</de>
+				<en>Rocky II</en>
 			</title>
 			<title_original>
 				<de>Rocky II</de>
@@ -5360,8 +5368,8 @@ Surprise success for [1|Last].</en>
 		</programme>
 		<programme id="3f265739-a215-4564-9fa1-69eb0b7660a3" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0084602" creator="">
 			<title>
-				<de>Ricky III - Im Auge des Geparden</de>
-				<en>Ricky III</en>
+				<de>Rocky III - Das Auge des Tigers</de>
+				<en>Rocky III</en>
 			</title>
 			<title_original>
 				<de>Rocky III - Das Auge des Tigers</de>
@@ -5369,7 +5377,7 @@ Surprise success for [1|Last].</en>
 			</title_original>
 			<description>
 				<de>Der „Italienische Hengst“ kann seinen Titel erfolgreich verteidigen, bis ihn der Herausforderer Clubber Lang k.o. schlägt. Doch Balboa gibt sich nicht geschlagen...</de>
-				<en>The "Italian Stallion" can successfully defend his title until challenger Clubber Lang knocks him out. But Balboa does not give in...</en>
+				<en>The "Italian Stallon" can successfully defend his title until challenger Clubber Lang knocks him out. But Balboa does not give in...</en>
 			</description>
 			<staff>
 				<member index="0" function="7">836b4aa3-b5c6-4529-b30d-4501594cdf13</member>
@@ -5387,8 +5395,8 @@ Surprise success for [1|Last].</en>
 		</programme>
 		<programme id="2dd83894-ba84-4c08-a952-48e4d95218e7" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0089927" creator="">
 			<title>
-				<de>Ricky IV - Der Milleniumsfight</de>
-				<en>Ricky IV</en>
+				<de>Rocky IV - Der Kampf des Jahrhunderts</de>
+				<en>Rocky IV</en>
 			</title>
 			<title_original>
 				<de>Rocky IV - Der Kampf des Jahrhunderts</de>
@@ -5414,8 +5422,8 @@ Surprise success for [1|Last].</en>
 		</programme>
 		<programme id="8624a0d6-0f8b-45f6-8914-430d396e1e81" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0100507" creator="">
 			<title>
-				<de>Ricky V</de>
-				<en>Ricky V</en>
+				<de>Rocky V</de>
+				<en>Rocky V</en>
 			</title>
 			<title_original>
 				<de>Rocky V</de>
@@ -5438,8 +5446,8 @@ Surprise success for [1|Last].</en>
 		</programme>
 		<programme id="2f89cc69-cf6a-4edf-8cf3-5c401514e4c7" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0093870" creator="">
 			<title>
-				<de>Robota Cup</de>
-				<en>Robota Cup</en>
+				<de>RoboCop</de>
+				<en>RoboCop</en>
 			</title>
 			<title_original>
 				<de>RoboCop</de>
@@ -5472,8 +5480,8 @@ Cracking sci-fi actioner from [0|Full].</en>
 		</programme>
 		<programme id="3094de00-92d6-4a28-a1a8-878a6f653358" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0100502" creator="">
 			<title>
-				<de>Robota Cup 2</de>
-				<en>Robota Cup 2</en>
+				<de>RoboCop 2</de>
+				<en>RoboCop 2</en>
 			</title>
 			<title_original>
 				<de>RoboCop 2</de>
@@ -5505,8 +5513,8 @@ Good action, but nothing more.</en>
 		</programme>
 		<programme id="b199a6b3-7469-4827-8d09-318719524cd4" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0107978" creator="">
 			<title>
-				<de>Robota Cup 3</de>
-				<en>Robota Cup 3</en>
+				<de>RoboCop 3</de>
+				<en>RoboCop 3</en>
 			</title>
 			<title_original>
 				<de>RoboCop 3</de>
@@ -5537,8 +5545,8 @@ Good action, but nothing more.</en>
 		</programme>
 		<programme id="0bdfc8f8-5113-4eab-8b01-5e0cabad9f00" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0289765" creator="" comment="TODO: Title reference">
 			<title>
-				<de>Rubinroter Waran</de>
-				<en>Rubin Lizard</en>
+				<de>Roter Drache</de>
+				<en>Red Dragon</en>
 			</title>
 			<title_original>
 				<de>Roter Drache</de>
@@ -5568,8 +5576,8 @@ Good action, but nothing more.</en>
 		</programme>
 		<programme id="775d5197-34f9-41e5-944e-5da6e7d92724" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0088763" creator="">
 			<title>
-				<de>Rückkehr in die Zukunft</de>
-				<en>Return to the Future</en>
+				<de>Zurück in die Zukunft</de>
+				<en>Back to the Future</en>
 			</title>
 			<title_original>
 				<de>Zurück in die Zukunft</de>
@@ -5597,8 +5605,8 @@ Cult from the 80s.</en>
 		</programme>
 		<programme id="6bf27807-bf40-4b58-9070-7812b43d00d6" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0096874" creator="">
 			<title>
-				<de>Rückkehr in die Zukunft 2</de>
-				<en>Return to the Future 2</en>
+				<de>Zurück in die Zukunft II</de>
+				<en>Back to the Future Part II</en>
 			</title>
 			<title_original>
 				<de>Zurück in die Zukunft II</de>
@@ -5625,8 +5633,8 @@ Cult from the 80s.</en>
 		</programme>
 		<programme id="e1b9455a-5ba0-4b56-942d-5c31828bb9f7" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0099088" creator="">
 			<title>
-				<de>Rückkehr in die Zukunft 3</de>
-				<en>Return to the Future 3</en>
+				<de>Zurück in die Zukunft III</de>
+				<en>Back to the Future Part III</en>
 			</title>
 			<title_original>
 				<de>Zurück in die Zukunft III</de>
@@ -5651,8 +5659,8 @@ back to the Future.</en>
 		</programme>
 		<programme id="820cf425-7453-4bdf-bb5d-7632e9cfb6f8" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0098084" creator="">
 			<title>
-				<de>Ruhestätte der Plüschtiere</de>
-				<en>Cuddly Cemetery</en>
+				<de>Friedhof der Kuscheltiere</de>
+				<en>Pet Sematary</en>
 			</title>
 			<title_original>
 				<de>Friedhof der Kuscheltiere</de>
@@ -5682,8 +5690,8 @@ Cult horror based on the novel by [1|Full].</en>
 		</programme>
 		<programme id="1cead1f7-013f-4fe7-97ee-f1ba074f9328" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0102926" creator="">
 			<title>
-				<de>Schweigende Hammel</de>
-				<en>Silent Sheep</en>
+				<de>Das Schweigen der Lämmer</de>
+				<en>The Silence of the Lambs</en>
 			</title>
 			<title_original>
 				<de>Das Schweigen der Lämmer</de>
@@ -5713,8 +5721,8 @@ As cruel as it is ingenious.</en>
 		</programme>
 		<programme id="4ba8837e-ee51-4c40-8ed4-0217737f17f3" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0114369" creator="">
 			<title>
-				<de>Sechs und Eins Todsünden</de>
-				<en>All Deadly Sins</en>
+				<de>Sieben</de>
+				<en>Se7en</en>
 			</title>
 			<title_original>
 				<de>Sieben</de>
@@ -5739,8 +5747,8 @@ As cruel as it is ingenious.</en>
 		</programme>
 		<programme id="f9cff182-7248-4675-97c9-d5cd9813f4ec" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0033467" creator="">
 			<title>
-				<de>Sie Sietzen Kain</de>
-				<en>Denizen Kaine</en>
+				<de>Citizen Kane</de>
+				<en>Citizen Kane</en>
 			</title>
 			<title_original>
 				<de>Citizen Kane</de>
@@ -5764,8 +5772,8 @@ Considered by many critics to be the best film of all time.</en>
 		</programme>
 		<programme id="3713ab2a-aadb-4e27-831e-6270b176724a" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0121210" creator="">
 			<title>
-				<de>Solo-Abendessen oder der 90. Jahrestag</de>
-				<en>The 90th Birthday</en>
+				<de>Der 90. Geburtstag oder Dinner for One</de>
+				<en>Dinner for One</en>
 			</title>
 			<title_original>
 				<de>Der 90. Geburtstag oder Dinner for One</de>
@@ -5793,8 +5801,8 @@ New Year's Eve fun and ritual to watch in some countries.</en>
 		</programme>
 		<programme id="376ada51-867e-46f1-bb24-e0ee855dc50f" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0133952" creator="">
 			<title>
-				<de>Sonderrechtszustand</de>
-				<en>The Occupation</en>
+				<de>Ausnahmezustand</de>
+				<en>The Siege</en>
 			</title>
 			<title_original>
 				<de>Ausnahmezustand</de>
@@ -5815,7 +5823,7 @@ New Year's Eve fun and ritual to watch in some countries.</en>
 		</programme>
 		<programme id="c1ba65e2-12d2-489b-89dd-41ceff24d7e9" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0054331" creator="">
 			<title>
-				<de>Spartakus</de>
+				<de>Spartacus</de>
 				<en>Spartacus</en>
 			</title>
 			<title_original>
@@ -5842,8 +5850,8 @@ Great imagery, [0|Last] but could not work in accordance with his vision.</en>
 		</programme>
 		<programme id="4e080c71-fa02-4639-aa4c-c786c9521993" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0119174" creator="">
 			<title>
-				<de>Spiel um Leben und Tod</de>
-				<en>Game of Life and Death</en>
+				<de>The Game - Das Geschenk seines Lebens</de>
+				<en>The Game</en>
 			</title>
 			<title_original>
 				<de>The Game - Das Geschenk seines Lebens</de>
@@ -5869,8 +5877,8 @@ A typical [0|Last].</en>
 		</programme>
 		<programme id="410d7cd4-cdad-4ae8-a533-dc454fd388de" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0401792" creator="">
 			<title>
-				<de>Stadt der Sünden</de>
-				<en>City of Sins</en>
+				<de>Sin City</de>
+				<en>Sin City</en>
 			</title>
 			<title_original>
 				<de>Sin City</de>
@@ -5896,8 +5904,8 @@ A typical [0|Last].</en>
 		</programme>
 		<programme id="d1ba4308-64dd-4a2c-8e2b-d219671573b6" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0111282" creator="">
 			<title>
-				<de>Sterngaed</de>
-				<en>Spacegate</en>
+				<de>Stargate</de>
+				<en>Stargate</en>
 			</title>
 			<title_original>
 				<de>Stargate</de>
@@ -5927,8 +5935,9 @@ Elaborate action spectacle from director [0|Full].</en>
 		</programme>
 		<programme id="08ada450-5841-4e7e-88c3-5567d14a2fa4" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0100934" creator="">
 			<title>
-				<de>Stürmische Rose</de>
-				<en>Rabid Rose</en>
+				<de>Wilde Orchidee</de>
+				<en>Wild Orchid</en>
+				<pl>Dzika orchidea</pl>
 			</title>
 			<title_original>
 				<de>Wilde Orchidee</de>
@@ -5951,8 +5960,8 @@ Elaborate action spectacle from director [0|Full].</en>
 		</programme>
 		<programme id="3a0c9fba-3b1e-49e1-afdf-340e4aa1f913" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0093409" creator="">
 			<title>
-				<de>Tödliche Wummen - Zwei murrende Profis</de>
-				<en>Fatal Weapons</en>
+				<de>Lethal Weapon - Zwei stahlharte Profis</de>
+				<en>Lethal Weapon</en>
 			</title>
 			<title_original>
 				<de>Lethal Weapon - Zwei stahlharte Profis</de>
@@ -5981,8 +5990,8 @@ Cult action comedy full of suspense and fun.</en>
 		</programme>
 		<programme id="34167b6e-abc6-474b-a77f-1d644827e7b2" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0097733" creator="">
 			<title>
-				<de>Tödliche Wummen 2 - Knackpunkt Los Angeles</de>
-				<en>Fatal Weapons 2</en>
+				<de>Lethal Weapon 2 - Brennpunkt L.A.</de>
+				<en>Lethal Weapon 2</en>
 			</title>
 			<title_original>
 				<de>Lethal Weapon 2 - Brennpunkt L.A.</de>
@@ -6009,8 +6018,8 @@ In no way inferior to part 1.</en>
 		</programme>
 		<programme id="1178f3ef-03d8-48ca-a34d-81f27fe04b47" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0122151" creator="">
 			<title>
-				<de>Tödliche Wummen 4 - Zwei Bullen klären die Sache</de>
-				<en>Fatal Weapons 4</en>
+				<de>Lethal Weapon 4 - Zwei Profis räumen auf</de>
+				<en>Lethal Weapon 4</en>
 			</title>
 			<title_original>
 				<de>Lethal Weapon 4 - Zwei Profis räumen auf</de>
@@ -6036,8 +6045,8 @@ Also the fourth fatal weapon adventure is a real gem.</en>
 		</programme>
 		<programme id="182427cb-b6b3-4404-a33d-8a7db18c7288" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0120647" creator="">
 			<title>
-				<de>Tödlicher Einschlag</de>
-				<en>Deadly Impact</en>
+				<de>Deep Impact</de>
+				<en>Deep Impact</en>
 			</title>
 			<title_original>
 				<de>Deep Impact</de>
@@ -6061,8 +6070,10 @@ Also the fourth fatal weapon adventure is a real gem.</en>
 		</programme>
 		<programme id="c4be7d64-35e9-4e56-8e6e-284d642beee6" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0063032" creator="">
 			<title>
-				<de>Tote kleistern seinen Pfad</de>
-				<en>Bodies Pave His Way</en>
+				<de>Leichen pflastern seinen Weg</de>
+				<en>The Great Silence</en>
+				<it>Il grande silenzio</it>
+				<fr>Le Grand Silence</fr>
 			</title>
 			<title_original>
 				<de>Leichen pflastern seinen Weg</de>
@@ -6091,8 +6102,8 @@ Classic from [0|Full].</en>
 		</programme>
 		<programme id="a81aeb88-402a-45d4-93b2-ded9187ce8a5" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0180093" creator="">
 			<title>
-				<de>Totenmesse für einen Traum</de>
-				<en>Swansong for a Dream</en>
+				<de>Requiem for a Dream</de>
+				<en>Requiem for a Dream</en>
 			</title>
 			<title_original>
 				<de>Requiem for a Dream</de>
@@ -6123,8 +6134,8 @@ Without question one of the most effective films about the experience of drug ad
 		</programme>
 		<programme id="ad4e53ca-e000-42f6-b887-4688d073b532" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0111503" creator="">
 			<title>
-				<de>True Spy - Die Frau des Spiones</de>
-				<en>True Spy</en>
+				<de>True Lies - Wahre Lügen</de>
+				<en>True Lies</en>
 			</title>
 			<title_original>
 				<de>True Lies - Wahre Lügen</de>
@@ -6149,8 +6160,9 @@ Lively actioner with the successful duo [0|Last] / [1|Last].</en>
 		</programme>
 		<programme id="71fbb079-26e6-46f7-a33f-f814881d013e" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0060315" creator="">
 			<title>
-				<de>Tschancou</de>
-				<en>Danjo</en>
+				<de>Django</de>
+				<en>Django</en>
+				<it>Django</it>
 			</title>
 			<title_original>
 				<de>Django</de>
@@ -6180,8 +6192,9 @@ Lively actioner with the successful duo [0|Last] / [1|Last].</en>
 		</programme>
 		<programme id="de72f0f4-898a-45af-87a7-c4e57cbbdc9f" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0064116" creator="">
 			<title>
-				<de>Tüdel mir den Song vom Brot</de>
-				<en>A Long Time Ago in the West</en>
+				<de>Spiel mir das Lied vom Tod</de>
+				<en>Once Upon a Time in the West</en>
+				<it>C'era una volta il West</it>
 			</title>
 			<title_original>
 				<de>Spiel mir das Lied vom Tod</de>
@@ -6208,8 +6221,8 @@ With the incomparable music of [5|Full].</en>
 		</programme>
 		<programme id="72a81bb1-876f-4caf-9e71-2aee3ea93df7" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0212720" creator="">
 			<title>
-				<de>U.I. - Unberechenbare Intelligenz</de>
-				<en>Unpredictable Intelligence</en>
+				<de>A.I.: Künstliche Intelligenz</de>
+				<en>Artificial Intelligence</en>
 			</title>
 			<title_original>
 				<de>A.I.: Künstliche Intelligenz</de>
@@ -6234,8 +6247,8 @@ With the incomparable music of [5|Full].</en>
 		</programme>
 		<programme id="1b796621-755a-4f44-8386-aec9716b52d2" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0066921" creator="">
 			<title>
-				<de>Uhrmaschinerie Gelb</de>
-				<en>Clock Machinery Yellow</en>
+				<de>Uhrwerk Orange</de>
+				<en>A Clockwork Orange</en>
 			</title>
 			<title_original>
 				<de>Uhrwerk Orange</de>
@@ -6264,8 +6277,8 @@ The ultimate film farce of [0|Full].</en>
 		</programme>
 		<programme id="216d7e50-2893-4a2e-973a-4f55a3ab81b0" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0209144" creator="">
 			<title>
-				<de>Uno Momento</de>
-				<en>Uno Momento</en>
+				<de>Memento</de>
+				<en>Memento</en>
 			</title>
 			<title_original>
 				<de>Memento</de>
@@ -6289,8 +6302,9 @@ Thrilling story, told backwards.</en>
 		</programme>
 		<programme id="53bcf09f-998b-42e5-a71a-3e667312c48c" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0106977" creator="">
 			<title>
-				<de>Unschuldig gejagt</de>
-				<en>Innocent Refugee</en>
+				<de>Auf der Flucht</de>
+				<en>The Fugitive</en>
+				<pl>Ścigany</pl>
 			</title>
 			<title_original>
 				<de>Auf der Flucht</de>
@@ -6316,8 +6330,8 @@ After the successful series.</en>
 		</programme>
 		<programme id="7bbd28e8-00ef-4a3d-bf5a-418badcd1048" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0259711" creator="">
 			<title>
-				<de>Vanillinhimmel</de>
-				<en>Vanillin Heaven</en>
+				<de>Vanilla Sky</de>
+				<en>Vanilla Sky</en>
 			</title>
 			<title_original>
 				<de>Vanilla Sky</de>
@@ -6346,8 +6360,8 @@ Chilling thriller with shock value.</en>
 		</programme>
 		<programme id="3bb8a0be-e5f2-43a6-9401-d0f13264d1a3" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0137523" creator="">
 			<title>
-				<de>Veit's Club</de>
-				<en>Tight Club</en>
+				<de>Fight Club</de>
+				<en>Fight Club</en>
 			</title>
 			<title_original>
 				<de>Fight Club</de>
@@ -6371,8 +6385,8 @@ Stirring film by [0|Full].</en>
 		</programme>
 		<programme id="3e0e1b50-06d7-4fb9-a07e-0f7e4bdb9f97" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0120873" creator="">
 			<title>
-				<de>Verfolgt, gejagt und atemlos</de>
-				<en>Marshals on the Hunt</en>
+				<de>Auf der Jagd</de>
+				<en>U.S. Marshals</en>
 			</title>
 			<title_original>
 				<de>Auf der Jagd</de>
@@ -6395,8 +6409,8 @@ Stirring film by [0|Full].</en>
 		</programme>
 		<programme id="2993a09b-10fb-4c1b-96db-d8f4c9c4b152" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0091693" creator="">
 			<title>
-				<de>Verschwundene Helden</de>
-				<en>Prodigal Heroes</en>
+				<de>Verlorene Helden</de>
+				<en>Ordinary Heroes</en>
 			</title>
 			<title_original>
 				<de>Verlorene Helden</de>
@@ -6423,8 +6437,8 @@ Moving film with [1|Full] in his first leading film role.</en>
 		</programme>
 		<programme id="6d7e006a-1202-4965-bc68-e617e243ba11" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0116705" creator="">
 			<title>
-				<de>Versprechen sind zu halten</de>
-				<en>Stringing all the Bells</en>
+				<de>Versprochen ist versprochen</de>
+				<en>Jingle All the Way</en>
 			</title>
 			<title_original>
 				<de>Versprochen ist versprochen</de>
@@ -6447,8 +6461,8 @@ Moving film with [1|Full] in his first leading film role.</en>
 		</programme>
 		<programme id="b04ded66-43a5-4a9c-9f0e-d7073edb4e2f" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0052357" creator="">
 			<title>
-				<de>Vertikal - Aus dem Reich von Oben</de>
-				<en>Vertical</en>
+				<de>Vertigo - Aus dem Reich der Toten</de>
+				<en>Vertigo</en>
 			</title>
 			<title_original>
 				<de>Vertigo - Aus dem Reich der Toten</de>
@@ -6478,8 +6492,8 @@ Long misjudged by the critics.</en>
 		</programme>
 		<programme id="7698124b-4994-4a7f-ba5a-88d0b4295dce" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0119488" creator="">
 			<title>
-				<de>Vertrauliches L.A.</de>
-				<en>Confided in L.A.</en>
+				<de>L.A. Confidential</de>
+				<en>L.A. Confidential</en>
 			</title>
 			<title_original>
 				<de>L.A. Confidential</de>
@@ -6504,8 +6518,8 @@ Long misjudged by the critics.</en>
 		</programme>
 		<programme id="893bf116-f3ef-447d-aa20-fa2a97d6ae86" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0265086" creator="">
 			<title>
-				<de>Vogel am Boden</de>
-				<en>Bird on the Ground</en>
+				<de>Black Hawk Down</de>
+				<en>Black Hawk Down</en>
 			</title>
 			<title_original>
 				<de>Black Hawk Down</de>
@@ -6528,8 +6542,8 @@ Long misjudged by the critics.</en>
 		</programme>
 		<programme id="855fdb66-87d3-4fb6-8be0-56517c969d32" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0048802" creator="">
 			<title>
-				<de>Wenn Papa mit dem Kinde</de>
-				<en>When Dad and the Child...</en>
+				<de>Wenn der Vater mit dem Sohne</de>
+				<en>If the Father and the Son</en>
 			</title>
 			<title_original>
 				<de>Wenn der Vater mit dem Sohne</de>
@@ -6550,8 +6564,8 @@ Long misjudged by the critics.</en>
 		</programme>
 		<programme id="66789ab6-52ba-451c-bb3b-61d2e1000258" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0116830" creator="">
 			<title>
-				<de>Wer als Letzter noch steht</de>
-				<en>Who's Still Standing</en>
+				<de>Last Man Standing</de>
+				<en>Last Man Standing</en>
 			</title>
 			<title_original>
 				<de>Last Man Standing</de>
@@ -6575,8 +6589,8 @@ Neo-Western with [1|Full].</en>
 		</programme>
 		<programme id="610d076a-29fa-4e92-a7f2-190ff066fd8e" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0266543" creator="" comment="TODO: Unklar: 'wahrscheinlich weil Pionier des Animationsfilms' - des Computeranimationsfilm? Oder weil von Disney bzw Pixar produziert?">
 			<title>
-				<de>Wo ist Neymo?</de>
-				<en>Where's Neymo?</en>
+				<de>Findet Nemo</de>
+				<en>Finding Nemo</en>
 			</title>
 			<title_original>
 				<de>Findet Nemo</de>
@@ -6602,8 +6616,8 @@ Amazingly successful, probably because of the pioneer of animated film.</en>
 		</programme>
 		<programme id="d2bc9371-e904-4f8e-8140-f24e7eb49ef9" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0120591" creator="">
 			<title>
-				<de>World Crisis - the end is nigh!</de>
-				<en>World Crisis - the end is nigh!</en>
+				<de>Armageddon - Das jüngste Gericht</de>
+				<en>Armageddon</en>
 			</title>
 			<title_original>
 				<de>Armageddon - Das jüngste Gericht</de>
@@ -6631,8 +6645,8 @@ Amazingly successful, probably because of the pioneer of animated film.</en>
 		</programme>
 		<programme id="dae4ffcd-f576-4d5a-8930-0713c0ba77a8" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0023943" creator="" comment="TODO: perhaps ref Auber">
 			<title>
-				<de>Der Räuber Fra Diavolo</de>
-				<en>The Robber Fra Diavolo</en>
+				<de>Dick und Doof - Hände hoch - oder nicht</de>
+				<en>The Devil's Brother / Bogus Bandits / Fra Diavolo</en>
 			</title>
 			<title_original>
 				<de>Dick und Doof - Hände hoch - oder nicht</de>
@@ -6658,8 +6672,8 @@ Perhaps the best [1|Last] &amp; [2|Last].</en>
 		</programme>
 		<programme id="bc016a6c-3db2-44c3-b106-a934989e7f3d" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0058150" creator="" comment="The previous fake-ification was quite nonsensical. :-]">
 			<title>
-				<de>Yams Pond 005 - Goldtrigger</de>
-				<en>Goldtrigger</en>
+				<de>James Bond 007 - Goldfinger</de>
+				<en>James Bond 007 - Goldfinger</en>
 			</title>
 			<title_original>
 				<de>James Bond 007 - Goldfinger</de>
@@ -6689,8 +6703,8 @@ Generally considered the best film of the series.</en>
 		</programme>
 		<programme id="0665a5b5-ec94-4127-a1a6-83d6b3a6af66" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0071807" creator="">
 			<title>
-				<de>Yams Pond 005 - Der Kerl mit der Silberknarre</de>
-				<en>The Fellow with the Silver Gun</en>
+				<de>James Bond 007 - Der Mann mit dem goldenen Colt</de>
+				<en>James Bond 007 - The Man with the Golden Gun</en>
 			</title>
 			<title_original>
 				<de>James Bond 007 - Der Mann mit dem goldenen Colt</de>
@@ -6720,12 +6734,12 @@ Very accomplished part of the series.</en>
 		</programme>
 		<programme id="fb3edb42-f11e-48d6-98bd-50a0e4bec8d8" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0059800" creator="">
 			<title>
-				<de>Yams Pond 005 - Flammenkugel</de>
-				<en>Lightning Ball</en>
+				<de>James Bond 007 - Feuerball</de>
+				<en>Thunderball</en>
 			</title>
 			<title_original>
 				<de>James Bond 007 - Feuerball</de>
-				<en>Thunderball</en>
+				<en>James Bond 007 - Thunderball</en>
 			</title_original>
 			<description>
 				<de>Ein Verbrecherboss bringt ein Flugzeug mit zwei Atombomben an Bord in seine Gewalt. Um nicht auf dessen wahnwitzige Forderungen eingehen zu müssen, schickt die britische Regierung ihre 00-Agenten aus.</de>
@@ -6749,8 +6763,8 @@ Very accomplished part of the series.</en>
 		</programme>
 		<programme id="649e905d-8df1-4776-8ce5-0216ed4acc71" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0070328" creator="">
 			<title>
-				<de>Yams Pond 005 - Entscheidung über Leben und Tod</de>
-				<en>A Decision on Life or Death</en>
+				<de>James Bond 007 - Leben und Sterben lassen</de>
+				<en>James Bond 007 - Live and Let Die</en>
 			</title>
 			<title_original>
 				<de>James Bond 007 - Leben und Sterben lassen</de>
@@ -6780,8 +6794,8 @@ Very accomplished part of the series.</en>
 		</programme>
 		<programme id="d35a1a79-8564-40c5-863f-a45a3b590149" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0062512" creator="">
 			<title>
-				<de>Yams Pond 005 - Keiner lebt zweimal</de>
-				<en>You Only Have Two Lives</en>
+				<de>James Bond 007 - Man lebt nur zweimal</de>
+				<en>James Bond 007 - You Only Live Twice</en>
 			</title>
 			<title_original>
 				<de>James Bond 007 - Man lebt nur zweimal</de>
@@ -6809,8 +6823,8 @@ Very accomplished part of the series.</en>
 		</programme>
 		<programme id="5f4ca0c0-da05-4c55-a162-17897bb1a950" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0057076" creator="">
 			<title>
-				<de>Yams Pond 005 - Moskauer Liebesbotschaft</de>
-				<en>Love Message from Moscow</en>
+				<de>James Bond 007 - Liebesgrüße aus Moskau</de>
+				<en>James Bond 007 - From Russia with Love</en>
 			</title>
 			<title_original>
 				<de>James Bond 007 - Liebesgrüße aus Moskau</de>
@@ -6840,8 +6854,8 @@ In this second of the film series, the recurring character of Q was introduced.<
 		</programme>
 		<programme id="6f68649d-18b8-4f1c-8d91-622a418d53a0" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0066995" creator="">
 			<title>
-				<de>Yams Pond 005 - Rubinfieber</de>
-				<en>Diamond Rush</en>
+				<de>James Bond 007 - Diamantenfieber</de>
+				<en>James Bond 007 - Diamonds Are Forever</en>
 			</title>
 			<title_original>
 				<de>James Bond 007 - Diamantenfieber</de>
@@ -6869,12 +6883,12 @@ In this second of the film series, the recurring character of Q was introduced.<
 		</programme>
 		<programme id="1043932e-931f-4e79-ae39-626924901c4c" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0064757" creator="">
 			<title>
-				<de>Yams Pond 005 - Zu Diensten der Queen</de>
-				<en>At the Queen's Service</en>
+				<de>James Bond 007 - Im Geheimdienst Ihrer Majestät</de>
+				<en>On Her Majesty's Secret Service</en>
 			</title>
 			<title_original>
 				<de>James Bond 007 - Im Geheimdienst Ihrer Majestät</de>
-				<en>On Her Majesty's Secret Service</en>
+				<en>James Bond 007 - On Her Majesty's Secret Service</en>
 			</title_original>
 			<description>
 				<de>Der skrupellose Verbrecher Blofeld möchte die Erde bakteriell verseuchen. Eine Bedrohung, die den Geheimagenten in die Alpen verschlägt.
@@ -6900,12 +6914,12 @@ The latter is portrayed for the first and last time by [1|Full].</en>
 		</programme>
 		<programme id="9fa36b9c-a7cc-4284-9c34-6865f02cce85" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0055928" creator="">
 			<title>
-				<de>Yams Pond 005 jagt Dr. Yeah</de>
-				<en>Dr. Yeah</en>
+				<de>James Bond 007 jagt Dr. No</de>
+				<en>Dr. No</en>
 			</title>
 			<title_original>
 				<de>James Bond 007 jagt Dr. No</de>
-				<en>Dr. No</en>
+				<en>James Bond 007 - Dr. No</en>
 			</title_original>
 			<description>
 				<de>Der britische 00-Agent wird auf einen machtgierigen Gegner angesetzt.
@@ -6931,8 +6945,8 @@ The latter is portrayed for the first and last time by [1|Full].</en>
 		</programme>
 		<programme id="74fd4ce0-6dbd-400f-8964-e06a7fda76ab" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0106697" creator="">
 			<title>
-				<de>Zerstörungswut</de>
-				<en>Demolition Rage</en>
+				<de>Demolition Man</de>
+				<en>Demolition Man</en>
 			</title>
 			<title_original>
 				<de>Demolition Man</de>
@@ -6957,8 +6971,8 @@ The latter is portrayed for the first and last time by [1|Full].</en>
 		</programme>
 		<programme id="82eb2072-d82d-494d-9e60-d04ba4e67077" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0285823" creator="">
 			<title>
-				<de>Zu unbekannter Zeit in Mexiko</de>
-				<en>A Long Time Ago in Mexico</en>
+				<de>Irgendwann in Mexico</de>
+				<en>Once Upon a Time in Mexico</en>
 			</title>
 			<title_original>
 				<de>Irgendwann in Mexico</de>
@@ -6984,8 +6998,8 @@ El Mariachi fans were utterly disappointed by [0|Last].</en>
 		</programme>
 		<programme id="6bda71ba-e56a-46c3-9762-9ae18c587839" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0258000" creator="">
 			<title>
-				<de>Zufluchtsstätte</de>
-				<en>Panic Shelter</en>
+				<de>Panic Room</de>
+				<en>Panic Room</en>
 			</title>
 			<title_original>
 				<de>Panic Room</de>
@@ -7011,8 +7025,9 @@ Original idea, well and excitingly executed.</en>
 		</programme>
 		<programme id="9b67a604-a3ab-480f-ba64-44485c2d2547" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0060196" creator="">
 			<title>
-				<de>Zwei heldenhafte Gauner</de>
-				<en>The Decent, the Mad and the Nasty</en>
+				<de>Zwei glorreiche Halunken</de>
+				<en>The Good, the Bad and the Ugly</en>
+				<it>Il buono, il brutto, il cattivo</it>
 			</title>
 			<title_original>
 				<de>Zwei glorreiche Halunken</de>
@@ -7044,8 +7059,10 @@ Original idea, well and excitingly executed.</en>
 		</programme>
 		<programme id="b666104b-1157-4996-97da-2a4253d6bfd3" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0069697" creator="">
 			<title>
-				<de>Zwei wie Teer und Gänsefedern</de>
-				<en>Watch It, We're Bad</en>
+				<de>Zwei wie Pech und Schwefel</de>
+				<en>Watch Out, We're Mad</en>
+				<it>...altrimenti ci arrabbiamo!</it>
+				<es>Y si no, nos enfadamos / Juntos son dinamita</es>
 			</title>
 			<title_original>
 				<de>Zwei wie Pech und Schwefel</de>
@@ -7072,8 +7089,9 @@ Delightful smash-and-grab action with [1|Full] and [2|Full], cool soundtrack.</e
 		</programme>
 		<programme id="a3de54f3-a6bf-447a-a6cb-d3186d41b76d" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0099334" creator="">
 			<title>
-				<de>Zynissimo von Bercherack</de>
-				<en>Cynico of Bercherack</en>
+				<de>Cyrano von Bergerac</de>
+				<en>Cyrano de Bergerac</en>
+				<fr>Cyrano de Bergerac</fr>
 			</title>
 			<title_original>
 				<de>Cyrano von Bergerac</de>
@@ -7100,8 +7118,8 @@ Tragic love story.</en>
 		</programme>
 		<programme id="e3d2d499-8a03-4149-9e1e-2f52f2621f9a" product="2" licence_type="3" tmdb_id="0" imdb_id="tt0220008" creator="">
 			<title>
-				<de>Robota Cup: Erstdirektive</de>
-				<en>Robota Cup: First Directive</en>
+				<de>RoboCop: Prime Directives</de>
+				<en>RoboCop: Prime Directives</en>
 			</title>
 			<title_original>
 				<de>RoboCop: Prime Directives</de>
@@ -7125,8 +7143,8 @@ Tragic love story.</en>
 			<children>
 				<programme id="10700e05-245c-49fe-a317-ba9ff97c83f3" product="2" licence_type="2" tmdb_id="0" imdb_id="tt1620656" creator="">
 					<title>
-						<de>Fiese Gerechtigkeit</de>
-						<en>Mean Justice</en>
+						<de>Dark Justice</de>
+						<en>Dark Justice</en>
 					</title>
 					<title_original>
 						<de>Dark Justice</de>
@@ -7139,8 +7157,8 @@ Tragic love story.</en>
 				</programme>
 				<programme id="df149799-d107-4226-a0aa-790896efc1b0" product="2" licence_type="2" tmdb_id="0" imdb_id="tt1620657" creator="">
 					<title>
-						<de>Schmelztiegel</de>
-						<en>Melting Pot</en>
+						<de>Meltdown</de>
+						<en>Meltdown</en>
 					</title>
 					<title_original>
 						<de>Meltdown</de>
@@ -7153,8 +7171,8 @@ Tragic love story.</en>
 				</programme>
 				<programme id="71b957a1-f0b7-440a-8b60-d301d97a1c82" product="2" licence_type="2" tmdb_id="0" imdb_id="tt1620658" creator="">
 					<title>
-						<de>Die Wiedergeburt</de>
-						<en>The Rebirth</en>
+						<de>Resurrection</de>
+						<en>Resurrection</en>
 					</title>
 					<title_original>
 						<de>Resurrection</de>
@@ -7167,8 +7185,8 @@ Tragic love story.</en>
 				</programme>
 				<programme id="23cace5d-9d0c-457a-a399-399a12237d5b" product="2" licence_type="2" tmdb_id="0" imdb_id="tt1620655" creator="">
 					<title>
-						<de>Chaos</de>
-						<en>Chaos</en>
+						<de>Crash and Burn</de>
+						<en>Crash and Burn</en>
 					</title>
 					<title_original>
 						<de>Crash and Burn</de>
@@ -7187,8 +7205,8 @@ Tragic love story.</en>
 		<programme id="TheRob-mov-dram-NurmitdieserbestimmtenFrau" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0029650" creator="8751" created_by="TheRob">
 			<title>
 				<!-- Diese bestimmte Frau, Drama, Sub Romance -->
-				<de>Nur mit dieser bestimmen Frau</de>
-				<en>Only with this certain woman</en>
+				<de>Diese bestimmte Frau</de>
+				<en>That Certain Woman</en>
 			</title>
 			<title_original>
 				<de>Diese bestimmte Frau</de>
@@ -7211,8 +7229,8 @@ Tragic love story.</en>
 		<programme id="TheRob-mov-dram-JazzeineboeseDame" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0030287" creator="8751" created_by="TheRob">
 			<title>
 				<!-- Jezebel - Die boshafte Lady, Drama, Sub Romance -->
-				<de>Jazz - eine böse Dame</de>
-				<en>Jazz - a mean lady</en>
+				<de>Jezebel - Die boshafte Lady</de>
+				<en>Jezebel</en>
 			</title>
 			<title_original>
 				<de>Jezebel - Die boshafte Lady</de>
@@ -7234,8 +7252,8 @@ Tragic love story.</en>
 
 		<programme id="TheRob-mov-dram-PfadindieBerge" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0028401" creator="8751" created_by="TheRob">
 			<title>
-				<de>Pfad in die Berge</de>
-				<en>Trail in the mountains</en>
+				<de>Kampf in den Bergen</de>
+				<en>The Trail of the Lonesome Pine</en>
 			</title>
 			<title_original>
 				<de>Kampf in den Bergen</de>
@@ -7258,8 +7276,8 @@ Tragic love story.</en>
 
 		<programme id="TheRob-mov-dram-TrommelnamFluss" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0031252" creator="8751" created_by="TheRob">
 			<title>
-				<de>Trommeln am Fluß</de>
-				<en>Drums at the river</en>
+				<de>Trommeln am Mohawk</de>
+				<en>Drums Along the Mohawk</en>
 			</title>
 			<title_original>
 				<de>Trommeln am Mohawk</de>
@@ -7282,8 +7300,8 @@ Tragic love story.</en>
 
 		<programme id="TheRob-4497-film-mon-Wiegehtesweiter" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0043949" creator="8751" created_by="TheRob">
 			<title>
-				<de>Wie geht es weiter?</de>
-				<en>Which way to chose?</en>
+				<de>Quo Vadis?</de>
+				<en>Quo Vadis</en>
 			</title>
 			<title_original>
 				<de>Quo Vadis?</de>
@@ -7307,8 +7325,8 @@ Tragic love story.</en>
 		<programme id="54084557-4497-48d5-8e3a-TheRobRiesenstadt" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0017136" creator="8751" created_by="TheRob">
 			<title>
 				<!-- Metropolis, als Cult geflagt -->
-				<de>Riesenstadt - Long Cut</de>
-				<en>Big City - Long Cut</en>
+				<de>Metropolis</de>
+				<en>Metropolis</en>
 			</title>
 			<title_original>
 				<de>Metropolis</de>
@@ -7333,8 +7351,8 @@ Tragic love story.</en>
 		<programme id="TheRob-4497-48d5-8e3a-grossemenschen" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0049261" creator="8751" created_by="TheRob">
 			<title>
 				<!-- Giganten, Monumental -->
-				<de>Große Menschen</de>
-				<en>Tall People</en>
+				<de>Giganten</de>
+				<en>Giant</en>
 			</title>
 			<title_original>
 				<de>Giganten</de>
@@ -7359,8 +7377,8 @@ Tragic love story.</en>
 		<programme id="TheRob-4497-48d5-8e3a-koeniginaegyptens" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0056937" creator="8751" created_by="TheRob">
 			<title>
 				<!-- Cleopatra, Monumental -->
-				<de>Die Königin Ägyptens</de>
-				<en>The Queen of Egypt</en>
+				<de>Cleopatra</de>
+				<en>Cleopatra</en>
 			</title>
 			<title_original>
 				<de>Cleopatra</de>
@@ -7387,8 +7405,8 @@ Tragic love story.</en>
 		<programme id="8d52e2bb-7d31-4b72-8d01-959262ef0ae1" product="2" licence_type="3" tmdb_id="0" imdb_id="tt2757036" creator="8751" created_by="TheRob" comment="No official English title seems to exist, applying translation">
 			<title>
 				<!-- Western von gestern, Orginal Serie wird auf 1975 datiert -->
-				<de>Gestern gab es Western</de>
-				<en>Yesterday it was Western</en>
+				<de>Western von Gestern</de>
+				<en>Yesterday's Westerns</en>
 			</title>
 			<title_original>
 				<de>Western von Gestern</de>
@@ -7517,8 +7535,8 @@ Tragic love story.</en>
 
 		<programme id="TheRob-a9f6-thr-NichtinderNacht" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0051588" creator="8751" created_by="TheRob">
 			<title>
-				<de>Es passierte nicht in der Nacht</de>
-				<en>It did not happen in the night</en>
+				<de>Es geschah am helllichten Tag</de>
+				<en>It Happened in Broad Daylight</en>
 			</title>
 			<title_original>
 				<de>Es geschah am helllichten Tag</de>
@@ -7540,8 +7558,8 @@ Tragic love story.</en>
 
 		<programme id="TheRob-a4d6-4cf2-b022-ZyanidundSpitzenhoeschen" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0036613" creator="8751" created_by="TheRob">
 			<title>
-				<de>Zyanid und Spitzenhöschen</de>
-				<en>Cyanide and Lace Panties</en>
+				<de>Arsen und Spitzenhäubchen</de>
+				<en>Arsenic and Old Lace</en>
 			</title>
 			<title_original>
 				<de>Arsen und Spitzenhäubchen</de>
@@ -7564,8 +7582,8 @@ Tragic love story.</en>
 		<programme id="TheRob-mov-dok-b022-HinterderfeindlichenLinie" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0274560" creator="8751" created_by="TheRob">
 			<title>
 				<!-- How to Operate Behind Enemy Lines, Doku -->
-				<de>Hinter der feindlichen Linie</de>
-				<en>Behind Enemy Lines</en>
+				<de>Wie man hinter feindlichen Linien agiert</de>
+				<en>Undercover: How to Operate Behind Enemy Lines</en>
 			</title>
 			<title_original>
 				<de>Wie man hinter feindlichen Linien agiert</de>
@@ -7588,8 +7606,8 @@ Tragic love story.</en>
 		<programme id="TheRob-mov-4cf2-dok-StufedieIndustriekraftein" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0274519" creator="8751" created_by="TheRob">
 			<title>
 				<!-- German Industrial Manpower, Doku -->
-				<de>Stufe die Industriekraft ein</de>
-				<en>How to Analyze the Industrial Power</en>
+				<de>Deutsche Industrie Kraft</de>
+				<en>German Industrial Manpower</en>
 			</title>
 			<title_original>
 				<de>Deutsche Industrie Kraft</de>
@@ -7610,8 +7628,8 @@ Tragic love story.</en>
 		<programme id="TheRob-b0db-439c-a852-Wosselnaht" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0059372" creator="8751" created_by="TheRob">
 			<!-- König Drosselbart, Zielgruppe Kinder -->
 			<title>
-				<de>Prinz Wosselnaht</de>
-				<en>Prince Bushthread</en>
+				<de>König Drosselbart</de>
+				<en>King Thrushbeard</en>
 			</title>
 			<title_original>
 				<de>König Drosselbart</de>
@@ -7633,8 +7651,8 @@ Tragic love story.</en>
 
 		<programme id="TheRob-b0db-439c-a852-RaucherladenBrooklin" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0114478" creator="8751" created_by="TheRob" comment="previously tagged as 'various' but it won comedy awards">
 			<title>
-				<de>Raucherladen Brooklyn</de>
-				<en>Buying cigarettes in Brooklyn</en>
+				<de>Smoke - Raucher unter sich</de>
+				<en>Smoke</en>
 			</title>
 			<title_original>
 				<de>Smoke - Raucher unter sich</de>
@@ -7664,8 +7682,8 @@ Tragic love story.</en>
 
 		<programme id="TheRob-b0db-439c-a852-RauchinBrooklin" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0112541" creator="8751" created_by="TheRob" comment="previously tagged as 'various' but it won comedy awards">
 			<title>
-				<de>Rauch in Brooklyn</de>
-				<en>Blowing smoke in the Face - Brooklyn</en>
+				<de>Blue in the Face - Alles blauer Dunst</de>
+				<en>Blue in the Face</en>
 			</title>
 			<title_original>
 				<de>Blue in the Face - Alles blauer Dunst</de>
@@ -7696,8 +7714,8 @@ Tragic love story.</en>
 
 		<programme id="TheRob-400d-8f9c-curlyhorror" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0073629" creator="8751" created_by="TheRob">
 			<title>
-				<de>Die Locken Horror Show</de>
-				<en>The Curly Horror Show</en>
+				<de>Rocky Horror Picture Show</de>
+				<en>The Rocky Horror Picture Show</en>
 			</title>
 			<title_original>
 				<de>Rocky Horror Picture Show</de>
@@ -7721,8 +7739,8 @@ Tragic love story.</en>
 
 		<programme id="TheRob-400d-8f9c-blaueausdemhimmel" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0020697" creator="8751" created_by="TheRob">
 			<title>
-				<de>Die Blaue aus dem Himmel</de>
-				<en>The Blue Girl From Heaven</en>
+				<de>Der blaue Engel</de>
+				<en>The Blue Angel</en>
 			</title>
 			<title_original>
 				<de>Der blaue Engel</de>
@@ -7744,8 +7762,8 @@ Tragic love story.</en>
 
 		<programme id="TheRob-916a-47bf-FeindNachbar" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0089092" creator="">
 			<title>
-				<de>Feind - Mein böser Nachbar</de>
-				<en>Enemy - my bad neighbour</en>
+				<de>Enemy Mine - Geliebter Feind</de>
+				<en>Enemy Mine</en>
 			</title>
 			<title_original>
 				<de>Enemy Mine - Geliebter Feind</de>
@@ -7767,8 +7785,8 @@ Tragic love story.</en>
 
 		<programme id="TheRob-1756-400d-8f9c-BlauBembelsche" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0296464" creator="">
 			<title>
-				<de>Blau Bembelsche - Best of</de>
-				<en>Blau Bembelsche - Best of</en>
+				<de>Zum blauen Bock - Best of</de>
+				<en>Zum blauen Bock - Best of</en>
 			</title>
 			<title_original>
 				<de>Zum blauen Bock - Best of</de>
@@ -7797,8 +7815,8 @@ Tragic love story.</en>
 
 		<programme id="TheRob-35e9-4e56-8e6e-DerBraveOsten" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0056085" creator="">
 			<title>
-				<de>Der Westen war einst ungezähmt</de>
-				<en>When the West Was Tamed</en>
+				<de>Das war der wilde Westen</de>
+				<en>How the West Was Won</en>
 			</title>
 			<title_original>
 				<de>Das war der wilde Westen</de>
@@ -7823,8 +7841,8 @@ Tragic love story.</en>
 
 		<programme id="5c4c567b-dda6-4d7e-b90a-RobTheTest11" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0032551" creator="8751" created_by="TheRob">
 			<title>
-				<de>Zorniges Obst</de>
-				<en>Wrathfull fruits</en>
+				<de>Früchte des Zorns</de>
+				<en>The Grapes of Wrath</en>
 			</title>
 			<title_original>
 				<de>Früchte des Zorns</de>
@@ -7848,8 +7866,8 @@ Tragic love story.</en>
 		<programme id="TheRob-dda6-4d7e-b90a-greasybiker" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0064276" creator="8751" created_by="TheRob">
 			<title>
 				<!-- Easy Rider, Kinokasse ist so hoch, da der Film laut IMDB beu 400k Budget über 40 Mio eingespielt hat, wegen Budget als B-Movie geflagt und noch Kult dazu -->
-				<de>Greasy Biker</de>
-				<en>Greasy Biker</en>
+				<de>Easy Rider</de>
+				<en>Easy Rider</en>
 			</title>
 			<title_original>
 				<de>Easy Rider</de>

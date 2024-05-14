@@ -1423,8 +1423,8 @@
 			<details job="2" gender="1" birthday="1968-04-24" deathday="" country="GB" />
 		</person>
 		<person id="DF-Celebreties-Michael_Fassbender" tmdb_id="" imdb_id="nm1055413" creator="8782" created_by="DerFronck">
-			<first_name>Mike</first_name>
-			<last_name>Basspfänder</last_name>
+			<first_name>Michael</first_name>
+			<last_name>Fassbender</last_name>
 			<first_name_original>Michael</first_name_original>
 			<last_name_original>Fassbender</last_name_original>
 			<details job="2" gender="1" birthday="1970-04-02" deathday="" country="D" />
@@ -1438,15 +1438,15 @@
 		</person>
 		<person id="DF-Celebreties-Christian_Bale" tmdb_id="" imdb_id="nm0000288" creator="8782" created_by="DerFronck">
 			<first_name>Christian</first_name>
-			<last_name>Baleys</last_name>
+			<last_name>Bale</last_name>
 			<first_name_original>Christian</first_name_original>
 			<last_name_original>Bale</last_name_original>
 			<details job="2" gender="1" birthday="1974-01-30" deathday="" country="GB" />
 			<data popularity="10" affinity="0" fame="0" scandalizing="10" price_mod="1" power="25" humor="0" charisma="21" appearance="21" topgenre="0" />
 		</person>
 		<person id="DF-Celebreties-Matt_Damon" tmdb_id="" imdb_id="nm0000354" creator="8782" created_by="DerFronck">
-			<first_name>Mark</first_name>
-			<last_name>Daemlon</last_name>
+			<first_name>Matt</first_name>
+			<last_name>Damon</last_name>
 			<first_name_original>Matt</first_name_original>
 			<last_name_original>Damon</last_name_original>
 			<details job="2" gender="1" birthday="1970-10-08" deathday="" country="USA" />
@@ -1525,16 +1525,16 @@
 			<details job="2" gender="2" birthday="1982-01-07" deathday="" country="USA" />
 		</person>
 		<person id="DF-Celebreties-Melissa_McBride" tmdb_id="" imdb_id="nm0564350" creator="8782" created_by="DerFronck">
-			<first_name>Miranda</first_name>
-			<last_name>McBraut</last_name>
+			<first_name>Melissa</first_name>
+			<last_name>McBride</last_name>
 			<first_name_original>Melissa</first_name_original>
 			<last_name_original>McBride</last_name_original>
 			<details job="2" gender="2" birthday="1965-05-23" deathday="" country="USA" />
 			<data popularity="10" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="DF-Celebreties-Frank_Darabont" tmdb_id="" imdb_id="nm0001104" creator="8782" created_by="DerFronck">
-			<first_name>Fronck</first_name>
-			<last_name>Darabound</last_name>
+			<first_name>Frank</first_name>
+			<last_name>Darabont</last_name>
 			<first_name_original>Frank</first_name_original>
 			<last_name_original>Darabont</last_name_original>
 			<details job="1" gender="1" birthday="1959-01-28" deathday="" country="F" />
@@ -1543,8 +1543,8 @@
 			<!-- Additional entries from DerFronck from forum -->
 
 		<person id="DF-Celebreties-Patrick_Swayze" tmdb_id="0" imdb_id="nm0000664" creator="" created_by="DerFronck">
-			<first_name>Patric</first_name>
-			<last_name>Swazi</last_name>
+			<first_name>Patrick</first_name>
+			<last_name>Swayze</last_name>
 			<first_name_original>Patrick</first_name_original>
 			<last_name_original>Swayze</last_name_original>
 			<details job="2" gender="1" birthday="1952-08-18" deathday="2009-09-14" country="USA" />
@@ -1552,7 +1552,7 @@
 		</person>
 		<person id="DF-Celebreties-James_Read" tmdb_id="0" imdb_id="nm0416856" creator="" created_by="DerFronck">
 			<first_name>Jess</first_name>
-			<last_name>Real</last_name>
+			<last_name>Read</last_name>
 			<first_name_original>James</first_name_original>
 			<last_name_original>Read</last_name_original>
 			<details job="2" gender="1" birthday="1953-07-31" deathday="" country="USA" />
@@ -1583,8 +1583,8 @@
 			<data popularity="1" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" />
 		</person>
 		<person id="DF-Celebreties-Kirstie_Alley" tmdb_id="0" imdb_id="nm0000263" creator="" created_by="DerFronck">
-			<first_name>Kristi</first_name>
-			<last_name>Allen</last_name>
+			<first_name>Kirstie</first_name>
+			<last_name>Alley</last_name>
 			<first_name_original>Kirstie</first_name_original>
 			<last_name_original>Alley</last_name_original>
 			<details job="2" gender="2" birthday="1951-01-12" deathday="2022-12-05" country="USA" />
@@ -1599,8 +1599,8 @@
 			<data popularity="1" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" />
 		</person>
 		<person id="5779c57f-0a2e-480d-a330-e8e9ea954f4e" tmdb_id="0" imdb_id="nm0000156" creator="" created_by="DerFronck">
-			<first_name>Josh</first_name>
-			<last_name>Silverblum</last_name>
+			<first_name>Jeff</first_name>
+			<last_name>Goldblum</last_name>
 			<first_name_original>Jeff</first_name_original>
 			<last_name_original>Goldblum</last_name_original>
 			<details job="2" gender="1" birthday="1952-10-22" deathday="" country="USA" />
@@ -1623,8 +1623,8 @@
 			<data popularity="1" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" />
 		</person>
 		<person id="DF-Celebreties-Geena_Davis" tmdb_id="0" imdb_id="nm0000133" creator="" created_by="DerFronck">
-			<first_name>Gina</first_name>
-			<last_name>Davids</last_name>
+			<first_name>Geena</first_name>
+			<last_name>Davis</last_name>
 			<first_name_original>Geena</first_name_original>
 			<last_name_original>Davis</last_name_original>
 			<details job="2" gender="2" birthday="1956-02-21" deathday="" country="USA" />
@@ -1639,8 +1639,8 @@
 			<data popularity="1" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" />
 		</person>
 		<person id="DF-Celebreties-Jsu_Garcia" tmdb_id="0" imdb_id="nm0006987" creator="" created_by="DerFronck">
-			<first_name>Jesus</first_name>
-			<last_name>Grazia</last_name>
+			<first_name>Jsu</first_name>
+			<last_name>Garcia</last_name>
 			<first_name_original>Jsu</first_name_original>
 			<last_name_original>Garcia</last_name_original>
 			<details job="2" gender="1" birthday="1963-10-06" deathday="" country="USA" />
@@ -1663,8 +1663,8 @@
 			<data popularity="1" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" />
 		</person>
 		<person id="DF-Celebreties-Wes_Craven" tmdb_id="0" imdb_id="nm0000127" creator="" created_by="DerFronck">
-			<first_name>Wells</first_name>
-			<last_name>Craving</last_name>
+			<first_name>Wes</first_name>
+			<last_name>Craven</last_name>
 			<first_name_original>Wes</first_name_original>
 			<last_name_original>Craven</last_name_original>
 			<details job="1" gender="1" birthday="1939-08-02" deathday="2015-08-30" country="USA" />
@@ -1797,32 +1797,32 @@
 			<data popularity="50" affinity="50" fame="20" scandalizing="0" price_mod="0" power="0" humor="9" charisma="11" appearance="42" topgenre="0" />
 		</person>
 		<person id="TheRob-celebritypeople-SophieWoreen" tmdb_id="0" imdb_id="nm0000047" creator="8751" created_by="TheRob">
-			<first_name>Sophie</first_name>
-			<last_name>Woreen</last_name>
+			<first_name>Sophia</first_name>
+			<last_name>Loren</last_name>
 			<first_name_original>Sophia</first_name_original>
 			<last_name_original>Loren</last_name_original>
 			<details job="2" gender="2" birthday="1934-09-20" deathday="" country="I" />
 			<data popularity="40" affinity="40" fame="40" scandalizing="0" price_mod="0" power="0" humor="9" charisma="21" appearance="42" topgenre="0" />
 		</person>
 		<person id="7c4ce03d-e8d0-48b0-81fd-502c606e23e0" tmdb_id="0" imdb_id="nm0000598" creator="8751" created_by="TheRob" comment="previous id: TheRob-celebritypeople-RennIsNaid | brother of e96f1272-869f-4cbd-b12e-ea5eff38d90f">
-			<first_name>Denis</first_name>
-			<last_name>Quayne</last_name>
+			<first_name>Dennis</first_name>
+			<last_name>Quaid</last_name>
 			<first_name_original>Dennis</first_name_original>
 			<last_name_original>Quaid</last_name_original>
 			<details job="2" gender="1" birthday="1954-04-09" deathday="" country="USA" />
 			<data popularity="30" affinity="30" fame="30" scandalizing="0" price_mod="0" power="0" humor="9" charisma="21" appearance="34" topgenre="0" />
 		</person>
 		<person id="5fc2f657-3930-4052-9651-2db7acf9bfbf" tmdb_id="0" imdb_id="nm0000078" creator="8751" created_by="TheRob" comment="previous id: TheRob-celebritypeople-JimmyBaine">
-			<first_name>Jon</first_name>
-			<last_name>Bayne</last_name>
+			<first_name>John</first_name>
+			<last_name>Wayne</last_name>
 			<first_name_original>John</first_name_original>
 			<last_name_original>Wayne</last_name_original>
 			<details job="2" gender="1" birthday="1907-05-26" deathday="1979-06-11" country="USA" />
 			<data popularity="60" affinity="30" fame="60" scandalizing="0" price_mod="0" power="42" humor="9" charisma="45" appearance="52" topgenre="0" />
 		</person>
 		<person id="TheRob-celebritypeople-RonDort" tmdb_id="0" imdb_id="nm0000406" creator="8751" created_by="TheRob">
-			<first_name>Ron</first_name>
-			<last_name>Dort</last_name>
+			<first_name>John</first_name>
+			<last_name>Ford</last_name>
 			<first_name_original>John</first_name_original>
 			<last_name_original>Ford</last_name_original>
 			<details job="1" gender="1" birthday="1894-02-01" deathday="1973-08-01" country="USA" />
@@ -1837,8 +1837,8 @@
 			<data popularity="20" affinity="30" fame="20" scandalizing="0" price_mod="0" power="0" humor="9" charisma="11" appearance="34" topgenre="0" />
 		</person>
 		<person id="868b2dcd-e6f6-4606-8ba1-8651b5d1bea9" tmdb_id="0" imdb_id="nm0000060" creator="8751" created_by="TheRob" comment="previous id: TheRob-celebritypeople-WeckoryWeck">
-			<first_name>Greg O. Ray</first_name>
-			<last_name>Pick</last_name>
+			<first_name>Gregory</first_name>
+			<last_name>Peck</last_name>
 			<first_name_original>Gregory</first_name_original>
 			<last_name_original>Peck</last_name_original>
 			<details job="2" gender="1" birthday="1916-04-05" deathday="2003-06-12" country="USA" />
@@ -1877,16 +1877,16 @@
 			<data popularity="10" affinity="30" fame="0" scandalizing="0" price_mod="0" power="0" humor="9" charisma="11" appearance="11" topgenre="0" />
 		</person>
 		<person id="46cd1933-4dfd-4aef-8943-372d9813d22e" tmdb_id="0" imdb_id="nm0721817" creator="8751" created_by="TheRob" comment="previous id: TheRob-celebritypeople-RavenRainold">
-			<first_name>Kelvin</first_name>
-			<last_name>Raymolds</last_name>
+			<first_name>Kevin</first_name>
+			<last_name>Reynolds</last_name>
 			<first_name_original>Kevin</first_name_original>
 			<last_name_original>Reynolds</last_name_original>
 			<details job="1" gender="1" birthday="1952-01-17" deathday="" country="USA" />
 			<data popularity="20" affinity="30" fame="20" scandalizing="0" price_mod="0" power="0" humor="9" charisma="11" appearance="11" topgenre="0" />
 		</person>
 		<person id="3d4a2d11-e943-4874-b8be-eaec31165150" tmdb_id="0" imdb_id="nm0000231" creator="8751" created_by="TheRob" comment="previous id: TheRob-celebritypeople-RolligerStein. TODO: Anderweitig verwursten">
-			<first_name>Olivier</first_name>
-			<last_name>Stein</last_name>
+			<first_name>Oliver</first_name>
+			<last_name>Stone</last_name>
 			<first_name_original>Oliver</first_name_original>
 			<last_name_original>Stone</last_name_original>
 			<details job="1" gender="1" birthday="1946-09-15" deathday="" country="USA" />
@@ -1909,48 +1909,48 @@
 			<data popularity="10" affinity="50" fame="20" scandalizing="10" price_mod="0" power="25" humor="9" charisma="21" appearance="11" topgenre="0" />
 		</person>
 		<person id="TheRob-celebritypeople-LarryMoldman" tmdb_id="0" imdb_id="nm0000198" creator="8751" created_by="TheRob">
-			<first_name>Larry</first_name>
-			<last_name>Moldman</last_name>
+			<first_name>Gary</first_name>
+			<last_name>Oldman</last_name>
 			<first_name_original>Gary</first_name_original>
 			<last_name_original>Oldman</last_name_original>
 			<details job="2" gender="1" birthday="1958-03-21" deathday="" country="GB" />
 			<data popularity="30" affinity="50" fame="40" scandalizing="10" price_mod="0" power="25" humor="9" charisma="45" appearance="42" topgenre="0" />
 		</person>
 		<person id="80529e75-e7df-4104-92ec-7e12a9d33d92" tmdb_id="0" imdb_id="nm0000347" creator="8751" created_by="TheRob" comment="previous id: TheRob-celebritypeople-WimBlurry">
-			<first_name>Tom</first_name>
-			<last_name>Blurry</last_name>
+			<first_name>Tim</first_name>
+			<last_name>Curry</last_name>
 			<first_name_original>Tim</first_name_original>
 			<last_name_original>Curry</last_name_original>
 			<details job="2" gender="1" birthday="1946-04-19" deathday="" country="GB" />
 			<data popularity="30" affinity="40" fame="30" scandalizing="25" price_mod="0" power="0" humor="9" charisma="21" appearance="42" topgenre="0" />
 		</person>
 		<person id="TheRob-celebritypeople-WeatLove" tmdb_id="0" imdb_id="nm0001533" creator="8751" created_by="TheRob">
-			<first_name>Weat</first_name>
-			<last_name>Love</last_name>
+			<first_name>Meat</first_name>
+			<last_name>Loaf</last_name>
 			<first_name_original>Meat</first_name_original>
 			<last_name_original>Loaf</last_name_original>
 			<details job="1" gender="1" birthday="1947-09-27" deathday="2022-01-20" country="USA" />
 			<data popularity="20" affinity="40" fame="20" scandalizing="10" price_mod="0" power="0" humor="23" charisma="21" appearance="21" topgenre="0" />
 		</person>
 		<person id="7b66d3cb-ff85-465e-bb05-5fdf650a9533" tmdb_id="0" imdb_id="nm0000215" creator="8751" created_by="TheRob">
-			<first_name>Suzy</first_name>
-			<last_name>Sorandom</last_name>
+			<first_name>Susan</first_name>
+			<last_name>Sarandon</last_name>
 			<first_name_original>Susan</first_name_original>
 			<last_name_original>Sarandon</last_name_original>
 			<details job="2" gender="2" birthday="1946-10-04" deathday="" country="USA" />
 			<data popularity="20" affinity="40" fame="10" scandalizing="0" price_mod="0" power="0" humor="23" charisma="45" appearance="34" topgenre="0" />
 		</person>
 		<person id="TheRob-celebritypeople-DarleenSchluessel" tmdb_id="0" imdb_id="nm0000017" creator="8751" created_by="TheRob">
-			<first_name>Darleen</first_name>
-			<last_name>Schluessel</last_name>
+			<first_name>Marlene</first_name>
+			<last_name>Dietrich</last_name>
 			<first_name_original>Marlene</first_name_original>
 			<last_name_original>Dietrich</last_name_original>
 			<details job="2" gender="2" birthday="1901-12-27" deathday="1992-05-06" country="D" />
 			<data popularity="30" affinity="40" fame="40" scandalizing="0" price_mod="0" power="0" humor="23" charisma="45" appearance="42" topgenre="0" />
 		</person>
 		<person id="d23f86b0-f334-4503-b57f-d441e727a0d1" tmdb_id="0" imdb_id="nm0000056" creator="8751" created_by="TheRob" comment="previous id: TheRob-celebritypeople-RaulWarumen">
-			<first_name>Pete</first_name>
-			<last_name>Neumann</last_name>
+			<first_name>Paul</first_name>
+			<last_name>Newman</last_name>
 			<first_name_original>Paul</first_name_original>
 			<last_name_original>Newman</last_name_original>
 			<details job="2" gender="1" birthday="1925-01-26" deathday="2008-09-26" country="USA" />
@@ -1973,8 +1973,8 @@
 			<data popularity="40" affinity="40" fame="40" scandalizing="0" price_mod="0" power="25" humor="42" charisma="45" appearance="42" topgenre="5" />
 		</person>
 		<person id="TheRob-celebritypeople-BargHable" tmdb_id="0" imdb_id="nm0000022" creator="8751" created_by="TheRob">
-			<first_name>Barg</first_name>
-			<last_name>Hable</last_name>
+			<first_name>Clark</first_name>
+			<last_name>Gable</last_name>
 			<first_name_original>Clark</first_name_original>
 			<last_name_original>Gable</last_name_original>
 			<details job="2" gender="1" birthday="1901-02-01" deathday="1960-11-16" country="USA" />
@@ -2005,8 +2005,8 @@
 			<data popularity="40" affinity="50" fame="30" scandalizing="0" price_mod="0" power="42" humor="9" charisma="45" appearance="42" topgenre="0" />
 		</person>
 		<person id="TheRob-celebritypeople-HenceTrace" tmdb_id="0" imdb_id="nm0000075" creator="8751" created_by="TheRob">
-			<first_name>Hence</first_name>
-			<last_name>Trace</last_name>
+			<first_name>Spencer</first_name>
+			<last_name>Tracy</last_name>
 			<first_name_original>Spencer</first_name_original>
 			<last_name_original>Tracy</last_name_original>
 			<details job="2" gender="1" birthday="1900-04-05" deathday="1967-06-10" country="USA" />
@@ -2016,8 +2016,8 @@
 		<!-- von rumpelfreddy -->
 
 		<person id="eec1280f-fda9-424b-88c4-fda15c7ec6b6" tmdb_id="0" imdb_id="nm0000158" creator="8667" created_by="Rumpelfreddy" comment="previous id: Freddy-realperson-TomHencs">
-			<first_name>Tim</first_name>
-			<last_name>Honks</last_name>
+			<first_name>Tom</first_name>
+			<last_name>Hanks</last_name>
 			<first_name_original>Tom</first_name_original>
 			<last_name_original>Hanks</last_name_original>
 			<details job="2" gender="1" birthday="1956-07-09" deathday="" country="USA" />
@@ -2045,8 +2045,8 @@
 		<!-- moved from speedminister.xml -->
 
 		<person id="SpeedMinister-celebritypeople-OttokarKahn" tmdb_id="0" imdb_id="nm2579540" creator="8605" created_by="SpeedMinister">
-			<first_name>Ottokar</first_name>
-			<last_name>Kahn</last_name>
+			<first_name>Oliver</first_name>
+			<last_name>Jahn</last_name>
 			<first_name_original>Oliver</first_name_original>
 			<last_name_original>Jahn</last_name_original>
 			<details job="3" gender="1" birthday="1969" deathday="" country="D" />
@@ -2088,8 +2088,8 @@
 			<data popularity="59" affinity="60" fame="68" scandalizing="12" price_mod="0.72" power="39" humor="60" charisma="72" appearance="65" topgenre="7" />
 		</person>	
 		<person id="cujo-person-tom-hoppins" tmdb_id="0" imdb_id="nm0000209" creator="8827" created_by="Cujo">
-			<first_name>Tom</first_name>
-			<last_name>Hoppins</last_name>
+			<first_name>Tim</first_name>
+			<last_name>Robbins</last_name>
 			<first_name_original>Tim</first_name_original>
 			<last_name_original>Robbins</last_name_original>
 			<details job="23" gender="1" birthday="1958-10-16" deathday="" country="USA" fictional="0" />
@@ -2130,8 +2130,8 @@
 			<data popularity="69" affinity="55" fame="58" scandalizing="42" price_mod="0.69" power="33" humor="42" charisma="42" appearance="25" topgenre="9" />
 		</person>
 		<person id="0009cb2b-4f26-4634-8679-59655fa67b4e" tmdb_id="0" imdb_id="nm0001709" creator="8827" created_by="Cujo" comment="previous id: cujo-person-will-schweitzer">
-			<first_name>Till</first_name>
-			<last_name>Schwaetzer</last_name>
+			<first_name>Til</first_name>
+			<last_name>Schweiger</last_name>
 			<first_name_original>Til</first_name_original>
 			<last_name_original>Schweiger</last_name_original>
 			<details job="2" gender="1" birthday="1963-12-19" deathday="" country="D" fictional="0" />
@@ -2389,8 +2389,8 @@
 			<data topgenre="7" fame="9" />
 		</person>
 		<person id="Stukov_JimCarrey" tmdb_id="0" imdb_id="nm0000120" creator="Stukov">
-			<first_name>Joe</first_name>
-			<last_name>Carrera</last_name>
+			<first_name>Jim</first_name>
+			<last_name>Carrey</last_name>
 			<first_name_original>Jim</first_name_original>
 			<last_name_original>Carrey</last_name_original>
 			<details gender="1" birthday="" deathday="" />
@@ -2405,8 +2405,8 @@
 			<data topgenre="" fame="49" />
 		</person>
 		<person id="Stukov_MichaelCrichton" tmdb_id="0" imdb_id="nm0000341" creator="Stukov">
-			<first_name>Mike</first_name>
-			<last_name>Critchson</last_name>
+			<first_name>Michael</first_name>
+			<last_name>Crichton</last_name>
 			<first_name_original>Michael</first_name_original>
 			<last_name_original>Crichton</last_name_original>
 			<details gender="1" birthday="" deathday="" />
@@ -2447,8 +2447,8 @@
 			<data popularity="40" fame="40" topgenre="5" />
 		</person>
 		<person id="Stukov_SophieMarceau" tmdb_id="0" imdb_id="nm0000521" creator="Stukov">
-			<first_name>Sonia</first_name>
-			<last_name>Marcourt</last_name>
+			<first_name>Sophie</first_name>
+			<last_name>Marceau</last_name>
 			<first_name_original>Sophie</first_name_original>
 			<last_name_original>Marceau</last_name_original>
 			<details gender="2" birthday="" deathday="" />
