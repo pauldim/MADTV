@@ -3,2012 +3,2012 @@
 	<version value="3"  />
 	<celebritypeople>
 		<person id="cd3a2e20-efe1-4a4c-9249-164b67d185f7" tmdb_id="0" imdb_id="nm0000216" creator="">
+			<first_name_fikcja>Arnold</first_name_fikcja>
+			<last_name_fikcja>Schwarzenegger</last_name_fikcja>
+			<nick_name_fikcja>Arnie</nick_name_fikcja>
+			<nick_name>Arnie</nick_name>
 			<first_name>Arnold</first_name>
 			<last_name>Schwarzenegger</last_name>
-			<nick_name>Arnie</nick_name>
-			<nick_name_original>Arnie</nick_name_original>
-			<first_name_original>Arnold</first_name_original>
-			<last_name_original>Schwarzenegger</last_name_original>
 			<details job="2" gender="1" birthday="1947-07-30" deathday="" country="" />
 		</person>
 		<person id="836b4aa3-b5c6-4529-b30d-4501594cdf13" tmdb_id="0" imdb_id="nm0000230" creator="">
+			<first_name_fikcja>Sylvester</first_name_fikcja>
+			<last_name_fikcja>Stallone</last_name_fikcja>
+			<nick_name_fikcja>Sly</nick_name_fikcja>
+			<nick_name>Sly</nick_name>
 			<first_name>Sylvester</first_name>
 			<last_name>Stallone</last_name>
-			<nick_name>Sly</nick_name>
-			<nick_name_original>Sly</nick_name_original>
-			<first_name_original>Sylvester</first_name_original>
-			<last_name_original>Stallone</last_name_original>
 			<details job="2" gender="1" birthday="1946-07-06" deathday="" country="" />
 		</person>
 		<person id="3fcd8263-9bf4-4c23-9323-0e4105d75dbb" tmdb_id="0" imdb_id="nm0000719" creator="">
+			<first_name_fikcja>F. Murray</first_name_fikcja>
+			<last_name_fikcja>Abraham</last_name_fikcja>
 			<first_name>F. Murray</first_name>
 			<last_name>Abraham</last_name>
-			<first_name_original>F. Murray</first_name_original>
-			<last_name_original>Abraham</last_name_original>
 			<details job="2" gender="1" birthday="1939-10-24" deathday="" country="" />
 			<data affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="c92d6a4b-0c3e-49b4-a403-2b861d9fb675" tmdb_id="0" imdb_id="nm0000262" creator="">
+			<first_name_fikcja>Nancy</first_name_fikcja>
+			<last_name_fikcja>Allen</last_name_fikcja>
 			<first_name>Nancy</first_name>
 			<last_name>Allen</last_name>
-			<first_name_original>Nancy</first_name_original>
-			<last_name_original>Allen</last_name_original>
 			<details job="2" gender="2" birthday="1950-06-24" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="de494c09-c094-4217-a010-5241833ef53f" tmdb_id="0" imdb_id="nm0491048" creator="">
+			<first_name_fikcja>Stan</first_name_fikcja>
+			<last_name_fikcja>Laurel</last_name_fikcja>
 			<first_name>Stan</first_name>
 			<last_name>Laurel</last_name>
-			<first_name_original>Stan</first_name_original>
-			<last_name_original>Laurel</last_name_original>
 			<details job="2" gender="1" birthday="1890-06-16" deathday="1965-02-23" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="825f0f99-fb8e-4761-a597-fdd27a0461c6" tmdb_id="0" imdb_id="nm0000102" creator="">
-			<first_name>Kelvin</first_name>
+			<first_name_fikcja>Kelvin</first_name_fikcja>
+			<last_name_fikcja>Bacon</last_name_fikcja>
+			<first_name>Kevin</first_name>
 			<last_name>Bacon</last_name>
-			<first_name_original>Kevin</first_name_original>
-			<last_name_original>Bacon</last_name_original>
 			<details job="2" gender="1" birthday="1958-07-08" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="81f17c33-1719-4513-ad34-ac03ac7d03a0" tmdb_id="0" imdb_id="nm0000697" creator="">
+			<first_name_fikcja>Billy</first_name_fikcja>
+			<last_name_fikcja>Wilder</last_name_fikcja>
 			<first_name>Billy</first_name>
 			<last_name>Wilder</last_name>
-			<first_name_original>Billy</first_name_original>
-			<last_name_original>Wilder</last_name_original>
 			<details job="1" gender="1" birthday="1906-06-22" deathday="2002-03-27" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="84958220-dab8-49eb-bb73-196b735f5af2" tmdb_id="0" imdb_id="nm0097449" creator="">
+			<first_name_fikcja>Dieter</first_name_fikcja>
+			<last_name_fikcja>Borsche</last_name_fikcja>
 			<first_name>Dieter</first_name>
 			<last_name>Borsche</last_name>
-			<first_name_original>Dieter</first_name_original>
-			<last_name_original>Borsche</last_name_original>
 			<details job="2" gender="1" birthday="1909-10-25" deathday="1982-08-05" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="3342a0e3-66f3-4f30-922c-ebe1b0611a00" tmdb_id="0" imdb_id="nm0000107" creator="">
+			<first_name_fikcja>Kim</first_name_fikcja>
+			<last_name_fikcja>Basinger</last_name_fikcja>
 			<first_name>Kim</first_name>
 			<last_name>Basinger</last_name>
-			<first_name_original>Kim</first_name_original>
-			<last_name_original>Basinger</last_name_original>
 			<details job="2" gender="2" birthday="1953-12-08" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="2fae00fa-0106-4734-873e-7d3a87a50a65" tmdb_id="0" imdb_id="nm0000881" creator="">
+			<first_name_fikcja>Michael</first_name_fikcja>
+			<last_name_fikcja>Bay</last_name_fikcja>
 			<first_name>Michael</first_name>
 			<last_name>Bay</last_name>
-			<first_name_original>Michael</first_name_original>
-			<last_name_original>Bay</last_name_original>
 			<details job="1" gender="1" birthday="1965-02-17" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<!-- person id="d300cc4e-dcba-4bbf-b9d4-b111412718e1" tmdb_id="0" imdb_id="nm0000293" creator="">
 			<comment>Duplicate, merged with Sean Bean further down the file, but taking id from this entry</comment>
-			<first_name>Jan</first_name>
-			<last_name>Beham</last_name>
-			<first_name_original>Sean</first_name_original>
-			<last_name_original>Bean</last_name_original>
+			<first_name_fikcja>Jan</first_name_fikcja>
+			<last_name_fikcja>Beham</last_name_fikcja>
+			<first_name>Sean</first_name>
+			<last_name>Bean</last_name>
 			<details job="2" gender="1" birthday="" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person/-->
 		<person id="28cd4aa6-fd11-4696-9539-361017701fe2" tmdb_id="0" imdb_id="nm0000104" creator="">
+			<first_name_fikcja>Antonio</first_name_fikcja>
+			<last_name_fikcja>Banderas</last_name_fikcja>
 			<first_name>Antonio</first_name>
 			<last_name>Banderas</last_name>
-			<first_name_original>Antonio</first_name_original>
-			<last_name_original>Banderas</last_name_original>
 			<details job="2" gender="1" birthday="1960-08-10" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="70c7d8ec-ff3b-4810-9422-03e0676b747c" tmdb_id="0" imdb_id="nm0000949" creator="">
+			<first_name_fikcja>Cate</first_name_fikcja>
+			<last_name_fikcja>Blanchett</last_name_fikcja>
 			<first_name>Cate</first_name>
 			<last_name>Blanchett</last_name>
-			<first_name_original>Cate</first_name_original>
-			<last_name_original>Blanchett</last_name_original>
 			<details job="2" gender="2" birthday="1969-05-14" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="abcc51f0-1842-40f5-b2f7-dd1e228ea968" tmdb_id="0" imdb_id="nm0000007" creator="">
+			<first_name_fikcja>Humphrey</first_name_fikcja>
+			<last_name_fikcja>Bogart</last_name_fikcja>
 			<first_name>Humphrey</first_name>
 			<last_name>Bogart</last_name>
-			<first_name_original>Humphrey</first_name_original>
-			<last_name_original>Bogart</last_name_original>
 			<details job="2" gender="1" birthday="1899-12-25" deathday="1957-01-14" country="" />
 		</person>
 		<person id="be3f813d-e72c-4783-8652-93181f2c2c21" tmdb_id="0" imdb_id="nm0001629" creator="">
+			<first_name_fikcja>Kevin</first_name_fikcja>
+			<last_name_fikcja>Pollak</last_name_fikcja>
 			<first_name>Kevin</first_name>
 			<last_name>Pollak</last_name>
-			<first_name_original>Kevin</first_name_original>
-			<last_name_original>Pollak</last_name_original>
 			<details job="2" gender="1" birthday="1957-10-30" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="3808793e-7162-4c1f-baa8-0ec46bebb501" tmdb_id="0" imdb_id="nm0689659" creator="">
+			<first_name_fikcja>George</first_name_fikcja>
+			<last_name_fikcja>Pollock</last_name_fikcja>
 			<first_name>George</first_name>
 			<last_name>Pollock</last_name>
-			<first_name_original>George</first_name_original>
-			<last_name_original>Pollock</last_name_original>
 			<details job="1" gender="1" birthday="1957-10-30" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="ccf79c86-dd25-49bc-91fa-536de8e4267b" tmdb_id="0" imdb_id="nm0000591" creator="">
+			<first_name_fikcja>Roman</first_name_fikcja>
+			<last_name_fikcja>Polański</last_name_fikcja>
 			<first_name>Roman</first_name>
-			<last_name>Polański</last_name>
-			<first_name_original>Roman</first_name_original>
-			<last_name_original>Polanski</last_name_original>
+			<last_name>Polanski</last_name>
 			<details job="1" gender="1" birthday="1933-08-18" deathday="" country="" />
 		</person>
 		<person id="79c081cb-755e-41b8-bd50-11f00e6b1382" tmdb_id="0" imdb_id="nm0108523" creator="">
-			<first_name>Pierce</first_name>
-			<last_name>Brei</last_name>
-			<first_name_original>Pierre</first_name_original>
-			<last_name_original>Brice</last_name_original>
+			<first_name_fikcja>Pierce</first_name_fikcja>
+			<last_name_fikcja>Brei</last_name_fikcja>
+			<first_name>Pierre</first_name>
+			<last_name>Brice</last_name>
 			<details job="2" gender="1" birthday="1929-02-06" deathday="2015-06-06" country="" />
 		</person>
 		<person id="9b8d6c83-3561-49b3-9ed7-996075206299" tmdb_id="0" imdb_id="nm0000978" creator="">
+			<first_name_fikcja>Lloyd</first_name_fikcja>
+			<last_name_fikcja>Brittges</last_name_fikcja>
 			<first_name>Lloyd</first_name>
-			<last_name>Brittges</last_name>
-			<first_name_original>Lloyd</first_name_original>
-			<last_name_original>Bridges</last_name_original>
+			<last_name>Bridges</last_name>
 			<details job="2" gender="1" birthday="1913-01-15" deathday="1998-03-10" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="2613c827-dd89-4740-b57a-661dfb357130" tmdb_id="0" imdb_id="nm0000996" creator="">
-			<first_name>LaVar</first_name>
-			<last_name>Blurty</last_name>
-			<first_name_original>LeVar</first_name_original>
-			<last_name_original>Burton</last_name_original>
+			<first_name_fikcja>LaVar</first_name_fikcja>
+			<last_name_fikcja>Blurty</last_name_fikcja>
+			<first_name>LeVar</first_name>
+			<last_name>Burton</last_name>
 			<details job="2" gender="1" birthday="1957-02-16" deathday="" country="" />
 		</person>
 		<person id="b0b014e9-182b-40ba-b1f3-8a167420c8e8" tmdb_id="0" imdb_id="nm0000114" creator="">
+			<first_name_fikcja>Steve</first_name_fikcja>
+			<last_name_fikcja>Bushcampi</last_name_fikcja>
 			<first_name>Steve</first_name>
-			<last_name>Bushcampi</last_name>
-			<first_name_original>Steve</first_name_original>
-			<last_name_original>Buscemi</last_name_original>
+			<last_name>Buscemi</last_name>
 			<details job="2" gender="1" birthday="1957-12-13" deathday="" country="" />
 		</person>
 		<person id="a3587709-bbbd-42f7-8819-1d29a89cacec" tmdb_id="0" imdb_id="nm0000997" creator="" comment="father of 6748096c-ad76-4d12-84ab-fb7a6c70542e">
-			<first_name>Gavin</first_name>
-			<last_name>Bussi</last_name>
-			<first_name_original>Gary</first_name_original>
-			<last_name_original>Busey</last_name_original>
+			<first_name_fikcja>Gavin</first_name_fikcja>
+			<last_name_fikcja>Bussi</last_name_fikcja>
+			<first_name>Gary</first_name>
+			<last_name>Busey</last_name>
 			<details job="2" gender="1" birthday="1944-06-29" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="d92ad3b1-e2e2-455c-8b82-2ec7731607ec" tmdb_id="0" imdb_id="nm0000115" creator="">
+			<first_name_fikcja>Nicolas</first_name_fikcja>
+			<last_name_fikcja>Cage</last_name_fikcja>
 			<first_name>Nicolas</first_name>
 			<last_name>Cage</last_name>
-			<first_name_original>Nicolas</first_name_original>
-			<last_name_original>Cage</last_name_original>
 			<details job="2" gender="1" birthday="1964-01-07" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="9f342b49-1089-47bc-8d92-722fe71d96e3" tmdb_id="0" imdb_id="nm0001428" creator="">
+			<first_name_fikcja>Klaus</first_name_fikcja>
+			<last_name_fikcja>Kinski</last_name_fikcja>
 			<first_name>Klaus</first_name>
 			<last_name>Kinski</last_name>
-			<first_name_original>Klaus</first_name_original>
-			<last_name_original>Kinski</last_name_original>
 			<details job="2" gender="1" birthday="1926-10-18" deathday="1991-11-23" country="" />
 		</person>
 		<person id="3e3b73f1-24e8-4eb6-b9ed-a3d482d37284" tmdb_id="0" imdb_id="nm0000164" creator="">
+			<first_name_fikcja>Anthony</first_name_fikcja>
+			<last_name_fikcja>Hopkins</last_name_fikcja>
 			<first_name>Anthony</first_name>
 			<last_name>Hopkins</last_name>
-			<first_name_original>Anthony</first_name_original>
-			<last_name_original>Hopkins</last_name_original>
 			<details job="2" gender="1" birthday="1937-12-31" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="876760aa-c243-4e4b-a333-76d5a5aabf19" tmdb_id="0" imdb_id="nm0000008" creator="">
+			<first_name_fikcja>Marlon</first_name_fikcja>
+			<last_name_fikcja>Brando</last_name_fikcja>
 			<first_name>Marlon</first_name>
 			<last_name>Brando</last_name>
-			<first_name_original>Marlon</first_name_original>
-			<last_name_original>Brando</last_name_original>
 			<details job="2" gender="1" birthday="1924-04-03" deathday="2004-07-01" country="" />
 		</person>
 		<person id="9f9ea647-abfb-403c-8c4d-628d6373ca43" tmdb_id="0" imdb_id="nm0278006" creator="">
-			<first_name>Jess</first_name>
-			<last_name>Finleyssen</last_name>
-			<first_name_original>James</first_name_original>
-			<last_name_original>Finlayson</last_name_original>
+			<first_name_fikcja>Jess</first_name_fikcja>
+			<last_name_fikcja>Finleyssen</last_name_fikcja>
+			<first_name>James</first_name>
+			<last_name>Finlayson</last_name>
 			<details job="2" gender="1" birthday="1887-08-27" deathday="1953-10-09" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="370a8d9d-ceef-4a7c-9c09-cc7e9d616311" tmdb_id="0" imdb_id="nm0001077" creator="">
-			<first_name>Ricardo</first_name>
+			<first_name_fikcja>Ricardo</first_name_fikcja>
+			<last_name_fikcja>Crenna</last_name_fikcja>
+			<first_name>Richard</first_name>
 			<last_name>Crenna</last_name>
-			<first_name_original>Richard</first_name_original>
-			<last_name_original>Crenna</last_name_original>
 			<details job="2" gender="1" birthday="1926-11-30" deathday="2003-01-17" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="1df80fd1-2c56-473b-8687-19a6183b66e8" tmdb_id="" imdb_id="nm0000129" creator="8782" created_by="DerFronck">
+			<first_name_fikcja>Tom</first_name_fikcja>
+			<last_name_fikcja>Cruise</last_name_fikcja>
 			<first_name>Tom</first_name>
 			<last_name>Cruise</last_name>
-			<first_name_original>Tom</first_name_original>
-			<last_name_original>Cruise</last_name_original>
 			<details job="2" gender="1" birthday="1962-07-03" deathday="" country="USA" />
 		</person>
 		<person id="6b53e3ec-0d66-4131-84ec-a48b9bbe3b77" tmdb_id="0" imdb_id="nm0000361" creator="">
-			<first_name>Brandon</first_name>
+			<first_name_fikcja>Brandon</first_name_fikcja>
+			<last_name_fikcja>De Palma</last_name_fikcja>
+			<first_name>Brian</first_name>
 			<last_name>De Palma</last_name>
-			<first_name_original>Brian</first_name_original>
-			<last_name_original>De Palma</last_name_original>
 			<details job="1" gender="1" birthday="1940-09-11" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="8a8b38b5-13e0-4abc-adad-d8739ecc2684" tmdb_id="0" imdb_id="nm0000353" creator="">
-			<first_name>William</first_name>
+			<first_name_fikcja>William</first_name_fikcja>
+			<last_name_fikcja>Dafoe</last_name_fikcja>
+			<first_name>Willem</first_name>
 			<last_name>Dafoe</last_name>
-			<first_name_original>Willem</first_name_original>
-			<last_name_original>Dafoe</last_name_original>
 			<details job="2" gender="1" birthday="1955-07-22" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="091373c6-0ae9-40c2-b20b-b6591b23f88c" tmdb_id="0" imdb_id="nm0002033" creator="">
-			<first_name>Tyle</first_name>
-			<last_name>Dany</last_name>
-			<first_name_original>Tyne</first_name_original>
-			<last_name_original>Daly</last_name_original>
+			<first_name_fikcja>Tyle</first_name_fikcja>
+			<last_name_fikcja>Dany</last_name_fikcja>
+			<first_name>Tyne</first_name>
+			<last_name>Daly</last_name>
 			<details job="2" gender="2" birthday="1946-02-21" deathday="" country="" />
 		</person>
 		<person id="506bc383-259e-4a36-9278-081aafc8f35c" tmdb_id="0" imdb_id="nm0000134" creator="" comment="previous spoof name: Robart Die Niere - TODO: vorherigen Spoof evtl in anderem Kontext verwenden">
+			<first_name_fikcja>Robert</first_name_fikcja>
+			<last_name_fikcja>De Niro</last_name_fikcja>
 			<first_name>Robert</first_name>
 			<last_name>De Niro</last_name>
-			<first_name_original>Robert</first_name_original>
-			<last_name_original>De Niro</last_name_original>
 			<details job="2" gender="1" birthday="1943-08-17" deathday="" country="" />
 		</person>
 		<person id="4c3ad6f3-1e86-441d-b5a5-383e0408518e" tmdb_id="0" imdb_id="nm0233312" creator="">
-			<first_name>Karen</first_name>
-			<last_name>Dir</last_name>
-			<first_name_original>Karin</first_name_original>
-			<last_name_original>Dor</last_name_original>
+			<first_name_fikcja>Karen</first_name_fikcja>
+			<last_name_fikcja>Dir</last_name_fikcja>
+			<first_name>Karin</first_name>
+			<last_name>Dor</last_name>
 			<details job="2" gender="2" birthday="1938-02-22" deathday="2017-11-06" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="e7924d67-a4de-417d-a1f9-581fd611b534" tmdb_id="0" imdb_id="nm0000136" creator="">
+			<first_name_fikcja>Johnny</first_name_fikcja>
+			<last_name_fikcja>Depp</last_name_fikcja>
 			<first_name>Johnny</first_name>
 			<last_name>Depp</last_name>
-			<first_name_original>Johnny</first_name_original>
-			<last_name_original>Depp</last_name_original>
 			<details job="2" gender="1" birthday="1963-06-09" deathday="" country="" />
 		</person>
 		<person id="b4dcefc0-4fef-4ef6-93ae-f208ee93e992" tmdb_id="0" imdb_id="nm0000379" creator="">
+			<first_name_fikcja>Kirsten</first_name_fikcja>
+			<last_name_fikcja>Dunst</last_name_fikcja>
 			<first_name>Kirsten</first_name>
 			<last_name>Dunst</last_name>
-			<first_name_original>Kirsten</first_name_original>
-			<last_name_original>Dunst</last_name_original>
 			<details job="2" gender="2" birthday="1982-04-30" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="ab68fbad-64d8-4328-a131-9c2d0f05e210" tmdb_id="0" imdb_id="nm0000380" creator="">
-			<first_name>Robin</first_name>
-			<last_name>Duvaull</last_name>
-			<first_name_original>Robert</first_name_original>
-			<last_name_original>Duvall</last_name_original>
+			<first_name_fikcja>Robin</first_name_fikcja>
+			<last_name_fikcja>Duvaull</last_name_fikcja>
+			<first_name>Robert</first_name>
+			<last_name>Duvall</last_name>
 			<details job="2" gender="1" birthday="1931-01-05" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="2d237ef7-55da-498c-93bc-523d89bad84b" tmdb_id="0" imdb_id="nm0751983" creator="">
-			<first_name>Marigold</first_name>
+			<first_name_fikcja>Marigold</first_name_fikcja>
+			<last_name_fikcja>Rutherford</last_name_fikcja>
+			<first_name>Margaret</first_name>
 			<last_name>Rutherford</last_name>
-			<first_name_original>Margaret</first_name_original>
-			<last_name_original>Rutherford</last_name_original>
 			<details job="2" gender="2" birthday="1892-05-11" deathday="1972-05-22" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="fdc033d7-e954-4e55-848c-e6b5e7a10d21" tmdb_id="0" imdb_id="nm0000393" creator="">
+			<first_name_fikcja>Peter</first_name_fikcja>
+			<last_name_fikcja>Falk</last_name_fikcja>
 			<first_name>Peter</first_name>
 			<last_name>Falk</last_name>
-			<first_name_original>Peter</first_name_original>
-			<last_name_original>Falk</last_name_original>
 			<details job="2" gender="1" birthday="1927-11-16" deathday="2011-06-23" country="" />
 		</person>
 		<person id="56dfb16b-be30-43c0-9d37-2189a638ea81" tmdb_id="0" imdb_id="nm0000203" creator="8782" created_by="DerFronck" comment="brother of fee542c0-9787-4252-b4a8-76b3cf471432">
-			<first_name>Rio</first_name>
-			<last_name>Phenix</last_name>
-			<first_name_original>River</first_name_original>
-			<last_name_original>Phoenix</last_name_original>
+			<first_name_fikcja>Rio</first_name_fikcja>
+			<last_name_fikcja>Phenix</last_name_fikcja>
+			<first_name>River</first_name>
+			<last_name>Phoenix</last_name>
 			<details job="2" gender="1" birthday="1970-08-23" deathday="1993-10-31" country="USA" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="a80152d6-43dc-4f9c-a562-a5dbf821bc1f" tmdb_id="0" imdb_id="nm0000020" creator="">
+			<first_name_fikcja>Henry</first_name_fikcja>
+			<last_name_fikcja>Fonda</last_name_fikcja>
 			<first_name>Henry</first_name>
 			<last_name>Fonda</last_name>
-			<first_name_original>Henry</first_name_original>
-			<last_name_original>Fonda</last_name_original>
 			<details job="2" gender="1" birthday="1905-05-16" deathday="1982-08-12" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="070bd0dd-1a11-4b2b-80b7-922dae98c3ca" tmdb_id="0" imdb_id="nm0000148" creator="">
+			<first_name_fikcja>Harrison</first_name_fikcja>
+			<last_name_fikcja>Ford</last_name_fikcja>
 			<first_name>Harrison</first_name>
 			<last_name>Ford</last_name>
-			<first_name_original>Harrison</first_name_original>
-			<last_name_original>Ford</last_name_original>
 			<details job="2" gender="1" birthday="1942-07-13" deathday="" country="" />
 		</person>
 		<person id="d57e0f86-0489-4d1f-8a76-ee7c861cbee5" tmdb_id="0" imdb_id="nm0000408" creator="">
-			<first_name>Jonas T.</first_name>
-			<last_name>Fragtes</last_name>
-			<first_name_original>Jonathan</first_name_original>
-			<last_name_original>Frakes</last_name_original>
+			<first_name_fikcja>Jonas T.</first_name_fikcja>
+			<last_name_fikcja>Fragtes</last_name_fikcja>
+			<first_name>Jonathan</first_name>
+			<last_name>Frakes</last_name>
 			<details job="2" gender="1" birthday="1952-08-19" deathday="" country="" />
 		</person>
 		<person id="c104b4c8-449c-4fb6-8cbe-5dbf3e074c96" tmdb_id="0" imdb_id="nm0000151" creator="">
+			<first_name_fikcja>Morgan</first_name_fikcja>
+			<last_name_fikcja>Freeman</last_name_fikcja>
 			<first_name>Morgan</first_name>
 			<last_name>Freeman</last_name>
-			<first_name_original>Morgan</first_name_original>
-			<last_name_original>Freeman</last_name_original>
 			<details job="2" gender="1" birthday="1937-06-01" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="20162654-5f3a-49d5-950f-4e9a52729768" tmdb_id="0" imdb_id="nm0258918" creator="">
-			<first_name>Hein</first_name>
-			<last_name>Erzhart</last_name>
-			<first_name_original>Heinz</first_name_original>
-			<last_name_original>Erhardt</last_name_original>
+			<first_name_fikcja>Hein</first_name_fikcja>
+			<last_name_fikcja>Erzhart</last_name_fikcja>
+			<first_name>Heinz</first_name>
+			<last_name>Erhardt</last_name>
 			<details job="2" gender="1" birthday="1909-02-20" deathday="1979-06-05" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="1b8fcb9a-5961-43b8-af1b-1ed144880908" tmdb_id="0" imdb_id="nm0000154" creator="" comment="previous spoof name: Meal Gibtsschon - TODO: vielleicht anderweitig verwursten">
+			<first_name_fikcja>Mel</first_name_fikcja>
+			<last_name_fikcja>Gibson</last_name_fikcja>
 			<first_name>Mel</first_name>
 			<last_name>Gibson</last_name>
-			<first_name_original>Mel</first_name_original>
-			<last_name_original>Gibson</last_name_original>
 			<details job="2" gender="1" birthday="1956-01-03" deathday="" country="" />
 		</person>
 		<person id="becc2ecd-d309-46a1-b9c2-30253915af0c" tmdb_id="0" imdb_id="nm0000027" creator="">
-			<first_name>Alex</first_name>
-			<last_name>Ginnesse</last_name>
-			<first_name_original>Alec</first_name_original>
-			<last_name_original>Guinness</last_name_original>
+			<first_name_fikcja>Alex</first_name_fikcja>
+			<last_name_fikcja>Ginnesse</last_name_fikcja>
+			<first_name>Alec</first_name>
+			<last_name>Guinness</last_name>
 			<details job="2" gender="1" birthday="1914-04-02" deathday="2000-08-05" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="1f276c5b-2394-4a01-9ed1-d82a052dca57" tmdb_id="0" imdb_id="nm0089217" creator="">
+			<first_name_fikcja>Orlando</first_name_fikcja>
+			<last_name_fikcja>Bloom</last_name_fikcja>
 			<first_name>Orlando</first_name>
 			<last_name>Bloom</last_name>
-			<first_name_original>Orlando</first_name_original>
-			<last_name_original>Bloom</last_name_original>
 			<details job="2" gender="1" birthday="1977-01-13" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="5d267d5d-70a1-4b04-8bd5-bd32ffb87659" tmdb_id="0" imdb_id="nm0000418" creator="">
+			<first_name_fikcja>Danny</first_name_fikcja>
+			<last_name_fikcja>Glover</last_name_fikcja>
 			<first_name>Danny</first_name>
 			<last_name>Glover</last_name>
-			<first_name_original>Danny</first_name_original>
-			<last_name_original>Glover</last_name_original>
 			<details job="2" gender="1" birthday="1946-07-22" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="267e028a-d087-4fff-83fd-0ade0806ab8a" tmdb_id="0" imdb_id="nm0000336" creator="">
-			<first_name>Jess</first_name>
-			<last_name>Carburn</last_name>
-			<first_name_original>James</first_name_original>
-			<last_name_original>Coburn</last_name_original>
+			<first_name_fikcja>Jess</first_name_fikcja>
+			<last_name_fikcja>Carburn</last_name_fikcja>
+			<first_name>James</first_name>
+			<last_name>Coburn</last_name>
 			<details job="2" gender="1" birthday="1928-08-31" deathday="2002-11-18" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="c299b440-3684-48fa-bc21-85a76ae2c253" tmdb_id="0" imdb_id="nm0001072" creator="">
-			<first_name>Joshua</first_name>
-			<last_name>Cotton</last_name>
-			<first_name_original>Joseph</first_name_original>
-			<last_name_original>Cotten</last_name_original>
+			<first_name_fikcja>Joshua</first_name_fikcja>
+			<last_name_fikcja>Cotton</last_name_fikcja>
+			<first_name>Joseph</first_name>
+			<last_name>Cotten</last_name>
 			<details job="2" gender="1" birthday="1905-05-15" deathday="1994-02-06" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="1c6d2298-9462-4549-b09a-05a584bf9949" tmdb_id="0" imdb_id="nm0001570" creator="">
+			<first_name_fikcja>Edward</first_name_fikcja>
+			<last_name_fikcja>Norton</last_name_fikcja>
 			<first_name>Edward</first_name>
 			<last_name>Norton</last_name>
-			<first_name_original>Edward</first_name_original>
-			<last_name_original>Norton</last_name_original>
 			<details job="2" gender="1" birthday="1969-08-18" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="b7415f23-4216-4eaf-8560-e4af68ddf3ab" tmdb_id="0" imdb_id="nm0180891" creator="">
-			<first_name>Chas</first_name>
-			<last_name>Connell</last_name>
-			<first_name_original>Charles</first_name_original>
-			<last_name_original>Correll</last_name_original>
+			<first_name_fikcja>Chas</first_name_fikcja>
+			<last_name_fikcja>Connell</last_name_fikcja>
+			<first_name>Charles</first_name>
+			<last_name>Correll</last_name>
 			<details job="1" gender="1" birthday="1944-01-23" deathday="2004-06-04" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="2491d32a-9594-4ea7-9c3f-ad7d387ed316" tmdb_id="0" imdb_id="nm0001073" creator="">
+			<first_name_fikcja>Courteney</first_name_fikcja>
+			<last_name_fikcja>Cox</last_name_fikcja>
 			<first_name>Courteney</first_name>
 			<last_name>Cox</last_name>
-			<first_name_original>Courteney</first_name_original>
-			<last_name_original>Cox</last_name_original>
 			<details job="2" gender="2" birthday="1964-06-15" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="a569701c-0a7f-4d26-bf85-3eab9813e64f" tmdb_id="0" imdb_id="nm0001074" creator="">
-			<first_name>Robby</first_name>
-			<last_name>Gox</last_name>
-			<first_name_original>Ronny</first_name_original>
-			<last_name_original>Cox</last_name_original>
+			<first_name_fikcja>Robby</first_name_fikcja>
+			<last_name_fikcja>Gox</last_name_fikcja>
+			<first_name>Ronny</first_name>
+			<last_name>Cox</last_name>
 			<details job="2" gender="1" birthday="1938-07-23" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="ef434053-0ef7-46fa-bff5-ad4751a34453" tmdb_id="0" imdb_id="nm0333701" creator="">
-			<first_name>Dave</first_name>
-			<last_name>Grafer</last_name>
-			<first_name_original>David</first_name_original>
-			<last_name_original>Graf</last_name_original>
+			<first_name_fikcja>Dave</first_name_fikcja>
+			<last_name_fikcja>Grafer</last_name_fikcja>
+			<first_name>David</first_name>
+			<last_name>Graf</last_name>
 			<details job="2" gender="1" birthday="1950-04-16" deathday="2001-04-07" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="c39a70f6-b8fd-40fe-96cd-9dcb0e460e53" tmdb_id="0" imdb_id="nm0000620" creator="">
+			<first_name_fikcja>Mickey</first_name_fikcja>
+			<last_name_fikcja>Rourke</last_name_fikcja>
 			<first_name>Mickey</first_name>
 			<last_name>Rourke</last_name>
-			<first_name_original>Mickey</first_name_original>
-			<last_name_original>Rourke</last_name_original>
 			<details job="2" gender="1" birthday="1952-09-16" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="7e9aee03-78d2-49b2-95db-7f33982bbf2d" tmdb_id="0" imdb_id="nm0000430" creator="">
+			<first_name_fikcja>Steve</first_name_fikcja>
+			<last_name_fikcja>Gutterburg</last_name_fikcja>
 			<first_name>Steve</first_name>
-			<last_name>Gutterburg</last_name>
-			<first_name_original>Steve</first_name_original>
-			<last_name_original>Guttenberg</last_name_original>
+			<last_name>Guttenberg</last_name>
 			<details job="2" gender="1" birthday="1958-08-24" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="7af27da0-4abf-482c-b8a3-00612c1e4d53" tmdb_id="0" imdb_id="nm0000432" creator="">
+			<first_name_fikcja>Gene</first_name_fikcja>
+			<last_name_fikcja>Hackman</last_name_fikcja>
 			<first_name>Gene</first_name>
 			<last_name>Hackman</last_name>
-			<first_name_original>Gene</first_name_original>
-			<last_name_original>Hackman</last_name_original>
 			<details job="2" gender="1" birthday="1930-01-30" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="d86d607a-ec9e-42a2-a74b-26a810ab6a54" tmdb_id="0" imdb_id="nm0000168" creator="">
+			<first_name_fikcja>Samuel L.</first_name_fikcja>
+			<last_name_fikcja>Jackson</last_name_fikcja>
 			<first_name>Samuel L.</first_name>
 			<last_name>Jackson</last_name>
-			<first_name_original>Samuel L.</first_name_original>
-			<last_name_original>Jackson</last_name_original>
 			<details job="2" gender="1" birthday="1948-12-21" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="43280255-d8ef-469e-b3ef-8eea1b081ae6" tmdb_id="0" imdb_id="nm0357891" creator="">
+			<first_name_fikcja>Guy</first_name_fikcja>
+			<last_name_fikcja>Hamill</last_name_fikcja>
 			<first_name>Guy</first_name>
-			<last_name>Hamill</last_name>
-			<first_name_original>Guy</first_name_original>
-			<last_name_original>Hamilton</last_name_original>
+			<last_name>Hamilton</last_name>
 			<details job="1" gender="1" birthday="1922-09-16" deathday="2016-04-20" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="f4b5473d-8eb5-49f2-8b6a-6510b3e8ddc4" tmdb_id="0" imdb_id="nm0004989" creator="">
-			<first_name>Alisha</first_name>
-			<last_name>Hammigan</last_name>
-			<first_name_original>Alyson</first_name_original>
-			<last_name_original>Hannigan</last_name_original>
+			<first_name_fikcja>Alisha</first_name_fikcja>
+			<last_name_fikcja>Hammigan</last_name_fikcja>
+			<first_name>Alyson</first_name>
+			<last_name>Hannigan</last_name>
 			<details job="2" gender="2" birthday="1974-03-24" deathday="" country="" />
 		</person>
 		<person id="8d551838-62d6-4ec3-a1f7-6b477206e235" tmdb_id="0" imdb_id="nm0000760" creator="">
-			<first_name>Ricardo Dean</first_name>
-			<last_name>Handerson</last_name>
-			<first_name_original>Richard Dean</first_name_original>
-			<last_name_original>Anderson</last_name_original>
+			<first_name_fikcja>Ricardo Dean</first_name_fikcja>
+			<last_name_fikcja>Handerson</last_name_fikcja>
+			<first_name>Richard Dean</first_name>
+			<last_name>Anderson</last_name>
 			<details job="2" gender="1" birthday="1950-01-23" deathday="" country="" />
 		</person>
 		<person id="aee96d95-682e-4587-8192-3f4e689e045c" tmdb_id="0" imdb_id="nm0000638" creator="">
-			<first_name>Wilhelm</first_name>
-			<last_name>Schnatter</last_name>
-			<first_name_original>William</first_name_original>
-			<last_name_original>Shatner</last_name_original>
+			<first_name_fikcja>Wilhelm</first_name_fikcja>
+			<last_name_fikcja>Schnatter</last_name_fikcja>
+			<first_name>William</first_name>
+			<last_name>Shatner</last_name>
 			<details job="2" gender="1" birthday="1931-03-22" deathday="" country="" />
 		</person>
 		<person id="5343c932-757a-4dd0-85ee-9e65b88986f1" tmdb_id="0" imdb_id="nm0001330" creator="">
-			<first_name>Starling</first_name>
-			<last_name>Heydan</last_name>
-			<first_name_original>Sterling</first_name_original>
-			<last_name_original>Hayden</last_name_original>
+			<first_name_fikcja>Starling</first_name_fikcja>
+			<last_name_fikcja>Heydan</last_name_fikcja>
+			<first_name>Sterling</first_name>
+			<last_name>Hayden</last_name>
 			<details job="2" gender="1" birthday="1916-03-23" deathday="1986-05-23" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="3993454a-cbc2-471e-835c-0b0a44dc8f01" tmdb_id="0" imdb_id="nm0001352" creator="">
+			<first_name_fikcja>Terence</first_name_fikcja>
+			<last_name_fikcja>Hill</last_name_fikcja>
 			<first_name>Terence</first_name>
 			<last_name>Hill</last_name>
-			<first_name_original>Terence</first_name_original>
-			<last_name_original>Hill</last_name_original>
 			<details job="2" gender="1" birthday="1939-03-29" deathday="" country="" />
 		</person>
 		<person id="ef4e2db6-6ab9-4386-b2d5-c2d2b9990c97" tmdb_id="0" imdb_id="nm0389219" creator="">
-			<first_name>Knut</first_name>
-			<last_name>Hopmann</last_name>
-			<first_name_original>Kurt</first_name_original>
-			<last_name_original>Hoffmann</last_name_original>
+			<first_name_fikcja>Knut</first_name_fikcja>
+			<last_name_fikcja>Hopmann</last_name_fikcja>
+			<first_name>Kurt</first_name>
+			<last_name>Hoffmann</last_name>
 			<details job="1" gender="1" birthday="1910-11-12" deathday="2001-06-25" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="25bbcc47-1ec9-407d-840e-5efebdbc0dc3" tmdb_id="0" imdb_id="nm0000454" creator="">
-			<first_name>Denis</first_name>
-			<last_name>Hopser</last_name>
-			<first_name_original>Dennis</first_name_original>
-			<last_name_original>Hopper</last_name_original>
+			<first_name_fikcja>Denis</first_name_fikcja>
+			<last_name_fikcja>Hopser</last_name_fikcja>
+			<first_name>Dennis</first_name>
+			<last_name>Hopper</last_name>
 			<details job="2" gender="1" birthday="1936-05-17" deathday="2010-05-29" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="6868ac17-913c-4e8c-a0b5-ee32ba6cf3e3" tmdb_id="0" imdb_id="nm0000163" creator="">
+			<first_name_fikcja>Dustin</first_name_fikcja>
+			<last_name_fikcja>Hoffman</last_name_fikcja>
 			<first_name>Dustin</first_name>
 			<last_name>Hoffman</last_name>
-			<first_name_original>Dustin</first_name_original>
-			<last_name_original>Hoffman</last_name_original>
 			<details job="2" gender="1" birthday="1937-08-08" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="b99662fc-9503-436a-900c-6c63e9b91fce" tmdb_id="0" imdb_id="nm0001379" creator="">
-			<first_name>Joe</first_name>
-			<last_name>Husten</last_name>
-			<first_name_original>John</first_name_original>
-			<last_name_original>Huston</last_name_original>
+			<first_name_fikcja>Joe</first_name_fikcja>
+			<last_name_fikcja>Husten</last_name_fikcja>
+			<first_name>John</first_name>
+			<last_name>Huston</last_name>
 			<details job="1" gender="1" birthday="1906-08-05" deathday="1987-08-28" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="5317ae08-3426-4fd3-b67e-73a453ef3f64" tmdb_id="0" imdb_id="nm0000469" creator="">
-			<first_name>John Earl</first_name>
-			<last_name>James</last_name>
-			<first_name_original>James Earl</first_name_original>
-			<last_name_original>Jones</last_name_original>
+			<first_name_fikcja>John Earl</first_name_fikcja>
+			<last_name_fikcja>James</last_name_fikcja>
+			<first_name>James Earl</first_name>
+			<last_name>Jones</last_name>
 			<details job="2" gender="1" birthday="1931-01-17" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="e039c83c-9815-45e2-9d80-424aedf5a1a1" tmdb_id="0" imdb_id="nm0000169" creator="">
+			<first_name_fikcja>Tommy Lee</first_name_fikcja>
+			<last_name_fikcja>Jones</last_name_fikcja>
 			<first_name>Tommy Lee</first_name>
 			<last_name>Jones</last_name>
-			<first_name_original>Tommy Lee</first_name_original>
-			<last_name_original>Jones</last_name_original>
 			<details job="2" gender="1" birthday="1946-09-15" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="2371f9cf-79a1-4dc4-8909-f69511853549" tmdb_id="0" imdb_id="nm0000116" creator="">
+			<first_name_fikcja>James</first_name_fikcja>
+			<last_name_fikcja>Cameron</last_name_fikcja>
 			<first_name>James</first_name>
 			<last_name>Cameron</last_name>
-			<first_name_original>James</first_name_original>
-			<last_name_original>Cameron</last_name_original>
 			<details job="1" gender="1" birthday="1954-08-16" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="a5191c4e-7619-4aec-98ca-dde532991fca" tmdb_id="0" imdb_id="nm0001420" creator="">
-			<first_name>DeWoody</first_name>
-			<last_name>Kerstey</last_name>
-			<first_name_original>DeForest</first_name_original>
-			<last_name_original>Kelley</last_name_original>
+			<first_name_fikcja>DeWoody</first_name_fikcja>
+			<last_name_fikcja>Kerstey</last_name_fikcja>
+			<first_name>DeForest</first_name>
+			<last_name>Kelley</last_name>
 			<details job="2" gender="1" birthday="1920-01-20" deathday="1999-06-11" country="" />
 		</person>
 		<person id="4cabbb45-3a31-4f65-aa52-4a99ec89a87a" tmdb_id="0" imdb_id="nm0000174" creator="">
+			<first_name_fikcja>Val</first_name_fikcja>
+			<last_name_fikcja>Kilmer</last_name_fikcja>
 			<first_name>Val</first_name>
 			<last_name>Kilmer</last_name>
-			<first_name_original>Val</first_name_original>
-			<last_name_original>Kilmer</last_name_original>
 			<details job="2" gender="1" birthday="1959-12-31" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="df97bbf8-8ff7-44fc-be36-7798dc8f8d79" tmdb_id="0" imdb_id="nm0001429" creator="">
+			<first_name_fikcja>Takeshi</first_name_fikcja>
+			<last_name_fikcja>Kitano</last_name_fikcja>
 			<first_name>Takeshi</first_name>
 			<last_name>Kitano</last_name>
-			<first_name_original>Takeshi</first_name_original>
-			<last_name_original>Kitano</last_name_original>
 			<details job="1" gender="1" birthday="1947-01-18" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="e0807a2d-e04d-4abf-9422-afa44b202438" tmdb_id="0" imdb_id="nm0000125" creator="">
+			<first_name_fikcja>Sean</first_name_fikcja>
+			<last_name_fikcja>Connery</last_name_fikcja>
 			<first_name>Sean</first_name>
 			<last_name>Connery</last_name>
-			<first_name_original>Sean</first_name_original>
-			<last_name_original>Connery</last_name_original>
 			<details job="2" gender="1" birthday="1930-08-25" deathday="2020-10-31" country="" />
 		</person>
 		<person id="0b680977-89b4-4022-b474-091cbcc15a12" tmdb_id="0" imdb_id="nm0179281" creator="">
-			<first_name>Silvio</first_name>
-			<last_name>Carpucci</last_name>
-			<first_name_original>Sergio</first_name_original>
-			<last_name_original>Corbucci</last_name_original>
+			<first_name_fikcja>Silvio</first_name_fikcja>
+			<last_name_fikcja>Carpucci</last_name_fikcja>
+			<first_name>Sergio</first_name>
+			<last_name>Corbucci</last_name>
 			<details job="1" gender="1" birthday="1926-12-06" deathday="1990-12-01" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="c5f64861-b665-4c12-a1be-515b23ef0af0" tmdb_id="0" imdb_id="nm0000131" creator="" comment="brother of e058354c-a8fa-425e-87f6-00609b2b2cfb">
+			<first_name_fikcja>John</first_name_fikcja>
+			<last_name_fikcja>Cusack</last_name_fikcja>
 			<first_name>John</first_name>
 			<last_name>Cusack</last_name>
-			<first_name_original>John</first_name_original>
-			<last_name_original>Cusack</last_name_original>
 			<details job="2" gender="1" birthday="1966-06-28" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="8c71481d-d30b-4da8-a207-82f0bb5a5fea" tmdb_id="0" imdb_id="nm0000126" creator="">
+			<first_name_fikcja>Kevin</first_name_fikcja>
+			<last_name_fikcja>Costner</last_name_fikcja>
 			<first_name>Kevin</first_name>
 			<last_name>Costner</last_name>
-			<first_name_original>Kevin</first_name_original>
-			<last_name_original>Costner</last_name_original>
 			<details job="1" gender="1" birthday="1955-01-18" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="153dc080-86a1-4f3d-bb13-65b3aa90f7ea" tmdb_id="0" imdb_id="nm0000040" creator="">
+			<first_name_fikcja>Stanley</first_name_fikcja>
+			<last_name_fikcja>Kubrick</last_name_fikcja>
 			<first_name>Stanley</first_name>
 			<last_name>Kubrick</last_name>
-			<first_name_original>Stanley</first_name_original>
-			<last_name_original>Kubrick</last_name_original>
 			<details job="1" gender="1" birthday="1928-07-26" deathday="1999-03-07" country="" />
 		</person>
 		<person id="280a71d8-f9ba-43e7-9ec2-cb1e06bf98e8" tmdb_id="0" imdb_id="nm0000130" creator="">
+			<first_name_fikcja>Jamie Lee</first_name_fikcja>
+			<last_name_fikcja>Curtis</last_name_fikcja>
 			<first_name>Jamie Lee</first_name>
 			<last_name>Curtis</last_name>
-			<first_name_original>Jamie Lee</first_name_original>
-			<last_name_original>Curtis</last_name_original>
 			<details job="2" gender="2" birthday="1958-11-22" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="46732782-8b5a-4d4b-976b-fa7bbfe43ea1" tmdb_id="0" imdb_id="nm0496866" creator="">
-			<first_name>Bertram</first_name>
-			<last_name>Ley</last_name>
-			<first_name_original>Bernard</first_name_original>
-			<last_name_original>Lee</last_name_original>
+			<first_name_fikcja>Bertram</first_name_fikcja>
+			<last_name_fikcja>Ley</last_name_fikcja>
+			<first_name>Bernard</first_name>
+			<last_name>Lee</last_name>
 			<details job="2" gender="1" birthday="1908-01-10" deathday="1981-01-16" country="" />
 		</person>
 		<person id="83cd765b-e00b-486d-b075-920992f9e784" tmdb_id="0" imdb_id="nm0001469" creator="">
-			<first_name>Baron</first_name>
-			<last_name>Levyssen</last_name>
-			<first_name_original>Barry</first_name_original>
-			<last_name_original>Levinson</last_name_original>
+			<first_name_fikcja>Baron</first_name_fikcja>
+			<last_name_fikcja>Levyssen</last_name_fikcja>
+			<first_name>Barry</first_name>
+			<last_name>Levinson</last_name>
 			<details job="1" gender="1" birthday="1942-04-06" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="690bc6cc-4c9f-4bf7-8538-5e8e556379c7" tmdb_id="0" imdb_id="nm0000489" creator="">
+			<first_name_fikcja>Christopher</first_name_fikcja>
+			<last_name_fikcja>Lee</last_name_fikcja>
 			<first_name>Christopher</first_name>
 			<last_name>Lee</last_name>
-			<first_name_original>Christopher</first_name_original>
-			<last_name_original>Lee</last_name_original>
 			<details job="2" gender="1" birthday="1922-05-27" deathday="2015-06-07" country="" />
 		</person>
 		<person id="a2c65598-61b1-405a-96a9-41a9d6faa454" tmdb_id="0" imdb_id="nm0005155" creator="">
+			<first_name_fikcja>Desmond</first_name_fikcja>
+			<last_name_fikcja>Lloywelene</last_name_fikcja>
 			<first_name>Desmond</first_name>
-			<last_name>Lloywelene</last_name>
-			<first_name_original>Desmond</first_name_original>
-			<last_name_original>Llewelyn</last_name_original>
+			<last_name>Llewelyn</last_name>
 			<details job="2" gender="1" birthday="1914-09-12" deathday="1999-12-19" country="" />
 		</person>
 		<person id="424d8116-afc9-44e4-b076-79b51c2b1f0d" tmdb_id="0" imdb_id="nm0000186" creator="">
+			<first_name_fikcja>David</first_name_fikcja>
+			<last_name_fikcja>Lynch</last_name_fikcja>
 			<first_name>David</first_name>
 			<last_name>Lynch</last_name>
-			<first_name_original>David</first_name_original>
-			<last_name_original>Lynch</last_name_original>
 			<details job="1" gender="1" birthday="1946-01-20" deathday="" country="" />
 		</person>
 		<person id="854537be-c9f6-4f13-90bb-97f46e821b6e" tmdb_id="0" imdb_id="nm0001466" creator="">
-			<first_name>Silvio</first_name>
-			<last_name>Legume</last_name>
-			<first_name_original>Sergio</first_name_original>
-			<last_name_original>Leone</last_name_original>
+			<first_name_fikcja>Silvio</first_name_fikcja>
+			<last_name_fikcja>Legume</last_name_fikcja>
+			<first_name>Sergio</first_name>
+			<last_name>Leone</last_name>
 			<details job="1" gender="1" birthday="1929-01-03" deathday="1989-04-30" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="75836a6f-f590-431e-a572-8eb7226beffc" tmdb_id="0" imdb_id="nm0000502" creator="">
+			<first_name_fikcja>Christopher</first_name_fikcja>
+			<last_name_fikcja>Lloyd</last_name_fikcja>
 			<first_name>Christopher</first_name>
 			<last_name>Lloyd</last_name>
-			<first_name_original>Christopher</first_name_original>
-			<last_name_original>Lloyd</last_name_original>
 			<details job="2" gender="1" birthday="1938-10-22" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="8588812a-bde4-4497-ac45-0d37aca15fd0" tmdb_id="0" imdb_id="nm0000501" creator="">
-			<first_name>Ryan</first_name>
-			<last_name>Lotti</last_name>
-			<first_name_original>Ray</first_name_original>
-			<last_name_original>Liotta</last_name_original>
+			<first_name_fikcja>Ryan</first_name_fikcja>
+			<last_name_fikcja>Lotti</last_name_fikcja>
+			<first_name>Ray</first_name>
+			<last_name>Liotta</last_name>
 			<details job="2" gender="1" birthday="1954-12-18" deathday="2022-05-26" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="58a6e6af-01b3-4245-ae90-f00206baf89b" tmdb_id="0" imdb_id="nm0001450" creator="">
-			<first_name>Angeline</first_name>
-			<last_name>Landsborough</last_name>
-			<first_name_original>Angela</first_name_original>
-			<last_name_original>Lansbury</last_name_original>
+			<first_name_fikcja>Angeline</first_name_fikcja>
+			<last_name_fikcja>Landsborough</last_name_fikcja>
+			<first_name>Angela</first_name>
+			<last_name>Lansbury</last_name>
 			<details job="2" gender="2" birthday="1925-10-16" deathday="2022-10-11" country="" />
 		</person>
 		<person id="bae8ed17-ebab-4a38-b10a-50546e895a1f" tmdb_id="0" imdb_id="nm0001532" creator="">
-			<first_name>Jon</first_name>
-			<last_name>MacTiername</last_name>
-			<first_name_original>John</first_name_original>
-			<last_name_original>McTiernan</last_name_original>
+			<first_name_fikcja>Jon</first_name_fikcja>
+			<last_name_fikcja>MacTiername</last_name_fikcja>
+			<first_name>John</first_name>
+			<last_name>McTiernan</last_name>
 			<details job="1" gender="1" birthday="1951-01-08" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="c41d6da8-46ab-4a91-af57-814a2a24d979" tmdb_id="0" imdb_id="nm0001492" creator="">
+			<first_name_fikcja>Kyle</first_name_fikcja>
+			<last_name_fikcja>MacLachlan</last_name_fikcja>
 			<first_name>Kyle</first_name>
 			<last_name>MacLachlan</last_name>
-			<first_name_original>Kyle</first_name_original>
-			<last_name_original>MacLachlan</last_name_original>
 			<details job="2" gender="1" birthday="1959-02-22" deathday="" country="" />
 		</person>
 		<person id="3cf25d4a-f126-4346-98c9-ef1568bc0e05" tmdb_id="0" imdb_id="nm0000233" creator="">
+			<first_name_fikcja>Quentin</first_name_fikcja>
+			<last_name_fikcja>Tarantino</last_name_fikcja>
 			<first_name>Quentin</first_name>
 			<last_name>Tarantino</last_name>
-			<first_name_original>Quentin</first_name_original>
-			<last_name_original>Tarantino</last_name_original>
 			<details job="2" gender="1" birthday="1963-03-27" deathday="" country="" />
 		</person>
 		<person id="c57b5636-85a6-401e-b1f5-d64b66ae95ab" tmdb_id="0" imdb_id="nm0569226" creator="">
-			<first_name>Bryce</first_name>
-			<last_name>McGrill</last_name>
-			<first_name_original>Bruce</first_name_original>
-			<last_name_original>McGill</last_name_original>
+			<first_name_fikcja>Bryce</first_name_fikcja>
+			<last_name_fikcja>McGrill</last_name_fikcja>
+			<first_name>Bruce</first_name>
+			<last_name>McGill</last_name>
 			<details job="2" gender="1" birthday="1950-07-11" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="f9a18a26-3dc4-401d-93bb-221247211dff" tmdb_id="0" imdb_id="nm0000226" creator="" comment="previous spoof name: Willst Miff - TODO: bei anderer Gelegenheit verwenden">
+			<first_name_fikcja>Will</first_name_fikcja>
+			<last_name_fikcja>Smith</last_name_fikcja>
 			<first_name>Will</first_name>
 			<last_name>Smith</last_name>
-			<first_name_original>Will</first_name_original>
-			<last_name_original>Smith</last_name_original>
 			<details job="2" gender="1" birthday="1968-09-25" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="ea76aa3d-2541-481a-b08a-e6905da0cb30" tmdb_id="0" imdb_id="nm0002085" creator="">
-			<first_name>Gerd</first_name>
-			<last_name>Möbel</last_name>
-			<first_name_original>Gert</first_name_original>
-			<last_name_original>Fröbe</last_name_original>
+			<first_name_fikcja>Gerd</first_name_fikcja>
+			<last_name_fikcja>Möbel</last_name_fikcja>
+			<first_name>Gert</first_name>
+			<last_name>Fröbe</last_name>
 			<details job="2" gender="1" birthday="1913-02-25" deathday="1988-09-05" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="56035d20-9b99-4225-92e0-aee2cd9b7119" tmdb_id="0" imdb_id="nm0000549" creator="">
+			<first_name_fikcja>Roger</first_name_fikcja>
+			<last_name_fikcja>Moore</last_name_fikcja>
 			<first_name>Roger</first_name>
 			<last_name>Moore</last_name>
-			<first_name_original>Roger</first_name_original>
-			<last_name_original>Moore</last_name_original>
 			<details job="2" gender="1" birthday="1927-10-14" deathday="2017-05-23" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="fdca1461-1fae-4cfc-8a3e-ab60bf1e0449" tmdb_id="0" imdb_id="nm0000194" creator="">
+			<first_name_fikcja>Julianne</first_name_fikcja>
+			<last_name_fikcja>Moore</last_name_fikcja>
 			<first_name>Julianne</first_name>
 			<last_name>Moore</last_name>
-			<first_name_original>Julianne</first_name_original>
-			<last_name_original>Moore</last_name_original>
 			<details job="2" gender="2" birthday="1960-12-03" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="55e78fc4-4fcc-4eaa-84bd-a816d0d254e2" tmdb_id="0" imdb_id="nm0000191" creator="">
+			<first_name_fikcja>Ewan</first_name_fikcja>
+			<last_name_fikcja>McGregor</last_name_fikcja>
 			<first_name>Ewan</first_name>
 			<last_name>McGregor</last_name>
-			<first_name_original>Ewan</first_name_original>
-			<last_name_original>McGregor</last_name_original>
 			<details job="2" gender="1" birthday="1971-03-31" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="3f824f65-53d2-4999-94b4-1e7ce5e8b69b" tmdb_id="0" imdb_id="nm0318854" creator="">
-			<first_name>Walther</first_name>
-			<last_name>Guelle</last_name>
-			<first_name_original>Walter</first_name_original>
-			<last_name_original>Giller</last_name_original>
+			<first_name_fikcja>Walther</first_name_fikcja>
+			<last_name_fikcja>Guelle</last_name_fikcja>
+			<first_name>Walter</first_name>
+			<last_name>Giller</last_name>
 			<details job="2" gender="1" birthday="1927-08-23" deathday="2011-12-15" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="5b4609a9-c753-4cd2-a415-8ed5a369597a" tmdb_id="0" imdb_id="nm0574433" creator="">
-			<first_name>Fred</first_name>
-			<last_name>McRay</last_name>
-			<first_name_original>Frank</first_name_original>
-			<last_name_original>McRae</last_name_original>
+			<first_name_fikcja>Fred</first_name_fikcja>
+			<last_name_fikcja>McRay</last_name_fikcja>
+			<first_name>Frank</first_name>
+			<last_name>McRae</last_name>
 			<details job="2" gender="1" birthday="1941-03-18" deathday="2021-04-29" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="60a42fb1-2c26-44f4-9193-6c1549cdd657" tmdb_id="0" imdb_id="nm0561755" creator="">
-			<first_name>Louis</first_name>
-			<last_name>Maxgood</last_name>
-			<first_name_original>Lois</first_name_original>
-			<last_name_original>Maxwell</last_name_original>
+			<first_name_fikcja>Louis</first_name_fikcja>
+			<last_name_fikcja>Maxgood</last_name_fikcja>
+			<first_name>Lois</first_name>
+			<last_name>Maxwell</last_name>
 			<details job="2" gender="2" birthday="1927-02-14" deathday="2007-09-29" country="" />
 		</person>
 		<person id="20e172be-76f4-4c1a-a582-d574c233ac6e" tmdb_id="0" imdb_id="nm0000197" creator="">
+			<first_name_fikcja>Jack</first_name_fikcja>
+			<last_name_fikcja>Nicholson</last_name_fikcja>
 			<first_name>Jack</first_name>
 			<last_name>Nicholson</last_name>
-			<first_name_original>Jack</first_name_original>
-			<last_name_original>Nicholson</last_name_original>
 			<details job="2" gender="1" birthday="1937-04-22" deathday="" country="" />
 		</person>
 		<person id="6d170d62-66c1-4579-b9b1-79c06cec5699" tmdb_id="0" imdb_id="nm0000553" creator="8782" created_by="DerFronck">
+			<first_name_fikcja>Liam</first_name_fikcja>
+			<last_name_fikcja>Neeson</last_name_fikcja>
 			<first_name>Liam</first_name>
 			<last_name>Neeson</last_name>
-			<first_name_original>Liam</first_name_original>
-			<last_name_original>Neeson</last_name_original>
 			<details job="2" gender="1" birthday="1952-06-07" deathday="" country="IRL" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="61b52966-3363-4fb3-a8d1-61a5555a0961" tmdb_id="0" imdb_id="nm0000559" creator="">
-			<first_name>Lenhard</first_name>
-			<last_name>Nimmer</last_name>
-			<first_name_original>Leonard</first_name_original>
-			<last_name_original>Nimoy</last_name_original>
+			<first_name_fikcja>Lenhard</first_name_fikcja>
+			<last_name_fikcja>Nimmer</last_name_fikcja>
+			<first_name>Leonard</first_name>
+			<last_name>Nimoy</last_name>
 			<details job="2" gender="1" birthday="1931-03-26" deathday="2015-02-27" country="" />
 		</person>
 		<person id="2b6c2f08-bc5e-4e78-ad8e-3d70169a8fe7" tmdb_id="0" imdb_id="nm0000057" creator="">
-			<first_name>Davy</first_name>
-			<last_name>Niveau</last_name>
-			<first_name_original>David</first_name_original>
-			<last_name_original>Niven</last_name_original>
+			<first_name_fikcja>Davy</first_name_fikcja>
+			<last_name_fikcja>Niveau</last_name_fikcja>
+			<first_name>David</first_name>
+			<last_name>Niven</last_name>
 			<details job="2" gender="1" birthday="1910-03-01" deathday="1983-07-29" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="c3c34605-bcf7-4b82-8d91-ffbebe60d967" tmdb_id="0" imdb_id="nm0001592" creator="">
-			<first_name>Jon</first_name>
-			<last_name>Pantoffiano</last_name>
-			<first_name_original>Joe</first_name_original>
-			<last_name_original>Pantoliano</last_name_original>
+			<first_name_fikcja>Jon</first_name_fikcja>
+			<last_name_fikcja>Pantoffiano</last_name_fikcja>
+			<first_name>Joe</first_name>
+			<last_name>Pantoliano</last_name>
 			<details job="2" gender="1" birthday="1951-09-12" deathday="" country="" />
 		</person>
 		<person id="5679447a-7706-40b9-bb7c-b191abebd5d8" tmdb_id="0" imdb_id="nm0000851" creator="">
-			<first_name>Rex</first_name>
-			<last_name>Parkow</last_name>
-			<first_name_original>Lex</first_name_original>
-			<last_name_original>Barker</last_name_original>
+			<first_name_fikcja>Rex</first_name_fikcja>
+			<last_name_fikcja>Parkow</last_name_fikcja>
+			<first_name>Lex</first_name>
+			<last_name>Barker</last_name>
 			<details job="2" gender="1" birthday="1919-05-08" deathday="1973-05-11" country="" />
 		</person>
 		<person id="91ddb72a-6f14-4378-ba9e-79e7274d5c3c" tmdb_id="0" imdb_id="nm0001316" creator="">
-			<first_name>Olivier</first_name>
-			<last_name>Hartly</last_name>
-			<first_name_original>Oliver</first_name_original>
-			<last_name_original>Hardy</last_name_original>
+			<first_name_fikcja>Olivier</first_name_fikcja>
+			<last_name_fikcja>Hartly</last_name_fikcja>
+			<first_name>Oliver</first_name>
+			<last_name>Hardy</last_name>
 			<details job="2" gender="1" birthday="1892-01-18" deathday="1957-08-07" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="0c7cec0b-8d48-46b8-a66b-468c272c695e" tmdb_id="0" imdb_id="nm0000200" creator="">
+			<first_name_fikcja>Bill</first_name_fikcja>
+			<last_name_fikcja>Paxton</last_name_fikcja>
 			<first_name>Bill</first_name>
 			<last_name>Paxton</last_name>
-			<first_name_original>Bill</first_name_original>
-			<last_name_original>Paxton</last_name_original>
 			<details job="2" gender="1" birthday="1955-05-17" deathday="2017-02-25" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="cdd0e7aa-11eb-48d7-82cc-d693e2130d05" tmdb_id="0" imdb_id="nm0000583" creator="">
-			<first_name>Wolfram</first_name>
-			<last_name>Paulesen</last_name>
-			<first_name_original>Wolfgang</first_name_original>
-			<last_name_original>Petersen</last_name_original>
+			<first_name_fikcja>Wolfram</first_name_fikcja>
+			<last_name_fikcja>Paulesen</last_name_fikcja>
+			<first_name>Wolfgang</first_name>
+			<last_name>Petersen</last_name>
 			<details job="1" gender="1" birthday="1941-03-14" deathday="2022-08-12" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="5fd9f85c-9265-4529-a629-d8c4a5ce8472" tmdb_id="0" imdb_id="nm0000934" creator="">
+			<first_name_fikcja>Bernardo</first_name_fikcja>
+			<last_name_fikcja>Bertolucci</last_name_fikcja>
 			<first_name>Bernardo</first_name>
 			<last_name>Bertolucci</last_name>
-			<first_name_original>Bernardo</first_name_original>
-			<last_name_original>Bertolucci</last_name_original>
 			<details job="1" gender="1" birthday="1941-03-16" deathday="2018-11-26" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="0f6fe96b-c7fe-4f4e-a382-1c0b12531b0d" tmdb_id="0" imdb_id="nm0000582" creator="">
+			<first_name_fikcja>Joe</first_name_fikcja>
+			<last_name_fikcja>Pesci</last_name_fikcja>
 			<first_name>Joe</first_name>
 			<last_name>Pesci</last_name>
-			<first_name_original>Joe</first_name_original>
-			<last_name_original>Pesci</last_name_original>
 			<details job="2" gender="1" birthday="1943-02-09" deathday="" country="" />
 		</person>
 		<person id="188024b3-d76f-4999-bc00-13c505a6c646" tmdb_id="0" imdb_id="nm0000587" creator="" comment="merged with duplicate, previous id 1305a222-c3bf-429a-a1c5-f07a8c52db6a">
-			<first_name>Ronald</first_name>
-			<last_name>Pleasefence</last_name>
-			<first_name_original>Donald</first_name_original>
-			<last_name_original>Pleasence</last_name_original>
+			<first_name_fikcja>Ronald</first_name_fikcja>
+			<last_name_fikcja>Pleasefence</last_name_fikcja>
+			<first_name>Donald</first_name>
+			<last_name>Pleasence</last_name>
 			<details job="2" gender="1" birthday="1919-10-05" deathday="1995-02-02" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="aa96c3b5-5a8b-481b-a426-bb5c4b059132" tmdb_id="0" imdb_id="nm0690691" creator="">
-			<first_name>Erik</first_name>
-			<last_name>Pronto</last_name>
-			<first_name_original>Erich</first_name_original>
-			<last_name_original>Ponto</last_name_original>
+			<first_name_fikcja>Erik</first_name_fikcja>
+			<last_name_fikcja>Pronto</last_name_fikcja>
+			<first_name>Erich</first_name>
+			<last_name>Ponto</last_name>
 			<details job="2" gender="1" birthday="1884-12-14" deathday="1957-02-04" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="d007e8f0-5b2f-4c19-86c2-a85166127935" tmdb_id="0" imdb_id="nm0000606" creator="">
+			<first_name_fikcja>Jean</first_name_fikcja>
+			<last_name_fikcja>Reno</last_name_fikcja>
 			<first_name>Jean</first_name>
 			<last_name>Reno</last_name>
-			<first_name_original>Jean</first_name_original>
-			<last_name_original>Reno</last_name_original>
 			<details job="2" gender="1" birthday="1948-07-30" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="98e18fc8-a233-4035-bf64-fa96bbed9792" tmdb_id="0" imdb_id="nm0000609" creator="">
-			<first_name>Vin</first_name>
-			<last_name>Rhayes</last_name>
-			<first_name_original>Ving</first_name_original>
-			<last_name_original>Rhames</last_name_original>
+			<first_name_fikcja>Vin</first_name_fikcja>
+			<last_name_fikcja>Rhayes</last_name_fikcja>
+			<first_name>Ving</first_name>
+			<last_name>Rhames</last_name>
 			<details job="2" gender="1" birthday="1959-05-12" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="514b8caf-e88f-4137-8a2d-43521569accf" tmdb_id="0" imdb_id="nm0001675" creator="">
-			<first_name>Robin</first_name>
-			<last_name>Rodrigo</last_name>
-			<first_name_original>Robert</first_name_original>
-			<last_name_original>Rodriguez</last_name_original>
+			<first_name_fikcja>Robin</first_name_fikcja>
+			<last_name_fikcja>Rodrigo</last_name_fikcja>
+			<first_name>Robert</first_name>
+			<last_name>Rodriguez</last_name>
 			<details job="1" gender="1" birthday="1968-06-20" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="91af6b99-191b-41e2-8c41-f7c0498e1c18" tmdb_id="0" imdb_id="nm0000621" creator="">
+			<first_name_fikcja>Kurt</first_name_fikcja>
+			<last_name_fikcja>Russell</last_name_fikcja>
 			<first_name>Kurt</first_name>
 			<last_name>Russell</last_name>
-			<first_name_original>Kurt</first_name_original>
-			<last_name_original>Russell</last_name_original>
 			<details job="2" gender="1" birthday="1951-03-17" deathday="" country="" />
 		</person>
 		<person id="35ecbb4e-ee36-415d-914a-a78ed8e32d4b" tmdb_id="0" imdb_id="nm0004464" creator="">
-			<first_name>Hans</first_name>
-			<last_name>Rührtmann</last_name>
-			<first_name_original>Heinz</first_name_original>
-			<last_name_original>Rühmann</last_name_original>
+			<first_name_fikcja>Hans</first_name_fikcja>
+			<last_name_fikcja>Rührtmann</last_name_fikcja>
+			<first_name>Heinz</first_name>
+			<last_name>Rühmann</last_name>
 			<details job="2" gender="1" birthday="1902-03-07" deathday="1994-10-03" country="" />
 		</person>
 		<person id="ac09552a-75f0-46cc-85ac-c49c232309d2" tmdb_id="0" imdb_id="nm0817881" creator="">
+			<first_name_fikcja>Bud</first_name_fikcja>
+			<last_name_fikcja>Spencer</last_name_fikcja>
+			<nick_name_fikcja>Bucky</nick_name_fikcja>
+			<nick_name>Buddy</nick_name>
 			<first_name>Bud</first_name>
 			<last_name>Spencer</last_name>
-			<nick_name>Bucky</nick_name>
-			<nick_name_original>Buddy</nick_name_original>
-			<first_name_original>Bud</first_name_original>
-			<last_name_original>Spencer</last_name_original>
 			<details job="2" gender="1" birthday="1929-10-31" deathday="2016-06-27" country="" />
 		</person>
 		<person id="95bfcae9-e542-49e8-9b69-a4a77e4cc42c" tmdb_id="0" imdb_id="nm0000229" creator="">
+			<first_name_fikcja>Steven</first_name_fikcja>
+			<last_name_fikcja>Spielberg</last_name_fikcja>
 			<first_name>Steven</first_name>
 			<last_name>Spielberg</last_name>
-			<first_name_original>Steven</first_name_original>
-			<last_name_original>Spielberg</last_name_original>
 			<details job="1" gender="1" birthday="1946-12-18" deathday="" country="" />
 		</person>
 		<person id="8d2ae397-b5ad-466c-9a32-2105a76d5701" tmdb_id="0" imdb_id="nm0000172" creator="">
+			<first_name_fikcja>Harvey</first_name_fikcja>
+			<last_name_fikcja>Keitel</last_name_fikcja>
 			<first_name>Harvey</first_name>
 			<last_name>Keitel</last_name>
-			<first_name_original>Harvey</first_name_original>
-			<last_name_original>Keitel</last_name_original>
 			<details job="2" gender="1" birthday="1939-05-13" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="1312b7b5-3215-40fd-92c8-fb0a16a2aebe" tmdb_id="0" imdb_id="nm0000093" creator="">
+			<first_name_fikcja>Brad</first_name_fikcja>
+			<last_name_fikcja>Pitt</last_name_fikcja>
 			<first_name>Brad</first_name>
 			<last_name>Pitt</last_name>
-			<first_name_original>Brad</first_name_original>
-			<last_name_original>Pitt</last_name_original>
 			<details job="2" gender="1" birthday="1963-12-18" deathday="" country="" />
 		</person>
 		<person id="218c069f-2bcf-4583-ac26-a9531c08cc8d" tmdb_id="0" imdb_id="nm0000648" creator="">
+			<first_name_fikcja>Wesley</first_name_fikcja>
+			<last_name_fikcja>Snipes</last_name_fikcja>
 			<first_name>Wesley</first_name>
 			<last_name>Snipes</last_name>
-			<first_name_original>Wesley</first_name_original>
-			<last_name_original>Snipes</last_name_original>
 			<details job="2" gender="1" birthday="1962-07-31" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="06b81de5-9f83-4838-a979-690fa6bb2454" tmdb_id="0" imdb_id="nm0000112" creator="">
+			<first_name_fikcja>Pierce</first_name_fikcja>
+			<last_name_fikcja>Brosnan</last_name_fikcja>
 			<first_name>Pierce</first_name>
 			<last_name>Brosnan</last_name>
-			<first_name_original>Pierce</first_name_original>
-			<last_name_original>Brosnan</last_name_original>
 			<details job="2" gender="1" birthday="1953-05-16" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="1034ee00-f6ff-4db0-8800-fa3c87e9fb74" tmdb_id="0" imdb_id="nm0000217" creator="">
+			<first_name_fikcja>Martin</first_name_fikcja>
+			<last_name_fikcja>Scorsese</last_name_fikcja>
 			<first_name>Martin</first_name>
 			<last_name>Scorsese</last_name>
-			<first_name_original>Martin</first_name_original>
-			<last_name_original>Scorsese</last_name_original>
 			<details job="1" gender="1" birthday="1942-11-17" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="8d8c760f-a185-40d7-8f4c-698811b0f026" tmdb_id="0" imdb_id="nm0001716" creator="">
-			<first_name>Toni</first_name>
-			<last_name>Scotch</last_name>
-			<first_name_original>Tony</first_name_original>
-			<last_name_original>Scott</last_name_original>
+			<first_name_fikcja>Toni</first_name_fikcja>
+			<last_name_fikcja>Scotch</last_name_fikcja>
+			<first_name>Tony</first_name>
+			<last_name>Scott</last_name>
 			<details job="1" gender="1" birthday="1944-06-21" deathday="2012-08-19" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="faa73ce4-5b83-44ab-93b5-1bfde3c2fcc7" tmdb_id="0" imdb_id="nm0000634" creator="">
-			<first_name>Paul</first_name>
-			<last_name>Sellerie</last_name>
-			<first_name_original>Peter</first_name_original>
-			<last_name_original>Sellers</last_name_original>
+			<first_name_fikcja>Paul</first_name_fikcja>
+			<last_name_fikcja>Sellerie</last_name_fikcja>
+			<first_name>Peter</first_name>
+			<last_name>Sellers</last_name>
 			<details job="2" gender="1" birthday="1925-09-08" deathday="1980-07-24" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="123df8d5-a8ca-40fe-bdae-89e70d5e0601" tmdb_id="0" imdb_id="nm0000631" creator="">
+			<first_name_fikcja>Ridley</first_name_fikcja>
+			<last_name_fikcja>Scott</last_name_fikcja>
 			<first_name>Ridley</first_name>
 			<last_name>Scott</last_name>
-			<first_name_original>Ridley</first_name_original>
-			<last_name_original>Scott</last_name_original>
 			<details job="1" gender="1" birthday="1937-11-30" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="593b7055-d649-46f8-a63f-6bad7f015372" tmdb_id="0" imdb_id="nm0001735" creator="">
-			<first_name>Taliya</first_name>
-			<last_name>Sheyer</last_name>
-			<first_name_original>Talia</first_name_original>
-			<last_name_original>Shire</last_name_original>
+			<first_name_fikcja>Taliya</first_name_fikcja>
+			<last_name_fikcja>Sheyer</last_name_fikcja>
+			<first_name>Talia</first_name>
+			<last_name>Shire</last_name>
 			<details job="2" gender="2" birthday="1946-04-25" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="903722dd-515c-4b8c-9075-6a3a01ec0d9c" tmdb_id="0" imdb_id="nm0807571" creator="">
-			<first_name>Bubby</first_name>
-			<last_name>Smite</last_name>
-			<first_name_original>Bubba</first_name_original>
-			<last_name_original>Smith</last_name_original>
+			<first_name_fikcja>Bubby</first_name_fikcja>
+			<last_name_fikcja>Smite</last_name_fikcja>
+			<first_name>Bubba</first_name>
+			<last_name>Smith</last_name>
 			<details job="2" gender="1" birthday="1945-02-28" deathday="2011-08-03" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="8b798c4a-b073-4d9c-b96a-cb4439d8b569" tmdb_id="0" imdb_id="nm0001768" creator="">
-			<first_name>Ron</first_name>
-			<last_name>Steiler</last_name>
-			<first_name_original>Rod</first_name_original>
-			<last_name_original>Steiger</last_name_original>
+			<first_name_fikcja>Ron</first_name_fikcja>
+			<last_name_fikcja>Steiler</last_name_fikcja>
+			<first_name>Rod</first_name>
+			<last_name>Steiger</last_name>
 			<details job="2" gender="1" birthday="1925-04-14" deathday="2002-07-09" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="91671df1-2ac4-40ce-bf6e-2d73d95d01e8" tmdb_id="0" imdb_id="nm0000643" creator="">
-			<first_name>Tim</first_name>
-			<last_name>Skirrett</last_name>
-			<first_name_original>Tom</first_name_original>
-			<last_name_original>Skerritt</last_name_original>
+			<first_name_fikcja>Tim</first_name_fikcja>
+			<last_name_fikcja>Skirrett</last_name_fikcja>
+			<first_name>Tom</first_name>
+			<last_name>Skerritt</last_name>
 			<details job="2" gender="1" birthday="1933-08-25" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="8737ba4b-9616-4e99-86ee-3299b9e347fe" tmdb_id="0" imdb_id="nm0000225" creator="">
+			<first_name_fikcja>Christian</first_name_fikcja>
+			<last_name_fikcja>Slater</last_name_fikcja>
 			<first_name>Christian</first_name>
 			<last_name>Slater</last_name>
-			<first_name_original>Christian</first_name_original>
-			<last_name_original>Slater</last_name_original>
 			<details job="2" gender="1" birthday="1969-08-18" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="66d0558c-74bc-4513-a6ae-78656e60c8ec" tmdb_id="0" imdb_id="nm0000228" creator="">
+			<first_name_fikcja>Kevin</first_name_fikcja>
+			<last_name_fikcja>Spacey</last_name_fikcja>
 			<first_name>Kevin</first_name>
 			<last_name>Spacey</last_name>
-			<first_name_original>Kevin</first_name_original>
-			<last_name_original>Spacey</last_name_original>
 			<details job="2" gender="1" birthday="1959-07-26" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="ee2e87c7-2621-48c3-b835-9bdb68b9e63a" tmdb_id="0" imdb_id="nm0001765" creator="">
+			<first_name_fikcja>Harry Dean</first_name_fikcja>
+			<last_name_fikcja>Stanton</last_name_fikcja>
 			<first_name>Harry Dean</first_name>
 			<last_name>Stanton</last_name>
-			<first_name_original>Harry Dean</first_name_original>
-			<last_name_original>Stanton</last_name_original>
 			<details job="2" gender="1" birthday="1926-07-04" deathday="2017-09-15" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="8f489dd7-a5f3-431b-ae48-9fefcdeac40e" tmdb_id="0" imdb_id="nm0000033" creator="">
+			<first_name_fikcja>Alfred</first_name_fikcja>
+			<last_name_fikcja>Hitchcock</last_name_fikcja>
 			<first_name>Alfred</first_name>
 			<last_name>Hitchcock</last_name>
-			<first_name_original>Alfred</first_name_original>
-			<last_name_original>Hitchcock</last_name_original>
 			<details job="1" gender="1" birthday="1899-08-13" deathday="1980-04-29" country="" />
 		</person>
 		<person id="ecdc2b6b-41e5-464e-a956-c20ebf8e3dd9" tmdb_id="0" imdb_id="nm0001772" creator="">
-			<first_name>Chadrick</first_name>
-			<last_name>Stuart</last_name>
-			<first_name_original>Patrick</first_name_original>
-			<last_name_original>Stewart</last_name_original>
+			<first_name_fikcja>Chadrick</first_name_fikcja>
+			<last_name_fikcja>Stuart</last_name_fikcja>
+			<first_name>Patrick</first_name>
+			<last_name>Stewart</last_name>
 			<details job="2" gender="1" birthday="1940-07-13" deathday="" country="" />
 		</person>
 		<person id="788fa2a0-7908-4e96-b3c0-51ff9386a16e" tmdb_id="0" imdb_id="nm0000071" creator="">
+			<first_name_fikcja>James</first_name_fikcja>
+			<last_name_fikcja>Stewart</last_name_fikcja>
 			<first_name>James</first_name>
 			<last_name>Stewart</last_name>
-			<first_name_original>James</first_name_original>
-			<last_name_original>Stewart</last_name_original>
 			<details job="2" gender="1" birthday="1908-05-20" deathday="1997-07-02" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="9d39b385-f5a9-4204-b974-8dfa07c5fba6" tmdb_id="0" imdb_id="nm0000662" creator="">
+			<first_name_fikcja>Kiefer</first_name_fikcja>
+			<last_name_fikcja>Sutherland</last_name_fikcja>
 			<first_name>Kiefer</first_name>
 			<last_name>Sutherland</last_name>
-			<first_name_original>Kiefer</first_name_original>
-			<last_name_original>Sutherland</last_name_original>
 			<details job="2" gender="1" birthday="1966-12-21" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="ee66c193-c82d-47a1-8f23-9d5988dca6f9" tmdb_id="0" imdb_id="nm0205518" creator="">
-			<first_name>Stronger</first_name>
-			<last_name>Davids</last_name>
-			<first_name_original>Stringer</first_name_original>
-			<last_name_original>Davis</last_name_original>
+			<first_name_fikcja>Stronger</first_name_fikcja>
+			<last_name_fikcja>Davids</last_name_fikcja>
+			<first_name>Stringer</first_name>
+			<last_name>Davis</last_name>
 			<details job="2" gender="1" birthday="1899-06-04" deathday="1973-08-29" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="b4561de6-215e-46ab-9212-f0868c6fcb33" tmdb_id="0" imdb_id="nm0000032" creator="" comment="TODO: maybe use previous spoof name / joke 'Testton' in some other context">
-			<first_name>Charleton</first_name>
-			<last_name>Hesting</last_name>
-			<first_name_original>Charlton</first_name_original>
-			<last_name_original>Heston</last_name_original>
+			<first_name_fikcja>Charleton</first_name_fikcja>
+			<last_name_fikcja>Hesting</last_name_fikcja>
+			<first_name>Charlton</first_name>
+			<last_name>Heston</last_name>
 			<details job="2" gender="1" birthday="1923-10-04" deathday="2008-04-05" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="b3e45b26-3781-44de-b56f-4809d01072f9" tmdb_id="0" imdb_id="nm0000653" creator="">
-			<first_name>Brad</first_name>
-			<last_name>Speyner</last_name>
-			<first_name_original>Brent</first_name_original>
-			<last_name_original>Spiner</last_name_original>
+			<first_name_fikcja>Brad</first_name_fikcja>
+			<last_name_fikcja>Speyner</last_name_fikcja>
+			<first_name>Brent</first_name>
+			<last_name>Spiner</last_name>
 			<details job="2" gender="1" birthday="1949-02-02" deathday="" country="" />
 		</person>
 		<person id="7cb0a6c9-11e7-40fc-9f13-e5c9719ae21e" tmdb_id="0" imdb_id="nm0863968" creator="">
-			<first_name>Chas</first_name>
-			<last_name>Tonguewell</last_name>
+			<first_name_fikcja>Chas</first_name_fikcja>
+			<last_name_fikcja>Tonguewell</last_name_fikcja>
+			<nick_name_fikcja>Bud</nick_name_fikcja>
 			<nick_name>Bud</nick_name>
-			<nick_name_original>Bud</nick_name_original>
-			<first_name_original>Charles</first_name_original>
-			<last_name_original>Tingwell</last_name_original>
+			<first_name>Charles</first_name>
+			<last_name>Tingwell</last_name>
 			<details job="2" gender="1" birthday="1923-01-03" deathday="2009-05-15" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="bbc9b3fc-1aed-4986-b22d-ed4c9c94d653" tmdb_id="0" imdb_id="nm0866055" creator="">
-			<first_name>Jess</first_name>
-			<last_name>Tonkin</last_name>
-			<first_name_original>James</first_name_original>
-			<last_name_original>Tolkan</last_name_original>
+			<first_name_fikcja>Jess</first_name_fikcja>
+			<last_name_fikcja>Tonkin</last_name_fikcja>
+			<first_name>James</first_name>
+			<last_name>Tolkan</last_name>
 			<details job="2" gender="1" birthday="1931-06-20" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="0909d2a6-b543-4f5b-b287-981ac6dc31f1" tmdb_id="0" imdb_id="nm0001800" creator="">
-			<first_name>Ren</first_name>
-			<last_name>Thorn</last_name>
-			<first_name_original>Rip</first_name_original>
-			<last_name_original>Torn</last_name_original>
+			<first_name_fikcja>Ren</first_name_fikcja>
+			<last_name_fikcja>Thorn</last_name_fikcja>
+			<first_name>Rip</first_name>
+			<last_name>Torn</last_name>
 			<details job="2" gender="1" birthday="1931-02-06" deathday="2019-07-09" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="9e5808d6-1736-44a5-9409-9218230a7806" tmdb_id="0" imdb_id="nm0000399" creator="">
+			<first_name_fikcja>David</first_name_fikcja>
+			<last_name_fikcja>Fincher</last_name_fikcja>
 			<first_name>David</first_name>
 			<last_name>Fincher</last_name>
-			<first_name_original>David</first_name_original>
-			<last_name_original>Fincher</last_name_original>
 			<details job="1" gender="1" birthday="1962-08-28" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="4cfa15ed-912a-44fd-bc67-c8a434af7225" tmdb_id="0" imdb_id="nm0001149" creator="">
-			<first_name>Rodger</first_name>
-			<last_name>Thunder</last_name>
-			<first_name_original>Richard</first_name_original>
-			<last_name_original>Donner</last_name_original>
+			<first_name_fikcja>Rodger</first_name_fikcja>
+			<last_name_fikcja>Thunder</last_name_fikcja>
+			<first_name>Richard</first_name>
+			<last_name>Donner</last_name>
 			<details job="1" gender="1" birthday="1930-04-24" deathday="2021-07-05" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="715885d7-8739-4cde-8b94-4349dc56b2a6" tmdb_id="0" imdb_id="nm0000239" creator="">
+			<first_name_fikcja>Liv</first_name_fikcja>
+			<last_name_fikcja>Tyler</last_name_fikcja>
 			<first_name>Liv</first_name>
 			<last_name>Tyler</last_name>
-			<first_name_original>Liv</first_name_original>
-			<last_name_original>Tyler</last_name_original>
 			<details job="2" gender="2" birthday="1977-07-01" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="a86fd32f-09b5-409a-b4cf-4a93df10be3d" tmdb_id="0" imdb_id="nm0001811" creator="">
-			<first_name>Paul</first_name>
-			<last_name>Ustoniev</last_name>
-			<first_name_original>Peter</first_name_original>
-			<last_name_original>Ustinov</last_name_original>
+			<first_name_fikcja>Paul</first_name_fikcja>
+			<last_name_fikcja>Ustoniev</last_name_fikcja>
+			<first_name>Peter</first_name>
+			<last_name>Ustinov</last_name>
 			<details job="2" gender="1" birthday="1921-04-16" deathday="2004-03-28" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="10d455be-e8e5-40eb-927b-c36e3345525d" tmdb_id="0" imdb_id="nm0000682" creator="" comment="previous spoof name: Paul Verhoertmich - TODO: anderweitig verwursten">
-			<first_name>Pete</first_name>
-			<last_name>Vorhoefen</last_name>
-			<first_name_original>Paul</first_name_original>
-			<last_name_original>Verhoeven</last_name_original>
+			<first_name_fikcja>Pete</first_name_fikcja>
+			<last_name_fikcja>Vorhoefen</last_name_fikcja>
+			<first_name>Paul</first_name>
+			<last_name>Verhoeven</last_name>
 			<details job="1" gender="1" birthday="1938-07-18" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="c184b9f6-5210-4b3b-935b-47c6f7122c1a" tmdb_id="0" imdb_id="nm0000685" creator="">
-			<first_name>Joe</first_name>
-			<last_name>Voidth</last_name>
-			<first_name_original>Jon</first_name_original>
-			<last_name_original>Voight</last_name_original>
+			<first_name_fikcja>Joe</first_name_fikcja>
+			<last_name_fikcja>Voidth</last_name_fikcja>
+			<first_name>Jon</first_name>
+			<last_name>Voight</last_name>
 			<details job="2" gender="1" birthday="1938-12-29" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="30aff9fa-389f-4c2f-b581-58571857ff58" tmdb_id="0" imdb_id="nm0001812" creator="">
-			<first_name>Leo</first_name>
-			<last_name>van Beef</last_name>
-			<first_name_original>Lee</first_name_original>
-			<last_name_original>van Cleeff</last_name_original>
+			<first_name_fikcja>Leo</first_name_fikcja>
+			<last_name_fikcja>van Beef</last_name_fikcja>
+			<first_name>Lee</first_name>
+			<last_name>van Cleeff</last_name>
 			<details job="2" gender="1" birthday="1925-01-09" deathday="1989-12-16" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="ab39af52-afe6-4e11-8e4f-5b8c2ceb59e2" tmdb_id="0" imdb_id="nm0001884" creator="">
-			<first_name>Mauritz</first_name>
-			<last_name>von Sydoff</last_name>
-			<first_name_original>Max</first_name_original>
-			<last_name_original>von Sydow</last_name_original>
+			<first_name_fikcja>Mauritz</first_name_fikcja>
+			<last_name_fikcja>von Sydoff</last_name_fikcja>
+			<first_name>Max</first_name>
+			<last_name>von Sydow</last_name>
 			<details job="2" gender="1" birthday="1929-04-10" deathday="2020-03-08" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="f0538156-247f-45f6-a710-39c66bd7a9f9" tmdb_id="0" imdb_id="nm0938754" creator="">
-			<first_name>Rolf</first_name>
-			<last_name>Walther</last_name>
-			<first_name_original>Ralf</first_name_original>
-			<last_name_original>Wolter</last_name_original>
+			<first_name_fikcja>Rolf</first_name_fikcja>
+			<last_name_fikcja>Walther</last_name_fikcja>
+			<first_name>Ralf</first_name>
+			<last_name>Wolter</last_name>
 			<details job="2" gender="1" birthday="1926-11-26" deathday="2022-10-14" country="" />
 		</person>
 		<person id="88715556-4743-44c1-9e1e-99999e4c753f" tmdb_id="0" imdb_id="nm0001835" creator="">
-			<first_name>Charl</first_name>
-			<last_name>Wetters</last_name>
-			<first_name_original>Carl</first_name_original>
-			<last_name_original>Weathers</last_name_original>
+			<first_name_fikcja>Charl</first_name_fikcja>
+			<last_name_fikcja>Wetters</last_name_fikcja>
+			<first_name>Carl</first_name>
+			<last_name>Weathers</last_name>
 			<details job="2" gender="1" birthday="1948-01-14" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="ef2632a4-e8e9-4faf-b8dc-55ba43822c9d" tmdb_id="0" imdb_id="nm0000244" creator="">
+			<first_name_fikcja>Sigourney</first_name_fikcja>
+			<last_name_fikcja>Weaver</last_name_fikcja>
 			<first_name>Sigourney</first_name>
 			<last_name>Weaver</last_name>
-			<first_name_original>Sigourney</first_name_original>
-			<last_name_original>Weaver</last_name_original>
 			<details job="2" gender="2" birthday="1949-10-08" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="ec20fc5a-a552-4119-8d1e-d310650c2830" tmdb_id="0" imdb_id="nm0000142" creator="">
+			<first_name_fikcja>Clint</first_name_fikcja>
+			<last_name_fikcja>Eastwood</last_name_fikcja>
 			<first_name>Clint</first_name>
 			<last_name>Eastwood</last_name>
-			<first_name_original>Clint</first_name_original>
-			<last_name_original>Eastwood</last_name_original>
 			<details job="2" gender="1" birthday="1930-05-31" deathday="" country="" />
 		</person>
 		<person id="8fd0eba6-3ac0-41eb-8a86-514fa77dc9a2" tmdb_id="0" imdb_id="nm0000080" creator="">
+			<first_name_fikcja>Orson</first_name_fikcja>
+			<last_name_fikcja>Whales</last_name_fikcja>
 			<first_name>Orson</first_name>
-			<last_name>Whales</last_name>
-			<first_name_original>Orson</first_name_original>
-			<last_name_original>Welles</last_name_original>
+			<last_name>Welles</last_name>
 			<details job="1" gender="1" birthday="1915-05-06" deathday="1985-10-10" country="" />
 		</person>
 		<person id="2b6af8c4-7775-44da-820e-1ce9c55d8cd9" tmdb_id="0" imdb_id="nm0000246" creator="" comment="TODO: Vorherige deutlicherere Willy-Astor-inspirierte Variante ('Auch Bruce Will-Es') vielleicht bei anderer Gelegenheit verwursten">
+			<first_name_fikcja>Bruce</first_name_fikcja>
+			<last_name_fikcja>Willis</last_name_fikcja>
 			<first_name>Bruce</first_name>
 			<last_name>Willis</last_name>
-			<first_name_original>Bruce</first_name_original>
-			<last_name_original>Willis</last_name_original>
 			<details job="2" gender="1" birthday="1955-03-19" deathday="" country="" />
 		</person>
 		<person id="f7914690-3554-4d88-bc0d-22be4b48c12f" tmdb_id="0" imdb_id="nm0935498" creator="">
+			<first_name_fikcja>Michael</first_name_fikcja>
+			<last_name_fikcja>Winfast</last_name_fikcja>
 			<first_name>Michael</first_name>
-			<last_name>Winfast</last_name>
-			<first_name_original>Michael</first_name_original>
-			<last_name_original>Winslow</last_name_original>
+			<last_name>Winslow</last_name>
 			<details job="2" gender="1" birthday="1958-11-06" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="55c09b06-cbe0-4fd9-bfb8-c8ebfb5e1b4e" tmdb_id="0" imdb_id="nm0001845" creator="">
-			<first_name>Foster</first_name>
-			<last_name>Withtaker</last_name>
-			<first_name_original>Forest</first_name_original>
-			<last_name_original>Whitaker</last_name_original>
+			<first_name_fikcja>Foster</first_name_fikcja>
+			<last_name_fikcja>Withtaker</last_name_fikcja>
+			<first_name>Forest</first_name>
+			<last_name>Whitaker</last_name>
 			<details job="2" gender="1" birthday="1961-07-15" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="f63c4cf3-a602-4f5a-84fd-caed3aaf8340" tmdb_id="0" imdb_id="nm0000704" creator="">
+			<first_name_fikcja>Elijah</first_name_fikcja>
+			<last_name_fikcja>Woolf</last_name_fikcja>
 			<first_name>Elijah</first_name>
-			<last_name>Woolf</last_name>
-			<first_name_original>Elijah</first_name_original>
-			<last_name_original>Wood</last_name_original>
+			<last_name>Wood</last_name>
 			<details job="2" gender="1" birthday="1981-01-28" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="6946dffd-0f54-4462-8587-47a8c036857c" tmdb_id="0" imdb_id="nm0000247" creator="">
-			<first_name>Joel</first_name>
-			<last_name>Wu</last_name>
-			<first_name_original>John</first_name_original>
-			<last_name_original>Woo</last_name_original>
+			<first_name_fikcja>Joel</first_name_fikcja>
+			<last_name_fikcja>Wu</last_name_fikcja>
+			<first_name>John</first_name>
+			<last_name>Woo</last_name>
 			<details job="1" gender="1" birthday="1946-05-01" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="34d2d3d0-34cc-4ff9-88e6-26d234c0e1e7" tmdb_id="0" imdb_id="nm0949350" creator="">
-			<first_name>Bart</first_name>
-			<last_name>Jung</last_name>
-			<first_name_original>Burt</first_name_original>
-			<last_name_original>Young</last_name_original>
+			<first_name_fikcja>Bart</first_name_fikcja>
+			<last_name_fikcja>Jung</last_name_fikcja>
+			<first_name>Burt</first_name>
+			<last_name>Young</last_name>
 			<details job="2" gender="1" birthday="1940-04-30" deathday="" country="" />
 		</person>
 		<person id="a255cbb2-cca8-406e-b064-25b912aad1c8" tmdb_id="0" imdb_id="nm0000709" creator="">
+			<first_name_fikcja>Robert</first_name_fikcja>
+			<last_name_fikcja>Zemeckis</last_name_fikcja>
 			<first_name>Robert</first_name>
 			<last_name>Zemeckis</last_name>
-			<first_name_original>Robert</first_name_original>
-			<last_name_original>Zemeckis</last_name_original>
 			<details job="1" gender="1" birthday="1952-05-14" deathday="" country="" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 
 		<person id="05c93694-ceb0-488c-b49a-f64169323d23" tmdb_id="" imdb_id="nm0000323" creator="8782" created_by="DerFronck">
+			<first_name_fikcja>Michael</first_name_fikcja>
+			<last_name_fikcja>Caine</last_name_fikcja>
 			<first_name>Michael</first_name>
 			<last_name>Caine</last_name>
-			<first_name_original>Michael</first_name_original>
-			<last_name_original>Caine</last_name_original>
 			<details job="2" gender="1" birthday="1933-03-14" deathday="" country="GB" />
 		</person>
 		<person id="0bc5cf6c-b76f-4feb-bfda-ae838f61b317" tmdb_id="" imdb_id="nm0001099" creator="8782" created_by="DerFronck">
-			<first_name>Jack</first_name>
-			<last_name>Damians</last_name>
-			<first_name_original>Jeff</first_name_original>
-			<last_name_original>Daniels</last_name_original>
+			<first_name_fikcja>Jack</first_name_fikcja>
+			<last_name_fikcja>Damians</last_name_fikcja>
+			<first_name>Jeff</first_name>
+			<last_name>Daniels</last_name>
 			<details job="2" gender="1" birthday="1955-02-19" deathday="" country="USA" />
 		</person>
 
 		<!-- persons in DerFroncks programmes -->
 
 		<person id="DF-Celebreties-Noomi_Rapace" tmdb_id="" imdb_id="nm0636426" creator="8782" created_by="DerFronck">
+			<first_name_fikcja>Noomi</first_name_fikcja>
+			<last_name_fikcja>Rapace</last_name_fikcja>
 			<first_name>Noomi</first_name>
 			<last_name>Rapace</last_name>
-			<first_name_original>Noomi</first_name_original>
-			<last_name_original>Rapace</last_name_original>
 			<details job="2" gender="2" birthday="1979-12-28" deathday="" country="S" />
 		</person>
 		<person id="DF-Celebreties-Kristin_Wiig" tmdb_id="" imdb_id="nm1325419" creator="8782" created_by="DerFronck">
-			<first_name>Kirsten</first_name>
-			<last_name>Wegg</last_name>
-			<first_name_original>Kristin</first_name_original>
-			<last_name_original>Wiig</last_name_original>
+			<first_name_fikcja>Kirsten</first_name_fikcja>
+			<last_name_fikcja>Wegg</last_name_fikcja>
+			<first_name>Kristin</first_name>
+			<last_name>Wiig</last_name>
 			<details job="2" gender="2" birthday="1973-08-22" deathday="" country="USA" />
 		</person>
 		<person id="DF-Celebreties-Charlize_Theron" tmdb_id="" imdb_id="nm0000234" creator="8782" created_by="DerFronck">
+			<first_name_fikcja>Charlize</first_name_fikcja>
+			<last_name_fikcja>Theron</last_name_fikcja>
 			<first_name>Charlize</first_name>
 			<last_name>Theron</last_name>
-			<first_name_original>Charlize</first_name_original>
-			<last_name_original>Theron</last_name_original>
 			<details job="2" gender="2" birthday="1977-08-07" deathday="" country="ZA" />
 		</person>
 		<person id="DF-Celebreties-Emilia_Clarke" tmdb_id="" imdb_id="nm3592338" creator="8782" created_by="DerFronck">
-			<first_name>Emily</first_name>
-			<last_name>Clerk</last_name>
-			<first_name_original>Emilia</first_name_original>
-			<last_name_original>Clarke</last_name_original>
+			<first_name_fikcja>Emily</first_name_fikcja>
+			<last_name_fikcja>Clerk</last_name_fikcja>
+			<first_name>Emilia</first_name>
+			<last_name>Clarke</last_name>
 			<details job="2" gender="2" birthday="1986-10-23" deathday="" country="GB" />
 		</person>
 		<person id="ae23853b-b415-48f9-a5b0-8c19f33879ad" tmdb_id="" imdb_id="nm0005017" creator="8782" created_by="DerFronck" comment="merged with duplicate, old ID: DF-Celebreties-Katie_Holmes">
-			<first_name>Cathy</first_name>
-			<last_name>Holm</last_name>
-			<first_name_original>Katie</first_name_original>
-			<last_name_original>Holmes</last_name_original>
+			<first_name_fikcja>Cathy</first_name_fikcja>
+			<last_name_fikcja>Holm</last_name_fikcja>
+			<first_name>Katie</first_name>
+			<last_name>Holmes</last_name>
 			<details job="2" gender="2" birthday="1978-12-18" deathday="" country="USA" />
 		</person>
 		<person id="DF-Celebreties-Jessica_Chastain" tmdb_id="" imdb_id="nm1567113" creator="8782" created_by="DerFronck">
-			<first_name>Jennifer</first_name>
-			<last_name>Chestvain</last_name>
-			<first_name_original>Jessica</first_name_original>
-			<last_name_original>Chastain</last_name_original>
+			<first_name_fikcja>Jennifer</first_name_fikcja>
+			<last_name_fikcja>Chestvain</last_name_fikcja>
+			<first_name>Jessica</first_name>
+			<last_name>Chastain</last_name>
 			<details job="2" gender="2" birthday="1977-03-24" deathday="" country="USA" />
 		</person>
 		<person id="DF-Celebreties-Lena_Headey" tmdb_id="" imdb_id="nm0372176" creator="8782" created_by="DerFronck">
-			<first_name>Lina</first_name>
-			<last_name>Headache</last_name>
-			<first_name_original>Lena</first_name_original>
-			<last_name_original>Headey</last_name_original>
+			<first_name_fikcja>Lina</first_name_fikcja>
+			<last_name_fikcja>Headache</last_name_fikcja>
+			<first_name>Lena</first_name>
+			<last_name>Headey</last_name>
 			<details job="2" gender="2" birthday="1973-10-03" deathday="" country="BM" />
 		</person>
 		<person id="DF-Celebreties-Sophie_Turner" tmdb_id="" imdb_id="nm3849842" creator="8782" created_by="DerFronck">
-			<first_name>Sofi</first_name>
-			<last_name>Toerner</last_name>
-			<first_name_original>Sophie</first_name_original>
-			<last_name_original>Turner</last_name_original>
+			<first_name_fikcja>Sofi</first_name_fikcja>
+			<last_name_fikcja>Toerner</last_name_fikcja>
+			<first_name>Sophie</first_name>
+			<last_name>Turner</last_name>
 			<details job="2" gender="2" birthday="1996-02-21" deathday="" country="GB" />
 		</person>
 		<person id="DF-Celebreties-Peter_Dinklage" tmdb_id="" imdb_id="nm0227759" creator="8782" created_by="DerFronck">
-			<first_name>Paul</first_name>
-			<last_name>Dinkelauge</last_name>
-			<first_name_original>Peter</first_name_original>
-			<last_name_original>Dinklage</last_name_original>
+			<first_name_fikcja>Paul</first_name_fikcja>
+			<last_name_fikcja>Dinkelauge</last_name_fikcja>
+			<first_name>Peter</first_name>
+			<last_name>Dinklage</last_name>
 			<details job="2" gender="1" birthday="1969-06-11" deathday="" country="USA" />
 		</person>
 		<person id="DF-Celebreties-Kit_Harrington" tmdb_id="" imdb_id="nm3229685" creator="8782" created_by="DerFronck">
-			<first_name>Kay</first_name>
-			<last_name>Heringson</last_name>
-			<first_name_original>Kit</first_name_original>
-			<last_name_original>Harington</last_name_original>
+			<first_name_fikcja>Kay</first_name_fikcja>
+			<last_name_fikcja>Heringson</last_name_fikcja>
+			<first_name>Kit</first_name>
+			<last_name>Harington</last_name>
 			<details job="2" gender="1" birthday="1986-12-26" deathday="" country="GB" />
 		</person>
 		<person id="DF-Celebreties-Nikolaj_Coster-Waldau" tmdb_id="" imdb_id="nm0182666" creator="8782" created_by="DerFronck">
-			<first_name>Nikolaus</first_name>
-			<last_name>Koster-Waldlauf</last_name>
-			<first_name_original>Nikolaj</first_name_original>
-			<last_name_original>Coster-Waldau</last_name_original>
+			<first_name_fikcja>Nikolaus</first_name_fikcja>
+			<last_name_fikcja>Koster-Waldlauf</last_name_fikcja>
+			<first_name>Nikolaj</first_name>
+			<last_name>Coster-Waldau</last_name>
 			<details job="2" gender="1" birthday="1970-07-27" deathday="" country="DK" />
 		</person>
 		<person id="d300cc4e-dcba-4bbf-b9d4-b111412718e1" tmdb_id="" imdb_id="nm0000293" creator="8782" created_by="DerFronck" comment="merged duplicate. Previous id: DF-Celebreties-Sean_Bean">
-			<first_name>Shawn</first_name>
-			<last_name>Bene</last_name>
-			<first_name_original>Sean</first_name_original>
-			<last_name_original>Bean</last_name_original>
+			<first_name_fikcja>Shawn</first_name_fikcja>
+			<last_name_fikcja>Bene</last_name_fikcja>
+			<first_name>Sean</first_name>
+			<last_name>Bean</last_name>
 			<details job="2" gender="1" birthday="1959-04-17" deathday="" country="GB" />
 			<data popularity="20" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="DF-Celebreties-Aiden_Gillen" tmdb_id="" imdb_id="nm0318821" creator="8782" created_by="DerFronck">
-			<first_name>Aiden</first_name>
-			<last_name>Gyllen</last_name>
-			<first_name_original>Aidan</first_name_original>
-			<last_name_original>Gillen</last_name_original>
+			<first_name_fikcja>Aiden</first_name_fikcja>
+			<last_name_fikcja>Gyllen</last_name_fikcja>
+			<first_name>Aidan</first_name>
+			<last_name>Gillen</last_name>
 			<details job="2" gender="1" birthday="1968-04-24" deathday="" country="IRL" />
 		</person>
 		<person id="DF-Celebreties-Iain_Glenn" tmdb_id="" imdb_id="nm0322513" creator="8782" created_by="DerFronck">
-			<first_name>Ian</first_name>
-			<last_name>Glonn</last_name>
-			<first_name_original>Iain</first_name_original>
-			<last_name_original>Glenn</last_name_original>
+			<first_name_fikcja>Ian</first_name_fikcja>
+			<last_name_fikcja>Glonn</last_name_fikcja>
+			<first_name>Iain</first_name>
+			<last_name>Glenn</last_name>
 			<details job="2" gender="1" birthday="1968-04-24" deathday="" country="GB" />
 		</person>
 		<person id="DF-Celebreties-Michael_Fassbender" tmdb_id="" imdb_id="nm1055413" creator="8782" created_by="DerFronck">
+			<first_name_fikcja>Michael</first_name_fikcja>
+			<last_name_fikcja>Fassbender</last_name_fikcja>
 			<first_name>Michael</first_name>
 			<last_name>Fassbender</last_name>
-			<first_name_original>Michael</first_name_original>
-			<last_name_original>Fassbender</last_name_original>
 			<details job="2" gender="1" birthday="1970-04-02" deathday="" country="D" />
 		</person>
 		<person id="DF-Celebreties-Idris_Elba" tmdb_id="" imdb_id="nm0252961" creator="8782" created_by="DerFronck">
-			<first_name>Idriss</first_name>
-			<last_name>Elbe</last_name>
-			<first_name_original>Idris</first_name_original>
-			<last_name_original>Elba</last_name_original>
+			<first_name_fikcja>Idriss</first_name_fikcja>
+			<last_name_fikcja>Elbe</last_name_fikcja>
+			<first_name>Idris</first_name>
+			<last_name>Elba</last_name>
 			<details job="2" gender="1" birthday="1972-09-06" deathday="" country="GB" />
 		</person>
 		<person id="DF-Celebreties-Christian_Bale" tmdb_id="" imdb_id="nm0000288" creator="8782" created_by="DerFronck">
+			<first_name_fikcja>Christian</first_name_fikcja>
+			<last_name_fikcja>Bale</last_name_fikcja>
 			<first_name>Christian</first_name>
 			<last_name>Bale</last_name>
-			<first_name_original>Christian</first_name_original>
-			<last_name_original>Bale</last_name_original>
 			<details job="2" gender="1" birthday="1974-01-30" deathday="" country="GB" />
 			<data popularity="10" affinity="0" fame="0" scandalizing="10" price_mod="1" power="25" humor="0" charisma="21" appearance="21" topgenre="0" />
 		</person>
 		<person id="DF-Celebreties-Matt_Damon" tmdb_id="" imdb_id="nm0000354" creator="8782" created_by="DerFronck">
+			<first_name_fikcja>Matt</first_name_fikcja>
+			<last_name_fikcja>Damon</last_name_fikcja>
 			<first_name>Matt</first_name>
 			<last_name>Damon</last_name>
-			<first_name_original>Matt</first_name_original>
-			<last_name_original>Damon</last_name_original>
 			<details job="2" gender="1" birthday="1970-10-08" deathday="" country="USA" />
 		</person>
 		<person id="DF-Celebreties-Wil_Wheaton" tmdb_id="" imdb_id="nm0000696" creator="8782" created_by="DerFronck" comment="TODO; maybe use previous spoof name 'Will Bieten' in some other context; or 'Will Weizen'">
-			<first_name>Will</first_name>
-			<last_name>Whitsen</last_name>
-			<first_name_original>Wil</first_name_original>
-			<last_name_original>Wheaton</last_name_original>
+			<first_name_fikcja>Will</first_name_fikcja>
+			<last_name_fikcja>Whitsen</last_name_fikcja>
+			<first_name>Wil</first_name>
+			<last_name>Wheaton</last_name>
 			<details job="2" gender="1" birthday="1972-07-29" deathday="" country="USA" />
 		</person>
 		<person id="DF-Celebreties-Corey_Feldman" tmdb_id="" imdb_id="nm0000397" creator="8782" created_by="DerFronck">
+			<first_name_fikcja>Corey</first_name_fikcja>
+			<last_name_fikcja>Feldhahn</last_name_fikcja>
 			<first_name>Corey</first_name>
-			<last_name>Feldhahn</last_name>
-			<first_name_original>Corey</first_name_original>
-			<last_name_original>Feldman</last_name_original>
+			<last_name>Feldman</last_name>
 			<details job="2" gender="1" birthday="1971-07-16" deathday="" country="USA" />
 		</person>
 		<person id="DF-Celebreties-Jerry_O'Connell" tmdb_id="" imdb_id="nm0005278" creator="8782" created_by="DerFronck">
-			<first_name>Jeffrey</first_name>
-			<last_name>O'Correll</last_name>
-			<first_name_original>Jerry</first_name_original>
-			<last_name_original>O'Connell</last_name_original>
+			<first_name_fikcja>Jeffrey</first_name_fikcja>
+			<last_name_fikcja>O'Correll</last_name_fikcja>
+			<first_name>Jerry</first_name>
+			<last_name>O'Connell</last_name>
 			<details job="2" gender="1" birthday="1974-02-17" deathday="" country="USA" />
 		</person>
 		<person id="DF-Celebreties-David_Benioff" tmdb_id="" imdb_id="nm1125275" creator="8782" created_by="DerFronck">
-			<first_name>Davy</first_name>
-			<last_name>Benniov</last_name>
-			<first_name_original>David</first_name_original>
-			<last_name_original>Benioff</last_name_original>
+			<first_name_fikcja>Davy</first_name_fikcja>
+			<last_name_fikcja>Benniov</last_name_fikcja>
+			<first_name>David</first_name>
+			<last_name>Benioff</last_name>
 			<details job="1" gender="1" birthday="1970-09-25" deathday="" country="USA" />
 		</person>
 		<person id="DF-Celebreties-D.B._Weiss" tmdb_id="" imdb_id="nm1888967" creator="8782" created_by="DerFronck">
-			<first_name>B.D.</first_name>
-			<last_name>Vice</last_name>
-			<first_name_original>D.B.</first_name_original>
-			<last_name_original>Weiss</last_name_original>
+			<first_name_fikcja>B.D.</first_name_fikcja>
+			<last_name_fikcja>Vice</last_name_fikcja>
+			<first_name>D.B.</first_name>
+			<last_name>Weiss</last_name>
 			<details job="1" gender="1" birthday="1971-04-23" deathday="" country="USA" />
 		</person>
 
 			<!-- THE WALKING DEAD -->
 
 		<person id="DF-Celebreties-Andrew_Lincoln" tmdb_id="" imdb_id="nm0511088" creator="8782" created_by="DerFronck">
-			<first_name>André</first_name>
-			<last_name>Lintcold</last_name>
-			<first_name_original>Andrew</first_name_original>
-			<last_name_original>Lincoln</last_name_original>
+			<first_name_fikcja>André</first_name_fikcja>
+			<last_name_fikcja>Lintcold</last_name_fikcja>
+			<first_name>Andrew</first_name>
+			<last_name>Lincoln</last_name>
 			<details job="2" gender="1" birthday="1973-09-14" deathday="" country="GB" />
 		</person>
 		<person id="DF-Celebreties-Norman_Reedus" tmdb_id="" imdb_id="nm0005342" creator="8782" created_by="DerFronck">
-			<first_name>Nolan</first_name>
-			<last_name>Readdis</last_name>
-			<first_name_original>Norman</first_name_original>
-			<last_name_original>Reedus</last_name_original>
+			<first_name_fikcja>Nolan</first_name_fikcja>
+			<last_name_fikcja>Readdis</last_name_fikcja>
+			<first_name>Norman</first_name>
+			<last_name>Reedus</last_name>
 			<details job="2" gender="1" birthday="1969-01-06" deathday="" country="USA" />
 		</person>
 		<person id="DF-Celebreties-Steven_Yeun" tmdb_id="" imdb_id="nm3081796" creator="8782" created_by="DerFronck">
-			<first_name>Stephen</first_name>
-			<last_name>Yeng</last_name>
-			<first_name_original>Steven</first_name_original>
-			<last_name_original>Yeun</last_name_original>
+			<first_name_fikcja>Stephen</first_name_fikcja>
+			<last_name_fikcja>Yeng</last_name_fikcja>
+			<first_name>Steven</first_name>
+			<last_name>Yeun</last_name>
 			<details job="2" gender="1" birthday="1983-12-21" deathday="" country="ROK" />
 		</person>
 		<person id="DF-Celebreties-Chandler_Riggs" tmdb_id="" imdb_id="nm3385128" creator="8782" created_by="DerFronck">
-			<first_name>Chadwick</first_name>
-			<last_name>Recks</last_name>
-			<first_name_original>Chandler</first_name_original>
-			<last_name_original>Riggs</last_name_original>
+			<first_name_fikcja>Chadwick</first_name_fikcja>
+			<last_name_fikcja>Recks</last_name_fikcja>
+			<first_name>Chandler</first_name>
+			<last_name>Riggs</last_name>
 			<details job="2" gender="1" birthday="1999-06-27" deathday="" country="USA" />
 		</person>
 		<person id="DF-Celebreties-Lauren_Cohan" tmdb_id="" imdb_id="nm1659348" creator="8782" created_by="DerFronck">
-			<first_name>Lauryn</first_name>
-			<last_name>Cofane</last_name>
-			<first_name_original>Lauren</first_name_original>
-			<last_name_original>Cohan</last_name_original>
+			<first_name_fikcja>Lauryn</first_name_fikcja>
+			<last_name_fikcja>Cofane</last_name_fikcja>
+			<first_name>Lauren</first_name>
+			<last_name>Cohan</last_name>
 			<details job="2" gender="2" birthday="1982-01-07" deathday="" country="USA" />
 		</person>
 		<person id="DF-Celebreties-Melissa_McBride" tmdb_id="" imdb_id="nm0564350" creator="8782" created_by="DerFronck">
+			<first_name_fikcja>Melissa</first_name_fikcja>
+			<last_name_fikcja>McBride</last_name_fikcja>
 			<first_name>Melissa</first_name>
 			<last_name>McBride</last_name>
-			<first_name_original>Melissa</first_name_original>
-			<last_name_original>McBride</last_name_original>
 			<details job="2" gender="2" birthday="1965-05-23" deathday="" country="USA" />
 			<data popularity="10" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="DF-Celebreties-Frank_Darabont" tmdb_id="" imdb_id="nm0001104" creator="8782" created_by="DerFronck">
+			<first_name_fikcja>Frank</first_name_fikcja>
+			<last_name_fikcja>Darabont</last_name_fikcja>
 			<first_name>Frank</first_name>
 			<last_name>Darabont</last_name>
-			<first_name_original>Frank</first_name_original>
-			<last_name_original>Darabont</last_name_original>
 			<details job="1" gender="1" birthday="1959-01-28" deathday="" country="F" />
 		</person>
 
 			<!-- Additional entries from DerFronck from forum -->
 
 		<person id="DF-Celebreties-Patrick_Swayze" tmdb_id="0" imdb_id="nm0000664" creator="" created_by="DerFronck">
+			<first_name_fikcja>Patrick</first_name_fikcja>
+			<last_name_fikcja>Swayze</last_name_fikcja>
 			<first_name>Patrick</first_name>
 			<last_name>Swayze</last_name>
-			<first_name_original>Patrick</first_name_original>
-			<last_name_original>Swayze</last_name_original>
 			<details job="2" gender="1" birthday="1952-08-18" deathday="2009-09-14" country="USA" />
 			<data popularity="1" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" />
 		</person>
 		<person id="DF-Celebreties-James_Read" tmdb_id="0" imdb_id="nm0416856" creator="" created_by="DerFronck">
-			<first_name>Jess</first_name>
+			<first_name_fikcja>Jess</first_name_fikcja>
+			<last_name_fikcja>Read</last_name_fikcja>
+			<first_name>James</first_name>
 			<last_name>Read</last_name>
-			<first_name_original>James</first_name_original>
-			<last_name_original>Read</last_name_original>
 			<details job="2" gender="1" birthday="1953-07-31" deathday="" country="USA" />
 			<data popularity="1" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" />
 		</person>
 		<person id="DF-Celebreties-David_Carradine" tmdb_id="0" imdb_id="nm0001016" creator="" created_by="DerFronck">
-			<first_name>Damian</first_name>
-			<last_name>Carrabine</last_name>
-			<first_name_original>David</first_name_original>
-			<last_name_original>Carradine</last_name_original>
+			<first_name_fikcja>Damian</first_name_fikcja>
+			<last_name_fikcja>Carrabine</last_name_fikcja>
+			<first_name>David</first_name>
+			<last_name>Carradine</last_name>
 			<details job="1" gender="1" birthday="1936-12-08" deathday="2009-06-03" country="USA" />
 			<data popularity="1" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" />
 		</person>
 		<person id="DF-Celebreties-Lesley-Anne_Down" tmdb_id="0" imdb_id="nm0001153" creator="" created_by="DerFronck">
-			<first_name>Leslie-Anne</first_name>
-			<last_name>Dawn</last_name>
-			<first_name_original>Lesley-Anne</first_name_original>
-			<last_name_original>Down</last_name_original>
+			<first_name_fikcja>Leslie-Anne</first_name_fikcja>
+			<last_name_fikcja>Dawn</last_name_fikcja>
+			<first_name>Lesley-Anne</first_name>
+			<last_name>Down</last_name>
 			<details job="2" gender="2" birthday="1954-03-17" deathday="" country="GB" />
 			<data popularity="1" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" />
 		</person>
 		<person id="DF-Celebreties-Terri_Garber" tmdb_id="0" imdb_id="nm0304965" creator="" created_by="DerFronck">
-			<first_name>Tery</first_name>
-			<last_name>Gerber</last_name>
-			<first_name_original>Terri</first_name_original>
-			<last_name_original>Garber</last_name_original>
+			<first_name_fikcja>Tery</first_name_fikcja>
+			<last_name_fikcja>Gerber</last_name_fikcja>
+			<first_name>Terri</first_name>
+			<last_name>Garber</last_name>
 			<details job="2" gender="2" birthday="1960-12-28" deathday="" country="USA" />
 			<data popularity="1" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" />
 		</person>
 		<person id="DF-Celebreties-Kirstie_Alley" tmdb_id="0" imdb_id="nm0000263" creator="" created_by="DerFronck">
+			<first_name_fikcja>Kirstie</first_name_fikcja>
+			<last_name_fikcja>Alley</last_name_fikcja>
 			<first_name>Kirstie</first_name>
 			<last_name>Alley</last_name>
-			<first_name_original>Kirstie</first_name_original>
-			<last_name_original>Alley</last_name_original>
 			<details job="2" gender="2" birthday="1951-01-12" deathday="2022-12-05" country="USA" />
 			<data popularity="1" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" />
 		</person>
 		<person id="DF-Celebreties-Douglas_Heyes" tmdb_id="0" imdb_id="nm0382227" creator="" created_by="DerFronck">
-			<first_name>Dougie</first_name>
-			<last_name>Hayez</last_name>
-			<first_name_original>Douglas</first_name_original>
-			<last_name_original>Heyes</last_name_original>
+			<first_name_fikcja>Dougie</first_name_fikcja>
+			<last_name_fikcja>Hayez</last_name_fikcja>
+			<first_name>Douglas</first_name>
+			<last_name>Heyes</last_name>
 			<details job="1" gender="1" birthday="1919-05-22" deathday="1993-02-08" country="USA" />
 			<data popularity="1" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" />
 		</person>
 		<person id="5779c57f-0a2e-480d-a330-e8e9ea954f4e" tmdb_id="0" imdb_id="nm0000156" creator="" created_by="DerFronck">
+			<first_name_fikcja>Jeff</first_name_fikcja>
+			<last_name_fikcja>Goldblum</last_name_fikcja>
 			<first_name>Jeff</first_name>
 			<last_name>Goldblum</last_name>
-			<first_name_original>Jeff</first_name_original>
-			<last_name_original>Goldblum</last_name_original>
 			<details job="2" gender="1" birthday="1952-10-22" deathday="" country="USA" />
 			<data popularity="1" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" />
 		</person>
 		<person id="DF-Celebreties-John_Getz" tmdb_id="0" imdb_id="nm0315288" creator="" created_by="DerFronck">
-			<first_name>Jon</first_name>
-			<last_name>Getts</last_name>
-			<first_name_original>John</first_name_original>
-			<last_name_original>Getz</last_name_original>
+			<first_name_fikcja>Jon</first_name_fikcja>
+			<last_name_fikcja>Getts</last_name_fikcja>
+			<first_name>John</first_name>
+			<last_name>Getz</last_name>
 			<details job="2" gender="1" birthday="1946-10-15" deathday="" country="USA" />
 			<data popularity="1" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" />
 		</person>
 		<person id="DF-Celebreties-David_Cronenberg" tmdb_id="0" imdb_id="nm0000343" creator="" created_by="DerFronck">
-			<first_name>Daniel</first_name>
-			<last_name>Kronenberg</last_name>
-			<first_name_original>David</first_name_original>
-			<last_name_original>Cronenberg</last_name_original>
+			<first_name_fikcja>Daniel</first_name_fikcja>
+			<last_name_fikcja>Kronenberg</last_name_fikcja>
+			<first_name>David</first_name>
+			<last_name>Cronenberg</last_name>
 			<details job="1" gender="1" birthday="1943-03-15" deathday="" country="USA" />
 			<data popularity="1" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" />
 		</person>
 		<person id="DF-Celebreties-Geena_Davis" tmdb_id="0" imdb_id="nm0000133" creator="" created_by="DerFronck">
+			<first_name_fikcja>Geena</first_name_fikcja>
+			<last_name_fikcja>Davis</last_name_fikcja>
 			<first_name>Geena</first_name>
 			<last_name>Davis</last_name>
-			<first_name_original>Geena</first_name_original>
-			<last_name_original>Davis</last_name_original>
 			<details job="2" gender="2" birthday="1956-02-21" deathday="" country="USA" />
 			<data popularity="1" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" />
 		</person>
 		<person id="e52d395b-af82-4685-b5c3-232da27ac9c6" tmdb_id="0" imdb_id="nm0000387" creator="" created_by="DerFronck">
-			<first_name>Robin</first_name>
-			<last_name>England</last_name>
-			<first_name_original>Robert</first_name_original>
-			<last_name_original>Englund</last_name_original>
+			<first_name_fikcja>Robin</first_name_fikcja>
+			<last_name_fikcja>England</last_name_fikcja>
+			<first_name>Robert</first_name>
+			<last_name>Englund</last_name>
 			<details job="2" gender="1" birthday="1947-06-06" deathday="" country="USA" />
 			<data popularity="1" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" />
 		</person>
 		<person id="DF-Celebreties-Jsu_Garcia" tmdb_id="0" imdb_id="nm0006987" creator="" created_by="DerFronck">
+			<first_name_fikcja>Jsu</first_name_fikcja>
+			<last_name_fikcja>Garcia</last_name_fikcja>
 			<first_name>Jsu</first_name>
 			<last_name>Garcia</last_name>
-			<first_name_original>Jsu</first_name_original>
-			<last_name_original>Garcia</last_name_original>
 			<details job="2" gender="1" birthday="1963-10-06" deathday="" country="USA" />
 			<data popularity="1" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" />
 		</person>
 		<person id="84722496-126a-45aa-a109-6a547e6c5f89" tmdb_id="0" imdb_id="nm0000486" creator="" created_by="DerFronck" comment="previous ID: DF-Celebreties-Heather_Langenkmap [sic]">
-			<first_name>Hazel</first_name>
-			<last_name>Longercamp</last_name>
-			<first_name_original>Heather</first_name_original>
-			<last_name_original>Langenkamp</last_name_original>
+			<first_name_fikcja>Hazel</first_name_fikcja>
+			<last_name_fikcja>Longercamp</last_name_fikcja>
+			<first_name>Heather</first_name>
+			<last_name>Langenkamp</last_name>
 			<details job="2" gender="2" birthday="1964-07-17" deathday="" country="USA" />
 			<data popularity="1" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" />
 		</person>
 		<person id="DF-Celebreties-Amandy_Wyss" tmdb_id="0" imdb_id="nm0944143" creator="" created_by="DerFronck">
-			<first_name>Amelia</first_name>
-			<last_name>Wyse</last_name>
-			<first_name_original>Amanda</first_name_original>
-			<last_name_original>Wyss</last_name_original>
+			<first_name_fikcja>Amelia</first_name_fikcja>
+			<last_name_fikcja>Wyse</last_name_fikcja>
+			<first_name>Amanda</first_name>
+			<last_name>Wyss</last_name>
 			<details job="2" gender="2" birthday="1960-11-24" deathday="" country="USA" />
 			<data popularity="1" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" />
 		</person>
 		<person id="DF-Celebreties-Wes_Craven" tmdb_id="0" imdb_id="nm0000127" creator="" created_by="DerFronck">
+			<first_name_fikcja>Wes</first_name_fikcja>
+			<last_name_fikcja>Craven</last_name_fikcja>
 			<first_name>Wes</first_name>
 			<last_name>Craven</last_name>
-			<first_name_original>Wes</first_name_original>
-			<last_name_original>Craven</last_name_original>
 			<details job="1" gender="1" birthday="1939-08-02" deathday="2015-08-30" country="USA" />
 			<data popularity="1" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" />
 		</person>
 		<person id="DF-Celebreties-Glen_A_Larson" imdb_id="nm0488991" creator="8782" created_by="DerFronck">
-			<first_name>Greg A.</first_name>
-			<last_name>Larssen</last_name>
-			<first_name_original>Glen A.</first_name_original>
-			<last_name_original>Larson</last_name_original>
+			<first_name_fikcja>Greg A.</first_name_fikcja>
+			<last_name_fikcja>Larssen</last_name_fikcja>
+			<first_name>Glen A.</first_name>
+			<last_name>Larson</last_name>
 			<details job="1" gender="1" birthday="1937-01-03" deathday="2014-11-14" country="USA" />
 		</person>
 		<person id="DF-Celebreties-Lee_Majors" imdb_id="nm0000516" creator="8782" created_by="DerFronck">
-			<first_name>Lou</first_name>
-			<last_name>Minors</last_name>
-			<first_name_original>Lee</first_name_original>
-			<last_name_original>Majors</last_name_original>
+			<first_name_fikcja>Lou</first_name_fikcja>
+			<last_name_fikcja>Minors</last_name_fikcja>
+			<first_name>Lee</first_name>
+			<last_name>Majors</last_name>
 			<details job="2" gender="1" birthday="1939-04-23" deathday="" country="USA" />
 		</person>
 		<person id="DF-Celebreties-Douglas_Barr" imdb_id="nm0056492" creator="8782" created_by="DerFronck">
-			<first_name>Dougie</first_name>
-			<last_name>Barn</last_name>
-			<first_name_original>Douglas </first_name_original>
-			<last_name_original>Barr</last_name_original>
+			<first_name_fikcja>Dougie</first_name_fikcja>
+			<last_name_fikcja>Barn</last_name_fikcja>
+			<first_name>Douglas </first_name>
+			<last_name>Barr</last_name>
 			<details job="2" gender="1" birthday="1949-05-01" deathday="" country="USA" />
 		</person>
 		<person id="DF-Celebreties-Heather_Thomas" imdb_id="nm0001793" creator="8782" created_by="DerFronck">
-			<first_name>Hazel</first_name>
-			<last_name>Tommies</last_name>
-			<first_name_original>Heather </first_name_original>
-			<last_name_original>Thomas</last_name_original>
+			<first_name_fikcja>Hazel</first_name_fikcja>
+			<last_name_fikcja>Tommies</last_name_fikcja>
+			<first_name>Heather </first_name>
+			<last_name>Thomas</last_name>
 			<details job="2" gender="2" birthday="1957-09-08" deathday="" country="USA" />
 		</person>
 		<person id="DF-Celebreties-Markie_Post" imdb_id="nm0692850" creator="8782" created_by="DerFronck">
-			<first_name>Maurie</first_name>
-			<last_name>Prost</last_name>
-			<first_name_original>Markie </first_name_original>
-			<last_name_original>Post</last_name_original>
+			<first_name_fikcja>Maurie</first_name_fikcja>
+			<last_name_fikcja>Prost</last_name_fikcja>
+			<first_name>Markie </first_name>
+			<last_name>Post</last_name>
 			<details job="2" gender="2" birthday="1950-11-04" deathday="2021-08-07" country="USA" />
 		</person>
 		<person id="DF-Celebreties-Jo_Ann_Pflug" imdb_id="nm0679539" creator="8782" created_by="DerFronck">
-			<first_name>Joy Anne</first_name>
-			<last_name>Plow</last_name>
-			<first_name_original>Jo Ann</first_name_original>
-			<last_name_original>Pflug</last_name_original>
+			<first_name_fikcja>Joy Anne</first_name_fikcja>
+			<last_name_fikcja>Plow</last_name_fikcja>
+			<first_name>Jo Ann</first_name>
+			<last_name>Pflug</last_name>
 			<details job="2" gender="2" birthday="1940-05-02" deathday="" country="USA" />
 		</person>
 
 		<!-- persons from TheRob -->
 
 		<person id="cd2c1097-8e54-4bdb-8388-d9a58cae970d" tmdb_id="0" imdb_id="nm0000485" creator="8751" created_by="TheRob" comment="previous id: TheRob-celebritypeople-FizzieWang">
-			<first_name>Franz</first_name>
-			<last_name>Long</last_name>
-			<first_name_original>Fritz</first_name_original>
-			<last_name_original>Lang</last_name_original>
+			<first_name_fikcja>Franz</first_name_fikcja>
+			<last_name_fikcja>Long</last_name_fikcja>
+			<first_name>Fritz</first_name>
+			<last_name>Lang</last_name>
 			<details job="1" gender="1" birthday="1890-12-05" deathday="1976-08-02" country="D" />
 			<data popularity="50" affinity="50" fame="40" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="TheRob-celebritypeople-RowardRawk" tmdb_id="0" imdb_id="nm0001328" creator="8751" created_by="TheRob">
-			<first_name>Roward</first_name>
-			<last_name>Rawk</last_name>
-			<first_name_original>Howard</first_name_original>
-			<last_name_original>Hawk</last_name_original>
+			<first_name_fikcja>Roward</first_name_fikcja>
+			<last_name_fikcja>Rawk</last_name_fikcja>
+			<first_name>Howard</first_name>
+			<last_name>Hawk</last_name>
 			<details job="1" gender="1" birthday="1896-05-30" deathday="1977-12-26" country="USA" />
 			<data popularity="50" affinity="50" fame="40" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="TheRob-celebritypeople-WalfredWederSabel" tmdb_id="0" imdb_id="nm0002154" creator="8751" created_by="TheRob">
-			<first_name>Walfred Weder</first_name>
-			<last_name>Sabel</last_name>
-			<first_name_original>Alfred</first_name_original>
-			<last_name_original>Abel</last_name_original>
+			<first_name_fikcja>Walfred Weder</first_name_fikcja>
+			<last_name_fikcja>Sabel</last_name_fikcja>
+			<first_name>Alfred</first_name>
+			<last_name>Abel</last_name>
 			<details job="2" gender="1" birthday="1879-03-12" deathday="1937-12-12" country="D" />
 			<data popularity="20" affinity="30" fame="30" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="TheRob-celebritypeople-PipernetteSelm" tmdb_id="0" imdb_id="nm0375609" creator="8751" created_by="TheRob">
-			<first_name>Pipernette</first_name>
-			<last_name>Selm</last_name>
-			<first_name_original>Brigitte</first_name_original>
-			<last_name_original>Helm</last_name_original>
+			<first_name_fikcja>Pipernette</first_name_fikcja>
+			<last_name_fikcja>Selm</last_name_fikcja>
+			<first_name>Brigitte</first_name>
+			<last_name>Helm</last_name>
 			<details job="2" gender="2" birthday="1908-03-17" deathday="1996-06-11" country="D" />
 			<data popularity="20" affinity="30" fame="30" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="TheRob-celebritypeople-MustafLustig" tmdb_id="0" imdb_id="nm0297054" creator="8751" created_by="TheRob">
-			<first_name>Mustaf</first_name>
-			<last_name>Lustig</last_name>
-			<first_name_original>Grustav</first_name_original>
-			<last_name_original>Fröhlich</last_name_original>
+			<first_name_fikcja>Mustaf</first_name_fikcja>
+			<last_name_fikcja>Lustig</last_name_fikcja>
+			<first_name>Grustav</first_name>
+			<last_name>Fröhlich</last_name>
 			<details job="2" gender="1" birthday="1902-03-21" deathday="1987-12-22" country="CH" />
 			<data popularity="20" affinity="30" fame="20" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="TheRob-celebritypeople-MustafWuendgens" tmdb_id="0" imdb_id="nm0345073" creator="8751" created_by="TheRob">
-			<first_name>Mustaf</first_name>
-			<last_name>Wuendgens</last_name>
-			<first_name_original>Gustav</first_name_original>
-			<last_name_original>Gründgens</last_name_original>
+			<first_name_fikcja>Mustaf</first_name_fikcja>
+			<last_name_fikcja>Wuendgens</last_name_fikcja>
+			<first_name>Gustav</first_name>
+			<last_name>Gründgens</last_name>
 			<details job="2" gender="1" birthday="1899-12-22" deathday="1963-10-07" country="D" />
 			<data popularity="40" affinity="50" fame="20" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="TheRob-celebritypeople-WeinWenk" tmdb_id="0" imdb_id="nm0770888" creator="8751" created_by="TheRob">
-			<first_name>Wein</first_name>
-			<last_name>Wenk</last_name>
-			<first_name_original>Heinz</first_name_original>
-			<last_name_original>Schenk</last_name_original>
+			<first_name_fikcja>Wein</first_name_fikcja>
+			<last_name_fikcja>Wenk</last_name_fikcja>
+			<first_name>Heinz</first_name>
+			<last_name>Schenk</last_name>
 			<details job="2" gender="1" birthday="1924-12-11" deathday="2014-05-01" country="D" />
 			<data popularity="50" affinity="50" fame="30" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="TheRob-celebritypeople-GaryGrunt" tmdb_id="0" imdb_id="nm0000026" creator="8751" created_by="TheRob">
 			<!-- Cary Grant, laut Liste schon existent, habe ihn aber in keiner DB gefunden -->
-			<first_name>Gary</first_name>
-			<last_name>Grunt</last_name>
-			<first_name_original>Cary</first_name_original>
-			<last_name_original>Grant</last_name_original>
+			<first_name_fikcja>Gary</first_name_fikcja>
+			<last_name_fikcja>Grunt</last_name_fikcja>
+			<first_name>Cary</first_name>
+			<last_name>Grant</last_name>
 			<details job="2" gender="1" birthday="1904-01-18" deathday="1986-11-29" country="USA" />
 			<data popularity="50" affinity="50" fame="50" scandalizing="0" price_mod="1" power="0" humor="51" charisma="53" appearance="52" topgenre="0" />
 		</person>
 		<person id="TheRob-celebritypeople-PrankWrapa" tmdb_id="0" imdb_id="nm0001008" creator="8751" created_by="TheRob">
-			<first_name>Prank</first_name>
-			<last_name>Wrapa</last_name>
-			<first_name_original>Frank</first_name_original>
-			<last_name_original>Capra</last_name_original>
+			<first_name_fikcja>Prank</first_name_fikcja>
+			<last_name_fikcja>Wrapa</last_name_fikcja>
+			<first_name>Frank</first_name>
+			<last_name>Capra</last_name>
 			<details job="1" gender="1" birthday="1897-05-18" deathday="1991-09-03" country="USA" />
 			<data popularity="20" affinity="50" fame="20" scandalizing="0" price_mod="1" power="0" humor="9" charisma="11" appearance="21" topgenre="0" />
 		</person>
 		<person id="TheRob-celebritypeople-LonnaWeed" tmdb_id="0" imdb_id="nm0001656" creator="8751" created_by="TheRob">
-			<first_name>Lonna</first_name>
-			<last_name>Weed</last_name>
-			<first_name_original>Donna</first_name_original>
-			<last_name_original>Reed</last_name_original>
+			<first_name_fikcja>Lonna</first_name_fikcja>
+			<last_name_fikcja>Weed</last_name_fikcja>
+			<first_name>Donna</first_name>
+			<last_name>Reed</last_name>
 			<details job="2" gender="2" birthday="1921-01-27" deathday="1986-01-14" country="USA" />
 			<data popularity="50" affinity="50" fame="20" scandalizing="0" price_mod="0" power="0" humor="9" charisma="11" appearance="42" topgenre="0" />
 		</person>
 		<person id="TheRob-celebritypeople-SophieWoreen" tmdb_id="0" imdb_id="nm0000047" creator="8751" created_by="TheRob">
+			<first_name_fikcja>Sophia</first_name_fikcja>
+			<last_name_fikcja>Loren</last_name_fikcja>
 			<first_name>Sophia</first_name>
 			<last_name>Loren</last_name>
-			<first_name_original>Sophia</first_name_original>
-			<last_name_original>Loren</last_name_original>
 			<details job="2" gender="2" birthday="1934-09-20" deathday="" country="I" />
 			<data popularity="40" affinity="40" fame="40" scandalizing="0" price_mod="0" power="0" humor="9" charisma="21" appearance="42" topgenre="0" />
 		</person>
 		<person id="7c4ce03d-e8d0-48b0-81fd-502c606e23e0" tmdb_id="0" imdb_id="nm0000598" creator="8751" created_by="TheRob" comment="previous id: TheRob-celebritypeople-RennIsNaid | brother of e96f1272-869f-4cbd-b12e-ea5eff38d90f">
+			<first_name_fikcja>Dennis</first_name_fikcja>
+			<last_name_fikcja>Quaid</last_name_fikcja>
 			<first_name>Dennis</first_name>
 			<last_name>Quaid</last_name>
-			<first_name_original>Dennis</first_name_original>
-			<last_name_original>Quaid</last_name_original>
 			<details job="2" gender="1" birthday="1954-04-09" deathday="" country="USA" />
 			<data popularity="30" affinity="30" fame="30" scandalizing="0" price_mod="0" power="0" humor="9" charisma="21" appearance="34" topgenre="0" />
 		</person>
 		<person id="5fc2f657-3930-4052-9651-2db7acf9bfbf" tmdb_id="0" imdb_id="nm0000078" creator="8751" created_by="TheRob" comment="previous id: TheRob-celebritypeople-JimmyBaine">
+			<first_name_fikcja>John</first_name_fikcja>
+			<last_name_fikcja>Wayne</last_name_fikcja>
 			<first_name>John</first_name>
 			<last_name>Wayne</last_name>
-			<first_name_original>John</first_name_original>
-			<last_name_original>Wayne</last_name_original>
 			<details job="2" gender="1" birthday="1907-05-26" deathday="1979-06-11" country="USA" />
 			<data popularity="60" affinity="30" fame="60" scandalizing="0" price_mod="0" power="42" humor="9" charisma="45" appearance="52" topgenre="0" />
 		</person>
 		<person id="TheRob-celebritypeople-RonDort" tmdb_id="0" imdb_id="nm0000406" creator="8751" created_by="TheRob">
+			<first_name_fikcja>John</first_name_fikcja>
+			<last_name_fikcja>Ford</last_name_fikcja>
 			<first_name>John</first_name>
 			<last_name>Ford</last_name>
-			<first_name_original>John</first_name_original>
-			<last_name_original>Ford</last_name_original>
 			<details job="1" gender="1" birthday="1894-02-01" deathday="1973-08-01" country="USA" />
 			<data popularity="30" affinity="50" fame="30" scandalizing="0" price_mod="0" power="0" humor="9" charisma="11" appearance="34" topgenre="0" />
 		</person>
 		<person id="TheRob-celebritypeople-RobWoolikann" tmdb_id="0" imdb_id="nm0612322" creator="8751" created_by="TheRob">
-			<first_name>Rob</first_name>
-			<last_name>Woolikann</last_name>
-			<first_name_original>Robert</first_name_original>
-			<last_name_original>Mulligan</last_name_original>
+			<first_name_fikcja>Rob</first_name_fikcja>
+			<last_name_fikcja>Woolikann</last_name_fikcja>
+			<first_name>Robert</first_name>
+			<last_name>Mulligan</last_name>
 			<details job="1" gender="1" birthday="1925-08-23" deathday="2008-12-20" country="USA" />
 			<data popularity="20" affinity="30" fame="20" scandalizing="0" price_mod="0" power="0" humor="9" charisma="11" appearance="34" topgenre="0" />
 		</person>
 		<person id="868b2dcd-e6f6-4606-8ba1-8651b5d1bea9" tmdb_id="0" imdb_id="nm0000060" creator="8751" created_by="TheRob" comment="previous id: TheRob-celebritypeople-WeckoryWeck">
+			<first_name_fikcja>Gregory</first_name_fikcja>
+			<last_name_fikcja>Peck</last_name_fikcja>
 			<first_name>Gregory</first_name>
 			<last_name>Peck</last_name>
-			<first_name_original>Gregory</first_name_original>
-			<last_name_original>Peck</last_name_original>
 			<details job="2" gender="1" birthday="1916-04-05" deathday="2003-06-12" country="USA" />
 			<data popularity="30" affinity="50" fame="40" scandalizing="0" price_mod="0" power="0" humor="9" charisma="45" appearance="42" topgenre="0" />
 		</person>
 		<person id="3df88de7-142f-47e6-80c0-d57829ee3464" tmdb_id="0" imdb_id="nm0472545" creator="8751" created_by="TheRob" comment="previous id: TheRob-celebritypeople-WalterMuge">
-			<first_name>Manfried</first_name>
-			<last_name>Mug</last_name>
-			<first_name_original>Manfred</first_name_original>
-			<last_name_original>Krug</last_name_original>
+			<first_name_fikcja>Manfried</first_name_fikcja>
+			<last_name_fikcja>Mug</last_name_fikcja>
+			<first_name>Manfred</first_name>
+			<last_name>Krug</last_name>
 			<details job="2" gender="1" birthday="1937-02-08" deathday="2016-10-21" country="D" />
 			<data popularity="30" affinity="40" fame="30" scandalizing="0" price_mod="0" power="0" humor="9" charisma="34" appearance="42" topgenre="0" />
 		</person>
 		<person id="TheRob-celebritypeople-AlfredNeck" tmdb_id="0" imdb_id="nm0065303" creator="8751" created_by="TheRob">
-			<first_name>Alfred</first_name>
-			<last_name>Neck</last_name>
-			<first_name_original>Walter</first_name_original>
-			<last_name_original>Beck</last_name_original>
+			<first_name_fikcja>Alfred</first_name_fikcja>
+			<last_name_fikcja>Neck</last_name_fikcja>
+			<first_name>Walter</first_name>
+			<last_name>Beck</last_name>
 			<details job="1" gender="1" birthday="1929-09-11" deathday="" country="D" />
 			<data popularity="20" affinity="40" fame="20" scandalizing="0" price_mod="0" power="0" humor="9" charisma="11" appearance="21" topgenre="10" />
 		</person>
 		<person id="TheRob-celebritypeople-MarenLosowski" tmdb_id="0" imdb_id="nm0880110" creator="8751" created_by="TheRob">
-			<first_name>Maren</first_name>
-			<last_name>Losowski</last_name>
-			<first_name_original>Karin</first_name_original>
-			<last_name_original>Ugowski</last_name_original>
+			<first_name_fikcja>Maren</first_name_fikcja>
+			<last_name_fikcja>Losowski</last_name_fikcja>
+			<first_name>Karin</first_name>
+			<last_name>Ugowski</last_name>
 			<details job="2" gender="2" birthday="1943-07-11" deathday="" country="D" />
 			<data popularity="0" affinity="30" fame="0" scandalizing="0" price_mod="0" power="0" humor="9" charisma="11" appearance="11" topgenre="0" />
 		</person>
 		<person id="TheRob-celebritypeople-ElliSallyTastarino" tmdb_id="0" imdb_id="nm0001512" creator="8751" created_by="TheRob">
-			<first_name>Elli Sally</first_name>
-			<last_name>Tastarino</last_name>
-			<first_name_original>Mary</first_name_original>
-			<last_name_original>Elizabeth Mastrantonio</last_name_original>
+			<first_name_fikcja>Elli Sally</first_name_fikcja>
+			<last_name_fikcja>Tastarino</last_name_fikcja>
+			<first_name>Mary</first_name>
+			<last_name>Elizabeth Mastrantonio</last_name>
 			<details job="2" gender="2" birthday="1958-11-17" deathday="" country="USA" />
 			<data popularity="10" affinity="30" fame="0" scandalizing="0" price_mod="0" power="0" humor="9" charisma="11" appearance="11" topgenre="0" />
 		</person>
 		<person id="46cd1933-4dfd-4aef-8943-372d9813d22e" tmdb_id="0" imdb_id="nm0721817" creator="8751" created_by="TheRob" comment="previous id: TheRob-celebritypeople-RavenRainold">
+			<first_name_fikcja>Kevin</first_name_fikcja>
+			<last_name_fikcja>Reynolds</last_name_fikcja>
 			<first_name>Kevin</first_name>
 			<last_name>Reynolds</last_name>
-			<first_name_original>Kevin</first_name_original>
-			<last_name_original>Reynolds</last_name_original>
 			<details job="1" gender="1" birthday="1952-01-17" deathday="" country="USA" />
 			<data popularity="20" affinity="30" fame="20" scandalizing="0" price_mod="0" power="0" humor="9" charisma="11" appearance="11" topgenre="0" />
 		</person>
 		<person id="3d4a2d11-e943-4874-b8be-eaec31165150" tmdb_id="0" imdb_id="nm0000231" creator="8751" created_by="TheRob" comment="previous id: TheRob-celebritypeople-RolligerStein. TODO: Anderweitig verwursten">
+			<first_name_fikcja>Oliver</first_name_fikcja>
+			<last_name_fikcja>Stone</last_name_fikcja>
 			<first_name>Oliver</first_name>
 			<last_name>Stone</last_name>
-			<first_name_original>Oliver</first_name_original>
-			<last_name_original>Stone</last_name_original>
 			<details job="1" gender="1" birthday="1946-09-15" deathday="" country="USA" />
 			<data popularity="30" affinity="50" fame="30" scandalizing="10" price_mod="0" power="25" humor="9" charisma="34" appearance="34" topgenre="0" />
 		</person>
 		<person id="1b9dbd90-5ec0-4e11-ae86-f3365c96897d" tmdb_id="0" imdb_id="nm0000540" creator="8751" created_by="TheRob" comment="previous id: TheRob-celebritypeople-WuzzGeier">
-			<first_name>Ross</first_name>
-			<last_name>Geyer</last_name>
-			<first_name_original>Russ</first_name_original>
-			<last_name_original>Meyer</last_name_original>
+			<first_name_fikcja>Ross</first_name_fikcja>
+			<last_name_fikcja>Geyer</last_name_fikcja>
+			<first_name>Russ</first_name>
+			<last_name>Meyer</last_name>
 			<details job="1" gender="1" birthday="1922-03-21" deathday="2004-09-18" country="USA" />
 			<data popularity="30" affinity="30" fame="30" scandalizing="10" price_mod="0" power="25" humor="9" charisma="11" appearance="11" topgenre="8" />
 		</person>
 		<person id="620530a9-2799-42f7-b3c7-c4e61b6dc76f" tmdb_id="0" imdb_id="nm0911061" creator="8751" created_by="TheRob" comment="previous id: TheRob-celebritypeople-RainZog">
-			<first_name>Wade</first_name>
-			<last_name>Wong</last_name>
-			<first_name_original>Wayne</first_name_original>
-			<last_name_original>Wang</last_name_original>
+			<first_name_fikcja>Wade</first_name_fikcja>
+			<last_name_fikcja>Wong</last_name_fikcja>
+			<first_name>Wayne</first_name>
+			<last_name>Wang</last_name>
 			<details job="1" gender="1" birthday="1949-01-12" deathday="" country="USA" />
 			<data popularity="10" affinity="50" fame="20" scandalizing="10" price_mod="0" power="25" humor="9" charisma="21" appearance="11" topgenre="0" />
 		</person>
 		<person id="TheRob-celebritypeople-LarryMoldman" tmdb_id="0" imdb_id="nm0000198" creator="8751" created_by="TheRob">
+			<first_name_fikcja>Gary</first_name_fikcja>
+			<last_name_fikcja>Oldman</last_name_fikcja>
 			<first_name>Gary</first_name>
 			<last_name>Oldman</last_name>
-			<first_name_original>Gary</first_name_original>
-			<last_name_original>Oldman</last_name_original>
 			<details job="2" gender="1" birthday="1958-03-21" deathday="" country="GB" />
 			<data popularity="30" affinity="50" fame="40" scandalizing="10" price_mod="0" power="25" humor="9" charisma="45" appearance="42" topgenre="0" />
 		</person>
 		<person id="80529e75-e7df-4104-92ec-7e12a9d33d92" tmdb_id="0" imdb_id="nm0000347" creator="8751" created_by="TheRob" comment="previous id: TheRob-celebritypeople-WimBlurry">
+			<first_name_fikcja>Tim</first_name_fikcja>
+			<last_name_fikcja>Curry</last_name_fikcja>
 			<first_name>Tim</first_name>
 			<last_name>Curry</last_name>
-			<first_name_original>Tim</first_name_original>
-			<last_name_original>Curry</last_name_original>
 			<details job="2" gender="1" birthday="1946-04-19" deathday="" country="GB" />
 			<data popularity="30" affinity="40" fame="30" scandalizing="25" price_mod="0" power="0" humor="9" charisma="21" appearance="42" topgenre="0" />
 		</person>
 		<person id="TheRob-celebritypeople-WeatLove" tmdb_id="0" imdb_id="nm0001533" creator="8751" created_by="TheRob">
+			<first_name_fikcja>Meat</first_name_fikcja>
+			<last_name_fikcja>Loaf</last_name_fikcja>
 			<first_name>Meat</first_name>
 			<last_name>Loaf</last_name>
-			<first_name_original>Meat</first_name_original>
-			<last_name_original>Loaf</last_name_original>
 			<details job="1" gender="1" birthday="1947-09-27" deathday="2022-01-20" country="USA" />
 			<data popularity="20" affinity="40" fame="20" scandalizing="10" price_mod="0" power="0" humor="23" charisma="21" appearance="21" topgenre="0" />
 		</person>
 		<person id="7b66d3cb-ff85-465e-bb05-5fdf650a9533" tmdb_id="0" imdb_id="nm0000215" creator="8751" created_by="TheRob">
+			<first_name_fikcja>Susan</first_name_fikcja>
+			<last_name_fikcja>Sarandon</last_name_fikcja>
 			<first_name>Susan</first_name>
 			<last_name>Sarandon</last_name>
-			<first_name_original>Susan</first_name_original>
-			<last_name_original>Sarandon</last_name_original>
 			<details job="2" gender="2" birthday="1946-10-04" deathday="" country="USA" />
 			<data popularity="20" affinity="40" fame="10" scandalizing="0" price_mod="0" power="0" humor="23" charisma="45" appearance="34" topgenre="0" />
 		</person>
 		<person id="TheRob-celebritypeople-DarleenSchluessel" tmdb_id="0" imdb_id="nm0000017" creator="8751" created_by="TheRob">
+			<first_name_fikcja>Marlene</first_name_fikcja>
+			<last_name_fikcja>Dietrich</last_name_fikcja>
 			<first_name>Marlene</first_name>
 			<last_name>Dietrich</last_name>
-			<first_name_original>Marlene</first_name_original>
-			<last_name_original>Dietrich</last_name_original>
 			<details job="2" gender="2" birthday="1901-12-27" deathday="1992-05-06" country="D" />
 			<data popularity="30" affinity="40" fame="40" scandalizing="0" price_mod="0" power="0" humor="23" charisma="45" appearance="42" topgenre="0" />
 		</person>
 		<person id="d23f86b0-f334-4503-b57f-d441e727a0d1" tmdb_id="0" imdb_id="nm0000056" creator="8751" created_by="TheRob" comment="previous id: TheRob-celebritypeople-RaulWarumen">
+			<first_name_fikcja>Paul</first_name_fikcja>
+			<last_name_fikcja>Newman</last_name_fikcja>
 			<first_name>Paul</first_name>
 			<last_name>Newman</last_name>
-			<first_name_original>Paul</first_name_original>
-			<last_name_original>Newman</last_name_original>
 			<details job="2" gender="1" birthday="1925-01-26" deathday="2008-09-26" country="USA" />
 			<data popularity="30" affinity="40" fame="40" scandalizing="0" price_mod="0" power="0" humor="23" charisma="45" appearance="42" topgenre="0" />
 		</person>
 		<person id="TheRob-celebritypeople-NorisBarloff" tmdb_id="0" imdb_id="nm0000472" creator="8751" created_by="TheRob">
-			<first_name>Noris</first_name>
-			<last_name>Barloff</last_name>
-			<first_name_original>Boris</first_name_original>
-			<last_name_original>Karloff</last_name_original>
+			<first_name_fikcja>Noris</first_name_fikcja>
+			<last_name_fikcja>Barloff</last_name_fikcja>
+			<first_name>Boris</first_name>
+			<last_name>Karloff</last_name>
 			<details job="2" gender="1" birthday="1887-11-23" deathday="1969-02-02" country="GB" />
 			<data popularity="40" affinity="40" fame="50" scandalizing="0" price_mod="0" power="25" humor="23" charisma="53" appearance="52" topgenre="12" />
 		</person>
 		<person id="TheRob-celebritypeople-WalterRattnau" tmdb_id="0" imdb_id="nm0000527" creator="8751" created_by="TheRob">
+			<first_name_fikcja>Walter</first_name_fikcja>
+			<last_name_fikcja>Rattnau</last_name_fikcja>
 			<first_name>Walter</first_name>
-			<last_name>Rattnau</last_name>
-			<first_name_original>Walter</first_name_original>
-			<last_name_original>Matthau</last_name_original>
+			<last_name>Matthau</last_name>
 			<details job="2" gender="1" birthday="1920-10-01" deathday="2000-07-01" country="D" />
 			<data popularity="40" affinity="40" fame="40" scandalizing="0" price_mod="0" power="25" humor="42" charisma="45" appearance="42" topgenre="5" />
 		</person>
 		<person id="TheRob-celebritypeople-BargHable" tmdb_id="0" imdb_id="nm0000022" creator="8751" created_by="TheRob">
+			<first_name_fikcja>Clark</first_name_fikcja>
+			<last_name_fikcja>Gable</last_name_fikcja>
 			<first_name>Clark</first_name>
 			<last_name>Gable</last_name>
-			<first_name_original>Clark</first_name_original>
-			<last_name_original>Gable</last_name_original>
 			<details job="2" gender="1" birthday="1901-02-01" deathday="1960-11-16" country="USA" />
 			<data popularity="50" affinity="40" fame="50" scandalizing="0" price_mod="0" power="42" humor="9" charisma="53" appearance="42" topgenre="15" />
 		</person>
 		<person id="TheRob-celebritypeople-SteveNeckKing" tmdb_id="0" imdb_id="nm0000537" creator="8751" created_by="TheRob">
+			<first_name_fikcja>Steve</first_name_fikcja>
+			<last_name_fikcja>Neck King</last_name_fikcja>
 			<first_name>Steve</first_name>
-			<last_name>Neck King</last_name>
-			<first_name_original>Steve</first_name_original>
-			<last_name_original>McQueen</last_name_original>
+			<last_name>McQueen</last_name>
 			<details job="2" gender="1" birthday="1930-03-24" deathday="1980-11-07" country="USA" />
 			<data popularity="40" affinity="40" fame="50" scandalizing="10" price_mod="0" power="42" humor="9" charisma="34" appearance="42" topgenre="2" />
 		</person>
 		<person id="TheRob-celebritypeople-AndyCharkowski" tmdb_id="0" imdb_id="nm0001789" creator="8751" created_by="TheRob">
-			<first_name>Andy</first_name>
-			<last_name>Charkowski</last_name>
-			<first_name_original>Andrei</first_name_original>
-			<last_name_original>Tarkovsky</last_name_original>
+			<first_name_fikcja>Andy</first_name_fikcja>
+			<last_name_fikcja>Charkowski</last_name_fikcja>
+			<first_name>Andrei</first_name>
+			<last_name>Tarkovsky</last_name>
 			<details job="2" gender="1" birthday="1932-04-04" deathday="1986-12-29" country="SU" />
 			<data popularity="20" affinity="40" fame="20" scandalizing="0" price_mod="0" power="42" humor="0" charisma="34" appearance="42" topgenre="7" />
 		</person>
 		<person id="TheRob-celebritypeople-SilvyMelbourne" tmdb_id="0" imdb_id="nm0796662" creator="8751" created_by="TheRob">
-			<first_name>Silvy</first_name>
-			<last_name>Melbourne</last_name>
-			<first_name_original>Sylvia</first_name_original>
-			<last_name_original>Sidney</last_name_original>
+			<first_name_fikcja>Silvy</first_name_fikcja>
+			<last_name_fikcja>Melbourne</last_name_fikcja>
+			<first_name>Sylvia</first_name>
+			<last_name>Sidney</last_name>
 			<details job="2" gender="2" birthday="1910-08-08" deathday="1999-07-01" country="USA" />
 			<data popularity="40" affinity="50" fame="30" scandalizing="0" price_mod="0" power="42" humor="9" charisma="45" appearance="42" topgenre="0" />
 		</person>
 		<person id="TheRob-celebritypeople-HenceTrace" tmdb_id="0" imdb_id="nm0000075" creator="8751" created_by="TheRob">
+			<first_name_fikcja>Spencer</first_name_fikcja>
+			<last_name_fikcja>Tracy</last_name_fikcja>
 			<first_name>Spencer</first_name>
 			<last_name>Tracy</last_name>
-			<first_name_original>Spencer</first_name_original>
-			<last_name_original>Tracy</last_name_original>
 			<details job="2" gender="1" birthday="1900-04-05" deathday="1967-06-10" country="USA" />
 			<data popularity="50" affinity="50" fame="50" scandalizing="0" price_mod="0" power="42" humor="29" charisma="45" appearance="42" topgenre="0" />
 		</person>
@@ -2016,28 +2016,28 @@
 		<!-- von rumpelfreddy -->
 
 		<person id="eec1280f-fda9-424b-88c4-fda15c7ec6b6" tmdb_id="0" imdb_id="nm0000158" creator="8667" created_by="Rumpelfreddy" comment="previous id: Freddy-realperson-TomHencs">
+			<first_name_fikcja>Tom</first_name_fikcja>
+			<last_name_fikcja>Hanks</last_name_fikcja>
 			<first_name>Tom</first_name>
 			<last_name>Hanks</last_name>
-			<first_name_original>Tom</first_name_original>
-			<last_name_original>Hanks</last_name_original>
 			<details job="2" gender="1" birthday="1956-07-09" deathday="" country="USA" />
 			<data popularity="10" affinity="10" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<!-- Thomas Oberlies Regie und Schauspieler von Kurzfilmen (und Dr. der Mathematik) kenn ich noch aus meinem Studium -->
 		<person id="Freddy-realperson-ThomasUnterlisl" tmdb_id="0" imdb_id="nm1310885" fictional="0" creator="8667" created_by="Rumpelfreddy">
+			<first_name_fikcja>Thomas</first_name_fikcja>
+			<last_name_fikcja>Unterlisl</last_name_fikcja>
 			<first_name>Thomas</first_name>
-			<last_name>Unterlisl</last_name>
-			<first_name_original>Thomas</first_name_original>
-			<last_name_original>Oberlies</last_name_original>
+			<last_name>Oberlies</last_name>
 			<details job="1" gender="1" birthday="1972-06-26" deathday="" country="D" />
 			<data popularity="10" affinity="10" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<!-- Neil Morrissey Schauspieler in Englischen Komödien und Serien und Stimme von Bob dem Baumeister-->
 		<person id="Freddy-realperson-NailNorrissey" tmdb_id="0" imdb_id="nm0607403" creator="8667" created_by="Rumpelfreddy">
-			<first_name>Nail</first_name>
-			<last_name>Norrisshey</last_name>
-			<first_name_original>Neil</first_name_original>
-			<last_name_original>Morrissey</last_name_original>
+			<first_name_fikcja>Nail</first_name_fikcja>
+			<last_name_fikcja>Norrisshey</last_name_fikcja>
+			<first_name>Neil</first_name>
+			<last_name>Morrissey</last_name>
 			<details job="2" gender="1" birthday="1962-07-04" deathday="" country="GB" />
 			<data popularity="10" affinity="10" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
@@ -2045,26 +2045,26 @@
 		<!-- moved from speedminister.xml -->
 
 		<person id="SpeedMinister-celebritypeople-OttokarKahn" tmdb_id="0" imdb_id="nm2579540" creator="8605" created_by="SpeedMinister">
+			<first_name_fikcja>Oliver</first_name_fikcja>
+			<last_name_fikcja>Jahn</last_name_fikcja>
 			<first_name>Oliver</first_name>
 			<last_name>Jahn</last_name>
-			<first_name_original>Oliver</first_name_original>
-			<last_name_original>Jahn</last_name_original>
 			<details job="3" gender="1" birthday="1969" deathday="" country="D" />
 			<data popularity="7" affinity="20" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="SpeedMinister-celebritypeople-CoraSchirmer" tmdb_id="0" imdb_id="nm1160560" creator="8605" created_by="SpeedMinister">
-			<first_name>Cora</first_name>
-			<last_name>Schirmer</last_name>
-			<first_name_original>Nora</first_name_original>
-			<last_name_original>Tschirner</last_name_original>
+			<first_name_fikcja>Cora</first_name_fikcja>
+			<last_name_fikcja>Schirmer</last_name_fikcja>
+			<first_name>Nora</first_name>
+			<last_name>Tschirner</last_name>
 			<details job="2" gender="2" birthday="1981-06-12" deathday="" country="D" />
 			<data popularity="25" affinity="35" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
 		<person id="SpeedMinister-celebritypeople-ErnstVladimirLandwirt" tmdb_id="0" imdb_id="nm1457924" creator="8605" created_by="SpeedMinister">
-			<first_name>Ernst Vladimir</first_name>
-			<last_name>Landwirt</last_name>
-			<first_name_original>Ernst Waldemar</first_name_original>
-			<last_name_original>Bauer</last_name_original>
+			<first_name_fikcja>Ernst Vladimir</first_name_fikcja>
+			<last_name_fikcja>Landwirt</last_name_fikcja>
+			<first_name>Ernst Waldemar</first_name>
+			<last_name>Bauer</last_name>
 			<details gender="1" birthday="1926-02-28" deathday="2015-06-04" country="D" />
 			<data popularity="2" affinity="0" fame="0" scandalizing="0" price_mod="1" power="0" humor="0" charisma="0" appearance="0" topgenre="0" />
 		</person>
@@ -2072,401 +2072,401 @@
 		<!-- from Cujo -->
 
 		<person id="cujo-person-johnny-tinpauro" tmdb_id="0" imdb_id="nm0001622" creator="8827" created_by="Cujo">
-			<first_name>Johnny</first_name>
-			<last_name>Tinpauro</last_name>
-			<first_name_original>Danny</first_name_original>
-			<last_name_original>Pintauro</last_name_original>
+			<first_name_fikcja>Johnny</first_name_fikcja>
+			<last_name_fikcja>Tinpauro</last_name_fikcja>
+			<first_name>Danny</first_name>
+			<last_name>Pintauro</last_name>
 			<details job="2" gender="1" birthday="1976-01-06" deathday="" country="USA" fictional="0" />
 			<data popularity="66" affinity="33" fame="43" scandalizing="44" price_mod="0.91" power="41" humor="76" charisma="61" appearance="88" topgenre="5" />
 		</person>
 		<person id="cujo-person-ellen-laser" tmdb_id="0" imdb_id="nm0000644" creator="8827" created_by="Cujo">
-			<first_name>Ellen</first_name>
-			<last_name>Laser</last_name>
-			<first_name_original>Helen</first_name_original>
-			<last_name_original>Slater</last_name_original>
+			<first_name_fikcja>Ellen</first_name_fikcja>
+			<last_name_fikcja>Laser</last_name_fikcja>
+			<first_name>Helen</first_name>
+			<last_name>Slater</last_name>
 			<details job="18" gender="2" birthday="1963-12-15" deathday="" country="USA" fictional="0" />
 			<data popularity="59" affinity="60" fame="68" scandalizing="12" price_mod="0.72" power="39" humor="60" charisma="72" appearance="65" topgenre="7" />
 		</person>	
 		<person id="cujo-person-tom-hoppins" tmdb_id="0" imdb_id="nm0000209" creator="8827" created_by="Cujo">
+			<first_name_fikcja>Tim</first_name_fikcja>
+			<last_name_fikcja>Robbins</last_name_fikcja>
 			<first_name>Tim</first_name>
 			<last_name>Robbins</last_name>
-			<first_name_original>Tim</first_name_original>
-			<last_name_original>Robbins</last_name_original>
 			<details job="23" gender="1" birthday="1958-10-16" deathday="" country="USA" fictional="0" />
 			<data popularity="65" affinity="71" fame="81" scandalizing="27" price_mod="1.05" power="55" humor="39" charisma="82" appearance="76" topgenre="17" />
 		</person>
 		<person id="cujo-person-torilo" tmdb_id="0" imdb_id="nm0902086" creator="8827" created_by="Cujo">
-			<first_name>Ricco</first_name>
-			<last_name>von Lübow</last_name>
-			<nick_name>Torilo</nick_name>
-			<nick_name_original>Loriot</nick_name_original>
-			<first_name_original>Vicco</first_name_original>
-			<last_name_original>von Bülow</last_name_original>
+			<first_name_fikcja>Ricco</first_name_fikcja>
+			<last_name_fikcja>von Lübow</last_name_fikcja>
+			<nick_name_fikcja>Torilo</nick_name_fikcja>
+			<nick_name>Loriot</nick_name>
+			<first_name>Vicco</first_name>
+			<last_name>von Bülow</last_name>
 			<details job="1055" gender="1" birthday="1923-11-12" deathday="2011-08-22" country="D" fictional="0" />
 			<data popularity="80" affinity="60" fame="30" scandalizing="8" price_mod="1.1" power="10" humor="80" charisma="60" appearance="35" topgenre="5" />
 		</person>
 		<person id="cujo-person-emilie-mahann" tmdb_id="0" imdb_id="nm0357327" creator="8827" created_by="Cujo">
-			<first_name>Emilie</first_name>
-			<last_name>Mahann</last_name>
-			<first_name_original>Evelyn</first_name_original>
-			<last_name_original>Hamann</last_name_original>
+			<first_name_fikcja>Emilie</first_name_fikcja>
+			<last_name_fikcja>Mahann</last_name_fikcja>
+			<first_name>Evelyn</first_name>
+			<last_name>Hamann</last_name>
 			<details job="2" gender="2" birthday="1942-08-06" deathday="2007-10-29" country="D" fictional="0" />
 			<data popularity="75" affinity="40" fame="8" scandalizing="6" price_mod="0.7" power="10" humor="80" charisma="20" appearance="15" topgenre="5" />
 		</person>
 		<person id="cujo-person-marlene-lotte-hajan" tmdb_id="0" imdb_id="nm0548184" creator="8827" created_by="Cujo">
-			<first_name>Marlene-Lotte</first_name>
-			<last_name>Hajan</last_name>
-			<first_name_original>Marie-Luise</first_name_original>
-			<last_name_original>Marjan</last_name_original>
+			<first_name_fikcja>Marlene-Lotte</first_name_fikcja>
+			<last_name_fikcja>Hajan</last_name_fikcja>
+			<first_name>Marie-Luise</first_name>
+			<last_name>Marjan</last_name>
 			<details job="2" gender="2" birthday="1940-08-09" deathday="" country="D" fictional="0" />
 			<data popularity="79" affinity="69" fame="78" scandalizing="12" price_mod="0.88" power="63" humor="62" charisma="72" appearance="35" topgenre="9" />
 		</person>
 		<person id="cujo-person-marianne-stendel" tmdb_id="0" imdb_id="nm0920864" creator="8827" created_by="Cujo">
-			<first_name>Marianne</first_name>
-			<last_name>Stendel</last_name>
-			<first_name_original>Annemarie</first_name_original>
-			<last_name_original>Wendl</last_name_original>
+			<first_name_fikcja>Marianne</first_name_fikcja>
+			<last_name_fikcja>Stendel</last_name_fikcja>
+			<first_name>Annemarie</first_name>
+			<last_name>Wendl</last_name>
 			<details job="2" gender="2" birthday="1914-12-26" deathday="2006-09-03" country="D" fictional="0" />
 			<data popularity="69" affinity="55" fame="58" scandalizing="42" price_mod="0.69" power="33" humor="42" charisma="42" appearance="25" topgenre="9" />
 		</person>
 		<person id="0009cb2b-4f26-4634-8679-59655fa67b4e" tmdb_id="0" imdb_id="nm0001709" creator="8827" created_by="Cujo" comment="previous id: cujo-person-will-schweitzer">
+			<first_name_fikcja>Til</first_name_fikcja>
+			<last_name_fikcja>Schweiger</last_name_fikcja>
 			<first_name>Til</first_name>
 			<last_name>Schweiger</last_name>
-			<first_name_original>Til</first_name_original>
-			<last_name_original>Schweiger</last_name_original>
 			<details job="2" gender="1" birthday="1963-12-19" deathday="" country="D" fictional="0" />
 			<data popularity="39" affinity="28" fame="38" scandalizing="82" price_mod="1.04" power="63" humor="22" charisma="56" appearance="77" topgenre="5" />
 		</person>
 		<person id="cujo-person-olli-herden" tmdb_id="0" imdb_id="nm0380337" creator="8827" created_by="Cujo">
-			<first_name>Olli</first_name>
-			<last_name>Herden</last_name>
-			<first_name_original>Willi</first_name_original>
-			<last_name_original>Herren</last_name_original>
+			<first_name_fikcja>Olli</first_name_fikcja>
+			<last_name_fikcja>Herden</last_name_fikcja>
+			<first_name>Willi</first_name>
+			<last_name>Herren</last_name>
 			<details job="2" gender="1" birthday="1975-06-17" deathday="2021-04-20" country="D" fictional="0" />
 			<data popularity="25" affinity="16" fame="78" scandalizing="89" price_mod="0.39" power="33" humor="22" charisma="7" appearance="44" topgenre="9" />
 		</person>
 		<person id="cujo-person-antje-poppwol" tmdb_id="0" imdb_id="nm0672548" creator="8827" created_by="Cujo">
-			<first_name>Antje</first_name>
-			<last_name>Poppwol</last_name>
-			<first_name_original>Sontje</first_name_original>
-			<last_name_original>Peplow</last_name_original>
+			<first_name_fikcja>Antje</first_name_fikcja>
+			<last_name_fikcja>Poppwol</last_name_fikcja>
+			<first_name>Sontje</first_name>
+			<last_name>Peplow</last_name>
 			<details job="2" gender="2" birthday="1981-04-01" deathday="" country="D" fictional="0" />
 			<data popularity="55" affinity="56" fame="48" scandalizing="12" price_mod="0.57" power="53" humor="54" charisma="67" appearance="78" topgenre="9" />
 		</person>
 		<person id="cujo-person-herakles-dododiles" tmdb_id="0" imdb_id="nm0388318" creator="8827" created_by="Cujo">
-			<first_name>Herakles</first_name>
-			<last_name>Dododiles</last_name>
-			<first_name_original>Hermes</first_name_original>
-			<last_name_original>Hodolides</last_name_original>
+			<first_name_fikcja>Herakles</first_name_fikcja>
+			<last_name_fikcja>Dododiles</last_name_fikcja>
+			<first_name>Hermes</first_name>
+			<last_name>Hodolides</last_name>
 			<details job="2" gender="1" birthday="1963-09-15" deathday="" country="GR" fictional="0" />
 			<data popularity="49" affinity="42" fame="24" scandalizing="13" price_mod="0.55" power="42" humor="31" charisma="55" appearance="32" topgenre="9" />
 		</person>
 		<person id="cujo-person-amon-surganjankanayani" tmdb_id="0" imdb_id="nm0839539" creator="8827" created_by="Cujo">
+			<first_name_fikcja>Amorn</first_name_fikcja>
+			<last_name_fikcja>Surangkanjanajai</last_name_fikcja>
 			<first_name>Amorn</first_name>
 			<last_name>Surangkanjanajai</last_name>
-			<first_name_original>Amorn</first_name_original>
-			<last_name_original>Surangkanjanajai</last_name_original>
 			<details job="2" gender="1" birthday="1953-03-23" deathday="" country="HK" fictional="0" />
 			<data popularity="69" affinity="31" fame="12" scandalizing="6" price_mod="0.28" power="22" humor="71" charisma="65" appearance="52" topgenre="9" />
 		</person>
 		<person id="cujo-person-marlene-angler" tmdb_id="0" imdb_id="nm5874034" creator="8827" created_by="Cujo">
-			<first_name>Marlene</first_name>
-			<last_name>Angler</last_name>
-			<first_name_original>Irene</first_name_original>
-			<last_name_original>Fischer</last_name_original>
+			<first_name_fikcja>Marlene</first_name_fikcja>
+			<last_name_fikcja>Angler</last_name_fikcja>
+			<first_name>Irene</first_name>
+			<last_name>Fischer</last_name>
 			<details job="7" gender="2" birthday="1959-12-24" deathday="" country="D" fictional="0" />
 			<data popularity="43" affinity="62" fame="22" scandalizing="16" price_mod="0.39" power="55" humor="31" charisma="45" appearance="42" topgenre="9" />
 		</person>
 		<person id="cujo-person-max-b-sax" tmdb_id="0" imdb_id="nm0755176" creator="8827" created_by="Cujo">
-			<first_name>Max B.</first_name>
-			<last_name>Sax</last_name>
-			<first_name_original>Moritz A.</first_name_original>
-			<last_name_original>Sachs</last_name_original>
+			<first_name_fikcja>Max B.</first_name_fikcja>
+			<last_name_fikcja>Sax</last_name_fikcja>
+			<first_name>Moritz A.</first_name>
+			<last_name>Sachs</last_name>
 			<details job="7" gender="1" birthday="1978-08-13" deathday="" country="D" fictional="0" />
 			<data popularity="55" affinity="50" fame="32" scandalizing="26" price_mod="0.44" power="69" humor="57" charisma="65" appearance="71" topgenre="9" />
 		</person>
 		<person id="cujo-person-tim-sparson" tmdb_id="0" imdb_id="nm1433588" creator="8827" created_by="Cujo">
-			<first_name>Tim</first_name>
-			<last_name>Sparson</last_name>
-			<first_name_original>Jim</first_name_original>
-			<last_name_original>Parsons</last_name_original>
+			<first_name_fikcja>Tim</first_name_fikcja>
+			<last_name_fikcja>Sparson</last_name_fikcja>
+			<first_name>Jim</first_name>
+			<last_name>Parsons</last_name>
 			<details job="2" gender="1" birthday="1973-03-24" deathday="" country="USA" fictional="0" />
 			<data popularity="58" affinity="48" fame="62" scandalizing="27" price_mod="0.98" power="53" humor="59" charisma="57" appearance="55" topgenre="5" />
 		</person>
 		<person id="cujo-person-jerry-lakecki" tmdb_id="0" imdb_id="nm0301959" creator="8827" created_by="Cujo">
-			<first_name>Jerry</first_name>
-			<last_name>Lakecki</last_name>
-			<first_name_original>Johnny</first_name_original>
-			<last_name_original>Galecki</last_name_original>
+			<first_name_fikcja>Jerry</first_name_fikcja>
+			<last_name_fikcja>Lakecki</last_name_fikcja>
+			<first_name>Johnny</first_name>
+			<last_name>Galecki</last_name>
 			<details job="2" gender="1" birthday="1975-04-30" deathday="" country="USA" fictional="0" />
 			<data popularity="53" affinity="43" fame="59" scandalizing="33" price_mod="0.91" power="49" humor="64" charisma="63" appearance="69" topgenre="5" />
 		</person>
 		<person id="cujo-person-kelly-kukoko" tmdb_id="0" imdb_id="nm0192505" creator="8827" created_by="Cujo">
-			<first_name>Kelly</first_name>
-			<last_name>Kukoko</last_name>
-			<first_name_original>Kaley</first_name_original>
-			<last_name_original>Cuoco</last_name_original>
+			<first_name_fikcja>Kelly</first_name_fikcja>
+			<last_name_fikcja>Kukoko</last_name_fikcja>
+			<first_name>Kaley</first_name>
+			<last_name>Cuoco</last_name>
 			<details job="2" gender="2" birthday="1985-11-30" deathday="" country="USA" fictional="0" />
 			<data popularity="55" affinity="45" fame="51" scandalizing="53" price_mod="0.83" power="41" humor="67" charisma="73" appearance="83" topgenre="5" />
 		</person>
 		<person id="cujo-person-paul-witzig" tmdb_id="0" imdb_id="nm0527341" creator="8827" created_by="Cujo">
-			<first_name>Paul</first_name>
-			<last_name>Witzig</last_name>
-			<first_name_original>Peter</first_name_original>
-			<last_name_original>Lustig</last_name_original>
+			<first_name_fikcja>Paul</first_name_fikcja>
+			<last_name_fikcja>Witzig</last_name_fikcja>
+			<first_name>Peter</first_name>
+			<last_name>Lustig</last_name>
 			<details job="10" gender="1" birthday="1937-10-27" deathday="2016-02-23" country="D" fictional="0" />
 			<data popularity="87" affinity="81" fame="92" scandalizing="11" price_mod="0.94" power="31" humor="72" charisma="71" appearance="51" topgenre="9" />
 		</person>
 		<person id="cujo-person-horst-krause" tmdb_id="0" imdb_id="nm0527341" creator="8827" created_by="Cujo">
-			<first_name>Horst</first_name>
-			<last_name>Krause</last_name>
-			<first_name_original>Helmut</first_name_original>
-			<last_name_original>Krauss</last_name_original>
+			<first_name_fikcja>Horst</first_name_fikcja>
+			<last_name_fikcja>Krause</last_name_fikcja>
+			<first_name>Helmut</first_name>
+			<last_name>Krauss</last_name>
 			<details job="34" gender="1" birthday="1941-06-11" deathday="2019-08-26" country="D" fictional="0" />
 			<data popularity="37" affinity="41" fame="15" scandalizing="17" price_mod="0.69" power="49" humor="52" charisma="41" appearance="35" topgenre="9" />
 		</person>
 		<!-- Regisseure -->
 		<person id="cujo-person-louis-tiggu" tmdb_id="" imdb_id="nm0853546" creator="8827" created_by="Cujo">
-			<first_name>Louis</first_name>
-			<last_name>Tiggu</last_name>
-			<first_name_original>Lewis</first_name_original>
-			<last_name_original>Teague</last_name_original>
+			<first_name_fikcja>Louis</first_name_fikcja>
+			<last_name_fikcja>Tiggu</last_name_fikcja>
+			<first_name>Lewis</first_name>
+			<last_name>Teague</last_name>
 			<details job="1" gender="1" birthday="1938-03-08" deathday="" country="USA" />
 		</person>
 		<person id="cujo-person-jane-swart" tmdb_id="" imdb_id="nm0844358" creator="8827" created_by="Cujo">
-			<first_name>Jane</first_name>
-			<last_name>Swart</last_name>
-			<first_name_original>Jeannot</first_name_original>
-			<last_name_original>Szwarc</last_name_original>
+			<first_name_fikcja>Jane</first_name_fikcja>
+			<last_name_fikcja>Swart</last_name_fikcja>
+			<first_name>Jeannot</first_name>
+			<last_name>Szwarc</last_name>
 			<details job="1" gender="2" birthday="1939-11-21" deathday="" country="F" />
 		</person>
 		<!-- Richard Donner - Duplicate of 4cfa15ed-912a-44fd-bc67-c8a434af7225 - removing by commenting out. Also had wrong imdb_id, which was added as f4627c8a-e468-4d14-b438-201f159249cd
 		<person id="cujo-person-robert-turner" tmdb_id="" imdb_id="nm0001149" creator="8827" created_by="Cujo">
-			<first_name>Robert</first_name>
-			<last_name>Turner</last_name>
-			<first_name_original>Richard</first_name_original>
-			<last_name_original>Donner</last_name_original>
+			<first_name_fikcja>Robert</first_name_fikcja>
+			<last_name_fikcja>Turner</last_name_fikcja>
+			<first_name>Richard</first_name>
+			<last_name>Donner</last_name>
 			<details job="1" gender="1" birthday="1930-04-24" deathday="2021-07-05" country="USA" />
 		</person> -->
 		<!-- Sidney Lumet -->
 		<person id="cujo-person-siggy-tumle" tmdb_id="" imdb_id="nm0001486" creator="8827" created_by="Cujo">
-			<first_name>Siggy</first_name>
-			<last_name>Tumle</last_name>
-			<first_name_original>Sidney</first_name_original>
-			<last_name_original>Lumet</last_name_original>
+			<first_name_fikcja>Siggy</first_name_fikcja>
+			<last_name_fikcja>Tumle</last_name_fikcja>
+			<first_name>Sidney</first_name>
+			<last_name>Lumet</last_name>
 			<details job="1" gender="1" birthday="1924-06-25" deathday="2011-04-09" country="USA" />
 		</person>
 		<person id="cujo-person-enrico-klatscher" tmdb_id="" imdb_id="nm0005645" creator="8827" created_by="Cujo">
-			<first_name>Enrico</first_name>
-			<last_name>Klatscher</last_name>
-			<first_name_original>E. B.</first_name_original>
-			<last_name_original>Clucher</last_name_original>
+			<first_name_fikcja>Enrico</first_name_fikcja>
+			<last_name_fikcja>Klatscher</last_name_fikcja>
+			<first_name>E. B.</first_name>
+			<last_name>Clucher</last_name>
 			<details job="1" gender="1" birthday="1922-07-10" deathday="2002-03-23" country="I" />
 		</person>
 		<person id="cujo-person-horst-ziegenstaedter" tmdb_id="" imdb_id="nm0312078" creator="8827" created_by="Cujo">
-			<first_name>Horst</first_name>
-			<last_name>Ziegenstädter</last_name>
-			<first_name_original>Hans W.</first_name_original>
-			<last_name_original>Geißendörfer</last_name_original>
+			<first_name_fikcja>Horst</first_name_fikcja>
+			<last_name_fikcja>Ziegenstädter</last_name_fikcja>
+			<first_name>Hans W.</first_name>
+			<last_name>Geißendörfer</last_name>
 			<details job="1" gender="1" birthday="1941-04-06" deathday="" country="D" />
 		</person>
 		<person id="cujo-person-elvira-pampami" tmdb_id="" imdb_id="nm2539925" creator="8827" created_by="Cujo">
-			<first_name>Elvira</first_name>
-			<last_name>Pampami</last_name>
-			<first_name_original>Ester</first_name_original>
-			<last_name_original>Amrami</last_name_original>
+			<first_name_fikcja>Elvira</first_name_fikcja>
+			<last_name_fikcja>Pampami</last_name_fikcja>
+			<first_name>Ester</first_name>
+			<last_name>Amrami</last_name>
 			<details job="5" gender="2" birthday="1979-02-05" deathday="" country="IL" />
 		</person>
 		<person id="cujo-person-damian-prost" tmdb_id="" imdb_id="nm0698239" creator="8827" created_by="Cujo">
-			<first_name>Damian</first_name>
-			<last_name>Prost</last_name>
-			<first_name_original>Dominikus</first_name_original>
-			<last_name_original>Probst</last_name_original>
+			<first_name_fikcja>Damian</first_name_fikcja>
+			<last_name_fikcja>Prost</last_name_fikcja>
+			<first_name>Dominikus</first_name>
+			<last_name>Probst</last_name>
 			<details job="3" gender="1" birthday="1958-08-09" deathday="" country="D" />
 		</person>
 		<person id="cujo-person-jack-klor" tmdb_id="" imdb_id="nm521143" creator="8827" created_by="Cujo">
-			<first_name>Jack</first_name>
-			<last_name>Klor</last_name>
-			<first_name_original>Chuck</first_name_original>
-			<last_name_original>Lorre</last_name_original>
+			<first_name_fikcja>Jack</first_name_fikcja>
+			<last_name_fikcja>Klor</last_name_fikcja>
+			<first_name>Chuck</first_name>
+			<last_name>Lorre</last_name>
 			<details job="1" gender="1" birthday="1952-10-18" deathday="" country="USA" />
 		</person>
 		<person id="cujo-person-karl-lora" tmdb_id="" imdb_id="nm0738001" creator="8827" created_by="Cujo">
-			<first_name>Karl</first_name>
-			<last_name>Lora</last_name>
-			<first_name_original>Carlo</first_name_original>
-			<last_name_original>Rola</last_name_original>
+			<first_name_fikcja>Karl</first_name_fikcja>
+			<last_name_fikcja>Lora</last_name_fikcja>
+			<first_name>Carlo</first_name>
+			<last_name>Rola</last_name>
 			<details job="1" gender="1" birthday="1958-10-06" deathday="2016-03-14" country="D" />
 		</person>
 		<!-- Moderatoren -->
 		<person id="cujo-person-ross-blob" tmdb_id="" imdb_id="nm1470679" creator="8827" created_by="Cujo">
-			<first_name>Ross</first_name>
-			<last_name>Blob</last_name>
-			<first_name_original>Bob</first_name_original>
-			<last_name_original>Ross</last_name_original>
+			<first_name_fikcja>Ross</first_name_fikcja>
+			<last_name_fikcja>Blob</last_name_fikcja>
+			<first_name>Bob</first_name>
+			<last_name>Ross</last_name>
 			<details job="8" gender="1" birthday="1942-10-29" deathday="1995-07-04" country="USA" />
 		</person>
 		<person id="cujo-person-fabian-knoetlich" tmdb_id="" imdb_id="nm2851022" creator="8827" created_by="Cujo">
-			<first_name>Fabian</first_name>
-			<last_name>Knötlich</last_name>
-			<first_name_original>Florian</first_name_original>
-			<last_name_original>König</last_name_original>
+			<first_name_fikcja>Fabian</first_name_fikcja>
+			<last_name_fikcja>Knötlich</last_name_fikcja>
+			<first_name>Florian</first_name>
+			<last_name>König</last_name>
 			<details job="8" gender="1" birthday="1967-09-14" deathday="" country="D" />
 		</person>
 
 		<!-- from Stukov - some duplicates removed or merged -->
 
 		<person id="21cf3fe5-98dc-48a0-b84f-a31c54ba2861" tmdb_id="0" imdb_id="nm0000570" creator="" created_by="Stukov" comment="Previous ID: Stukov-Regie-Parker - merged from insignificant version">
-			<first_name>Aaron</first_name>
-			<last_name>Parkin</last_name>
-			<first_name_original>Alan</first_name_original>
-			<last_name_original>Parker</last_name_original>
+			<first_name_fikcja>Aaron</first_name_fikcja>
+			<last_name_fikcja>Parkin</last_name_fikcja>
+			<first_name>Alan</first_name>
+			<last_name>Parker</last_name>
 			<details gender="1" birthday="1944-02-14" deathday="2020-07-31" country="" />
 			<data popularity="20" affinity="30" fame="25" scandalizing="0" power="0" humor="0" charisma="7" appearance="15" topgenre="12" />
 		</person>
 		<person id="6e7e605a-597f-421e-aacd-81acc26cf55e" tmdb_id="0" imdb_id="nm0000956" creator="" created_by="Stukov" comment="Previous ID: Stukov-Actor-Bonet - merged from insignificant version">
-			<first_name>Lucy</first_name>
-			<last_name>Bonnet</last_name>
-			<first_name_original>Lisa</first_name_original>
-			<last_name_original>Bonet</last_name_original>
+			<first_name_fikcja>Lucy</first_name_fikcja>
+			<last_name_fikcja>Bonnet</last_name_fikcja>
+			<first_name>Lisa</first_name>
+			<last_name>Bonet</last_name>
 			<details gender="2" birthday="1967-11-16" deathday="" country="" />
 			<data popularity="10" affinity="10" fame="10" scandalizing="0" power="0" humor="30" charisma="20" appearance="40" topgenre="0" />
 		</person>
 		<person id="893caa00-2171-4005-997e-296b5cc87ce8" tmdb_id="0" imdb_id="nm0000484" creator="" comment="Previous ID: Stukov-Regie-Landis - merged from insignificant version">
-			<first_name>Jack</first_name>
-			<last_name>Lanis</last_name>
-			<first_name_original>John</first_name_original>
-			<last_name_original>Landis</last_name_original>
+			<first_name_fikcja>Jack</first_name_fikcja>
+			<last_name_fikcja>Lanis</last_name_fikcja>
+			<first_name>John</first_name>
+			<last_name>Landis</last_name>
 			<details gender="1" birthday="1950-08-03" deathday="" country="" />
 			<data topgenre="18" fame="32" affinity="12" scandalizing="37" power="96" humor="86" charisma="50" appearance="51" popularity="96" />
 		</person>
 		<person id="85341df9-bd8f-4fd0-9f80-c9ab44ca0829" tmdb_id="0" imdb_id="nm0000416" creator="Stukov" comment="Previous ID: Stukov-Regie-Gilliam - merged from already existing insignificant version">
-			<first_name>Teddy</first_name>
-			<last_name>Gilligan</last_name>
-			<first_name_original>Terry</first_name_original>
-			<last_name_original>Gilliam</last_name_original>
+			<first_name_fikcja>Teddy</first_name_fikcja>
+			<last_name_fikcja>Gilligan</last_name_fikcja>
+			<first_name>Terry</first_name>
+			<last_name>Gilliam</last_name>
 			<details gender="1" birthday="1940-11-22" deathday="" />
 			<data fame="29" />
 		</person>
 		<person id="bcc4d7a7-c155-443b-a726-8fde2735daec" tmdb_id="0" imdb_id="nm0001589" creator="Stukov" comment="Previous ID: Stukov_MichaelPalin - merged from insignificant version">
-			<first_name>Mikki M.</first_name>
-			<last_name>Palindrom</last_name>
-			<first_name_original>Michael</first_name_original>
-			<last_name_original>Palin</last_name_original>
+			<first_name_fikcja>Mikki M.</first_name_fikcja>
+			<last_name_fikcja>Palindrom</last_name_fikcja>
+			<first_name>Michael</first_name>
+			<last_name>Palin</last_name>
 			<details gender="1" birthday="1943-05-05" deathday="" />
 			<data topgenre="5" fame="77" />
 		</person>
 		<person id="Stukov_MirandaRichardson" tmdb_id="0" imdb_id="nm0001669" creator="Stukov">
-			<first_name>Melissa</first_name>
-			<last_name>Richards</last_name>
-			<first_name_original>Miranda</first_name_original>
-			<last_name_original>Richardson</last_name_original>
+			<first_name_fikcja>Melissa</first_name_fikcja>
+			<last_name_fikcja>Richards</last_name_fikcja>
+			<first_name>Miranda</first_name>
+			<last_name>Richardson</last_name>
 			<details gender="2" birthday="" deathday="" />
 			<data topgenre="" fame="97" />
 		</person>
 		<person id="Stukov_JJAnnaud" tmdb_id="0" imdb_id="nm0000269" creator="Stukov">
-			<first_name>Jerome-Jacques</first_name>
-			<last_name>Antier</last_name>
-			<first_name_original>Jean-Jacques</first_name_original>
-			<last_name_original>Annaud</last_name_original>
+			<first_name_fikcja>Jerome-Jacques</first_name_fikcja>
+			<last_name_fikcja>Antier</last_name_fikcja>
+			<first_name>Jean-Jacques</first_name>
+			<last_name>Annaud</last_name>
 			<details gender="1" birthday="" deathday="" />
 			<data topgenre="7" fame="17" />
 		</person>
 		<person id="Stukov_TomShadyac" tmdb_id="0" imdb_id="nm0001723" creator="Stukov">
-			<first_name>Tony</first_name>
-			<last_name>Shadillac</last_name>
-			<first_name_original>Tom</first_name_original>
-			<last_name_original>Shadyac</last_name_original>
+			<first_name_fikcja>Tony</first_name_fikcja>
+			<last_name_fikcja>Shadillac</last_name_fikcja>
+			<first_name>Tom</first_name>
+			<last_name>Shadyac</last_name>
 			<details gender="1" birthday="" deathday="" />
 			<data topgenre="5" fame="15" />
 		</person>
 		<person id="Stukov_JohnLeeHancock" tmdb_id="0" imdb_id="nm0359387" creator="Stukov">
-			<first_name>James Lee</first_name>
-			<last_name>Hadcock</last_name>
-			<first_name_original>John Lee</first_name_original>
-			<last_name_original>Hancock</last_name_original>
+			<first_name_fikcja>James Lee</first_name_fikcja>
+			<last_name_fikcja>Hadcock</last_name_fikcja>
+			<first_name>John Lee</first_name>
+			<last_name>Hancock</last_name>
 			<details gender="1" birthday="" deathday="" />
 			<data topgenre="7" fame="9" />
 		</person>
 		<person id="Stukov_JimCarrey" tmdb_id="0" imdb_id="nm0000120" creator="Stukov">
+			<first_name_fikcja>Jim</first_name_fikcja>
+			<last_name_fikcja>Carrey</last_name_fikcja>
 			<first_name>Jim</first_name>
 			<last_name>Carrey</last_name>
-			<first_name_original>Jim</first_name_original>
-			<last_name_original>Carrey</last_name_original>
 			<details gender="1" birthday="" deathday="" />
 			<data topgenre="5" fame="68" />
 		</person>
 		<person id="Stukov_LisaBlount" tmdb_id="0" imdb_id="nm0089408" creator="Stukov">
-			<first_name>Lina</first_name>
-			<last_name>Blunt</last_name>
-			<first_name_original>Lisa</first_name_original>
-			<last_name_original>Blount</last_name_original>
+			<first_name_fikcja>Lina</first_name_fikcja>
+			<last_name_fikcja>Blunt</last_name_fikcja>
+			<first_name>Lisa</first_name>
+			<last_name>Blount</last_name>
 			<details gender="2" birthday="" deathday="" />
 			<data topgenre="" fame="49" />
 		</person>
 		<person id="Stukov_MichaelCrichton" tmdb_id="0" imdb_id="nm0000341" creator="Stukov">
+			<first_name_fikcja>Michael</first_name_fikcja>
+			<last_name_fikcja>Crichton</last_name_fikcja>
 			<first_name>Michael</first_name>
 			<last_name>Crichton</last_name>
-			<first_name_original>Michael</first_name_original>
-			<last_name_original>Crichton</last_name_original>
 			<details gender="1" birthday="" deathday="" />
 			<data popularity="60" fame="50" topgenre="4" />
 		</person>
 		<person id="Stukov_CorbinBernsen" tmdb_id="0" imdb_id="nm0000929" creator="Stukov">
-			<first_name>Colby</first_name>
-			<last_name>Benton</last_name>
-			<first_name_original>Corbin</first_name_original>
-			<last_name_original>Bernsen</last_name_original>
+			<first_name_fikcja>Colby</first_name_fikcja>
+			<last_name_fikcja>Benton</last_name_fikcja>
+			<first_name>Corbin</first_name>
+			<last_name>Bernsen</last_name>
 			<details gender="1" birthday="" deathday="" />
 			<data popularity="66" fame="50" topgenre="4" />
 		</person>
 		<person id="Stukov_BurtKennedy" tmdb_id="0" imdb_id="nm0447944" creator="Stukov">
-			<first_name>Brent</first_name>
-			<last_name>Remedy</last_name>
-			<first_name_original>Burt</first_name_original>
-			<last_name_original>Kennedy</last_name_original>
+			<first_name_fikcja>Brent</first_name_fikcja>
+			<last_name_fikcja>Remedy</last_name_fikcja>
+			<first_name>Burt</first_name>
+			<last_name>Kennedy</last_name>
 			<details gender="1" birthday="" deathday="" />
 			<data popularity="35" fame="35" topgenre="18" />
 		</person>
 		<person id="Stukov_CorinNemec" tmdb_id="0" imdb_id="nm0005269" creator="Stukov">
-			<first_name>Cory</first_name>
-			<last_name>Nimecz</last_name>
-			<first_name_original>Corin</first_name_original>
-			<last_name_original>Nemec</last_name_original>
+			<first_name_fikcja>Cory</first_name_fikcja>
+			<last_name_fikcja>Nimecz</last_name_fikcja>
+			<first_name>Corin</first_name>
+			<last_name>Nemec</last_name>
 			<details gender="1" birthday="" deathday="" />
 			<data popularity="30" fame="20" />
 		</person>
 		<person id="Stukov_OttoWaalkes" tmdb_id="0" imdb_id="nm0905102" creator="Stukov">
-			<first_name>Ottmar</first_name>
-			<last_name>Waarkes</last_name>
+			<first_name_fikcja>Ottmar</first_name_fikcja>
+			<last_name_fikcja>Waarkes</last_name_fikcja>
+			<nick_name_fikcja>Otti</nick_name_fikcja>
 			<nick_name>Otti</nick_name>
-			<nick_name_original>Otti</nick_name_original>
-			<first_name_original>Otto</first_name_original>
-			<last_name_original>Waalkes</last_name_original>
+			<first_name>Otto</first_name>
+			<last_name>Waalkes</last_name>
 			<details gender="1" birthday="1948-07-22" deathday="" />
 			<data popularity="40" fame="40" topgenre="5" />
 		</person>
 		<person id="Stukov_SophieMarceau" tmdb_id="0" imdb_id="nm0000521" creator="Stukov">
+			<first_name_fikcja>Sophie</first_name_fikcja>
+			<last_name_fikcja>Marceau</last_name_fikcja>
 			<first_name>Sophie</first_name>
 			<last_name>Marceau</last_name>
-			<first_name_original>Sophie</first_name_original>
-			<last_name_original>Marceau</last_name_original>
 			<details gender="2" birthday="" deathday="" />
 			<data popularity="60" fame="70" />
 		</person>
 		<person id="Stukov_DougLiman" tmdb_id="0" imdb_id="nm0510731" creator="Stukov">
-			<first_name>Don</first_name>
-			<last_name>Leeman</last_name>
-			<first_name_original>Doug</first_name_original>
-			<last_name_original>Liman</last_name_original>
+			<first_name_fikcja>Don</first_name_fikcja>
+			<last_name_fikcja>Leeman</last_name_fikcja>
+			<first_name>Doug</first_name>
+			<last_name>Liman</last_name>
 			<details gender="1" birthday="1965-07-24" deathday="" />
 			<data affinity="77" scandalizing="85" power="96" humor="1" charisma="30" appearance="30" popularity="51" fame="45" topgenre="2" />
 		</person>
 		<person id="Stukov_FrankaPotente" tmdb_id="0" imdb_id="nm0004376" creator="Stukov">
-			<first_name>Frauke</first_name>
-			<last_name>Patenta</last_name>
-			<first_name_original>Franka</first_name_original>
-			<last_name_original>Potente</last_name_original>
+			<first_name_fikcja>Frauke</first_name_fikcja>
+			<last_name_fikcja>Patenta</last_name_fikcja>
+			<first_name>Franka</first_name>
+			<last_name>Potente</last_name>
 			<details gender="2" birthday="1974-07-22" deathday="" />
 			<data topgenre="2" fame="60" affinity="40" scandalizing="82" power="5" humor="69" charisma="24" appearance="7" popularity="29" />
 		</person>
