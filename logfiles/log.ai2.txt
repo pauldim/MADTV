@@ -1,0 +1,45 @@
+AI Log v1.0
+[19:24:23] Loaded LUA for AI 2. Time: 0ms
+[19:24:23] 04:58 - Loaded objects: 156
+[19:24:23] 04:58 - Successfully restored AI state!
+[19:24:23] 04:58 - AI-Event: OnGameBegins
+[19:24:42] Loaded LUA for AI 2. Time: 0ms
+[19:24:42] 00:00 - Initialisiere DefaultAIPlayer-KI ...
+[19:24:42] 00:00 - AI-Event: OnDayBegins
+[19:24:42] 00:00 - === Budget day 1 ===
+[19:24:42] 00:00 - Account balance:             750000
+[19:24:42] 00:00 - Planned budget:              750000
+[19:24:42] 00:00 - TaskNewsAgency fix            10000
+[19:24:42] 00:00 - Fixed costs:                  10000
+[19:24:42] 00:00 - F.C.+reserve (for hour):          0
+[19:24:42] 00:00 - Savings:                          0
+[19:24:42] 00:00 - Final budget:                750000
+[19:24:42] 00:00 -                             =======
+[19:24:42] 00:00 - Budget split:
+[19:24:42] 00:00 - TaskNewsAgency                75000
+[19:24:42] 00:00 - TaskBoss                          0
+[19:24:42] 00:00 - TaskStationMap                    0
+[19:24:42] 00:00 - TaskMovieDistributor         675000
+[19:24:42] 00:00 - TaskAdAgency                      0
+[19:24:42] 00:00 - ======
+[19:24:42] 00:00 - ### Starting task 'TaskSchedule'! (Prio: 10.1). MaxTicks: 40
+[19:24:42] 00:00 -     AI-Event: OnGameBegins
+[19:24:57] 00:07 -     AIJobGoToRoom: Entering roomId: 47601
+[19:24:58] 00:07 -     Startprogramme missing: Raising priority for movie distributor! 30
+[19:25:11] 00:14 - ### Task finished!
+[19:25:11] 00:14 - ### Starting task 'TaskMovieDistributor'! (Prio: 100.254). MaxTicks: 40
+[19:25:40] 00:29 -     Room is still used. I do not want to wait any longer.
+[19:25:40] 00:29 -   Job AIJobGoToRoom cancelled. Duration=29376.0000ms  TickCount=64  TickTime=0.0000ms  TickMax=0.0000
+[19:25:40] 00:29 - <<< Task cancelled!
+[19:25:41] 00:29 - ### Starting task 'TaskMovieDistributor'! (Prio: 89.559). MaxTicks: 40
+[19:25:53] 00:35 -     Room is still used. I do not want to wait any longer.
+[19:25:53] 00:35 -   Job AIJobGoToRoom cancelled. Duration=12155.0000ms  TickCount=29  TickTime=0.0000ms  TickMax=0.0000
+[19:25:53] 00:35 - <<< Task cancelled!
+[19:25:54] 00:36 - ### Starting task 'TaskMovieDistributor'! (Prio: 61.5195). MaxTicks: 40
+[19:26:04] 00:41 -     Room is still used. I do not want to wait any longer.
+[19:26:04] 00:41 -   Job AIJobGoToRoom cancelled. Duration=9998.0000ms  TickCount=22  TickTime=0.0000ms  TickMax=0.0000
+[19:26:04] 00:41 - <<< Task cancelled!
+[19:26:05] 00:41 - ### Starting task 'TaskNewsAgency'! (Prio: 58.2981). MaxTicks: 19
+[19:26:14] 00:45 -     AIJobGoToRoom: Entering roomId: 47591
+[19:26:27] 00:52 - ### Task finished!
+[19:26:28] 00:52 - ### Starting task 'TaskMovieDistributor'! (Prio: 58.806). MaxTicks: 40

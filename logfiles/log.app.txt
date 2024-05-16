@@ -1,0 +1,292 @@
+App Log v1.0
+[19:24:08] INFO     | CORE: Starting TVTower, v0.8.2 Build "20.12.23 16:08".
+[19:24:08] LOAD     | TEVENTMANAGER.INIT(): OK
+[19:24:08] DBG      | APPLYSETTINGS(): SetFullscreen = 1
+[19:24:08] DBG      |                : SetResolution = 1600x1200
+[19:24:08] DBG      | SOUNDMANAGER.SETAUDIOENGINE(): initialized with engine "AUTOMATIC [AUTOMATIC]".
+[19:24:08] DBG      | PLAYMUSICORPLAYLIST: GetMusicStream from Playlist "menu" not possible. No Playlist.
+[19:24:08] DBG      |                    : Music not found. Using random from default playlist
+[19:24:08] DBG      |                    : could not start activeMusicChannel: no next music found
+[19:24:08] DBG      | GRAPHICSMANAGER.INITGRAPHICS(): Initializing graphics.
+[19:24:08] DBG      |                               : SetGraphicsDriver "OpenGL".
+[19:24:08] DBG      |                               : Initialized graphics with "OpenGL".
+[19:24:08] DBG      |                               : Initialized virtual graphics (for optional letterboxes).
+[19:24:08] DBG      | APP.CREATE(): Loading base resources.
+[19:24:08] DBG      | TSOUNDMANAGER.GETMUSICSTREAM(): Play music: sfx_music_title
+[19:24:08] DBG      | PLAYMUSICORPLAYLIST: GetMusicStream by name "sfx_music_title"
+[19:24:08] DBG      |                    : start activeMusicChannel
+[19:24:09] LOAD DBG | STARTTVTOWER(): DEV RoundToBeautiful is enabled
+[19:24:10] INFO     | TAPP.START(): loading time: 1937ms
+[19:24:13] DBG      | DIALOGUES: Created LoadGame-Menu.
+[19:24:22] DBG      |          : Closing Escape-Menu, continuing game.
+[19:24:22] SAVE DBG | SAVEGAME.LOAD(): Restored TEntityBase.lastID=39232, TGameObject.LastID=39232.
+[19:24:23] SAVE DBG |                : Savegame file "savegames/aktualne.zst" loaded in 678ms.
+[19:24:23] DBG      | TGAMESTATE.INITIALIZE(): Reinitialize all game objects
+[19:24:23] DBG      | TSCREENHANDLER_PROGRAMMEPLANNER.INITPROGRAMMEPLANNERBACKGROUND(): Converted "screen_bg_programmeplanner" color space to RGB.
+[19:24:23] SAVE DBG | TROOMCOLLECTION: Savegame started loading - clean occupants list
+[19:24:23] SAVE DBG | TFIGUREBASECOLLECTION: Savegame loaded - reassigning achievement event listeners
+[19:24:23] SAVE DBG |                      : Savegame loaded - reassigning sprites
+[19:24:23] SAVE DBG | TSTATIONMAPCOLLECTION: Savegame loaded - reloading map data
+[19:24:23] LOAD DBG | TGETSTATIONMAPCOLLECTION().CREATEPOPULATIONMAP: calculated a population of:80339766 in 17ms
+[19:24:23] LOAD DBG | TGETSTATIONMAPCOLLECTION().ASSIGNPRESSUREGROUPS: Assigned pressure groups to sections of the map not containing predefined ones.
+[19:24:23] SAVE DBG | TELEVATOR: Savegame loaded - reassigning sprites and soundsource
+[19:24:23] SAVE DBG | TBUILDING: Savegame loaded - reassign sprites, recreate movement paths for gfx.
+[19:24:23] SAVE DBG | TGAME: Savegame loaded - colorize players.
+[19:24:23] DBG      | TAIBASE: Starting AI 2 using script res/ai/DefaultAIPlayer/DefaultAIPlayer.lua
+[19:24:23] DBG      |        : Loaded LUA for AI 2. Time: 0ms
+[19:24:23] DBG      |        : Created AI 2 Update Thread
+[19:24:23] DBG      |        : Starting AI 3 using script res/ai/DefaultAIPlayer/DefaultAIPlayer.lua
+[19:24:23] DBG      |        : Loaded LUA for AI 3. Time: 0ms
+[19:24:23] DBG      |        : Created AI 3 Update Thread
+[19:24:23] DBG      |        : Starting AI 4 using script res/ai/DefaultAIPlayer/DefaultAIPlayer.lua
+[19:24:23] DBG      |        : Loaded LUA for AI 4. Time: 0ms
+[19:24:23] DBG      |        : Created AI 4 Update Thread
+[19:24:23] SAVE DBG | TROOMHANDLERCOLLECTION: Savegame loaded - reassigning handlers
+[19:24:23] DBG      | ADAGENCY.REFILLBLOCKS: RefillBlocksMode2.
+[19:24:23] DBG      |                      :     Cheap filter: Audience: 0.05 - 0.50%  MinImage: 0.00 - 0.00MaxImage: -1.004 - -1.004
+[19:24:23] DBG      |                      :   Level 0 filter: Audience: 0.51 - 0.00%  MinImage: 0.00 - 0.00MaxImage: -1.004 - -1.004
+[19:24:23] SAVE DBG | SAVEGAME.CLEANUPDATA().: Scriptcollection:
+[19:24:23] SAVE DBG |                        : Removed 0 generated but unused scripts from collection.
+[19:24:23] DBG      | TGAME: ====== START SAVED GAME ======
+[19:24:23] DBG      | GAME.PREPARESTART(): loading most current (official) achievements
+[19:24:23] XML      | LOADV3ACHIEVEMENTFROMNODE(): Extending achievement "Regional broadcaster". GUID=tvt-gameachievement-audience1
+[19:24:23] XML      | LOADV3ACHIEVEMENTELEMENTFROMNODE(): Extending achievement task "Reach an audience of 250,000". GUID=tvt-gameachievement-task-audience1
+[19:24:23] XML      |                                   : Extending achievement reward "50.000ам". GUID=tvt-gameachievement-reward-audience1
+[19:24:23] XML      | LOADV3ACHIEVEMENTFROMNODE(): Extending achievement "Broadcaster in the fast lane". GUID=tvt-gameachievement-audience2
+[19:24:23] XML      | LOADV3ACHIEVEMENTELEMENTFROMNODE(): Extending achievement task "Reach an audience of 2.5 million". GUID=tvt-gameachievement-task-audience2
+[19:24:23] XML      |                                   : Extending achievement reward "100.000ам". GUID=tvt-gameachievement-reward-audience2
+[19:24:23] XML      | LOADV3ACHIEVEMENTFROMNODE(): Extending achievement "They know us". GUID=tvt-gameachievement-audience3
+[19:24:23] XML      | LOADV3ACHIEVEMENTELEMENTFROMNODE(): Extending achievement task "Reach an audience of 10 million". GUID=tvt-gameachievement-task-audience3
+[19:24:23] XML      |                                   : Extending achievement reward "200.000ам". GUID=tvt-gameachievement-reward-audience3
+[19:24:23] XML      | LOADV3ACHIEVEMENTFROMNODE(): Extending achievement "Everyday journalism". GUID=tvt-gameachievement-newsaudience1
+[19:24:23] XML      | LOADV3ACHIEVEMENTELEMENTFROMNODE(): Extending achievement task "Reach an audience of 150.000 with a news show". GUID=tvt-gameachievement-task-newsaudience1
+[19:24:23] XML      |                                   : Extending achievement reward "25.000ам". GUID=tvt-gameachievement-reward-newsaudience1
+[19:24:23] XML      | LOADV3ACHIEVEMENTFROMNODE(): Extending achievement "Regional journalism". GUID=tvt-gameachievement-newsaudience2
+[19:24:23] XML      | LOADV3ACHIEVEMENTELEMENTFROMNODE(): Extending achievement task "Reach an audience of 1 million with a news broadcast". GUID=tvt-gameachievement-task-newsaudience2
+[19:24:23] XML      |                                   : Extending achievement reward "50.000ам". GUID=tvt-gameachievement-reward-newsaudience2
+[19:24:23] XML      | LOADV3ACHIEVEMENTFROMNODE(): Extending achievement "News for everyone". GUID=tvt-gameachievement-newsaudience3
+[19:24:23] XML      | LOADV3ACHIEVEMENTELEMENTFROMNODE(): Extending achievement task "Reach an audience of 5 million with a news broadcast". GUID=tvt-gameachievement-task-newsaudience3
+[19:24:23] XML      |                                   : Extending achievement reward "100.000ам". GUID=tvt-gameachievement-reward-newsaudience3
+[19:24:23] XML      | LOADV3ACHIEVEMENTFROMNODE(): Extending achievement "Broadcast Area "Bronze"". GUID=tvt-gameachievement-reachBroadcastArea1
+[19:24:23] XML      | LOADV3ACHIEVEMENTELEMENTFROMNODE(): Extending achievement task "Broadcast area with 5 million people". GUID=tvt-gameachievement-task-reachBroadcastArea1
+[19:24:23] XML      |                                   : Extending achievement reward "100.000ам". GUID=tvt-gameachievement-reward-reachBroadcastArea1
+[19:24:23] XML      | LOADV3ACHIEVEMENTFROMNODE(): Extending achievement "Broadcast Area "Silver"". GUID=tvt-gameachievement-reachBroadcastArea2
+[19:24:23] XML      | LOADV3ACHIEVEMENTELEMENTFROMNODE(): Extending achievement task "Broadcast area with 10 million people". GUID=tvt-gameachievement-task-reachBroadcastArea2
+[19:24:23] XML      |                                   : Extending achievement reward "150.000ам". GUID=tvt-gameachievement-reward-reachBroadcastArea2
+[19:24:23] XML      | LOADV3ACHIEVEMENTFROMNODE(): Extending achievement "Broadcast Area "Gold"". GUID=tvt-gameachievement-reachBroadcastArea3
+[19:24:23] XML      | LOADV3ACHIEVEMENTELEMENTFROMNODE(): Extending achievement task "Broadcast area with 25 million people". GUID=tvt-gameachievement-task-reachBroadcastArea3
+[19:24:23] XML      |                                   : Extending achievement reward "500.000ам". GUID=tvt-gameachievement-reward-reachBroadcastArea3
+[19:24:23] XML      | LOADV3ACHIEVEMENTFROMNODE(): Extending achievement "Tree Frog". GUID=tvt-gameachievement-broadcastNewsShow-weather1
+[19:24:23] XML      | LOADV3ACHIEVEMENTELEMENTFROMNODE(): Extending achievement task "Broadcast 3 weather forecasts". GUID=tvt-gameachievement-task-broadcastNewsShow-weather1
+[19:24:23] XML      |                                   : Extending achievement reward "15.000ам". GUID=tvt-gameachievement-reward-broadcastNewsShow-15000
+[19:24:23] XML      | LOADV3ACHIEVEMENTFROMNODE(): Extending achievement "Gossip reporter". GUID=tvt-gameachievement-broadcastNewsShow-showbiz1
+[19:24:23] XML      | LOADV3ACHIEVEMENTELEMENTFROMNODE(): Extending achievement task "Broadcast 3 showbiz news". GUID=tvt-gameachievement-task-broadcastNewsShow-showbiz1
+[19:24:23] LOAD     | TDATABASE.LOAD(): Loaded DB "res/database/Default/database_achievements.xml" (version 3). Found 0 series, 0 movies, 0/0 basePersons/persons, 0 advertisements, 0 news, 0 achievements, 0 script templates. loading time: 1ms
+[19:24:23] DBG      | GAME.PREPARESTART(): Reassuring correct room flags (freeholds, fake rooms)
+[19:24:23] DBG      |                    : colorizing images corresponding to playercolors
+[19:24:23] DBG      |                    : drawing doors, plants and lights on the building-sprite
+[19:24:23] DBG      |                    : Creating the world around us (weather and weather effects :-))
+[19:24:23] DBG      | PLAYMUSICORPLAYLIST: GetMusicStream from Playlist "default". Also set current playlist to it.
+[19:24:23] DBG      | TSCREENHANDLER_PROGRAMMEPLANNER.INITPROGRAMMEPLANNERBACKGROUND(): Converted "screen_bg_programmeplanner" color space to RGB.
+[19:24:26] DBG WRN  | MOVIEAGENCY.REFILLBLOCKS(): Not enough licences to refill slot[9+] in list[0]
+[19:24:26] DBG WRN  |                           : Not enough licences to refill slot[3+] in list[1]
+[19:24:33] DBG      | ADAGENCY.REFILLBLOCKS: RefillBlocksMode2.
+[19:24:33] DBG      |                      :     Cheap filter: Audience: 0.05 - 0.50%  MinImage: 0.00 - 0.00MaxImage: -1.004 - -1.004
+[19:24:33] DBG      |                      :   Level 0 filter: Audience: 0.51 - 15.64%  MinImage: 0.00 - 0.01MaxImage: -1.004 - -1.004
+[19:24:34] DBG      | DIALOGUES: Open Escape-Menu via button hit.
+[19:24:36] DBG      |          : User hit [x], create Exit-dialogue.
+[19:24:36] DBG      |          : Closing Escape-Menu, continuing game.
+[19:24:37] DBG      | PLAYMUSICORPLAYLIST: GetMusicStream from Playlist "menu". Also set current playlist to it.
+[19:24:37] DBG      | TAIBASE: Stopping AI 2
+[19:24:37] DBG      |        : Removed AI 2 Update Thread
+[19:24:37] DBG      |        : Stopping AI 3
+[19:24:37] DBG      |        : Removed AI 3 Update Thread
+[19:24:37] DBG      |        : Stopping AI 4
+[19:24:37] DBG      |        : Removed AI 4 Update Thread
+[19:24:37] DBG      | TGAME: ====== END CURRENT GAME ======
+[19:24:39] DBG      | ====== PREPARE NEW GAME ======: 
+[19:24:39] DBG      | TGAMESTATE.INITIALIZE(): Reinitialize all game objects
+[19:24:39] DBG      | SATELLITE.DIE: Stopping satellite "Alpha". Launch: 23799/03:00 (04.03.1983)  Death: 23931/13:46 (18.03.1994)
+[19:24:39] DBG      |              : Stopping satellite "Orion". Launch: 23799/05:00 (07.03.1983)  Death: 23931/09:13 (12.03.1994)
+[19:24:39] DBG      |              : Stopping satellite "Solus". Launch: 23799/07:00 (09.03.1983)  Death: 23931/12:22 (16.03.1994)
+[19:24:39] DBG      | TSCREENHANDLER_PROGRAMMEPLANNER.INITPROGRAMMEPLANNERBACKGROUND(): Converted "screen_bg_programmeplanner" color space to RGB.
+[19:24:41] DBG      | GAME: Start a new singleplayer game
+[19:24:41] DBG      | ====== START NEW GAME ======: 
+[19:24:41] DBG      | GAME.PREPARESTART(): GameRules initialization + override with DEV values.
+[19:24:41] DBG      |                    : Reassuring correct room flags (freeholds, fake rooms)
+[19:24:41] DBG      |                    : colorizing images corresponding to playercolors
+[19:24:41] DBG      |                    : drawing doors, plants and lights on the building-sprite
+[19:24:41] DBG      |                    : Creating the world around us (weather and weather effects :-))
+[19:24:41] DBG      |                    : Creating room board
+[19:24:41] DBG      | GAME.PREPARENEWGAME(): loading database
+[19:24:41] LOAD     | TDATABASE.LOAD(): Loaded DB "res/database/Default/database_people.xml" (version 3). Found 0 series, 0 movies, 2924/313 basePersons/persons, 0 advertisements, 0 news, 0 achievements, 0 script templates. loading time: 203ms
+[19:24:41] LOAD     |                 : Loaded DB "res/database/Default/database_people_fictional.xml" (version 3). Found 0 series, 0 movies, 62/24 basePersons/persons, 0 advertisements, 0 news, 0 achievements, 0 script templates. loading time: 3ms
+[19:24:41] LOAD     |                 : Loaded DB "res/database/Default/database_roles.xml" (version 3). Found 0 series, 0 movies, 0/0 basePersons/persons, 0 advertisements, 0 news, 0 achievements, 0 script templates. loading time: 6ms
+[19:24:41] LOAD     |                 : Loaded DB "res/database/Default/database_scripts.xml" (version 3). Found 0 series, 0 movies, 0/0 basePersons/persons, 0 advertisements, 0 news, 0 achievements, 9 script templates. loading time: 5ms
+[19:24:41] LOAD     |                 : Loaded DB "res/database/Default/database_ads.xml" (version 3). Found 0 series, 0 movies, 0/0 basePersons/persons, 213 advertisements, 0 news, 0 achievements, 0 script templates. loading time: 29ms
+[19:24:41] LOAD     |                 : Loaded DB "res/database/Default/database_news.xml" (version 3). Found 0 series, 0 movies, 0/0 basePersons/persons, 0 advertisements, 79 news, 0 achievements, 0 script templates. loading time: 7ms
+[19:24:41] LOAD WRN | TDATABASE.LOAD(): Found and ignored localization entry for unsupported language it
+[19:24:41] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:41] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:41] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:41] LOAD WRN |                 : Found and ignored localization entry for unsupported language dk
+[19:24:41] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:41] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:41] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:41] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:41] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:41] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:41] LOAD WRN |                 : Found and ignored localization entry for unsupported language sv
+[19:24:41] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:41] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:41] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:41] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:41] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:41] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:41] LOAD WRN |                 : Found and ignored localization entry for unsupported language pt
+[19:24:41] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:41] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:41] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:41] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:42] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:42] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:42] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:42] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:42] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:42] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:42] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:42] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:42] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:42] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:42] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:42] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:42] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:42] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:42] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:42] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:42] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:42] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:42] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:42] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:42] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:42] LOAD WRN |                 : Found and ignored localization entry for unsupported language dk
+[19:24:42] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:42] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:42] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:42] LOAD WRN |                 : Found and ignored localization entry for unsupported language it
+[19:24:42] LOAD     | TDATABASE.LOAD(): Loaded DB "res/database/Default/database_programmes.xml" (version 3). Found 117 series, 1562 movies, 0/0 basePersons/persons, 0 advertisements, 0 news, 0 achievements, 0 script templates. loading time: 548ms
+[19:24:42] LOAD     |                 : Loaded DB "res/database/Default/database_programmes_fictional.xml" (version 3). Found 20 series, 24 movies, 0/0 basePersons/persons, 0 advertisements, 0 news, 0 achievements, 0 script templates. loading time: 13ms
+[19:24:42] LOAD     |                 : Loaded DB "res/database/Default/database.xml" (version 3). Found 0 series, 0 movies, 0/0 basePersons/persons, 0 advertisements, 0 news, 0 achievements, 0 script templates. loading time: 0ms
+[19:24:42] LOAD     |                 : Loaded DB "res/database/Default/database_achievements.xml" (version 3). Found 0 series, 0 movies, 0/0 basePersons/persons, 0 advertisements, 0 news, 11 achievements, 0 script templates. loading time: 0ms
+[19:24:42] LOAD     |                 : Loaded DB "res/database/Default/user/cujo.xml" (version 3). Found 0 series, 0 movies, 0/0 basePersons/persons, 3 advertisements, 23 news, 0 achievements, 0 script templates. loading time: 2ms
+[19:24:42] LOAD     |                 : Loaded DB "res/database/Default/user/jorgaeff.xml" (version 3). Found 0 series, 0 movies, 0/0 basePersons/persons, 0 advertisements, 147 news, 0 achievements, 0 script templates. loading time: 9ms
+[19:24:42] LOAD     |                 : Loaded DB "res/database/Default/user/kasi.xml" (version 3). Found 0 series, 0 movies, 0/0 basePersons/persons, 0 advertisements, 0 news, 0 achievements, 22 script templates. loading time: 65ms
+[19:24:42] LOAD     |                 : Loaded DB "res/database/Default/user/kieferer.xml" (version 3). Found 0 series, 0 movies, 0/0 basePersons/persons, 0 advertisements, 1 news, 0 achievements, 4 script templates. loading time: 1ms
+[19:24:42] LOAD     |                 : Loaded DB "res/database/Default/user/nichtdiebetty.xml" (version 3). Found 0 series, 1 movies, 0/1 basePersons/persons, 0 advertisements, 0 news, 0 achievements, 0 script templates. loading time: 0ms
+[19:24:42] LOAD     |                 : Loaded DB "res/database/Default/user/ronny.xml" (version 3). Found 0 series, 23 movies, 2/0 basePersons/persons, 0 advertisements, 11 news, 0 achievements, 5 script templates. loading time: 28ms
+[19:24:42] LOAD     |                 : Loaded DB "res/database/Default/user/rumpelfreddy.xml" (version 3). Found 0 series, 17 movies, 671/20 basePersons/persons, 0 advertisements, 0 news, 0 achievements, 0 script templates. loading time: 22ms
+[19:24:42] LOAD     |                 : Loaded DB "res/database/Default/user/scr0llbaer.xml" (version 3). Found 4 series, 3 movies, 3/0 basePersons/persons, 0 advertisements, 0 news, 0 achievements, 14 script templates. loading time: 5ms
+[19:24:42] LOAD     |                 : Loaded DB "res/database/Default/user/scr0llbaer_news.xml" (version 3). Found 0 series, 0 movies, 0/0 basePersons/persons, 0 advertisements, 7 news, 0 achievements, 0 script templates. loading time: 3ms
+[19:24:42] LOAD     |                 : Loaded DB "res/database/Default/user/scr0llbaer_screenplays_adaptations.xml" (version 3). Found 0 series, 0 movies, 0/0 basePersons/persons, 0 advertisements, 0 news, 0 achievements, 66 script templates. loading time: 145ms
+[19:24:42] LOAD     |                 : Loaded DB "res/database/Default/user/sjaele.xml" (version 3). Found 0 series, 0 movies, 0/0 basePersons/persons, 0 advertisements, 82 news, 0 achievements, 0 script templates. loading time: 3ms
+[19:24:42] LOAD     |                 : Loaded DB "res/database/Default/user/speedminister.xml" (version 3). Found 3 series, 0 movies, 27/1 basePersons/persons, 3 advertisements, 1 news, 0 achievements, 0 script templates. loading time: 4ms
+[19:24:42] LOAD     |                 : Loaded DB "res/database/Default/user/stukov.xml" (version 3). Found 0 series, 0 movies, 0/0 basePersons/persons, 0 advertisements, 1 news, 3 achievements, 0 script templates. loading time: 0ms
+[19:24:42] LOAD     |                 : Loaded DB "res/database/Default/user/stukov_ads.xml" (version 3). Found 0 series, 0 movies, 0/0 basePersons/persons, 74 advertisements, 0 news, 0 achievements, 0 script templates. loading time: 4ms
+[19:24:42] LOAD     |                 : Loaded DB "res/database/Default/user/stukov_scripts_adaptations.xml" (version 3). Found 0 series, 0 movies, 0/0 basePersons/persons, 0 advertisements, 0 news, 0 achievements, 4 script templates. loading time: 22ms
+[19:24:42] LOAD     |                 : Loaded DB "res/database/Default/user/therob.xml" (version 3). Found 18 series, 36 movies, 10/2 basePersons/persons, 0 advertisements, 0 news, 0 achievements, 23 script templates. loading time: 26ms
+[19:24:42] LOAD     |                 : Loaded from 26 DBs. Found 162 series, 1666 movies, 3699/361 basePersons/persons, 293 advertisements, 636 news, 373 roles in scripts, 147 script templates and 14 achievements. Loading time: 1263ms
+[19:24:42] LOAD     |                 : initial news templates (unique/reusable): politics_economy (19/43) showbiz (13/20) sport (22/31) technics_media (22/48) currentaffairs (40/53) culture (15/25) 
+[19:24:42] LOAD WRN | TDATABASE.FIXLOADEDDATA(): Adjusted DOB of person "Karl Krautrauch" (GUID="Per_custom_Freddy_20"). Was 1953 and is now 1938. ... should have been adult for production of The Templars in 1967.
+[19:24:42] LOAD WRN |                          : Adjusted DOB of person "Henry Cutamaran" (GUID="cebd1a68-cf97-4b93-b3f9-ac34bda4bdcc"). Was 1959 and is now 1956. ... should have been adult for production of An elephant's memory in 1975.
+[19:24:42] DBG      | CABLENETWORK.LAUNCH: Launching cable network "Verbund Bremen". Date: -27/19:00 (24.09.1982)
+[19:24:42] DBG      |                    : Launching cable network "FK Berlin". Date: -18/00:00 (01.06.1983)
+[19:24:42] DBG      |                    : Launching cable network "Kabel Hamburg". Date: -11/14:00 (18.01.1984)
+[19:24:42] DBG      |                    : Launching cable network "Baden-Wuerttemberg Kabel". Date: -2/15:00 (19.10.1984)
+[19:24:42] LOAD DBG | TGETSTATIONMAPCOLLECTION().CREATEPOPULATIONMAP: calculated a population of:80339766 in 8ms
+[19:24:42] LOAD DBG | TGETSTATIONMAPCOLLECTION().ASSIGNPRESSUREGROUPS: Assigned pressure groups to sections of the map not containing predefined ones.
+[19:24:42] DBG      | GAME.PREPARENEWGAME(): Added 17 additional celebrity persons for custom production.
+[19:24:42] DBG      |                      : initializing movie agency
+[19:24:42] DBG      |                      : initializing news agency
+[19:24:42] DBG      | SCHEDULETIMEDINITIALNEWS(): Pre-Created 6 news happening at fixed time in the future and 1 happening right now.
+[19:24:42] DBG      | NEWSAGENCY: Added news: "Onset of winter leads to bottlenecks" for 0/22:01 (28.12.1984).
+[19:24:42] DBG      |           : Reset NextEventTime for genre 4 to 1/07:14 (10.01.1985).
+[19:24:42] DBG      |           : Added news: "Singing fish scares away burglars" for 0/21:49 (28.12.1984).
+[19:24:42] DBG      |           : Reset NextEventTime for genre 4 to 1/13:44 (18.01.1985). DOUBLE TIME.
+[19:24:42] DBG      |           : Added news: "Mass brawl in Berlin discotheque" for 0/21:26 (27.12.1984).
+[19:24:42] DBG      |           : Reset NextEventTime for genre 4 to 1/07:36 (10.01.1985).
+[19:24:42] DBG      | TSTATIONMAP.ADDSTATION: Player1 buys broadcasting station [Station] in section "bayern" for -1 Euro (reach +1219410)
+[19:24:42] DBG      | SATELLITE.LAUNCH: Launching satellite "Strata". Reach: 1600468  Date: -21/02:00 (03.03.1983)  Death: 99/06:00 (08.03.1993)
+[19:24:42] DBG      |                 : Launching satellite "Orion". Reach: 744603  Date: -20/03:00 (04.04.1983)  Death: 88/06:21 (08.04.1992)
+[19:24:42] DBG      |                 : Launching satellite "Alpha". Reach: 500146  Date: -20/05:00 (07.04.1983)  Death: 124/14:41 (19.04.1995)
+[19:24:42] DBG      | TPLAYER.GETFINANCE(): Adding a new finance to player 1 for day 23820 at index 1
+[19:24:42] DBG      |                     : Adding a new finance to player 1 for day 23819 at index 0
+[19:24:42] DBG      | TFINANCIAL.EARNGRANTEDBENEFITS(): Player 1 earned 250000 of granted benefits
+[19:24:42] DBG      | TFINANCIAL.TAKECREDIT(): Player 1 took a credit of 500000
+[19:24:42] DBG      | TAIBASE: Starting AI 2 using script res/ai/DefaultAIPlayer/DefaultAIPlayer.lua
+[19:24:42] DBG      |        : Loaded LUA for AI 2. Time: 0ms
+[19:24:42] DBG      |        : Created AI 2 Update Thread
+[19:24:42] DBG      | TSTATIONMAP.ADDSTATION: Player2 buys broadcasting station [Station] in section "bayern" for -1 Euro (reach +1219410)
+[19:24:42] DBG      | TPLAYER.GETFINANCE(): Adding a new finance to player 2 for day 23820 at index 1
+[19:24:42] DBG      |                     : Adding a new finance to player 2 for day 23819 at index 0
+[19:24:42] DBG      | TFINANCIAL.EARNGRANTEDBENEFITS(): Player 2 earned 250000 of granted benefits
+[19:24:42] DBG      | TFINANCIAL.TAKECREDIT(): Player 2 took a credit of 500000
+[19:24:42] DBG      | TAIBASE: Starting AI 3 using script res/ai/DefaultAIPlayer/DefaultAIPlayer.lua
+[19:24:42] DBG      |        : Loaded LUA for AI 3. Time: 0ms
+[19:24:42] DBG      |        : Created AI 3 Update Thread
+[19:24:42] DBG      | TSTATIONMAP.ADDSTATION: Player3 buys broadcasting station [Station] in section "bayern" for -1 Euro (reach +1219410)
+[19:24:42] DBG      | TPLAYER.GETFINANCE(): Adding a new finance to player 3 for day 23820 at index 1
+[19:24:42] DBG      |                     : Adding a new finance to player 3 for day 23819 at index 0
+[19:24:42] DBG      | TFINANCIAL.EARNGRANTEDBENEFITS(): Player 3 earned 250000 of granted benefits
+[19:24:42] DBG      | TFINANCIAL.TAKECREDIT(): Player 3 took a credit of 500000
+[19:24:42] DBG      | TAIBASE: Starting AI 4 using script res/ai/DefaultAIPlayer/DefaultAIPlayer.lua
+[19:24:42] DBG      |        : Loaded LUA for AI 4. Time: 0ms
+[19:24:42] DBG      |        : Created AI 4 Update Thread
+[19:24:42] DBG      | TSTATIONMAP.ADDSTATION: Player4 buys broadcasting station [Station] in section "bayern" for -1 Euro (reach +1219410)
+[19:24:42] DBG      | TPLAYER.GETFINANCE(): Adding a new finance to player 4 for day 23820 at index 1
+[19:24:42] DBG      |                     : Adding a new finance to player 4 for day 23819 at index 0
+[19:24:42] DBG      | TFINANCIAL.EARNGRANTEDBENEFITS(): Player 4 earned 250000 of granted benefits
+[19:24:42] DBG      | TFINANCIAL.TAKECREDIT(): Player 4 took a credit of 500000
+[19:24:42] DBG      | TPLAYERBOSSCOLLECTION.GET(): Fixed broken playerID for boss #1
+[19:24:42] DBG      |                            : Fixed broken playerID for boss #2
+[19:24:42] DBG      |                            : Fixed broken playerID for boss #3
+[19:24:42] DBG      |                            : Fixed broken playerID for boss #4
+[19:24:42] DBG      | PREPARENEWGAME(): Generated sport programme producer (id=63088).
+[19:24:42] DBG      |                 : Generated programme producer "Black Diamond Movies" (id=63089) from "DE" with budget of 1625000 and an experience of 30/100. First production at 4/06:00 (08.04.1985).
+[19:24:42] DBG      |                 : Generated programme producer "The Jerde Brothers" (id=63090) from "GR" with budget of 1875000 and an experience of 14/100. First production at 3/04:00 (06.03.1985).
+[19:24:42] DBG      | TGAME: ====== START NEW GAME ======
+[19:24:42] DBG      | PLAYMUSICORPLAYLIST: GetMusicStream from Playlist "default". Also set current playlist to it.
+[19:24:42] DBG      | TGAME: Starting all sports (and their leagues) -1 year before now.
+[19:24:42] DBG      |      : Refreshing production/cinema states of programmes (refreshing cast-information)
+[19:24:42] DBG      |      : Ensure enough castable amateurs exist.
+[19:24:42] DBG      | GAMEEVENTS.ONDAY: begin of day 1 (real day: 23820)
+[19:24:42] DBG      | TAWARDCOLLECTION.GENERATEUPCOMINGAWARD(): Generated "upcoming" award: type=news [1]   timeframe=2/00:00 (01.02.1985)  -  2/23:59 (30.02.1985)  now=1/00:00 (01.01.1985)
+[19:24:42] DBG      | TSCREENHANDLER_PROGRAMMEPLANNER.INITPROGRAMMEPLANNERBACKGROUND(): Converted "screen_bg_programmeplanner" color space to RGB.
+[19:24:52] DBG      | NEWSAGENCY: Nobody listens to genre 0. Would skip news, but am forced to add: "Tanks quieter in peacekeeping operations".
+[19:24:52] DBG      |           : Reset NextEventTime for genre 0 to 1/14:18 (18.01.1985). DOUBLE TIME.
+[19:25:44] DBG      |           : Added news: "Deutsche Bahn laments damage in the millions" for 1/00:31 (01.01.1985).
+[19:25:44] DBG      |           : Reset NextEventTime for genre 5 to 1/15:11 (19.01.1985). DOUBLE TIME.
+[19:25:46] DBG      | TFINANCIAL.PAYPROGRAMMELICENCE(): Player 1 paid 33000 for a programmeLicence
+[19:26:16] DBG      | TFINANCIAL.PAYNEWS(): Player 2 paid 100 for a news
+[19:26:16] DBG      |                     : Player 2 paid 2250 for a news
+[19:26:22] DBG      | TFINANCIAL.PAYPROGRAMMELICENCE(): Player 1 paid 17000 for a programmeLicence
+[19:26:26] DBG      | TFINANCIAL.PAYNEWS(): Player 3 paid 100 for a news
+[19:26:26] DBG      |                     : Player 3 paid 2250 for a news
+[19:26:27] DBG      | TFINANCIAL.PAYPROGRAMMELICENCE(): Player 4 paid 28000 for a programmeLicence
+[19:26:27] DBG      |                                 : Player 4 paid 28000 for a programmeLicence
+[19:26:27] DBG      |                                 : Player 4 paid 29000 for a programmeLicence
+[19:26:27] DBG      |                                 : Player 4 paid 32000 for a programmeLicence
+[19:26:32] DBG      | NEWSAGENCY: Added news: "Aliens Go Green" for 1/00:55 (02.01.1985).
+[19:26:32] DBG      |           : Reset NextEventTime for genre 4 to 1/07:31 (10.01.1985).
+[19:26:32] DBG      | TFINANCIAL.EARNADPROFIT(): Player 2 earned 16000 with ads
+[19:26:32] DBG      |                          : Player 4 earned 16000 with ads
+[19:26:32] DBG      |                          : Player 3 earned 16000 with ads
+[19:26:32] DBG      |                          : Player 1 earned 16000 with ads
+[19:26:36] DBG      | DIALOGUES: Open Escape-Menu via ESC key hit.
+[19:26:40] DBG      |          : User hit [x], create Exit-dialogue.
+[19:26:40] DBG      |          : Closing Escape-Menu, continuing game.
+[19:26:42] DBG      | TAIBASE: Stopping AI 2
+[19:26:42] DBG      |        : Removed AI 2 Update Thread
+[19:26:42] DBG      |        : Stopping AI 3
+[19:26:42] DBG      |        : Removed AI 3 Update Thread
+[19:26:42] DBG      |        : Stopping AI 4
+[19:26:42] DBG      |        : Removed AI 4 Update Thread
