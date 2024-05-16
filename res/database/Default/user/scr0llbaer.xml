@@ -17,14 +17,16 @@
 			<title>
 				<de>Das alte Nepal</de>
 				<en>Ancient Nepal</en>
+				<pl>Starożytny Nepal</pl>
 			</title>
 			<description>
 				<de>Steaks, Bier und Zigaretten waren die Hauptnahrungsmittel im alten Nepal.
 
 Format: Abgefilmte Vorträge. Unaufgeregt und Unaufregend.</de>
-				<en>Steaks, beer and cigarettes were the main staples in ancient Nepal.
+				<en>Steki, piwo i papierosy były podstawowymi produktami w starożytnym Nepalu.
 
-Format: Filmed lectures. Laid-back and to lay down.</en>
+Format: Filmowane wykłady. Na luzie i do leżenia.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">3b48670f-99d1-4b8e-b3b4-ea4f70c6571f</member>
@@ -38,30 +40,36 @@ Format: Filmed lectures. Laid-back and to lay down.</en>
 					<title>
 						<de>Steaks</de>
 						<en>Steaks</en>
+						<pl>Steki</pl>
 					</title>
 					<description>
 						<de>Steaks waren eins der Hauptnahrungsmittel im alten Nepal.</de>
 						<en>Steaks were one of the main staples in ancient Nepal.</en>
+						<pl>Steki były jednym z głównych produktów w starożytnym Nepalu.</pl>
 					</description>
 				</programme>
 				<programme id="78656b84-7730-420f-b85c-7d05fc259b70" product="2" licence_type="2" creator="9551">
 					<title>
 						<de>Bier</de>
 						<en>Beer</en>
+						<pl>Piwo</pl>
 					</title>
 					<description>
 						<de>Bier war eins der Hauptnahrungsmittel im alten Nepal.</de>
 						<en>Beer was one of the main staples in ancient Nepal.</en>
+						<pl>Piwo było jednym z podstawowych produktów w starożytnym Nepalu.</pl>
 					</description>
 				</programme>
 				<programme id="b5ed35d3-7618-4368-a7b8-60d453bee37d" product="2" licence_type="2" creator="9551">
 					<title>
 						<de>Zigaretten</de>
 						<en>Cigarettes</en>
+						<pl>Papierosy</pl>
 					</title>
 					<description>
 						<de>Zigaretten war eins der Hauptnahrungsmittel im alten Nepal.</de>
 						<en>Cigarettes were one of the main staples in ancient Nepal.</en>
+						<pl>Papierosy były jednym z głównych artykułów spożywczych w starożytnym Nepalu.</pl>
 					</description>
 				</programme>
 			</children>
@@ -70,10 +78,12 @@ Format: Filmed lectures. Laid-back and to lay down.</en>
 			<title>
 				<de>Wohnen am Atomkraftwerk</de>
 				<en>Living next to a nuclear power plant</en>
+				<pl>Życie w pobliżu elektrowni jądrowej</pl>
 			</title>
 			<description>
 				<de>Immer weniger Menschen wollen noch auf die Vorteile eines modernen Reaktors verzichten.</de>
 				<en>Fewer and fewer people are willing to forego the advantages of a modern reactor.</en>
+				<pl>Coraz mniej osób jest skłonnych zrezygnować z zalet nowoczesnego reaktora.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">3b48670f-99d1-4b8e-b3b4-ea4f70c6571f</member>
@@ -87,30 +97,36 @@ Format: Filmed lectures. Laid-back and to lay down.</en>
 					<title>
 						<de>Three Mile Island</de>
 						<en>Three Mile Island</en>
+						<pl>Three Mile Island</pl>
 					</title>
 					<description>
 						<de>In Pennsylvania entsteht eine der modernsten und sichersten Anlagen. Wir waren vor Ort.</de>
 						<en>One of the most modern and safest plants is being built in Pennsylvania. We were on site.</en>
+						<pl>Jedna z najnowocześniejszych i najbezpieczniejszych fabryk powstaje w Pensylwanii. Byliśmy na miejscu.</pl>
 					</description>
 				</programme>
 				<programme id="001f3d7b-ae35-429b-9d47-a690fe6c9958" product="2" licence_type="2" creator="9551">
 					<title>
 						<de>Tschernobyl</de>
 						<en>Chernobyl</en>
+						<pl>Czernobyl</pl>
 					</title>
 					<description>
 						<de>In der Oblast Kiew entsteht eine der modernsten und sichersten Anlagen. Wir waren vor Ort.</de>
 						<en>One of the most modern and safest plants is being built in Kiev Oblast. We were on site.</en>
+						<pl>Jedna z najnowocześniejszych i najbezpieczniejszych elektrowni powstaje w obwodzie kijowskim. Byliśmy na miejscu.</pl>
 					</description>
 				</programme>
 				<programme id="71956dc0-4fbb-4e9a-ac62-a0821eea04bd" product="2" licence_type="2" creator="9551">
 					<title>
 						<de>Fukushima</de>
 						<en>Fukushima</en>
+						<pl>Fukushima</pl>
 					</title>
 					<description>
 						<de>Auf der japanischen Hauptinsel Honshū entsteht eine der modernsten und sichersten Anlagen. Wir waren vor Ort.</de>
 						<en>One of the most modern and safest plants is being built on the main Japanese island of Honshū. We were on site.</en>
+						<pl>Jedna z najnowocześniejszych i najbezpieczniejszych elektrowni powstaje na głównej japońskiej wyspie Honshū. Byliśmy na miejscu.</pl>
 					</description>
 				</programme>
 			</children>

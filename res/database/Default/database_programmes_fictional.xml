@@ -6,10 +6,12 @@
 			<title>
 				<de>Beer, Bier, Pivo</de>
 				<en>Beer, Bier, Pivo</en>
+				<pl>Beer, Bier, Pivo</pl>
 			</title>
 			<description>
 				<de>Alle 987 Biersorten werden vorgestellt und von einem Obdachlosen, einem Alkoholiker und einem Steuerberater getestet. </de>
 				<en>All 987 types of beer are presented and tested by a homeless man, an alcoholic and a tax consultant. </en>
+				<pl>Wszystkie 987 rodzajów piwa są prezentowane i testowane przez bezdomnego, alkoholika i doradcę podatkowego.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">59f79e7c-9a72-4585-9d83-82ced5b6c191</member>
@@ -25,10 +27,12 @@
 			<title>
 				<de>Biedermeier - (K)eine Zeit zum Feiern</de>
 				<en>Biedermeier - (Not) A time for celebration</en>
+				<pl>Biedermeier - (Nie) czas na świętowanie</pl>
 			</title>
 			<description>
 				<de>Gibt es noch heute Biedermeier? Wie war das damals? Diesen und anderen Fragen geht diese Sendung auf den Grund und versucht nicht ganz ernsthafte Antworten zu geben.</de>
 				<en>Does Biedermeier still exist today? What was it like back then? This program gets to the bottom of these and other questions and tries to give not entirely serious answers.</en>
+				<pl>Czy biedermeier nadal istnieje? Jak to wyglądało w tamtych czasach? Ten program dociera do sedna tych i innych pytań i próbuje udzielić nie do końca poważnych odpowiedzi.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">be56dbc0-3bf4-4326-a2a5-f30edf94fd2a</member>
@@ -42,10 +46,12 @@
 			<title>
 				<de>Der Hammer fällt LIVE</de>
 				<en>The Hammer Falls LIVE</en>
+				<pl>Młot spada NA ŻYWO</pl>
 			</title>
 			<description>
 				<de>Nur im Fernsehen und nirgends sonst werden diese Ramschartikel an Ahnungslose versteigert.</de>
 				<en>Only on television and nowhere else are these junk items auctioned off to the unsuspecting.</en>
+				<pl>Tylko w telewizji i nigdzie indziej te śmieciowe przedmioty są sprzedawane na aukcjach niczego niepodejrzewającym osobom.</pl>
 			</description>
 			<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
 			<data country="B" year="2011" distribution="2" maingenre="0" subgenre="" flags="128" blocks="2" price_mod="0.85" />
@@ -55,10 +61,12 @@
 			<title>
 				<de>Die Demoskopie des Menschen</de>
 				<en>The Demoscopy of Man</en>
+				<pl>Demoskopia człowieka</pl>
 			</title>
 			<description>
 				<de>[1|Full] führt den Zuschauer durch subjektiv ausgewählte Kurzberichte über das Leben fanatischer Kirchgänger.</de>
 				<en>[1|Full] takes the viewer through subjectively selected short reports on the lives of fanatical churchgoers.</en>
+				<pl>[1|Full] prowadzi widza przez subiektywnie wybrane krótkie reportaże z życia fanatycznych wyznawców kościoła.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">cebd1a68-cf97-4b93-b3f9-ac34bda4bdcc</member>
@@ -72,10 +80,12 @@
 			<title>
 				<de>Die große Verarsche-Show</de>
 				<en>The Big Bullshitting-You Show</en>
+				<pl>Wielki pokaz bzdur - Show</pl>
 			</title>
 			<description>
 				<de>Hier treten Männer gegen Frauen an. Das Geschlecht mit den meisten Anrufen gewinnt.</de>
 				<en>Here, men compete against women. The gender with the most calls wins.</en>
+				<pl>Tutaj mężczyźni rywalizują z kobietami. Wygrywa płeć z największą liczbą połączeń.</pl>
 			</description>
 			<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
 			<data country="D" year="2000" distribution="2" maingenre="0" subgenre="" flags="128" blocks="2" price_mod="0.9" />
@@ -85,10 +95,12 @@
 			<title>
 				<de>Ein Ei zum Frühstück?</de>
 				<en>An egg for breakfast?</en>
+				<pl>Jajko na śniadanie?</pl>
 			</title>
 			<description>
 				<de>Locker flockig bringt uns diese Dokumentation dem Thema nahe: Wie gesund ist das Ei zum Frühstück? Schadet ein zweites zum Abendessen?</de>
 				<en>In a light and fluffy way, this documentary brings us closer to the topic: How healthy is the egg for breakfast? Does a second one for dinner do any harm?</en>
+				<pl>Ten dokument w lekki i puszysty sposób przybliża nam ten temat: Jak zdrowe jest jajko na śniadanie? Czy drugie na kolację szkodzi?</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">common-amateur-actors</member>
@@ -101,10 +113,12 @@
 			<title>
 				<de>Faszination Plusquamperfekt</de>
 				<en>Fascination Plusquamperfect</en>
+				<pl>Fascynacja Plusquamperfect</pl>
 			</title>
 			<description>
 				<de>Wissenschaftliche, künstlerische und sprachkulturelle Aufarbeitung der spannendsten Tempora in den schönsten Sprachen dieser Welt.</de>
 				<en>Scientific, artistic and linguistic-cultural reappraisal of the most exciting tempora in the most beautiful languages of this world.</en>
+				<pl>Naukowa, artystyczna i językowo-kulturowa ocena najbardziej ekscytujących tempora w najpiękniejszych językach tego świata.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">cebd1a68-cf97-4b93-b3f9-ac34bda4bdcc</member>
