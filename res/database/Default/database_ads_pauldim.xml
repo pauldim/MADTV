@@ -10,6 +10,7 @@
 			<description>
 				<de>Der neue Fort ist da. Mehr Sicherheit und ein ansprechendes Design zu einem unschlagbaren Preis.</de>
 				<en>The new Ford has arrived. Increased safety and an appealing design at an unbeatable price.</en>
+				<pl>Pojawił się nowy Ford. Większe bezpieczeństwo i atrakcyjny wygląd w bezkonkurencyjnej cenie.</pl>
 			</description>
 			<conditions min_audience="7.29" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data quality="20" repetitions="3" duration="2" profit="420" penalty="500" infomercial_profit="39" fix_infomercial_profit="1"/>
@@ -18,10 +19,12 @@
 			<title>
 				<de>ToughWhip</de>
 				<en>ToiletWhip</en>
+				<pl>WC PIKER</pl>
 			</title>
 			<description>
 				<de>Ein Wischtuch für Küche UND WC. Jetzt mit lustigen Tiermotiven.</de>
 				<en>One wipe for kitchen AND toilet. Now with funny animal designs.</en>
+				<pl>Jedna ściereczka do kuchni i toalety. Teraz z zabawnymi wzorami zwierząt.</pl>
 			</description>
 			<conditions min_audience="2.86" min_image="7" target_group="4" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data quality="15" repetitions="5" duration="4" profit="672" penalty="950" infomercial_profit="68" fix_infomercial_profit="1"/>
@@ -36,6 +39,8 @@
 Habt Ihr das zu bieten? Alter Schwede!</de>
 				<en>Shelves, tables, chairs, cabinets, etc. - that's what we have to offer.
 Do you have that to offer? Gosh, my Swedish friend!</en>
+				<pl>Półki, stoły, krzesła, szafki itp. - to właśnie mamy do zaoferowania.
+Czy masz coś takiego do zaoferowania? Ojej, mój szwedzki przyjacielu!</pl>
 			</description>
 			<conditions min_audience="12.5" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data quality="18" repetitions="2" duration="3" profit="285" penalty="460" fix_infomercial_profit="1"/>
@@ -48,6 +53,7 @@ Do you have that to offer? Gosh, my Swedish friend!</en>
 			<description>
 				<de>Streichzarte Butter aus Yetimilch.</de>
 				<en>Tender butter made from cow milk.</en>
+				<pl>Delikatne masło z mleka krowiego.</pl>
 			</description>
 			<conditions min_audience="12.5" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data quality="25" repetitions="1" duration="2" profit="280" penalty="400" fix_infomercial_profit="1"/>
@@ -60,6 +66,7 @@ Do you have that to offer? Gosh, my Swedish friend!</en>
 			<description>
 				<de>Qualität die überzeugt. Nur wir ziehen Sie über den Echtholztisch.</de>
 				<en>We get You there.</en>
+				<pl>Zabierzemy Cię tam.</pl>
 			</description>
 			<conditions min_audience="0.1032" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data quality="18" repetitions="3" duration="3" profit="4000" penalty="4900" fix_infomercial_profit="1"/>
@@ -72,6 +79,7 @@ Do you have that to offer? Gosh, my Swedish friend!</en>
 			<description>
 				<de>Unsere Windeln haben einen hohen Tragekomfort und sind geeignet für Jung und Alt.</de>
 				<en>Our diapers have a high wearing comfort and are suitable for young and old.</en>
+				<pl>Nasze pieluchy mają wysoki komfort noszenia i są odpowiednie dla młodszych i starszych.</pl>
 			</description>
 			<conditions min_audience="6.77" min_image="4" target_group="128" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data quality="20" repetitions="2" duration="3" profit="453" penalty="670" infomercial_profit="41" fix_infomercial_profit="1"/>
@@ -86,6 +94,8 @@ Do you have that to offer? Gosh, my Swedish friend!</en>
 Daran hat man zu kauen.</de>
 				<en>The delicious bar with the high peanut content.
 You will really have to chew.</en>
+				<pl>Pyszny baton o wysokiej zawartości orzeszków ziemnych.
+Naprawdę trzeba żuć.</pl>
 			</description>
 			<conditions min_audience="2.34" min_image="12" target_group="2" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data quality="25" repetitions="5" duration="4" profit="680" penalty="1000" infomercial_profit="75" fix_infomercial_profit="1"/>
@@ -98,6 +108,7 @@ You will really have to chew.</en>
 			<description>
 				<de>Reisen Sie an die größten Strände der Welt, ob Gobi oder Sahara. Dubantours bringt Sie hin.</de>
 				<en>Travel to the world's largest beaches, whether Gobi or Sahara. Duban Tours will take you there.</en>
+				<pl>Podróż na największe plaże świata, czy to Gobi, czy Sahara. Duban Tours zabierze Cię, tam.</pl>
 			</description>
 			<conditions min_audience="10.4192" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0"/>
 			<data quality="12" repetitions="3" duration="3" profit="345" penalty="450" infomercial_profit="41" fix_infomercial_profit="1"/>

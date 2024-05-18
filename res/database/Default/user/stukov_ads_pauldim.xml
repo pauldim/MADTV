@@ -57,6 +57,7 @@
 			<description>
 				<de>Ihre Tacos in 1, 2 oder 3 Meter Länge!</de>
 				<en>Your tacos in lengths of 1, 2 or 3 metres!</en>
+				<pl>Twoje tacos o długości 1, 2 lub 3 metrów!</pl>
 			</description>
 			<conditions min_audience="1.3" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0" />
 			<data quality="4" repetitions="8" duration="1" profit="1150" penalty="1784" fix_infomercial_profit="1" />
@@ -78,10 +79,12 @@
 			<title>
 				<de>Rehböck</de>
 				<en>Roebuck</en>
+				<pl>Reebok</pl>
 			</title>
 			<description>
 				<de>Der Schuh der flitzt.</de> <!-- Mad TV: Reebock sitzt -->
 				<en>The shoe that flits.</en> <!-- Mad TV: Reebock means sitting down -->
+				<pl>Reebok - poczuj się wygodnie</pl>
 			</description>
 			<conditions min_audience="11.46" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0" />
 			<data quality="10" repetitions="7" duration="2" profit="345" penalty="790" infomercial_profit="16" fix_infomercial_profit="1" />
@@ -91,10 +94,12 @@
 			<title>
 				<de>Kariodent</de>
 				<en>Cariodent</en>
+				<pl>Cariesdent</pl>
 			</title>
 			<description>
 				<de>Stopft Löcher auch in schlechten Zähnen.</de>
 				<en>Plugs holes even in bad teeth.</en>
+				<pl>Wypełnia dziury nawet w złych zębach.</pl>
 			</description>
 			<conditions min_audience="9.3772" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0" />
 			<data quality="13" repetitions="8" duration="1" profit="360" penalty="600" infomercial_profit="196" fix_infomercial_profit="1" />
@@ -104,10 +109,12 @@
 			<title>
 				<de>Schnitzler</de>
 				<en>Schnitzler</en>
+				<pl>Schneider</pl>
 			</title>
 			<description>
 				<de>Schnitzler-Computer: Jetzt mit drei RegenbogenWünsche-Spielen!</de>
 				<en>Schnitzler Computers: Now with three RainbowWishes games!</en>
+				<pl>Schneider Computers: Teraz z trzema grami RainbowWishes!</pl>
 			</description>
 			<conditions min_audience="5.73" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0" />
 			<data quality="26" repetitions="3" duration="8" profit="460" penalty="1200" infomercial_profit="106" fix_infomercial_profit="1" />
@@ -120,6 +127,7 @@
 			<description>
 				<de>Kapitalia Lebensversicherungen - Wir verwalten ihr Geld schnell und verlässlich.</de>
 				<en>Kapitalia Life Insurance - We manage your money quickly and reliably.</en>
+				<pl>Kapitalia Life Insurance - Zarządzamy Twoimi pieniędzmi szybko i niezawodnie.</pl>
 			</description>
 			<conditions min_audience="3.13" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0" />
 			<data quality="32" repetitions="1" duration="2" profit="550" penalty="2181" infomercial_profit="251" fix_infomercial_profit="1" />
@@ -132,6 +140,7 @@
 			<description>
 				<de>Partner-Moden von Pariser Spitzen-Designern.</de>
 				<en>Partner fashion by Parisian (l)ace designers.</en>
+				<pl>Moda partnerska paryskich projektantów.</pl>
 			</description>
 			<conditions min_audience="4.6881" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0" />
 			<data quality="24" repetitions="2" duration="1" profit="500" penalty="1300" infomercial_profit="154" fix_infomercial_profit="1" />
@@ -144,6 +153,7 @@
 			<description>
 				<de>Das NEUE Telespiel mit drei eingebauten Spielen!</de>
 				<en>The NEW telly console with three built-in games!</en>
+				<pl>NOWA konsola telewizyjna z trzema wbudowanymi grami!</pl>
 			</description>
 			<conditions min_audience="2.34" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0" />
 			<data quality="17" repetitions="5" duration="4" profit="650" penalty="1498" infomercial_profit="178" fix_infomercial_profit="1" />
@@ -157,6 +167,7 @@
 			<description>
 				<de>Holt Euch den neuen SUPER-NIP Spielspaß!</de>
 				<en>Get your hands on the new SUPER-NIP fun!</en>
+				<pl>Weź w swoje ręce nową zabawę SUPER-NIP!</pl>
 			</description>
 			<conditions min_audience="2.34" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0" />
 			<data quality="17" repetitions="5" duration="4" profit="650" penalty="1498" infomercial_profit="178" fix_infomercial_profit="1" />
@@ -196,6 +207,7 @@
 			<description>
 				<de>Die NEUE Retrokonsole mit fünf eingebauten Spielen!</de>
 				<en>The NEW retro console with five built-in games!</en>
+				<pl>NOWA konsola retro z pięcioma wbudowanymi grami!</pl>
 			</description>
 			<conditions min_audience="2.34" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0" />
 			<data quality="17" repetitions="5" duration="4" profit="650" penalty="1498" infomercial_profit="178" fix_infomercial_profit="1" />
@@ -210,6 +222,7 @@
 			<description>
 				<de>50 Kilo weniger in 2 Tagen mit der neuen Fusions-Diät.</de>
 				<en>Loose 50 pounds in 2 days with the new fusion diet.</en>
+				<pl>Schudnij 50 kg w 2 dni dzięki nowej diecie fusion.</pl>
 			</description>
 			<conditions min_audience="7.29" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0" prohibited_programme_flag="8" />
 			<data quality="24" repetitions="5" duration="5" profit="420" penalty="1600" infomercial_profit="70" fix_infomercial_profit="1" />
@@ -222,6 +235,7 @@
 			<description>
 				<de>Echter, klarer Katzensaft! Mjamjam!</de>
 				<en>Genuine clear cat juice! Yum-yum!</en>
+				<pl>Prawdziwy klarowny sok dla kotów! Mniam mniam!</pl>
 			</description>
 			<conditions min_audience="6.25" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0" prohibited_programme_flag="8" />
 			<data quality="3" repetitions="7" duration="7" profit="400" penalty="750" infomercial_profit="167" fix_infomercial_profit="1" />
@@ -247,6 +261,7 @@
 			<description>
 				<de>Computerspiele schnell und bugfrei!</de>
 				<en>Computer games fast and bug free!</en>
+				<pl>Gry komputerowe szybkie i wolne od błędów!</pl>
 			</description>
 			<conditions min_audience="0.3133" min_image="1" target_group="18" pro_pressure_groups="0" contra_pressure_groups="0" />
 			<!-- TODO: Not sure if target_group is appropriate, I've always read this ad as a small garage studio targeting publishers -->
@@ -373,10 +388,12 @@
 			<title>
 				<de>Duban Resort</de>
 				<en>Duban Resort</en>
+				<pl>Duban Resort</pl>
 			</title>
 			<description>
 				<de>Mach Urlaub in Duban - Baden, Sonnen, Erdöl graben.</de>
 				<en>Take a vacation in Duban - swim, sunbathe, drill for oil.</en>
+				<pl>Zrób sobie wakacje w Dubanie - pływaj, opalaj się, wierć w poszukiwaniu ropy.</pl>
 			</description>
 			<conditions min_audience="0.78" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0" />
 			<data quality="24" repetitions="4" duration="4" profit="1300" penalty="2000" infomercial_profit="237" fix_infomercial_profit="1" />
@@ -548,10 +565,12 @@
 		<ad id="2f6bffc9-e5eb-4670-86e9-7afa31e7f96b" comment="https://en.wikipedia.org/wiki/Lufthansa | from Mad TV as 'Lufthansa' and as the English version/'translation' of TWAN">
 			<title>
 				<de>Luefthaensel</de>
+				<pl>Lufthansa</pl>
 			</title>
 			<description>
 				<de>Willkommen an Bord.</de>
 				<en>Welcome aboard.</en>
+				<pl>Witamy na pokładzie.</pl>
 			</description>
 			<conditions min_audience="41.6799" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0" />
 			<data quality="12" repetitions="8" duration="2" profit="125" penalty="200" fix_infomercial_profit="1" />
@@ -572,10 +591,12 @@
 		<ad id="d282e6e6-56bd-4a84-9ca4-e116487a92eb" comment="https://en.wikipedia.org/wiki/Coca-Cola | from Mad TV as 'Coca Cola'">
 			<title>
 				<de>Cacca Cola</de>
+				<pl>Coca Cola</pl>
 			</title>
 			<description>
 				<de>Can't eat the peeling.</de> <!-- orig: Can't beat the feeling -->
 				<en>Can't eat the peeling.</en>
+				<pl>Nie da się pokonać tego uczucia</pl>
 			</description>
 			<conditions min_audience="18.76" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0" prohibited_genre="16" />
 			<data quality="29" repetitions="2" duration="1" profit="215" penalty="370" fix_infomercial_profit="1" />
@@ -649,10 +670,12 @@
 			<title>
 				<de>Pipsi Cola</de>
 				<en>Pipsi Cola</en>
+				<pl>Pepsi Cola</pl>
 			</title>
 			<description>
 				<de>Das schmeckt! Für die junge Brut.</de> <!-- Die schmeckt! -->
 				<en>That tastes! For the young brood.</en> <!-- orig: For the new generation. -->
+				<pl>Dla nowego pokolenia.</pl>
 			</description>
 			<conditions min_audience="6.77" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0" />
 			<data infomercial="1" quality="24" repetitions="4" duration="7" profit="400" penalty="1300" infomercial_profit="188" fix_infomercial_profit="1" />
@@ -761,10 +784,12 @@
 		<ad id="1980daac-be0e-472b-8787-8eb19b7691a2" comment="https://en.wikipedia.org/wiki/Marlboro | from Mad TV 'Marlboro Light'">
 			<title>
 				<de>Murlborough Light</de>
+				<pl>Marlboro Light</pl>
 			</title>
 			<description>
 				<de>Für echte Cowboys.</de>
 				<en>For true cowboys.</en>
+				<pl>Dla prawdziwych kowbojów.</pl>
 			</description>
 			<conditions min_audience="6.77" min_image="0" target_group="0" pro_pressure_groups="1" contra_pressure_groups="2" />
 			<data infomercial="1" quality="25" repetitions="7" duration="3" profit="450" penalty="1300" infomercial_profit="135" fix_infomercial_profit="1" />
@@ -785,10 +810,12 @@
 		<ad id="b23cec38-36fb-4ece-b182-9e1bd95490c5" comment="https://en.wikipedia.org/wiki/Marlboro | from Mad TV 'Marlboro'">
 			<title>
 				<de>Murlborough</de>
+				<pl>Marlboro</pl>
 			</title>
 			<description>
 				<de>Für echte Cowboys. Aber echt jetzt.</de>
 				<en>For true cowboys. But for real now.</en>
+				<pl>Dla prawdziwych kowbojów. Ale teraz już naprawdę.</pl>
 			</description>
 			<conditions min_audience="7.29" min_image="0" target_group="0" pro_pressure_groups="1" contra_pressure_groups="2" />
 			<data infomercial="1" quality="35" repetitions="2" duration="6" profit="400" penalty="1235" infomercial_profit="282" fix_infomercial_profit="1" />
@@ -801,6 +828,7 @@
 			<description>
 				<de>Schwimmen im Piranha-See und viele andere günstige Angebote!</de>
 				<en>Swimming in the Piranha Lake and many other affordable deals!</en>
+				<pl>Pływanie w jeziorze Pirania i wiele innych ofert w przystępnych cenach!</pl>
 			</description>
 			<conditions min_audience="8.3352" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0" />
 			<data infomercial="1" quality="14" repetitions="4" duration="5" profit="350" penalty="600" infomercial_profit="7" fix_infomercial_profit="1" />
@@ -822,10 +850,12 @@
 		<ad id="973bdff8-3080-4c19-b606-8711c350d5e1" creator="9584" created_by="Stukov" comment="https://en.wikipedia.org/wiki/Pepsi | from Mad TV as 'Pepsi Light'">
 			<title>
 				<de>Pipsi Lite</de>
+				<pl>Pepsi Light</pl>
 			</title>
 			<description>
 				<de>Voller Geschmack für die junge Brut - und nur 1 Kalorie.</de>
 				<en>All the taste for the young brood - and only 1 calorie.</en>
+				<pl>Cały smak dla młodego lęgu - i tylko 1 kaloria.</pl>
 			</description>
 			<conditions min_audience="5.73" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0" />
 			<data infomercial="1" quality="15" repetitions="7" duration="2" profit="550" penalty="1500" infomercial_profit="147" fix_infomercial_profit="1" />
@@ -834,10 +864,12 @@
 		<ad id="c76f9b7d-c5b1-4782-ae8a-0f0437b3b006" creator="9584" created_by="Stukov" comment="https://en.wikipedia.org/wiki/Citro%C3%ABn">
 			<title>
 				<de>Citröneaux</de>
+				<pl>Citroen</pl>
 			</title>
 			<description>
 				<de>Das neue „Salzente“-Modell jetzt mit Vorrichtung zur komfortablen Tequila-Zubereitung.</de>
 				<en>The new "Salt Duck" model now with a fixture for convenient tequila preparation.</en>
+				<pl>Nowy model „Salt Duck” jest teraz wyposażony w uchwyt do wygodnego przygotowywania tequili.</pl>
 			</description>
 			<conditions min_audience="2.6" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0" />
 			<data infomercial="1" quality="2" repetitions="1" duration="3" profit="690" penalty="2613" infomercial_profit="171" fix_infomercial_profit="1" />
@@ -846,10 +878,12 @@
 		<ad id="e077fcb9-5216-42d0-82b1-ec9b1b518345" creator="9584" created_by="Stukov" comment="https://en.wikipedia.org/wiki/Renault | https://en.wikipedia.org/wiki/Peugeot">
 			<title>
 				<de>Peureault</de>
+				<pl>Renault</pl>
 			</title>
 			<description>
 				<de>Wir machen U-Turns chic.</de>
 				<en>We make U-turns look chic.</en>
+				<pl>Sprawiamy, że zawracanie wygląda szykownie.</pl>
 			</description>
 			<conditions min_audience="3.65" min_image="0" target_group="0" pro_pressure_groups="0" contra_pressure_groups="0" />
 			<data infomercial="1" quality="4" repetitions="1" duration="7" profit="525" penalty="1500" infomercial_profit="104" fix_infomercial_profit="1" />
@@ -870,10 +904,12 @@
 		<ad id="17b1fe94-9767-4f76-9ed1-300cd67918d0" comment="https://en.wikipedia.org/wiki/BMW">
 			<title>
 				<de>BWM</de>
+				<pl>BMW</pl>
 			</title>
 			<description>
 				<de>BWM. Räudig am Rasen!</de> <!-- orig: Freude am Fahren -->
 				<en>BWM. It's merely a vehicle!</en> <!-- orig: It's only a car! -->
+				<pl>To tylko samochód!</pl>
 			</description>
 			<conditions min_audience="12.5" min_image="7" target_group="32" pro_pressure_groups="0" contra_pressure_groups="0" />
 			<data infomercial="1" quality="11" repetitions="3" duration="5" profit="280" penalty="600" infomercial_profit="3" fix_infomercial_profit="1" />
