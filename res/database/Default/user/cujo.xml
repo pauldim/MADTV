@@ -7,12 +7,12 @@
 			<title>
 				<de>Superweib verliebt sich in Superkerl</de>
 				<en>Superwoman falls in love with Superguy</en>
-				<pl></pl>
+				<pl>Superwoman zakochuje się w Superguyu</pl>
 			</title>
 			<description>
 				<de>Die beiden weltbekannten Superhelden haben sich gefunden. Sie findet ihn super. Er sie auch. Beide: „Unser erstes Date war super“.</de>
 				<en>The world-famous superheroes have found each other. She thinks he's super. He feels the same. Both: "Our first date was super".</en>
-				<pl></pl>
+				<pl>Znani na całym świecie superbohaterowie odnaleźli się nawzajem. Ona uważa, że on jest super. On czuje to samo. Oboje: „Nasza pierwsza randka była super”.</pl>
 			</description>
 			<effects>
 				<!-- "morgen oder uebermorgen, 12-16 Uhr" -->
@@ -25,12 +25,12 @@
 			<title>
 				<de>Superweib und Superkerl verloben sich</de>
 				<en>Superwoman and Superguy get engaged</en>
-				<pl></pl>
+				<pl>Superwoman i Superguy zaręczają się</pl>
 			</title>
 			<description>
 				<de>Superkerl kann sein Glück nicht fassen: „Sie küsst super.“</de>
 				<en>Superguy can't believe his luck: "Her kisses are super."</en>
-				<pl></pl>
+				<pl>Superguy nie może uwierzyć w swoje szczęście: „Jej pocałunki są super”.</pl>
 			</description>
 			<effects>
 				<!-- "morgen oder uebermorgen, 13-17 Uhr" -->
@@ -42,12 +42,12 @@
 			<title>
 				<de>Superkerl und Superweib haben geheiratet</de>
 				<en>Superguy and Superwoman got married</en>
-				<pl></pl>
+				<pl>Superguy i Superwoman wzięli ślub</pl>
 			</title>
 			<description>
 				<de>Superweib über Superkerl: „In der Hochzeitsnacht war er super.“</de>
-				<en>Superweib about Superguy: "On the wedding night he was super."</en>
-				<pl></pl>
+				<en>Superweib about Superguy: "On the wedding night he was super."</en> <!-- fault Superwoman not Superweib -->
+				<pl>Superwoman o Superguyu: „W noc poślubną był super”.</pl>
 			</description>
 			<effects>
 				<!-- "morgen oder uebermorgen, 14-18 Uhr" -->
@@ -59,12 +59,12 @@
 			<title>
 				<de>Superweib ist schwanger</de>
 				<en>Superwoman is pregnant</en>
-				<pl></pl>
+				<pl>Superwoman jest w ciąży</pl>
 			</title>
 			<description>
 				<de>Superkerl: „Ich will ein super Vater werden.“</de>
 				<en>Superguy: "I want to be a super father."</en>
-				<pl></pl>
+				<pl>Superguy: „Chcę być super ojcem”.</pl>
 			</description>
 			<effects>
 				<!-- "morgen oder uebermorgen, 15-19 Uhr" -->
@@ -76,12 +76,12 @@
 			<title>
 				<de>Superweib bringt einen Jungen zur Welt</de>
 				<en>Superwoman gives birth to a boy</en>
-				<pl></pl>
+				<pl>Superwoman rodzi chłopca</pl>
 			</title>
 			<description>
 				<de>Superkerl und Superweib sind glücklich: „Das ist unser Superboy.“</de>
 				<en>Superguy and Superwoman are happy: "This is our Superboy."</en>
-				<pl></pl>
+				<pl>Superguy i Superwoman są szczęśliwi: „To jest nasz Superboy”.</pl>
 			</description>
 				<!-- "morgen oder uebermorgen, 16-20 Uhr" -->
 			<effects>
@@ -96,12 +96,12 @@
 			<title>
 				<de>Trennungsgerüchte um Superkerl und Superweib</de>
 				<en>Superguy and Superwoman separation rumors</en>
-				<pl></pl>
+				<pl>Plotki o separacji Superguya i Superwoman</pl>
 			</title>
 			<description>
 				<de>Superkerl: „Sie kocht nicht gerade super.“</de>
 				<en>Superguy: "She's not a super cook."</en>
-				<pl></pl>
+				<pl>Supergwiazda: „Ona nie jest super kucharką”.</pl>
 			</description>
 			<effects>
 				<!-- "morgen oder uebermorgen, 17-21 Uhr" -->
@@ -113,12 +113,12 @@
 			<title>
 				<de>Trennungsgerüchte um Superkerl und Superweib</de>
 				<en>Superguy and Superwoman separation rumors</en>
-				<pl></pl>
+				<pl>Plotki o separacji Superguya i Superwoman</pl>
 			</title>
 			<description>
 				<de>Superweib: „Er kann keinen Nagel in die Wand schlagen.“</de>
 				<en>Superwoman: "He can't drive a nail into the wall."</en>
-				<pl></pl>
+				<pl>Superwoman: „Nie potrafi wbić gwoździa w ścianę”.</pl>
 			</description>
 			<effects>
 				<!-- "morgen oder uebermorgen, 17-21 Uhr" -->
@@ -130,12 +130,12 @@
 			<title>
 				<de>Superweib und Superkerl versöhnen sich wieder</de>
 				<en>Superwoman and Superguy reconcile again</en>
-				<pl></pl>
+				<pl>Superwoman i Superguy ponownie się pogodzili</pl>
 			</title>
 			<description>
 				<de>Superkerl: „Wir sind wieder glücklich. Unsere Versöhnung war super.“</de>
 				<en>Superguy: "We are happy again. Our reconciliation was super."</en>
-				<pl></pl>
+				<pl>Superguy: „Znów jesteśmy szczęśliwi. Nasze pojednanie było super”.</pl>
 			</description>
 			<effects>
 				<!-- "morgen oder uebermorgen, 18-22 Uhr" -->
@@ -150,12 +150,12 @@
 			<title>
 				<de>Superkerl und Superweib lassen sich scheiden</de>
 				<en>Superguy and Superwoman get a divorce</en>
-				<pl></pl>
+				<pl>Superguy i Superwoman biorą rozwód</pl>
 			</title>
 			<description>
 				<de>Superboy leidet unter Trennung. Er will einen Supervater und eine Supermutter. Das unappetitliche Essen stört ihn nicht.</de>
 				<en>Superboy suffers from separation. He wants a super father and a super mother. The unappetizing food does not bother him.</en>
-				<pl></pl>
+				<pl>Superboy cierpi z powodu separacji. Chce mieć super ojca i super matkę. Nieapetyczne jedzenie mu nie przeszkadza.</pl>
 			</description>
 			<data genre="1" price="1.0" quality="70" />
 		</news>
@@ -163,12 +163,12 @@
 			<title>
 				<de>Superkerl und Superweib lassen sich scheiden</de>
 				<en>Superguy and Superwoman get a divorce</en>
-				<pl></pl>
+				<pl>Superguy i Superwoman biorą rozwód</pl>
 			</title>
 			<description>
 				<de>Superboy leidet unter Trennung. Er will einen Supervater und eine Supermutter. „Ich brauche kein neues Regal.“</de>
 				<en>Superboy suffers from separation. He wants a super father and a super mother. "I do not need a new shelf."</en>
-				<pl></pl>
+				<pl>Superboy cierpi z powodu separacji. Chce mieć super ojca i super matkę. „Nie potrzebuję nowej półki”.</pl>
 			</description>
 			<data genre="1" price="1.0" quality="70" />
 		</news>
@@ -177,12 +177,12 @@
 			<title>
 				<de>FUFA vergibt heute die Fußball-WM 2022</de>
 				<en>FUFA awards the 2022 World Cup today</en>
-				<pl></pl>
+				<pl>FUFA przyznaje dziś organizację Mistrzostw Świata 2022</pl>
 			</title>
 			<description>
 				<de>Heute gibt die FUFA den Austragungsort der Fußball-WM 2022 bekannt. SUA, Pajan und Intralien gelten als Favoriten. Der Wüstenstaat Quantar gilt als krasser Außenseiter.</de>
 				<en>Today FUFA announces the venue for the 2022 World Cup. SUA, Pajan and Intralia are considered favorites. The desert state of Quantar is considered a glaring outsider.</en>
-				<pl></pl>
+				<pl>Dziś FUFA ogłosiła miejsce rozgrywania Mistrzostw Świata w 2022 roku. USA, Japonia i Włochy są uważane za faworytów. Pustynny stan Quantar jest uważany za rażącego outsidera.</pl>
 			</description>
 			<effects>
 				<effect trigger="happen" type="triggernews" time="1,7,8" news="cujo-news-quantar-02" />
@@ -195,12 +195,12 @@
 			<title>
 				<de>Sensation - Quantar richtet die Fußball-WM 2022 aus</de>
 				<en>Sensation - Quantar to host the 2022 World Cup</en>
-				<pl></pl>
+				<pl>Sensacja - Quantar gospodarzem mistrzostw świata w 2022 r.</pl>
 			</title>
 			<description>
 				<de>FUFA-Generalsekretär Jupp Lauber öffnet den Briefumschlag und liest den Namen des Ausrichters vor. Es ist Quantar.</de>
 				<en>FUFA Secretary General Jupp Lauber opens the envelope and reads out the name of the organizer. It is Quantar.</en>
-				<pl></pl>
+				<pl>Sekretarz generalny FUFA Jupp Lauber otwiera kopertę i odczytuje nazwę organizatora. Jest nim Quantar.</pl>
 			</description>
 			<effects>
 				<effect trigger="happen" type="triggernews" time="2,1,1,13,17" news="cujo-news-quantar-03" />
@@ -211,12 +211,12 @@
 			<title>
 				<de>Wurde die FUFA-WM gekauft?</de>
 				<en>Was the FUFA World Cup bought?</en>
-				<pl></pl>
+				<pl>Czy Mistrzostwa Świata FUFA zostały kupione?</pl>
 			</title>
 			<description>
 				<de>War bei der Vergabe der FUFA-WM Korruption im Spiel? SUA, Pajan und Intralien fühlen sich benachteiligt.</de>
 				<en>Was corruption involved in the awarding of the FUFA World Cup? SUA, Pajan and Intralia feel disadvantaged.</en>
-				<pl></pl>
+				<pl>Czy podczas przyznawania Pucharu Świata FUFA doszło do korupcji? USA, Japonia i Włochy czują się pokrzywdzone.</pl>
 			</description>
 			<effects>
 				<effect trigger="happen" type="triggernews" time="2,1,2,14,18" news="cujo-news-quantar-04" />
@@ -227,12 +227,12 @@
 			<title>
 				<de>Lauber: „Vergabe war völlig in Ordnung.“</de>
 				<en>Lauber: "Award was perfectly fine."</en>
-				<pl></pl>
+				<pl>Lauber: „Nagroda była w porządku”.</pl>
 			</title>
 			<description>
 				<de>FUFA-Generalsekretär Jupp Lauber bestreitet alle Korruptionsvorwürfe. „Bei der FUFA gibt es nur ehrliche Menschen.“</de>
 				<en>FUFA Secretary General Jupp Lauber denies all allegations of corruption. "There are only honest people at FUFA."</en>
-				<pl></pl>
+				<pl>Sekretarz generalny FUFA Jupp Lauber zaprzecza wszelkim oskarżeniom o korupcję. „W FUFA są tylko uczciwi ludzie”.</pl>
 			</description>
 			<effects>
 				<effect trigger="happen" type="triggernews" time="2,1,2,15,19" news="cujo-news-quantar-05" />
@@ -243,12 +243,12 @@
 			<title>
 				<de>Funktionär gibt Bestechung zu</de>
 				<en>Official admits bribery</en>
-				<pl></pl>
+				<pl>Urzędnik przyznaje się do przekupstwa</pl>
 			</title>
 			<description>
 				<de>Der trunedanische FUFA-Funktionär Jeff Worner hat zugegeben, dass er für seine Stimme Geld aus Quantar kassiert hat.</de>
 				<en>Trunedan FUFA official Jeff Worner has admitted that he collected money from Quantar for his vote.</en>
-				<pl></pl>
+				<pl>Urzędnik Trunedan FUFA Jeff Worner przyznał, że zebrał pieniądze od Quantar za swój głos.</pl>
 			</description>
 			<effects>
 				<effect trigger="happen" type="triggernews" time="2,1,2,16,20" news="cujo-news-quantar-06" />
@@ -259,12 +259,12 @@
 			<title>
 				<de>Jupp Lauber bezeichnet Korruption als Einzelfall</de>
 				<en>Jupp Lauber calls corruption an isolated incident</en>
-				<pl></pl>
+				<pl>Jupp Lauber nazywa korupcję odosobnionym incydentem</pl>
 			</title>
 			<description>
 				<de>Jupp Lauber: „Jeff Worner ist ein Krimineller. Alle anderen sind unschuldig.“</de>
 				<en>Jupp Lauber: "Jeff Worner is a criminal. Everyone else is innocent."</en>
-				<pl></pl>
+				<pl>Jupp Lauber: „Jeff Worner jest przestępcą. Wszyscy inni są niewinni”.</pl>
 			</description>
 			<effects>
 				<effect trigger="happen" type="triggernews" time="2,1,2,17,21" news="cujo-news-quantar-07" />
@@ -275,12 +275,12 @@
 			<title>
 				<de>Weitere Korruptionsfälle bei FUFA</de>
 				<en>Further cases of corruption at FUFA</en>
-				<pl></pl>
+				<pl>Kolejne przypadki korupcji w FUFA</pl>
 			</title>
 			<description>
 				<de>Auch Funktionäre aus Muategela, Praskilien, Pasnien und Gäypten haben Geld aus Quantar angenommen.</de>
 				<en>Officials from Muategela, Praskilien, Pasnien and Gäypten have also accepted money from Quantar.</en>
-				<pl></pl>
+				<pl>Urzędnicy z Muategela, Praskilien, Pasnien i Gäypten również przyjęli pieniądze od Quantar.</pl>
 			</description>
 			<effects>
 				<effect trigger="happen" type="triggernews" time="2,1,2,18,22" news="cujo-news-quantar-08" />
@@ -291,12 +291,12 @@
 			<title>
 				<de>Jupp Lauber kann es nicht glauben</de>
 				<en>Jupp Lauber can't believe it</en>
-				<pl></pl>
+				<pl>Jupp Lauber nie może w to uwierzyć</pl>
 			</title>
 			<description>
 				<de>Jupp Lauber gibt dem Schweizer Fernsehen ein Interview: „Das hätte ich niemals gedacht. Bin ich wirklich der einzige ehrliche FUFA-Funktionär?“</de>
 				<en>Jupp Lauber gives an interview to Swiss television: "I would never have thought that. Am I really the only honest FUFA official?"</en>
-				<pl></pl>
+				<pl>Jupp Lauber udziela wywiadu szwajcarskiej telewizji: „Nigdy bym na to nie wpadł. Czy naprawdę jestem jedynym uczciwym urzędnikiem FUFA?”.</pl>
 			</description>
 			<data genre="2" price="1.0" quality="30" />
 		</news>
@@ -306,12 +306,12 @@
 			<title>
 				<de>Start der Raumfähre Passenger geplant</de>
 				<en>Launch of space shuttle Passenger planned</en>
-				<pl></pl>
+				<pl>Planowany start promu kosmicznego Passenger</pl>
 			</title>
 			<description>
 				<de>Morgen soll die Raumfähre Passenger ins Weltall starten. Sie wird dort einen Kommunikationssatelliten aussetzen. Außerdem ist eine Beobachtung des Kometen Hallie geplant.</de>
 				<en>Tomorrow, the space shuttle Passenger is scheduled to launch into space. It will launch a communications satellite there. In addition, an observation of comet Hallie is planned.</en>
-				<pl></pl>
+				<pl>Jutro prom kosmiczny Passenger ma wystartować w kosmos. Wyniesie tam satelitę komunikacyjnego. Ponadto planowana jest obserwacja komety Hallie.</pl>
 			</description>
 			<effects>
 				<effect trigger="happen" type="triggernews" time="2,1,1,10,11" news="cujo-news-passenger-02" />

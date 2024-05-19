@@ -8,10 +8,12 @@
 			<title>
 				<de>Donald Dumb wird Präsident der VR Duban</de>
 				<en>Donald Dumb becomes President of PR Duban</en>
+				<pl>Donald Dumb zostaje prezesem LR Duban</pl>
 			</title>
 			<description>
 				<de>Die Volksrepublik Duban hat Donald Dumb zu ihrem neuen Präsidenten ernannt. Für die nächsten vier Jahre wird der Multi-Millionär die Geschicke der Volksrepublik leiten.</de>
 				<en>The People's Republic of Duban has appointed Donald Dumb as its new president. For the next four years, the multi-millionaire will lead the fortunes of the People's Republic.</en>
+				<pl>Dubańska Republika Ludowa mianowała Donalda Dumba na swojego nowego prezydenta. Przez następne cztery lata multimilioner będzie kierował losami Republiki Ludowej.</pl>
 			</description>
 			<data genre="0" price="0.9" quality="75" fictional="1" />
 			<effects>
@@ -24,10 +26,12 @@
 			<title>
 				<de>Donald Dumb provoziert Freie Republik Duban</de>
 				<en>Donald Dumb provokes Free Republic of Duban</en>
+				<pl>Donald Dumb prowokuje Wolną Republikę Dubanu</pl>
 			</title>
 			<description>
 				<de>In seiner Eröffnungsrede bezeichnete Dumb die Freie Republik Duban als „... Abschaum, der beseitigt werden muss!“. Die Freie Republik Duban drohte daraufhin Konsequenzen an.</de>
 				<en>In his opening speech, Dumb referred to the Duban Free Republic as ".... Scum that must be eliminated!". The Free Republic of Duban followed up with threats of consequences.</en>
+				<pl>W swoim przemówieniu inauguracyjnym Dumb określił Wolną Republikę Duban jako „.... Szumowiny, które muszą zostać wyeliminowane!”. Wolna Republika Duban zaczęła grozić konsekwencjami.</pl>
 			</description>
 			<data genre="0" price="0.9" quality="75" fictional="1" />
 			<effects>
@@ -40,10 +44,12 @@
 			<title>
 				<de>Donald Dumb möchte Mauer bauen</de>
 				<en>Donald Dumb wants to build wall</en>
+				<pl>Donald Dumb chce zbudować mur</pl>
 			</title>
 			<description>
 				<de>Weil sein hölzerner Gartenzaun schon wieder kaputt ist, möchte der Präsident der Volksrepublik Duban nun eine Mauer um sein Grundstück bauen. Sein Kommentar: „Steine halten einfach länger.“</de>
 				<en>Because his wooden garden fence is once again damaged, the president of the People's Republic of Duban now wants to build a wall around his property. His comment: "Stones just last longer."</en>
+				<pl>Ponieważ jego drewniany płot ogrodowy został ponownie uszkodzony, prezydent Ludowej Republiki Dubanu chce teraz zbudować mur wokół swojej posiadłości. Jego komentarz: „Kamienie są po prostu trwalsze”.</pl>
 			</description>
 			<data genre="0" price="0.7" quality="55" fictional="1" />
 			<effects>
@@ -56,10 +62,12 @@
 			<title>
 				<de>Donald Dumb vermisst Quietsche-Entchen</de>
 				<en>Donald Dumb is missing rubber ducky</en>
+				<pl></pl>
 			</title>
 			<description>
 				<de>Donald Dumb ist traurig, da er schon seit Tagen seine Quietsche-Ente nicht mehr finden kann. „Ohne die Quietsche-Ente macht dem Präsidenten das Baden keinen Spaß mehr, und er duscht lieber“, wird Dumb von seinem Pressesprecher zitiert.</de>
 				<en>Donald Dumb is sad because he has not been able to find his squeaky rubber ducky for days. "Without the rubber duck, bathing is no longer fun for the president, and he prefers to take a shower," Dumb is quoted as saying by his press spokesman.</en>
+				<pl>Donaldowi Dumbowi brakuje gumowej kaczuszki</pl>
 			</description>
 			<data genre="0" price="0.7" quality="55" fictional="1" />
 		</news>
@@ -69,10 +77,12 @@
 			<title>
 				<de>Schwerer Börsen-Crash</de>
 				<en>Severe stock market crash</en>
+				<pl>Poważny krach na giełdzie</pl>
 			</title>
 			<description>
 				<de>Zu einem schwarzen Montag kam es heute an den internationalen Börsen. Weltweit sanken die Kurse um über 20%. Es ist der erste Börsenkrach seit dem 2. Weltkrieg.</de>
 				<en>A black Monday occurred today on the international stock exchanges. Worldwide, prices fell by over 20%. It is the first stock market crash since the 2nd World War.</en>
+				<pl>Dziś na międzynarodowych giełdach miał miejsce czarny poniedziałek. Na całym świecie ceny spadły o ponad 20%. Jest to pierwszy krach giełdowy od czasów II wojny światowej.</pl>
 			</description>
 			<data genre="0" price="0.8" quality="80" fictional="1" flags="2" />
 		</news>
@@ -82,10 +92,12 @@
 			<title>
 				<de>Deutsches Aktien-System eingeführt</de>
 				<en>German stock system introduced</en>
+				<pl>Wprowadzenie niemieckiego systemu zapasów</pl>
 			</title>
 			<description>
 				<de>An der Deutschen Börse in Frankfurt wurde das Deutsche Aktien-System (Daks) eingeführt. Es misst die Wertentwicklung der 30 größten und liquidesten Unternehmen des deutschen Aktienmarktes.</de>
 				<en>The Deutsche Aktien-System (Daks) was introduced at the German Stock Exchange in Frankfurt. The stock system measures the performance of the 30 largest and most liquid companies on the German stock market.</en>
+				<pl>Deutsche Aktien-System (Daks) został wprowadzony na Niemieckiej Giełdzie Papierów Wartościowych we Frankfurcie. System ten mierzy wyniki 30 największych i najbardziej płynnych spółek na niemieckim rynku akcji.</pl>
 			</description>
 			<data genre="0" price="0.8" quality="80" fictional="0" flags="2" />
 		</news>
@@ -95,10 +107,12 @@
 			<title>
 				<de>APD mit historischem Wahlergebnis</de>
 				<en>APD with historical election result</en>
+				<pl>APD z historycznym wynikiem wyborów</pl>
 			</title>
 			<description>
 				<de>Bei der Landtagswahl in Nordrhein-Westfalen erzielt die Arbeiterpartei Deutschland (APD) unter Ministerpräsident Hannes Reif mit 52,1% der Stimmen das beste Wahlergebnis ihrer Geschichte in diesem Bundesland.</de>
 				<en>In the state elections in North Rhine-Westphalia, the Workers' Party of Germany (APD) headed by Prime Minister Hannes Reif achieves the best election result in its history in this state, with 52.1% of the vote.</en>
+				<pl>W wyborach landowych w Nadrenii Północnej-Westfalii Robotnicza Partia Niemiec (APD) kierowana przez premiera Hannesa Reifa osiągnęła najlepszy wynik wyborczy w swojej historii w tym landzie, uzyskując 52,1% głosów.</pl>
 			</description>
 			<data genre="0" price="0.6" quality="60" fictional="0" flags="2" />
 			<effects>
@@ -112,10 +126,12 @@
 			<title>
 				<de>APD nominiert Hannes Reif</de>
 				<en>APD nominates Hannes Reif</en>
+				<pl>APD nominuje Hannesa Reifa</pl>
 			</title>
 			<description>
 				<de>Die Arbeiterpartei Deutschland (APD) nominiert den nordrhein-westfälischen Ministerpräsidenten Hannes Reif zum Kanzlerkandidaten für die Bundestagswahl 1987.</de>
 				<en>The Workers' Party of Germany (APD) nominates Hannes Reif, Minister-President of North Rhine-Westphalia, as its candidate for chancellor in the 1987 federal election.</en>
+				<pl>Niemiecka Partia Robotnicza (APD) nominuje Hannesa Reifa, premiera Nadrenii Północnej-Westfalii, na swojego kandydata na kanclerza w wyborach federalnych w 1987 roku.</pl>
 			</description>
 			<data genre="0" price="0.5" quality="50" fictional="0" flags="2" />
 		</news>
@@ -125,10 +141,12 @@
 			<title>
 				<de>Keagan möchte Mauer abreißen</de>
 				<en>Keagan wants to tear down wall</en>
+				<pl>Keagan chce zburzyć mur</pl>
 			</title>
 			<description>
 				<de>Historische Rede von US-Präsident Robert Keagan anlässlich der 750-Jahr-Feier West-Berlins: „Mr. Michailow - Tear down this wall!“</de>
 				<en>Historic speech by U.S. President Robert Keagan on the occasion of the 750th anniversary of West Berlin: "Mr. Michailow - Tear down this wall!"</en>
+				<pl>Historyczne przemówienie prezydenta USA Roberta Keagana z okazji 750-lecia Berlina Zachodniego: „Panie Michailow - zburzcie ten mur!”.</pl>
 			</description>
 			<data genre="0" price="0.5" quality="50" fictional="0" flags="2" />
 		</news>
@@ -138,10 +156,12 @@
 			<title>
 				<de>ShPD gewinnt Bundestagswahl</de>
 				<en>ShPD wins federal election</en>
+				<pl>ShPD wygrywa wybory federalne</pl>
 			</title>
 			<description>
 				<de>Die großen Parteien gehen als Verlierer aus der Bundestagswahl hervor. Dennoch hat die Scheinheiligen-Partei Deutschland (ShPD) auch weiterhin die Mehrheit. Eine weitere Amtszeit von Herbert Kappes steht bevor.</de>
 				<en>The major parties emerge as losers from the Bundestag elections. Nevertheless, the Sham Party Germany (ShPD) continues to hold the majority. Another term of Herbert Kappes is in prospect.</en>
+				<pl>Główne partie przegrały wybory do Bundestagu. Niemniej jednak Sham Party Germany (ShPD) nadal utrzymuje większość. Zapowiada się kolejna kadencja Herberta Kappesa.</pl>
 			</description>
 			<data genre="0" price="0.5" quality="50" fictional="0" flags="2" />
 		</news>
@@ -151,10 +171,12 @@
 			<title>
 				<de>Kappes trifft Michailow</de>
 				<en>Kappes meets Michailow</en>
+				<pl>Kappes spotyka Michailowa</pl>
 			</title>
 			<description>
 				<de>Bundeskanzler Herbert Kappes besucht den sowjetischen Staats- und Parteichef Sergei Michailow in Moskau. Beide erklären ihre Bereitschaft die „Zeit des Eises“ durch ein freundlicheres Klima abzulösen.</de>
 				<en>German Chancellor Herbert Kappes visits Soviet leader Sergei Michailow in Moscow. Both declare their readiness to replace the "time of ice" with a friendlier climate.</en>
+				<pl>Kanclerz Niemiec Herbert Kappes odwiedza sowieckiego przywódcę Siergieja Michajłowa w Moskwie. Obaj deklarują gotowość do zastąpienia „czasu lodu” bardziej przyjaznym klimatem.</pl>
 			</description>
 			<data genre="0" price="0.5" quality="50" fictional="0" flags="2" />
 		</news>
@@ -164,10 +186,12 @@
 			<title>
 				<de>Agenten-Tausch im Morgengrauen</de>
 				<en>Agent swap at daybreak</en>
+				<pl>Wymiana agentów o świcie</pl>
 			</title>
 			<description>
 				<de>Im geteilten Berlin kommt es zum größten Agentenaustausch in der Nachkriegsära. 25 Westspione wechseln auf der Glienicker Brücke gegen vier Ostagenten die Demarkationslinie. 25:4? Ja, das liegt am Wechselkurs!</de>
 				<en>In divided Berlin, the largest agent exchange in the postwar era takes place. On Glienicke Bridge, 25 West German spies are exchanged for four East German agents and cross the demarcation line. 25:4? Yes, that's due to the exchange rate!</en>
+				<pl>W podzielonym Berlinie dochodzi do największej wymiany agentów w erze powojennej. Na moście Glienicke 25 zachodnioniemieckich szpiegów zostaje wymienionych na czterech wschodnioniemieckich agentów i przekracza linię demarkacyjną. 25:4? Tak, to wynika z kursu wymiany!</pl>
 			</description>
 			<data genre="0" price="0.6" quality="60" fictional="0" flags="2" />
 		</news>
@@ -177,10 +201,12 @@
 			<title>
 				<de>Michailow besucht Ost-Deutschland</de>
 				<en>Mikhailov visits East Germany</en>
+				<pl>Michajłow odwiedza Niemcy Wschodnie</pl>
 			</title>
 			<description>
 				<de>Hoher Besuch beim Parteitag der Sozialistischen Partei Ost-Deutschland (SPOD) im Palast der Republik: KPdvSS-Generalsekretär, Sergei Michailow, spricht vor den Genossen und hat auch ein paar Geschenke dabei.</de>
 				<en>High-ranking visitor at the party congress of the Sozialistische Partei Ost-Deutschland (SPOD) in the Palace of the Republic: CPUSS General Secretary, Sergei Michailow, addresses the comrades and also brings a few gifts.</en>
+				<pl>Wysokiej rangi gość na kongresie partii Sozialistische Partei Ost-Deutschland (SPOD) w Pałacu Republiki: Sekretarz generalny CPUSS, Siergiej Michajłow, przemawia do towarzyszy i przynosi kilka prezentów.</pl>
 			</description>
 			<data genre="0" price="0.8" quality="80" fictional="0" flags="2" />
 		</news>
@@ -190,10 +216,12 @@
 			<title>
 				<de>Hoecker besucht West-Deutschland</de>
 				<en>Hoecker visits West Germany</en>
+				<pl>Hoecker odwiedza Niemcy Zachodnie</pl>
 			</title>
 			<description>
 				<de>Emil Hoecker besucht als erster DDR-Staatschef die Bundesrepublik Deutschland und überrascht Bundeskanzler Herbert Kappes mit Senf aus Bautzen und einer Dose Spreewald-Gurken.</de>
 				<en>Emil Hoecker is the first GDR head of state to visit the Federal Republic of Germany and surprises Chancellor Herbert Kappes with mustard from Bautzen and a can of Spreewald pickles.</en>
+				<pl>Emil Hoecker jest pierwszą głową państwa NRD, która odwiedza Republikę Federalną Niemiec i zaskakuje kanclerza Herberta Kappesa musztardą z Bautzen i puszką pikli Spreewald.</pl>
 			</description>
 			<data genre="0" price="0.8" quality="80" fictional="0" flags="2" />
 		</news>
@@ -203,10 +231,12 @@
 			<title>
 				<de>Grotesko trifft Hoecker</de>
 				<en>Grotesko meets Hoecker</en>
+				<pl>Grotesko spotyka Hoeckera</pl>
 			</title>
 			<description>
 				<de>Der rumänische Präsident Nicolae Grotesko trifft sich in Ost-Berlin zu Gesprächen mit Emil Hoecker und wird anlässlich seines 70. Geburtstages mit dem Karl-Marx-Orden ausgezeichnet.</de>
 				<en>Romanian President Nicolae Grotesko meets Emil Hoecker in East Berlin for talks and is awarded the Order of Karl Marx on the occasion of his 70th birthday.</en>
+				<pl>Prezydent Rumunii Nicolae Grotesko spotyka się na rozmowach z Emilem Hoeckerem w Berlinie Wschodnim i zostaje odznaczony Orderem Karola Marksa z okazji swoich 70. urodzin.</pl>
 			</description>
 			<data genre="0" price="0.8" quality="80" fictional="0" flags="2" />
 			<effects>
@@ -220,10 +250,12 @@
 			<title>
 				<de>Hoeckers Abrüstungspläne</de>
 				<en>Hoecker's disarmament plans</en>
+				<pl>Plany rozbrojeniowe Hoeckera</pl>
 			</title>
 			<description>
 				<de>Am Rande des Treffens mit dem rumänischen Präsidenten Nicolaoe Grotesko kündigt Emil Hoecker einen früheren Abbau von Atomraketen mittlerer Reichweite an.</de>
 				<en>On the sidelines of the meeting with Romanian President Nicolaoe Grotesko, Emil Hoecker announces an accelerated dismantling of medium-range nuclear missiles.</en>
+				<pl>Na marginesie spotkania z prezydentem Rumunii Nicolaoe Grotesko, Emil Hoecker ogłasza przyspieszony demontaż pocisków nuklearnych średniego zasięgu.</pl>
 			</description>
 			<data genre="0" price="0.8" quality="80" fictional="0" flags="2" />
 		</news>
@@ -233,10 +265,12 @@
 			<title>
 				<de>Michailow wird KPdvSS-Generalsekretär</de>
 				<en>Michailow becomes CPUSS Secretary General</en>
+				<pl>Michailow zostaje sekretarzem generalnym CPUSS</pl>
 			</title>
 			<description>
 				<de>Im Alter von 54 Jahren wird Sergei Michailow zum jüngsten Generalsekretär in der Geschichte der Kommunistischen Partei der vereinigten Sowjet-Staaten (KPdvSS) gewählt.</de>
 				<en>At the age of 54, Sergei Mikhailov is elected the youngest General Secretary in the history of the Communist Party of the United Soviet States (CPUSS).</en>
+				<pl>W wieku 54 lat Siergiej Michajłow zostaje wybrany najmłodszym sekretarzem generalnym w historii Komunistycznej Partii Zjednoczonych Stanów Radzieckich (KPZR).</pl>
 			</description>
 			<data genre="0" price="0.8" quality="80" fictional="0" flags="2" />
 		</news>
@@ -246,10 +280,12 @@
 			<title>
 				<de>Michailow fordert „Glasnost“</de>
 				<en>Michailow calls for "glasnost"</en>
+				<pl>Michajłow wzywa do „głasnosti”</pl>
 			</title>
 			<description>
 				<de>Forderungen von KPdvSS-Generalsekretär, Sergei Michailow, nach mehr Rede- und Pressefreiheit waren das zentrale Thema auf dem 27. Parteitag der Kommunistischen Partei der vereinigten Sowjet-Staaten.</de>
 				<en>Demands by CPUSS General Secretary, Sergei Michailow, for more freedom of speech and press were the central theme at the 27th Party Congress of the Communist Party of the United Soviet States.</en>
+				<pl>Żądania sekretarza generalnego KPZR, Siergieja Michajłowa, dotyczące większej wolności słowa i prasy były głównym tematem 27. zjazdu partyjnego Komunistycznej Partii Związku Radzieckiego.</pl>
 			</description>
 			<data genre="0" price="0.8" quality="80" fictional="0" flags="2" />
 		</news>
@@ -260,10 +296,12 @@
 			<title>
 				<de>Michailow bittet um Abrüstung</de>
 				<en>Michailow asks for disarmament</en>
+				<pl>Michailow prosi o rozbrojenie</pl>
 			</title>
 			<description>
 				<de>KPdvSS-Generalsekretär, Sergei Michailow, schlägt dem Westen vor, alle Kernwaffen bis zum Jahr 2000 abzurüsten. Das eingesparte Uran soll in den Kraftwerken zur Energie-Gewinnung verwendet werden.</de>
 				<en>CPUSS Secretary General, Sergei Mikhailov, proposes to the West to disarm all nuclear weapons by the year 2000. The saved uranium is to be used in power plants for energy production.</en>
+				<pl>Sekretarz Generalny CPUSS, Sergei Mikhailov, proponuje Zachodowi rozbrojenie całej broni nuklearnej do roku 2000. Zaoszczędzony uran ma zostać wykorzystany w elektrowniach do produkcji energii.</pl>
 			</description>
 			<data genre="0" price="0.8" quality="80" fictional="0" flags="2" />
 			<effects>
@@ -277,10 +315,12 @@
 			<title>
 				<de>Michailow entlässt Minister</de>
 				<en>Michailow dismisses minister</en>
+				<pl>Michailow odwołuje ministra</pl>
 			</title>
 			<description>
 				<de>KPdvSS-Generalsekretär Sergei Michailow hat den Verteidigungsminister und den Chef der sowjetischen Luftverteidigung wegen der Landung des deutschen Piloten, Markus Trust, auf dem Roten Platz in Moskau entlassen.</de>
 				<en>CPUSS Secretary General Sergei Mikhailov has dismissed the defense minister and the head of Soviet air defense over the landing of the German pilot, Markus Trust, on Red Square in Moscow.</en>
+				<pl>Sekretarz generalny CPUSS Siergiej Michajłow zdymisjonował ministra obrony i szefa radzieckiej obrony powietrznej w związku z lądowaniem niemieckiego pilota Markusa Trusta na Placu Czerwonym w Moskwie.</pl>
 			</description>
 			<data genre="0" price="0.6" quality="60" fictional="0" flags="2" />
 			<effects>
@@ -294,10 +334,12 @@
 			<title>
 				<de>Weitere Entlassungen in Moskau</de>
 				<en>Further dismissals in Moscow</en>
+				<pl>Kolejne zwolnienia w Moskwie</pl>
 			</title>
 			<description>
 				<de>KPdvSS-Generalsekretär Sergei Michailow hat über 300 weitere perestroika- und glasnostfeindlich eingestellte Generäle entlassen. Er möchte die Wende im Ostblock weiter voran treiben.</de>
 				<en>CPUSS Secretary General Sergei Mikhailov has dismissed more than 300 additional generals hostile to perestroika and glasnost. He wants to push ahead with the turnaround in the Eastern Bloc.</en>
+				<pl>Sekretarz generalny KPZR Siergiej Michajłow zwolnił ponad 300 dodatkowych generałów wrogo nastawionych do pierestrojki i głasnosti. Chce on kontynuować przemiany w bloku wschodnim.</pl>
 			</description>
 			<data genre="0" price="0.6" quality="60" fictional="0" flags="2" />
 		</news>
@@ -307,10 +349,12 @@
 			<title>
 				<de>US-Präsident besucht Deutschland</de>
 				<en>US President visits Germany</en>
+				<pl>Prezydent USA odwiedza Niemcy</pl>
 			</title>
 			<description>
 				<de>Bundeskanzler Herbert Kappes erwartet einen ganz besonderen Gast: Robert Keagan besucht die Bundesrepublik Deutschland. Der US-Präsident möchte aber auch ein Fußballspiel besuchen.</de>
 				<en>Chancellor Herbert Kappes is expecting a very special guest: Robert Keagan is visiting the Federal Republic of Germany. But the U.S. president also wants to attend a soccer match.</en>
+				<pl>Kanclerz Herbert Kappes oczekuje wyjątkowego gościa: Robert Keagan odwiedza Republikę Federalną Niemiec. Ale prezydent USA chce również wziąć udział w meczu piłki nożnej.</pl>
 			</description>
 			<data genre="0" price="0.5" quality="50" fictional="0" flags="2" />
 		</news>
@@ -320,10 +364,12 @@
 			<title>
 				<de>Atomare Abrüstung beginnt</de>
 				<en>Nuclear disarmament begins</en>
+				<pl>Rozpoczyna się rozbrojenie nuklearne</pl>
 			</title>
 			<description>
 				<de>Der sowjetische Staatschef Sergei Michailow und US-Präsident Robert Keagan unterzeichnen in Washington den INF-Vertrag über den vollständigen Abbau aller nuklearen Mittelstreckenwaffen kürzerer und längerer Reichweite.</de>
 				<en>Soviet leader Sergei Michailow and U.S. President Robert Keagan sign the INF Treaty in Washington on the complete dismantlement of all shorter- and longer-range nuclear intermediate-range weapons.</en>
+				<pl>Przywódca ZSRR Siergiej Michajłow i prezydent USA Robert Keagan podpisują w Waszyngtonie traktat INF o całkowitym demontażu wszystkich rodzajów broni jądrowej krótkiego i średniego zasięgu.</pl>
 			</description>
 			<data genre="0" price="0.5" quality="50" fictional="0" flags="2" />
 		</news>
@@ -333,10 +379,12 @@
 			<title>
 				<de>US-Präsidentschaftswahlen</de>
 				<en>US presidential elections</en>
+				<pl>Wybory prezydenckie w USA</pl>
 			</title>
 			<description>
 				<de>Da die 2. Amtszeit von Robert Keagan zu Ende geht und er kein drittes Mal kandidieren darf, streiten sich Vize-Präsident Gregory H. W. Cush und Senator Michael „Mc“ Monco um das Amt des US-Präsidenten.</de>
 				<en>As Robert Keagan's 2nd term comes to an end and he is not allowed to run for a third time, Vice President Gregory H. W. Cush and Senator Michael "Mc" Monco are fighting over the office of U.S. President.</en>
+				<pl>Gdy druga kadencja Roberta Keagana dobiega końca i nie może on ubiegać się o trzecią kadencję, wiceprezydent Gregory H. W. Cush i senator Michael „Mc” Monco walczą o urząd prezydenta USA.</pl>
 			</description>
 			<data genre="0" price="0.5" quality="50" fictional="0" flags="2" />
 			<effects>
@@ -350,10 +398,12 @@
 			<title>
 				<de>Cush wird US-Präsident</de>
 				<en>Cush becomes US president</en>
+				<pl>Cush zostaje prezydentem USA</pl>
 			</title>
 			<description>
 				<de>Gregory H. W. Cush setzt sich mit 426 zu 111 Wahlmännerstimmen klar gegen seinen Kontrahanten Michael „Mc“ Monco durch und wird 41. Präsident der Vereinigten Staaten.</de>
 				<en>Gregory H. W. Cush clearly prevails over his counterpart Michael "Mc" Monco by 426 to 111 electoral votes and becomes 41st President of the United States.</en>
+				<pl>Gregory H. W. Cush zdecydowanie wygrywa ze swoim odpowiednikiem Michaelem „Mc” Monco stosunkiem głosów 426 do 111 i zostaje 41. prezydentem Stanów Zjednoczonych.</pl>
 			</description>
 			<data genre="0" price="0.5" quality="50" fictional="0" flags="2" />
 		</news>
@@ -366,10 +416,12 @@
 			<title>
 				<de>Rolling Bricks auf Abschiedstournee</de>
 				<en>Rolling Bricks on farewell tour</en>
+				<pl>Rolling Bricks na pożegnalnej trasie</pl>
 			</title>
 			<description>
 				<de>Mit einem Alterdurchschnitt von 89 Jahren touren die Rolling Bricks durch die Altersheime der Nation. Für ihren Pressesprecher ist es „... die perfekte Möglichkeit sich einen Ruhesitz auszusuchen.“</de>
 				<en>With an average age of 89 years, the Rolling Bricks tour the retirement homes of the nation. For their spokesman, it is "... the perfect opportunity to choose a retirement home."</en>
+				<pl>Ze średnią wieku 89 lat, Rolling Bricks objeżdżają domy spokojnej starości w całym kraju. Dla ich rzecznika jest to „... doskonała okazja, aby wybrać dom spokojnej starości”.</pl>
 			</description>
 			<data genre="1" price="0.45" quality="45" fictional="1" />
 		</news>
@@ -378,10 +430,12 @@
 			<title>
 				<de>Nuck Chorris schlägt Zeit tot</de>
 				<en>Nuck Chorris kills time</en>
+				<pl>Nuck Chorris zabija czas</pl>
 			</title>
 			<description>
 				<de>Das hat vor ihm noch keiner geschafft, doch nun ist es Kampfkünstler und Action-Schauspieler Nuck Chorris gelungen die Zeit tot zu schlagen. Und das Beste: Es ist völlig legal!</de>
 				<en>No one has ever done that before him, but now martial artist and action star Nuck Chorris has managed to kill time. And what's best: It's completely legal!</en>
+				<pl>Nikt przed nim tego nie zrobił, ale teraz artysta sztuk walki i gwiazda akcji Nuck Chorris zdołał zabić czas. A co najlepsze: Jest to całkowicie legalne!</pl>
 			</description>
 			<data genre="1" price="0.3" quality="30" fictional="1" />
 			<effects>
@@ -394,10 +448,12 @@
 			<title>
 				<de>Nuck Chorris zählt bis zur Unendlichkeit</de>
 				<en>Nuck Chorris counts to infinity</en>
+				<pl>Nuck Chorris liczy do nieskończoności</pl>
 			</title>
 			<description>
 				<de>Laut eigenen Angaben hat Nuck Chorris bereits 2x bis zur Unendlichkeit gezählt. Die Mathe-Experten dieser Erde rätseln immer noch darüber, ob das stimmt.</de>
 				<en>According to his own statements, Nuck Chorris has already counted to infinity twice. The math experts of this world are still puzzling over whether this is true.</en>
+				<pl>Według jego własnych oświadczeń, Nuck Chorris policzył już do nieskończoności dwa razy. Eksperci matematyczni tego świata wciąż zastanawiają się, czy to prawda.</pl>
 			</description>
 			<data genre="1" price="0.3" quality="30" fictional="1" />
 		</news>
@@ -406,10 +462,12 @@
 			<title>
 				<de>Jonnie Drops bei Dreharbeiten schwer verletzt</de>
 				<en>Jonnie Drops seriously injured during filming</en>
+				<pl>Jonnie Drops poważnie ranny podczas kręcenia filmu</pl>
 			</title>
 			<description>
 				<de>Beim Dreh von „Mein Grog - dein Grog“ hat sich Jonnie Drops an einer zerbrochenen Grogflasche verletzt. Die Dreharbeiten verzögern sich.</de>
 				<en>During the filming of "My Grog - Your Grog" Jonnie Drops injured himself due to a broken grog bottle. The shooting is delayed.</en>
+				<pl>Podczas kręcenia filmu „My Grog - Your Grog” Jonnie Drops zranił się z powodu pękniętej butelki grogu. Zdjęcia zostały opóźnione.</pl>
 			</description>
 			<data genre="1" price="0.4" quality="40" fictional="1" />
 			<effects>
@@ -422,10 +480,12 @@
 			<title>
 				<de>„Mein Grog - dein Grog“: Dreh geht weiter</de>
 				<en>"My Grog - Your Grog": filming continues</en>
+				<pl>„My Grog - Your Grog”: zdjęcia trwają</pl>
 			</title>
 			<description>
 				<de>Der Dreh des neuen Drops-Films geht weiter! Der Schauspieler möchte trotz schwerer Verletzung auf die Zähne beißen und den Film fertig drehen.</de>
 				<en>The shooting of the new Drops film continues! The actor wants to grit his teeth and finish shooting the film despite a serious injury.</en>
+				<pl>Zdjęcia do nowego filmu Drops trwają! Aktor chce zacisnąć zęby i dokończyć zdjęcia do filmu pomimo poważnej kontuzji.</pl>
 			</description>
 			<data genre="1" price="0.35" quality="35" />
 			<effects>
@@ -438,10 +498,12 @@
 			<title>
 				<de>Neuer Drops-Film kommt in die Kinos</de>
 				<en>New Drops movie coming to theaters</en>
+				<pl>Nowy film Drops już wkrótce w kinach</pl>
 			</title>
 			<description>
 				<de>Trotz der schweren Verletzung des Hauptdarstellers wurde der Dreh des Filmes zu Ende gebracht und wird nun einem Millionen-Publikum vorgestellt.</de>
 				<en>Despite the serious injury of the main actor, the shooting of the film was completed and is now presented to an audience of millions.</en>
+				<pl>Pomimo poważnej kontuzji głównego aktora, zdjęcia do filmu zostały ukończone i są obecnie prezentowane milionowej widowni.</pl>
 			</description>
 			<data genre="1" price="0.45" quality="45" />
 			<effects>
@@ -454,10 +516,12 @@
 			<title>
 				<de>Goldene Brombeere für Jonnie Drops</de>
 				<en>Golden Bramble for Jonnie Drops</en>
+				<pl>Golden Bramble dla Jonnie Drops</pl>
 			</title>
 			<description>
 				<de>Schauspieler Jonnie Drops wurde für seine schlechte Performance in „Mein Grog - dein Grog“ mit der Goldenen Brombeere geehrt.</de>
 				<en>Actor Jonnie Drops was awarded the Golden Bramble for his poor performance in "My Grog - Your Grog".</en>
+				<pl>Aktor Jonnie Drops otrzymał nagrodę Golden Bramble za słaby występ w „My Grog - Your Grog”.</pl>
 			</description>
 			<data genre="1" price="0.45" quality="45" />
 			<effects>
@@ -470,10 +534,12 @@
 			<title>
 				<de>Patty Glansen gesteht Affäre</de>
 				<en>Patty Glansen confesses affair</en>
+				<pl>Patty Glansen przyznaje się do romansu</pl>
 			</title>
 			<description>
 				<de>Am Rande der Filmpreisverleihungen gesteht Patty Glansen, die zusammen mit Jonnie Drops in „Mein Grog - dein Grog“ vor der Kamera stand, eine Affäre mit dem Schauspieler.</de>
 				<en>On the sidelines of the film awards, Patty Glansen, who co-starred with Jonnie Drops in "My Grog - Your Grog," confesses to an affair with the actor.</en>
+				<pl>Na marginesie rozdania nagród filmowych Patty Glansen, która zagrała z Jonnie Dropsem w „My Grog - Your Grog”, wyznaje, że ma romans z aktorem.</pl>
 			</description>
 			<data genre="1" price="0.35" quality="35" fictional="1" />
 			<effects>
@@ -487,10 +553,12 @@
 			<title>
 				<de>Benny Jameson klaut Filmpreis</de>
 				<en>Benny Jameson steals film award</en>
+				<pl>Benny Jameson kradnie nagrodę filmową</pl>
 			</title>
 			<description>
 				<de>Weil er bei den Filmpreisverleihungen keinen Preis erhalten hat, klaut sich Benny Jameson einfach einen und verschwindet durch die Hintertür.</de>
 				<en>Because he didn't receive a prize at the film awards, Benny Jameson simply nicked one for himself and disappeared through the back door.</en>
+				<pl>Ponieważ nie otrzymał nagrody na rozdaniu nagród filmowych, Benny Jameson po prostu zgarnął jedną dla siebie i zniknął tylnymi drzwiami.</pl>
 			</description>
 			<data genre="1" price="0.45" quality="40" fictional="1" />
 			<effects>
@@ -504,10 +572,12 @@
 			<title>
 				<de>Benny Jameson zu Gefängnisstrafe verurteilt</de>
 				<en>Benny Jameson sentenced to prison</en>
+				<pl>Benny Jameson skazany na karę więzienia</pl>
 			</title>
 			<description>
 				<de>Den geklauten Filmpreis hat er zurück gegeben. Trotzdem wurde Benny Jameson zu einer dreitägigen Gefängnisstrafe verurteilt, die er bereits angetreten hat.</de>
 				<en>He gave back the stolen film award. Nevertheless, Benny Jameson was convicted to a three-day prison sentence, which he has already entered.</en>
+				<pl>Oddał skradzioną nagrodę filmową. Mimo to, Benny Jameson został skazany na karę trzech dni pozbawienia wolności, którą już odbył.</pl>
 			</description>
 			<data genre="1" price="0.5" quality="45" fictional="1" />
 			<effects>
@@ -521,10 +591,12 @@
 			<title>
 				<de>Benny Jameson aus dem Gefängnis entlassen</de>
 				<en>Benny Jameson released from prison</en>
+				<pl>Benny Jameson zwolniony z więzienia</pl>
 			</title>
 			<description>
 				<de>Aufgrund guter Führung wurde Benny Jameson einen Tag früher aus dem Gefängnis entlassen. Der Schauspieler möchte seine Erfahrungen nun in einem Film verarbeiten.</de>
 				<en>Because of good behavior Benny Jameson was released from prison a day early. The actor now wants to reflect on his experience in a film.</en>
+				<pl>Dzięki dobremu zachowaniu Benny Jameson został zwolniony z więzienia dzień wcześniej. Aktor chce teraz opowiedzieć o swoim doświadczeniu w filmie.</pl>
 			</description>
 			<data genre="1" price="0.55" quality="50" fictional="1" />
 			<effects>
@@ -538,10 +610,12 @@
 			<title>
 				<de>Benny Jameson erhält Filmpreis</de>
 				<en>Benny Jameson receives film award</en>
+				<pl>Benny Jameson otrzymuje nagrodę filmową</pl>
 			</title>
 			<description>
 				<de>Für die Rolle eines Häftlings wurde Benny Jameson mit einem Filmpreis geehrt. Die Kritiker loben die besonders realistische Darstellung des Schauspielers.</de>
 				<en>For the role of a prisoner Benny Jameson was honored with a film award. The critics praise the actor's particularly realistic portrayal.</en>
+				<pl>Za rolę więźnia Benny Jameson został uhonorowany nagrodą filmową. Krytycy chwalą aktora za wyjątkowo realistyczny portret.</pl>
 			</description>
 			<data genre="1" price="0.6" quality="55" fictional="1" />
 			<effects>
@@ -554,10 +628,12 @@
 			<title>
 				<de>hoi-hoi 14 Wochen an der Chartspitze</de>
 				<en>hoi-hoi 14 weeks at the top of the chart</en>
+				<pl></pl>
 			</title>
 			<description>
 				<de>„Brake on me“, der #1-Hit der finnischen Popgruppe hoi-hoi, hält sich seit 14 Wochen an der Spitze der Charts. Weltweit konnte die nordeuropäische Band in 26 Ländern die höchste Chartplatzierung errreichen.</de>
 				<en>"Brake on me", the #1 hit of the Finnish pop group hoi-hoi, has held the top of the charts for 14 weeks. Worldwide, the northern European band could achieve the highest chart position in 26 countries.</en>
+				<pl>hoi-hoi 14 tygodni na szczycie listy przebojów</pl>
 			</description>
 			<data genre="1" price="0.5" quality="50" fictional="1" flags="2" />
 		</news>
@@ -567,10 +643,12 @@
 			<title>
 				<de>Musikalbum des Jahres gewählt</de>
 				<en>Music album of the year chosen</en>
+				<pl>Muzyczny album roku wybrany</pl>
 			</title>
 			<description>
 				<de>„Born in the States“, das Musikalbum des amerikanischen Sängers Chris Springfield, wurde zum einflussreichsten Album des Jahres gewählt. Springfield verwendet darin erstmals Synthesizer.</de>
 				<en>"Born in the States", the music album by American singer Chris Springfield, was voted the most influential album of the year. In it, Springfield uses synthesizers for the first time.</en>
+				<pl>„Born in the States”, album muzyczny amerykańskiego piosenkarza Chrisa Springfielda, został uznany za najbardziej wpływowy album roku. Springfield po raz pierwszy użył w nim syntezatorów.</pl>
 			</description>
 			<data genre="1" price="0.4" quality="40" fictional="0" flags="2" />
 		</news>
@@ -580,10 +658,12 @@
 			<title>
 				<de>„Anna - der Film“ ausgezeichnet</de>
 				<en>"Anna - the film" awarded</en>
+				<pl>„Anna - film” nagrodzony</pl>
 			</title>
 			<description>
 				<de>Bei den diesjährigen deutschen Filmpreisverleihungen wurde das Werk der norddeutschen Komikerin, Anna Friese, ausgezeichnet. Dietbert von den Hallern ging mit „Die Rache der Entthronten“ leer aus.</de>
 				<en>At this year's German Film Awards, the work of the North German comedian, Anna Friese, was awarded. Dietbert von den Hallern went empty-handed with "Revenge of the Dethroned".</en>
+				<pl>Podczas tegorocznego rozdania Niemieckich Nagród Filmowych nagrodzono dzieło północnoniemieckiej komiczki, Anny Friese. Dietbert von den Hallern odszedł z pustymi rękami z „Zemstą zdetronizowanych”.</pl>
 			</description>
 			<data genre="1" price="0.4" quality="40" fictional="0" flags="2" />
 		</news>
@@ -593,10 +673,12 @@
 			<title>
 				<de>Palladium veröffentlicht Album</de>
 				<en>Palladium releases album</en>
+				<pl>Palladium wydaje album</pl>
 			</title>
 			<description>
 				<de>Die Thrash-Metal-Band Palladium bringt heute ihr Album „Der Puppenspieler“ heraus. Es wird einmal als Meilenstein des Thrash Metal und eines der besten Metal-Alben überhaupt angesehen werden.</de>
 				<en>The thrash metal band Palladium today released their album "The Puppet Master". It will one day be considered a milestone of thrash metal and one of the best metal albums ever.</en>
+				<pl>Thrashmetalowy zespół Palladium wydał dziś swój album „The Puppet Master”. Pewnego dnia zostanie on uznany za kamień milowy thrash metalu i jeden z najlepszych albumów metalowych w historii.</pl>
 			</description>
 			<data genre="1" price="0.3" quality="30" fictional="0" flags="2" />
 		</news>
@@ -606,10 +688,12 @@
 			<title>
 				<de>Mater Dolorosa erfolgreichste Sängerin</de>
 				<en>Mater Dolorosa most successful singer</en>
+				<pl>Mater Dolorosa najbardziej utytułowaną piosenkarką</pl>
 			</title>
 			<description>
 				<de>Mater Dolorosa schafft mit ihrem dritten Album „Real Green“ den Sprung auf Platz 1 der Hitparaden in 28 Ländern. Für eine weibliche Interpretin ein noch nie da gewesener Erfolg.</de>
 				<en>Mater Dolorosa makes it to No. 1 on the charts in 28 countries with her third album "Real Green". For a female performer, an unprecedented success.</en>
+				<pl>Mater Dolorosa dociera do 1. miejsca list przebojów w 28 krajach ze swoim trzecim albumem „Real Green”. To bezprecedensowy sukces dla kobiety-wykonawcy.</pl>
 			</description>
 			<data genre="1" price="0.35" quality="35" fictional="0" flags="2" />
 		</news>
@@ -619,10 +703,12 @@
 			<title>
 				<de>„Jenseits von Eden“ ausgezeichnet</de>
 				<en>"East of Eden" awarded</en>
+				<pl>„Na wschód od Edenu” nagrodzony</pl>
 			</title>
 			<description>
 				<de>Bei den diesjährigen Filmpreisverleihungen wurde George Weismans Film „Jenseits von Eden“ als bester Film ausgezeichnet. Der Film basiert auf Briefen der kanadischen Schriftstellerin Elke Beauford.</de>
 				<en>At this year's film awards, George Weisman's film "East of Eden" was named best film. The film is based on letters by Canadian writer Elke Beauford.</en>
+				<pl>Podczas tegorocznego rozdania nagród filmowych za najlepszy film uznano „Na wschód od Edenu” George'a Weismana. Film oparty jest na listach kanadyjskiej pisarki Elke Beauford.</pl>
 			</description>
 			<data genre="1" price="0.4" quality="40" fictional="0" flags="2" />
 		</news>
@@ -632,10 +718,12 @@
 			<title>
 				<de>Michel Jacobson veröffentlicht „Bed“</de>
 				<en>Michel Jacobson releases "Bed"</en>
+				<pl></pl>
 			</title>
 			<description>
 				<de>Michel Jacobson veröffentlicht mit dem Album „Bed“ sein neues und lange erwartetes Nachfolge-Album von „Table“. „Bed“ wird Nummer 1 in 25 Ländern und verkauft sich über 30 Millionen mal.</de>
 				<en>Michel Jacobson releases "Bed", his new and long-awaited follow-up album to "Table". "Bed" becomes number 1 in 25 countries and sells over 30 million copies.</en>
+				<pl>Michel Jacobson wydaje „Bed”</pl>
 			</description>
 			<data genre="1" price="0.3" quality="30" fictional="0" flags="2" />
 		</news>
@@ -645,10 +733,12 @@
 			<title>
 				<de>Grunge-Band gegründet</de>
 				<en>Grunge band founded</en>
+				<pl>Założenie zespołu grunge'owego</pl>
 			</title>
 			<description>
 				<de>Mit Elysium hat sich an der nordamerikanischen Ostküste eine neue Band gegründet. Die Musiker um Band-Leader Kurt Kokain möchten „dieses Grunge-Rock-Ding“ weiterentwickeln und die Band weltweit berühmt machen.</de>
 				<en>With Elysium a new band has formed on the North American East Coast. The musicians around band leader Kurt Kokain want to develop "this grunge rock thing" and make the band famous worldwide.</en>
+				<pl>Elysium to nowy zespół, który powstał na wschodnim wybrzeżu Ameryki Północnej. Muzycy skupieni wokół lidera zespołu Kurta Kokaina chcą rozwinąć „tę grunge rockową rzecz” i uczynić zespół sławnym na całym świecie.</pl>
 			</description>
 			<data genre="1" price="0.3" quality="30" fictional="0" flags="2" />
 		</news>
@@ -658,10 +748,12 @@
 			<title>
 				<de>Kriegsfilm erhält Filmpreis</de>
 				<en>War film receives film award</en>
+				<pl>Film wojenny otrzymuje nagrodę filmową</pl>
 			</title>
 			<description>
 				<de>Bei den diesjährigen Filmpreisverleihungen wurde Bulli Steins Film „Batallion“ als bester Film ausgezeichnet. Der Kriegsfilm zeigt die Auswüchse des Vietnamkrieges und seine Wirkung auf Infanteriesoldaten.</de>
 				<en>At this year's film awards, Bulli Stein's film "Batallion" was named best film. The war film shows the excesses of the Vietnam War and its effect on infantry soldiers.</en>
+				<pl>Podczas tegorocznego rozdania nagród filmowych film Bulli Stein „Batallion” został uznany za najlepszy film. Film wojenny pokazuje ekscesy wojny w Wietnamie i jej wpływ na żołnierzy piechoty.</pl>
 			</description>
 			<data genre="1" price="0.4" quality="40" fictional="0" flags="2" />
 		</news>
@@ -671,10 +763,12 @@
 			<title>
 				<de>Mater Dolorosa nur Nummer 2</de>
 				<en>Mater Dolorosa only number 2</en>
+				<pl>Mater Dolorosa tylko z numerem 2</pl>
 			</title>
 			<description>
 				<de>Zum erfolgreichsten Song des Jahres hat es leider nicht gereicht. Mater Dolorosas Hit „The Isle of Bel Air“ wurde von Eagernesses Chart-Breaker „Travel travel“ noch knapp übertroffen.</de>
 				<en>Unfortunately, it was not enough for the most successful song of the year. Mater Dolorosa's hit "The Isle of Bel Air" was narrowly surpassed by Eagerness's chart-breaker "Travel travel".</en>
+				<pl>Niestety, to nie wystarczyło, by zdobyć tytuł najbardziej przebojowej piosenki roku. Przebój Mater Dolorosa „The Isle of Bel Air” został nieznacznie wyprzedzony przez przebojowy „Travel travel” Eagerness.</pl>
 			</description>
 			<data genre="1" price="0.4" quality="40" fictional="0" flags="2" />
 		</news>
@@ -684,10 +778,12 @@
 			<title>
 				<de>Chris Springfield rockt die DDR</de>
 				<en>Chris Springfield rocks the GDR</en>
+				<pl>Chris Springfield rockuje w NRD</pl>
 			</title>
 			<description>
 				<de>160.000 Ost-Berliner waren gekommen, um US-Rocklegende Chris Springfield zu sehen. Das Konzert auf der Radrennbahn Hiddensee ist das größte DDR-Konzert aller Zeiten und ein weiterer Beweis, dass der Osten sich dem Westen öffnet.</de>
 				<en>160,000 East Berliners came to see US rock legend Chris Springfield. The concert at the Hiddensee cycling track was the largest GDR concert of all time and further proof that the East is opening up to the West.</en>
+				<pl>160 000 mieszkańców Berlina Wschodniego przyszło zobaczyć legendę amerykańskiego rocka, Chrisa Springfielda. Koncert na torze kolarskim Hiddensee był największym koncertem NRD w historii i kolejnym dowodem na to, że Wschód otwiera się na Zachód.</pl>
 			</description>
 			<data genre="1" price="0.6" quality="60" fictional="0" flags="2" />
 		</news>
@@ -697,10 +793,12 @@
 			<title>
 				<de>Obermeyer veröffentlicht Album</de>
 				<en>Obermeyer releases album</en>
+				<pl>Obermeyer wydaje album</pl>
 			</title>
 			<description>
 				<de>Hubert Obermeyer veröffentlicht mit „Ä“ sein siebtes Studioalbum. Der Rock-Poet aus Bochum ist der kommerziell erfolgreichste zeitgenössische Musiker Deutschlands; seine auffällige Gesangsart und eine marcatoartige Gestik beim Singen gehören zu seinen Markenzeichen.</de>
 				<en>Hubert Obermeyer releases with "Ä" his seventh studio album. The rock poet from Bochum is the commercially most successful contemporary musician in Germany; his striking vocal style and marcato-like gestures during singing are among his trademarks.</en>
+				<pl>Hubert Obermeyer wydaje „Ä”, swój siódmy album studyjny. Poeta rocka z Bochum jest odnoszącym największe sukcesy komercyjne współczesnym muzykiem w Niemczech; jego uderzający styl wokalny i gesty przypominające marcato podczas śpiewania należą do jego znaków rozpoznawczych.</pl>
 			</description>
 			<data genre="1" price="0.6" quality="60" fictional="0" flags="2" />
 		</news>
@@ -714,10 +812,12 @@
 			<title>
 				<de>Blue Socks gewinnen Football-Meisterschaft</de>
 				<en>Blue Socks Win Football Championship</en>
+				<pl>Niebieskie skarpetki zdobywają mistrzostwo w piłce nożnej</pl>
 			</title>
 			<description>
 				<de>Zum ersten Mal seit 26 Jahren haben die Blue Socks wieder die Meisterschaft gewonnen. In einer packenden Finalserie konnten sie sich letztendlich gegen die Rednecks mit 4:3 durchsetzen.</de>
 				<en>For the first time in 26 years, the Blue Socks have won the championship again. In a thrilling final series, they were ultimately able to prevail against the Rednecks with 4-3.</en>
+				<pl>Po raz pierwszy od 26 lat Blue Socks ponownie zdobyli mistrzostwo. W emocjonującej serii finałowej udało im się ostatecznie wygrać z Rednecks wynikiem 4-3.</pl>
 			</description>
 			<data genre="2" price="0.2" quality="30" fictional="0" />
 		</news>
@@ -726,10 +826,12 @@
 			<title>
 				<de>Weltmeisterschaft ohne Nationalteams?</de>
 				<en>World Cup without national teams?</en>
+				<pl>Mistrzostwa Świata bez reprezentacji narodowych?</pl>
 			</title>
 			<description>
 				<de>Ginge es nach den Vorstellungen der FUFA, würden ab dem kommenden Jahr die Fußball-Weltmeisterschaften erstmals ohne die Nationalteams stattfinden. Die Teilnehmer sollen dann durch Casting-Shows ermittelt werden.</de>
 				<en>If it went according to the ideas of the FUFA, then, starting next year, the World Cup would take place for the first time without national teams. The participants would then be determined via casting shows.</en>
+				<pl>Jeśli wszystko poszłoby zgodnie z pomysłami FUFA, to od przyszłego roku mistrzostwa świata po raz pierwszy odbyłyby się bez udziału drużyn narodowych. Uczestnicy byliby wówczas wyłaniani w drodze castingów.</pl>
 			</description>
 			<data genre="2" price="0.35" quality="40" fictional="0" />
 		</news>
@@ -738,10 +840,12 @@
 			<title>
 				<de>Bundesliga-Relegation: Wer steigt auf, wer ab?</de>
 				<en>Bundesliga play-offs: Who will rise, who will fall?</en>
+				<pl>Play-offy Bundesligi: Kto awansuje, kto spadnie?</pl>
 			</title>
 			<description>
 				<de>Der Glubb kämpft gegen den SV Hamburg um den Aufstieg in die Fußball-Bundesliga. Wird der Bundesliga-Dino aus dem Norden dem Abstieg erneut entgehen oder werden die Herausforderer aus Franken siegreich sein?</de>
 				<en>The Glubb fights against SV Hamburg for promotion to the Bundesliga. Will the Bundesliga dino from the north escape relegation again or will the challengers from Franconia be victorious?</en>
+				<pl>Glubb walczy z SV Hamburg o awans do Bundesligi. Czy dino z północy ponownie uniknie spadku z Bundesligi, czy też rywale z Frankonii odniosą zwycięstwo?</pl>
 			</description>
 			<data genre="2" price="0.3" quality="30" fictional="1" />
 			<effects>
@@ -754,10 +858,12 @@
 			<title>
 				<de>SV Hamburg steigt erstmalig ab</de>
 				<en>SV Hamburg relegated for the first time</en>
+				<pl>SV Hamburg po raz pierwszy zdegradowany</pl>
 			</title>
 			<description>
 				<de>Erstmalig in seiner Vereinsgeschichte ist der SV Hamburg aus der Bundesliga abgestiegen. Er unterlag dem Glubb in einem spannenden Spiel mit 0:1 nach Verlängerung. Wackelt jetzt der Stuhl von Trainer Knut Knolle?</de>
 				<en>For the first time in its club history, SV Hamburg has been relegated from the Bundesliga. They lost to the Glubb in an exciting game with 0-1 after extra time. Is the seat of coach Knut Knolle in question now?</en>
+				<pl>SV Hamburg po raz pierwszy w historii klubu spadł z Bundesligi. Przegrali z Glubbem w emocjonującym meczu 0-1 po dogrywce. Czy fotel trenera Knuta Knolle stoi teraz pod znakiem zapytania?</pl>
 			</description>
 			<data genre="2" price="0.3" quality="30" fictional="1" />
 			<effects>
@@ -770,10 +876,12 @@
 			<title>
 				<de>Glubb verpasst Aufstieg</de>
 				<en>Glubb misses promotion</en>
+				<pl>Glubb nie awansuje</pl>
 			</title>
 			<description>
 				<de>Nicht ganz gereicht hat es für den Glubb. Die Franken zogen gegen die Hamburger den Kürzeren und verpassten mit einem knappen 0:1 den Aufstieg in die Bundesliga.</de>
 				<en>It was not quite enough for the Glubb. The Franconians drew the short straw against Hamburg and missed with a narrow 0-1 the promotion to the Bundesliga.</en>
+				<pl>To nie wystarczyło dla Glubba. Frankończycy wyciągnęli krótką słomkę przeciwko Hamburgowi i przegrali 0-1 i awans do Bundesligi</pl>
 			</description>
 			<data genre="2" price="0.3" quality="0" fictional="1" />
 			<effects>
@@ -786,10 +894,12 @@
 			<title>
 				<de>SV Hamburg trennt sich von Trainer</de>
 				<en>SV Hamburg parts ways with coach</en>
+				<pl>SV Hamburg rozstaje się z trenerem</pl>
 			</title>
 			<description>
 				<de>Aufgrund des erstmaligen Abstiegs des SV Hamburg zieht Präsident Uwe Gehler die Reißleine und entlässt Trainer Knut Knolle. Geeler möchte nun den Trainermarkt sondieren und nach geeigneten Nachfolgern Ausschau halten.</de>
 				<en>Due to the first-time relegation of SV Hamburg, president Uwe Gehler pulls the plug and sacks coach Knut Knolle. Geeler now wants to explore the market and look for suitable successors.</en>
+				<pl>Z powodu pierwszego spadku SV Hamburg, prezes Uwe Gehler wyciąga wtyczkę i zwalnia trenera Knuta Knolle. Geeler chce teraz zbadać rynek i poszukać odpowiednich następców.</pl>
 			</description>
 			<data genre="2" price="0.25" quality="25" fictional="1" />
 		</news>
@@ -798,10 +908,12 @@
 			<title>
 				<de>SV Hamburg hält am Trainer fest</de>
 				<en>SV Hamburg holds on to coach</en>
+				<pl>SV Hamburg trzyma się trenera</pl>
 			</title>
 			<description>
 				<de>Trotz des Abstiegs aus der Bundesliga möchte Präsident Uwe Geeler am Trainer festhalten: „Knut Knolle ist unser Mann auch für die 2. Liga. Mit ihm werden wir wieder aufsteigen.“</de>
 				<en>Despite the relegation from the Bundesliga, President Uwe Geeler wants to hold on to the coach: "Knut Knolle is our man also for the 2nd league. With him, we will rise again."</en>
+				<pl>Pomimo spadku z Bundesligi, prezes Uwe Geeler chce zatrzymać trenera: „Knut Knolle to nasz człowiek także na 2. ligę. Z nim znów się podniesiemy”.</pl>
 			</description>
 			<data genre="2" price="0.25" quality="25" fictional="1" />
 		</news>
@@ -810,10 +922,12 @@
 			<title>
 				<de>Muss der Glubb Insolvenz anmelden?</de>
 				<en>Does the Glubb have to file for bankruptcy?</en>
+				<pl>Czy Glubb musi ogłosić upadłość?</pl>
 			</title>
 			<description>
 				<de>Viel wurde investiert um nach Jahren der Zweitklassigkeit endlich wieder im Oberhaus mitspielen zu können, doch gebracht hat es leider nichts. Gewachsen ist nur der Schuldenberg und der könnte den Glubberern jetzt zum Verhängnis werden.</de>
 				<en>After years of second-class status, much was invested to finally be able to play in the top division again, but unfortunately it has yielded nothing. Only the mountain of debt has grown, and that could be the doom now for the Glubbers.</en>
+				<pl>Po latach statusu drugoligowca wiele zainwestowano, by w końcu znów móc grać w najwyższej klasie rozgrywkowej, ale niestety nic to nie dało. Wzrosła tylko góra długów, co może być teraz zgubą dla Glubbersów.</pl>
 			</description>
 			<data genre="2" price="0.25" quality="25" fictional="1" />
 		</news>
@@ -822,10 +936,12 @@
 			<title>
 				<de>Der Glubb ist wieder schuldenfrei</de>
 				<en>The Glubb is debt-free again</en>
+				<pl>Glubb znów jest wolny od długów</pl>
 			</title>
 			<description>
 				<de>Bedingt durch die hohe Aufstiegsprämie konnte der Glubb alle seine Schulden abbauen und steht somit wieder auf gesunden Füßen. Die Glubberer hoffen, dass dies auch so bleibt.</de>
 				<en>Due to the high promotion bonus, the Glubb was able to reduce all its debts and is thus back on a sound footing. The Glubbers hope that this will continue.</en>
+				<pl>Dzięki wysokiej premii promocyjnej Glubb był w stanie zredukować wszystkie swoje długi i tym samym powrócił na solidne podstawy. Glubbersi mają nadzieję, że ten stan się utrzyma.</pl>
 			</description>
 			<data genre="2" price="0.25" quality="25" fictional="1" />
 		</news>
@@ -834,10 +950,12 @@
 			<title>
 				<de>Formel X: Wer holt sich die Fahrer-WM?</de>
 				<en>Formula X: Who will win the drivers' championship?</en>
+				<pl>Formuła X: Kto zdobędzie mistrzostwo kierowców?</pl>
 			</title>
 			<description>
 				<de>Zu einem Dreikampf kommt es heute Abend beim letzten Rennen der Formel X zwischen den punktgleichen Piloten Luis Pamelton, Bastian Kettel und Ferdinando Alfonso. Wer wird Fahrer-Weltmeister?</de>
 				<en>There will be a triple-header tonight in the last race of Formula X between the drivers Luis Pamelton, Bastian Kettel and Ferdinando Alfonso, who are tied on points. Who will be the world drivers' champion?</en>
+				<pl>Dziś wieczorem w ostatnim wyścigu Formuły X dojdzie do potrójnego pojedynku pomiędzy kierowcami Luisem Pameltonem, Bastianem Kettelem i Ferdinando Alfonso, którzy zremisowali pod względem punktów. Kto zostanie mistrzem świata kierowców?</pl>
 			</description>
 			<data genre="2" price="0.45" quality="45" fictional="1" />
 			<effects>
@@ -851,10 +969,12 @@
 			<title>
 				<de>Luis Pamelton ist Weltmeister</de>
 				<en>Luis Pamelton is world champion</en>
+				<pl>Luis Pamelton mistrzem świata</pl>
 			</title>
 			<description>
 				<de>Der neue Formel-X-Weltmeister heißt Luis Pamelton. In einem spannenden Rennen konnte er sich gegen seine Rivalen Bastian Kettel und Ferdinando Alfonso trotz einer 10-Sekunden-Strafe wegen zu schnellem Fahren durchsetzen.</de>
 				<en>The new Formula X world champion is Luis Pamelton. In an exciting race, he was able to prevail against his rivals Bastian Kettel and Ferdinando Alfonso despite a 10-second penalty for speeding.</en>
+				<pl>Nowym mistrzem świata Formuły X został Luis Pamelton. W emocjonującym wyścigu udało mu się wygrać z rywalami Bastianem Kettelem i Ferdinando Alfonso pomimo 10-sekundowej kary za przekroczenie prędkości.</pl>
 			</description>
 			<data genre="2" price="0.5" quality="50" fictional="1" />
 		</news>
@@ -863,10 +983,12 @@
 			<title>
 				<de>Bastian Kettel ist Weltmeister</de>
 				<en>Bastian Kettel is world champion</en>
+				<pl>Bastian Kettel mistrzem świata</pl>
 			</title>
 			<description>
 				<de>Der neue Formel-X-Weltmeister heißt Bastian Kettel. In einem spannenden Rennen konnte er sich gegen seine Rivalen Luis Pamelton und Ferdinando Alfonso trotz einer 10-Sekunden-Strafe wegen zu schnellem Fahren durchsetzen.</de>
 				<en>The new Formula X world champion is Bastian Kettel. In an exciting race, he was able to prevail over his rivals Luis Pamelton and Ferdinando Alfonso despite a 10-second penalty for speeding.</en>
+				<pl>Nowym mistrzem świata Formuły X został Bastian Kettel. W emocjonującym wyścigu udało mu się pokonać rywali Luisa Pameltona i Ferdinando Alfonso pomimo 10-sekundowej kary za przekroczenie prędkości.</pl>
 			</description>
 			<data genre="2" price="0.5" quality="50" fictional="1" />
 		</news>
@@ -875,10 +997,12 @@
 			<title>
 				<de>Ferdinando Alfonso ist Weltmeister</de>
 				<en>Ferdinando Alfonso is world champion</en>
+				<pl>Ferdinando Alfonso mistrzem świata</pl>
 			</title>
 			<description>
 				<de>Der neue Formel-X-Weltmeister heißt Ferdinando Alfonso. In einem spannenden Rennen konnte er sich gegen seine Rivalen Luis Pamelton und Bastian Kettel trotz einer 10-Sekunden-Strafe wegen zu schnellem Fahren durchsetzen.</de>
 				<en>The new Formula X world champion is Ferdinando Alfonso. In an exciting race, he was able to prevail over his rivals Luis Pamelton and Bastian Kettel despite a 10-second penalty for speeding.</en>
+				<pl>Nowym mistrzem świata Formuły X został Ferdinando Alfonso. W emocjonującym wyścigu udało mu się pokonać rywali Luisa Pameltona i Bastiana Kettela pomimo 10-sekundowej kary za przekroczenie prędkości.</pl>
 			</description>
 			<data genre="2" price="0.5" quality="50" fictional="1" />
 		</news>
@@ -887,10 +1011,12 @@
 			<title>
 				<de>Sensation: Erstmalig drei Weltmeister</de>
 				<en>Sensation: Three world champions for the first time</en>
+				<pl>Sensacja: Trzech mistrzów świata po raz pierwszy</pl>
 			</title>
 			<description>
 				<de>Zu einem Novum kam es beim letzten Rennen der Formel X: Alle drei WM-Führenden schieden nach Reifenplatzern aus. Somit gibt es erstmalig in der Geschichte der Formel X drei Weltmeister.</de>
 				<en>There was a novelty in the last race of Formula X: All three world championship leaders dropped out after tire blowouts. Thus, for the first time in the history of Formula X, there are three world champions.</en>
+				<pl>W ostatnim wyścigu Formuły X miała miejsce nowość: wszyscy trzej liderzy mistrzostw świata odpadli po przebiciu opon. Tym samym po raz pierwszy w historii Formuły X mamy trzech mistrzów świata.</pl>
 			</description>
 			<data genre="2" price="0.6" quality="60" fictional="1" />
 		</news>
