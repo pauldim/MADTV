@@ -5,8 +5,8 @@
 		<achievement id="tvt-gameachievement-audience1" creator="5578" created_by="Ronny">
 			<title>
 				<de>Lokalsender</de>
-				<en>Nadawca regionalny</en>
-				<pl></pl>
+				<en>Regional broadcaster</en>
+				<pl>Nadawca regionalny</pl>
 			</title>
 			<!-- kein Text = automatisches Generieren aus Aufgabentext + Belohnung -->
 			<text />

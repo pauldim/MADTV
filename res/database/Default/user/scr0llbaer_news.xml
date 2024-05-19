@@ -276,12 +276,12 @@
 				<rodent_3>
 					<de>Nagetier</de>
 					<en>Rodent</en>
-					<pl></pl>
+					<pl>Chomik</pl>
 				</rodent_3>
 				<rodent_4>
 					<de>Nagetier</de>
 					<en>Rodent</en>
-					<pl></pl>
+					<pl>Chomik</pl>
 				</rodent_4>
 				<rodent_5>
 					<de>Beuteltier</de>
@@ -331,12 +331,12 @@
 				<hadbeenlivingon_0>
 					<de>seit mehr als %twelve% Jahren in einem Baum am Rathausplatz lebte</de>
 					<en>had been living on a tree at the town hall square for more than %twelve% years</en>
-					<pl></pl>
+					<pl>mieszkał na drzewie na placu ratuszowym przez ponad %twelve% lat</pl>
 				</hadbeenlivingon_0>
 				<hadbeenlivingon_1>
 					<de>seit mehr als %twelve% Jahren in einem Baum am Rathausplatz lebte</de>
 					<en>had been living on a tree at the town hall square for more than %twelve% years</en>
-					<pl></pl>
+					<pl>mieszkał na drzewie na placu ratuszowym przez ponad %twelve% lat</pl>
 				</hadbeenlivingon_1>
 				<hadbeenlivingon_2>
 					<de>seit mehr als %twelve% Jahren in einem Baum am Rathausplatz lebte</de>
@@ -351,7 +351,7 @@
 				<hadbeenlivingon_4>
 					<de>seit mehr als %twelve% Jahren auf der Rathausplatz-Grünfläche lebte</de>
 					<en>had been living on the town hall square greenspace for more than %twelve% years</en>
-					<pl></pl>
+					<pl>mieszkał na zielonej przestrzeni placu ratuszowego przez ponad %twelve% lat</pl>
 				</hadbeenlivingon_4>
 				<hadbeenlivingon_5>
 					<de>seit mehr als %twelve% Jahren auf der Rathausplatz-Grünfläche lebte</de>
@@ -371,7 +371,7 @@
 				<hadbeenlivingon_8>
 					<de>seit mehr als %twelve% Jahren Besorgungen für Bürger machte. Das intelligente, %neonyellow% Fahrzeug war dabei unermüdlich</de>
 					<en>had been running errands for citizens for more than %twelve% years. The sentient, %neonyellow% vehicle was tireless in doing so</en>
-					<pl></pl>
+					<pl>przez ponad %twelve% lat załatwiał sprawy dla obywateli. Czujący, %neonyellow% pojazd był w tym niestrudzony</pl>
 				</hadbeenlivingon_8>
 				<hadbeenlivingon_9>
 					<de>seit mehr als %twelve% Jahren Besorgungen für Bürger machte. Das intelligente, %neonyellow% Fahrzeug war dabei unermüdlich</de>
@@ -472,12 +472,12 @@
 			<title>
 				<de>%joe% an der Spitze der Hitparade</de>
 				<en>%joe% at the top of the charts</en>
-				<pl></pl>
+				<pl>%joe% na szczycie listy przebojów</pl>
 			</title>
 			<description>
 				<de>Schlagersängerin %singerfirstname%-%singersecondname% %singerlastname% hat mit dem Titel „%joe%, %dontleaveme%!“, der dem kürzlich in %funeraltown% verstorbenen ${squirrel_${i}} gewidmet ist, die Spitze der Charts erreicht.</de>
 				<en>Folk singer %singerfirstname%-%singersecondname% %singerlastname% has reached the top of the charts with the track "%joe%, %dontleaveme%!" dedicated to the recently deceased ${squirrel_${i}} in %funeraltown%.</en>
-				<pl>%joe% na szczycie listy przebojów</pl>
+				<pl>Folkowy wokalista %singerfirstname%-%singersecondname% %singerlastname% osiągnął szczyty list przebojów z utworem „%joe%, %dontleaveme%!” poświęconym niedawno zmarłemu ${squirrel_${i}} w %funeraltown%.</pl>
 			</description>
 			<data genre="1" price="1" quality="50" fictional="1" />
 			<effects>
@@ -1580,7 +1580,7 @@
 				<themanwho_0>
 					<de>Der Mann, der den Tisch aus einem Park in %town% stahl und angab, ihn zu einem Grillfest eines Freundes zu bringen, wurde wegen schweren Diebstahls%andcriminalmischief% angeklagt.</de>
 					<en>The man, who stole the table from a park in %town% and claimed to be taking it to a friend's backyard barbecue, was charged with grand larceny%andcriminalmischief%.</en>
-					<pl>Mężczyzna, który ukradł stół z parku w %town% i twierdził, że zabrał go na przydomowego grilla przyjaciela, został oskarżony o wielką kradzież% i przestępstwo.</pl>
+					<pl>Mężczyzna, który ukradł stół z parku w %town% i twierdził, że zabrał go na przydomowego grilla przyjaciela, został oskarżony o wielką kradzież%andcriminalmischief%.</pl>
 				</themanwho_0>
 				<themanwho_1>
 					<de>Ein Mann, der seit mehreren Jahren in %town% lebte, begann, von einer bevorstehenden Marsianer-Invasion zu predigen und zog eine kleine Anhängerschaft an. Er wurde wegen Betrugs%andcriminalmischief% verhaftet.</de>

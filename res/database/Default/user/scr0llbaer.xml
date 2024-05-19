@@ -549,7 +549,7 @@ Obowiązkowa pozycja dla każdej gospodyni domowej, przekleństwo dla twardzieli
 				<tower>
 					<de>TVT|Tower|TVTower</de>
 					<en>TVT|Tower|TVTower</en>
-					<pl></pl>
+					<pl>TVT|Tower|TVTower</pl>
 				</tower>
 				<latebreaking>
 					<de>Aktuell|Brandaktuell|Brandheiße News|Aktuellste News</de>
@@ -648,12 +648,12 @@ Obowiązkowa pozycja dla każdej gospodyni domowej, przekleństwo dla twardzieli
 				<latebreaking>
 					<de>Brandaktuell|Aktuell</de>
 					<en>Late-Breaking|Hot</en>
-					<pl>Informacje|Aktualności</pl>
+					<pl>Info|Aktualności</pl>
 				</latebreaking>
 				<title>
 					<de>Die Filmschau|Die Kino Show|Die Kinoleinwand|Die Große Leinwand|Die Große Bühne</de>
 					<en>The Movies Show|The Cinema Show|The Silver Screen|The Big Screen|The Big Stage</en>
-					<pl></pl>
+					<pl>Pokazy filmowe|Pokazy kinowe|Ze srebrnego ekranu|Z dużego ekranu|Z dużej sceny</pl>
 				</title>
 			</variables>
 			<jobs>
