@@ -633,7 +633,7 @@
 			<description>
 				<de>„Brake on me“, der #1-Hit der finnischen Popgruppe hoi-hoi, hält sich seit 14 Wochen an der Spitze der Charts. Weltweit konnte die nordeuropäische Band in 26 Ländern die höchste Chartplatzierung errreichen.</de>
 				<en>"Brake on me", the #1 hit of the Finnish pop group hoi-hoi, has held the top of the charts for 14 weeks. Worldwide, the northern European band could achieve the highest chart position in 26 countries.</en>
-				<pl>hoi-hoi 14 tygodni na szczycie listy przebojów</pl>
+				<pl>"Brake on me", hit nr 1 fińskiej grupy pop hoi-hoi, utrzymywał się na szczycie list przebojów przez 14 tygodni. Na całym świecie północnoeuropejski zespół osiągnął najwyższą pozycję na listach przebojów w 26 krajach.</pl>
 			</description>
 			<data genre="1" price="0.5" quality="50" fictional="1" flags="2" />
 		</news>
@@ -718,12 +718,12 @@
 			<title>
 				<de>Michel Jacobson veröffentlicht „Bed“</de>
 				<en>Michel Jacobson releases "Bed"</en>
-				<pl></pl>
+				<pl>Michel Jacobson wydaje „Bed”</pl>
 			</title>
 			<description>
 				<de>Michel Jacobson veröffentlicht mit dem Album „Bed“ sein neues und lange erwartetes Nachfolge-Album von „Table“. „Bed“ wird Nummer 1 in 25 Ländern und verkauft sich über 30 Millionen mal.</de>
 				<en>Michel Jacobson releases "Bed", his new and long-awaited follow-up album to "Table". "Bed" becomes number 1 in 25 countries and sells over 30 million copies.</en>
-				<pl>Michel Jacobson wydaje „Bed”</pl>
+				<pl>Michel Jacobson wydaje "Bed", swój nowy i długo oczekiwany album będący kontynuacją "Table". "Bed" staje się numerem 1 w 25 krajach i sprzedaje się w ponad 30 milionach egzemplarzy.</pl>
 			</description>
 			<data genre="1" price="0.3" quality="30" fictional="0" flags="2" />
 		</news>
@@ -1025,12 +1025,12 @@
 			<title>
 				<de>Erstes Nachtrennen der Formel Öko</de>
 				<en>First Formula Eco night race</en>
-				<pl></pl>
+				<pl>Pierwszy nocny wyścig Formuły Eco</pl>
 			</title>
 			<description>
 				<de>Heute Abend startet das erste Nachtrennen der Formel Öko. Die solarbetriebenen Boliden sollen eine Alternative zu den aus fossilen Rohstoffen betriebenen Flitzern der Formel X sein.</de>
 				<en>Tonight starts the first night race in Formula Eco. The solar-powered racers are intended to be an alternative to the fossil fuel-powered speedsters of Formula X.</en>
-			<pl></pl>	
+				<pl>Dziś wieczorem rozpocznie się pierwszy nocny wyścig Formuły Eco. Napędzane energią słoneczną bolidy mają być alternatywą dla napędzanych paliwami kopalnymi bolidów Formuły X.</pl>	
 			</description>
 			<data genre="2" price="0.30" quality="30" fictional="1" />
 			<effects>
@@ -1044,12 +1044,12 @@
 			<title>
 				<de>Nachtrennen der Formel Öko abgebrochen</de>
 				<en>Formula Eco night race canceled</en>
-				<pl></pl>
+				<pl>Nocny wyścig Formuły Eco odwołany</pl>
 			</title>
 			<description>
 				<de>Ein Novum in der Geschichte des Rennsports! Erstmalig muss ein Rennen aufgrund von Energiemangel abgebrochen werden. Die Initiatoren haben wohl vergessen, dass die solarbetriebenen Boliden das Sonnenlicht benötigen um fahren zu können.</de>
 				<en>A novelty in the history of racing! For the first time, a race must be canceled due to a lack of power. The initiators have probably forgotten that the solar-powered carts need the sunlight to be able to drive.</en>
-				<pl></pl>
+				<pl>Nowość w historii wyścigów! Po raz pierwszy wyścig musi zostać odwołany z powodu braku zasilania. Pomysłodawcy chyba zapomnieli, że pojazdy zasilane energią słoneczną potrzebują światła słonecznego, aby móc jeździć.</pl>
 			</description>
 			<data genre="2" price="0.35" quality="40" fictional="1" />
 		</news>
@@ -1058,12 +1058,12 @@
 			<title>
 				<de>Denkward Kurzer gelingt Hole-in-one</de>
 				<en>Denkward Kurzer achieves hole-in-one</en>
-				<pl></pl>
+				<pl>Denkward Kurzer osiąga hole-in-one</pl>
 			</title>
 			<description>
 				<de>Mit dem ersten Hole-in-one seiner Profikarriere sichert sich Golf-Ikone Denkward Kurzer den Turniersieg beim Major-Turnier der Senioren in Key Briscane.</de>
 				<en>With the first hole-in-one of his professional career, golf legend Denkward Kurzer claims victory in the senior major tournament in Key Briscane.</en>
-				<pl></pl>
+				<pl>Z pierwszym hole-in-one w swojej karierze zawodowej, legenda golfa Denkward Kurzer zwycięża w turnieju senior major w Key Briscane.</pl>
 			</description>
 			<data genre="2" price="0.25" quality="25" fictional="1" />
 		</news>
@@ -1074,12 +1074,12 @@
 			<title>
 				<de>Klatschkowski weiterhin Boxweltmeister</de>
 				<en>Klatschkowski still world boxing champion</en>
-				<pl></pl>
+				<pl>Klatschkowski wciąż mistrzem świata w boksie</pl>
 			</title>
 			<description>
 				<de>Auch der 49. Herausforderer hat es nicht geschafft Eugen Klatschkowski als Weltmeister im Schwergewicht zu entthronen. Die Suche nach weiteren Herausforderern gestaltet sich schwer.</de>
 				<en>Even the 49th challenger has not managed to dethrone Eugen Klatschkowski as world heavyweight champion. The search for more challengers is proving difficult.</en>
-				<pl></pl>
+				<pl>Nawet 49. challenger nie zdołał zdetronizować Eugena Klatschkowskiego jako mistrza świata wagi ciężkiej. Poszukiwania kolejnych pretendentów okazują się trudne.</pl>
 			</description>
 			<data genre="2" price="0.35" quality="35" fictional="1" />
 			<effects>
@@ -1092,12 +1092,12 @@
 			<title>
 				<de>Klatschkowski möchte Titel verteidigen</de>
 				<en>Klatschkowski wants to defend title</en>
-				<pl></pl>
+				<pl>Klatschkowski chce bronić tytułu</pl>
 			</title>
 			<description>
 				<de>Aufgrund des Mangels an Herausforderern spricht der aktuelle Meister im Schwergewicht, Eugen Klatschkowski, eine offene Herausforderung „...an alle die Manns genug sind um mit mir in den Ring zu steigen“ aus.</de>
 				<en>Due to the lack of challengers, the current heavyweight champion, Eugen Klatschkowski, issues an open challenge "...to all those who are man enough to get into the ring with me."</en>
-				<pl></pl>
+				<pl>Z powodu braku pretendentów, obecny mistrz wagi ciężkiej, Eugen Klatschkowski, rzuca otwarte wyzwanie "... wszystkim, którzy są na tyle odważni, aby wejść ze mną do ringu".</pl>
 			</description>
 			<data genre="2" price="0.4" quality="40" fictional="1" />
 			<effects>
@@ -1110,12 +1110,12 @@
 			<title>
 				<de>Spike Dyson nimmt Herausforderung an</de>
 				<en>Spike Dyson accepts challenge</en>
-				<pl></pl>
+				<pl>Spike Dyson przyjmuje wyzwanie</pl>
 			</title>
 			<description>
 				<de>Spike Dyson, der ehemalige mehrfache Weltmeister im Schwergewicht, nimmt die offene Herausforderung des aktuellen Champions, Eugen Klatschkowski, an und möchte mit diesem in einer Woche in Vas Legas in den Ring steigen.</de>
 				<en>Spike Dyson, the former multiple heavyweight world champion, accepts the open challenge of the current champion, Eugen Klatschkowski, and wants to get in the ring with him in a week in Vas Legas.</en>
-				<pl></pl>
+				<pl>Spike Dyson, były wielokrotny mistrz świata wagi ciężkiej, przyjmuje otwarte wyzwanie obecnego mistrza, Eugena Klatschkowskiego, i chce stanąć z nim w ringu za tydzień w Vas Legas.</pl>
 			</description>
 			<data genre="2" price="0.45" quality="45" fictional="1" />
 			<effects>
@@ -1128,12 +1128,12 @@
 			<title>
 				<de>Spike Dyson trainiert für Comeback</de>
 				<en>Spike Dyson trains for comeback</en>
-				<pl></pl>
+				<pl>Spike Dyson przygotowuje się do powrotu</pl>
 			</title>
 			<description>
 				<de>Trotz seines fortgeschrittenen Alters trainiert der Ex-Weltmeister im Schwergewicht, Spike Dyson, für ein Comeback im Boxring. Ziel ist den amtierenden Champion, Eugen Klatschkowski, beim „Kampf der Titanen“ am Samstag zu besiegen.</de>
 				<en>Despite his advanced age, the former world heavyweight champion, Spike Dyson, is training for a comeback in the boxing ring. The goal is to defeat the current champion, Eugen Klatschkowski, at the "Clash of the Titans" on Saturday.</en>
-				<pl></pl>
+				<pl>Pomimo zaawansowanego wieku, były mistrz świata wagi ciężkiej, Spike Dyson, trenuje do powrotu na ring bokserski. Jego celem jest pokonanie obecnego mistrza, Eugena Klatschkowskiego, podczas sobotniego "Starcia Tytanów".</pl>
 			</description>
 			<data genre="2" price="0.5" quality="50" fictional="1" />
 			<effects>
@@ -1146,12 +1146,12 @@
 			<title>
 				<de>Dyson vs. Klatschkowski: Tumulte vor Boxkampf</de>
 				<en>Dyson vs. Klatschkowski: Riots before match</en>
-				<pl></pl>
+				<pl>Dyson vs Klatschkowski: Zamieszki przed walką</pl>
 			</title>
 			<description>
 				<de>Das Wiegen vor dem Fight zwischen Spike Dyson und Eugen Klatschkowski hat sich zum Spektakel entwickelt. Während die Kontrahenten auf die Waage traten, eskalierte Dysons Sohn Shawn und trat Klatschkowski mit Anlauf in die Klöten.</de>
 				<en>The weigh-in before the boxing match between Spike Dyson and Eugen Klatschkowski turned into a spectacle. While the competitors stepped on the scales, Dyson's son Shawn escalated and ran up and kicked Klatschkowski in the nuts.</en>
-				<pl></pl>
+				<pl>Ważenie przed walką bokserską Spike'a Dysona z Eugenem Klatschkowskim przerodziło się w spektakl. Podczas gdy zawodnicy wchodzili na wagę, syn Dysona, Shawn, podbiegł i kopnął Klatschkowskiego w jaja.</pl>
 			</description>
 			<data genre="2" price="0.55" quality="55" fictional="1" />
 			<effects>
@@ -1164,12 +1164,12 @@
 			<title>
 				<de>Heute Abend: Dyson vs. Klatschkowski</de>
 				<en>Tonight: Dyson vs. Klatschkowski</en>
-				<pl></pl>
+				<pl>Dziś wieczorem: Dyson vs. Klatschkowski</pl>
 			</title>
 			<description>
 				<de>Wird es heute Abend einen neuen Box-Champion geben, oder kann Eugen Klatschkowski auch den 50. Herausforderer besiegen? Die Wetten stehen 7:1 für eine erfolgreiche Titelverteidigung.</de>
 				<en>Will there be a new boxing champion tonight, or can Eugen Klatschkowski also defeat the 50th challenger? The bets are 7-1 for a successful title defense.</en>
-				<pl></pl>
+				<pl>Czy dziś wieczorem zostanie wyłoniony nowy mistrz świata w boksie, czy też Eugen Klatschkowski pokona 50. pretendenta? Zakłady wynoszą 7-1 na udaną obronę tytułu.</pl>
 			</description>
 			<data genre="2" price="0.6" quality="60" fictional="1" />
 			<effects>
@@ -1183,12 +1183,12 @@
 			<title>
 				<de>Spike Dyson neuer Box-Weltmeister</de>
 				<en>Spike Dyson new boxing world champion</en>
-				<pl></pl>
+				<pl>Spike Dyson nowym mistrzem świata w boksie</pl>
 			</title>
 			<description>
 				<de>Der 50. Herausforderer war einer zu viel: Spike Dyson ist trotz seiner 52 Jahre der neue Box-Weltmeister. In einem spannenden Kampf konnte er den Dauer-Champion Eugen Klatschkowski nach klarem K.o. in der 12. Runde den Gürtel abnehmen.</de>
 				<en>The 50th challenger was one too many: Spike Dyson, despite his 52 years, is the new boxing world champion. In an exciting fight he was able to take the belt from the long-standing champion Eugen Klatschkowski after a clear knockout in the 12th round.</en>
-				<pl></pl>
+				<pl>Pięćdziesiąty pretendent to o jeden za dużo: Spike Dyson, mimo swoich 52 lat, został nowym mistrzem świata w boksie. W ekscytującej walce udało mu się odebrać pas wieloletniemu mistrzowi Eugenowi Klatschkowskiemu po wyraźnym nokaucie w 12. rundzie.</pl>
 			</description>
 			<data genre="2" price="0.7" quality="70" fictional="1" />
 			<effects>
@@ -1201,12 +1201,12 @@
 			<title>
 				<de>Klatschkowski bleibt Box-Weltmeister</de>
 				<en>Klatschkowski remains boxing world champion</en>
-				<pl></pl>
+				<pl>Klatschkowski pozostaje bokserskim mistrzem świata</pl>
 			</title>
 			<description>
 				<de>Auch der 50. Herausforderer hat es nicht geschafft Eugen Klatschkowski zu entthronen. Dyson blieb in dem rund 30-minütigen Kampf letztendlich chancenlos. Somit bleibt Klatschkowski weiterhin Champion.</de>
 				<en>Even the 50th challenger failed to dethrone Eugen Klatschkowski. In the end, Dyson was left without a chance in the fight, which lasted about 30 minutes. Thus, Klatschkowski remains champion.</en>
-				<pl></pl>
+				<pl>Nawet 50-ty pretendent nie zdołał zdetronizować Eugena Klatschkowskiego. Ostatecznie Dyson został bez szans w walce, która trwała około 30 minut. Tym samym Klatschkowski pozostał mistrzem.</pl>
 			</description>
 			<data genre="2" price="0.7" quality="70" fictional="1" />
 			<effects>
@@ -1219,12 +1219,12 @@
 			<title>
 				<de>Spike Dyson: Mit Yoga habe ich es geschafft</de>
 				<en>Spike Dyson: With yoga I made it</en>
-				<pl></pl>
+				<pl>Spike Dyson: Z jogą mi się to udało</pl>
 			</title>
 			<description>
 				<de>Spike Dyson lüftet sein Geheimnis: Eine spezielle Yoga-Therapie hat ihm beim Sieg über Klatschkowski geholfen. Dyson möchte nun ein Buch darüber schreiben und eine DVD herausbringen.</de>
 				<en>Spike Dyson reveals his secret: A special yoga therapy has helped him in the victory over Klatschkowski. Dyson now wants to write a book about it and release a DVD.</en>
-				<pl></pl>
+				<pl>Spike Dyson zdradza swój sekret: specjalna terapia jogą pomogła mu w zwycięstwie nad Klatschkowskim. Dyson chce teraz napisać o tym książkę i wydać DVD.</pl>
 			</description>
 			<data genre="2" price="0.55" quality="55" fictional="1" />
 		</news>
@@ -1233,12 +1233,12 @@
 			<title>
 				<de>Klatschkowski tritt zurück</de>
 				<en>Klatschkowski resigns</en>
-				<pl></pl>
+				<pl>Klatschkowski rezygnuje</pl>
 			</title>
 			<description>
 				<de>Wenn es am schönsten ist soll man aufhören. Nach 50 erfolgreichen Titelverteidigungen beendet Rekord-Champion Klatschkowski seine Karriere und hängt seine Boxhandschuhe an den Nagel.</de>
 				<en>Quit while you're ahead. After 50 successful title defenses, record champion Klatschkowski ends his career and chucks out his boxing gloves.</en>
-				<pl></pl>
+				<pl>Zrezygnuj, póki jesteś do przodu. Po 50 udanych obronach tytułu, rekordowy mistrz Klatschkowski kończy karierę i wyrzuca rękawice bokserskie.</pl>
 			</description>
 			<data genre="2" price="0.55" quality="55" fictional="1" />
 		</news>
@@ -1249,12 +1249,12 @@
 			<title>
 				<de>Holland verpasst Fußball-Weltmeisterschaft</de>
 				<en>The Dutch miss World Cup</en>
-				<pl></pl>
+				<pl>Holendrzy przegapią mistrzostwa świata</pl>
 			</title>
 			<description>
 				<de>Die niederländische Fußball-Nationalmannschaft hat die Weltmeisterschaft im Sommer des nächsten Jahres verpasst. Am letzten Spieltag der Qualifikation unterlag „Oranje“ dem Erzrivalen aus Belgien.</de>
 				<en>The Dutch national soccer team has missed the World Cup in the summer of next year. On the last matchday of the qualifiers, "Oranje" lost to their arch-rivals from Belgium.</en>
-				<pl></pl>
+				<pl>Reprezentacja Holandii w piłce nożnej straciła szansę na udział w Mistrzostwach Świata latem przyszłego roku. W ostatnim dniu kwalifikacji "Pomarańczowi" przegrali ze swoimi arcyrywalami z Belgii.</pl>
 			</description>
 			<data genre="2" price="0.4" quality="40" fictional="0" />
 		</news>
@@ -1263,12 +1263,12 @@
 			<title>
 				<de>Badminton: Alle Ergebnisse und Tabellen</de>
 				<en>Badminton: All results and tables</en>
-				<pl></pl>
+				<pl>Badminton: Wszystkie wyniki i tabele</pl>
 			</title>
 			<description>
 				<de>Alle Badminton-Ergebnisse mit aktuellen Tabellen.</de>
 				<en>All badminton results with current tables.</en>
-				<pl></pl>
+				<pl>Wszystkie wyniki badmintona z aktualnymi tabelami.</pl>
 			</description>
 			<data genre="2" price="0.20" quality="20" fictional="1" />
 		</news>
@@ -1277,12 +1277,12 @@
 			<title>
 				<de>Schach: Alle Ergebnisse und Tabellen</de>
 				<en>Chess: All results and tables</en>
-				<pl></pl>
+				<pl>Szachy: Wszystkie wyniki i tabele</pl>
 			</title>
 			<description>
 				<de>Alle Schach-Ergebnisse mit aktuellen Tabellen.</de>
 				<en>All chess results with current tables.</en>
-				<pl></pl>
+				<pl>Wszystkie wyniki szachowe z aktualnymi tabelami.</pl>
 			</description>
 			<data genre="2" price="0.20" quality="20" fictional="1" />
 		</news>
@@ -1291,12 +1291,12 @@
 			<title>
 				<de>Hockey: Alle Ergebnisse und Tabellen</de>
 				<en>Hockey: All results and tables</en>
-				<pl></pl>
+				<pl>Hokej: Wszystkie wyniki i tabele</pl>
 			</title>
 			<description>
 				<de>Alle Hockey-Ergebnisse mit aktuellen Tabellen.</de>
 				<en>All field hockey results with current tables.</en>
-				<pl></pl>
+				<pl>Wszystkie wyniki hokejowe z aktualnymi tabelami.</pl>
 			</description>
 			<data genre="2" price="0.20" quality="20" fictional="1" />
 		</news>
@@ -1305,12 +1305,12 @@
 			<title>
 				<de>Billard: Alle Ergebnisse und Tabellen</de>
 				<en>Billiards: All results and tables</en>
-				<pl></pl>
+				<pl>Bilard: Wszystkie wyniki i tabele</pl>
 			</title>
 			<description>
 				<de>Alle Ergebnisse vom Billard mit aktuellen Tabellen.</de>
 				<en>All results in billiards with current tables.</en>
-				<pl></pl>
+				<pl>Wszystkie wyniki w bilarda z aktualnymi tabelami.</pl>
 			</description>
 			<data genre="2" price="0.20" quality="20" fictional="1" />
 		</news>
@@ -1319,12 +1319,12 @@
 			<title>
 				<de>Ringen: Alle Ergebnisse und Tabellen</de>
 				<en>Wrestling: All results and tables</en>
-				<pl></pl>
+				<pl>Wrestling: Wszystkie wyniki i tabele</pl>
 			</title>
 			<description>
 				<de>Alle Ergebnisse vom Ringen mit aktuellen Tabellen.</de>
 				<en>All results in wrestling with current tables.</en>
-				<pl></pl>
+				<pl>Wszystkie wyniki w zawodach wrestlingu z aktualnymi tabelami.</pl>
 			</description>
 			<data genre="2" price="0.20" quality="20" fictional="1" />
 		</news>
@@ -1333,12 +1333,12 @@
 			<title>
 				<de>Tennis: Alle Ergebnisse und Tabellen</de>
 				<en>Tennis: All results and tables</en>
-				<pl></pl>
+				<pl>Tenis: Wszystkie wyniki i tabele</pl>
 			</title>
 			<description>
 				<de>Alle Tennis-Ergebnisse mit aktuellen Tabellen.</de>
 				<en>All tennis results with current tables.</en>
-				<pl></pl>
+				<pl>Wszystkie wyniki tenisa z aktualnymi tabelami.</pl>
 			</description>
 			<data genre="2" price="0.20" quality="20" fictional="1" />
 		</news>
@@ -1347,12 +1347,12 @@
 			<title>
 				<de>Tischtennis: Alle Ergebnisse und Tabellen</de>
 				<en>Table tennis: All results and tables</en>
-				<pl></pl>
+				<pl>Tenis stołowy: Wszystkie wyniki i tabele</pl>
 			</title>
 			<description>
 				<de>Alle Tischtennis-Ergebnisse mit aktuellen Tabellen.</de>
 				<en>All table tennis results with current tables.</en>
-				<pl></pl>
+				<pl>Wszystkie wyniki tenisa stołowego z aktualnymi tabelami.</pl>
 			</description>
 			<data genre="2" price="0.20" quality="20" fictional="1" />
 		</news>
@@ -1361,12 +1361,12 @@
 			<title>
 				<de>Volleyball: Alle Ergebnisse und Tabellen</de>
 				<en>Volleyball: All results and tables</en>
-				<pl></pl>
+				<pl>Siatkówka: Wszystkie wyniki i tabele</pl>
 			</title>
 			<description>
 				<de>Alle Volleyball-Ergebnisse mit aktuellen Tabellen.</de>
 				<en>All volleyball results with current tables.</en>
-				<pl></pl>
+				<pl>Wszystkie wyniki siatkarskie z aktualnymi tabelami.</pl>
 			</description>
 			<data genre="2" price="0.20" quality="20" fictional="1" />
 		</news>
@@ -1376,12 +1376,12 @@
 			<title>
 				<de>Schachwettkampf abgebrochen</de>
 				<en>Chess match canceled</en>
-				<pl></pl>
+				<pl>Mecz szachowy odwołany</pl>
 			</title>
 			<description>
 				<de>Ein ungewohnt langer Wettkampf zur Ermittlung des Schachweltmeisters zwischen Ayatollah Andropow und Kasper Garripow wird nach 48 Partien ohne Ergebnis abgebrochen.</de>
 				<en>An unusually long competition between Ayatollah Andropov and Kasper Garripov to determine the world chess champion was aborted after 48 games without a result.</en>
-				<pl></pl>
+				<pl>Niezwykle długa rywalizacja pomiędzy Ajatollahem Andropowem i Kasprem Garripowem o tytuł szachowego mistrza świata została przerwana po 48 partiach bez rozstrzygnięcia.</pl>
 			</description>
 			<data genre="2" price="0.25" quality="25" fictional="0" flags="2" />
 		</news>
@@ -1391,12 +1391,12 @@
 			<title>
 				<de>Weltmeisterschaft im Show-Catchen</de>
 				<en>World Championship in Show-Wrestling</en>
-				<pl></pl>
+				<pl>Mistrzostwa świata w zapasach WWFr</pl>
 			</title>
 			<description>
 				<de>Die Westamerikanischen Wrestling Freunde (WWFr) veranstalten im Texas Skydome ihren ersten Wrestlewahnsinn. Im Main-Event trifft Badguy „Rowdy“ Pfeifer auf den Titelträger Hugh Hoden.</de>
 				<en>The West American Wrestling Friends (WWFr) are hosting their first Wrestle Frenzy at the Texas Skydome. In the Main-Event Badguy "Rowdy" Pfeifer meets the title holder Hugh Hoden.</en>
-				<pl></pl>
+				<pl>West American Wrestling Friends (WWFr) organizuje swoje pierwsze pokazy w Texas Skydome. W głównym wydarzeniu Badguy "Rowdy" Pfeifer spotka się z posiadaczem tytułu Hugh Hodenem.</pl>
 			</description>
 			<effects>
 				<!-- "morgen 3-7 Uhr" -->
@@ -1410,12 +1410,12 @@
 			<title>
 				<de>Mr. Y entscheidet Catchkampf</de>
 				<en>Mr. Y decides wrestling match</en>
-				<pl></pl>
+				<pl>Pan Y decyduje o pojedynku zapaśniczym</pl>
 			</title>
 			<description>
 				<de>Hollywood-Schauspieler Mr. Y greift im Weltmeisterschaftskampf zwischen „Rowdy“ Pfeifer und Hugh Hoden zugunsten des Titelträgers ein. Hoden somit weiterhin Weltmeister im Schwergewicht!</de>
 				<en>Hollywood actor Mr. Y intervenes in the world championship fight between "Rowdy" Pfeifer and Hugh Hoden in favor of the title holder. Hoden thus continues to be world heavyweight champion!</en>
-				<pl></pl>
+				<pl>Hollywoodzki aktor Mr. Y interweniuje w walce o mistrzostwo świata pomiędzy "Rowdy" Pfeiferem i Hugh Hodenem na korzyść posiadacza tytułu. Tym samym Hoden pozostaje mistrzem świata wagi ciężkiej!</pl>
 			</description>
 			<data genre="2" price="0.35" quality="35" fictional="0" flags="2" />
 		</news>
@@ -1425,12 +1425,12 @@
 			<title>
 				<de>Denkward Kurzer gewinnt Golf-Masters</de>
 				<en>Denkward Kurzer wins Golf Masters</en>
-				<pl></pl>
+				<pl>Denkward Kurzer wygrywa Golf Masters</pl>
 			</title>
 			<description>
 				<de>Denkward Kurzer gewinnt als erster deutscher Golfer die mit 500.000 US-$ dotierten US-Masters in Augusta (Georgia).</de>
 				<en>Denkward Kurzer becomes the first German golfer to win the USD 500,000 endowed US Masters in Augusta (Georgia).</en>
-				<pl></pl>
+				<pl>Denkward Kurzer został pierwszym niemieckim golfistą, który wygrał turniej US Masters w Augusta (Georgia) z pulą nagród 500 000 USD.</pl>
 			</description>
 			<data genre="2" price="0.3" quality="30" fictional="0" flags="2" />
 		</news>
@@ -1440,12 +1440,12 @@
 			<title>
 				<de>Bas Bode gewinnt Wimbledon</de>
 				<en>Bas Bode wins Wimbledon</en>
-				<pl></pl>
+				<pl>Bas Bode wygrywa Wimbledon</pl>
 			</title>
 			<description>
 				<de>Bas Bode siegt als erster Deutscher und (mit 17 Jahren) jüngster Tennisspieler aller Zeiten beim Grand-Slam-Turnier von Wimbledon.</de>
 				<en>Bas Bode becomes the first German and (at 17) the youngest tennis player ever to win the Grand Slam tournament at Wimbledon.</en>
-				<pl></pl>
+				<pl>Bas Bode zostaje pierwszym Niemcem i (w wieku 17 lat) najmłodszym tenisistą, który wygrał turniej Wielkiego Szlema na Wimbledonie.</pl>
 			</description>
 			<data genre="2" price="0.6" quality="60" fictional="0" flags="2" />
 		</news>
@@ -1455,12 +1455,12 @@
 			<title>
 				<de>Erneut Schachwettkampf abgebrochen</de>
 				<en>Once again chess match canceled</en>
-				<pl></pl>
+				<pl>Po raz kolejny mecz szachowy odwołany</pl>
 			</title>
 			<description>
 				<de>Wie auch im Vorjahr wurde das Schach-Finale zwischen Ayatollah Andropow und Kasper Garripow ohne Sieger abgebrochen. Der internationale Schachverband kürt somit zwei Spieler zum Schach-Weltmeister.</de>
 				<en>As in the previous year, the chess final between Ayatollah Andropov and Kasper Garripov was canceled without a winner. The International Chess Federation thus crowns two players as World Chess Champion.</en>
-				<pl></pl>
+				<pl>Podobnie jak w poprzednim roku, szachowy finał pomiędzy Ayatollahem Andropovem i Kasprem Garripovem został odwołany bez wyłonienia zwycięzcy. W ten sposób Międzynarodowa Federacja Szachowa koronowała dwóch graczy na szachowych mistrzów świata.</pl>
 			</description>
 			<data genre="2" price="0.35" quality="35" fictional="0" flags="2" />
 		</news>
@@ -1470,12 +1470,12 @@
 			<title>
 				<de>Bas Bode gewinnt wieder Wimbledon</de>
 				<en>Bas Bode wins Wimbledon again</en>
-				<pl></pl>
+				<pl>Bas Bode ponownie wygrywa Wimbledon</pl>
 			</title>
 			<description>
 				<de>Bas Bode siegt als erster Deutscher und (mit 18 Jahren) jüngster Tennisspieler aller Zeiten zum zweiten Mal beim Grand-Slam-Turnier von Wimbledon.</de>
 				<en>Bas Bode becomes the first German and (at 18) youngest tennis player ever to win the Grand Slam tournament at Wimbledon for the second time.</en>
-				<pl></pl>
+				<pl>Bas Bode zostaje pierwszym Niemcem i (w wieku 18 lat) najmłodszym tenisistą w historii, który po raz drugi wygrywa turniej Wielkiego Szlema na Wimbledonie.</pl>
 			</description>
 			<data genre="2" price="0.6" quality="60" fictional="0" flags="2" />
 		</news>
@@ -1485,12 +1485,12 @@
 			<title>
 				<de>Deutschland verliert Finale</de>
 				<en>Germany loses final</en>
-				<pl></pl>
+				<pl>Niemcy przegrywają finał</pl>
 			</title>
 			<description>
 				<de>Bei der 13. Fußball-WM in Mexiko gewinnt Argentinien gegen die Bundesrepublik Deutschland im Finale mit 3:2.</de>
 				<en>At the 13th World Cup in Mexico, Argentina wins against the Federal Republic of Germany in the final with 3-2.</en>
-				<pl></pl>
+				<pl>Podczas 13. Mistrzostw Świata w Meksyku Argentyna wygrywa z Republiką Federalną Niemiec w finale 3:2.</pl>
 			</description>
 			<data genre="2" price="0.6" quality="60" fictional="0" flags="2" />
 		</news>
@@ -1500,12 +1500,12 @@
 			<title>
 				<de>Siegwart Messier</de>
 				<en>Siegwart Messier</en>
-				<pl></pl>
+				<pl>Siegwart Messier</pl>
 			</title>
 			<description>
 				<de>Siegwart Messier hat als erster Mensch alle 14 Achttausender erstiegen. Während sich andere für Gipfelfotos vom Helikopter absetzen lassen kletterte der Bergsteiger aus Südtirol jeden Berg selbst hinauf.</de>
 				<en>Siegwart Messier was the first person to climb all 14 mountains of eight thousand meters. While others drop off from helicopters for mountaintop photos, the climber from South Tyrol climbed every mountain himself.</en>
-				<pl></pl>
+				<pl>Siegwart Messier był pierwszą osobą, która wspięła się na wszystkie 14 ośmiotysięczników. Podczas gdy inni zrzucali się z helikopterów, aby zrobić zdjęcia na szczycie góry, wspinacz z Południowego Tyrolu sam wspiął się na każdą górę.</pl>
 			</description>
 			<data genre="2" price="0.3" quality="30" fictional="0" flags="2" />
 		</news>
@@ -1515,12 +1515,12 @@
 			<title>
 				<de>Bas Bode: raus in Down-under</de>
 				<en>Bas Bode: out in Down-under</en>
-				<pl></pl>
+				<pl>Bas Bode: nieobecny w Down-under</pl>
 			</title>
 			<description>
 				<de>Deutschlands Tennis-Ikone, Bas Bode, ist gescheitert. Im Halbfinale der australischen Tennis-Meisterschaften verlor der Weltranglisten-18. gegen den Lokal-Matadoren Wolly Maser.</de>
 				<en>Germany's tennis icon, Bas Bode, has failed. In the semifinals of the Australian Tennis Championships, the world No. 18 lost to local matador Wolly Maser.</en>
-				<pl></pl>
+				<pl>Ikona niemieckiego tenisa, Bas Bode, poniósł porażkę. W półfinale Mistrzostw Australii w Tenisie nr 18 przegrał z miejscowym matadorem Wolly Maserem.</pl>
 			</description>
 			<data genre="2" price="0.3" quality="30" fictional="0" flags="2" />
 		</news>
@@ -1530,12 +1530,12 @@
 			<title>
 				<de>Betty Lord gewinnt in Paris</de>
 				<en>Betty Lord wins in Paris</en>
-				<pl></pl>
+				<pl>Betty Lord wygrywa w Paryżu</pl>
 			</title>
 			<description>
 				<de>Betty Lord gewinnt mit den in Paris ausgetragenen French Open ihren ersten von insgesamt 22 Grand Slam-Titeln.</de>
 				<en>Betty Lord wins her first of 22 Grand Slam titles at the French Open held in Paris.</en>
-				<pl></pl>
+				<pl>Betty Lord zdobywa swój pierwszy z 22 tytułów Wielkiego Szlema na French Open w Paryżu.</pl>
 			</description>
 			<data genre="2" price="0.3" quality="30" fictional="0" flags="2" />
 			<effects>
@@ -1548,12 +1548,12 @@
 			<title>
 				<de>Betty Lord Weltranglistenerste</de>
 				<en>Betty Lord world number one</en>
-				<pl></pl>
+				<pl>Betty Lord numerem jeden na świecie</pl>
 			</title>
 			<description>
 				<de>Betty Lord hat nach dem Gewinn der französischen Tennis-Meisterschaften erstmals die Führung in der Tennis-Weltrangliste der Damen übernommen.</de>
 				<en>Betty Lord has taken the top spot in the women's tennis world rankings for the first time after winning the French Tennis Championships.</en>
-				<pl></pl>
+				<pl>Betty Lord po raz pierwszy zajęła pierwsze miejsce w światowym rankingu tenisistek po zwycięstwie w Mistrzostwach Francji.</pl>
 			</description>
 			<data genre="2" price="0.3" quality="30" fictional="0" flags="2" />
 		</news>
@@ -1563,12 +1563,12 @@
 			<title>
 				<de>Betty Lord gewinnt US-Open</de>
 				<en>Betty Lord wins US Open</en>
-				<pl></pl>
+				<pl>Betty Lord wygrywa US Open</pl>
 			</title>
 			<description>
 				<de>Die deutsche Ausnahme-Tennisspielerin Betty Lord gewinnt mit ihrem Sieg bei den US Open gegen die Argentinierin Santina Morella als erste Deutsche und dritte Spielerin überhaupt alle Grand-Slam-Turniere.</de>
 				<en>As the first German and third player ever, exceptional tennis player Betty Lord, with her victory at the US Open against the Argentinian Santina Morella, wins all Grand Slam tournaments.</en>
-				<pl></pl>
+				<pl>Jako pierwsza Niemka i trzecia zawodniczka w historii, wyjątkowa tenisistka Betty Lord, dzięki zwycięstwu w US Open nad Argentynką Santiną Morellą, wygrywa wszystkie turnieje Wielkiego Szlema.</pl>
 			</description>
 			<data genre="2" price="0.3" quality="30" fictional="0" flags="2" />
 		</news>
@@ -1578,12 +1578,12 @@
 			<title>
 				<de>Deutsches Team gewinnt Navy-Cup</de>
 				<en>German team wins Navy Cup</en>
-				<pl></pl>
+				<pl>Niemiecka drużyna wygrywa Navy Cup</pl>
 			</title>
 			<description>
 				<de>Die deutsche Tennis-Nationalmannschaft Deutschland (mit Bas Bode, Charly Raab, Erich Gielen und Peter Kühne) gewinnt das Navy-Cup-Finale gegen Schweden.</de>
 				<en>The German national tennis team Germany (with Bas Bode, Charly Raab, Erich Gielen and Peter Kühne) wins the Navy Cup final against Sweden.</en>
-				<pl></pl>
+				<pl>Reprezentacja Niemiec w tenisie stołowym (w składzie: Bas Bode, Charly Raab, Erich Gielen i Peter Kühne) wygrywa finał Navy Cup ze Szwecją.</pl>
 			</description>
 			<data genre="2" price="0.3" quality="30" fictional="0" flags="2" />
 		</news>
@@ -1595,12 +1595,12 @@
 			<title>
 				<de>Faulkswagen entwickelt Null-Liter-Auto</de>
 				<en>Faulkswagen develops zero-liter car</en>
-				<pl></pl>
+				<pl>Faulkswagen opracowuje samochód o zerowym zużyciu paliwa</pl>
 			</title>
 			<description>
 				<de>Ein Auto, das keinen einzigen Liter Benzin verbraucht, wurde von Faulkswagen entwickelt. Der Clou: Faulkswagen gibt den Verbrauch ab sofort nur noch in Gallonen an.</de>
 				<en>A car that does not consume a single liter of fuel has been developed by Faulkswagen. The secret: Faulkswagen specifies the fuel consumption from now on only in gallons.</en>
-				<pl></pl>
+				<pl>Faulkswagen opracował samochód, który nie zużywa ani litra paliwa. Sekret: Faulkswagen określa zużycie paliwa od teraz tylko w galonach.</pl>
 			</description>
 			<data genre="3" price="0.55" quality="55" fictional="1" />
 		</news>
@@ -1609,12 +1609,12 @@
 			<title>
 				<de>Blitzenergie kann genutzt werden</de>
 				<en>Thunderbolt power can be utilized</en>
-				<pl></pl>
+				<pl>Możliwość wykorzystania zasilania z energi piorunów - Thunderbolt</pl>
 			</title>
 			<description>
 				<de>Forscher haben endlich eine Möglichkeit gefunden, die Energie der Blitze zu nutzen. Sollte das Projekt seine Serienreife erlangen, so könte dies die Energieprobleme des Planeten lösen.</de>
 				<en>Researchers have finally found a way to harness the energy of thunderbolts. If the project reaches its maturity phase, this could solve the energy problems of the planet.</en>
-				<pl></pl>
+				<pl>Naukowcy w końcu znaleźli sposób na wykorzystanie energii piorunów. Jeśli projekt osiągnie fazę dojrzałości, może to rozwiązać problemy energetyczne naszej planety.</pl>
 			</description>
 			<data genre="3" price="0.45" quality="45" fictional="1" />
 		</news>
@@ -1625,12 +1625,12 @@
 			<title>
 				<de>Orange präsentiert neues Smartphone</de>
 				<en>Orange presents new smartphone</en>
-				<pl></pl>
+				<pl>Orange prezentuje nowy smartfon</pl>
 			</title>
 			<description>
 				<de>Heute beginnt Orange mit dem Verkauf des neuen my-phones. Das neue Smartphone ist natürlich viel besser als sein Vorgänger. Deshalb werden auch wieder alle eines kaufen und das alte wegschmeißen. Scheiß auf die seltenen Erden.</de>
 				<en>Today Orange starts selling the new my-phone. Of course, the new smartphone is much better than its predecessor. Therefore, everyone will again buy one and throw away the old one. Fuck the rare earths.</en>
-				<pl></pl>
+				<pl>Dziś Orange rozpoczyna sprzedaż nowego my-phone-a. Oczywiście nowy smartfon jest znacznie lepszy od swojego poprzednika. Dlatego wszyscy znowu go kupią i wyrzucą stary. Pieprzyć metale ziem rzadkich.</pl>
 			</description>
 			<data genre="3" price="0.45" quality="45" fictional="1" />
 			<effects>
@@ -1643,12 +1643,12 @@
 			<title>
 				<de>Neues my-phone bereits ausverkauft</de>
 				<en>New my-phone already sold out</en>
-				<pl></pl>
+				<pl>Nowy my-phone już wyprzedany</pl>
 			</title>
 			<description>
 				<de>Bereits wenige Stunden nach Ladenöffnung waren alle my-phones ausverkauft. In den Läden wurden vielerorts traurige Gesichter gesehen. Der Hersteller möchte jetzt kurzfristig nachproduzieren.</de>
 				<en>Just a few hours after the stores opened, all my-phones were sold out. Sad faces were seen in the stores all over. The manufacturer now wants to replenish production without delay.</en>
-				<pl></pl>
+				<pl>Zaledwie kilka godzin po otwarciu sklepów wszystkie telefony my-phone zostały wyprzedane. W sklepach wszędzie widać było smutne twarze. Producent chce teraz niezwłocznie uzupełnić produkcję.</pl>
 			</description>
 			<data genre="3" price="0.55" quality="50" fictional="1" />
 		</news>
@@ -1657,12 +1657,12 @@
 			<title>
 				<de>Milch macht müde Männer munter</de>
 				<en>Milk makes meek men mighty</en>
-				<pl></pl>
+				<pl>Mleko czyni skromnych ludzi potężnymi</pl>
 			</title>
 			<description>
 				<de>Alle haben es gewusst - niemand hat es geglaubt. Aber es stimmt! Milch macht müde Männer munter. Diese Nachricht wurde Ihnen präsentiert von der Milchindustrie.</de>
 				<en>Everybody knew it - nobody believed it. But it's true! Milk makes meek men mighty. It makes tired men feel lively. This message was brought to you by the dairy industry.</en>
-				<pl></pl>
+				<pl>Wszyscy to wiedzieli - nikt w to nie wierzył. Ale to prawda! Mleko czyni skromnych ludzi potężnymi. Sprawia, że zmęczeni ludzie czują się ożywieni. Ta wiadomość została przekazana przez przemysł mleczarski.</pl>
 			</description>
 			<data genre="3" price="0.15" quality="15" fictional="1" />
 		</news>
