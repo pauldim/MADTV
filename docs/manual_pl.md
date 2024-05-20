@@ -3,7 +3,7 @@ Mpodręcznik
 
 Autor: Själe
 
-Tłumaczenie: Matthew Forrester [uwagi w nawiasach kwadratowych].
+Tłumaczenie: pauldim [uwagi w nawiasach kwadratowych].
 
 Przedmowa
 
@@ -303,21 +303,20 @@ Pokoje
 
 Podczas korzystania ze skrótu do pokoju, szybkie przewijanie do przodu jest aktywowane do momentu osiągnięcia pokoju.
 
-[Niemieckie nazwy są podane tam, gdzie wyjaśniają skrót]
 * A: Archiwum
 * B: Betty
-* C: Szef [Chef]
-* D: Agencja scenariuszowa [Drehbuchagentur]
+* C: Szef
+* D: Agencja scenariuszowa 
 * E: Kredyty (pracownicy :-))
-* F: Agencja filmowa [Filmagentur]
-* L: Supermarket [Laden]
+* F: Agencja filmowa
+* L: Supermarket
 * N: Studio wiadomości [News Studio]
 * O: Biuro
 * P: Plan pokoju
 * Q: Opuść pokój
 * R: Agencja pokojowa
 * S: Studio (pierwsze wolne znalezione)
-* W: Agencja reklamowa [Werbemakler]
+* W: Agencja reklamowa
 
 Różne
 ----
