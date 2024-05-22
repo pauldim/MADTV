@@ -1672,12 +1672,12 @@
 			<title>
 				<de>NASE startet Space-Shuttle-Programm</de>
 				<en>NASE launches space shuttle program</en>
-				<pl></pl>
+				<pl>NASE uruchamia program promów kosmicznych</pl>
 			</title>
 			<description>
 				<de>Gestern der Mond und morgen der Mars? Die nordamerikanische Raumfahrtbehörde NASE möchte auch im All die Nase vorn haben und startet ein neues Raumfahrtprogramm. Es soll der Erkundung neuer Planeten dienen.</de>
 				<en>The moon yesterday and Mars tomorrow? The North American space agency NASE wants to be in the lead also in space and launches a new space program. It is to help the exploration of new planets.</en>
-				<pl></pl>
+				<pl>Wczoraj Księżyc jutro Mars? Północnoamerykańska agencja kosmiczna NASE chce być liderem również w kosmosie i uruchamia nowy program kosmiczny. Ma on pomóc w eksploracji nowych planet.</pl>
 			</description>
 			<data genre="3" price="0.6" quality="60" fictional="0" flags="2" />
 			<effects>
@@ -1691,12 +1691,12 @@
 			<title>
 				<de>Kolumbus soll Erdumlaufbahn erkunden</de>
 				<en>Columbus to explore Earth orbit</en>
-				<pl></pl>
+				<pl>Columbus eksploruje orbitę okołoziemską</pl>
 			</title>
 			<description>
 				<de>Es ist der erste orbitale Flug eines unbemannten Space-Shuttles. Die Raumfähre Kolumbus soll den Start und die Landung eines Space-Shuttles erproben. Der Start erfolgt heute Nacht in Cap Carneval.</de>
 				<en>It is the first orbital flight of an unmanned space shuttle. The space shuttle Columbus is to test the launch and landing of a space shuttle. The launch will take place tonight in Cap Carneval.</en>
-				<pl></pl>
+				<pl>Jest to pierwszy lot orbitalny bezzałogowego promu kosmicznego. Wahadłowiec Columbus ma przetestować start i lądowanie promu kosmicznego. Start odbędzie się dziś wieczorem w Cap Carneval.</pl>
 			</description>
 			<data genre="3" price="0.65" quality="65" fictional="0" flags="2" />
 			<effects>
@@ -1711,12 +1711,12 @@
 			<title>
 				<de>Kolumbus erfolgreich gestartet</de>
 				<en>Columbus successfully launched</en>
-				<pl></pl>
+				<pl>Columbus z powodzeniem wystartował</pl>
 			</title>
 			<description>
 				<de>Strahlende Gesichter beim NASE-Bodenpersonal in Cap Carneval. Der erste Start eines unbemannten Space-Shuttles war erfolgreich. Wird auch die Landung gelingen?</de>
 				<en>Bright smiles on the faces of the NASE ground crew at Cap Carneval. The first launch of an unmanned space shuttle was successful. Will the landing also succeed?</en>
-				<pl></pl>
+				<pl>Promienne uśmiechy na twarzach załogi naziemnej NASE podczas Cap Carneval. Pierwszy start bezzałogowego promu kosmicznego zakończył się sukcesem. Czy lądowanie również się powiedzie?</pl>
 			</description>
 			<data genre="3" price="0.7" quality="70" fictional="0" flags="2" />
 			<effects>
@@ -1730,12 +1730,12 @@
 			<title>
 				<de>Kolumbus erfolgreich gelandet</de>
 				<en>Columbus successfully landed</en>
-				<pl></pl>
+				<pl>Columbus pomyślnie wylądował</pl>
 			</title>
 			<description>
 				<de>Nach 2 Tagen in der Erdumlaufbahn ist die Raumfähre Kolumbus erfolgreich in Cap Carneval gelandet. Durch den vollen Erfolg dieser Mission sollten weitere Gelder für zukünftige Missionen bewilligt werden.</de>
 				<en>After 2 days in Earth orbit, the space shuttle Columbus has successfully landed at Cap Carneval. Due to the resounding success of this mission, more funding is expected to be approved for future missions.</en>
-				<pl></pl>
+				<pl>Po 2 dniach spędzonych na orbicie okołoziemskiej, prom kosmiczny Columbus pomyślnie wylądował na Cap Carneval. Ze względu na ogromny sukces tej misji, oczekuje się, że zatwierdzone zostanie więcej funduszy na przyszłe misje.</pl>
 			</description>
 			<data genre="3" price="0.65" quality="65" fictional="0" flags="2" />
 		</news>
@@ -1745,12 +1745,12 @@
 			<title>
 				<de>Wieder Shuttle-Start geplant</de>
 				<en>Shuttle launch planned again</en>
-				<pl></pl>
+				<pl>Ponowny start wahadłowca zaplanowany</pl>
 			</title>
 			<description>
 				<de>Die nordamerikanische Raumfahrtbehörde NASE möchte wieder ein unbemanntes Shuttle ins All schicken. Die Raumfähre Passenger soll einen Kommunikations-Satelliten aussetzen, sowie bekannte Kometen analysieren.</de>
 				<en>The North American Space Agency NASE wants to send an unmanned shuttle into space again. The space shuttle Passenger is to launch a communications satellite, as well as to analyze known comets.</en>
-				<pl></pl>
+				<pl>Północnoamerykańska Agencja Kosmiczna NASE chce ponownie wysłać w kosmos bezzałogowy wahadłowiec. Promu kosmiczny Passenger ma wystrzelić satelitę komunikacyjnego, a także przeanalizować znane komety.</pl>
 			</description>
 			<data genre="3" price="0.5" quality="50" fictional="0" flags="2" />
 			<effects>
@@ -1766,12 +1766,12 @@
 			<title>
 				<de>Raumfähre bei Start explodiert</de>
 				<en>Space shuttle exploded during launch</en>
-				<pl></pl>
+				<pl>Prom kosmiczny eksplodował podczas startu</pl>
 			</title>
 			<description>
 				<de>Schwerer Rückschlag für das nordamerikanische Raumfahrtprogramm! Nur wenige Sekunden nach dem Start ist die Raumfähre Passenger explodiert. Die Raumfahrtbehörde NASE rätselt über die Ursachen des Unglücks.</de>
 				<en>Serious setback for the North American space program! Only a few seconds after launch, the space shuttle Passenger exploded. The space agency NASE is puzzled over the causes of the accident.</en>
-				<pl></pl>
+				<pl>Poważna porażka północnoamerykańskiego programu kosmicznego! Zaledwie kilka sekund po starcie prom kosmiczny Passenger eksplodował. Agencja kosmiczna NASE zastanawia się nad przyczynami wypadku.</pl>
 			</description>
 			<data genre="3" price="1" quality="100" fictional="0" flags="2" />
 			<effects>
@@ -1785,12 +1785,12 @@
 			<title>
 				<de>Shuttle-Explosion: Unglücksursache geklärt</de>
 				<en>Shuttle explosion: cause of accident clarified</en>
-				<pl></pl>
+				<pl>Eksplozja wahadłowca: przyczyna wypadku wyjaśniona</pl>
 			</title>
 			<description>
 				<de>Die nordamerikanische Raumfahrtbehörde NASE hat die Ursache für die Explosion der Raumfähre Passenger gefunden und macht einen fehlenden Dichtungsring für das Unglück verantwortlich.</de>
 				<en>The North American space agency NASE has found the cause of the explosion of the space shuttle Passenger and blames a missing seal ring for the disaster.</en>
-				<pl></pl>
+				<pl>Północnoamerykańska agencja kosmiczna NASE znalazła przyczynę eksplozji promu kosmicznego Passenger i obwinia za katastrofę brakujący pierścień uszczelniający.</pl>
 			</description>
 			<data genre="3" price="0.85" quality="85" fictional="0" flags="2" />
 			<effects>
@@ -1804,12 +1804,12 @@
 			<title>
 				<de>NASE legt Raumfahrtprogramm auf Eis</de>
 				<en>NASE puts space program on hold</en>
-				<pl></pl>
+				<pl>NASE wstrzymuje program kosmiczny</pl>
 			</title>
 			<description>
 				<de>Die nordamerikanische Raumfahrtbehörde NASE möchte vorerst von weiteren Shuttle-Starts absehen. Es sollen zunächst Technologien erforscht werden, die für einen sichereren Start sorgen.</de>
 				<en>The North American space agency NASE wants to refrain from further shuttle launches for the time being. Technologies are to be researched first, which provide for a safer launch.</en>
-				<pl></pl>
+				<pl>Północnoamerykańska agencja kosmiczna NASE chce na razie powstrzymać się od kolejnych startów wahadłowców. W pierwszej kolejności mają zostać zbadane technologie, które zapewnią bezpieczniejsze starty.</pl>
 			</description>
 			<data genre="3" price="0.75" quality="75" fictional="0" flags="2" />
 		</news>
@@ -1820,12 +1820,12 @@
 			<title>
 				<de>Cormoran veröffentlicht C256</de>
 				<en>Cormoran releases C256</en>
-				<pl></pl>
+				<pl>Cormoran wypuszcza C256</pl>
 			</title>
 			<description>
 				<de>Der nordamerikanische Technologie-Konzern Cormoran stattet seinen neuen Mikro-Computer mit einem RAM von 256 KB aus. Fans sind begeistert von der tollen Grafik und der schnellen Rechenleistung.</de>
 				<en>The North American technology company Cormoran equips its new micro-computer with 256 KB of RAM. Fans are excited about the great graphics and fast computing power.</en>
-				<pl></pl>
+				<pl>Północnoamerykańska firma technologiczna Cormoran wyposaża swój nowy mikrokomputer w 256 KB pamięci RAM. Fani są podekscytowani świetną grafiką i dużą mocą obliczeniową.</pl>
 			</description>
 			<data genre="3" price="0.5" quality="50" fictional="1" flags="2" />
 			<effects>
@@ -1838,12 +1838,12 @@
 			<title>
 				<de>C256 entwickelt sich zum Verkaufsschlager</de>
 				<en>C256 turns out to be a bestseller</en>
-				<pl></pl>
+				<pl>C256 okazuje się być bestsellerem</pl>
 			</title>
 			<description>
 				<de>Der neue C256 von Cormoran geht weg wie warme Semmeln. Viele Nutzer kaufen sich ein Zweitgerät, da der Mikro-Computer, der mittlerweile sogar in eine Butterdose passt, auch mal verlegt werden kann.</de>
 				<en>The new C256 from Cormoran goes like hot cakes. Many users buy a second device, because the micro-computer, which now even fits in a butter dish, can easily be misplaced from time to time.</en>
-				<pl></pl>
+				<pl>Nowy C256 od Cormorana rozchodzi się jak ciepłe bułeczki. Wielu użytkowników kupuje drugie urządzenie, ponieważ mikrokomputer, który teraz mieści się nawet w talerzu na masło, można od czasu do czasu łatwo zgubić.</pl>
 			</description>
 			<data genre="3" price="0.55" quality="55" fictional="1" flags="2" />
 		</news>
@@ -1854,12 +1854,12 @@
 			<title>
 				<de>Cormoran veröffentlicht C512</de>
 				<en>Cormoran releases C512</en>
-				<pl></pl>
+				<pl>Cormoran wypuszcza C512</pl>
 			</title>
 			<description>
 				<de>Der nordamerikanische Technologie-Konzern Cormoran stattet seinen neuen Mikro-Computer mit einem RAM von 512 KB aus. Fans sind begeistert von der tollen Grafik und der schnellen Rechenleistung.</de>
 				<en>The North American technology company Cormoran equips its new micro-computer with 512 KB of RAM. Fans are excited about the great graphics and fast computing power.</en>
-				<pl></pl>
+				<pl>Północnoamerykańska firma technologiczna Cormoran wyposaża swój nowy mikrokomputer w 512 KB pamięci RAM. Fani są podekscytowani świetną grafiką i dużą mocą obliczeniową.</pl>
 			</description>
 			<data genre="3" price="0.5" quality="50" fictional="1" flags="2" />
 			<effects>
@@ -1872,12 +1872,12 @@
 			<title>
 				<de>C512 übertrifft alle Erwartungen</de>
 				<en>C512 exceeds all expectations</en>
-				<pl></pl>
+				<pl>C512 przekracza wszelkie oczekiwania</pl>
 			</title>
 			<description>
 				<de>Der neue C512 von Cormoran übertrifft sogar seinen Vorgänger. Viele Nutzer kaufen sich ein Dritt- und Viertgerät, da der Mikro-Computer, der nun in einen Eierbecher passt, auch mal verlegt werden kann.</de>
 				<en>The new C512 from Cormoran even surpasses its predecessor. Many users buy a third and fourth device, because the micro-computer, which now fits in an egg cup, can easily be misplaced from time to time.</en>
-				<pl></pl>
+				<pl>Nowy C512 od Cormorana nawet przewyższa swojego poprzednika. Wielu użytkowników kupuje trzecie i czwarte urządzenie, ponieważ mikrokomputer, który teraz mieści się w pojemniku na jajka, można od czasu do czasu łatwo zgubić.</pl>
 			</description>
 			<data genre="3" price="0.55" quality="55" fictional="1" flags="2" />
 		</news>
@@ -1888,12 +1888,12 @@
 			<title>
 				<de>Cormoran veröffentlicht C1k024</de>
 				<en>Cormoran releases C1k024</en>
-				<pl></pl>
+				<pl>Cormoran wydaje C1k024</pl>
 			</title>
 			<description>
 				<de>Der nordamerikanische Technologie-Konzern Cormoran stattet seinen neuen Mikro-Computer mit einem RAM von 1024 KB aus. Fans sind begeistert von der tollen Grafik und der schnellen Rechenleistung.</de>
 				<en>The North American technology company Cormoran equips its new micro-computer with 1024 KB of RAM. Fans are excited about the great graphics and fast computing power.</en>
-				<pl></pl>
+				<pl>Północnoamerykańska firma technologiczna Cormoran wyposaża swój nowy mikrokomputer w 1024 KB pamięci RAM. Fani są podekscytowani świetną grafiką i dużą mocą obliczeniową.</pl>
 			</description>
 			<data genre="3" price="0.5" quality="50" fictional="1" flags="2" />
 			<effects>
@@ -1906,12 +1906,12 @@
 			<title>
 				<de>C1k024 - der meistverkaufte aller Zeiten</de>
 				<en>C1k024 - the all-time best-seller</en>
-				<pl></pl>
+				<pl>C1k024 - bestseller wszech czasów</pl>
 			</title>
 			<description>
 				<de>Mal eben locker den Verkaufserfolg des Vorgängers pulverisiert. Viele Nutzer kaufen sich den C1k024 von Cormoran im 10er-Pack, da der in einen Fingerhut passende Mikro-Computer, auch mal verlegt werden kann.</de>
 				<en>Just so easily crushed the sales success of the predecessor. Many users buy the C1k024 from Cormoran in packs of 10, as the micro-computer, which fits into a thimble, can easily be misplaced from time to time.</en>
-				<pl></pl>
+				<pl>Tak łatwo zmiażdżył sukces sprzedażowy poprzednika. Wielu użytkowników kupuje C1k024 od Cormoran w opakowaniach po 10 sztuk, ponieważ mikrokomputer, który mieści się w naparstku, może być łatwo zgubiony od czasu do czasu.</pl>
 			</description>
 			<data genre="3" price="0.55" quality="55" fictional="1" flags="2" />
 		</news>
@@ -1927,7 +1927,7 @@
 			<description>
 				<de>Der nordamerikanische Technologie-Konzern Cormoran stattet seinen neuen Mikro-Computer mit einem RAM von 2048 KB aus. Fans sind begeistert von der tollen Grafik und der schnellen Rechenleistung.</de>
 				<en>The North American technology company Cormoran equips its new micro-computer with 2048 KB of RAM. Fans are excited about the great graphics and fast computing power.</en>
-				<pl></pl>
+				<pl>Północnoamerykańska firma technologiczna Cormoran wyposaża swój nowy mikrokomputer w 2048 KB pamięci RAM. Fani są podekscytowani świetną grafiką i szybką mocą obliczeniową.</pl>
 			</description>
 			<data genre="3" price="0.5" quality="50" fictional="1" flags="2" />
 			<effects>
@@ -1940,12 +1940,12 @@
 			<title>
 				<de>C2k048 - ein Verkaufsflop</de>
 				<en>C2k048 - a sales flop</en>
-				<pl></pl>
+				<pl>C2k048 - sprzedażowa klapa</pl>
 			</title>
 			<description>
 				<de>Diese Rechnung geht nicht auf: Der auf einen Stecknadelkopf passende Mikro-Computer kann teilweise in den Läden nicht mehr aufgefunden werden. Cormoran hat die Produktion eingestellt.</de>
 				<en>This plan did not work out: The micro-computer, which fits on the head of a pin, can no longer be found in stores in some cases. Cormoran has stopped the production.</en>
-				<pl></pl>
+				<pl>Ten plan nie wypalił: Mikrokomputer, który mieści się w główce szpilki, w niektórych przypadkach nie można już znaleźć w sklepach. Cormoran wstrzymał produkcję.</pl>
 			</description>
 			<data genre="3" price="0.55" quality="55" fictional="1" flags="2" />
 		</news>
@@ -1956,12 +1956,12 @@
 			<title>
 				<de>Bildschirmtext wird abgeschaltet</de>
 				<en>Videotext to be switched off</en>
-				<pl></pl>
+				<pl>Wideotekst do wyłączenia</pl>
 			</title>
 			<description>
 				<de>Kurz vor seinem 19. Geburtstag wird der interaktive Online-Dienst im deutschsprachigen Raum zum Ende des Jahres abgeschaltet. Kommt jetzt das World Wide Web?</de>
 				<en>Shortly before its 19th birthday, the interactive online service in German-speaking countries will be shut down at the end of the year. Is the World Wide Web coming now?</en>
-				<pl></pl>
+				<pl>Krótko przed swoimi 19 urodzinami, interaktywna usługa online w krajach niemieckojęzycznych zostanie zamknięta pod koniec roku. Czy nadchodzi teraz World Wide Web?</pl>
 			</description>
 			<data genre="3" price="0.4" quality="40" fictional="1" flags="2" />
 		</news>
@@ -1972,12 +1972,12 @@
 			<title>
 				<de>DVD löst VHS-Kassette &amp; Co. ab</de>
 				<en>DVD replaces VHS cassette &amp; Co.</en>
-				<pl></pl>
+				<pl>DVD zastępuje kasetę VHS &amp; Co.</pl>
 			</title>
 			<description>
 				<de>Die DVD ist der neue Star unter den Speichermedien. Endlich entfällt das lästige Spulen der Bänder oder Umdrehen bei Laser-Disc und Video-CD. Mit brillanter Bild- und Tonqualität!</de>
 				<en>The DVD is the new star among storage media. Finally, the annoying tape spooling or flipping of laser discs and video CDs is no longer necessary. With brilliant picture and sound quality!</en>
-				<pl></pl>
+				<pl>DVD to nowa gwiazda wśród nośników pamięci. Wreszcie, irytujące zwijanie taśmy lub przerzucanie dysków laserowych i płyt wideo CD nie jest już konieczne. Z doskonałą jakością obrazu i dźwięku!</pl>
 			</description>
 			<data genre="3" price="0.4" quality="40" fictional="1" flags="2" />
 		</news>
@@ -1988,12 +1988,12 @@
 			<title>
 				<de>Blu-Ray löst DVD ab</de>
 				<en>Blu-Ray replaces DVD</en>
-				<pl></pl>
+				<pl>Blu-Ray zastępuje DVD</pl>
 			</title>
 			<description>
 				<de>Die Blu-Ray ist der neue Star unter den Speichermedien. Die Disc schillert in schönen blauen Farben, ermöglicht brillante Bild- und Tonqualität, sowie genug Platz für Filme in Überlänge.</de>
 				<en>The Blu-Ray is the new star among the storage media. The disc shimmers in beautiful blue colors, allows brilliant picture and sound quality, as well as for enough space for movies in extended length.</en>
-				<pl></pl>
+				<pl>Blu-Ray to nowa gwiazda wśród nośników pamięci. Płyta mieni się pięknymi niebieskimi kolorami, zapewnia doskonałą jakość obrazu i dźwięku, a także wystarczającą ilość miejsca na filmy o wydłużonej długości.</pl>
 			</description>
 			<data genre="3" price="0.4" quality="40" fictional="1" flags="2" />
 		</news>
@@ -2004,12 +2004,12 @@
 			<title>
 				<de>Neue TV-Geräte versprechen Quantensprung</de>
 				<en>New TV sets promising quantum leap</en>
-				<pl></pl>
+				<pl>Nowe telewizory zapowiadają milowy krok</pl>
 			</title>
 			<description>
 				<de>Eine enorme Verbesserung in Sachen Bildschärfe und Stromverbrauch bieten die endlich erhältlichen LCD-Fernseher und Computer-Monitore. Auch das Gewicht und der damit verbundene Materialverbrauch haben sich stark verbessert.</de>
 				<en>An enormous improvement in terms of image sharpness and power consumption is offered by the LCD televisions and computer monitors that are finally available. The weight and the corresponding material usage have also improved greatly.</en>
-				<pl></pl>
+				<pl>Telewizory LCD i monitory komputerowe, które są wreszcie dostępne, oferują ogromną poprawę pod względem ostrości obrazu i zużycia energii. Znacznej poprawie uległa również waga i związane z nią zużycie materiałów.</pl>
 			</description>
 			<data genre="3" price="0.4" quality="40" fictional="1" flags="2" />
 		</news>
@@ -2019,12 +2019,12 @@
 			<title>
 				<de>Makrohart stellt „Proof 1.01“ vor</de>
 				<en>Macrohard introduces "Proof 1.01"</en>
-				<pl></pl>
+				<pl>Macrohard wprowadza "Proof 1.01"</pl>
 			</title>
 			<description>
 				<de>Die von Makrohart endgültig freigegebene Version Proof 1.01 wurde auf einer Pressekonferenz im südschwedischen Helsingborg vorgestellt. Das Betriebssystem benötigt einen Arbeitsspeicher von 256 KByte und ein 5.25"-Diskettenlaufwerk.</de>
 				<en>The version Proof 1.01 finally released by Macrohard was presented at a press conference in Helsingborg, southern Sweden. The operating system requires a memory of 256 KByte and a 5.25" floppy drive.</en>
-				<pl></pl>
+				<pl>Wersja Proof 1.01 ostatecznie wydana przez Macrohard została zaprezentowana na konferencji prasowej w Helsingborgu, w południowej Szwecji. System operacyjny wymaga pamięci 256 KByte i stacji dyskietek 5,25".</pl>
 			</description>
 			<data genre="3" price="0.4" quality="40" fictional="1" flags="2" />
 		</news>
@@ -2034,12 +2034,12 @@
 			<title>
 				<de>150 Jahre Eisenbahn in Deutschland</de>
 				<en>150 years of railroads in Germany</en>
-				<pl></pl>
+				<pl>150 lat kolei w Niemczech</pl>
 			</title>
 			<description>
 				<de>Die Deutsche Bundesbahn feiert 150 Jahre Eisenbahn. Zum Jubiläum gibt es das ganze Jahr über Veranstaltungen und Sonderfahrten mit historischen Lokomotiven zu Schleuderpreisen.</de>
 				<en>The Deutsche Bundesbahn celebrates 150 years of railroads. For the anniversary, there are events and special trips with historic locomotives at knockdown prices throughout the year.</en>
-				<pl></pl>
+				<pl>Deutsche Bundesbahn świętuje 150-lecie kolei. Z okazji rocznicy przez cały rok organizowane są wydarzenia i specjalne wycieczki z historycznymi lokomotywami po obniżonych cenach.</pl>
 			</description>
 			<data genre="3" price="0.3" quality="30" fictional="1" flags="2" />
 		</news>
@@ -2049,12 +2049,12 @@
 			<title>
 				<de>Supernova entdeckt</de>
 				<en>Supernova discovered</en>
-				<pl></pl>
+				<pl>Odkryto supernową</pl>
 			</title>
 			<description>
 				<de>Die Supernova 1987A wird entdeckt. Sie ist die erste Supernova seit 1604, die mit bloßem Auge beobachtet werden kann. Eine Supernova ist das kurze, helle Aufleuchten eines Sterns am Ende seiner Lebenszeit, durch eine Explosion, bei der er vernichtet wird.</de>
 				<en>The supernova 1987A has been discovered. It is the first supernova since 1604 that can be observed with the naked eye. A supernova is the brief, bright flashing of a star at the end of its lifetime, due to an explosion in which it is annihilated</en>
-				<pl></pl>
+				<pl>Odkryto supernową 1987A. Jest to pierwsza supernowa od 1604 roku, którą można zaobserwować gołym okiem. Supernowa to krótkotrwały, jasny rozbłysk gwiazdy pod koniec jej życia, spowodowany eksplozją, w której zostaje unicestwiona</pl>
 			</description>
 			<data genre="3" price="0.85" quality="85" fictional="1" flags="2" />
 		</news>
@@ -2064,12 +2064,12 @@
 			<title>
 				<de>326 Tage im All</de>
 				<en>326 days in space</en>
-				<pl></pl>
+				<pl>326 dni w kosmosie</pl>
 			</title>
 			<description>
 				<de>Der russische Kosmonaut Juri Victorvox kehrt nach 326 Tagen Aufenthalt an Bord der Raumstation Mir zur Erde zurück. Er war es leid, ständig nur auf die Erde hinabzuschauen und sich zu langweilen.</de>
 				<en>Russian cosmonaut Yuri Victorvox returns to Earth after 326 days aboard the Mir space station. He was tired of constantly just looking down at the Earth and feeling bored.</en>
-				<pl></pl>
+				<pl>Rosyjski kosmonauta Jurij Wiktorow wraca na Ziemię po 326 dniach spędzonych na stacji kosmicznej Mir. Był zmęczony ciągłym patrzeniem w dół na Ziemię i poczuciem nudy.</pl>
 			</description>
 			<data genre="3" price="0.85" quality="85" fictional="1" flags="2" />
 		</news>
@@ -2079,12 +2079,12 @@
 			<title>
 				<de>Schicker roter Flitzer</de>
 				<en>Fancy red speedster</en>
-				<pl></pl>
+				<pl>Fantazyjny czerwony speedster</pl>
 			</title>
 			<description>
 				<de>Die italienische Rennwagen-Schmiede Fellaini stellt zum 40. Firmenjubiläum den Fellaini F40 vor. Das Basismodell gibt es ab 444.000 DM und ist in den Farben hellrot, dunkelrot und neonrot erhältlich.</de>
 				<en>The Italian racing car foundry Fellaini presents the Fellaini F40 for its 40th anniversary. The base model is available starting at 444,000 DEM and is available in the colors light red, dark red and neon red.</en>
-				<pl></pl>
+				<pl>Włoska odlewnia samochodów wyścigowych Fellaini prezentuje model Fellaini F40 z okazji 40-lecia istnienia firmy. Podstawowy model jest dostępny od 444 000 DEM i jest dostępny w kolorach jasnoczerwonym, ciemnoczerwonym i neonowym czerwonym.</pl>
 			</description>
 			<data genre="3" price="0.85" quality="85" fictional="1" flags="2" />
 		</news>
@@ -2094,12 +2094,12 @@
 			<title>
 				<de>Bleihaltiges Benzin verboten</de>
 				<en>Lead-containing fuel prohibited</en>
-				<pl></pl>
+				<pl>Zakaz stosowania paliwa zawierającego ołów</pl>
 			</title>
 			<description>
 				<de>In der Bundesrepublik Deutschland wird verbleites Normalbenzin verboten. So sollen Luftverunreinigungen durch Bleiverbindungen in Ottokraftstoffen verringert werden.</de>
 				<en>In the Federal Republic of Germany, lead-containing regular gasoline is banned. This is to reduce air pollution from lead compounds in the gasoline.</en>
-				<pl></pl>
+				<pl>W Republice Federalnej Niemiec regularna benzyna zawierająca ołów jest zakazana. Ma to na celu zmniejszenie zanieczyszczenia powietrza związkami ołowiu zawartymi w benzynie.</pl>
 			</description>
 			<data genre="3" price="0.85" quality="85" fictional="1" flags="2" />
 			<effects>
@@ -2113,12 +2113,12 @@
 			<title>
 				<de>Bleifreier Ladenhüter</de>
 				<en>Unleaded no-seller</en>
-				<pl></pl>
+				<pl>Bezołowiowa nie sprzedaje się</pl>
 			</title>
 			<description>
 				<de>Die Einführung des bleifreien Benzin sorgt für Verunsicherung an den Zapfsäulen. Die Verbraucher befürchten, der neue Sprit könnte ihrem Auto schaden und tanken weiterhin bleihaltig.</de>
 				<en>The introduction of unleaded gasoline causes uncertainty at the filling stations. Consumers fear that the new fuel could harm their car and continue to fill up leaded.</en>
-				<pl></pl>
+				<pl>Wprowadzenie benzyny bezołowiowej powoduje niepewność na stacjach benzynowych. Konsumenci obawiają się, że nowe paliwo może zaszkodzić ich samochodom i nadal tankują benzynę ołowiową.</pl>
 			</description>
 			<data genre="3" price="0.85" quality="85" fictional="1" flags="2" />
 		</news>
@@ -2128,12 +2128,12 @@
 			<title>
 				<de>Weltrekord auf der Schiene</de>
 				<en>World record on rail</en>
-				<pl></pl>
+				<pl>Rekord świata na kolei</pl>
 			</title>
 			<description>
 				<de>Im Rahmen der ICE-Weltrekordfahrt stellt der ICE-Vorläuferzug InterCityExperimental mit 406,9 km/h einen neuen Geschwindigkeitsrekord für Schienenfahrzeuge auf.</de>
 				<en>As part of the IntercityExpress world record run, the ICE predecessor model InterCityExperimental sets a new speed record for rail vehicles at 406.9 km/h.</en>
-				<pl></pl>
+				<pl>W ramach światowego rekordu IntercityExpress, poprzednik ICE, model InterCityExperimental, ustanowił nowy rekord prędkości dla pojazdów szynowych, osiągając 406,9 km/h.</pl>
 			</description>
 			<data genre="3" price="0.85" quality="85" fictional="1" flags="2" />
 		</news>
@@ -2143,12 +2143,12 @@
 			<title>
 				<de>Wurm legt Internet lahm</de>
 				<en>Worm knocks out Internet</en>
-				<pl></pl>
+				<pl>Robak wyłącza Internet</pl>
 			</title>
 			<description>
 				<de>Der sogenannte Philipp-Wurm verbreitet sich unter Ausnutzung von Unix-Diensten. Zwar hat der Wurm keine direkte Schadensroutine, trotzdem legt er wegen seiner aggressiven Weiterverbreitung ca. 6000 Rechner lahm.</de>
 				<en>The so-called Philipp worm spreads by exploiting Unix services. Although the worm has no specific code to create damage, it still knocked out about 6000 computers due to its aggressive propagation.</en>
-				<pl></pl>
+				<pl>Tak zwany robak Philipp rozprzestrzenia się poprzez wykorzystywanie usług systemu Unix. Chociaż robak ten nie ma specyficznego kodu do tworzenia szkód, to i tak znokautował około 6000 komputerów z powodu agresywnego rozprzestrzeniania się.</pl>
 			</description>
 			<data genre="3" price="0.85" quality="85" fictional="1" flags="2" />
 		</news>
@@ -2161,12 +2161,12 @@
 			<title>
 				<de>Hyperraum-Umgehungsstraße geplant</de>
 				<en>Hyperspace bypass planned</en>
-				<pl></pl>
+				<pl>Planowana obwodnica nadprzestrzenna</pl>
 			</title>
 			<description>
 				<de>Das Zentralkomitee der Volonen plant den Neubau einer Hyperraum-Umgehungsstraße in Erdnähe. Gefahr für die Erde?</de>
 				<en>The Central Committee of the Volons is planning to build a new hyperspace bypass near Earth. Is the Earth in danger?</en>
-				<pl></pl>
+				<pl>Komitet Centralny Volonów planuje budowę nowej obwodnicy nadprzestrzennej w pobliżu Ziemi. Czy Ziemia jest w niebezpieczeństwie?</pl>
 			</description>
 			<data genre="4" price="1" quality="75" fictional="1" />
 			<effects>
@@ -2179,12 +2179,12 @@
 			<title>
 				<de>Wird die Menschheit umgesiedelt?</de>
 				<en>Will humanity be relocated?</en>
-				<pl></pl>
+				<pl>Czy ludzkość zostanie przeniesiona?</pl>
 			</title>
 			<description>
 				<de>Die Erde steht dem Neubau einer Hyperraum-Umgehungsstraße im Weg. Ein Ersatzplanet für die Menschheit wird fieberhaft gesucht.</de>
 				<en>The Earth is in the way of a hyperspace bypass reconstruction. A replacement planet for mankind is feverishly sought.</en>
-				<pl></pl>
+				<pl>Ziemia jest na drodze rekonstrukcji obwodnicy nadprzestrzennej. Planeta zastępcza dla ludzkości jest gorączkowo poszukiwana.</pl>
 			</description>
 			<data genre="4" price="1.1" quality="85" />
 			<effects>
@@ -2197,12 +2197,12 @@
 			<title>
 				<de>Suche nach Ersatzplaneten gescheitert</de>
 				<en>Search for replacement planet failed</en>
-				<pl></pl>
+				<pl>Poszukiwanie planety zastępczej nie powiodło się</pl>
 			</title>
 			<description>
 				<de>Kein geeigneter Planet wurde gefunden! Der Bau der Hyperraum-Umgehungsstraße soll trotzdem wie geplant durchgeführt werden. Wird die Erde jetzt zerstört?</de>
 				<en>No suitable planet was found! The construction of the hyperspace bypass shall nevertheless be carried out as planned. Is the Earth now going to be destroyed?</en>
-				<pl></pl>
+				<pl>Nie znaleziono odpowiedniej planety! Budowa obwodnicy nadprzestrzennej zostanie jednak przeprowadzona zgodnie z planem. Czy Ziemia zostanie teraz zniszczona?</pl>
 			</description>
 			<data genre="4" price="1.2" quality="100" />
 		</news>
@@ -2211,12 +2211,12 @@
 			<title>
 				<de>Bau der Umgehungsstraße auf Eis gelegt</de>
 				<en>Construction of bypass put on hold</en>
-				<pl></pl>
+				<pl>Budowa obwodnicy wstrzymana</pl>
 			</title>
 			<description>
 				<de>Aufgrund unüberschaubarer Kosten wird der Bau der Hyperraum-Umgehungsstraße für unbestimmte Zeit auf Eis gelegt. Die Erde atmet auf!</de>
 				<en>Due to incalculable costs, the construction of the hyperspace bypass is put on hold indefinitely. Gasp of relief on Earth!</en>
-				<pl></pl>
+				<pl>Ze względu na nieobliczalne koszty, budowa obwodnicy nadprzestrzennej zostaje wstrzymana na czas nieokreślony. Ziemia odetchnęła z ulgą!</pl>
 			</description>
 			<data genre="4" price="1.3" quality="100" />
 		</news>
@@ -2225,12 +2225,12 @@
 			<title>
 				<de>Manfred Mustermann verklagt VISUM</de>
 				<en>John Doe sues VISUM</en>
-				<pl></pl>
+				<pl>John Doe pozywa VISUM</pl>
 			</title>
 			<description>
 				<de>Manfred Mustermann hat Klage gegen VISUM eingereicht. Der Kreditkarten-Anbieter hatte wiederholt Werbung mit dem Namen Mustermanns betrieben ohne um Erlaubnis zu fragen.</de>
 				<en>John Doe has filed a lawsuit against VISUM. The credit card provider had repeatedly advertised with the name of Doe without asking permission.</en>
-				<pl></pl>
+				<pl>John Doe złożył pozew przeciwko VISUM. Dostawca kart kredytowych wielokrotnie reklamował się nazwiskiem Doe bez pytania o zgodę.</pl>
 			</description>
 			<data genre="4" price="0.3" quality="30" />
 		</news>
@@ -2239,12 +2239,12 @@
 			<title>
 				<de>Singender Fisch vertreibt Einbrecher</de>
 				<en>Singing fish scares away burglars</en>
-				<pl></pl>
+				<pl>Śpiewająca ryba odstrasza włamywaczy</pl>
 			</title>
 			<description>
 				<de>Von einem an der Wand hängenden singenden Fisch mit Bewegungsmelder wurde ein Einbrecher im TV-Tower vertrieben. Der Dieb hatte es wohl auf Betty Butterblooms Geschenke-Sammlung abgesehen.</de>
 				<en>A burglar in the TV Tower was scared away by a singing fish with motion detector hanging on the wall. The thief was probably after Betty Butterbloom's gift collection.</en>
-				<pl></pl>
+				<pl>Włamywacza w wieży telewizyjnej TVTower odstraszyła śpiewająca ryba z czujnikiem ruchu wisząca na ścianie. Złodziejowi prawdopodobnie chodziło o kolekcję prezentów Betty Butterbloom.</pl>
 			</description>
 			<data genre="4" price="0.1" quality="20" fictional="1" />
 		</news>
@@ -2253,12 +2253,12 @@
 			<title>
 				<de>Oma fährt im Hühnerstall Motorrad</de>
 				<en>Grandma Drives Motorcycle In Chicken Coop</en>
-				<pl></pl>
+				<pl>Babcia jeździ motocyklem w kurniku</pl>
 			</title>
 			<description>
 				<de>Da staunten die Polizisten nicht schlecht als sie eine alte Frau auf einem Motorrad sitzend durch einen Hühnerstall fahren sahen. Die betagte Seniorin hatte sich wohl verfahren.</de>
 				<en>The policemen were quite amazed when they saw an old woman sitting on a motorcycle driving through a chicken coop. The aged senior citizen had probably lost her way.</en>
-				<pl></pl>
+				<pl>Policjanci byli dość zdumieni, gdy zobaczyli starszą kobietę siedzącą na motocyklu i przejeżdżającą przez kurnik. Seniorka prawdopodobnie zgubiła drogę.</pl>
 			</description>
 			<data genre="4" price="0.3" quality="30" fictional="1" />
 		</news>
@@ -2267,12 +2267,12 @@
 			<title>
 				<de>Junge sorgt für Polizeieinsatz</de>
 				<en>Boy causes police operation</en>
-				<pl></pl>
+				<pl>Chłopiec wywołuje operację policyjną</pl>
 			</title>
 			<description>
 				<de>Weil ihm der Musikgeschmack seiner Eltern missfiel, hielt ein 12-jähriger Junge während einer Autofahrt einen Zettel mit der Aufschrift „Hilfe“ an die Fensterscheibe. Besorgte Autofahrer alarmierten die Polizei.</de>
 				<en>Because he disliked his parents' taste in music, a 12-year-old boy held a note saying "Help" to the window pane during a car ride. Concerned motorists alerted the police.</en>
-				<pl></pl>
+				<pl>Ponieważ nie podobał mu się gust muzyczny rodziców, 12-letni chłopiec podczas jazdy samochodem przyłożył do szyby kartkę z napisem "Pomocy". Zaniepokojeni kierowcy zaalarmowali policję.</pl>
 			</description>
 			<data genre="4" price="0.15" quality="25" fictional="1" />
 		</news>
@@ -2281,12 +2281,12 @@
 			<title>
 				<de>Kinder graben Fluchttunnel</de>
 				<en>Children dig escape tunnel</en>
-				<pl></pl>
+				<pl>Dzieci kopią tunel ewakuacyjny</pl>
 			</title>
 			<description>
 				<de>Zwei Fünfjährige haben mehrere Tage lang mit ihren Sandschaufeln einen Fluchttunnel aus ihrem Kindergarten gegraben und sind geflohen. Die Polizei konnte die beiden finden und wohlbehalten ihren Eltern übergeben.</de>
 				<en>Two five-year-olds have dug an escape tunnel from their kindergarten for several days with their sand shovels and escaped. The police were able to find the two and hand them, safe and sound, over to their parents.</en>
-				<pl></pl>
+				<pl>Dwóch pięciolatków przez kilka dni kopało łopatami do piasku tunel ucieczkowy ze swojego przedszkola i uciekło. Policji udało się odnaleźć dwójkę dzieci i przekazać je całe i zdrowe rodzicom.</pl>
 			</description>
 			<data genre="4" price="0.25" quality="35" fictional="1" />
 		</news>
@@ -2295,12 +2295,12 @@
 			<title>
 				<de>Newsschreiber streiken</de>
 				<en>News writers on strike</en>
-				<pl></pl>
+				<pl>Dziennikarze strajkują</pl>
 			</title>
 			<description>
 				<de>Zahlreiche Newsschreiber sind dem Aufruf ihrer Gewerkschaft gefolgt und streiken. Sie erhoffen sich bessere Arbeitsbedingungen sowie kostenloses Wasser und Brot während der Arbeitszeit.</de>
 				<en>Numerous newswriters have followed the call of their union and are on strike. They hope for better working conditions and free water and bread during working hours.</en>
-				<pl></pl>
+				<pl>Wielu dziennikarzy podążyło za wezwaniem swojego związku zawodowego i rozpoczęło strajk. Mają nadzieję na lepsze warunki pracy oraz darmową wodę i chleb w godzinach pracy.</pl>
 			</description>
 			<data genre="4" price="0.3" quality="25" fictional="1" />
 			<!-- "Effekt: es stehen weniger Nachrichten zur Verfügung" -->
@@ -2312,12 +2312,12 @@
 			<title>
 				<de>Gewinnzahlen vom Mittwochs-Lotto</de>
 				<en>Winning numbers from Wednesday Lottery</en>
-				<pl></pl>
+				<pl>Zwycięskie liczby ze środowej loterii</pl>
 			</title>
 			<description>
 				<de>Hier die aktuellen Lottozahlen vom Mittwochs-Lotto präsentiert von Lotto-Fee Gudrun Heinemann. Wurde der Jackpot diesmal geknackt?</de>
 				<en>Here are the current lottery numbers from the Wednesday Lottery presented by Lottery Fairy Gudrun Heinemann. Has the jackpot been cracked this time?</en>
-				<pl></pl>
+				<pl>Oto aktualne numery lotto ze środowej loterii prezentowanej przez Wróżkę Loterii Gudrun Heinemann. Czy tym razem jackpot został rozbity?</pl>
 			</description>
 			<data genre="4" price="0.4" quality="40" fictional="1" />
 		</news>
@@ -2328,12 +2328,12 @@
 			<title>
 				<de>Gewinnzahlen vom Samstags-Lotto</de>
 				<en>Winning numbers from Saturday Lottery</en>
-				<pl></pl>
+				<pl>Zwycięskie liczby z sobotniej loterii</pl>
 			</title>
 			<description>
 				<de>Hier die aktuellen Lottozahlen vom Samstags-Lotto präsentiert von Lotto-Fee Else Polsbäck. Wurde der Jackpot diesmal geknackt?</de>
 				<en>Here are the current lottery numbers from the Saturday Lottery presented by Lottery Fairy Else Polsbäck. Has the jackpot been cracked this time?</en>
-				<pl></pl>
+				<pl>Oto aktualne numery lotto z sobotniej loterii prezentowanej przez Wróżkę Loterii Else Polsbäck. Czy tym razem jackpot został rozbity?</pl>
 			</description>
 			<data genre="4" price="0.6" quality="60" fictional="1" />
 		</news>
@@ -2344,12 +2344,12 @@
 			<title>
 				<de>Das Wort zum Sonntag</de>
 				<en>Sunday's Words of Wisdom</en>
-				<pl></pl>
+				<pl>Niedzielne słowa mądrości</pl>
 			</title>
 			<description>
 				<de>Fernseh-Pfarrer Benno Breitkopf wendet sich in seiner allwöchentlichen Kolumne an das deutsche Volk und prangert den zunehmenden Sittenverfall an. Wen's interessiert...</de>
 				<en>Television pastor Benno Breitkopf addresses the German people in his weekly column and denounces the increasing moral decay. If anyone cares...</en>
-				<pl></pl>
+				<pl>Telewizyjny pastor Benno Breitkopf zwraca się do narodu niemieckiego w swoim cotygodniowym felietonie i potępia postępujący upadek moralny. Jeśli kogoś to obchodzi...</pl>
 			</description>
 			<data genre="4" price="0.20" quality="20" fictional="1" />
 		</news>
@@ -2359,12 +2359,12 @@
 			<title>
 				<de>Neuntöter ist Vogel des Jahres</de>
 				<en>Red-backed Shrike is bird of the Year</en>
-				<pl></pl>
+				<pl>Gąsiorek został ptakiem roku</pl>
 			</title>
 			<description>
 				<de>Der Neuntöter ist eine Vogelart aus der Familie der Würger und in Mitteleuropa die häufigste Würgerart. Er ist vor allem durch sein Verhalten bekannt, Beutetiere auf Dornen aufzuspießen.</de>
 				<en>The red-backed shrike is a bird species of the shrike family and the most common shrike species in Central Europe. It is best known for its behavior of impaling prey on thorns.</en>
-				<pl></pl>
+				<pl>Gąsiorek to gatunek ptaka z rodziny dzierzbowatych i najpospolitszy gatunek dzierzby w Europie Środkowej. Jest najbardziej znany ze swojego zachowania polegającego na nadziewaniu zdobyczy na ciernie.</pl>
 			</description>
 			<data genre="4" price="0.1" quality="10" fictional="1" flags="2" />
 		</news>
@@ -2374,12 +2374,12 @@
 			<title>
 				<de>Saatkrähe ist Vogel des Jahres</de>
 				<en>Rook is bird of the year</en>
-				<pl></pl>
+				<pl>Gawron został ptakiem roku</pl>
 			</title>
 			<description>
 				<de>Die große Krähe mit markantem Schnabel und metallisch glänzendem schwarzem Gefieder ist in einem breiten Gürtel von Westeuropa bis in die Steppen des Altaigebietes verbreitet.</de>
 				<en>The large crow with distinctive beak and metallic shiny black plumage is widespread in a broad belt from Western Europe to the steppes of the Altai region.</en>
-				<pl></pl>
+				<pl>Duża wrona z charakterystycznym dziobem i metalicznie błyszczącym czarnym upierzeniem jest szeroko rozpowszechniona w szerokim pasie od Europy Zachodniej po stepy regionu Ałtaju.</pl>
 			</description>
 			<data genre="4" price="0.1" quality="10" fictional="1" flags="2" />
 		</news>
@@ -2389,12 +2389,12 @@
 			<title>
 				<de>Braunkehlchen ist Vogel des Jahres</de>
 				<en>Whinchat is bird of the year</en>
-				<pl></pl>
+				<pl>Pokląskwa została ptakiem roku</pl>
 			</title>
 			<description>
 				<de>Das Braunkehlchen ist ein Singvogel aus der Gattung der Wiesenschmätzer und der Familie der Fliegenschnäpper. In Deutschland zählt das Braunkehlchen zu den gefährdeten Arten.</de>
 				<en>The whinchat is a songbird of the genus stonechats and the family of flycatchers. In Germany, the whinchat is one of the endangered species.</en>
-				<pl></pl>
+				<pl>Pokląskwa to ptak śpiewający z rodzaju kląskawek i rodziny muchołówek. W Niemczech pokląskwa jest jednym z zagrożonych gatunków.</pl>
 			</description>
 			<data genre="4" price="0.1" quality="10" fictional="1" flags="2" />
 		</news>
@@ -2404,12 +2404,12 @@
 			<title>
 				<de>Wendehals ist Vogel des Jahres</de>
 				<en>Wryneck is bird of the year</en>
-				<pl></pl>
+				<pl>Krętogłów ptakiem roku</pl>
 			</title>
 			<description>
 				<de>Der Wendehals ist von Nordwestafrika ostwärts in einem breiten Gürtel bis an die asiatische Pazifikküste verbreitet; Europa ist fast flächendeckend besiedelt.</de>
 				<en>The wryneck is spread from Northwest Africa eastward to the Asian Pacific coast in a broad belt; Europe is populated almost entirely.</en>
-				<pl></pl>
+				<pl>Krętogłów rozprzestrzeniony jest od północno-zachodniej Afryki na wschód do azjatyckiego wybrzeża Pacyfiku w szerokim pasie; Europa jest zasiedlona prawie w całości.</pl>
 			</description>
 			<data genre="4" price="0.1" quality="10" fictional="1" flags="2" />
 		</news>
@@ -2419,12 +2419,12 @@
 			<title>
 				<de>Teichrohrsänger ist Vogel des Jahres</de>
 				<en>Reed warbler is bird of the year</en>
-				<pl></pl>
+				<pl>Trzcinniczek został ptakiem roku</pl>
 			</title>
 			<description>
 				<de>Der Teichrohrsänger, im Volksmund auch Rohrspatz genannt, ist eine Singvogelart aus der Gattung der Rohrsänger und der Familie der Rohrsängerartigen. Er ist ist etwa 13 cm lang und hat eine Flügelspannweite von 17 bis 21 cm.</de>
 				<en>The reed warbler, popularly known as the reed sparrow, is a species of songbird of the genus reed warblers and the family of the reed warbler-like. It is about 13 cm long and has a wingspan of 17 to 21 cm.</en>
-				<pl></pl>
+				<pl>Trzcinniczek, popularnie zwany wróblem trzcinowym, to gatunek ptaka śpiewającego z rodzaju trzcinniczków i rodziny trzcinniczkowatych. Ma około 13 cm długości i rozpiętość skrzydeł od 17 do 21 cm.</pl>
 			</description>
 			<data genre="4" price="0.1" quality="10" fictional="1" flags="2" />
 		</news>
@@ -2434,12 +2434,12 @@
 			<title>
 				<de>Pirol ist Vogel des Jahres</de>
 				<en>Oriole is bird of the year</en>
-				<pl></pl>
+				<pl>Wilga ptakiem roku</pl>
 			</title>
 			<description>
 				<de>Der Pirol ist ein Singvogel aus der Familie der Pirole. Er ist im Norden und Westen Eurasiens verbreitet; ebenso in Mitteleuropa, im südlichen Zentralasien und im Norden von Indien.</de>
 				<en>The oriole is a songbird of the oriole family. It is widespread in the north and west of Eurasia; also in Central Europe, southern Central Asia and northern India.</en>
-				<pl></pl>
+				<pl>Wilga to ptak śpiewający z rodziny wilg. Występuje powszechnie na północy i zachodzie Eurazji, a także w Europie Środkowej, południowej Azji Środkowej i północnych Indiach.</pl>
 			</description>
 			<data genre="4" price="0.1" quality="10" fictional="1" flags="2" />
 		</news>
@@ -2449,12 +2449,12 @@
 			<title>
 				<de>Rebhuhn ist Vogel des Jahres</de>
 				<en>Partridge is bird of the year</en>
-				<pl></pl>
+				<pl>Kuropatwa ptakiem roku</pl>
 			</title>
 			<description>
 				<de>Das Rebhuhn ist eine Vogelart aus der Ordnung der Hühnervögel. Rebhühner bewohnen Steppen- und Heidelandschaften in weiten Teilen Europas und Asiens. Sie ernähren sich überwiegend von Sämereien, Wildkräutern und Getreidekörnern.</de>
 				<en>The partridge is a bird species of the order chicken birds. Partridges inhabit steppe and heathland landscapes in large parts of Europe and Asia. They mainly feed on seeds, wild herbs and cereal grains.</en>
-				<pl></pl>
+				<pl>Kuropatwa to gatunek ptaka z rzędu kuraków. Kuropatwy zamieszkują stepy i wrzosowiska w dużej części Europy i Azji. Żywią się głównie nasionami, dzikimi ziołami i ziarnami zbóż.</pl>
 			</description>
 			<data genre="4" price="0.1" quality="10" fictional="1" flags="2" />
 		</news>
@@ -2464,12 +2464,12 @@
 			<title>
 				<de>Rotkehlchen ist Vogel des Jahres</de>
 				<en>Robin is bird of the year</en>
-				<pl></pl>
+				<pl>Rudzik ptakiem roku</pl>
 			</title>
 			<description>
 				<de>Das Rotkehlchen ist eine Vogelart aus der Familie der Fliegenschnäpper. Es besiedelt Nordafrika, Europa und Kleinasien sowie die Mittelmeerinseln. Seine Nahrung besteht vor allem aus Insekten, kleinen Spinnen, Würmern und Schnecken.</de>
 				<en>The robin is a bird species of the flycatcher family. It inhabits North Africa, Europe and Asia Minor and the Mediterranean islands. Its diet consists mainly of insects, small spiders, worms and snails.</en>
-				<pl></pl>
+				<pl>Rudzik to gatunek ptaka z rodziny muchołówkowatych. Zamieszkuje Afrykę Północną, Europę i Azję Mniejszą oraz wyspy Morza Śródziemnego. Jego dieta składa się głównie z owadów, małych pająków, robaków i ślimaków.</pl>
 			</description>
 			<data genre="4" price="0.1" quality="10" fictional="1" flags="2" />
 		</news>
