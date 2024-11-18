@@ -10,7 +10,7 @@
 			<title>
 				<de>Der Beschützer im Getreide</de>
 				<en>The Buckler in the Wheat</en>
-				<pl>Tarcza w pszenicy</pl>
+				<pl>Ochroniarz w pszenicy</pl>
 			</title>
 			<title_original>
 				<de>Der Fänger im Roggen</de>
@@ -27,7 +27,8 @@
 					<title>
 						<de>Samstag</de>
 						<en>Saturday</en>
-						<pl>Sobota</pl></title>
+						<pl>Sobota</pl>
+					</title>
 					<title_original>
 						<de>Samstag</de>
 						<en>Saturday</en>
@@ -110,7 +111,7 @@
 			<description>
 				<de>Nach Rückkehr aus dem 2. Weltkrieg und Entlassung aus einem Nervensanatorium verbringt ${.self:"role":1:"fullname"} mit Ehefrau ${.self:"role":2:"firstname"} einen Genesungsurlaub in Florida und sinniert beim Angeln mit der kleinen ${.self:"role":4:"firstname"} über die titelgebende Fischart.</de>
 				<en>After returning from World War II and being released from a sanatorium, ${.self:"role":1:"fullname"} spends a convalescent vacation in Florida with his wife ${.self:"role":2:"firstname"} and, while fishing, muses with little ${.self:"role":4:"firstname"} about the eponymous species.</en>
-				<pl>Po powrocie z II wojny światowej i wyjściu z sanatorium ${.self:"role":1:"fullname"} spędza urlop rekonwalescencyjny na Florydzie ze swoją żoną i podczas łowienia ryb rozmyśla trochę o gatunku, który go reprezentuje.</pl>
+				<pl>Po powrocie z II wojny światowej i wyjściu z sanatorium ${.self:"role":1:"fullname"} spędza urlop rekonwalescencyjny na Florydzie ze swoją żoną i podczas łowienia ryb rozmyśla trochę o gatunku, którego reprezentuje.</pl>
 			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
@@ -186,7 +187,8 @@
 			<title>
 				<de>Unten am Wasser</de>
 				<en>Down by the Boat</en>
-				<pl>W dół łodzią</pl></title>
+				<pl>W dół łodzią</pl>
+			</title>
 			<title_original>
 				<de>Unten beim Boot</de>
 				<en>Down at the Dinghy</en>
@@ -195,7 +197,7 @@
 			<description>
 				<de>Teil 3 über die New Yorker Kinder der Varieté-Eltern ${.self:"role":6:"firstname"} und ${.self:"role":7:"fullname"}, diesmal mit ${.self:"role":1:"firstname"} im Mittelpunkt, die das Vertrauen ihres vierjährigen Sohns ${.self:"role":2:"firstname"} zurückgewinnen will, der sich verstört auf das Dingi-Boot seines Vaters zurückgezogen hat.</de>
 				<en>Part 3 about the New York children of the vaudeville parents ${.self:"role":6:"firstname"} und ${.self:"role":7:"fullname"}, this time with ${.self:"role":1:"firstname"} at the center, who wants to win back the trust of her four-year-old son ${.self:"role":2:"firstname"}, who, upset, has withdrawn to his father's dinghy boat.</en>
-				<pl>Część 3 opowiada o nowojorskich dzieciach rodziców z wodewilu ${.self:"role":6:"firstname"}ie i ${.self:"role":7:"fullname"}, tym razem w centrum uwagi znajduje się ${.self:"role":1:"firstname"}, która pragnie odzyskać zaufanie swojego czteroletniego syna ${.self:"role":2:"firstname"}, który, zdenerwowany, wycofał się do łodzi ratunkowej ojca.</pl>
+				<pl>Część 3 opowiada o nowojorskich dzieciach rodziców z wodewilu ${.self:"role":6:"firstname"} i ${.self:"role":7:"fullname"}, tym razem w centrum uwagi znajduje się ${.self:"role":1:"firstname"}, która pragnie odzyskać zaufanie swojego czteroletniego syna ${.self:"role":2:"firstname"}a, który, zdenerwowany, wycofał się do łodzi ratunkowej ojca.</pl>
 			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
@@ -237,7 +239,7 @@
 			<description>
 				<de>Vierter Teil über die Kinder der Varieté-Eltern und Rückschau, bei der ${.self:"role":3:"fullname"} die Hochzeit seines Bruders ${.self:"role":1:"firstname"} mit ${.self:"role":2:"firstname"} besucht, welche von ihrem ersten Mann weglief. Doch ${.self:"role":1:"firstname"} taucht nicht auf.</de>
 				<en>Fourth part about the children of the vaudeville parents and retrospective, in which ${.self:"role":3:"fullname"} attends the wedding of his brother ${.self:"role":1:"firstname"} with ${.self:"role":2:"firstname"}, who ran away from her first husband. But ${.self:"role":1:"firstname"} does not appear.</en>
-				<pl>Czwarta część o dzieciach rodziców wodewilowych i retrospektywa, w której ${.self:"role":3:"fullname"} bierze udział w ślubie swojego brata ${.self:"role":1:"firstname"} z ${.self:"role":2:"firstname"}, która uciekła od swojego pierwszego męża. Ale ${.self:"role":1:"firstname"} się nie pojawia.</pl>
+				<pl>Czwarta część o dzieciach rodziców wodewilowych i retrospektywa, w której ${.self:"role":3:"fullname"} bierze udział w ślubie swojego brata ${.self:"role":1:"firstname"}a z ${.self:"role":2:"firstname"}, która uciekła od swojego pierwszego męża. Ale ${.self:"role":1:"firstname"} się nie pojawia.</pl>
 			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
@@ -282,7 +284,7 @@
 			<description>
 				<de>Teil 5 rollt nochmal die Lebensgeschichte von ${.self:"role":1:"fullname"} bis zu seinem Suizid auf, wieder aus der Sicht seines Bruders ${.self:"role":3:"firstname"}, und es werden Themen angeschnitten wie Zen-Buddhismus, Haiku und die hinduistische Philosophie des Vedanta.</de>
 				<en>Part 5 revisits the life story of ${.self:"role":1:"fullname"} up to his suicide, again from the perspective of his brother ${.self:"role":3:"firstname"}, and touches on topics such as Zen Buddhism, haiku and the Hindu philosophy of Vedanta.</en>
-				<pl>Część 5 przedstawia historię życia ${.self:"role":1:"fullname"} aż do jego samobójstwa, ponownie z perspektywy jego brata ${.self:"role":3:"firstname"}, i porusza takie tematy jak buddyzm zen, haiku i hinduistyczna filozofia Wedanty.</pl>
+				<pl>Część 5 przedstawia historię życia ${.self:"role":1:"firstname"}a ${.self:"role":1:"lastname"}a aż do jego samobójstwa, ponownie z perspektywy jego brata ${.self:"role":3:"firstname"}a, i porusza takie tematy jak buddyzm zen, haiku i hinduistyczna filozofia Wedanty.</pl>
 			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
@@ -314,7 +316,7 @@
 			<title>
 				<de>${.self:"role":1:"nickname"} und ${.self:"role":2:"nickname"}</de>
 				<en>${.self:"role":1:"nickname"} and ${.self:"role":2:"nickname"}</en>
-				<pl>${.self:"role":1:"pseudonim"} i ${.self:"role":2:"pseudonim"}</pl>
+				<pl>${.self:"role":1:"nickname"} i ${.self:"role":2:"nickname"}</pl>
 			</title>
 			<title_original>
 				<de>Franny und Zooey</de>
@@ -324,7 +326,7 @@
 			<description>
 				<de>Teil 6: Die Erlebnisse von ${.self:"role":6:"firstname"} und ${.self:"role":7:"fullname"}' jüngsten beiden Kindern, frühreif und hochintelligent wie die anderen. ${.self:"role":1:"firstname"} ist am College völlig desillusioniert. ${.self:"role":2:"firstname"} versucht, ihr brüderliche Liebe und Verständnis entgegenzubringen.</de>
 				<en>Part 6: The experiences of ${.self:"role":6:"firstname"} and ${.self:"role":7:"fullname"}' youngest two children, precocious and highly intelligent like the others. ${.self:"role":1:"firstname"} is completely disillusioned at college. ${.self:"role":2:"firstname"} tries to show her brotherly love and understanding.</en>
-				<pl>Część 6: Doświadczenia dwójki najmłodszych dzieci ${.self:"role":6:"firstname"} i ${.self:"role":7:"fullname"}, tak jak pozostali, bystrych i niezwykle inteligentnych. ${.self:"role":1:"firstname"} jest całkowicie rozczarowana studiami. ${.self:"role":2:"firstname"} próbuje okazać braterską miłość i zrozumienie.</pl>
+				<pl>Część 6: Doświadczenia dwójki najmłodszych dzieci ${.self:"role":6:"firstname"}a i ${.self:"role":7:"fullname"}, tak jak pozostali, bystrych i niezwykle inteligentnych. ${.self:"role":1:"firstname"} jest całkowicie rozczarowana studiami. ${.self:"role":2:"firstname"} próbuje okazać braterską miłość i zrozumienie.</pl>
 			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
@@ -408,12 +410,12 @@
 					<title>
 						<de>Hod</de>
 						<en>Hod</en>
-						<pl>Taczki</pl>
+						<pl>Hod</pl>
 					</title>
 					<title_original>
 						<de>Hod</de>
 						<en>Hod</en>
-						<pl>Taczki</pl>
+						<pl>Hod</pl>
 					</title_original>
 					<description>
 						<de>${.self:"role":5:"fullname"} präsentiert ein mysteriöses und potenziell gefährliches Templer-Manuskript, nur um dann spurlos zu verschwinden.</de>
@@ -493,12 +495,12 @@
 					<title>
 						<de>Binah</de>
 						<en>Binah</en>
-						<pl>Bina</pl>
+						<pl>Binah</pl>
 					</title>
 					<title_original>
 						<de>Binah</de>
 						<en>Binah</en>
-						<pl>Bina</pl>
+						<pl>Binah</pl>
 					</title_original>
 					<description>
 						<de>Begeistert von ihrer Schöpfung beginnen ${.self:"role":1:"fullname"} und seine Partner, ${.self:"role":7:"fullname"} gegenüber anzudeuten, dass sie im Besitz verborgenen Wissens sind.</de>
@@ -510,12 +512,12 @@
 					<title>
 						<de>Chochmah</de>
 						<en>Chochmah</en>
-						<pl>Chochma</pl>
+						<pl>Chochmah</pl>
 					</title>
 					<title_original>
 						<de>Chochmah</de>
 						<en>Chochmah</en>
-						<pl>Chochma</pl>
+						<pl>Chochmah</pl>
 					</title_original>
 					<description>
 						<de>${.self:"role":7:"fullname"} und europäische Okkultisten, die glauben, die Geschichte kontrollieren zu müssen, jagen das Trio unerbittlich wegen der angeblichen Geheimnisse des „Großen Plans“.</de>
@@ -527,12 +529,12 @@
 					<title>
 						<de>Kether</de>
 						<en>Kether</en>
-						<pl>Keter</pl>
+						<pl>Kether</pl>
 					</title>
 					<title_original>
 						<de>Kether</de>
 						<en>Kether</en>
-						<pl>Keter</pl>
+						<pl>Kether</pl>
 					</title_original>
 					<description>
 						<de>Als die Verfolgung immer intensiver wird, verzweifeln ${.self:"role":7:"fullname"} und die anderen, was in einem spannenden Höhepunkt gipfelt, an dem Wahrheit und Trug aufeinanderprallen.</de>
@@ -612,7 +614,7 @@
 			<title>
 				<de>${.self:"role":1:"firstname"}</de>
 				<en>${.self:"role":1:"firstname"}</en>
-				<pl>${.self:"role":1:"imię"}</pl>
+				<pl>${.self:"role":1:"firstname"}</pl>
 			</title>
 			<title_original>
 				<de>Baudolino</de>
@@ -623,7 +625,7 @@
 			<description>
 				<de>Die Lebensgeschichte eines schelmischen piemontesischen Bauernjungen, der anno 1154 als etwa Dreizehnjähriger von ${.self:"role":2:"fullname"} adoptiert wird, aufsteigt, Kreuzzüge mitmacht und zuletzt irgendwo im Orient verschollen geht.</de>
 				<en>The life story of a roguish Piedmontese peasant boy who, in 1154 when he is about thirteen years old, is adopted by ${.self:"role":2:"fullname"}, rises through the ranks, takes part in crusades and finally goes missing somewhere in the Orient.</en>
-				<pl>Historia życia łobuzerskiego chłopca, chłopa z Piemontu, który w 1154 roku, mając około trzynastu lat, zostaje adoptowany przez ${.self:"role":2:"fullname"}, wspina się po szczeblach kariery, bierze udział w krucjatach i w końcu znika gdzieś na Wschodzie.</pl>
+				<pl>Historia życia łobuzerskiego chłopca, chłopa z Piemontu, który w 1154 roku, mając około trzynastu lat, zostaje adoptowany przez ${.self:"role":2:"firstname"} Barbarossę, wspina się po szczeblach kariery, bierze udział w krucjatach i w końcu znika gdzieś na Wschodzie.</pl>
 			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
@@ -668,7 +670,7 @@
 			<description>
 				<de>Adaption des 1973er Romans von ${arthurclarke}. Im Jahre 2131 dringt ein massives, 50 Kilometer langes zylindrisches Objekt, zunächst für einen Asteroiden gehalten, in unser Sonnensystem ein. Es wird nach dem Hindu-Gott Rama benannt.</de>
 				<en>Adaptation of the 1973 novel by ${arthurclarke}. In 2131, a massive, 50-kilometer-long cylindrical object, initially mistaken for an asteroid, enters our solar system. It is named after the Hindu god Rama.</en>
-				<pl>Adaptacja powieści ${arthurclarke} z 1973 r. W 2131 r. do naszego układu słonecznego wkracza masywny, 50-kilometrowy cylindryczny obiekt, początkowo mylony z asteroidą. Został nazwany na cześć hinduskiego boga Ramy.</pl>
+				<pl>Adaptacja powieści Arthura Clarke'a z 1973 r. W 2131 r. do naszego układu słonecznego wkracza masywny, 50-kilometrowy cylindryczny obiekt, początkowo mylony z asteroidą. Został nazwany na cześć hinduskiego boga Ramy.</pl>
 			</description>
 			<variables>
 				<arthurclarke>${.person:"90e81255-6046-43fa-8c44-7929f5e15930":"fullname"}</arthurclarke>
@@ -761,7 +763,7 @@
 			<description>
 				<de>Die „Overlords“, eine wohlwollende außerirdische Rasse, übernehmen die Erde, beenden den Kalten Krieg, etablieren eine Weltregierung und dauerhaften Frieden, aber zeigen sich nie. Wird die Menschheit endlich erwachsen?</de>
 				<en>A benevolent alien race, the "Overlords", take over Earth, end the Cold War, establish a world government and lasting peace, but never show themselves. Will humanity finally come of age?</en>
-				<pl>Dobroczynna rasa obcych, „Overlords”, przejmuje Ziemię, kończy zimną wojnę, ustanawia światowy rząd i trwały pokój, ale nigdy się nie pokazuje. Czy ludzkość w końcu dojrzeje?</pl>
+				<pl>Dobroczynna rasa obcych, „Overlordowie”, przejmuje Ziemię, kończy zimną wojnę, ustanawia światowy rząd i trwały pokój, ale nigdy się nie pokazuje. Czy ludzkość w końcu dojrzeje?</pl>
 			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
@@ -1006,7 +1008,7 @@
 			<description>
 				<de>${.self:"role":2:"fullname"} ist quasi ein Meister im Prompt-Engineering. Er kennt sich aus mit ${.self:"role":1:"firstname"} und ist zudem ein begnadeter Witze-Erzähler. Das Nachforschen mit der AI, wo Humor eigentlich herkommt, enthüllt eine unheimliche Verschwörung.</de>
 				<en>${.self:"role":2:"fullname"} is, so-to-speak, a master of prompt engineering. He knows his way around ${.self:"role":1:"firstname"} and is also a gifted joke teller. Investigating with the AI where humor actually comes from reveals a bizarre conspiracy.</en>
-				<pl>${.self:"role":2:"fullname"} jest, że tak powiem, mistrzem inżynierii natychmiastowej. Zna się na ${.self:"role":1:"firstname"} i jest także utalentowanym opowiadaczem dowcipów. Badanie z AI, skąd tak naprawdę bierze się humor, ujawnia dziwaczny spisek.</pl>
+				<pl>${.self:"role":2:"fullname"} jest, że tak powiem, mistrzem inżynierii natychmiastowej. Zna się na ${.self:"role":1:"firstname"}u i jest także utalentowanym opowiadaczem dowcipów. Badanie z AI, skąd tak naprawdę bierze się humor, ujawnia dziwaczny spisek.</pl>
 			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
@@ -1048,7 +1050,7 @@
 			<description>
 				<de>Dank des ${.self:"role":1:"firstname"} gibt es ein staatlich kontrolliertes Chronoskop, das ${.self:"role":2:"fullname"} für seine Erforschung des antiken Karthago verwenden möchte, doch die Behörden stellen sich quer. Der Nachbau eines solchen Geräts bringt interessante Erkenntnisse...</de>
 				<en>Thanks to the ${.self:"role":1:"firstname"}, there is a state-controlled chronoscope that ${.self:"role":2:"fullname"} wants to use for his research into ancient Carthage, but the authorities are standing in the way. The reproduction of such a device yields interesting findings...</en>
-				<pl>Dzięki ${.self:"role":1:"firstname"} istnieje kontrolowany przez państwo chronoskop, którego ${.self:"role":2:"fullname"} chce użyć do swoich badań nad starożytną Kartaginą, ale władze stoją na przeszkodzie. Odtworzenie takiego urządzenia przynosi interesujące odkrycia...</pl>
+				<pl>Dzięki ${.self:"role":1:"firstname"}owi istnieje kontrolowany przez państwo chronoskop, którego ${.self:"role":2:"fullname"} chce użyć do swoich badań nad starożytną Kartaginą, ale władze stoją na przeszkodzie. Odtworzenie takiego urządzenia przynosi interesujące odkrycia...</pl>
 			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
@@ -1122,7 +1124,7 @@
 			<description>
 				<de>In einer kleinen abgelegenen Berggemeinde im Tennessee der Zwischenkriegszeit versucht Anhalter ${.self:"role":5:"firstname"} den ansässigen ${.self:"role":1:"firstname"} auszurauben, der ihn in Notwehr tötet und die Leiche in einer Kiesgrube versenkt. Ehefrau und Sohn schwören Rache.</de>
 				<en>In a small isolated mountain community in Tennessee during the inter-war period, hitchhiker ${.self:"role":5:"firstname"} tries to rob the local ${.self:"role":1:"firstname"}, who kills him in self-defence and dumps his body in a gravel pit. Wife and son swear revenge.</en>
-				<pl>W małej odizolowanej górskiej społeczności w Tennessee w okresie międzywojennym autostopowicz ${.self:"role":5:"firstname"} próbuje okraść miejscowego ${.self:"role":1:"firstname"}, który zabija go w obronie własnej i wrzuca ciało do żwirowni. Żona i syn przysięgają zemstę.</pl>
+				<pl>W małej odizolowanej górskiej społeczności w Tennessee w okresie międzywojennym autostopowicz ${.self:"role":5:"firstname"} próbuje okraść miejscowego ${.self:"role":1:"firstname"}a, który zabija go w obronie własnej i wrzuca ciało do żwirowni. Żona i syn przysięgają zemstę.</pl>
 			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
@@ -1349,7 +1351,7 @@
 			<description>
 				<de>Teil 1 der Trilogie über ${.self:"role":1:"firstname"} „${.self:"role":1:"nickname"}“ ${.self:"role":1:"lastname"}, ein gescheiterter Baseballspieler, der gern Bars aufsucht und trinkt. Plötzlich wird er ständig mit Schlägern konfrontiert und findet sich alsbald in einer Odyssee durch New York wieder.</de>
 				<en>Part 1 of the trilogy about ${.self:"role":1:"firstname"} "${.self:"role":1:"nickname"}" ${.self:"role":1:"lastname"}, a failed baseball player who likes to frequent bars and drink. Suddenly he is constantly confronted with thugs and soon finds himself in an odyssey through New York.</en>
-				<pl>Część 1 trylogii o ${.self:"role":1:"firstname"} "${.self:"role":1:"nickname"}" ${.self:"role":1:"lastname"}, nieudanym baseballiście, który lubi bywać w barach i pić. Nagle jest nieustannie konfrontowany z bandytami i wkrótce znajduje się w odysei przez Nowy Jork.</pl>
+				<pl>Część 1 trylogii o ${.self:"role":1:"firstname"}m "${.self:"role":1:"nickname"}u" ${.self:"role":1:"lastname"}ie, nieudanym baseballiście, który lubi bywać w barach i pić. Nagle jest nieustannie konfrontowany z bandytami i wkrótce znajduje się w odysei przez Nowy Jork.</pl>
 			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
@@ -1387,7 +1389,7 @@
 			<description>
 				<de>${.self:"role":1:"nickname"} ${.self:"role":1:"lastname"} ist untergetaucht in Mexiko, mit einer Tasche voller Bargeld, das die russische Mafia zurückhaben will, und mit vielen, vielen Geheimnissen. Er trifft auf einen Rucksacktouristen, der einige von ihnen kennt. Teil 2 der Trilogie.</de>
 				<en>${.self:"role":1:"nickname"} ${.self:"role":1:"lastname"} is in hiding in Mexico, with a bag full of cash that the Russian mafia wants back, and with many, many secrets. He meets a backpacker who knows some of them. Part 2 of the trilogy.</en>
-				<pl>${.self:"role":1:"nickname"} ${.self:"role":1:"lastname"} ukrywa się w Meksyku, z torbą pełną gotówki, którą rosyjska mafia chce odzyskać, i z wieloma, wieloma sekretami. Spotyka backpackera, który zna niektóre z nich. Część 2 trylogii.</pl>
+				<pl>${.self:"role":1:"nickname"} ${.self:"role":1:"lastname"} ukrywa się w Meksyku, z torbą pełną gotówki, którą rosyjska mafia chce odzyskać, i z wieloma, wieloma sekretami. Spotyka podróżnika, który zna niektóre z nich. Część 2 trylogii.</pl>
 			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
@@ -1626,7 +1628,7 @@
 			<description>
 				<de>${.self:"role":1:"firstname"} ist trotz familiärer Schwierigkeiten ein attraktives, erfolgreiches Fotomodell - bis ihr der gesamte Unterkiefer weggeschossen wird. Bei der Sprechtherapie lernt sie Dragqueen ${.self:"role":2:"firstname"} kennen, die ihr hilft, ein neues Leben zu beginnen.</de>
 				<en>Despite family difficulties, ${.self:"role":1:"firstname"} is an attractive, successful fashion model - until her entire lower jaw is shot off. During speech therapy, she meets drag queen ${.self:"role":2:"firstname"}, who helps her start a new life.</en>
-				<pl>Pomimo problemów rodzinnych ${.self:"role":1:"firstname"} jest atrakcyjną, odnoszącą sukcesy modelką - dopóki nie zostaje jej odstrzelona cała dolna szczęka. Podczas terapii logopedycznej poznaje drag queen ${.self:"role":2:"firstname"}, która pomaga jej rozpocząć nowe życie.</pl>
+				<pl>Pomimo problemów rodzinnych ${.self:"role":1:"firstname"} jest atrakcyjną, odnoszącą sukcesy modelką - dopóki nie zostaje jej odstrzelona cała dolna szczęka. Podczas terapii logopedycznej poznaje damulkę ${.self:"role":2:"firstname"}, która pomaga jej rozpocząć nowe życie.</pl>
 			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
@@ -1666,7 +1668,7 @@
 			<description>
 				<de>Car-Crash-Party-Enthusiast ${.self:"role":1:"firstname"} ist tot. Mehrere Charaktere zeichnen in Rückblenden eine widersprüchliche Biografie über „Rant“, dessen Spitzname vom Geräusch des Erbrechens stammt und der von Bissen der schwarzen Witwe Erektionen bekam.</de>
 				<en>Car Crash Party enthusiast ${.self:"role":1:"firstname"} is dead. In flashbacks, several characters paint a contradictory biography of "Rant", whose nickname comes from the sound of vomiting and who got erections from bites of the black widow.</en>
-				<pl>Miłośnik Car Crash Party ${.self:"role":1:"firstname"} nie żyje. W retrospekcjach kilka postaci maluje sprzeczną biografię „Rant”, którego pseudonim pochodzi od dźwięku wymiotów i który dostał erekcji od ugryzień czarnej wdowy.</pl>
+				<pl>Miłośnik Imprez z wypadkami samochodowymi ${.self:"role":1:"firstname"} nie żyje. W retrospekcjach kilka postaci maluje sprzeczną biografię „Rant”, którego pseudonim pochodzi od dźwięku wymiotów i który dostał erekcji od ugryzień czarnej wdowy.</pl>
 			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
@@ -1744,7 +1746,7 @@
 			<description>
 				<de>Ein Ex-Enthüllungsjournalist, nun in der Öffentlichkeitsarbeit für einen Themenpark, möchte den Diebstahl zweier seltener Tiere untersuchen, doch sein Chef rät ihm davon ab. Der Gründer des Parks ist ein verurteilter Gangster im Zeugenschutzprogramm.</de>
 				<en>A former investigative reporter, now in public relations for a theme park, wants to look into the theft of two rare animals, but his boss advises him against it. The park's founder is a convicted gangster in the Witness Protection Program.</en>
-				<pl>Były reporter śledczy, obecnie public relations w parku rozrywki, chce zbadać kradzież dwóch rzadkich zwierząt, ale jego szef mu to odradza. Założyciel parku jest skazanym gangsterem w ramach Programu Ochrony Świadków.</pl>
+				<pl>Były reporter śledczy, obecnie spec od relacji publicznych w parku rozrywki, chce zbadać kradzież dwóch rzadkich zwierząt, ale jego szef mu to odradza. Założyciel parku jest skazanym gangsterem w ramach Programu Ochrony Świadków.</pl>
 			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
@@ -1829,7 +1831,7 @@
 			<description>
 				<de>${.self:"role":1:"fullname"} wird angeheuert, um einen prominenten Barschfischer als Betrüger zu entlarven, und wird in ein Mordkomplott hineingezogen. Teil 2 der satirischen Krimi-Reihe um ${.self:"role":5:"fullname"}.</de>
 				<en>${.self:"role":1:"fullname"} is hired to expose a celebrity bass fisherman as a cheat and is drawn into a frame-up for murder. Part 2 of the satirical crime thriller series around ${.self:"role":5:"fullname"}.</en>
-				<pl>${.self:"role":1:"fullname"} zostaje wynajęty, aby ujawnić oszustwo znanego wędkarza basowego i zostaje wciągnięty w wrobienie w morderstwo. Część 2 satyrycznego kryminału o ${.self:"role":5:"fullname"}.</pl>
+				<pl>${.self:"role":1:"fullname"} zostaje wynajęty, aby ujawnić oszustwo znanego wędkarza i zostaje wciągnięty w wrobienie w morderstwo. Część 2 satyrycznego kryminału o ${.self:"role":5:"firstname"}ie ${.self:"role":5:"lastname"}.</pl>
 			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
@@ -1915,7 +1917,7 @@
 			<description>
 				<de>Der Literat ${.self:"role":1:"fullname"} wird von Millionär ${.self:"role":2:"fullname"} für eine Zeitreise nach 1810 angeheuert, doch er erregt die Aufmerksamkeit alter ägyptischer Zauberer, bleibt stecken und muss sich mit noch vielen weiteren bizarren Gestalten herumschlagen.</de>
 				<en>Literary scholar ${.self:"role":1:"fullname"} is hired by millionaire ${.self:"role":2:"fullname"} to travel back in time to 1810, but he attracts the attention of ancient Egyptian sorcerers, gets stuck and has to deal with many more bizarre characters.</en>
-				<pl>Znawca literatury ${.self:"role":1:"fullname"} zostaje zatrudniony przez milionera ${.self:"role":2:"fullname"}, aby cofnąć się w czasie do roku 1810, ale zwraca na siebie uwagę starożytnych egipskich czarowników, zostaje uwięziony i musi stawić czoła wielu innym dziwacznym postaciom.</pl>
+				<pl>Znawca literatury ${.self:"role":1:"fullname"} zostaje zatrudniony przez milionera ${.self:"role":2:"firstname"}a ${.self:"role":2:"lastname"}a, aby cofnąć się w czasie do roku 1810, ale zwraca na siebie uwagę starożytnych egipskich czarowników, zostaje uwięziony i musi stawić czoła wielu innym dziwacznym postaciom.</pl>
 			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
@@ -2122,7 +2124,7 @@
 			<description>
 				<de>Teil 4 der Ruhrgebietsreihe. Das Schuljahr endet für ${.self:"role":1:"fullname"} mit Schlägen des Lehrers und der Mutter. Die Ferien zuhause sind demütigend, aber er findet Zufluchtsorte in einem alten Bauwagen und der Baumhütte einer Jugendbande.</de>
 				<en>Part 4 of the Ruhr series. The school year ends for ${.self:"role":1:"fullname"} with beatings from the teacher and the mother. The vacations at home are humiliating, but he finds refuge in an old construction trailer and the tree hut of a youth gang.</en>
-				<pl>Część 4 serii Ruhr. Rok szkolny kończy się dla ${.self:"role":1:"fullname"} biciem przez nauczycielkę i matkę. Wakacje w domu są upokarzające, ale znajduje schronienie w starej przyczepie budowlanej i chacie na drzewie gangu młodzieżowego.</pl>
+				<pl>Część 4 serii Ruhr. Rok szkolny kończy się dla ${.self:"role":1:"fullname"}a biciem przez nauczycielkę i matkę. Wakacje w domu są upokarzające, ale znajduje schronienie w starej przyczepie budowlanej i chacie na drzewie gangu młodzieżowego.</pl>
 			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
@@ -2160,7 +2162,7 @@
 			<description>
 				<de>${.self:"role":1:"firstname"} lebt in Berlin, ist Sohn von ${.self:"role":2:"firstname"} und ${.self:"role":3:"firstname"}, die sich auf einer Anti-Atomkraft-Demonstration kennengelernt haben, und liebt die pummelige ${.self:"role":4:"firstname"}, kann aber nicht ganz dazu stehen. Ihre Mitbewohnerin ${.self:"role":5:"firstname"} verführt ihn.</de>
 				<en>${.self:"role":1:"firstname"} lives in Berlin, is the son of ${.self:"role":2:"firstname"} and ${.self:"role":3:"firstname"}, who met at an anti-nuclear protest, and loves the chubby ${.self:"role":4:"firstname"}, but can't quite stand up for it. Her roommate ${.self:"role":5:"firstname"} seduces him.</en>
-				<pl>${.self:"role":1:"firstname"} mieszka w Berlinie, jest synem ${.self:"role":2:"firstname"} i ${.self:"role":3:"firstname"}, którzy poznali się na antyatomowym proteście, i kocha pulchnego ${.self:"role":4:"firstname"}, ale nie potrafi się z nim pogodzić. Jej współlokatorka ${.self:"role":5:"firstname"} go uwodzi.</pl>
+				<pl>${.self:"role":1:"firstname"} mieszka w Berlinie, jest synem ${.self:"role":2:"firstname"} i ${.self:"role":3:"firstname"}a, którzy poznali się na antyatomowym proteście, i kocha pulchną ${.self:"role":4:"firstname"}, ale nie potrafi się z nią pogodzić. Jej współlokatorka ${.self:"role":5:"firstname"} go uwodzi.</pl>
 			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
@@ -2198,7 +2200,7 @@
 			<description>
 				<de>Der Tod seiner Lebensgefährtin hat ${.self:"role":1:"firstname"} aus der Bahn geworfen. Statt als Kameramann arbeitet er inzwischen in einer Großküche in Berlin-Kreuzberg. Er begegnet einer polnischen Stadtstreicherin, in der er seine tote Frau wiederzuerkennen glaubt.</de>
 				<en>The death of his significant other has thrown ${.self:"role":1:"firstname"} off course. Instead of working as a cameraman, he now works in a canteen kitchen in Berlin-Kreuzberg. He meets a Polish vagrant in whom he believes he recognizes his dead wife.</en>
-				<pl>Śmierć jego drugiej połówki wytrąciła ${.self:"role":1:"firstname"} z kursu. Zamiast pracować jako operator kamery, teraz pracuje w kuchni stołówki w Berlin-Kreuzberg. Spotyka polskiego włóczęgę, w którym, jak sądzi, rozpoznaje swoją zmarłą żonę.</pl>
+				<pl>Śmierć jego drugiej połówki wytrąciła ${.self:"role":1:"firstname"}a z kursu. Zamiast pracować jako operator kamery, teraz pracuje w kuchni stołówki w Berlin-Kreuzberg. Spotyka polskiego włóczęgę, w którym, jak sądzi, rozpoznaje swoją zmarłą żonę.</pl>
 			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
@@ -2346,7 +2348,7 @@
 					<description>
 						<de>Ein geplanter Zusamenschluss der Stadt mit dem Bezirk, Teil eines umfassenden Immobilienspekulationsplans ausgeheckt von ${.self:"role":1:"firstname"} und ihren Kohorten, führt zu einer Auseinandersetzung zwischen ihr und ${.self:"role":3:"fullname"}.</de>
 						<en>A proposed merger between the city and county, part of a larger property speculation scheme hatched by ${.self:"role":1:"firstname"} and her cohorts, leads to a clash between her and ${.self:"role":3:"fullname"}.</en>
-						<pl>Proponowane połączenie miasta i hrabstwa, będące częścią większego planu spekulacji nieruchomościami, którego pomysłodawcami są ${.self:"role":1:"firstname"} i jej współpracownicy, prowadzi do konfliktu między nią a ${.self:"role":3:"fullname"}.</pl>
+						<pl>Proponowane połączenie miasta i hrabstwa, będące częścią większego planu spekulacji nieruchomościami, którego pomysłodawcami są ${.self:"role":1:"firstname"} i jej współpracownicy, prowadzi do konfliktu między nią a ${.self:"role":3:"firstname"}em ${.self:"role":3:"lastname"}em.</pl>
 					</description>
 				</scripttemplate>
 			</children>
@@ -2423,7 +2425,8 @@
 					<description>
 						<de>${.self:"role":5:"firstname"} hat ein langes Gespräch mit ${.self:"role":7:"fullname"} nach einem Fernsehinterview, in dem sie dessen irrationale Deutungen einer Strafe Gottes kritisierte. Sie will ihr Baby nach der Trennung vom untreuen ${.self:"role":1:"firstname"} abtreiben.</de>
 						<en>${.self:"role":5:"firstname"} has a long conversation with ${.self:"role":7:"fullname"} after a television interview in which she criticizes his irrational interpretations of a God's Punishment. She wants to abort her baby after separating from the unfaithful ${.self:"role":1:"firstname"}.</en>
-						<pl>${.self:"role":5:"firstname"} prowadzi długą rozmowę z ${.self:"role":7:"fullname"} po wywiadzie telewizyjnym, w którym krytykuje jego irracjonalne interpretacje kary Bożej. Chce dokonać aborcji po rozstaniu z niewiernym ${.self:"role":1:"firstname"}.</pl></description>
+						<pl>${.self:"role":5:"firstname"} prowadzi długą rozmowę z ${.self:"role":7:"firstname"}em ${.self:"role":7:"lastname"} po wywiadzie telewizyjnym, w którym krytykuje jego irracjonalne interpretacje kary Bożej. Chce dokonać aborcji po rozstaniu z niewiernym ${.self:"role":1:"firstname"}em.</pl>
+					</description>
 				</scripttemplate>
 				<scripttemplate index="2" product="2" licence_type="2" guid="236a2504-d54c-4a10-9dd8-9dd7573e8c13">
 					<title>
@@ -2489,7 +2492,7 @@
 			<title>
 				<de>Reinheit</de>
 				<en>${.self:"role":1:"firstname"}</en>
-				<pl>${.self:"role":1:"imię"}</pl>
+				<pl>${.self:"role":1:"firstname"}</pl>
 			</title>
 			<title_original>
 				<de>Unschuld</de>
@@ -2523,85 +2526,103 @@
 					<title>
 						<de>Die Nation der Schandmäuler</de>
 						<en>The Nation of Foul Mouth</en>
-						<pl>Naród brzydkich słów</pl></title>
+						<pl>Naród brzydkich słów</pl>
+					</title>
 					<title_original>
 						<de>Die Republik des schlechten Geschmacks</de>
 						<en>The Republic of Bad Taste</en>
-						<pl>Republika złego smaku</pl></title_original>
+						<pl>Republika złego smaku</pl>
+					</title_original>
 					<description>
 						<de>Die Vorgeschichte von ${.self:"role":2:"fullname"}, Gründer der Whistleblowing-Plattform. 1987 ist er 27 Jahre alt und lebt in Ostdeutschland, wo er als Jugendbetreuer tätig ist und routinemäßig Sex mit den Teenager-Mädchen hat. Er lernt die geplagte 15-jährige ${.self:"role":6:"firstname"} kennen.</de>
 						<en>The back story of ${.self:"role":2:"fullname"}, founder of the whistleblowing platform. In 1987 he is 27, living in East Germany, where he acts as a youth councillor, routinely having sex with the teenaged girls. He meets the troubled 15 year-old ${.self:"role":6:"firstname"}.</en>
-						<pl>Historia ${.self:"role":2:"fullname"}, założyciela platformy do zgłaszania nieprawidłowości. W 1987 roku ma 27 lat, mieszka w Niemczech Wschodnich, gdzie działa jako radny młodzieżowy, regularnie uprawiając seks z nastoletnimi dziewczętami. Spotyka kłopotliwą 15-latkę ${.self:"role":6:"firstname"}.</pl></description>
+						<pl>Historia ${.self:"role":2:"firstname"}a ${.self:"role":2:"lastname"}a, założyciela platformy do zgłaszania nieprawidłowości. W 1987 roku ma 27 lat, mieszka w Niemczech Wschodnich, gdzie działa jako radny młodzieżowy, regularnie uprawiając seks z nastoletnimi dziewczętami. Spotyka kłopotliwą 15-latkę ${.self:"role":6:"firstname"}.</pl>
+					</description>
 				</scripttemplate>
 				<scripttemplate index="2" product="2" licence_type="2" guid="dc424071-e9e4-4e9e-993f-311edf960662">
 					<title>
 						<de>Information Overflow</de>
 						<en>Too Much of a Good Thing</en>
-						<pl>Za dużo dobrego</pl></title>
+						<pl>Za dużo dobrego</pl>
+					</title>
 					<title_original>
 						<de>Zuviel des Guten</de>
 						<en>Too Much Information</en>
-						<pl>Zbyt dużo informacji</pl></title_original>
+						<pl>Zbyt dużo informacji</pl>
+					</title_original>
 					<description>
 						<de>${.self:"role":3:"fullname"} ist eine 52-jährige Enthüllungsjournalistin bei einer Zeitung in Denver, wo ${.self:"role":1:"firstname"} jetzt als Praktikantin arbeitet. ${.self:"role":3:"firstname"} ist begeistert von ihr und drängt Gründer und Herausgeber ${.self:"role":4:"fullname"}, ihre Rolle und ihr Gehalt zu erweitern.</de>
 						<en>${.self:"role":3:"fullname"} is a 52-year-old investigative journalist for a newspaper in Denver, where ${.self:"role":1:"firstname"} is now working as an intern. ${.self:"role":3:"firstname"} is enthralled by her und presses founder and editor ${.self:"role":4:"fullname"} to expand her role and salary.</en>
-						<pl>${.self:"role":3:"fullname"} jest 52-letnią dziennikarką śledczą pracującą dla gazety w Denver, gdzie ${.self:"role":1:"firstname"} pracuje obecnie jako stażystka. ${.self:"role":3:"firstname"} jest zachwycona założycielką i redaktorką swojego wydawnictwa und presses, ${.self:"role":4:"fullname"}, która chciałaby poszerzyć zakres jej obowiązków i wysokość wynagrodzenia.</pl></description>
+						<pl>${.self:"role":3:"fullname"} jest 52-letnią dziennikarką śledczą pracującą dla gazety w Denver, gdzie ${.self:"role":1:"firstname"} pracuje obecnie jako stażystka. ${.self:"role":3:"firstname"} jest zachwycona założycielką i redaktorką swojego wydawnictwa und presses, ${.self:"role":4:"fullname"}, która chciałaby poszerzyć zakres jej obowiązków i wysokość wynagrodzenia.</pl>
+					</description>
 				</scripttemplate>
 				<scripttemplate index="3" product="2" licence_type="2" guid="5ffce4de-85ce-4f57-a74f-0cb4672a0785">
 					<title>
 						<de>Moonshine Journal</de>
 						<en>Moonshine Journal</en>
-						<pl>Dziennik bimbru</pl></title>
+						<pl>Moonshine Journal</pl>
+					</title>
 					<title_original>
 						<de>Moonglow Diary</de>
 						<en>Moonglow Dairy</en>
-						<pl>Mleczarnia Moonglow</pl></title_original>
+						<pl>Księżycowa Mleczarnia</pl>
+					</title_original>
 					<description>
 						<de>Rückblick auf die Arbeit von ${.self:"role":1:"firstname"} in Bolivien, die sie liebt, aber sie ist konsterniert über die bizarre Hierarchie. ${.self:"role":2:"firstname"} macht ihr sexuelle Avancen und sagt ihr, dass es unmöglich sei, ihren Vater ausfindig zu machen.</de>
 						<en>Cutback to ${.self:"role":1:"firstname"}'s work in Bolivia, which she loves, but she is dismayed by the bizarre hierarchy. ${.self:"role":2:"firstname"} makes sexual advances and tells her that it is impossible to track down her father.</en>
-						<pl>Wróćmy do pracy ${.self:"role":1:"firstname"} w Boliwii, którą uwielbia, ale jest przerażona tamtejszą dziwaczną hierarchią. ${.self:"role":2:"firstname"} składa jej propozycje seksualne i mówi, że nie da się odnaleźć jej ojca.</pl></description>
+						<pl>Wróćmy do pracy ${.self:"role":1:"firstname"} w Boliwii, którą uwielbia, ale jest przerażona tamtejszą dziwaczną hierarchią. ${.self:"role":2:"firstname"} składa jej propozycje seksualne i mówi, że nie da się odnaleźć jej ojca.</pl>
+					</description>
 				</scripttemplate>
 				<scripttemplate index="4" product="2" licence_type="2" guid="9aee3548-61c4-4670-b2c5-2ea9e0acf9a8">
 					<title>
 						<de>[li3o9n8e0l1]</de>
 						<en>[li3o9n8e0l1]</en>
-						<pl>[li3o9n8e0l1]</pl></title>
+						<pl>[li3o9n8e0l1]</pl>
+					</title>
 					<title_original>
 						<de>[le1o9n8a0rd]</de>
 						<en>[le1o9n8a0rd]</en>
-						<pl>[le1o9n8a0rd]</pl></title_original>
+						<pl>[le1o9n8a0rd]</pl>
+					</title_original>
 					<description>
 						<de>${.self:"role":4:"fullname"}s Hintergrundgeschichte über seine missbräuchliche Ehe und seine Reise nach Ostdeutschland in den 90er Jahren, wo er ${.self:"role":2:"firstname"} trifft und ihm hilft, die Leiche von ${.self:"role":6:"firstname"}s missbräuchlichem Stiefvater zu entsorgen.</de>
 						<en>${.self:"role":4:"fullname"}'s backstory about his abusive marriage and his trip to East Germany in the 90s, where he meets ${.self:"role":2:"firstname"} and helps him dispose of the body of ${.self:"role":6:"firstname"}'s abusive stepfather.</en>
-						<pl>Historia ${.self:"role":4:"fullname"} na temat jego przemocowego małżeństwa i podróży do Niemiec Wschodnich w latach 90., gdzie poznaje ${.self:"role":2:"firstname"} i pomaga mu pozbyć się ciała agresywnego ojczyma ${.self:"role":6:"firstname"}.</pl></description>
+						<pl>Historia ${.self:"role":4:"firstname"}a ${.self:"role":4:"lastname"}a na temat jego przemocowego małżeństwa i podróży do Niemiec Wschodnich w latach 90., gdzie poznaje ${.self:"role":2:"firstname"} i pomaga mu pozbyć się ciała agresywnego ojczyma ${.self:"role":6:"firstname"}.</pl>
+					</description>
 				</scripttemplate>
 				<scripttemplate index="5" product="2" licence_type="2" guid="74a3f68f-fcc7-48c7-8c61-8232f71c2450">
 					<title>
 						<de>Der Täter</de>
 						<en>The Offender</en>
-						<pl>Sprawca</pl></title>
+						<pl>Sprawca</pl>
+					</title>
 					<title_original>
 						<de>Der Mörder</de>
 						<en>The Killer</en>
-						<pl>Zabójca</pl></title_original>
+						<pl>Zabójca</pl>
+					</title_original>
 					<description>
 						<de>Nach zehn Jahren Lieblosigkeit verlässt ${.self:"role":2:"firstname"} ${.self:"role":6:"firstname"} und wird wegen Veröffentlichung von Geheiminformationen zu einem meistgesuchten Mann, der schließlich seine Operationen in einem versteckten Paradies in Bolivien ansiedelt.</de>
 						<en>After ten years of lovelessness, ${.self:"role":2:"firstname"} leaves ${.self:"role":6:"firstname"} and becomes a most-wanted man for his leaking of secrets, eventually basing his operations in a hidden paradise within Bolivia.</en>
-						<pl>Po dziesięciu latach bez miłości ${.self:"role":2:"firstname"} opuszcza ${.self:"role":6:"firstname"} i staje się poszukiwanym człowiekiem za ujawnianie sekretów. Ostatecznie przenosi swoją działalność do ukrytego raju w Boliwii.</pl></description>
+						<pl>Po dziesięciu latach bez miłości ${.self:"role":2:"firstname"} opuszcza ${.self:"role":6:"firstname"} i staje się poszukiwanym człowiekiem za ujawnianie sekretów. Ostatecznie przenosi swoją działalność do ukrytego raju w Boliwii.</pl>
+					</description>
 				</scripttemplate>
 				<scripttemplate index="6" product="2" licence_type="2" guid="c2e59aee-11a3-477f-90af-6bf1bdbcccb9">
 					<title>
 						<de>Die Wolken ziehen auf</de>
 						<en>The Clouds Gather</en>
-						<pl>Chmury się zbierają</pl></title>
+						<pl>Chmury się zbierają</pl>
+					</title>
 					<title_original>
 						<de>Der Regen kommt</de>
 						<en>The Rain Comes</en>
-						<pl>Nadchodzi deszcz</pl></title_original>
+						<pl>Nadchodzi deszcz</pl>
+					</title_original>
 					<description>
 						<de>${.self:"role":1:"firstname"} versucht, sich mit dem Wissen, wer sie ist, zu arrangieren. Sie offenbart sich dem Verwalter des Treuhandfonds ihrer Mutter, dem weitgehend die Hände gebunden sind, wenn ${.self:"role":5:"firstname"} keine Freigabeerklärung unterschreibt.</de>
 						<en>${.self:"role":1:"firstname"} is trying to come to terms with the knowledge of who she is. She reveals herself to her mother's trust-fund manager, whose hands are mostly tied if ${.self:"role":5:"firstname"} does not sign a release document.</en>
-						<pl>${.self:"role":1:"firstname"} próbuje pogodzić się z wiedzą o tym, kim jest. Ujawnia się menedżerowi funduszu powierniczego swojej matki, którego ręce są w większości związane, jeśli ${.self:"role":5:"firstname"} nie podpisze dokumentu zwolnienia.</pl></description>
+						<pl>${.self:"role":1:"firstname"} próbuje pogodzić się z wiedzą o tym, kim jest. Ujawnia się menedżerowi funduszu powierniczego swojej matki, którego ręce są w większości związane, jeśli ${.self:"role":5:"firstname"} nie podpisze dokumentu zwolnienia.</pl>
+					</description>
 				</scripttemplate>
 			</children>
 			<jobs>
@@ -2726,7 +2747,7 @@
 			<description>
 				<de>${.self:"role":1:"firstname"} hat 1957 inzwischen selbst Familie und hilft seinem Vater in der Buchhandlung. Ein hinkender Alter ersteht eine wertvolle Erstausgabe und schreibt eine geheimnisvolle Widmung an Laden-Assistent ${.self:"role":3:"fullname"} hinein.</de>
 				<en>In 1957, ${.self:"role":1:"firstname"} has a family of his own and helps his father in the bookstore. A limping old man buys a valuable first edition and writes a mysterious dedication to store assistant ${.self:"role":3:"fullname"} into it.</en>
-				<pl>W 1957 r. ${.self:"role":1:"firstname"} ma własną rodzinę i pomaga ojcu w księgarni. Utykający starzec kupuje cenne pierwsze wydanie i pisze do niego tajemniczą dedykację dla asystenta sklepowego ${.self:"role":3:"fullname"}.</pl>
+				<pl>W 1957 r. ${.self:"role":1:"firstname"} ma własną rodzinę i pomaga ojcu w księgarni. Utykający starzec kupuje cenne pierwsze wydanie i pisze do niego tajemniczą dedykację dla asystenta sklepowego ${.self:"role":3:"firstname"}a ${.self:"role":3:"lastname"}.</pl>
 			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
@@ -2767,7 +2788,7 @@
 			<description>
 				<de>${.self:"role":1:"firstname"} hat herausgefunden, dass seine Mutter vom bösartigen Gefängnisdirektor ${.self:"role":2:"firstname"} ermordet wurde, nachdem sie gedroht hatte, zu enthüllen, dass er inhaftierte Autoren als Ghostwriter nutzt. Er sinnt nach Rache.</de>
 				<en>${.self:"role":1:"firstname"} has found out that his mother was murdered by vicious prison warden ${.self:"role":2:"firstname"} after she had threatened to reveal his use of imprisoned authors as ghostwriters. He seeks revenge.</en>
-				<pl>${.self:"role":1:"firstname"} dowiedział się, że jego matka została zamordowana przez okrutnego naczelnika więzienia ${.self:"role":2:"firstname"} po tym, jak zagroziła, że ​​ujawni, że korzystał z uwięzionych autorów jako ghostwriterów. Szuka zemsty.</pl>
+				<pl>${.self:"role":1:"firstname"} dowiedział się, że jego matka została zamordowana przez okrutnego naczelnika więzienia ${.self:"role":2:"firstname"}a po tym, jak zagroziła, że ​​ujawni, że korzystał z uwięzionych autorów jako ghostwriterów. Szuka zemsty.</pl>
 			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
@@ -2796,7 +2817,7 @@
 			<title>
 				<de>${.self:"role":1:"firstname"}</de>
 				<en>${.self:"role":1:"firstname"}</en>
-				<pl>${.self:"role":1:"imię"}</pl>
+				<pl>${.self:"role":1:"firstname"}</pl>
 			</title>
 			<title_original>
 				<de>Marina</de>
@@ -2806,7 +2827,7 @@
 			<description>
 				<de>Die 15-jährigen ${.self:"role":1:"firstname"} und ${.self:"role":2:"firstname"} lernen sich kennen, verlieben sich, verfolgen eine schwarze Frau, die regelmäßig auf den Friedhof kommt, und entlarven die Machenschaften des scheinbar untoten Orthopäden ${.self:"role":3:"firstname"}.</de>
 				<en>The 15-year-olds ${.self:"role":1:"firstname"} and ${.self:"role":2:"firstname"} get to know each other, fall in love, follow a black woman who regularly comes to the cemetery, and expose the machinations of the seemingly undead orthopaedic surgeon ${.self:"role":3:"firstname"}.</en>
-				<pl>Piętnastolatkowie ${.self:"role":1:"firstname"} i ${.self:"role":2:"firstname"} poznają się, zakochują się, podążają śladami czarnoskórej kobiety, która regularnie przychodzi na cmentarz, i ujawniają intrygi pozornie nieumarłego chirurga ortopedycznego ${.self:"role":3:"firstname"}.</pl>
+				<pl>Piętnastolatkowie ${.self:"role":1:"firstname"} i ${.self:"role":2:"firstname"} poznają się, zakochują się, podążają śladami czarnoskórej kobiety, która regularnie przychodzi na cmentarz, i ujawniają intrygi pozornie nieumarłego chirurga ortopedycznego ${.self:"role":3:"firstname"}a.</pl>
 			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
@@ -2874,7 +2895,7 @@
 			<title>
 				<de>${.self:"role":1:"fullname"}, Vita und Ableben eines amerikanischen Autors, 1943-1954, von ${.self:"role":2:"fullname"}</de>
 				<en>${.self:"role":1:"fullname"}, Vita and Demise of an American Author, 1943-1954, by ${.self:"role":2:"fullname"}</en>
-				<pl>${.self:"role":1:"fullname"}, Życie i śmierć amerykańskiego autora, 1943-1954, autorstwa ${.self:"role":2:"fullname"}</pl>
+				<pl>${.self:"role":1:"fullname"}, Życie i śmierć amerykańskiego autora, 1943-1954, autorstwa ${.self:"role":2:"firstname"}a ${.self:"role":2:"lastname"}a</pl>
 			</title>
 			<title_original>
 				<de>Edwin Mullhouse, Leben und Tod eines amerikanischen Schriftstellers, 1943-1954, von Jeffrey Cartwright</de>
@@ -2884,7 +2905,7 @@
 			<description>
 				<de>Der kleine ${.self:"role":1:"firstname"} ist ein „exzentrischer junger Angeber, der sich für sowas wie ein literarisches Wunder hält“, der mit 10 Jahren einen Roman schreibt, aber mit 11 auf mysteriöse Weise stirbt. Also erstellt sein bester Freund ${.self:"role":2:"firstname"} seine Biografie.</de>
 				<en>The little ${.self:"role":1:"firstname"} is an "eccentric young show-off who fancies himself something of a literary wonder", writes a novel at age 10, but dies mysteriously at age 11. And so his best friend ${.self:"role":2:"firstname"} compiles his biography.</en>
-				<pl>Mały ${.self:"role":1:"firstname"} jest "ekscentrycznym młodym popisowcem, który uważa się za literackiego cuda", pisze powieść w wieku 10 lat, ale umiera w tajemniczy sposób w wieku 11 lat. I tak jego najlepszy przyjaciel ${.self:"role":2:"firstname"} układa jego biografię.</pl>
+				<pl>Mały ${.self:"role":1:"firstname"} jest "ekscentrycznym młodym popisowcem, który uważa się za literackiego bożyszcza", pisze powieść w wieku 10 lat, ale umiera w tajemniczy sposób w wieku 11 lat. I tak jego najlepszy przyjaciel ${.self:"role":2:"firstname"} układa jego biografię.</pl>
 			</description>
 			<children>
 				<scripttemplate index="0" product="2" licence_type="2" guid="613bbbf0-0124-4f5a-97cd-f0e2466ae6b8">
@@ -2901,7 +2922,7 @@
 					<description>
 						<de>Die „vorliterarischen Jahre“, in denen ${.self:"role":2:"firstname"} von ${.self:"role":1:"firstname"}s Geburt und Kindheit in Newfield, Connecticut, einschließlich der Zeit im Kindergarten erzählt.</de>
 						<en>The "pre-literate years" in which ${.self:"role":2:"firstname"} tells of ${.self:"role":1:"firstname"}'s birth and childhood in Newfield, Connecticut including time spent in Kindergarten.</en>
-						<pl>„Lata przedpiśmienne”, w których uczy się ${.self:"role":2:"firstname"}, opowiadają o narodzinach i dzieciństwie ${.self:"role":1:"firstname"} w Newfield w stanie Connecticut, w tym o czasie spędzonym w przedszkolu.</pl>
+						<pl>„Lata przedpiśmienne”, w których uczy się ${.self:"role":2:"firstname"}, opowiadają o narodzinach i dzieciństwie ${.self:"role":1:"firstname"}a w Newfield w stanie Connecticut, w tym o czasie spędzonym w przedszkolu.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate index="1" product="2" licence_type="2" guid="a2b04b81-327a-4c1b-aeba-aa3b0110b7bb">
@@ -2935,7 +2956,7 @@
 					<description>
 						<de>Die „literarischen Jahre“ beinhalten ${.self:"role":1:"firstname"}s Verfassen des Romans „Cartoons“ und seinen vorzeitigen Tod.</de>
 						<en>The "literary years" cover the writing of ${.self:"role":1:"firstname"}'s novel "Cartoons" and his untimely death.</en>
-						<pl>„Lata literackie” obejmują napisanie powieści „Kreskówki” autorstwa ${.self:"role":1:"firstname"} oraz jego przedwczesną śmierć.</pl>
+						<pl>„Lata literackie” obejmują napisanie powieści „Kreskówki” autorstwa ${.self:"role":1:"firstname"}a oraz jego przedwczesną śmierć.</pl>
 					</description>
 				</scripttemplate>
 			</children>
@@ -3091,7 +3112,7 @@
 			<description>
 				<de>${.self:"role":1:"firstname"} ist in einem Waisenhaus aufgewachsen und kommt mit 14 Jahren zusammen mit ${.self:"role":2:"firstname"} als Lehrling in die Werkstatt ${.self:"role":4:"firstname"}s. Die einzige Beziehung zu ihren Eltern ist der Zauberspiegel ihrer Mutter, der aus Wasser statt Glas besteht.</de>
 				<en>${.self:"role":1:"firstname"} grew up in an orphanage and comes to ${.self:"role":4:"firstname"}'s workshop as an apprentice at the age of 14, together with ${.self:"role":2:"firstname"}. The only relationship she has with her parents is her mother's magic mirror, which is made of water instead of glass.</en>
-				<pl>${.self:"role":1:"firstname"} wychowała się w sierocińcu i przychodzi do warsztatu ${.self:"role":4:"firstname"} jako praktykantka w wieku 14 lat, razem z ${.self:"role":2:"firstname"}. Jedynym związkiem, jaki łączy ją z rodzicami, jest magiczne lustro jej matki, które jest zrobione z wody, a nie ze szkła.</pl>
+				<pl>${.self:"role":1:"firstname"} wychowała się w sierocińcu i przychodzi do warsztatu ${.self:"role":4:"firstname"}a jako praktykantka w wieku 14 lat, razem z ${.self:"role":2:"firstname"}. Jedynym związkiem, jaki łączy ją z rodzicami, jest magiczne lustro jej matki, które jest zrobione z wody, a nie ze szkła.</pl>
 			</description>
 			<children>
 				<scripttemplate index="0" product="2" licence_type="2" guid="d62fa0cb-c97f-462e-a749-2d2b824fc660">
@@ -3108,7 +3129,7 @@
 					<description>
 						<de>Der ägyptische Pharao ist von seinen Hohepriestern wiederauferweckt worden und erobert die ganze Welt. Nur Venedig, wo ${.self:"role":1:"firstname"} und ihre Freunde leben, ist noch übrig. Und auch die Fließende Königin muss gerettet werden.</de>
 						<en>The Egyptian Pharaoh has been resurrected by his high priests and is conquering the whole world. Only Venice, where ${.self:"role":1:"firstname"} and her friends live, is left. And the Flowing Queen must also be rescued.</en>
-						<pl>Egipski faraon został wskrzeszony przez swoich arcykapłanów i podbija cały świat. Pozostała tylko Wenecja, gdzie mieszka ${.self:"role":1:"firstname"} i jej przyjaciele. A Flowing Queen również musi zostać uratowana.</pl>
+						<pl>Egipski faraon został wskrzeszony przez swoich arcykapłanów i podbija cały świat. Pozostała tylko Wenecja, gdzie mieszka ${.self:"role":1:"firstname"} i jej przyjaciele. A Płynąca królewna również musi zostać uratowana.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate index="1" product="2" licence_type="2" guid="3d01ec35-0c90-4e84-a70c-8ee25ef5fda1">
@@ -3213,7 +3234,7 @@
 			<title>
 				<de>Catlady: ${.self:"role":1:"firstname"}s großer Streich</de>
 				<en>Catlady: ${.self:"role":1:"firstname"}'s Big Shot</en>
-				<pl>Catlady: ${.self:"role":1:"firstname"}'s Big Shot</pl>
+				<pl>Catlady: ${.self:"role":1:"firstname"}i jej wyczyny</pl>
 			</title>
 			<title_original>
 				<de>Catwoman: Selinas großer Coup</de>
@@ -3230,7 +3251,7 @@
 					<title>
 						<de>${.self:"role":1:"fullname"}</de>
 						<en>${.self:"role":1:"fullname"}</en>
-						<pl>${.self:"role":1:"pełna nazwa"}</pl>
+						<pl>${.self:"role":1:"fullname"}</pl>
 					</title>
 					<title_original>
 						<de>Selina</de>
@@ -3247,12 +3268,12 @@
 					<title>
 						<de>${.self:"role":5:"firstname"}</de>
 						<en>${.self:"role":5:"firstname"}</en>
-						<pl>${.self:"role":5:"imię"}</pl>
+						<pl>${.self:"role":5:"firstname"}</pl>
 					</title>
 					<title_original>
 						<de>Stark</de>
 						<en>Stark</en>
-						<pl>Sztywny</pl>
+						<pl>Sztywna</pl>
 					</title_original>
 					<description>
 						<de>${.self:"role":1:"firstname"} und ${.self:"role":5:"firstname"} stimmen dem Eisenbahnraub zu, aber ${.self:"role":5:"firstname"} besteht darauf, die Kontrolle zu behalten. Sie planen, sich in fünf Tagen in Las Vegas zu treffen. ${.self:"role":5:"firstname"} warnt ${.self:"role":1:"firstname"} vor einem Privatdetektiv.</de>
@@ -3264,7 +3285,7 @@
 					<title>
 						<de>${.self:"role":6:"firstname"}</de>
 						<en>${.self:"role":6:"firstname"}</en>
-						<pl>${.self:"role":6:"imię"}</pl>
+						<pl>${.self:"role":6:"firstname"}</pl>
 					</title>
 					<title_original>
 						<de>Slam</de>
@@ -3351,7 +3372,7 @@
 					<description>
 						<de>Der titelgebende Planet befindet sich im abgelegenen „Outback“ und ist schwer zu erreichen, beherbergt aber in der Zeit rückwärts wandernde „Gräber“. 7 Pilger auf einer Reise dorthin, um eine Invasion zu verhindern, erzählen ihre Lebensgeschichten.</de>
 						<en>The titular planet is located in the remote "outback" and is hard to reach, but carries backwards in time moving "Tombs". 7 pilgrims on a journey there to prevent an invasion tell their life stories.</en>
-						<pl>Tytułowa planeta znajduje się na odległym „outbacku” i trudno się do niej dostać, ale przenosi się w czasie, przesuwając „Tombs”. Siedmiu pielgrzymów wyrusza tam, aby zapobiec inwazji, opowiadając historie swojego życia.</pl>
+						<pl>Tytułowa planeta znajduje się na odległym „zadupiu” i trudno się do niej dostać, ale przenosi się w czasie, przesuwając „Rzeźby”. Siedmiu pielgrzymów wyrusza tam, aby zapobiec inwazji, opowiadając historie swojego życia.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate index="1" product="2" licence_type="2" guid="8d8a0487-617e-4180-8cef-5d38a22d2123">
@@ -3442,12 +3463,12 @@
 			<title>
 				<de>Ilios/Olympium</de>
 				<en>Ilios/Olympium</en>
-				<pl>Ilios/Olimp</pl>
+				<pl>Ilios/Olympium</pl>
 			</title>
 			<title_original>
 				<de>Ilium/Olympos</de>
 				<en>Ilium/Olympos</en>
-				<pl>Kość biodrowa/Olimpos</pl>
+				<pl>Ilium/Olympos</pl>
 			</title_original>
 			<description>
 				<de>Raum und Zeit sind manipulierbar. ${.self:"role":1:"fullname"}, ein nach 4200 Jahren von den Göttern (sind es überhaupt die „echten“?) wiederbelebter Historiker aus dem 21. Jahrhundert, studiert Homer und den Trojanischen Krieg und hat selbst Einfluss auf das Geschehen.</de>
@@ -3469,7 +3490,7 @@
 					<description>
 						<de>${.self:"role":1:"firstname"}, in der Gestalt von ${.self:"role":7:"firstname"}, erschleicht sich ein Schäferstündchen mit der schönen ${.self:"role":4:"fullname"}, doch die hält ihm dann einen Dolch an die Kehle und entwickelt einen Plan, mit dessen Verwirklichung der Krieg zwischen Griechen und Trojanern endet.</de>
 						<en>${.self:"role":1:"firstname"}, in the guise of ${.self:"role":7:"firstname"}, surreptitiously obtains an amorous tête-à-tête with beautiful ${.self:"role":4:"fullname"}, but she then holds a dagger to his throat and devises a plan which would bring the war between the Greeks and Trojans to an end.</en>
-						<pl>${.self:"role":1:"firstname"}, podszywając się pod ${.self:"role":7:"firstname"}, potajemnie umawia się na miłosne spotkanie w cztery oczy z piękną ${.self:"role":4:"fullname"}, która przykłada mu sztylet do gardła i obmyśla plan, który ma położyć kres wojnie między Grekami a Trojanami.</pl>
+						<pl>${.self:"role":1:"firstname"}, podszywając się pod ${.self:"role":7:"firstname"}, potajemnie umawia się na miłosne spotkanie w cztery oczy z piękną Heleną Trojańską, która przykłada mu sztylet do gardła i obmyśla plan, który ma położyć kres wojnie między Grekami a Trojanami.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate index="1" product="2" licence_type="2" guid="30fee702-4677-45b9-935f-f4dee9c1205a" comment="https://en.wikipedia.org/wiki/Olympos_(novel)">
@@ -3540,7 +3561,7 @@
 			<description>
 				<de>Im Sommer 1921 treffen sich 13 illustre Gäste zu einer Séance in Devon. Der Earl of Axminster wird ermordet in einem verschlossenen Zimmer aufgefunden. Die berühmten ${.self:"role":3:"fullname"} und Der Große ${.self:"role":4:"lastname"} bieten ihre Hilfe an.</de>
 				<en>Summer of 1921, 13 distinguished guests gather together for a séance in Devon. The Earl of Axminster is found murdered in a locked room. The famous ${.self:"role":3:"fullname"} and The Great ${.self:"role":4:"lastname"} offer their help.</en>
-				<pl>Latem 1921 roku 13 znamienitych gości zebrało się na seansie spirytystycznym w Devon. Hrabia Axminster został znaleziony zamordowany w zamkniętym pokoju. Słynni ${.self:"role":3:"fullname"} i The Great ${.self:"role":4:"lastname"} oferują swoją pomoc.</pl>
+				<pl>Latem 1921 roku 13 znamienitych gości zebrało się na seansie spirytystycznym w Devon. Hrabia Axminster został znaleziony zamordowany w zamkniętym pokoju. Słynni ${.self:"role":3:"fullname"} i Wielki ${.self:"role":4:"lastname"} oferują swoją pomoc.</pl>
 			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
@@ -3626,7 +3647,7 @@
 			<description>
 				<de>${.self:"role":1:"firstname"} und ${.self:"role":2:"firstname"} werden 1923 nach Deutschland geschickt, um den Killer zu finden, der fast erfolgreich ${.self:"role":4:"fullname"} ermordet hätte. Ihr Betreuer ist ein großer fröhlicher Kerl, aber die Agenten sehen immer mehr von der schrecklichen Seite dieser neuen Partei.</de>
 				<en>${.self:"role":1:"firstname"} and ${.self:"role":2:"firstname"} are sent to Germany in 1923 to find the hitman that almost succeeded in killing ${.self:"role":4:"fullname"}. Their guide is a huge and jovial guy, but the agents begin to see an increasing amount of this new party's dreadful face.</en>
-				<pl>${.self:"role":1:"firstname"} i ${.self:"role":2:"firstname"} zostają wysłani do Niemiec w 1923 r., aby znaleźć płatnego zabójcę, który prawie zabił ${.self:"role":4:"fullname"}. Ich przewodnik jest wielkim i pogodnym facetem, ale agenci zaczynają dostrzegać coraz więcej przerażającej twarzy tej nowej partii.</pl>
+				<pl>${.self:"role":1:"firstname"} i ${.self:"role":2:"firstname"} zostają wysłani do Niemiec w 1923 r., aby znaleźć płatnego zabójcę, który prawie zabił ${.self:"role":4:"firstname"}a ${.self:"role":4:"lastname"}a. Ich przewodnik jest wielkim i pogodnym facetem, ale agenci zaczynają dostrzegać coraz więcej przerażającej twarzy tej nowej partii.</pl>
 			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
@@ -3659,7 +3680,7 @@
 			<title>
 				<de>${.self:"role":1:"fullname"} im Amerikanischen Westen</de>
 				<en>${.self:"role":1:"fullname"}'s West</en>
-				<pl>${.self:"role":1:"fullname"} Zachód</pl>
+				<pl>${.self:"role":1:"fullname"}</pl>
 			</title>
 			<title_original>
 				<de>Oscar Wilde im Wilden Westen</de>
@@ -3669,7 +3690,7 @@
 			<description>
 				<de>Der berühmte Schriftsteller ${.self:"role":1:"fullname"} ist sich nicht zu fein für eine Vortragsreise durch den Wilden Westen und trifft Persönlichkeiten wie ${.self:"role":2:"fullname"}. Doch es geschehen Morde, die ihm angehängt werden.</de>
 				<en>The famous writer ${.self:"role":1:"fullname"} is not too refined for a lecture tour through the Wild West and meets personalities like ${.self:"role":2:"fullname"}. But murders happen and he is framed for them.</en>
-				<pl>Słynny pisarz ${.self:"role":1:"fullname"} nie jest zbyt wyrafinowany na wycieczkę wykładową po Dzikim Zachodzie i spotyka osobowości takie jak ${.self:"role":2:"fullname"}. Ale morderstwa się zdarzają i on zostaje w nie wrobiony.</pl>
+				<pl>Słynny pisarz ${.self:"role":1:"fullname"} nie jest zbyt fantazyjny jak na wycieczkę wykładową po Dzikim Zachodzie i spotyka osobowości takie jak ${.self:"role":2:"fullname"}. Ale morderstwa się zdarzają i on zostaje w nie wrobiony.</pl>
 			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
@@ -3709,7 +3730,7 @@
 			<description>
 				<de>„${.self:"role":1:"firstname"} ${.self:"role":1:"lastname"} mit dem Beile, hackt Mama in 40 Teile. Das Ergebnis freut sie sehr, bei Papa wird's ein Teil mehr.“ 1892 freigesprochen (wahre Geschichte) trifft sie 61-jährig 1921 (fiktiv) auf die kleine ${.self:"role":2:"firstname"}. Auch deren verhasste Stiefmutter wird bald erschlagen aufgefunden.</de>
 				<en>"${.self:"role":1:"firstname"} ${.self:"role":1:"lastname"} took an axe and gave her mother forty whacks. When she saw what she had done, she gave her father forty-one." Acquitted in 1892 (true story), in 1921 at the age of 61 she (fictionally) encounters little ${.self:"role":2:"firstname"}, whose hated stepmother is also soon found slain.</en>
-				<pl>"${.self:"role":1:"firstname"} ${.self:"role":1:"lastname"} wzięła siekierę i zadała matce czterdzieści ciosów. Kiedy zobaczyła, co zrobiła, zadała ojcu czterdzieści jeden ciosów." Uniewinniona w 1892 r. (prawdziwa historia), w 1921 r. w wieku 61 lat (fikcyjnie) spotyka małą ${.self:"role":2:"firstname"}, której znienawidzona macocha również zostaje wkrótce znaleziona zamordowana.</pl>
+				<pl>"${.self:"role":1:"firstname"} ${.self:"role":1:"lastname"} wzięła siekierę i zadała matce czterdzieści ciosów. Kiedy zobaczyła, co zrobiła, zadała ojcu czterdzieści jeden ciosów." Uniewinniona w 1892 r. (prawdziwa historia), w 1921 r. w wieku 61 lat (fikcyjnie) spotyka małą Amandę, której znienawidzona macocha również zostaje wkrótce znaleziona zamordowana.</pl>
 			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
@@ -3742,12 +3763,12 @@
 			<title>
 				<de>Miss ${.self:"role":1:"firstname"} ist wieder da</de>
 				<en>Manhattan Nights: Miss ${.self:"role":1:"firstname"} Is Back</en>
-				<pl>Manhattan Nights: Panna ${.self:"role":1:"firstname"} powraca</pl>
+				<pl>Manhatańskie noce: Panna ${.self:"role":1:"firstname"} powraca</pl>
 				</title>
 			<title_original>
 				<de>Miss Lizzie kehrt zurück</de>
 				<en>New York Nocturne: The Return of Miss Lizzie</en>
-				<pl>New York Nocturne: Powrót panny Lizzie</pl>
+				<pl>Nowojorski nocny wieczór: Powrót panny Lizzie</pl>
 			</title_original>
 			<description>
 				<de>${.self:"role":2:"firstname"} macht mit ihrem Onkel ${.self:"role":3:"firstname"} in den „Roaring Twenties“ New York unsicher - bis er mit einem Beil erschlagen in der Bibliothek gefunden wird. ${.self:"role":1:"fullname"} kommt erneut zur Hilfe, um ${.self:"role":2:"firstname"}s Unschuld zu beweisen.</de>
@@ -3792,7 +3813,7 @@
 			<description>
 				<de>1933 heiratet die reiche ${.self:"role":2:"firstname"} den erfolgreichen Groschenroman-Autor ${.self:"role":1:"firstname"}. Sie feiern ausschweifende Partys auf ihrer Ranch nahe Las Vegas. 1935 begeht ${.self:"role":2:"firstname"} Selbstmord (wahre Geschichte). Was ist wirklich passiert (fiktiv-spekulativ)?</de>
 				<en>In 1933, the wealthy ${.self:"role":2:"firstname"} marries the successful pulp fiction author ${.self:"role":1:"firstname"}. They celebrate lavish parties on their ranch near Las Vegas. In 1935 ${.self:"role":2:"firstname"} commits suicide (true story). What actually happened (fictional-speculative)?</en>
-				<pl>W 1933 roku bogaty ${.self:"role":2:"firstname"} poślubia odnoszącego sukcesy autora pulp fiction ${.self:"role":1:"firstname"}. Świętują wystawne przyjęcia na swoim ranczu w pobliżu Las Vegas. W 1935 roku ${.self:"role":2:"firstname"} popełnia samobójstwo (prawdziwa historia). Co się właściwie wydarzyło (fikcja-spekulacja)?</pl>
+				<pl>W 1933 roku bogaty ${.self:"role":2:"firstname"} poślubia odnoszącego sukcesy autora pulp fiction ${.self:"role":1:"firstname"}a. Świętują wystawne przyjęcia na swoim ranczu w pobliżu Las Vegas. W 1935 roku ${.self:"role":2:"firstname"} popełnia samobójstwo (prawdziwa historia). Co się właściwie wydarzyło (fikcja-spekulacja)?</pl>
 			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
@@ -3829,7 +3850,7 @@
 			<description>
 				<de>Märchenstunde für Erwachsene. In Fabletown mitten in N.Y. leben Figuren aus Folklore und Märchen inkognito und im Exil auf der Flucht vor einem mysteriösen, gefährlichen Feind. Der Große nicht-mehr-so-Böse Wolf sorgt als Sheriff für Recht und Ordnung.</de>
 				<en>Story time for grown-ups. In Fabletown in the middle of N.Y., characters from folklore and fairy tales live incognito and in exile on the run from a mysterious, dangerous adversary. The Big no-longer-so-Bad Wolf keeps law and order as sheriff.</en>
-				<pl>Czas na opowieść dla dorosłych. W Fabletown w środku N.Y. postacie z folkloru i baśni żyją incognito i na wygnaniu, uciekając przed tajemniczym, niebezpiecznym przeciwnikiem. Wielki, już nie taki zły Wilk pilnuje porządku jako szeryf.</pl>
+				<pl>Czas na opowieść dla dorosłych. W Bajkowym Mieście w środku N.Y. postacie z folkloru i baśni żyją incognito i na wygnaniu, uciekając przed tajemniczym, niebezpiecznym przeciwnikiem. Wielki, już nie taki zły Wilk pilnuje porządku jako szeryf.</pl>
 			</description>
 			<children>
 				<scripttemplate index="0" product="2" licence_type="2" guid="29249def-a2c3-41c1-944a-8add4cd09c72">
@@ -3846,7 +3867,7 @@
 					<description>
 						<de>Die Einführung von Fabletown und den wichtigsten Figuren. ${.self:"role":1:"fullname"} untersucht den scheinbaren Mord an ${.self:"role":3:"firstname"}. (Sie wurde ja einst im Bett erwischt mit dem ${.self:"role":4:"firstname"}, dem damaligen Verlobten ihrer Schwester ${.self:"role":2:"firstname"} aka Schneeweißchen.)</de>
 						<en>The introduction to Fabletown. ${.self:"role":1:"fullname"} investigates the apparent murder of ${.self:"role":3:"firstname"}. (She was once caught in bed with ${.self:"role":4:"firstname"}, the then-fiancé of her sister ${.self:"role":2:"firstname"}.)</en>
-						<pl>Wprowadzenie do Fabletown. ${.self:"role":1:"fullname"} bada domniemane morderstwo ${.self:"role":3:"firstname"}. (Pewnego razu została przyłapana w łóżku z ${.self:"role":4:"firstname"}, ówczesnym narzeczonym jej siostry ${.self:"role":2:"firstname"}.)</pl>
+						<pl>Wprowadzenie do Bajkowego Miasta. ${.self:"role":1:"fullname"} bada domniemane morderstwo ${.self:"role":3:"firstname"}. (Pewnego razu została przyłapana w łóżku z ${.self:"role":4:"firstname"}, ówczesnym narzeczonym jej siostry ${.self:"role":2:"firstname"}.)</pl>
 					</description>
 					<jobs>
 						<job index="15" function="2" required="1" role_guid="847e75c4-c92a-4539-a606-4adbf3c84e44"/>
@@ -3870,7 +3891,7 @@
 					<description>
 						<de>Die Einführung der Farm, einem Ort für diejenigen Fables, die keine menschliche Gestalt haben oder keine annehmen können. Langsam kommt es auf der Farm zu einer Revolte, die von ${.self:"role":2:"firstname"} eingedämmt werden muss.</de>
 						<en>The introduction of the farm, a place for those Fables who are not human or cannot take on human form. Gradually, a revolt occurs on the farm, which must be contained by ${.self:"role":2:"firstname"}.</en>
-						<pl>Wprowadzenie farmy, miejsca dla tych Fables, którzy nie są ludźmi lub nie mogą przybrać ludzkiej postaci. Stopniowo na farmie dochodzi do buntu, który musi zostać powstrzymany przez ${.self:"role":2:"firstname"}.</pl>
+						<pl>Wprowadzenie farmy, miejsca dla istot baśniowych, którzy nie są ludźmi lub nie mogą przybrać ludzkiej postaci. Stopniowo na farmie dochodzi do buntu, który musi zostać powstrzymany przez ${.self:"role":2:"firstname"}.</pl>
 					</description>
 					<jobs>
 						<job index="15" function="2" required="1" role_guid="847e75c4-c92a-4539-a606-4adbf3c84e44"/>
@@ -3880,12 +3901,12 @@
 					<title>
 						<de>Ein Sack voll Knochen</de>
 						<en>Bag 'O Bones</en>
-						<pl>Torba 'O Bones</pl>
+						<pl>Worek kości</pl>
 					</title>
 					<title_original>
 						<de>Ein Sack voll Knochen</de>
 						<en>Bag 'O Bones</en>
-						<pl>Torba 'O Bones</pl>
+						<pl>Worek kości</pl>
 					</title_original>
 					<description>
 						<de>Eine Geschichte, die während des Amerikanischen Bürgerkrieges spielt, in der Jack Horner einen Weg findet, den Tod zu betrügen.</de>
@@ -3910,7 +3931,7 @@
 					<description>
 						<de>Tommy Sharp, ein menschlicher Journalist, erfährt von den Fables, welche nun entscheiden müssen, wie sie darauf reagieren sollen.</de>
 						<en>Tommy Sharp, a mundane journalist finds out about the Fables, who now have to decide how to react.</en> 
-						<pl>Tommy Sharp, przeciętny dziennikarz, dowiaduje się o Fables, którzy teraz muszą zdecydować, jak zareagować.</pl><!-- TODO: Make ref Tommy Sharp -->
+						<pl>Tommy Sharp, przeciętny dziennikarz, dowiaduje się o istotach baśniowych, którzy teraz muszą zdecydować, jak zareagować.</pl><!-- TODO: Make ref Tommy Sharp -->
 					</description>
 					<jobs>
 						<job index="15" function="2" required="1" role_guid="847e75c4-c92a-4539-a606-4adbf3c84e44"/>
@@ -3951,7 +3972,7 @@
 					<description>
 						<de>${.self:"role":1:"firstname"} erzählt dem Fliegenfänger (aka Froschkönig) die Geschichte eines alten Smalltown-Brauchs.</de>
 						<en>${.self:"role":1:"firstname"} tells Flycatcher (aka the Frog Prince) the story of a Smalltown tradition.</en> 
-						<pl>${.self:"role":1:"firstname"} opowiada Flycatcherowi (znanemu również jako Żabi Księciu) historię tradycji pewnego małego miasteczka.</pl><!-- TODO: make ref Flycatcher -->
+						<pl>${.self:"role":1:"firstname"} opowiada Muchołówce (znanemu również jako Żabi Księciu) historię tradycji pewnego małego miasteczka.</pl><!-- TODO: make ref Flycatcher -->
 					</description>
 				</scripttemplate>
 				<scripttemplate index="6" product="2" licence_type="2" guid="7f395aa2-ecef-4f40-b06b-357da0a72d87">
@@ -3967,7 +3988,8 @@
 					</title_original>
 					<description>
 						<de>Der ${.self:"role":4:"fullname"} kandidiert weiter für das Amt des Bürgermeisters von Fabletown, während die Gemeinde sich mit der scheinbaren Flucht von Rotkappe aus der Heimat beschäftigt. Der Feind sendet seine ersten Truppen nach Fabletown, um einen Angriff zu beginnen.</de>
-						<en>${.self:"role":4:"fullname"} runs for Mayor of Fabletown while the community deals with the apparent escape from the Homelands of Red Riding Hood. The Adversary sends his first troops into Fabletown to begin an assault.</en> <pl>${.self:"role":4:"fullname"} kandyduje na burmistrza Fabletown, podczas gdy społeczność radzi sobie z pozorną ucieczką z Homelands of Red Riding Hood. Adwersarz wysyła swoje pierwsze wojska do Fabletown, aby rozpocząć szturm.</pl><!-- TODO: make ref Red Riding Hood -->
+						<en>${.self:"role":4:"fullname"} runs for Mayor of Fabletown while the community deals with the apparent escape from the Homelands of Red Riding Hood. The Adversary sends his first troops into Fabletown to begin an assault.</en> 
+						<pl>${.self:"role":4:"fullname"} kandyduje na burmistrza Bajkowego Miasta, podczas gdy społeczność radzi sobie z pozorną ucieczką z ojczyzny Czerwonego Kapturka. Adwersarz wysyła swoje pierwsze wojska do Bajkowego Miasta, aby rozpocząć szturm.</pl><!-- TODO: make ref Red Riding Hood -->
 					</description>
 				</scripttemplate>
 				<scripttemplate index="7" product="2" licence_type="2" guid="dae9db61-7427-4053-89ee-e756d8369998">
@@ -4124,7 +4146,7 @@
 					<description>
 						<de>Was in Fabletown während Boy Blues Abenteuern passiert ist.</de>
 						<en>What has been going on in Fabletown during Boy Blue's adventures.</en> 
-						<pl>Co działo się w Fabletown podczas przygód Boya Blue.</pl><!-- TODO: Make ref Boy Blue -->
+						<pl>Co działo się w Bajkowym Mieście podczas przygód Boya Blue.</pl><!-- TODO: Make ref Boy Blue -->
 					</description>
 				</scripttemplate>
 				<scripttemplate index="5" product="2" licence_type="2" guid="e0b19159-69b4-4d8e-bbac-c30a8488a6aa">
@@ -4184,7 +4206,7 @@
 					<description>
 						<de>Mowgli sucht nach dem vermissten ${.self:"role":1:"firstname"} und bringt ihm eine Nachricht aus Fabletown.</de>
 						<en>Mowgli searches for the missing ${.self:"role":1:"firstname"} and brings him a message from Fabletown.</en> 
-						<pl>Mowgli poszukuje zaginionego ${.self:"role":1:"firstname"} i przynosi mu wiadomość z Fabletown.</pl><!-- TODO: Make ref Mowgli -->
+						<pl>Mowgli poszukuje zaginionego ${.self:"role":1:"firstname"} i przynosi mu wiadomość z Bajkowego Miasta.</pl><!-- TODO: Make ref Mowgli -->
 					</description>
 					<jobs>
 						<job index="16" function="2" required="1" role_guid="12543516-3a0f-40fe-8eab-10ff7d799dab"/>
@@ -4253,7 +4275,7 @@
 					<description>
 						<de>${.self:"role":1:"firstname"} kehrt zurück nach Fabletown, überbringt dem Feind eine Warnung und heiratet ${.self:"role":2:"firstname"}.</de>
 						<en>${.self:"role":1:"firstname"} returns to Fabletown, delivers a warning to the Adversary and marries ${.self:"role":2:"firstname"}.</en>
-						<pl>${.self:"role":1:"firstname"} wraca do Fabletown, ostrzega Adwersarza i poślubia ${.self:"role":2:"firstname"}.</pl>
+						<pl>${.self:"role":1:"firstname"} wraca do Bajkowego Miasta, ostrzega Adwersarza i poślubia ${.self:"role":2:"firstname"}.</pl>
 					</description>
 					<effects>
 						<effect trigger="broadcastFirstTime" type="modifyScriptAvailability" enable="1" guid="89d9d6e9-7348-4894-86c3-18f64aa25d85"/>
@@ -4290,7 +4312,7 @@
 					<description>
 						<de>Der Feind ruft zu einer Konferenz der kaiserlichen Elite auf, um über das weitere Vorgehen mit Fabletown zu entscheiden. Pinocchio muss sich für eine Seite entscheiden.</de>
 						<en>The Adversary calls a conference of the Imperial elite to decide what to do about Fabletown. Pinocchio has to face up to his divided loyalties.</en> 
-						<pl>Adwersarz zwołuje konferencję elity imperialnej, aby zdecydować, co zrobić z Fabletown. Pinokio musi stawić czoła swoim podzielonym lojalnościom.</pl><!-- TODO: make ref Pinocchio -->
+						<pl>Adwersarz zwołuje konferencję elity imperialnej, aby zdecydować, co zrobić z Bajkowym Miastem. Pinokio musi stawić czoła swoim podzielonym lojalnościom.</pl><!-- TODO: make ref Pinocchio -->
 					</description>
 					<jobs>
 						<job index="17" function="2" required="1" role_guid="5c05a19e-fbac-4f5a-8edc-40c429c1a337"/>
@@ -4483,7 +4505,7 @@
 					<description>
 						<de>Fabletown und das Imperium ziehen in den Krieg.</de>
 						<en>Fabletown and the Empire go to war.</en>
-						<pl>Fabletown i Imperium toczą wojnę.</pl>
+						<pl>Baśniowe miasto i Imperium toczą wojnę.</pl>
 					</description>
 					<jobs>
 						<job index="17" function="2" required="1" role_guid="cee85b5e-2c7d-4c2b-a507-bd6e1c6e898d"/>
@@ -4504,7 +4526,7 @@
 					<description>
 						<de>Fabletowns neuestes Mitglied erhält eine Führung durch die Stadt, sehr zum Missfallen einiger anderer Bewohner.</de>
 						<en>Fabletown's newest member is given a tour, much to the displeasure of some of the other residents.</en>
-						<pl>Najnowszy mieszkaniec Fabletown zostaje oprowadzony po mieście, ku niezadowoleniu niektórych pozostałych mieszkańców.</pl>
+						<pl>Najnowszy mieszkaniec Baśniowego Miasta zostaje oprowadzony po mieście, ku niezadowoleniu niektórych pozostałych mieszkańców.</pl>
 					</description>
 					<jobs>
 						<job index="17" function="2" required="1" role_guid="b1fe150d-dd8e-402d-b1ab-894129568b38"/>
@@ -4524,7 +4546,7 @@
 					<description>
 						<de>Eine neue Ära beginnt, als die Bewohner von Fabletown die Nachwirkungen des Krieges zu spüren bekommen. Neue Herausforderungen entstehen, und in einem fernen Land ist eine dunkle Macht erwacht.</de>
 						<en>A new era begins as the residents of Fabletown face the aftermath of the war. New challenges arise at home and in a distant land a dark power is awakened.</en>
-						<pl>Rozpoczyna się nowa era, gdy mieszkańcy Fabletown stają w obliczu skutków wojny. Nowe wyzwania pojawiają się w domu, a w odległej krainie budzi się ciemna moc.</pl>
+						<pl>Rozpoczyna się nowa era, gdy mieszkańcy Baśniowego Miasta stają w obliczu skutków wojny. Nowe wyzwania pojawiają się w domu, a w odległej krainie budzi się ciemna moc.</pl>
 					</description>
 					<jobs>
 						<job index="17" function="2" required="1" role_guid="2e366ce8-f292-4483-acb0-4a83b7808133"/> <!-- TODO: for now, 'Einstellungen übernehmen' will reuse same actor for a different role here -->
@@ -4663,7 +4685,7 @@
 					<title>
 						<de>Der Zauberspruch der ${.self:"role":2:"firstname"}</de>
 						<en>${.self:"role":2:"firstname"} Magic</en>
-						<pl>${.self:"role":2:"firstname"} Magia</pl>
+						<pl>Magia ${.self:"role":2:"firstname"}a</pl>
 					</title>
 					<title_original>
 						<de>Chamäleon Zauber</de>
@@ -4693,7 +4715,7 @@
 					<description>
 						<de>König ${.self:"role":3:"firstname"} hat ${.self:"role":1:"firstname"}, der nun verheiratet mit ${.self:"role":2:"firstname"} ist, zum offiziellen Forscher ernannt, der nun die Aufgabe hat, das Geheimnis der Magie des Landes zu ergründen und herauszufinden, woher sie kommt.</de>
 						<en>King ${.self:"role":3:"firstname"} has appointed ${.self:"role":1:"firstname"}, who is now married to ${.self:"role":2:"firstname"}, the Official Researcher, who is now tasked to discover the secret behind the magic of the land and where it comes from.</en>
-						<pl>Król ${.self:"role":3:"firstname"} mianował ${.self:"role":1:"firstname"}, która jest obecnie żoną ${.self:"role":2:"firstname"}, Oficjalnym Badaczem. Zadaniem badacza jest teraz odkrycie tajemnicy stojącej za magią tej krainy i ustalenie, skąd ona pochodzi.</pl>
+						<pl>Król ${.self:"role":3:"firstname"} mianował ${.self:"role":1:"firstname"}a, która jest obecnie żoną ${.self:"role":2:"firstname"}, Oficjalnym Badaczem. Zadaniem badacza jest teraz odkrycie tajemnicy stojącej za magią tej krainy i ustalenie, skąd ona pochodzi.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate index="2" product="2" licence_type="2" guid="8e98489a-ccb1-4759-9c43-c91cd81acd2d">
@@ -4767,7 +4789,7 @@
 					<description>
 						<de>${.self:"role":2:"firstname"} ist vorübergehend König, weil ${.self:"role":1:"firstname"} auf einer Mission in Mundania ist. Als er nicht zurückzukehren scheint, begibt er sich auf eine Reise, um Hilfe zu holen, und trifft dabei auf ${.self:"role":3:"firstname"} den Zentauren.</de>
 						<en>${.self:"role":2:"firstname"} is temporarily king because ${.self:"role":1:"firstname"} is on a mission in the Mundane World. When he won't seem to return, he embarks on a journey to get some help and meets ${.self:"role":3:"firstname"} the Centaur.</en>
-						<pl>${.self:"role":2:"firstname"} jest tymczasowo królem, ponieważ ${.self:"role":1:"firstname"} jest na misji w Mundane World. Kiedy nie chce wracać, wyrusza w podróż, aby uzyskać pomoc i spotyka ${.self:"role":3:"firstname"} Centaura.</pl>
+						<pl>${.self:"role":2:"firstname"} jest tymczasowo królem, ponieważ ${.self:"role":1:"firstname"} jest na misji w Ziemskim Świecie. Kiedy nie chce wracać, wyrusza w podróż, aby uzyskać pomoc i spotyka ${.self:"role":3:"firstname"} Centaura.</pl>
 					</description>
 					<effects>
 						<effect trigger="broadcastFirstTime" type="modifyScriptAvailability" guid="f06a42e2-b666-4353-bc53-a0b262071814"/>
@@ -4862,7 +4884,7 @@
 					<description>
 						<de>${.self:"role":1:"firstname"} und sein Sohn ${.self:"role":2:"firstname"} treffen am Jungbrunnen auf den Spaltendrachen. ${.self:"role":1:"firstname"} und der Drache werden versehentlich zu Babys zurückverwandelt. Prinzessin ${.self:"role":3:"firstname"} begegnet ${.self:"role":2:"firstname"} und macht ihn klüger, mutiger und stärker.</de>
 						<en>${.self:"role":1:"firstname"} and his son ${.self:"role":2:"firstname"} run into the Gap dragon at the Fountain of Youth. ${.self:"role":1:"firstname"} and the dragon accidentally regress to babies. Princess ${.self:"role":3:"firstname"} comes across ${.self:"role":2:"firstname"} and makes him smarter, braver, and stronger.</en>
-						<pl>${.self:"role":1:"firstname"} i jego syn ${.self:"role":2:"firstname"} wpadają na smoka Gap przy Fountain of Youth. ${.self:"role":1:"firstname"} i smok przypadkowo cofają się do stanu niemowlęcego. Księżniczka ${.self:"role":3:"firstname"} spotyka ${.self:"role":2:"firstname"} i sprawia, że ​​staje się on mądrzejszy, odważniejszy i silniejszy.</pl>
+						<pl>${.self:"role":1:"firstname"} i jego syn ${.self:"role":2:"firstname"} wpadają na smoka Gap przy Fontannie młodości. ${.self:"role":1:"firstname"} i smok przypadkowo cofają się do stanu niemowlęcego. Księżniczka ${.self:"role":3:"firstname"} spotyka ${.self:"role":2:"firstname"} i sprawia, że ​​staje się on mądrzejszy, odważniejszy i silniejszy.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate index="1" product="2" licence_type="2" guid="d1bf5449-a215-446c-b792-363758d3e42c">
@@ -4934,7 +4956,7 @@
 			<title_original>
 				<de>Operation: Mindcrime (Staffel 1)</de>
 				<en>Operation: Mindcrime (Season 1)</en>
-				<pl>Operacja: Mindcrime (Sezon 1)</pl>
+				<pl>Operacja: Zbrodnie umysłowe (Sezon 1)</pl>
 			</title_original>
 			<description>
 				<de>Ein desillusionierter Drogenabhängiger, der zu einem gehirngewaschenen Attentäter für eine revolutionäre Geheimorganisation wird, verliebt sich und versucht herauszufinden, wer er ist.</de>
@@ -5005,7 +5027,7 @@
 					<title_original>
 						<de>Operation: Gedankenverbrechen</de>
 						<en>Operation: Mindcrime</en>
-						<pl>Operacja: Mindcrime</pl>
+						<pl>Operacja: Zbrodnie umysłowe</pl>
 					</title_original>
 					<description>
 						<de>Immer wenn ${.self:"role":3:"fullname"} das Wort „Mindcrime“ benutzt, wird ${.self:"role":1:"firstname"} zu seiner gefügigen Marionette, ein Zustand, den ${.self:"role":3:"fullname"} dazu benutzt, ${.self:"role":1:"firstname"} zu befehlen, jeden beliebigen Mord zu begehen.</de>
@@ -5314,7 +5336,7 @@
 					<title_original>
 						<de>Noch eine regnerische Nacht</de>
 						<en>Another Rainy Night</en>
-					<pl>Kolejna deszczowa noc</pl>
+						<pl>Kolejna deszczowa noc</pl>
 				</title_original>
 					<description>
 						<de>Johnny, der von Reue geplagt wird, kanalisiert seine Emotionen und seine Gefühle für ${.self:"role":2:"firstname"} in seine Musik. Seine Eifersucht wächst, als er Zeuge der Nähe zwischen ${.self:"role":1:"firstname"} und ${.self:"role":2:"firstname"} wird, was zu heftigen Konflikten innerhalb der Band führt.</de>
@@ -5458,7 +5480,7 @@
 			<title_original>
 				<de>Operation: Mindcrime (Staffel 2)</de>
 				<en>Operation: Mindcrime (Season 2)</en>
-				<pl>Operacja: Mindcrime (Sezon 2)</pl>
+				<pl>Operacja: Zbrodnie umysłowe (Sezon 2)</pl>
 			</title_original>
 			<description>
 				<de>${.self:"role":1:"firstname"} war für den Mord an Sister ${.self:"role":2:"firstname"} inhaftiert worden, wobei er seinen Verstand verlor, da er durch die Bewußtseinskontrolle wirklich nicht wusste, wer ${.self:"role":2:"firstname"} getötet hatte, und er ihr vor ihrem Tod sehr nahe stand.</de>
@@ -6192,71 +6214,86 @@
 					<title>
 						<de>Erscheinungen</de>
 						<en>Apparitions</en>
-						<pl>Objawienia</pl></title>
+						<pl>Objawienia</pl>
+					</title>
 					<title_original>
 						<de>Visionen</de>
 						<en>Visions</en>
-						<pl>Wizje</pl></title_original>
+						<pl>Wizje</pl>
+					</title_original>
 					<description>
 						<de>Die Bilder der Ausstellung mit vielen ihm unbekannten Darstellungen der Geschichte des Westens suchen ${.self:"role":1:"firstname"} weiterhin heim und führen zu fast surrealen meditativen Reflexionen, die ihn auf eine Reise der Selbstfindung führen.</de>
 						<en>The pictures from the exhibition with many representations of the history of the West unfamiliar to him continue to haunt ${.self:"role":1:"firstname"}, leading to almost surreal meditative reflections, providing guidance to a journey of self-discovery.</en>
-						<pl>Zdjęcia z wystawy, przedstawiające wiele nieznanych mu wątków z historii Zachodu, wciąż nie dają spokoju ${.self:"role":1:"firstname"}, skłaniając go do niemal surrealistycznych, medytacyjnych refleksji i wskazując drogę do samopoznania.</pl></description>
+						<pl>Zdjęcia z wystawy, przedstawiające wiele nieznanych mu wątków z historii Zachodu, wciąż nie dają spokoju ${.self:"role":1:"firstname"}, skłaniając go do niemal surrealistycznych, medytacyjnych refleksji i wskazując drogę do samopoznania.</pl>
+					</description>
 				</scripttemplate>
 				<scripttemplate index="6" product="2" licence_type="2" guid="9e175430-ebd4-43e8-aa3f-2b962229bc22">
 					<title>
 						<de>Ich sehe dich fallen</de>
 						<en>See You Tumbling</en>
-						<pl>Do zobaczenia na przewrotach</pl></title>
+						<pl>Do zobaczenia na przewrotach</pl>
+					</title>
 					<title_original>
 						<de>Ich sehe dich fallen</de>
 						<en>Watching You Fall</en>
-						<pl>Oglądanie Twojego upadku</pl></title_original>
+						<pl>Oglądanie Twojego upadku</pl>
+					</title_original>
 					<description>
 						<de>Durch einen an der Wand montierten Fernseher in einem Motel, der globale Ungerechtigkeiten und einen heuchlerischen Prediger zeigt, wird ${.self:"role":1:"firstname"} weiterhin Zeuge der Grausamkeiten des Westens. Dies weckt in ihm den Wunsch, die Welt positiv zu beeinflussen.</de>
 						<en>Through a wall-mounted TV in a motel displaying global injustices and a hypocritical preacher, ${.self:"role":1:"firstname"} continues to witness the atrocities of the West. This stirs a desire to make a positive impact on the world.</en>
-						<pl>Poprzez zamontowany na ścianie telewizor w motelu, wyświetlający globalne niesprawiedliwości i obłudnego kaznodzieję, ${.self:"role":1:"firstname"} nadal jest świadkiem okrucieństw Zachodu. To budzi pragnienie wywarcia pozytywnego wpływu na świat.</pl></description>
+						<pl>Poprzez zamontowany na ścianie telewizor w motelu, wyświetlający globalne niesprawiedliwości i obłudnego kaznodzieję, ${.self:"role":1:"firstname"} nadal jest świadkiem okrucieństw Zachodu. To budzi pragnienie wywarcia pozytywnego wpływu na świat.</pl>
+					</description>
 				</scripttemplate>
 				<scripttemplate index="7" product="2" licence_type="2" guid="7f0aa015-b1d8-4260-b1b6-3b619eb3207d">
 					<title>
 						<de>Nichts ist los</de>
 						<en>Nothing Is Happening</en>
-						<pl>Nic się nie dzieje</pl></title>
+						<pl>Nic się nie dzieje</pl>
+					</title>
 					<title_original>
 						<de>Nichts ist los</de>
 						<en>Nothing's Going On</en>
-						<pl>Nic się nie dzieje</pl></title_original>
+						<pl>Nic się nie dzieje</pl>
+					</title_original>
 					<description>
 						<de>${.self:"role":1:"firstname"} steht vor einem moralischen Dilemma und stellt den Status quo und die Gleichgültigkeit in der Gesellschaft in Frage. Ihm wird klar, dass er für das, woran er glaubt, eintreten muss.</de>
 						<en>${.self:"role":1:"firstname"} faces moral dilemmas, questioning the status quo and societal indifference. He realizes that he must take a stand for what he believes in.</en>
-						<pl>${.self:"role":1:"firstname"} staje przed dylematami moralnymi, kwestionując status quo i społeczną obojętność. Zdaje sobie sprawę, że musi stanąć w obronie tego, w co wierzy.</pl></description>
+						<pl>${.self:"role":1:"firstname"} staje przed dylematami moralnymi, kwestionując status quo i społeczną obojętność. Zdaje sobie sprawę, że musi stanąć w obronie tego, w co wierzy.</pl>
+					</description>
 				</scripttemplate>
 				<scripttemplate index="8" product="2" licence_type="2" guid="cf033757-a807-45fb-bf31-202545ff8f95">
 					<title>
 						<de>Perfekter Spiegel</de>
 						<en>Perfect Mirror</en>
-						<pl>Idealne lustro</pl></title>
+						<pl>Idealne lustro</pl>
+					</title>
 					<title_original>
 						<de>Symmetrie</de>
 						<en>Symmetry</en>
-						<pl>Symetria</pl></title_original>
+						<pl>Symetria</pl>
+					</title_original>
 					<description>
 						<de>${.self:"role":1:"firstname"} hat ein großes Interesse an Kunst entwickelt und findet Trost in der Unvergänglichkeit von Kunst. Er begreift, dass seine Reise Teil eines größeren Gewebes ist.</de>
 						<en>${.self:"role":1:"firstname"} has become very interested in art and finds solace in art's eternal nature. He understands that his journey is part of a grander tapestry.</en>
-						<pl>${.self:"role":1:"firstname"} bardzo zainteresował się sztuką i znajduje ukojenie w jej wiecznej naturze. Rozumie, że jego podróż jest częścią wspanialszej tkaniny.</pl></description>
+						<pl>${.self:"role":1:"firstname"} bardzo zainteresował się sztuką i znajduje ukojenie w jej wiecznej naturze. Rozumie, że jego podróż jest częścią wspanialszej tkaniny.</pl>
+					</description>
 				</scripttemplate>
 				<scripttemplate index="9" product="2" licence_type="2" guid="b5e7ce21-20da-46bf-b51f-fc3e1eaa4dc1">
 					<title>
 						<de>Du atmest alleine</de>
 						<en>Respire On Your Own</en>
-						<pl>Oddychaj samodzielnie</pl></title>
+						<pl>Oddychaj samodzielnie</pl>
+					</title>
 					<title_original>
 						<de>Du atmest alleine</de>
 						<en>Alone You Breathe</en>
-						<pl>Tylko Ty Oddychasz</pl></title_original>
+						<pl>Tylko Ty Oddychasz</pl>
+					</title_original>
 					<description>
 						<de>Als ${.self:"role":1:"firstname"} ein letztes Mal in die Bar zurückkehrt, beschließt er, sich zu seinen Wurzeln und seiner Herkunft zu bekennen, und mit neu gewonnener Klarheit in sein Heimatland zurückzukehren und als Katalysator für positive Veränderungen in seiner Gemeinde zu wirken.</de>
 						<en>As ${.self:"role":1:"firstname"} returns to the bar for one last time, he decides to embrace his roots and his heritage and, with newfound clarity, to return to his homeland, as a catalyst for positive change in his community.</en>
-						<pl>Kiedy ${.self:"role":1:"firstname"} po raz ostatni wraca do baru, postanawia pielęgnować swoje korzenie i dziedzictwo, a z nową jasnością powrócić do ojczyzny jako katalizator pozytywnych zmian w swojej społeczności.</pl></description>
+						<pl>Kiedy ${.self:"role":1:"firstname"} po raz ostatni wraca do baru, postanawia pielęgnować swoje korzenie i dziedzictwo, a z nową jasnością powrócić do ojczyzny jako katalizator pozytywnych zmian w swojej społeczności.</pl>
+					</description>
 				</scripttemplate>
 			</children>
 			<jobs>
@@ -6284,7 +6321,7 @@
 			<title>
 				<de>${dead} ${winter} in ${sarajevo}</de>
 				<en>${dead} ${winter} in ${sarajevo}</en>
-				<pl>${martwy} ${zima} w ${sarajewie}</pl>
+				<pl>${dead} ${winter} w ${sarajevo}</pl>
 			</title>
 			<title_original>
 				<de>${title_original_optional}</de>
@@ -6300,7 +6337,7 @@
 				<title_original_optional>
 					<de>Dead Winter Dead|Tot Winter Tot|Tot Winter Tod|Toter Wintertod|Tote Winterstarre|Toter Winter in Sarjevo|${dead} ${winter} in ${sarajevo}</de>
 					<en>Dead Winter Dead|Dead Winter Dead|Dead Winter Death|Dead Winter Death|Dead Winter Dead|Dead Winter in Sarajevo|${dead} ${winter} in ${sarajevo}</en>
-					<pl>Martwa zima Martwa|Martwa zima Martwa|Martwa zima Śmierć|Martwa zima Śmierć|Martwa zima Martwa|Martwa zima w Sarajewie|${dead} ${winter} w ${sarajewie}</pl>
+					<pl>Martwa zima nie żyje|Martwa zima martwa|Martwa zima śmierci|Martwa zima śmierci|Martwa zima martwa|Martwa zima w Sarajewie|${dead} ${winter} w ${sarajevo}</pl>
 				</title_original_optional>
 				<dead>
 					<de>Toter|Karger|Kalter|Trostloser|Trister|Rauer</de>
@@ -6310,12 +6347,12 @@
 				<winter>
 					<de>Winter|Schnee|Schneeregen|Eisregen|Frost</de>
 					<en>Winter|Snow|Rain and Snow|Freezing Rain|Frost</en>
-					<pl>Zima|Śnieg|Deszcz i śnieg|Marznący deszcz|Mróz</pl>
+					<pl>Lód|Śnieg|Deszcz i śnieg|Marznący deszcz|Mróz</pl>
 				</winter>
 				<sarajevo>
 					<de>Sarajevo|Bosnien|Serbien|Jugoslawien</de>
 					<en>Sarajevo|Bosnia|Serbia|Yugoslavia</en>
-					<pl>Sarajewo|Bośnia|Serbia|Jugosławia</pl>
+					<pl>Sarajewie|Bośnii|Serbii|Jugosławii</pl>
 				</sarajevo>
 			</variables>
 			<children>
@@ -6442,7 +6479,7 @@
 					<title>
 						<de>${dead} ${winter}</de>
 						<en>${dead} ${winter}</en>
-						<pl>${martwy} ${zima}</pl>
+						<pl>${dead} ${winter}</pl>
 					</title>
 					<title_original>
 						<de>${title_original_optional}</de>
@@ -6653,11 +6690,13 @@
 					<title>
 						<de>Teufel der fallenden Blätter</de>
 						<en>Devil of the Fall</en>
-						<pl>Diabeł Upadku</pl></title>
+						<pl>Diabeł Upadku</pl>
+					</title>
 					<title_original>
 						<de>Dämon der fallenden Blätter</de>
 						<en>Demon of the Fall</en>
-						<pl>Demon Upadku</pl></title_original>
+						<pl>Demon Upadku</pl>
+					</title_original>
 					<description>
 						<de>Herbst. ${.self:"role":1:"firstname"} schafft es endlich, vor ${.self:"role":2:"firstname"} zu erscheinen. Sie sieht ihn ehrfürchtig an - und läuft davon. „Und verloren hatte sie, in mir, ihren ${.self:"parent":"episodes":6:"title"}.“</de>
 						<en>Autumn. ${.self:"role":1:"firstname"} finally manages to appear before ${.self:"role":2:"firstname"}. She faces him in awe - and runs away. "And she had lost in me, her ${.self:"parent":"episodes":6:"title"}."</en>
@@ -6828,7 +6867,7 @@
 					<title>
 						<de>${.self:"role":2:"firstname"}s Antlitz</de>
 						<en>${.self:"role":2:"firstname"}'s Countenance</en>
-						<pl>Wyraz twarzy ${.self:"role":2:"firstname"}</pl>
+						<pl>${.self:"role":2:"firstname"} i jej twarz</pl>
 					</title>
 					<title_original>
 						<de>Melindas Gesicht</de>
@@ -7151,11 +7190,13 @@
 					<title>
 						<de>Das Gebell der Hunde</de>
 						<en>The Roaring of the Hounds</en>
-						<pl>Ryczenie psów</pl></title>
+						<pl>Ryczenie psów</pl>
+					</title>
 					<title_original>
 						<de>Das Gebell der Hunde</de>
 						<en>The Baying of the Hounds</en>
-						<pl>Wycie psów</pl></title_original>
+						<pl>Wycie psów</pl>
+					</title_original>
 					<description>
 						<de>Rückblende: ${.self:"role":1:"firstname"} flieht vom Schauplatz eines Rituals, und die Höllenhunde des Teufels jagen ihn. Er wird überwältigt und unterwirft sich.</de>
 						<en>Flashback: ${.self:"role":1:"firstname"} is running from the scene of a ritual, and the devil's hell hounds are chasing him. He is overcome and submits.</en>
@@ -7250,7 +7291,8 @@
 					<title>
 						<de>Jahre der Isolation</de>
 						<en>Years of Separation</en>
-						<pl>Lata rozłąki</pl></title>
+						<pl>Lata rozłąki</pl>
+					</title>
 					<title_original>
 						<de>Jahre der Isolation</de>
 						<en>Isolation Years</en>
@@ -7305,57 +7347,58 @@
 			<description>
 				<de>${.self:"role":1:"firstname"}s Freundin ${.self:"role":2:"firstname"} wurde entführt vom verrückten Professor Dr. ${.self:"role":5:"firstname"}! Er und seine Freunde wollen sie aus dessen Villa befreien. Dort gehen noch viel mehr merkwürdige Dinge vor sich! Und wo ist Benzin für die Kettensäge, wenn man's mal braucht.</de>
 				<en>${.self:"role":1:"firstname"}'s girlfriend ${.self:"role":2:"firstname"} has been kidnapped by the mad professor Dr. ${.self:"role":5:"firstname"}! He and his friends want to free her from his mansion. There are a lot more strange things going on there! And where is gasoline for the chainsaw when you need it.</en>
-				<pl>Dziewczyna ${.self:"role":1:"firstname"}, ${.self:"role":2:"firstname"}, została porwana przez szalonego profesora dr. ${.self:"role":5:"firstname"}! On i jego przyjaciele chcą ją uwolnić z jego rezydencji. Dzieje się tam o wiele więcej dziwnych rzeczy! I gdzie jest benzyna do piły łańcuchowej, kiedy jej potrzebujesz.</pl>
+				<pl>Dziewczyna ${.self:"role":1:"firstname"}'a, ${.self:"role":2:"firstname"}, została porwana przez szalonego profesora dr. ${.self:"role":5:"firstname"}a! On i jego przyjaciele chcą ją uwolnić z jego rezydencji. Dzieje się tam o wiele więcej dziwnych rzeczy! I gdzie jest benzyna do piły łańcuchowej, kiedy jej potrzebujesz.</pl>
 			</description>
 			<variables>
 				<title_spoofed>
 					<de>Der ${adj} ${house_m}|Die ${adj} ${house_f}|Das ${adj} ${house_n}</de>
 					<en>The ${adj} ${house_m}|The ${adj} ${house_f}|The ${adj} ${house_n}</en>
-					<pl>Dom ${adj} ${house_m}|Dom ${adj} ${house_f}|Dom ${adj} ${house_n}</pl>
+					<pl>${adj} ${house_m}|${adj} ${house_f}|${adj} ${house_n}</pl>
 				</title_spoofed>
 				<title_original_optional>
 					<de>Maniac Mansion|Der ${adj_o} ${house_m_o}|Die ${adj_o} ${house_f_o}|Das ${adj} ${house_n_o}</de>
 					<en>Maniac Mansion|The ${adj_o} ${house_m_o}|The ${adj_o} ${house_f_o}|The ${adj} ${house_n_o}</en>
-					<pl>Maniac Mansion|${adj_o} ${house_m_o}|${adj_o} ${house_f_o}|${adj} ${house_n_o}</pl>
+					<pl>Maniac Mansion|Maniac Mansion -${adj_o} ${house_m_o}|Maniac Mansion - ${adj_o} ${house_f_o}|Maniac Mansion - ${adj_o} ${house_n_o}</pl>
 				</title_original_optional>
 				<adj>
 					<de>Wahnwitzige|Verrückte|Irrwitzige|Durchgeknallte|Geisteskranke|Irrsinnige|Aberwitzige|Manische|Wahnsinnige|Absurde|Groteske|Bizarre|Abgedrehte</de>
 					<en>Lunatic|Crazy|Mad|Frenzied|Frantic|Insane|Ludicrous|Manic|Maniacal|Absurd|Grotesque|Bizarre|Wacky</en>
-					<pl>Szalony|Wściekły|Oszalały|Rozgorączkowany|Obłąkany|Śmieszny|Maniacki|Maniakalny|Absurdalny|Groteskowy|Dziwaczny|Odlotowy</pl></adj>
+					<pl>Szalona|Wściekła|Oszalała|Rozgorączkowana|Obłąkana|Śmieszna|Maniacka|Maniakalna|Absurdalna|Groteskowa|Dziwaczna|Odlotowa</pl>
+				</adj>
 				<adj_o>
 					<de>Manische|Wahnwitzige|Verrückte|Irrwitzige|Durchgeknallte|Geisteskranke|Irrsinnige|Aberwitzige|Manische|Wahnsinnige|Absurde|Groteske|Bizarre|Abgedrehte</de>
 					<en>Maniac|Lunatic|Crazy|Mad|Frenzied|Frantic|Insane|Ludicrous|Manic|Maniacal|Absurd|Grotesque|Bizarre|Wacky</en>
-					<pl>Maniak|Wariat|Szalony|Wściekły|Oszalały|Fantastyczny|Obłąkany|Śmieszny|Maniacki|Maniakalny|Absurdalny|Groteskowy|Dziwaczny|Odlotowy</pl>
+					<pl>Maniakalny|Wariacki|Szalony|Wściekły|Oszalały|Fantastyczny|Obłąkany|Śmieszny|Maniacki|Maniakalny|Absurdalny|Groteskowy|Dziwaczny|Odlotowy</pl>
 				</adj_o>
 				<house_m>
 					<de>Landsitz</de>
 					<en>Country Estate</en>
-					<pl>Majątek wiejski</pl>
+					<pl>Posiadłość</pl>
 				</house_m>
 				<house_m_o>
 					<de>Landsitz|Landsitz</de>
 					<en>Country Estate|Mansion</en>
-					<pl>Majątek wiejski|Dwór</pl>
+					<pl>majątek wiejski|dwór</pl>
 				</house_m_o>
 				<house_f>
 					<de>Villa|Residenz</de>
 					<en>Villa|Residence</en>
-					<pl>Willa|Rezydencja</pl>
+					<pl>willa|rezydencja</pl>
 				</house_f>
 				<house_f_o>
 					<de>Villa|Residenz|Villa</de>
 					<en>Villa|Residence|Mansion</en>
-					<pl>Willa|Rezydencja|Dwór</pl>
+					<pl>dwór|domek wiejski|dom wariatów</pl>
 				</house_f_o>
 				<house_n>
 					<de>Herrenhaus|Gutshaus|Anwesen|Landhaus|Tollhaus</de>
 					<en>Manor|Farmhouse|Estate|Country House|Madhouse</en>
-					<pl>Dwór|Dom wiejski|Posiadłość|Domek wiejski|Dom wariatów</pl>
+					<pl>willa|rezydencja|posiadłość|zagroda|zagroda wiejska</pl>
 				</house_n>
 				<house_n_o>
 					<de>Herrenhaus|Gutshaus|Anwesen|Landhaus|Tollhaus|Landhaus</de>
 					<en>Manor|Farmhouse|Estate|Country House|Madhouse|Mansion</en>
-					<pl>Dwór|Dom wiejski|Posiadłość|Domek wiejski|Dom wariatów|Dworek</pl>
+					<pl>dwór|dom wiejski|domek na wsi|domek wiejski|dom wariatów|dworek</pl>
 				</house_n_o>
 			</variables>
 			<jobs>
@@ -7391,7 +7434,8 @@
 			<title>
 				<de>${Revenge} des Tentakels</de>
 				<en>The ${Revenge} of the Tentacle</en>
-				<pl>${Zemsta} Macki</pl></title>
+				<pl>${Revenge} Macki</pl>
+			</title>
 			<title_original>
 				<de>${title_original_optional}</de>
 				<en>${title_original_optional}</en>
@@ -7411,7 +7455,7 @@
 				<title_original_optional>
 					<de>${Revenge} des Tentakels|Der Tag des Tentakels|Der Große Tag des Tentakels|Day of the Tentacle</de>
 					<en>The ${Revenge} of the Tentacle|The Day of the Tentacle|The Grand Day of the Tentacle|Day of the Tentacle</en>
-					<pl>${Zemsta} Macki|Dzień Macki|Wielki Dzień Macki|Dzień Macki</pl>
+					<pl>Day of the Tentacle - ${Revenge} Macki|Day of the Tentacle - Dzień Macki|Day of the Tentacle - Wielki Dzień Macki|Day of the Tentacle - Dzień Macki</pl>
 				</title_original_optional>
 			</variables>
 			<jobs>
@@ -7448,7 +7492,7 @@
 			<title>
 				<de>${myname}${.self:"role":1:"fullname"}, ${roving} Reporter</de>
 				<en>Hi, ${.self:"role":1:"fullname"}${myname}, ${roving} Reporter</en>
-				<pl>Cześć, ${.self:"role":1:"fullname"}${myname}, ${roving} Reporter</pl>
+				<pl>Cześć, ${myname} ${.self:"role":1:"fullname"}, ${roving} Reporter</pl>
 			</title>
 			<title_original>
 				<de>${title_original_optional}</de>
@@ -7464,7 +7508,7 @@
 				<title_original_optional>
 					<de>${.self:"role":1:"fullname"} and the Alien Mindbenders|${.self:"role":1:"fullname"} und die außerirdischen Gedankenverdreher|${myname}${.self:"role":1:"fullname"}, ${roving} Reporter</de>
 					<en>${.self:"role":1:"fullname"} and the Alien Mindbenders|${.self:"role":1:"fullname"} and the Alien Mindbenders|Hi, ${.self:"role":1:"fullname"}${myname}, ${roving} Reporter</en>
-					<pl>${.self:"role":1:"fullname"} i Alien Mindbenders|${.self:"role":1:"fullname"} i Alien Mindbenders|Cześć, ${.self:"role":1:"fullname"}${myname}, ${roving} Reporter</pl>
+					<pl>${.self:"role":1:"fullname"} i Obcy|${.self:"role":1:"fullname"} i Obcy łamacze mózgów|Cześć, ${myname} ${.self:"role":1:"fullname"}, ${roving} reporter</pl>
 				</title_original_optional>
 				<myname>
 					<de>Hi, |Gestatten, |</de>
@@ -7504,12 +7548,12 @@
 			<title>
 				<de>${askmeabout}Weave - Das Zeitalter der Großen Gilden</de>
 				<en>${askmeabout}Weave - The Age of the Great Guilds</en>
-				<pl>${askmeabout}Weave - Wiek Wielkich Gildii</pl>
+				<pl>${askmeabout}tkanie - Wiek Wielkich Gildii</pl>
 			</title>
 			<title_original>
 				<de>${askmeabout}Loom - Das Zeitalter der Großen Gilden</de>
 				<en>${askmeabout}Loom - The Age of the Great Guilds</en>
-				<pl>${askmeabout}Loom - Wiek Wielkich Gildii</pl>
+				<pl>${askmeabout}krosno - Wiek Wielkich Gildii</pl>
 			</title_original>
 			<description>
 				<de>Die Weber perfektionierten ihr Handwerk so, dass sie das Gewebe der Wirklichkeit selbst flechten können, wurden auf eine Insel verbannt und mit der Zeit unfruchtbar. ${.self:"role":2:"fullname"} webt ein Kind, erzürnt die Ältesten und wird in einen Schwan verwandelt.</de>
@@ -7520,7 +7564,7 @@
 				<askmeabout>
 					<de>Frag mich über |Erzähl mir über |</de>
 					<en>Ask Me About |Tell Me About |</en>
-					<pl>Zapytaj mnie o |Powiedz mi o |</pl>
+					<pl>Zapytaj mnie o |Co to jest |</pl>
 				</askmeabout>
 			</variables>
 			<children>
@@ -7640,12 +7684,12 @@
 			<title>
 				<de>Das ${donkeybay_object_reference}-${mystery_object_reference}</de>
 				<en>The ${mystery_object_reference} of ${donkeybay_object_reference}</en>
-				<pl>${mystery_object_reference} obiektu ${donkeybay_object_reference}</pl>
+				<pl>${mystery_object_reference} ${donkeybay_object_reference}</pl>
 			</title>
 			<title_original>
 				<de>Das ${donkeybay_object_reference}-${mystery_object_reference}</de>
 				<en>The ${mystery_object_reference} of ${donkeybay_object_reference}</en>
-				<pl>${mystery_object_reference} obiektu ${donkeybay_object_reference}</pl>
+				<pl>${mystery_object_reference} ${donkeybay_object_reference}</pl>
 			</title_original>
 			<description>
 				<de>Tief in der Karibik vor ein paar hundert Jährchen. Jungspund ${.self:"role":1:"fullname"} strandet auf einer Pirateninsel. Trifft sich aber gut, er wollte eh immer Pirat werden. Doch die Gegend wird heimgesucht von Geisterpirat ${.self:"role":3:"lastname"}. Und dann ist da noch die Liebe.</de>
@@ -7666,12 +7710,12 @@
 				<donkeybay_object_reference>
 					<de>${donkey}${bay}</de>
 					<en>${donkey} ${bay}</en>
-					<pl>${donkey} ${bay}</pl>
+					<pl>${bay} ${donkey}</pl>
 				</donkeybay_object_reference>
 				<donkeybay_object_reference_original>
 					<de>${donkey_o}${bay_o}</de>
 					<en>${donkey_o} ${bay_o}</en>
-					<pl>${donkey_o} ${bay_o}</pl>
+					<pl>${bay_o} ${donkey_o}</pl>
 				</donkeybay_object_reference_original>
 				<mystery_object_reference>
 					<de>${mystery}</de>
@@ -7691,27 +7735,27 @@
 				<mystery_o>
 					<de>Geheimnis|Mysterium|Rätsel|Geheimnis|Geheimnis</de>
 					<en>Secret|Mystery|Riddle|Enigma|Secret</en>
-					<pl>Tajemnica|Zagadka|Zagadka|Sekret</pl>
+					<pl>Tajemnica|Zagadka|Mit|Sekret</pl>
 				</mystery_o>
 				<donkey>
 					<de>Esels|Lemuren|Schimpansen|Pavian</de>
 					<en>Donkey|Lemure|Chimpanzee|Baboon</en>
-					<pl>Osioł|Lemur|Szympans|Pawian</pl>
+					<pl>Oślej|Lemurzej|Szympansiej|Pawianiej</pl>
 				</donkey>
 				<donkey_o>
 					<de>Affen|Esels|Lemuren|Schimpansen|Pavian|Affen</de>
 					<en>Monkey|Donkey|Lemure|Chimpanzee|Baboon|Monkey</en>
-					<pl>Małpa|Osioł|Lemur|Szympans|Pawian|Małpa</pl>
+					<pl>Małpiej|Oślej|Lemurzej|Szympansiej|Pawianiej|Małpiej</pl>
 				</donkey_o>
 				<bay>
 					<de>bucht|insel|eiland|riff|strand</de>
 					<en>Bay|Island|Isle|Reef|Shore</en>
-					<pl>Zatoka|Wyspa|Wyspa|Rafa|Brzeg</pl>
+					<pl>Zatoki|Wyspy|Wysepki|Rafy|Plaży</pl>
 				</bay>
 				<bay_o>
 					<de>insel|bucht|insel|eiland|riff|strand|insel</de>
 					<en>Island|Bay|Island|Isle|Reef|Shore|Island</en>
-					<pl>Wyspa|Zatoka|Wyspa|Wyspa|Rafa|Brzeg|Wyspa</pl>
+					<pl>Wyspy|Zatoki|Wysepki|Wyspy|Rafy|Zatoki|Plaży</pl>
 				</bay_o>
 			</variables>
 			<children>
@@ -7719,17 +7763,17 @@
 					<title>
 						<de>${hurlyeisland_object_reference}</de>
 						<en>${hurlyeisland_object_reference}</en>
-						<pl>${odniesienie do obiektu hurlyeisland}</pl>
+						<pl>${hurlyeisland_object_reference}</pl>
 					</title>
 					<title_original>
 						<de>${hurlyeisland_object_reference}</de>
 						<en>${hurlyeisland_object_reference}</en>
-						<pl>${odniesienie do obiektu hurlyeisland}</pl>
+						<pl>${hurlyeisland_object_reference}</pl>
 					</title_original>
 					<description>
 						<de>${.self:"role":1:"firstname"} ist erstmal auf ${hurlyeisland_object_reference} gestrandet und macht sich mit der eigentlich recht lauschigen Umgebung vertraut. Er trifft auf wegen ${.self:"role":3:"lastname"} vollkommen verängstigte Piraten, eigentlich gestandene Mannsbilder, und andere skurrile Gestalten.</de>
 						<en>${.self:"role":1:"firstname"} is stranded on ${hurlyeisland_object_reference} for now and familiarizes himself with the actually quite lush scenery. He meets pirates who are completely frightened because of ${.self:"role":3:"lastname"}, actually seasoned men, and other bizarre characters.</en>
-						<pl>${.self:"role":1:"firstname"} utknął na ${hurlyeisland_object_reference} i zapoznaje się z dość bujną scenerią. Spotyka piratów, którzy są całkowicie przestraszeni przez ${.self:"role":3:"lastname"}, w rzeczywistości doświadczonych mężczyzn i inne dziwne postacie.</pl>
+						<pl>${.self:"role":1:"firstname"} utknął na wyspie i zapoznaje się z dość bujną scenerią. Spotyka piratów, którzy są całkowicie przestraszeni przez ${.self:"role":3:"lastname"}, w rzeczywistości doświadczonych mężczyzn i inne dziwne postacie.</pl>
 					</description>
 					<effects>
 						<effect trigger="broadcastFirstTime" type="modifyScriptAvailability" guid="c48d5851-d9f8-4fc1-8d34-264dfa3f6384"/>
@@ -7841,12 +7885,12 @@
 					<title>
 						<de>${donkeybay_object_reference}</de>
 						<en>${donkeybay_object_reference}</en>
-						<pl>${odniesienie do obiektu_donkeybay}</pl>
+						<pl>Dotarcie do ${donkeybay_object_reference}</pl>
 					</title>
 					<title_original>
 						<de>${donkeybay_object_reference}</de>
 						<en>${donkeybay_object_reference}</en>
-						<pl>${odniesienie do obiektu_donkeybay}</pl>
+						<pl>Dotarcie do ${donkeybay_object_reference}</pl>
 					</title_original>
 					<description>
 						<de>Dort hinzukommen war schon aufreibend genug, der Legende nach kehrte auch nie jemand lebend zurück. Aber ${.self:"role":1:"firstname"} trifft am Strand zumindest schon mal einen Menschen. Der schiffbrüchige und etwas durchgeknallte Hendrik ist schon seit Jahren gestrandet dort.</de>
@@ -7875,12 +7919,12 @@
 					<title>
 						<de>${.self:"role":3:"lastname"}s Schiff</de>
 						<en>${.self:"role":3:"lastname"}'s ship</en>
-						<pl>Statek ${.self:"role":3:"lastname"}</pl>
+						<pl>Statek ${.self:"role":3:"lastname"}a</pl>
 					</title>
 					<title_original>
 						<de>${.self:"role":3:"lastname"}s Schiff</de>
 						<en>${.self:"role":3:"lastname"}'s ship</en>
-						<pl>Statek ${.self:"role":3:"lastname"}</pl>
+						<pl>Statek ${.self:"role":3:"lastname"}a</pl>
 					</title_original>
 					<description>
 						<de>Schließlich gelangt ${.self:"role":1:"firstname"} in die Höhlen unter der Insel, wo ${.self:"role":3:"lastname"}s Geisterschiff auf Anker liegt. Er klaut Voodoo-Zutaten von dort, und die Kannibalen brauen für ihn dann ein Geistervernichtungs-Elixier.</de>
@@ -7967,12 +8011,12 @@
 					<title>
 						<de>Das ${.self:"role":6:"firstname"}-Embargo</de>
 						<en>The ${.self:"role":6:"firstname"} Embargo</en>
-						<pl>Embargo ${.self:"role":6:"firstname"}</pl>
+						<pl>Embargo ${.self:"role":6:"firstname"}a</pl>
 					</title>
 					<title_original>
 						<de>Das ${.self:"role":6:"firstname"}-Embargo</de>
 						<en>The ${.self:"role":6:"firstname"} Embargo</en>
-						<pl>Embargo ${.self:"role":6:"firstname"}</pl>
+						<pl>Embargo ${.self:"role":6:"firstname"}a</pl>
 					</title_original>
 					<description>
 						<de>${.self:"role":1:"firstname"} ist auf der Suche nach dem legendären Schatz „Big Whoop“ auf Scabb Island, als er mit ${.self:"role":6:"firstname"}s völlig legitimen Raubüberfall und einem Insel-Embargo konfrontiert wird. Er freundet sich in Woodtick mit Kartenmacher ${.self:"role":5:"firstname"} an.</de>
@@ -8319,48 +8363,48 @@ Projekt, który został anulowany przez dużego producenta, może być teraz rea
 			<description>
 				<de>Cartoon-Reihe über den 8-jährigen Wunderknaben ${.self:"role":1:"fullname"}. Er baut aus einem Staubsauger ein Raumfahrzeug, schnappt sich seinen Pogo-Stick, setzt den Footballhelm seines älteren Bruders auf, wird zu ${captain} ${.self:"role":1:"nickname"} und macht sich auf...</de>
 				<en>Cartoon series about the 8-year-old boy genius ${.self:"role":1:"fullname"}. He builds a spacecraft out of a vacuum cleaner, grabs his pogo stick, puts on his older brother's football helmet, becomes ${captain} ${.self:"role":1:"nickname"} and sets out...</en>
-				<pl>Serial animowany o 8-letnim geniuszu ${.self:"role":1:"fullname"}. Buduje statek kosmiczny z odkurzacza, chwyta swój pogo stick, zakłada kask futbolowy swojego starszego brata, zostaje ${captain} ${.self:"role":1:"nickname"} i wyrusza...</pl>
+				<pl>Serial animowany o 8-letnim geniuszu. To ${.self:"role":1:"fullname"}. Buduje statek kosmiczny z odkurzacza, chwyta swój pogo stick, zakłada kask futbolowy swojego starszego brata, zostaje ${captain} ${.self:"role":1:"nickname"} i wyrusza...</pl>
 			</description>
 			<variables>
 				<title_spoofed>
 					<de>Die ${space}${adventures} des ${captain} ${.self:"role":1:"nickname"}|Die ${galactic} ${adventures_c} des ${captain} ${.self:"role":1:"nickname"}</de>
 					<en>The ${space} ${adventures} of ${captain} ${.self:"role":1:"nickname"}|The ${galactic} ${adventures_c} of ${captain} ${.self:"role":1:"nickname"}</en>
-					<pl>${kosmiczne} ${adventures} ${captain} ${.self:"role":1:"nickname"}|${galaktyczne} ${adventures_c} ${captain} ${.self:"role":1:"nickname"}</pl>
+					<pl>${space} ${adventures} ${captain} Keena Billego Blaze'a|${galactic} ${adventures_c} ${captain} Keena Billego Blaze'a</pl>
 				</title_spoofed>
 				<title_original_optional>
 					<de>${captain} ${.self:"role":1:"nickname"}|Die ${space}${adventures} des ${captain} ${.self:"role":1:"nickname"}|Die ${galactic} ${adventures_c} des ${captain} ${.self:"role":1:"nickname"}</de>
 					<en>${captain} ${.self:"role":1:"nickname"}|The ${space} ${adventures} of ${captain} ${.self:"role":1:"nickname"}|The ${galactic} ${adventures_c} of ${captain} ${.self:"role":1:"nickname"}</en>
-					<pl>${captain} ${.self:"role":1:"nickname"}|${kosmiczne} ${adventures} ${captain} ${.self:"role":1:"nickname"}|${galaktyczne} ${adventures_c} ${captain} ${.self:"role":1:"nickname"}</pl>
+					<pl>Keen Billy Blaze|${space} ${adventures} ${captain} Keena Billego Blaze'a|${galactic} ${adventures_c} ${captain} Keena Billego Blaze'a</pl>
 				</title_original_optional>
 				<space>
 					<de>Weltraum|Weltall|Sternen|Galaxis</de>
 					<en>Space|Out-in-Space|Stellar|Galaxy</en>
-					<pl>Kosmos|Poza Kosmosem|Gwiazda|Galaktyka</pl>
+					<pl>Kosmiczne|Poza Kosmiczne|Gwiazdne|Galaktyczne</pl>
 				</space>
 				<adventures>
 					<de>abenteuer|missionen|erkundungen</de>
 					<en>Adventures|Missions|Quests</en>
-					<pl>Przygody|Misje|Zadania</pl>
+					<pl>przygody|misje|zadania</pl>
 				</adventures>
 				<galactic>
 					<de>Galaktischen|Kosmischen|Außerirdischen|Überirdischen</de>
 					<en>Galactic|Cosmic|Extraterrestrial|Celestial</en>
-					<pl>Galaktyczny|Kosmiczny|Pozaziemski|Niebiański</pl>
+					<pl>Galaktyczne|Kosmiczne|Pozaziemskie|Niebiańskie</pl>
 				</galactic>
 				<adventures_c>
 					<de>Abenteuer|Missionen|Erkundungen</de>
 					<en>Adventures|Missions|Quests</en>
-					<pl>Przygody|Misje|Zadania</pl>
+					<pl>przygody|misje|zadania</pl>
 				</adventures_c>
 				<captain> <!-- TODO: should actually be defined in programmerole; but maybe can be variable even when playing with original names -->
 					<de>Captain|Colonel|Commander|Admiral</de>
 					<en>Captain|Colonel|Commander|Admiral</en>
-					<pl>Kapitan|Pułkownik|Dowódca|Admirał</pl>
+					<pl>Kapitana|Pułkownika|Dowódcy|Admirała</pl>
 				</captain>
 				<gnostika_object_reference>
 					<de>Gnostika</de>
 					<en>Gnostika</en>
-					<pl>Gnostyczka</pl>
+					<pl>Gnostyka</pl>
 				</gnostika_object_reference>
 				<gnostika_object_reference_original>
 					<de>Gnosticus IV</de>
@@ -8473,8 +8517,8 @@ Projekt, który został anulowany przez dużego producenta, może być teraz rea
 					<title_original>
 						<de>Die Weltuntergangsmaschine</de>
 						<en>The Armageddon Machine</en>
-					<pl>Maszyna Armagedonu</pl>
-				</title_original>
+						<pl>Maszyna Armagedonu</pl>
+					</title_original>
 					<description>
 						<de>Auf ${gnostika_object_reference} muss ${.self:"role":1:"nickname"} feststellen, dass dessen Rat der Unsterblichen Weisen bereits von den ${.self:"role":4:"firstname"} entführt wurde. ${.self:"role":1:"nickname"} muss die Weisen befreien, um das Orakel aktivieren zu können...</de>
 						<en>On ${gnostika_object_reference}, ${.self:"role":1:"nickname"} finds that its Council of Immortal Sages has already been kidnapped by the ${.self:"role":4:"firstname"}. ${.self:"role":1:"nickname"} must free the sages in order to be able to activate the oracle...</en>
@@ -8558,7 +8602,7 @@ Projekt, który został anulowany przez dużego producenta, może być teraz rea
 				<title_original_optional>
 					<de>Leisure Suit Larry|Leisure Suit Larry, ${ladykiller}</de>
 					<en>Leisure Suit Larry|Leisure Suit Larry, ${ladykiller}</en>
-					<pl>Garnitur wypoczynkowy Larry|Garnitur wypoczynkowy Larry, ${ladykiller}</pl>
+					<pl>Leisure Suit Larry|Leisure Suit Larry, ${ladykiller}</pl>
 				</title_original_optional>
 				<ladykiller>
 					<de>Ladykiller|Schwerenöter vom Dienst|Reizender Charmeur|Bezaubernder Schmeichler</de>
@@ -8605,7 +8649,7 @@ Projekt, który został anulowany przez dużego producenta, może być teraz rea
 					<title>
 						<de>${.self:"role":2:"nickname"} beim Fördern vibrierender Vernakularität</de>
 						<en>${.self:"role":2:"nickname"} Fostering Vibrating Vernacular</en>
-						<pl>${.self:"role":2:"nickname"} Wspieranie wibrującego języka potocznego</pl>
+						<pl>${.self:"role":2:"nickname"} i wspieranie wibrującego języka potocznego</pl>
 					</title>
 					<title_original>
 						<de>Passionate Patti auf der Suche nach vibrierenden Muskeln</de>
@@ -8700,7 +8744,7 @@ Projekt, który został anulowany przez dużego producenta, może być teraz rea
 					<description>
 						<de>Ein Spinoff? Es geht diesmal um ${.self:"role":1:"firstname"}s Neffen, der auch ${.self:"role":1:"firstname"} heißt, im College ist und bei einer Dating Show mitmacht. Onkel ${.self:"role":1:"firstname"} gibt immerhin noch wertvolle Tips. Was ist mit ${.self:"role":2:"firstname"}? Ist noch offen, vielleicht in der nächsten Staffel...</de>
 						<en>A spinoff? This time it's about ${.self:"role":1:"firstname"}'s nephew, who is also named ${.self:"role":1:"firstname"}, and who's in college, and participating in a dating show. Uncle ${.self:"role":1:"firstname"} still gives valuable tips, at least. What about ${.self:"role":2:"firstname"}? It's still open, maybe next season...</en>
-						<pl>Spin-off? Tym razem chodzi o siostrzeńca ${.self:"role":1:"firstname"}, który również nazywa się ${.self:"role":1:"firstname"}, który studiuje i bierze udział w programie randkowym. Wujek ${.self:"role":1:"firstname"} nadal daje cenne wskazówki, przynajmniej. A co z ${.self:"role":2:"firstname"}? Nadal jest otwarty, może w następnym sezonie...</pl>
+						<pl>Spin-off? Tym razem chodzi o siostrzeńca ${.self:"role":1:"firstname"}ego, który również nazywa się ${.self:"role":1:"firstname"}, który studiuje i bierze udział w programie randkowym. Wujek ${.self:"role":1:"firstname"} nadal daje cenne wskazówki, przynajmniej. A co z ${.self:"role":2:"firstname"}? Nadal jest otwarty, może w następnym sezonie...</pl>
 					</description>
 				</scripttemplate>
 			</children>
@@ -8733,7 +8777,7 @@ Projekt, który został anulowany przez dużego producenta, może być teraz rea
 			<title_original>
 				<de>${counterstrike} - ${global} ${offensive}</de>
 				<en>${counterstrike} - ${global} ${offensive}</en>
-				<pl>${counterstrike} - ${globalny} ${offensive}</pl>
+				<pl>${counterstrike} - ${global} ${offensive}</pl>
 			</title_original>
 			<description>
 				<de>Hochdramatische Szenen an Schauplätzen auf der ganzen Welt. Kann das Einsatzkommando in letzter Millisekunde die Bombe entschärfen? Die Geisel aus dem Kreuzfeuer der Terroristen befreien? Oder fahren eher letztere die Sympathiepunkte beim Publikum ein?</de>
@@ -8749,22 +8793,22 @@ Projekt, który został anulowany przez dużego producenta, może być teraz rea
 				<offensive>
 					<de>Offensive|${operations}</de>
 					<en>Offensive|${operations}</en>
-					<pl>Ofensywny|${operations}</pl>
+					<pl>Ofensywa|${operations}</pl>
 				</offensive>
 				<counteroffensive>
 					<de>Gegenoffensive|Gegenfeuer|Vergeltung|Gegenanschlag|Gegenangriff|Gegenschlag|Gegenreaktion</de>
 					<en>Counteroffensive|Counter-Fire|Retaliation|Counterplot|Counterploy|Riposte|Strike-Back</en>
-					<pl>Kontrofensywa|Ogień przeciwny|Odwet|Kontraplot|Kontrap|Riposta|Uderzenie zwrotne</pl>
+					<pl>Kontrofensywa|Ogień zaporowy|Odwet|Kontratak|Kontra|Riposta|Uderzenie zwrotne</pl>
 				</counteroffensive>
 				<global>
 					<de>Globale|Weltweite|Weltumfassende|Weltumspannende</de>
 					<en>Global|Worldwide|Planet-Scale|Planetwide</en>
-					<pl>Globalny|Cały świat|Skala planety|Cała planeta</pl>
+					<pl>Globalna|Ogólnoświatowa|Całoplanetarna|Ogólna</pl>
 				</global>
 				<operations>
 					<de>Operation|Operationen|Mission|Missionen|Einsätze|Aufträge|Attacke|Angriffe</de> <!-- nur Femininum oder Plural! -->
 					<en>Operation|Operations|Mission|Missions|Insertions|Assignment|Attack|Attacks</en>
-					<pl>Operacja|Operacje|Misja|Misje|Wprowadzenia|Zadanie|Atak|Ataki</pl>
+					<pl>Operacja|Operacja|Misja|Misja|Siatka|Inicjatywa|Sieć|Ofensywa</pl>
 				</operations>
 			</variables>
 			<children>
@@ -9043,7 +9087,7 @@ Projekt, który został anulowany przez dużego producenta, może być teraz rea
 			<description>
 				<de>„Shoot! Or! Die! Hahahaha!“ Flotte Anime-SciFi-Action über Soldat ${.self:"role":1:"fullname"} in seinem biomechanischen Anzug, der die Weltraumkolonie Alterra von der außer Kontrolle geratenen künstlichen Intelligenz M.O.R.G.U.L. befreien muss.</de>
 				<en>"Shoot! Or! Die! Hahahaha!" Fast-paced anime sci-fi action about soldier ${.self:"role":1:"fullname"} in his biomechanical suit who must liberate the space colony Alterra from the artificial intelligence M.O.R.G.U.L. that has gone out of control.</en>
-				<pl>„Strzelaj! Albo! Giń! Hahahaha!” Szybka akcja anime science-fiction o żołnierzu ${.self:"role":1:"fullname"} w jego biomechanicznym kombinezonie, który musi wyzwolić kosmiczną kolonię Alterra spod kontroli sztucznej inteligencji M.O.R.G.U.L.</pl>
+				<pl>„Strzelaj! Albo! Giń! Hahahaha!” Szybka akcja anime science-fiction o żołnierzu w jego biomechanicznym kombinezonie(${.self:"role":1:"fullname"}), który musi wyzwolić kosmiczną kolonię Alterra spod kontroli sztucznej inteligencji M.O.R.G.U.L.</pl>
 			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
@@ -9081,7 +9125,7 @@ Projekt, który został anulowany przez dużego producenta, może być teraz rea
 			<description>
 				<de>Das United-Planets-Raumschiff Avalon 1 wird von Mutanten angegriffen, angeführt von ${.self:"role":2:"fullname"}. ${.self:"role":0:"fullname"} muss den Tag retten. Erneut inklusive tollem Soundtrack von ${chrishuelsbeck}, der sich mal wieder selbst übertroffen hat.</de>
 				<en>The United Planets spaceship Avalon 1 is under attack by mutants, led by ${.self:"role":2:"fullname"}. ${.self:"role":0:"fullname"} must save the day. Once more including a great soundtrack by ${chrishuelsbeck}, who has again outdone himself.</en>
-				<pl>Statek kosmiczny United Planets Avalon 1 jest atakowany przez mutantów, dowodzonych przez ${.self:"role":2:"fullname"}. ${.self:"role":0:"fullname"} musi uratować sytuację. Ponownie z udziałem świetnej ścieżki dźwiękowej autorstwa ${chrishuelsbeck}, który znów prześcignął samego siebie.</pl>
+				<pl>Statek kosmiczny United Planets Avalon 1 jest atakowany przez mutantów. ${.self:"role":2:"fullname"} dowodzi nimi. ${.self:"role":0:"fullname"} musi uratować sytuację. Ponownie z udziałem świetnej ścieżki dźwiękowej autorstwa ${chrishuelsbeck}, który znów prześcignął samego siebie.</pl>
 			</description>
 			<variables>
 				<chrishuelsbeck>${.person:"d1de8736-869d-4beb-84df-e784da131741":"fullname"}</chrishuelsbeck>
@@ -9304,12 +9348,12 @@ Projekt, który został anulowany przez dużego producenta, może być teraz rea
 			<title>
 				<de>${.self:"role":3:"firstname"} lernt laufen</de>
 				<en>${.self:"role":3:"firstname"}'s Trial Run</en>
-				<pl>Próba biegowa użytkownika ${.self:"role":3:"firstname"}</pl>
+				<pl>${.self:"role":3:"firstname"} uczy się biegać</pl>
 			</title>
 			<title_original>
 				<de>${.self:"role":3:"firstname"} lernt laufen</de>
 				<en>${.self:"role":3:"firstname"}'s Dummy Run</en>
-				<pl>${.self:"role":3:"firstname"}'s Dummy Run</pl>
+				<pl>${.self:"role":3:"firstname"} uczy się chodzić</pl>
 			</title_original>
 			<description>
 				<de>Och, wie schnell sie groß werden. Aber natürlich läuft bei ${.self:"role":1:"fullname"} und seiner Familie alles ein bisschen anders. Wenn der kleine ${.self:"role":3:"fullname"} laufen lernt, dann ist das daher mit ganz besonderen Hindernissen verbunden.</de>
@@ -9545,7 +9589,7 @@ Projekt, który został anulowany przez dużego producenta, może być teraz rea
 			<title>
 				<de>${.self:"role":1:"lastname"} und ${.self:"role":2:"firstname"} - Die ${new} ${adventures}</de>
 				<en>${.self:"role":1:"lastname"} and ${.self:"role":2:"firstname"} - The ${new} ${adventures}</en>
-				<pl>${.self:"role":1:"lastname"} i ${.self:"role":2:"firstname"} - ${nowe} ${adventures}</pl>
+				<pl>${.self:"role":1:"lastname"} i ${.self:"role":2:"firstname"} - ${new} ${adventures}</pl>
 			</title>
 			<title_original>
 				<de>Spejbl und Hurvínek - Die ${new} ${adventures}</de>
@@ -9561,7 +9605,7 @@ Projekt, który został anulowany przez dużego producenta, może być teraz rea
 				<new>
 					<de>Neuen|Neuartigen|Weiteren|Frischen|Ungeahnten|Nachfolgenden|Unversuchten|Ursprünglichen|Neuerlichen|Wiederbelebten|Erneuten|Neugeborenen|Wiedererstarkten|Reanimierten|Auferstandenen</de>
 					<en>New|Novel|Further|Fresh|Unprecedented|Successive|Untried|Pristine|Refreshed|Revived|Renewed|Reborn|Invigorated|Reanimated|Resurrected</en>
-					<pl>Nowy|Nowy|Dalszy|Świeży|Bezprecedensowy|Kolejny|Niewypróbowany|Nieskazitelny|Odświeżony|Ożywiony|Odnowiony|Odrodzony|Ożywiony|Ożywiony</pl>
+					<pl>Nowe|Nowe|Dalsze|Świeże|Bezprecedensowe|Kolejne|Niewypróbowane|Nieskazitelne|Odświeżone|Ożywione|Odnowione|Odrodzone|Ożywione|Ożywione</pl>
 				</new>
 				<adventures>
 					<de>Abenteuer|Erlebnisse|Zeiten|Tücken|Ereignisse|Entdeckungen|Eskapaden|Erforschungen|Missionen|Vorhaben|Episoden|Taten|Prüfungen|Aufgaben|Tätigkeiten|Unternehmungen|Schwierigkeiten|Gefahren|Herausforderungen</de>
@@ -9782,17 +9826,17 @@ Projekt, który został anulowany przez dużego producenta, może być teraz rea
 					<title>
 						<de>${.self:"role":1:"firstname"}s Missgeschick</de>
 						<en>${.self:"role":1:"firstname"}'s Mishap</en>
-						<pl>Nieszczęśliwy wypadek ${.self:"role":1:"firstname"}</pl>
+						<pl>Nieszczęśliwy wypadek ${.self:"role":1:"firstname"}a</pl>
 					</title>
 					<title_original>
 						<de>${.self:"role":1:"firstname"}s Missgeschick</de>
 						<en>${.self:"role":1:"firstname"}'s Mishap</en>
-						<pl>Nieszczęśliwy wypadek ${.self:"role":1:"firstname"}</pl>
+						<pl>${.self:"role":1:"firstname"} doznał nieszczęśliwego wypadku</pl>
 					</title_original>
 					<description>
 						<de>Eine Panne bei den ${.self:"role":1:"firstname"}-Berechnungen führt die ${.self:"role":2:"firstname"}-Familie auf unerwartete Umwege und zur Begegnung mit einem schelmischen Alien-Tierchen names Quirkle vom Planeten Zintar und all seinen verspielten Kapriolen.</de>
 						<en>A glitch in ${.self:"role":1:"firstname"}'s calculations leads the ${.self:"role":2:"firstname"} family on unexpected detours and to an encounter with a mischievous alien pet named Quirkle from the planet Zintar and all its playful antics.</en>
-						<pl>Błąd w obliczeniach ${.self:"role":1:"firstname"} sprawia, że ​​rodzina ${.self:"role":2:"firstname"} niespodziewanie zbacza z trasy i spotyka złośliwego kosmitę o imieniu Quirkle z planety Zintar, co prowadzi do licznych zabawnych wybryków.</pl>
+						<pl>Błąd w obliczeniach ${.self:"role":1:"firstname"}a sprawia, że ​​rodzina ${.self:"role":2:"firstname"} niespodziewanie zbacza z trasy i spotyka złośliwego kosmitę o imieniu Quirkle z planety Zintar, co prowadzi do licznych zabawnych wybryków.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate index="1" product="2" licence_type="2" guid="4c92538e-e3e6-44ba-a433-2938f7b8fcb7">
@@ -9860,7 +9904,7 @@ Projekt, który został anulowany przez dużego producenta, może być teraz rea
 					<description>
 						<de>Die ${.self:"role":2:"firstname"}s organisieren zusammen mit neuen Freunden verschiedener Planeten eine intergalaktische Talentshow, um kosmische Diversität zu feiern. ${.self:"role":1:"firstname"} hilft bei der Koordinierung, doch natürlich passieren unvorhergesehene Dinge.</de>
 						<en>The ${.self:"role":2:"firstname"}s, joined by new friends from different planets, organize an intergalactic talent show to celebrate cosmic diversity. ${.self:"role":1:"firstname"} assists in coordinating, but of course unforeseen things happen.</en>
-						<pl>${.self:"role":2:"firstname"}s, do których dołączyli nowi przyjaciele z różnych planet, organizują międzygalaktyczny pokaz talentów, aby uczcić kosmiczną różnorodność. ${.self:"role":1:"firstname"} pomaga w koordynacji, ale oczywiście zdarzają się nieprzewidziane rzeczy.</pl>
+						<pl>${.self:"role":2:"firstname"}-owie, do których dołączyli nowi przyjaciele z różnych planet, organizują międzygalaktyczny pokaz talentów, aby uczcić kosmiczną różnorodność. ${.self:"role":1:"firstname"} pomaga w koordynacji, ale oczywiście zdarzają się nieprzewidziane rzeczy.</pl>
 					</description>
 				</scripttemplate>
 			</children>
@@ -10137,15 +10181,18 @@ Projekt, który został anulowany przez dużego producenta, może być teraz rea
 					<title>
 						<de>Kampf um die Quelle</de>
 						<en>The Struggle for the Well</en>
-						<pl>Walka o studnię</pl></title>
+						<pl>Walka o studnię</pl>
+					</title>
 					<title_original>
 						<de>Kampf um die Quelle</de>
 						<en>The Struggle for the Well</en>
-						<pl>Walka o studnię</pl></title_original>
+						<pl>Walka o studnię</pl>
+					</title_original>
 					<description>
 						<de>Ein Streit um Kühe löst einen Ölgeysir aus, und ${.self:"role":1:"firstname"} und Familie errichten einen Vergnügungspark drum herum. Rivalisierende Ölmagnaten versuchen eine Sabotage, aber ${.self:"role":4:"firstname"}s Rodeo-Fähigkeiten retten den Tag.</de>
 						<en>A cow dispute leads to an oil geyser, and ${.self:"role":1:"firstname"} and family build an amusement park around it. Rival oil tycoons attempt sabotage, but ${.self:"role":4:"firstname"}'s rodeo skills save the day.</en>
-						<pl>Spór o krowy prowadzi do gejzeru ropy naftowej, a ${.self:"role":1:"firstname"} i jego rodzina budują wokół niego park rozrywki. Konkurencyjni potentaci naftowi próbują sabotażu, ale umiejętności rodeo ${.self:"role":4:"firstname"} ratują sytuację.</pl></description>
+						<pl>Spór o krowy prowadzi do gejzeru ropy naftowej, a ${.self:"role":1:"firstname"} i jego rodzina budują wokół niego park rozrywki. Konkurencyjni potentaci naftowi próbują sabotażu, ale umiejętności rodeo ${.self:"role":4:"firstname"} ratują sytuację.</pl>
+					</description>
 				</scripttemplate>
 				<scripttemplate index="6" product="2" licence_type="2" guid="09757f9f-1c49-47e8-8774-398d7968ee12">
 					<title>
@@ -10168,7 +10215,8 @@ Projekt, który został anulowany przez dużego producenta, może być teraz rea
 					<title>
 						<de>Der Herzinfarkt</de>
 						<en>The Heart Attack</en>
-						<pl>Zawał serca</pl></title>
+						<pl>Zawał serca</pl>
+					</title>
 					<title_original>
 						<de>Der Herzinfarkt</de>
 						<en>The Heart Attack</en>
@@ -10201,12 +10249,12 @@ Projekt, który został anulowany przez dużego producenta, może być teraz rea
 					<title>
 						<de>${.self:"role":1:"firstname"} und der Spieler</de>
 						<en>${.self:"role":1:"firstname"} and the Player</en>
-						<pl>${.self:"role":1:"firstname"} i Gracz</pl>
+						<pl>${.self:"role":1:"firstname"} i gracz</pl>
 					</title>
 					<title_original>
 						<de>${.self:"role":1:"firstname"} und der Spieler</de>
 						<en>${.self:"role":1:"firstname"} and the Player</en>
-						<pl>${.self:"role":1:"firstname"} i Gracz</pl>
+						<pl>${.self:"role":1:"firstname"} i gracz</pl>
 					</title_original>
 					<description>
 						<de>${.self:"role":1:"firstname"} will einen Schachcomputer besiegen, doch der blamiert ihn und zwingt ihn bei jedem Zug, seine Machenschaften zu überdenken. Dabei wird in schlauen Rückblenden von ${.self:"role":1:"firstname"}'s Aufstieg erzählt und wie er einen Gegenspieler bekämpfte.</de>
