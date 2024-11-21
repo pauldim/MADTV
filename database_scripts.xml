@@ -140,7 +140,6 @@
 		<scripttemplate product="1" licence_type="1" guid="scripttemplate-random-ron-fightagainst01">
 			<title>
 				<de>${ADJECTIVE} ${OBJECT}</de>
-				<en>${ADJECTIVE} ${OBJECT}</en>
 			</title>
 			<description>
 				<de>${JOB} ${.self:"role":1:"firstname"} ${ACTION} ${ENEMY}. Sie wollen ${VICTIM} ${ACTION2}.</de>
@@ -152,11 +151,9 @@
 				<!-- scr0llbaer: that may be true, but probably still not a good idea, because someone might add nested variables later, which then would resolve into German. EDIT: addressed in https://github.com/TVTower/TVTower/pull/906 -->
 				<object>
 					<de>Cannons|Guns|Ropes|Knives|Jaws|Dynamite|Bones</de>
-					<en>Cannons|Guns|Ropes|Knives|Jaws|Dynamite|Bones</en>
 				</object>
 				<adjective>
 					<de>Flying|Burning|Bloody|Rusty|Explosive|Violent|Cruel|Cool|Gangster|Red|Guilty</de>
-					<en>Flying|Burning|Bloody|Rusty|Explosive|Violent|Cruel|Cool|Gangster|Red|Guilty</en>
 				</adjective>
 				<job>
 					<de>Ex-Cop|Feuerwehrmann|Chefarzt|Bestatter|Grundschullehrer|Klimaforscher|Paläontologe</de>
@@ -204,7 +201,6 @@
 		<scripttemplate product="1" licence_type="1" guid="scripttemplate-random-ron-subtilehumor01">
 			<title>
 				<de>${NUMBER} ${OBJECT} ${ACTION}</de>
-				<en>${NUMBER} ${OBJECT} ${ACTION}</en>
 			</title>
 			<description>
 				<de>Subtiles Drama trifft Holzhammerhumor. Alleiniger Star ist Nummer 1 der ${NUMBER} ${OBJECT}.</de>
@@ -250,7 +246,6 @@
 		<scripttemplate product="1" licence_type="1" guid="scripttemplate-random-ron-eroticmovie1">
 			<title>
 				<de>${WOMAN} ${ACTION} ${MAN}</de>
-				<en>${WOMAN} ${ACTION} ${MAN}</en>
 			</title>
 			<description>
 				<de>${WOMAN} ist eine Tagträumerin und verliert sich in ihren erotischen Fantasien.</de>
@@ -293,11 +288,9 @@
 		<scripttemplate product="1" licence_type="1" guid="scripttemplate-random-ron-horrormovie1">
 			<title>
 				<de>${TITLE}</de>
-				<en>${TITLE}</en>
 			</title>
 			<description>
 				<de>${DESCRIPTION}</de>
-				<en>${DESCRIPTION}</en>
 			</description>
 			<variables>
 				<title>
@@ -361,7 +354,6 @@
 		<scripttemplate product="1" licence_type="1" guid="scripttemplate-random-ron-dramamovie1">
 			<title>
 				<de>${TITLE}</de>
-				<en>${TITLE}</en>
 			</title>
 			<description>
 				<de>${NAME} ${DESCRIPTIONACTION}. Seine ${ENVIRONMENT} ${ENVIRONMENTACTION}.${FEELING}</de>
@@ -431,7 +423,6 @@
 		<scripttemplate product="3" licence_type="1" guid="scripttemplate-random-ron-show1">
 			<title>
 				<de>${KIND}${DATE}</de>
-				<en>${KIND}${DATE}</en>
 			</title>
 			<description>
 				<de>Lustige Einspieler und Gäste bekannt aus Funk und Fernsehen. Der Moderator bietet peinliche Tanzeinlagen. Nette Unterhaltung für Unbesorgte.</de>
@@ -1252,7 +1243,6 @@
 		<scripttemplate product="2" licence_type="3" guid="scripttemplate-random-ron-animalseries01" comment="English title vs text casings">
 			<title>
 				<de>${TITLE}</de>
-				<en>${TITLE}</en>
 			</title>
 			<description>
 				<de>Dokumentation über ${ANIMALS}.
