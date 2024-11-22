@@ -2057,13 +2057,13 @@ Ekscytująca rozrywka i łamiące mózg pytania quizowe.</pl>
 			<title>
 				<de>Die Hellseher ${currentyear}</de>
 				<en>The Clairvoyants ${currentyear}</en>
-			<pl>Jasnowidze ${currentyear}</pl>
+				<pl>Jasnowidze ${currentyear}</pl>
 			</title>
 			<description>
 				<de>Zwei Hellseher verwirren mit verschwommenen Ausdeutungen von Zukunft und Vergangenheit ihrer Anrufer.</de>
 				<en>Two clairvoyants confuse with blurred interpretations of their callers' future and past.</en>
-			<pl>Dwóch jasnowidzów myli i nie potrafi interpretować przyszłości i przeszłości swoich rozmówców.</pl>
-</description>
+				<pl>Dwóch jasnowidzów myli i nie potrafi interpretować przyszłości i przeszłości swoich rozmówców.</pl>
+			</description>
 			<variables>
 				<currentyear>
 					<de>${.worldtime:"year"}</de>
@@ -2089,12 +2089,12 @@ Ekscytująca rozrywka i łamiące mózg pytania quizowe.</pl>
 			<title>
 				<de>Hot Quiz ${currentyear}</de>
 				<en>Hot Quiz ${currentyear}</en>
-			<pl>Gorący quiz ${currentyear}</pl>
+				<pl>Gorący quiz ${currentyear}</pl>
 			</title>
 			<description>
 				<de>Die Moderatorin macht sich nackig und die Anrufer arm. Brüste gegen Geld, wie im echten Leben.</de>
 				<en>The presenter gets naked and the callers poor. Breasts for money, like in real life.</en>
-			<pl>Prezenterka się rozbiera, a dzwoniący są biedni. Piersi za pieniądze, jak w prawdziwym życiu.</pl>
+				<pl>Prezenterka się rozbiera, a dzwoniący są biedni. Piersi za pieniądze, jak w prawdziwym życiu.</pl>
 </description>
 			<variables>
 				<currentyear>
@@ -2120,13 +2120,13 @@ Ekscytująca rozrywka i łamiące mózg pytania quizowe.</pl>
 			<title>
 				<de>Schach gegen den Meister ${currentyear}</de>
 				<en>Chess Against the Master ${currentyear}</en>
-			<pl>Szachy przeciwko mistrzowi ${currentyear}</pl>
+				<pl>Szachy przeciwko mistrzowi ${currentyear}</pl>
 			</title>
 			<description>
 				<de>Schnellschach gegen die Großmeister. Anrufen, durchkommen und den Großmeister Schachmatt setzen. Köpfchen einsetzen, lernen, in der Warteschleife Geld verlieren. Das garantierte Rundum Sorglos Paket.</de>
 				<en>Speed chess against the grandmasters. Call in, manage to get through, and checkmate the grandmaster. Use your brains, study, lose money in the waiting loop. The complete all-inclusive service package.</en>
-			<pl>Szybkie szachy przeciwko arcymistrzom. Zadzwoń, dogadaj się i daj mata arcymistrzowi. Użyj mózgu, ucz się, strać pieniądze w pętli oczekiwania. Kompletny pakiet usług all-inclusive.</pl>
-</description>
+				<pl>Szybkie szachy przeciwko arcymistrzom. Zadzwoń, dogadaj się i daj mata arcymistrzowi. Użyj mózgu, ucz się, strać pieniądze w pętli oczekiwania. Kompletny pakiet usług all-inclusive.</pl>
+			</description>
 			<variables>
 				<currentyear>
 					<de>${.worldtime:"year"}</de>
@@ -2150,13 +2150,13 @@ Ekscytująca rozrywka i łamiące mózg pytania quizowe.</pl>
 			<title>
 				<de>Kurven der Welt ${currentyear} - Erkenne sie alle</de>
 				<en>Curves of the World ${currentyear} - Know Them All</en>
-			<pl>Krzywe świata ${currentyear} - Poznaj je wszystkie</pl>
+				<pl>Krzywe świata ${currentyear} - Poznaj je wszystkie</pl>
 			</title>
 			<description>
 				<de>Die schönsten Brüste der Welt. Dezent verpackt. Nichts und doch viel zu sehen. Die anspruchsvolle Erotikshow mit Einlagen über die Kultur des jeweiligen Landes. Selbst Kritiker konnten sich damit anfreunden.</de>
 				<en>The most beautiful breasts in the world. Discreetly packaged. Nothing and yet much to see. The sophisticated erotic show with interludes about the culture of the respective country. Even critics were able to make friends with it.</en>
-			<pl>Najpiękniejsze piersi świata. Dyskretnie zapakowane. Nic, a jednak wiele do zobaczenia. Wyrafinowany erotyczny show z przerywnikami o kulturze danego kraju. Nawet krytycy byli w stanie się z nim zaprzyjaźnić.</pl>
-</description>
+				<pl>Najpiękniejsze piersi świata. Dyskretnie zapakowane. Nic, a jednak wiele do zobaczenia. Wyrafinowany erotyczny show z przerywnikami o kulturze danego kraju. Nawet krytycy byli w stanie się z nim zaprzyjaźnić.</pl>
+			</description>
 			<variables>
 				<currentyear>
 					<de>${.worldtime:"year"}</de>
@@ -2181,13 +2181,13 @@ Ekscytująca rozrywka i łamiące mózg pytania quizowe.</pl>
 			<title>
 				<de>Wesensreiter</de>
 				<en>Creature Rider</en>
-			<pl>Jeździec na stworzeniu</pl>
+				<pl>Jeździec na stworzeniu</pl>
 			</title>
 			<description>
 				<de>Da junge Helden, die Drachen reiten, inzwischen Mainstream geworden sind, ist ein Remake des 1964er Fantasy-Films über ${.self:"role":1:"firstname"}, der Fantasiewesen dressiert und reitet, einen Versuch wert.</de>
 				<en>As young heroes who ride dragons have become mainstream, a remake of the 1964 fantasy film about ${.self:"role":1:"firstname"} training and riding fantasy creatures is worth a try.</en>
-			<pl>Wraz ze wzrostem popularności młodych bohaterów dosiadających smoków, warto obejrzeć remake filmu fantasy z 1964 roku o ${.self:"role":1:"firstname"} trenującym i dosiadającym fantastycznych stworzeń.</pl>
-</description>
+				<pl>Wraz ze wzrostem popularności młodych bohaterów dosiadających smoków, warto obejrzeć remake filmu fantasy z 1964 roku. ${.self:"role":1:"firstname"} trenuje i dosiada fantastyczne stworzenia.</pl>
+			</description>
 			<jobs>
 				<job index="0" function="1" required="1"/>
 				<job index="1" function="2" required="1" role_guid="131c90a2-9936-4e37-9d55-efee3d851ab6"/> <!-- probably young teen -->
@@ -2213,109 +2213,109 @@ Ekscytująca rozrywka i łamiące mózg pytania quizowe.</pl>
 			<title>
 				<de>Kommissar Wirsch</de>
 				<en>Inspector Gruff</en>
-			<pl>Inspektor Gruff</pl>
+				<pl>Inspektor Gruff</pl>
 			</title>
 			<description>
 				<de>Die Neuauflage des deutschen Krimiserien-Klassikers aus den 1950ern. Behutsam modernisiert, so dass der Charme erhalten bleibt. Wie damals sind charismatische Schauspieler extrem wichtig als Gegenpol zur banalen Handlung.</de>
 				<en>The new adaptation of the classic German crime series from the 1950s. Carefully modernized so that the charm is retained. Like back then, charismatic actors are extremely important as a counterpoint to the banal plot.</en>
-			<pl>Nowa adaptacja klasycznego niemieckiego serialu kryminalnego z lat 50. Starannie zmodernizowana, aby zachować urok. Podobnie jak wtedy, charyzmatyczni aktorzy są niezwykle ważni jako kontrapunkt dla banalnej fabuły.</pl>
-</description>
+				<pl>Nowa adaptacja klasycznego niemieckiego serialu kryminalnego z lat 50. Starannie zmodernizowana, aby zachować urok. Podobnie jak wtedy, charyzmatyczni aktorzy są niezwykle ważni jako kontrapunkt dla banalnej fabuły.</pl>
+			</description>
 			<children>
 				<scripttemplate index="0" product="2" licence_type="2" guid="93a7e553-8822-4171-ad2e-6cf41a2053d6">
 					<title>
 						<de>Wirschi und der Kater des Bürgermeisters</de>
 						<en>Gruffy and the Mayor's Cat</en>
-					<pl>Gruffy i kot burmistrza</pl>
-			</title>
+						<pl>Gruffy i kot burmistrza</pl>
+					</title>
 					<description>
 						<de>Dem Bürgermeister wurde mysteriöserweise etwas gestohlen - sein Kater! Kommissar Wirsch und seine Assistentin untersuchen den Fall. Skurrile Verdächtige, haarsträubende Alibis - wer nur hat den geliebten Vierbeiner entführt?</de>
 						<en>Mysteriously, something has been stolen from the mayor - his tomcat! Inspector Gruff and his assistant investigate the case. Bizarre suspects, hair-raising alibis - just who has kidnapped the beloved four-legged friend?</en>
-					<pl>Tajemniczo, burmistrzowi ukradziono coś - jego kocura! Inspektor Gruff i jego asystent badają sprawę. Dziwaczni podejrzani, przerażające alibi - kto porwał ukochanego czworonożnego przyjaciela?</pl>
-</description>
+						<pl>Tajemniczo, burmistrzowi ukradziono coś - jego kocura! Inspektor Gruff i jego asystent badają sprawę. Dziwaczni podejrzani, przerażające alibi - kto porwał ukochanego czworonożnego przyjaciela?</pl>
+					</description>
 				</scripttemplate>
 				<scripttemplate index="1" product="2" licence_type="2" guid="f1fb83a7-6363-4b2a-b7c4-a8ba1757503b">
 					<title>
 						<de>Wirschi und der geheimnisvolle Kühlschrank</de>
 						<en>Gruffy and the Mysterious Fridge</en>
-					<pl>Gruffy i tajemnicza lodówka</pl>
-			</title>
+						<pl>Gruffy i tajemnicza lodówka</pl>
+					</title>
 					<description>
 						<de>In der scheinbar friedlichen Nachbarschaft verschwindet ein Kühlschrank spurlos. Kommissar Wirsch und sein Team stoßen auf eine eiskalte Verschwörung, die sie bis an ihre Grenzen führt. Denn in diesem Fall steckt mehr drin, als nur kalte Luft!</de>
 						<en>A refrigerator disappears without a trace in the seemingly peaceful neighborhood. Inspector Gruff and his team come across an ice-cold conspiracy that takes them to their limits. Because there's more to this case than just cold air!</en>
-					<pl>Lodówka znika bez śladu w pozornie spokojnej okolicy. Inspektor Gruff i jego zespół natrafiają na lodowaty spisek, który doprowadza ich do granic możliwości. Ponieważ w tej sprawie chodzi o coś więcej niż tylko zimne powietrze!</pl>
-</description>
+						<pl>Lodówka znika bez śladu w pozornie spokojnej okolicy. Inspektor Gruff i jego zespół natrafiają na lodowaty spisek, który doprowadza ich do granic możliwości. Ponieważ w tej sprawie chodzi o coś więcej niż tylko zimne powietrze!</pl>
+					</description>
 				</scripttemplate>
 				<scripttemplate index="2" product="2" licence_type="2" guid="77ee784a-99ea-45c9-8a4d-46d8c124d0f6">
 					<title>
 						<de>Wirschi und der Fluch des verzauberten Teppichs</de>
 						<en>Gruffy and the Curse of the Enchanted Carpet</en>
-					<pl>Gruffy i klątwa zaczarowanego dywanu</pl>
-			</title>
+						<pl>Gruffy i klątwa zaczarowanego dywanu</pl>
+					</title>
 					<description>
 						<de>Ein antiker Teppich wird gestohlen, und alle Spuren führen zu einem vermeintlichen Fluch. Was ist Aberglaube, was ist Realität? Wirschi muss das herausfinden, den Dieb schnappen und den mysteriösen Teppich zurückzubringen, bevor er noch mehr Unglück bringt.</de>
 						<en>An antique carpet is stolen and all the clues lead to a supposed curse. What is superstition, what is reality? Gruffy has to find out, catch the thief and return the mysterious carpet before it brings even more misfortune.</en>
-					<pl>Antyczny dywan zostaje skradziony, a wszystkie wskazówki prowadzą do rzekomej klątwy. Co jest przesądem, a co rzeczywistością? Gruffy musi się tego dowiedzieć, złapać złodzieja i zwrócić tajemniczy dywan, zanim przyniesie jeszcze więcej nieszczęść.</pl>
-</description>
+						<pl>Antyczny dywan zostaje skradziony, a wszystkie wskazówki prowadzą do rzekomej klątwy. Co jest przesądem, a co rzeczywistością? Gruffy musi się tego dowiedzieć, złapać złodzieja i zwrócić tajemniczy dywan, zanim przyniesie jeszcze więcej nieszczęść.</pl>
+					</description>
 				</scripttemplate>
 				<scripttemplate index="3" product="2" licence_type="2" guid="a444af93-7e49-46f2-a5fe-4c4eb49c9a5a">
 					<title>
 						<de>Wirschi und die seltsame Affäre mit dem Gartenzwerg</de>
 						<en>Gruffy and the Strange Incident with the Garden Gnome</en>
-					<pl>Gruffy i dziwny incydent z krasnalem ogrodowym</pl>
-			</title>
+						<pl>Gruffy i dziwny incydent z krasnalem ogrodowym</pl>
+					</title>
 					<description>
 						<de>Ein wertvoller Gartenzwerg verschwindet aus einer wohlhabenden Vorstadtsiedlung, und Wirschi kämpft sich durch Labyrinthe aus Gartenwegen, -zwergen und Hecken. Hinter den perfekt geschnittenen Büschen lauern dunkle Geheimnisse.</de>
 						<en>A valuable garden gnome disappears from a wealthy suburban estate, and Gruffy fights his way through labyrinths of garden paths, gnomes and hedges. Dark secrets lurk behind the perfectly trimmed bushes.</en>
-					<pl>Cenny krasnal ogrodowy znika z bogatej podmiejskiej posiadłości, a Gruffy przedziera się przez labirynty ścieżek ogrodowych, krasnali i żywopłotów. Mroczne sekrety kryją się za idealnie przyciętymi krzewami.</pl>
-</description>
+						<pl>Cenny krasnal ogrodowy znika z bogatej podmiejskiej posiadłości, a Gruffy przedziera się przez labirynty ścieżek ogrodowych, krasnali i żywopłotów. Mroczne sekrety kryją się za idealnie przyciętymi krzewami.</pl>
+					</description>
 				</scripttemplate>
 				<scripttemplate index="4" product="2" licence_type="2" guid="4990e115-b73f-4a2d-af4f-eb733a139a9b">
 					<title>
 						<de>Wirschi und die gestohlenen Glückskekse</de>
 						<en>Gruffy and the Stolen Fortune Cookies</en>
-					<pl>Gruffy i skradzione ciasteczka z wróżbą</pl>
-			</title>
+						<pl>Gruffy i skradzione ciasteczka z wróżbą</pl>
+					</title>
 					<description>
 						<de>In einem chinesischen Restaurant verschwinden plötzlich alle Glückskekse. Ein Wirbelwind aus Wortspielen und Weisheiten erwartet Wirschi und seine Assistentin. Können sie die Hinweise auf den Dieb entschlüsseln?</de>
 						<en>All the fortune cookies suddenly disappear from a Chinese restaurant. A whirlwind of puns and wisdom awaits Gruffy and his assistant. Can they decipher the clues to the thief?</en>
-					<pl>Wszystkie ciasteczka z wróżbą nagle znikają z chińskiej restauracji. Na Gruffy'ego i jego asystenta czeka wir kalamburów i mądrości. Czy uda im się rozszyfrować wskazówki dotyczące złodzieja?</pl>
-</description>
+						<pl>Wszystkie ciasteczka z wróżbą nagle znikają z chińskiej restauracji. Na Gruffy'ego i jego asystenta czeka wir kalamburów i mądrości. Czy uda im się rozszyfrować wskazówki dotyczące złodzieja?</pl>
+					</description>
 				</scripttemplate>
 				<scripttemplate index="5" product="2" licence_type="2" guid="22b6bb18-80a9-4e56-ae96-5e8afc2e03a8">
 					<title>
 						<de>Wirschi und die verflixte Parkbank</de>
 						<en>Gruffy and the Darned Park Bench</en>
-					<pl>Gruffy i przeklęta ławka w parku</pl>
-			</title>
+						<pl>Gruffy i przeklęta ławka w parku</pl>
+					</title>
 					<description>
 						<de>Eine Parkbank wird gestohlen, und Wirschi und Team geraten in ein wahres Sitzungschaos. Liebespaare, Zeitungsleser, wenn die alle nicht mehr sitzen können, dann kommt die Stadt ja zum Erliegen! Dieser Bankraub-Fall muss schleunigst geknackt werden.</de>
 						<en>A park bench is stolen and Gruffy and team get caught up in a veritable session chaos. Lovers, newspaper readers, if they all can't sit anymore, then the city will factually come to a rest! The bench robbery case must be cracked ASAP.</en>
-					<pl>Ławka w parku zostaje skradziona, a Gruffy i zespół zostają wciągnięci w prawdziwy chaos sesji. Kochankowie, czytelnicy gazet, jeśli wszyscy nie będą mogli już siedzieć, to miasto faktycznie zazna spokoju! Sprawa kradzieży ławki musi zostać rozwiązana jak najszybciej.</pl>
-</description>
+						<pl>Ławka w parku zostaje skradziona, a Gruffy i zespół zostają wciągnięci w prawdziwy chaos sesji. Kochankowie, czytelnicy gazet, jeśli wszyscy nie będą mogli już siedzieć, to miasto faktycznie zazna spokoju! Sprawa kradzieży ławki musi zostać rozwiązana jak najszybciej.</pl>
+					</description>
 				</scripttemplate>
 				<scripttemplate index="6" product="2" licence_type="2" guid="c93e96de-fd91-4803-9fc4-ef67104f0401">
 					<title>
 						<de>Wirschi und die verschwundene Zeitung</de>
 						<en>Gruffy and the Missing Newspaper</en>
-					<pl>Gruffy i zaginiona gazeta</pl>
-			</title>
+						<pl>Gruffy i zaginiona gazeta</pl>
+					</title>
 					<description>
 						<de>Die einzige Zeitung der Stadt verschwindet kurz vor der Veröffentlichung! Wirschi kämpft sich durch ein Dickicht aus Druckerschwärze und Redaktionsgeheimnissen, um die Pressefreiheit zu retten.</de>
 						<en>The town's only newspaper disappears just before publication! Gruffy fights his way through a thicket of printer's ink and editorial secrets to save the freedom of the press.</en>
-					<pl>Jedyna gazeta w mieście znika tuż przed publikacją! Gruffy przedziera się przez gąszcz tuszu drukarskiego i sekretów redakcyjnych, aby uratować wolność prasy.</pl>
-</description>
+						<pl>Jedyna gazeta w mieście znika tuż przed publikacją! Gruffy przedziera się przez gąszcz tuszu drukarskiego i sekretów redakcyjnych, aby uratować wolność prasy.</pl>
+					</description>
 				</scripttemplate>
 				<scripttemplate index="7" product="2" licence_type="2" guid="69e7b414-f318-4d43-8cf0-fdbd79d54947">
 					<title>
 						<de>Der Tanz um die gestohlene Trophäe</de>
 						<en>The Dance for the Stolen Trophy</en>
-					<pl>Taniec dla skradzionego trofeum</pl>
-			</title>
+						<pl>Taniec dla skradzionego trofeum</pl>
+					</title>
 					<description>
 						<de>Eine wertvolle Trophäe wird aus dem örtlichen Tanzstudio gestohlen. Wirschi stürzt sich in die Welt des Tanzes, um den Dieb zu entlarven und die gestohlene Trophäe zurückzubringen, bevor der Rhythmus des Lebens aus dem Takt gerät.</de>
 						<en>A valuable trophy is stolen from the local dance studio. Gruffy plunges into the world of dance to unmask the thief and return the stolen trophy before the rhythm of life is thrown out of sync.</en>
-					<pl>Cenne trofeum zostaje skradzione z lokalnego studia tańca. Gruffy wkracza do świata tańca, aby zdemaskować złodzieja i zwrócić skradzione trofeum, zanim rytm życia zostanie wytrącony z rytmu.</pl>
-</description>
+						<pl>Cenne trofeum zostaje skradzione z lokalnego studia tańca. Gruffy wkracza do świata tańca, aby zdemaskować złodzieja i zwrócić skradzione trofeum, zanim rytm życia zostanie wytrącony z równowagi.</pl>
+					</description>
 				</scripttemplate>
 			</children>
 			<jobs>
