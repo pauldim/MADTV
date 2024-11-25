@@ -23,8 +23,8 @@ def add_polish_translation_to_xml(file_path):
             pl_elem.tail = "\n"
 
     # Zapisywanie zmodyfikowanego pliku
-    output_path = "C:/xampp/htdocs/MADTV/translated_output.xml"
+    output_path = "C:/xampp/htdocs/MADTV/ariksan_translated_output.xml"
     tree.write(output_path, encoding="UTF-8", xml_declaration=True, pretty_print=True)
     print(f"Tłumaczenie dodane do pliku '{output_path}'.")
 
-add_polish_translation_to_xml("C:/xampp/htdocs/MADTV/database_scripts.xml")
+add_polish_translation_to_xml("C:/xampp/htdocs/MADTV/ariksan.xml")
