@@ -574,7 +574,7 @@
 				<who_2>
 					<de>Schwerenöter</de>
 					<en>Philanderers</en>
-					<pl>Kobiety</pl>
+					<pl>Filantropki</pl>
 				</who_2>
 				<who_3>
 					<de>Polizisten</de>
@@ -589,7 +589,7 @@
 				<who_5>
 					<de>Clowns</de>
 					<en>Clowns</en>
-					<pl>Artystki</pl>
+					<pl>Artystki cyrkowe</pl>
 				</who_5>
 				<who_6>
 					<de>Krankenpfleger</de>
@@ -614,7 +614,7 @@
 				<who_a>
 					<de>Verschwörungstheoretiker</de>
 					<en>Conspiracy Theorists</en>
-					<pl>Teoretyczki</pl>
+					<pl>Teoretyczki spisku</pl>
 				</who_a>
 				<who_b>
 					<de>Gastrokritiker</de>
@@ -634,12 +634,12 @@
 				<who_e>
 					<de>Einradfahrer</de>
 					<en>Unicyclists</en>
-					<pl>Motocyklistki</pl>
+					<pl>Rowerzystki jednośladów</pl>
 				</who_e>
 				<who_f>
 					<de>Kunstpfeifer</de>
 					<en>Concert Whistlers</en>
-					<pl>Artystki muzyczne</pl>
+					<pl>Artystki koncertowe</pl>
 				</who_f>
 				<who_g>
 					<de>Drehbuchschreiber</de>
@@ -654,7 +654,7 @@
 				<titleaddendum>
 					<de> aus ${town}| über ${theirlives}|</de>
 					<en> from ${town}| and ${theirlives}|</en>
-					<pl>z miasta ${town}| i ${theirlives}|</pl>
+					<pl> z miasta ${town}| i ${theirlives}|</pl>
 				</titleaddendum>
 				<theirlives>
 					<de>ihren Alltag|was sie alles durchmachen|ihre Erlebnisse|ihren Lebensweg|ihre Abenteuer|ihren ganz normalen Wahnsinn|ihre Lebensgeschichten|ihre Eskapaden|ihren bewegten Tagesablauf|ihre Wechselbäder der Gefühle|ihre aufregenden Heldentaten</de>
@@ -664,7 +664,7 @@
 				<how_0>
 					<de>wahnwitzige ${who_${i}}, deren rauher, aus der Zeit gefallener Umgangston doch irgendwie Charme hat</de>
 					<en>freakish ${who_${i}}, whose rough, out-of-time tone somehow has charm after all</en>
-					<pl>o pracowitym i ciężkim życiu kobiet. To one.</pl>
+					<pl>o pracowitym i ciężkim życiu tych kobiet. To one.</pl>
 				</how_0>
 				<how_1>
 					<de>wagemutige ${who_${i}}, die sämtliche gesellschaftliche Konventionen zu hinterfragen und brechen wissen</de>
@@ -1344,17 +1344,17 @@
 						<whythere_0>
 							<de>Petrus persönlich hat die ${who_${i}} eingeladen, die Himmelspforte stünde schließlich allen frommen Menschen offen, die reinen Herzens sind. Die ${who_${i}} unterhalten sich angeregt mit den Engeln vom Dienst.</de>
 							<en>St. Peter personally has invited the ${who_${i}}, the gate of heaven is, after all, open to all pious people who are pure of heart. The ${who_${i}} animatedly converse with the angels on duty.</en>
-							<pl>${musicsession}</pl>
+							<pl>Św. Piotr osobiście zaprosił ${who_${i}}, w końcu brama nieba jest otwarta dla wszystkich pobożnych ludzi o czystym sercu. ${who_${i}} z ożywieniem rozmawiają z aniołami na służbie.</pl>
 						</whythere_0>
 						<whythere_1>
 							<de>Zu Feierabend darf man ja auch mal einen trinken gehen. ${musicsession}</de>
 							<en>After all, you can have a drink after work. ${musicsession}</en>
-							<pl>${musicsession}</pl>
+							<pl>Po pracy można przecież wypić drinka. ${musicsession}</pl>
 						</whythere_1>
 						<whythere_2>
 							<de>Er gehört zur Wohnung von der Oma von ${firstname1}. ${musicsession}</de>
 							<en>It belongs to the apartment of the grandma of ${firstname1}. ${musicsession}</en>
-							<pl>${musicsession}</pl>
+							<pl>Należy do mieszkania babci o imieniu ${firstname1}. ${musicsession}</pl>
 						</whythere_2>
 						<whythere_3>
 							<de>Ein Streit in der Nachbarschaft war etwas eskaliert, aber ${firstname2}, ${firstname3} und die Polizei konnten erfolgreich schlichten. Anschließend findet eine Hundetrainingsvorführung statt, und alle sind beeindruckt.</de>
@@ -1369,22 +1369,22 @@
 						<whythere_5>
 							<de>Ein Wanderzirkus gastiert nämlich gerade in ${town}, und man fühlt sich mit den Schaustellern im Geiste verbunden.</de>
 							<en>In fact, a traveling circus is currently touring ${town}, and there's a feeling of spiritual connection with the carnies.</en>
-							<pl>${musicsession}</pl>
+							<pl>W rzeczywistości, objazdowy cyrk obecnie objeżdża ${town} i istnieje poczucie duchowej więzi z cyrkowcami.</pl>
 						</whythere_5>
 						<whythere_6>
 							<de>Es gehört nämlich der abergläubischen Tante von ${firstname3}. Lachend lösen unsere ${who_${i}} das Problem mit der elektrischen Leitung und genießen den Landurlaub.</de>
 							<en>It belongs to the superstitious aunt of ${firstname3}. With laughter, our ${who_${i}} solve the problem with the electric line and enjoy the rural vacation.</en>
-							<pl>Ze śmiechem nasze ${who_${i}} rozwiązują problem z linią elektryczną i cieszą się wakacjami na wsi.</pl>
+							<pl>Należy do przesądnej ciotki o imieniu ${firstname3}. Ze śmiechem nasze ${who_${i}} rozwiązują problem z linią elektryczną i cieszą się wakacjami na wsi.</pl>
 						</whythere_6>
 						<whythere_7>
 							<de>Die ${who_${i}} helfen gerne beim Abbau. Der ganze Rummel weckt schönste Kindheitserinnerungen, doch irgendwann muss wieder Schluss und Frieden sein in ${town}, finden sie.</de>
 							<en>The ${who_${i}} are happy to help with the dismantling. All the hustle and bustle brings back fond childhood memories, but at some point, there has to be peace and quiet again in ${town}, they think.</en>
-							<pl>Nasze bohaterki prowadzą swoje żywiołowe sprawy.</pl>
+							<pl>Nasze bohaterki prowadzą swoje żywiołowe sprawy. Cały ten zgiełk przywołuje miłe wspomnienia z dzieciństwa, ale w pewnym momencie w mieście ${town} znów musi zapanować cisza i spokój.</pl>
 						</whythere_7>
 						<whythere_8>
 							<de>Das Astronautentraining war für unsere ${who_${i}} ein Klacks. Und so machen sie sich auf in neue Welten, die nie zuvor ein Mensch gesehen hat.</de>
 							<en>Astronaut training was a snap for our ${who_${i}}. And so they set off for new worlds, to boldly go where no one has gone before.</en>
-							<pl>Nasze bohaterki prowadzą swoje żywiołowe sprawy.</pl>
+							<pl>I tak wyruszają do nowych wydarzeń, by odważnie podążać tam, gdzie nikt inny nie chce wchodzić.</pl>
 						</whythere_8>
 						<whythere_9>
 							<de>${firstname3} hat eine Reise für alle um den Mond gewonnen, eine Marketingaktion eines neuen privaten Raumfahrtunternehmens. Da gibt man sich doch gerne als Versuchskaninchen her.</de>
@@ -1394,37 +1394,37 @@
 						<whythere_a>
 							<de>Eine Freundin von ${firstname3} kennt da nämlich jemanden, der jemand kennt, von dem eine Skulptur dort ausgestellt ist.</de>
 							<en>In fact, a friend of ${firstname3} knows someone who knows someone who has a sculpture on display there.</en>
-							<pl>Nasze bohaterki prowadzą swoje żywiołowe sprawy.</pl>
+							<pl>W rzeczywistości znajoma o imieniu ${firstname3} zna kogoś, kto zna kogoś, kto ma tam wystawioną rzeźbę..</pl>
 						</whythere_a>
 						<whythere_b>
 							<de>${firstname2} ist nämlich großer Fan der „Pilzköpfe“ und hilft beim Organisieren eines Events rund um das gelbe Boot mit.</de>
 							<en>${firstname2} is a big fan of the "mop-tops" and is helping to organize an event around the yellow boat.</en>
-							<pl>Nasze bohaterki prowadzą swoje żywiołowe sprawy.</pl>
+							<pl>${firstname2} jest wielką fanką „mop-topów” i pomaga zorganizować wydarzenie wokół żółtej łodzi.</pl>
 						</whythere_b>
 						<whythere_c>
 							<de>${town} hat nämlich eine weit zurückreichende und interessante Geschichte, und heute ist der letzte Tag der Ausstellung „Zeitlose Geschichten“ hier im Schloss.</de>
 							<en>In fact, ${town} has a long and interesting history, and today is the last day of the "Timeless Tales" exhibition here at the castle.</en>
-							<pl>Tak naprawdę ${town} ma długą i ciekawą historię, a dziś jest ostatni dzień wystawy „Opowieści ponadczasowe” na zamku.</pl>
+							<pl>Tak naprawdę miasto ${town} ma długą i ciekawą historię, a dziś jest ostatni dzień wystawy „Opowieści ponadczasowe” na zamku.</pl>
 						</whythere_c>
 						<whythere_d>
 							<de>${firstname1} hatte eine Einladung bekommen, denn ${who_${i}}-Ausrüstung ist gerade der letzte Schrei und dient als Vorlage für die brandneuesten Modekreationen.</de>
 							<en>${firstname1} got an invitation, because ${who_${i}} gear is all the rage right now and serves as a template for the latest fashion creations.</en>
-							<pl>${firstname1} dostała zaproszenie na pokazy kreacji modowych.</pl>
+							<pl>${firstname1} otrzymała zaproszenie, ponieważ sprzęt ${who_${i}} jest obecnie w modzie i służy jako szablon dla najnowszych kreacji modowych.</pl>
 						</whythere_d>
 						<whythere_e>
 							<de>Der kleine Bruder von ${firstname3} will die neueste Wasserrutsche dort ausprobieren.</de>
 							<en>The little brother of ${firstname3} wants to try out the latest water slide there.</en>
-							<pl>Nasze bohaterki prowadzą swoje żywiołowe sprawy.</pl>
+							<pl>Młodszy brat naszej ${firstname3} chce wypróbować najnowszą zjeżdżalnię wodną.</pl>
 						</whythere_e>
 						<whythere_f>
 							<de>${firstname2} hat nämlich einen Wellness-Day „inkl. dampfenden Abenteuern für zwei“ gewonnen. TVTower übernimmt für ${firstname3} und den Rest der Crew, und ab geht's!</de>
 							<en>In fact, ${firstname2} has won a Wellness Day "incl. steamy adventures for two". TVTower covers for ${firstname3} and the rest of the crew, and off we go!</en>
-							<pl>Nasze bohaterki prowadzą swoje żywiołowe sprawy.</pl>
+							<pl>W rzeczywistości ${firstname2} wygrała Dzień Wellness „w tym gorące przygody dla dwojga”. TVTower pokrywa koszty naszej ${firstname3} i reszty załogi, i ruszamy!</pl>
 						</whythere_f>
 						<whythere_g>
 							<de>Zum Glück hatte ${firstname3} noch Plätze im Billigflieger für alle ergattert. Was tut man nicht alles, um Bewusstsein für Natur und Umwelt zu schaffen!</de>
 							<en>Luckily, ${firstname3} had managed to get seats on the budget plane for everyone. The things you do to raise awareness for nature and the environment!</en>
-							<pl>Na szczęście ${firstname3} udało się załatwić miejsca w tanim samolocie dla wszystkich. Rzeczy, które robisz, aby zwiększyć świadomość na temat natury i środowiska!</pl>
+							<pl>Na szczęście naszej bohaterce o imieniu ${firstname3} udało się załatwić miejsca w tanim samolocie dla wszystkich. Rzeczy, które robisz, aby zwiększyć świadomość na temat natury i środowiska!</pl>
 						</whythere_g>
 						<whythere_h>
 							<de>Zum Glück hatte ${firstname3} noch Plätze im Billigflieger für alle ergattert, und das wilde Wüstenabenteuer kann beginnen!</de>
