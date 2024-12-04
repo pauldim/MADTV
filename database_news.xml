@@ -7674,12 +7674,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Polnischer Minister stark kritisiert</de>
 				<en>Polish minister heavily criticized</en>
-				<pl></pl>
+				<pl>Polski minister ostro krytykowany</pl>
 			</title>
 			<description>
 				<de>Die Verkehrsminister der übrigen EU-Länder können die Helmpflicht nicht verstehen. Eine solche Pflicht wäre übertrieben.</de>
 				<en>The transport ministers of the other EU countries cannot understand the obligation to wear a helmet. Such an obligation would be excessive.</en>
-				<pl></pl>
+				<pl>Ministrowie transportu innych krajów UE nie mogą zrozumieć obowiązku noszenia kasku. Taki obowiązek byłby nadmiernie przesadzony.</pl>
 			</description>
 			<data genre="0" price="0.7" quality="28" fictional="1" />
 			<effects>
@@ -7691,7 +7691,7 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>${greenland} ${icehockey_${i}}-Weltmeister</de>
 				<en>${greenland} is ${icehockey_${i}} World Champion</en>
-				<pl></pl>
+				<pl>${greenland} jest Mistrzem świata w ${icehockey_${i}}</pl>
 			</title>
 			<description>
 				<all>${inathrillingduel_${i}}</all>
@@ -7710,7 +7710,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 						Queen Maud Land;;wins;leaves|
 						Newfoundland;;wins;leaves
 					</en>
-					<pl></pl>
+					<pl>Grenlandia;;zwycięża;odstawia|
+						Wyspy Owcze;;zwyciężają;odstawiają|
+						Szpizbergen;;zwycięża;odstawia|
+						Ziemia Królowej Maud;;zwycięża;odstawia|
+						Nowa Fundlandia;;zwycięża;odstawia
+					</pl>
 				</coldregion_csv>
 				<greenland>
 					<all>${.csv:coldregion_csv:0}</all>
@@ -7727,28 +7732,28 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 				<kenya>
 					<de>Kenia|Libyen|Oman|Mauretanien|Mali|Angola|Tschad|Sudan|Papua-Neuguinea|Samoa|Tonga</de>
 					<en>Kenya|Libya|Oman|Mauritania|Mali|Angola|Chad|Sudan|Papua New Guinea|Samoa|Tonga</en>
-					<pl></pl>
+					<pl>Kenii|Libii|Omanu|Mauretanii|Mali|Angoli|Czadu|Sudanu|Papuy Nowej Gwinei|Samoa|Tongo</pl>
 				</kenya>
 				<i>0|1|2|3</i>
 				<icehockey_0>
 					<de>Bambini-Eishockey|Juniorinnen-Eishockey|Amateur-Eishockey</de>
 					<en>Children's Ice Hockey|Junior Women's Ice Hockey|Amateur Ice Hockey</en>
-					<pl></pl>
+					<pl>hokeju na lodzie dzieci|hokeju na lodzie juniorek|hokeju na lodzie amatorów</pl>
 				</icehockey_0>
 				<icehockey_1>
 					<de>Skijöring|Eiskanu|Skibob</de>
 					<en>Skijoring|Ice Canoeing|Skibobbing</en> <!-- https://en.wikipedia.org/wiki/Skijoring | https://en.wikipedia.org/wiki/Ice_canoeing | https://en.wikipedia.org/wiki/Skibobbing -->
-					<pl></pl>
+					<pl>skijoringu|ice Canoeingu|skibobbingu</pl>
 				</icehockey_1>
 				<icehockey_2>
 					<de>Eissurfen|Snowkiting|Trickski</de>
 					<en>Ice Surfing|Snowkiting|Hot Dog Skiing</en> <!-- https://de.wikipedia.org/wiki/Eissurfen | https://en.wikipedia.org/wiki/Snowkiting | https://en.wikipedia.org/wiki/Freestyle_skiing ('Known as "hot-dogging" in the early 1970s') -->
-					<pl></pl>
+					<pl>ice Surfingu|snowkitingu|hot dog skiingu</pl>
 				</icehockey_2>
 				<icehockey_3>
 					<de>Fässer-Eisspringen|Stab-Eissprung|Eisstockschleudern</de>
 					<en>Barrel Ice Jumping|Ice Pole Vault|Ice Stock Skidding</en> <!-- https://en.wikipedia.org/wiki/Barrel_jumping | last 2 made-up fictional sports -->
-					<pl></pl>
+					<pl>skakaniu z beczki na lodzie|skakaniu z kija na lodzie|rzutach kijem na lód</pl>
 				</icehockey_3>
 				<scorefor>4|4|4|5|5|5|6|6|7|8|9</scorefor>
 				<scoreagainst>0|1|1|2|2|2|3|3|3</scoreagainst>
@@ -7756,22 +7761,22 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 				<inathrillingduel_0>
 					<de>In einem spannenden Duell gegen ${kenya} ${wins} ${the}${greenland} das ${icehockey_${i}}-Weltmeisterschafts-Finale mit ${scorefor}:${scoreagainst}.</de>
 					<en>In a thrilling duel against ${kenya}, ${the}${greenland} ${wins} the ${icehockey_${i}} World Championship final ${scorefor}-${scoreagainst}.</en>
-					<pl></pl>
+					<pl>W emocjonującym pojedynku przeciwko ${kenya}$, ${greenland} ${wins} finał Mistrzostw Świata w ${icehockey_${i}} ${scorefor}-${scoreagainst}.</pl>
 				</inathrillingduel_0>
 				<inathrillingduel_1>
 					<de>In einem spannenden Wettkampf ${leaves} ${the}${greenland} den hartnäckigsten Konkurrenten ${kenya} hinter sich und ${wins} mit 0,${pointscount} Punkten Vorsprung in der Gesamtwertung.</de>
 					<en>In a thrilling competition, ${the}${greenland} ${leaves} behind the fiercest competitor ${kenya} and ${wins} the overall standings with a 0.${pointscount} lead.</en>
-					<pl></pl>
+					<pl>W emocjonującej rywalizacji, ${greenland} ${leaves} najzacieklejszego konkurenta z ${kenya} i ${wins} w klasyfikacji generalnej z przewagą 0,${pointscount} punkta.</pl>
 				</inathrillingduel_1>
 				<inathrillingduel_2>
 					<de>In einem spannenden Wettkampf ${leaves} ${the}${greenland} den hartnäckigsten Konkurrenten ${kenya} hinter sich und ${wins} mit 0,${pointscount} Sekunden Vorsprung.</de>
 					<en>In a thrilling competition, ${the}${greenland} ${leaves} behind the fiercest competitor ${kenya} and ${wins} with a 0.${pointscount} seconds lead.</en>
-					<pl></pl>
+					<pl>W emocjonującej rywalizacji ${greenland} ${leaves} za sobą najzacieklejszego konkurenta z ${kenya} i ${wins} z przewagą 0,${pointscount} sekund.</pl>
 				</inathrillingduel_2>
 				<inathrillingduel_3>
 					<de>In einem spannenden Wettkampf ${leaves} ${the}${greenland} den hartnäckigsten Konkurrenten ${kenya} hinter sich und ${wins} mit 0,${pointscount} Metern Vorsprung.</de>
 					<en>In a thrilling competition, ${the}${greenland} ${leaves} behind the fiercest competitor ${kenya} and ${wins} with a 0.${pointscount} feet lead.</en>
-					<pl></pl>
+					<pl>W emocjonującej rywalizacji ${greenland} ${leaves} za sobą najzacieklejszego konkurenta z ${kenya} i ${wins} przewagą 0,${pointscount} stopy.</pl>
 				</inathrillingduel_3>
 				<artistfirstname>${.persongenerator:"firstname":"dk":"male"}</artistfirstname>
 				<artistlastname>${.persongenerator:"lastname":"dk":"male"}</artistlastname>
@@ -7797,12 +7802,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>${icehockey_${i}}-Hymne ein Riesenhit</de>
 				<en>${icehockey_${i}} anthem a huge hit</en>
-				<pl></pl>
+				<pl>Hymn państwa ${icehockey_${i}} wielkim hitem</pl>
 			</title>
 			<description>
 				<de>Anlässlich des Gewinns der Weltmeisterschaft landet Sänger ${artistfirstname} ${artistlastname} mit der Hymne „${greenland} ${icehockey_${i}}land“ einen Riesenhit.</de>
 				<en>On the occasion of the victory of the World Championship, singer ${artistfirstname} ${artistlastname} lands a huge hit with the anthem "${greenland} ${icehockey_${i}} Land".</en>
-				<pl></pl>
+				<pl>Z okazji zwycięstwa w Mistrzostwach Świata, piosenkarz ${artistfirstname} ${artistlastname} nagrał hymn „${greenland} w ${icehockey_${i}}“, który stał się wielkim hitem.</pl>
 			</description>
 			<data genre="1" price="1" quality="15" fictional="1" />
 		</news>
@@ -7810,12 +7815,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Film über ${kenya}-Team?</de>
 				<en>Film about ${kenya} team?</en>
-				<pl></pl>
+				<pl>Film o drużynie z ${kenya}?</pl>
 			</title>
 			<description>
 				<de>Anlässlich der knappen Niederlage will der aufstrebende Filmemacher ${artistfirstname} ${artistlastname} die Abenteuer des ${kenya}-Teams bei der ${icehockey_${i}}-WM auf die Leinwand bringen. Arbeitstitel: „Cold Sleddings“.</de>
 				<en>On the occasion of the narrow defeat, aspiring filmmaker ${artistfirstname} ${artistlastname} wants to bring the adventures of the ${kenya} team at the ${icehockey_${i}} World Championship to the big screen. Working title: "Cold Sleddings".</en>
-				<pl></pl>
+				<pl>Z okazji niewielkiej porażki na Mistrzostwa Świata w ${icehockey_${i}}, aspirujący filmowiec ${artistfirstname} ${artistlastname} chce przenieść przygody drużyny z ${kenya} na duży ekran. Tytuł roboczy: „Zimne sanki“.</pl>
 			</description>
 			<data genre="1" price="1" quality="15" fictional="1" />
 		</news>
@@ -7823,12 +7828,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>${icehockey_${i}}-Buch ein Bestseller</de>
 				<en>${icehockey_${i}} book a bestseller</en>
-				<pl></pl>
+				<pl>Książka na Mistrzostwa Świata w ${icehockey_${i}} bestsellerem</pl>
 			</title>
 			<description>
 				<de>Nachdem nach der Weltmeisterschaft ein kleiner Hype entstanden ist, wird das Buch „Die besten Taktiken im ${icehockey_${i}}“ von Prof. Dr. ${artistfirstname} ${artistlastname} zum Bestseller.</de>
 				<en>After the minor hype following the World Championship, the book "The best tactics in ${icehockey_${i}}" by Prof. Dr. ${artistfirstname} ${artistlastname} becomes a bestseller.</en>
-				<pl></pl>
+				<pl>Po małym szumie po Mistrzostwach Świata w ${icehockey_${i}}, książka "Najlepsza taktyka w ${icehockey_${i}}" autorstwa Prof. Dr. ${artistfirstname}a ${artistlastname} stała się bestsellerem.</pl>
 			</description>
 			<data genre="3" price="1" quality="15" fictional="1" />
 		</news>
@@ -7836,12 +7841,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>${icehockey_${i}}-Game großer Erfolg</de>
 				<en>${icehockey_${i}} game big success</en>
-				<pl></pl>
+				<pl>Wielki sukces gry o Mistrzostwach Świata w ${icehockey_${i}}</pl>
 			</title>
 			<description>
 				<de>Nachdem nach der Weltmeisterschaft ein kleiner Hype entstanden ist, führt das Game „${icehockey_${i}} Challenge“ von ${artistlastname}soft derzeit die internationalen Verkaufscharts an.</de>
 				<en>After the minor hype following the World Championship, the game "${icehockey_${i}} Challenge" by ${artistlastname}soft is currently topping the international sales charts.</en>
-				<pl></pl>
+				<pl>Po niewielkim szumie po Mistrzostwach Świata w ${icehockey_${i}}, gra „Wyzwania w ${icehockey_${i}}“ autorstwa ${artistlastname}soft znajduje się obecnie na szczycie międzynarodowych list sprzedaży.</pl>
 			</description>
 			<data genre="3" price="1" quality="15" fictional="1" />
 		</news>
@@ -7849,12 +7854,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>${icehockey_${i}}-Ausrüstung Verkaufsschlager</de>
 				<en>${icehockey_${i}} equipment top seller</en>
-				<pl></pl>
+				<pl>Najlepiej sprzedający się sprzęt do gry w ${icehockey_${i}}</pl>
 			</title>
 			<description>
 				<de>Nachdem nach der Weltmeisterschaft ein kleiner Hype entstanden ist, packt der Ausrüster „${artistlastname} Gears &amp; Gadgets“ die Gelegenheit beim Schopf und lässt mit seiner „${icehockey_${i}} ${greenland} Edition“ die Konkurrenz hinter sich.</de>
 				<en>After the minor hype following the World Championship, the equipment supplier "${artistlastname} Gears &amp; Gadgets" seizes the opportunity and leaves the competition behind with their "${icehockey_${i}} ${greenland} Edition".</en>
-				<pl></pl>
+				<pl>Po niewielkim szumie po Mistrzostwach Świata w ${icehockey_${i}}, dostawca sprzętu „${artistlastname} Gears &amp; Gadgets“ wykorzystuje okazję i zostawia konkurencję w tyle ze swoim „${greenland} Edition“.</pl>
 			</description>
 			<data genre="3" price="1" quality="15" fictional="1" />
 		</news>
@@ -7862,12 +7867,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Polar-Ausstellung in ${exhibitiontown} wird erweitert</de>
 				<en>Polar exhibit in ${exhibitiontown} to be expanded</en>
-				<pl></pl>
+				<pl>Wystawa polarna w mieście ${exhibitiontown} zostanie rozszerzona</pl>
 			</title>
 			<description>
 				<de>Anlässlich des Gewinns der Weltmeisterschaft nimmt die gerade in ${exhibitiontown} gastierende Wanderausstellung „Polar-Volkssport im Wandel der Zeit“ den Rundgang „${greenland} und ${icehockey_${i}}“ ins Programm auf.</de>
 				<en>On the occasion of the victory of the World Championship, the traveling exhibit "Popular polar sports in the course of time" currently touring ${exhibitiontown} will add the trail "${greenland} and ${icehockey_${i}}" to its program.</en>
-				<pl></pl>
+				<pl>Z okazji zwycięstwa w Mistrzostwach Świata w ${icehockey_${i}} objazdowa wystawa "Popularne sporty polarne na przestrzeni dziejów", która obecnie podróżuje po mieście ${exhibitiontown}, doda do swojego programu ścieżkę „${greenland} w ${icehockey_${i}}“.</pl>
 			</description>
 			<data genre="5" price="1" quality="15" fictional="1" />
 		</news>
@@ -7875,12 +7880,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Doku über ${icehockey_${i}} in ${kenya}</de>
 				<en>Docu about ${icehockey_${i}} in ${kenya}</en>
-				<pl></pl>
+				<pl>Dokument o ${icehockey_${i}} w ${kenya}.</pl>
 			</title>
 			<description>
 				<de>Anlässlich der knappen Niederlage hat der aufstrebende Filmemacher ${artistfirstname} ${artistlastname} eine Doku über den ${icehockey_${i}}-Sport in ${kenya} in der Mache. Arbeitstitel: „Cold Sleddings“.</de>
 				<en>On the occasion of the narrow defeat, aspiring filmmaker ${artistfirstname} ${artistlastname} has a documentary about the sport of ${icehockey_${i}} in ${kenya} in the making. Working title: "Cold Sleddings".</en>
-				<pl></pl>
+				<pl>Z okazji niewielkiej porażki, aspirujący filmowiec ${artistfirstname} ${artistlastname} przygotowuje dokument o sporcie ${icehockey_${i}} w ${kenya}. Tytuł roboczy: „Zimne sanki“.</pl>
 			</description>
 			<data genre="5" price="1" quality="15" fictional="1" />
 		</news>
@@ -7888,12 +7893,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Kabarettist ${artistfirstname} ${artistlastname} mit ${icehockey_${i}}-Programm</de>
 				<en>Satirist ${artistfirstname} ${artistlastname} with ${icehockey_${i}} program</en>
-				<pl></pl>
+				<pl>Satyryk ${artistfirstname} ${artistlastname} z programem o ${icehockey_${i}}</pl>
 			</title>
 			<description>
 				<de>Der aufstrebene Kabarettist ${artistfirstname} ${artistlastname} beginnt seine Tour in ${exhibitiontown} und stellt sein von der kürzlichen WM inspiriertes Programm „Das ist ja wie ${icehockey_${i}} in ${kenya}“ vor.</de>
 				<en>Up-and-coming satirist ${artistfirstname} ${artistlastname} begins his tour in ${exhibitiontown} and, inspired by the recent World Championship, presents his program "This be like ${icehockey_${i}} in ${kenya}".</en>
-				<pl></pl>
+				<pl>Wschodzący satyryk ${artistfirstname} ${artistlastname} rozpoczyna swoją trasę w mieście ${exhibitiontown} i zainspirowany ostatnimi Mistrzostwami Świata w ${icehockey_${i}} prezentuje swój program „To będzie jak w ${icehockey_${i}} w ${kenya}“.</pl>
 			</description>
 			<data genre="5" price="1" quality="15" fictional="1" />
 		</news>
@@ -7901,12 +7906,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>${icehockey_${i}}-Hype sorgt für viele Verletzte</de>
 				<en>${icehockey_${i}} hype causes many injuries</en>
-				<pl></pl>
+				<pl>Rozgłos w ${icehockey_${i}} powoduje wiele kontuzji</pl>
 			</title>
 			<description>
 				<de>Probiert das nicht zu Hause aus, Kinder! ${exhibitiontown} und weitere Orte klagen über viele Einlieferungen ins Krankenhaus, als nach der ${icehockey_${i}}-Weltmeisterschaft viele Untrainierte den Sport ausprobieren wollten.</de>
 				<en>Don't try this at home, kids! ${exhibitiontown} and other towns complain about many hospitalizations when, following the ${icehockey_${i}} World Championship, many untrained people wanted to try the sport.</en>
-				<pl></pl>
+				<pl>Nie próbujcie tego w domu, dzieci! ${exhibitiontown} i inne miasta narzekają na wiele kontuzji, gdy po Mistrzostwach Świata w ${icehockey_${i}}, gdy wiele nieprzeszkolonych osób chciało spróbować tego sportu.</pl>
 			</description>
 			<data genre="4" price="1" quality="15" fictional="1" />
 		</news>
@@ -7914,12 +7919,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Straßensperren wegen ${icehockey_${i}}-Flashmob</de>
 				<en>Road closures due to ${icehockey_${i}} flash mob</en>
-				<pl></pl>
+				<pl>Zamknięcia dróg z powodu rozgłosu w ${icehockey_${i}}</pl>
 			</title>
 			<description>
 				<de>Nachdem nach der Weltmeisterschaft ein kleiner Hype entstanden ist, haben sich in ${exhibitiontown} Menschen zusammengefunden und mit frechen Botschaften den Sport imitiert. Viele Straßen mussten gesperrt werden.</de>
 				<en>After the minor hype following the World Championship, people came together in ${exhibitiontown} and imitated the sport with cheeky messages. Many streets had to be closed.</en>
-				<pl></pl>
+				<pl>Po niewielkim szumie po Mistrzostwach Świata w ${icehockey_${i}}, ludzie zebrali się w mieście ${exhibitiontown} i naśladowali ten sport na ulicach. Wiele ulic musiało zostać zamkniętych.</pl>
 			</description>
 			<data genre="4" price="1" quality="15" fictional="1" />
 		</news>
@@ -7928,7 +7933,7 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>${kenya} ${armwrestling_${i}}-Weltmeister</de>
 				<en>${kenya} is ${armwrestling_${i}} World Champion</en>
-				<pl></pl>
+				<pl>Mistrzem świata w ${armwrestling_${i}} jest państwo z ${kenya}</pl>
 			</title>
 			<description>
 				<all>${inathrillingduel_${i}}</all>
@@ -7947,7 +7952,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 						Queen Maud Land;;|
 						Newfoundland;;
 					</en>
-					<pl></pl>
+					<pl>Grenlandia;;|
+						Wyspy Owcze;;|
+						Szpicbergen;;|
+						Ziemia Królowej Maud;;|
+						Nowa Fundlandia;;
+					</pl>
 				</coldregion_csv>
 				<greenland>
 					<all>${.csv:coldregion_csv:0}</all>
@@ -7958,28 +7968,28 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 				<kenya>
 					<de>Kenia|Libyen|Oman|Mauretanien|Mali|Angola|Tschad|Sudan|Papua-Neuguinea|Samoa|Tonga</de>
 					<en>Kenya|Libya|Oman|Mauritania|Mali|Angola|Chad|Sudan|Papua New Guinea|Samoa|Tonga</en>
-					<pl></pl>
+					<pl>Kenii|Libii|Omanu|Mauretanii|Mali|Angoli|Czadu|Sudanu|Papuy Nowej Gwinei|Samoa|Tongo</pl>
 				</kenya>
 				<i>0|1|2|3</i>
 				<armwrestling_0>
 					<de>Armdrücken|Baumstamm-Wasserrollen|Kanupolo|Ultimate-Frisbee</de>
 					<en>Arm Wrestling|Water Log Rolling|Canoe Polo|Ultimate Frisbee</en> <!-- https://en.wikipedia.org/wiki/Arm_wrestling | https://en.wikipedia.org/wiki/Logrolling_(sport) | https://en.wikipedia.org/wiki/Canoe_polo | https://en.wikipedia.org/wiki/Ultimate_(sport) -->
-					<pl></pl>
+					<pl>Arm Wrestlingu|Water Log Rollingu|Canoe Polo|Ultimate Frisbee</pl>
 				</armwrestling_0>
 				<armwrestling_1>
 					<de>Freestyle-Footbag|Bullenreiten|Klippenspringen|Baumstammwerfen</de>
 					<en>Freestyle-Footbag|Bull Riding|Cliff Diving|Caber Toss</en> <!-- https://en.wikipedia.org/wiki/Freestyle_footbag | https://en.wikipedia.org/wiki/Bull_riding | https://en.wikipedia.org/wiki/Cliff_diving | https://en.wikipedia.org/wiki/Caber_toss -->
-					<pl></pl>
+					<pl>Freestyle-Footbagu|Bull Ridingu|Cliff Divingu|Caber Tossu</pl>
 				</armwrestling_1>
 				<armwrestling_2>
 					<de>Sandboard-Rennen|Inline-Speedskating|Roller-Ski</de>
 					<en>Sandboard Racing|Inline Speed Skating|Roller Skiing</en> <!-- https://en.wikipedia.org/wiki/Sandboarding | https://en.wikipedia.org/wiki/Inline_speed_skating | https://en.wikipedia.org/wiki/Roller_skiing -->
-					<pl></pl>
+					<pl>Sandboard Racingu|Inline Speed Skatingu|Roller Skiingu</pl>
 				</armwrestling_2>
 				<armwrestling_3>
 					<de>Frisbee-Weitwurf|Schleuderball</de>
 					<en>Frisbee Long Throw|Schleuderball</en> <!-- https://de.wikipedia.org/wiki/Frisbee | https://de.wikipedia.org/wiki/Schleuderball -->
-					<pl></pl>
+					<pl>Frisbee Long Throwu|Schleuderballu</pl>
 				</armwrestling_3>
 				<scorefor>4|4|4|5|5|5|6|6|7|8|9</scorefor>
 				<scoreagainst>0|1|1|2|2|2|3|3|3</scoreagainst>
@@ -7987,22 +7997,22 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 				<inathrillingduel_0>
 					<de>In einem spannenden Finale schlug ${kenya} ${the}${greenland} mit ${scorefor}:${scoreagainst} und wurde neuer Weltmeister im ${armwrestling_${i}}.</de>
 					<en>In a thrilling final, ${kenya} beat ${the}${greenland} with ${scorefor}:${scoreagainst} to become the new world champion in ${armwrestling_${i}}.</en>
-					<pl></pl>
+					<pl>W emocjonującym finale, Zespół z ${kenya} pokonał ${greenland} wynikiem ${scorefor}:${scoreagainst} zostając nowym mistrzem świata w ${armwrestling_${i}}.</pl>
 				</inathrillingduel_0>
 				<inathrillingduel_1>
 					<de>In einem spannenden Wettkampf lässt ${kenya} den hartnäckigsten Konkurrenten ${the}${greenland} hinter sich und gewinnt mit 0,${pointscount} Punkten Vorsprung in der Gesamtwertung.</de>
 					<en>In a thrilling competition, ${kenya} leaves behind their fiercest competitor ${the}${greenland} and wins the overall standings with a 0.${pointscount} lead.</en>
-					<pl></pl>
+					<pl>W emocjonującej rywalizacji, zespół z ${kenya} zostawia w tyle swojego najzacieklejszego konkurenta z małego państewka ${greenland} i wygrywa ogólną klasyfikację z przewagą 0,${pointscount} punkta.</pl>
 				</inathrillingduel_1>
 				<inathrillingduel_2>
 					<de>In einem spannenden Wettkampf lässt ${kenya} den hartnäckigsten Konkurrenten ${the}${greenland} hinter sich und gewinnt mit 0,${pointscount} Sekunden Vorsprung.</de>
 					<en>In a thrilling competition, ${kenya} leaves behind their fiercest competitor ${the}${greenland} and wins with a 0.${pointscount} seconds lead.</en>
-					<pl></pl>
+					<pl>W emocjonującej rywalizacji, zespół z ${kenya} zostawia w tyle swojego najzacieklejszego konkurenta z państwa ${greenland} i wygrywa z przewagą 0,${pointscount} sekundy.</pl>
 				</inathrillingduel_2>
 				<inathrillingduel_3>
 					<de>In einem spannenden Wettkampf lässt ${kenya} den hartnäckigsten Konkurrenten ${the}${greenland} hinter sich und gewinnt mit 0,${pointscount} Metern Vorsprung.</de>
 					<en>In a thrilling competition, ${kenya} leaves behind their fiercest competitor ${the}${greenland} and wins with a 0.${pointscount} feet lead.</en>
-					<pl></pl>
+					<pl>W emocjonującej rywalizacji, zespół z ${kenya} zostawia w tyle swojego najzacieklejszego konkurenta z państwa ${greenland} i wygrywa z przewagą 0,${pointscount} stopy.</pl>
 				</inathrillingduel_3>
 				<artistfirstname>${.persongenerator:"firstname":"fr":"male"}</artistfirstname>
 				<artistlastname>${.persongenerator:"lastname":"en":"male"}</artistlastname>
@@ -8028,12 +8038,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>${armwrestling_${i}}-Reggae ein Dancefloor-Kracher</de>
 				<en>${armwrestling_${i}} Reggae a dancefloor banger</en>
-				<pl></pl>
+				<pl>Reggae jako taneczny banger w ${armwrestling_${i}}</pl>
 			</title>
 			<description>
 				<de>Anlässlich des Gewinns der Weltmeisterschaft wird der Reggae-Song „${kenya} - ${armwrestling_${i}} Vibin'“ von ${artistfirstname} ${artistlastname} der absolute Abräumer auf den Dancefloors und Sommer-Festivals weltweit.</de>
 				<en>On the occasion of the victory of the World Championship, the reggae song "${kenya} - ${armwrestling_${i}} Vibin'" by ${artistfirstname} ${artistlastname} becomes the absolute runaway sensation on dancefloors and summer festivals worldwide.</en>
-				<pl></pl>
+				<pl>Z okazji zwycięstwa w Mistrzostwach Świata, piosenka reggae „Vibin z ${kenya} w ${armwrestling_${i}}“ autorstwa ${artistfirstname}a ${artistlastname} staje się absolutną sensacją na parkietach tanecznych i letnich festiwalach na całym świecie.</pl>
 			</description>
 			<data genre="1" price="1" quality="15" fictional="1" />
 		</news>
@@ -8041,12 +8051,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Film über ${greenland}-Team?</de>
 				<en>Film about ${greenland} team?</en>
-				<pl></pl>
+				<pl>Film o zespole z państewka ${greenland}?</pl>
 			</title>
 			<description>
 				<de>Anlässlich der knappen Niederlage will der aufstrebende Filmemacher ${artistfirstname} ${artistlastname} die Abenteuer des ${greenland}-Teams bei der ${armwrestling_${i}}-WM unter dem Titel „Hot Runnings“ auf die Leinwand bringen.</de>
 				<en>On the occasion of the narrow defeat, aspiring filmmaker ${artistfirstname} ${artistlastname} wants to bring the adventures of the ${greenland} team at the ${armwrestling_${i}} World Championship to the big screen under the title "Hot Runnings".</en>
-				<pl></pl>
+				<pl>Z okazji niewielkiej porażki, aspirujący filmowiec ${artistfirstname} ${artistlastname} chce przybliżyć przygody drużyny z państwa ${greenland} na turnieju w ${armwrestling_${i}} na dużym ekranie pod tytułem „Hot Runnings“.</pl>
 			</description>
 			<data genre="1" price="1" quality="15" fictional="1" />
 		</news>
@@ -8054,12 +8064,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>${armwrestling_${i}}-Buch ein Bestseller</de>
 				<en>${armwrestling_${i}} book a bestseller</en>
-				<pl></pl>
+				<pl>Książka o ${armwrestling_${i}} bestsellerem</pl>
 			</title>
 			<description>
 				<de>Nachdem nach der Weltmeisterschaft ein kleiner Hype entstanden ist, wird das Buch „Die besten Taktiken im ${armwrestling_${i}}“ von Prof. Dr. ${artistfirstname} ${artistlastname} zum Bestseller.</de>
 				<en>After the minor hype following the World Championship, the book "The best tactics in ${armwrestling_${i}}" by Prof. Dr. ${artistfirstname} ${artistlastname} becomes a bestseller.</en>
-				<pl></pl>
+				<pl>Po szumie po Mistrzostwach Świata w ${armwrestling_${i}}, książka „Najlepsze taktyki w ${armwrestling_${i}}“ autorstwa Prof. Dr. ${artistfirstname}a ${artistlastname} staje się bestsellerem.</pl>
 			</description>
 			<data genre="3" price="1" quality="15" fictional="1" />
 		</news>
@@ -8067,12 +8077,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>${armwrestling_${i}}-Game großer Erfolg</de>
 				<en>${armwrestling_${i}} game big success</en>
-				<pl></pl>
+				<pl>Wielki sukces gry o ${armwrestling_${i}}</pl>
 			</title>
 			<description>
 				<de>Nachdem nach der Weltmeisterschaft ein kleiner Hype entstanden ist, führt das Game „${armwrestling_${i}} Challenge“ von ${artistlastname}soft derzeit die internationalen Verkaufscharts an.</de>
 				<en>After the minor hype following the World Championship, the game "${armwrestling_${i}} Challenge" by ${artistlastname}soft is currently topping the international sales charts.</en>
-				<pl></pl>
+				<pl>Po szumie po Mistrzostwach Świata, gra „Wyzwania w ${armwrestling_${i}}“ autorstwa ${artistlastlastname}soft znajduje się obecnie na szczycie międzynarodowych list sprzedaży.</pl>
 			</description>
 			<data genre="3" price="1" quality="15" fictional="1" />
 		</news>
@@ -8080,12 +8090,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>${armwrestling_${i}}-Ausrüstung Verkaufsschlager</de>
 				<en>${armwrestling_${i}} equipment top seller</en>
-				<pl></pl>
+				<pl>Najlepiej sprzedający się sprzęt w ${armwrestling_${i}}</pl>
 			</title>
 			<description>
 				<de>Nachdem nach der Weltmeisterschaft ein kleiner Hype entstanden ist, packt der Ausrüster „${artistlastname} Gears &amp; Gadgets“ die Gelegenheit beim Schopf und lässt mit seiner „${armwrestling_${i}} ${kenya} Edition“ die Konkurrenz hinter sich.</de>
 				<en>After the minor hype following the World Championship, the equipment supplier "${artistlastname} Gears &amp; Gadgets" seizes the opportunity and leaves the competition behind with their "${armwrestling_${i}} ${kenya} Edition".</en>
-				<pl></pl>
+				<pl>Po szumie po Mistrzostwach Świata, dostawca sprzętu „${artistlastname} Gears &amp; Gadgets“ wykorzystuje okazję i zostawia konkurencję w tyle ze swoim sprzętem do ${armwrestling_${i}}.</pl>
 			</description>
 			<data genre="3" price="1" quality="15" fictional="1" />
 		</news>
@@ -8093,12 +8103,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Sommer-Sonne-Ausstellung in ${exhibitiontown} erweitert</de>
 				<en>Sun-summer exhibit in ${exhibitiontown} expanded</en>
-				<pl></pl>
+				<pl>Słoneczno-letnia wystawa w mieście ${exhibitiontown} rozszerzona</pl>
 			</title>
 			<description>
 				<de>Anlässlich des Gewinns der Weltmeisterschaft nimmt die gerade in ${exhibitiontown} gastierende Wanderausstellung „Sommer-Sonne-Volkssport im Wandel der Zeit“ den Rundgang „${armwrestling_${i}} in ${kenya}“ ins Programm auf.</de>
 				<en>On the occasion of the victory of the World Championship, the traveling exhibit "Popular sun-sommer-sports in the course of time" currently touring ${exhibitiontown} will add the trail "${armwrestling_${i}} in ${kenya}" to its program.</en>
-				<pl></pl>
+				<pl>Z okazji zwycięstwa w Mistrzostwach Świata w ${armwrestling_${i}}, objazdowa wystawa „Popularne sporty słoneczne na przestrzeni czasu“, która obecnie podróżuje po mieście ${exhibitiontown}, doda do swojego programu ścieżkę „O ${armwrestling_${i}} w ${kenya}“.</pl>
 			</description>
 			<data genre="5" price="1" quality="15" fictional="1" />
 		</news>
@@ -8106,12 +8116,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Doku über ${greenland} und ${armwrestling_${i}}</de>
 				<en>Docu about ${greenland} and ${armwrestling_${i}}</en>
-				<pl></pl>
+				<pl>Dokument o ${armwrestling_${i}} i państewku ${greenland}</pl>
 			</title>
 			<description>
 				<de>Anlässlich der knappen Niederlage hat der aufstrebende Filmemacher ${artistfirstname} ${artistlastname} eine Doku über ${the}${greenland} und den ${armwrestling_${i}}-Sport in der Mache. Arbeitstitel: „Hot Runnings“.</de>
 				<en>On the occasion of the narrow defeat, aspiring filmmaker ${artistfirstname} ${artistlastname} has a documentary about ${the}${greenland} and the sport of ${armwrestling_${i}} in the making. Working title: "Hot Runnings".</en>
-				<pl></pl>
+				<pl>Z okazji niewielkiej porażki, aspirujący filmowiec ${artistfirstname} ${artistlastname} ma w przygotowaniu dokument o sporcie o ${armwrestling_${i}} i państwie ${greenland}. Tytuł roboczy: „Hot Runnings“.</pl>
 			</description>
 			<data genre="5" price="1" quality="15" fictional="1" />
 		</news>
@@ -8119,12 +8129,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Kabarettist ${artistfirstname} ${artistlastname} mit ${armwrestling_${i}}-Programm</de>
 				<en>Satirist ${artistfirstname} ${artistlastname} with ${armwrestling_${i}} program</en>
-				<pl></pl>
+				<pl>Satyryk ${artistfirstname} ${artistlastname} ze swoim programem o ${armwrestling_${i}}</pl>
 			</title>
 			<description>
 				<de>Der aufstrebene Kabarettist ${artistfirstname} ${artistlastname} beginnt seine Tour in ${exhibitiontown} und stellt sein von der kürzlichen WM inspiriertes Programm „Sich anstellen wie ${the}${greenland} beim ${armwrestling_${i}}“ vor.</de>
 				<en>Up-and-coming satirist ${artistfirstname} ${artistlastname} begins his tour in ${exhibitiontown} and, inspired by the recent World Championship, will present his program "Acting up like ${the}${greenland} at ${armwrestling_${i}}".</en>
-				<pl></pl>
+				<pl>Wschodzący satyryk ${artistfirstname} ${artistlastname} rozpoczyna swoją trasę w mieście ${exhibitiontown} i zainspirowany ostatnimi Mistrzostwami Świata w ${armwrestling_${i}}, zaprezentuje swój program „Zachowywać się jak w ${armwrestling_${i}}“.</pl>
 			</description>
 			<data genre="5" price="1" quality="15" fictional="1" />
 		</news>
@@ -8132,12 +8142,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>${armwrestling_${i}}-Hype sorgt für viele Verletzte</de>
 				<en>${armwrestling_${i}} hype causes many injuries</en>
-				<pl></pl>
+				<pl>Rozgłos w ${armwrestling_${i}} powoduje wiele kontuzji</pl>
 			</title>
 			<description>
 				<de>Probiert das nicht zu Hause aus, Kinder! ${exhibitiontown} und weitere Orte klagen über viele Einlieferungen ins Krankenhaus, als nach der ${armwrestling_${i}}-Weltmeisterschaft viele Untrainierte den Sport ausprobieren wollten.</de>
 				<en>Don't try this at home, kids! ${exhibitiontown} and other towns complain about many hospitalizations when, following the ${armwrestling_${i}} World Championship, many untrained people wanted to try the sport.</en>
-				<pl></pl>
+				<pl>Nie próbujcie tego w domu, dzieci! ${exhibitiontown} i inne miasta narzekają na wiele hospitalizacji, gdy po Mistrzostwach Świata w ${armwrestling_${i}}, wielu niewyszkolonych ludzi chciało spróbować tego sportu.</pl>
 			</description>
 			<data genre="4" price="1" quality="15" fictional="1" />
 		</news>
@@ -8145,12 +8155,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Straßensperren wegen ${armwrestling_${i}}-Flashmob</de>
 				<en>Road closures due to ${armwrestling_${i}} flash mob</en>
-				<pl></pl>
+				<pl>Mistrzostwa w ${armwrestling_${i}} powodują utrudnienia na drogach</pl>
 			</title>
 			<description>
 				<de>Nachdem nach der Weltmeisterschaft ein kleiner Hype entstanden ist, haben sich in ${exhibitiontown} Menschen zusammengefunden und mit frechen Botschaften den Sport imitiert. Viele Straßen mussten gesperrt werden.</de>
 				<en>After the minor hype following the World Championship, people came together in ${exhibitiontown} and imitated the sport with cheeky messages. Many streets had to be closed.</en>
-				<pl></pl>
+				<pl>Po szumie po Mistrzostwach Świata w ${armwrestling_${i}}, ludzie zebrali się w mieście ${exhibitiontown} i naśladowali ten sport na ulicach, przez co musiały być zamknięte.</pl>
 			</description>
 			<data genre="4" price="1" quality="15" fictional="1" />
 		</news>
