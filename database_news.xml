@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <tvtdb>
-	<version value="3" />
+	<version value="4" />
 	<allnews>
 
 		<!-- 'Real news reel' - Historical news sorted by date (some fictional 'alternative universe' variations may occur) -->
@@ -86,7 +86,7 @@
 			<description>
 				<de>Die Forschung an der sowjetischen Akademie der Wissenschaften ist de facto lahmgelegt, seit ${alexeypajitnov} sein „Tattris“ genanntes Spiel an Kollegen weitergab.</de>
 				<en>Research at the Soviet Academy of Sciences has been de facto paralysed since ${alexeypajitnov} passed on his game called "Tattris" to colleagues.</en>
-				<pl>Badania w Radzieckiej Akademii Nauk zostały de facto sparaliżowane, odkąd ${alexeypajitnov} przekazał kolegom swoją grę o nazwie "Tattris".</pl>
+				<pl>Badania w Radzieckiej Akademii Nauk zostały de facto sparaliżowane, odkąd ${alexeypajitnov} przekazał kolegom swoją grę o nazwie „Tattris“.</pl>
 			</description>
 			<variables>
 				<alexeypajitnov>
@@ -8169,12 +8169,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>${indonesian_n} Flugzeug vermisst</de>
 				<en>${indonesian_n} plane missing</en>
-				<pl></pl>
+				<pl>Zaginął samolot ${fromindonesia}</pl>
 			</title>
 			<description>
 				<de>Eine ${indonesian_f} Passagiermaschine wird seit einigen Stunden vermisst.</de>
 				<en>An ${indonesian_f} passenger plane has been missing for several hours.</en>
-				<pl></pl>
+				<pl>${indonesian_f} samolot pasażerski zaginął na kilka godzin.</pl>
 			</description>
 			<variables>
 				<nation_csv>
@@ -8210,7 +8210,22 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 						Malagasy;Malagasy;from Madagascar|
 						Indian;Indian;from India
 					</en>
-					<pl></pl>
+					<pl>Indonezyjczyk;Indonezyjski;z Indonezji|
+						Lankijczyk;Lankijski;ze Sri Lanki|
+						Malediwczyk;Malediwski;z Malediwów|
+						Bangladeszczyk;Bangladeski;z Bangladeszu|
+						Pakistańczyk;Pakistański;z Pakistanu|
+						tajski;Tajski;z Tajlandii|
+						Malezyjczyk;Malezyjski;z Malezji|
+						Australijczyk;Australijski;z Australii|
+						południowoafrykański;Południowoafrykański;z RPA|
+						Kenijczyk;Kenijski;z Kenii|
+						Tanzańczyk;Tanzański;z Tanzanii|
+						Seszelczyk;Seszelski;z Seszeli|
+						Maurytyjczyk;Maurytański;z Mauritiusa|
+						Malgasze;Malagaski;z Madagaskaru|
+						indyjski;Indyjski;z Indii
+					</pl>
 				</nation_csv>
 				<indonesian_n>
 					<all>${.csv:nation_csv:0}</all>
@@ -8225,7 +8240,7 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 				<indianocean>
 					<de>Indischen Ozean|Pazifischen Ozean</de>
 					<en>Indian Ocean|Pacific Ocean</en>
-					<pl></pl>
+					<pl>Oceanie Indyjskim|Oceanie Spokojnym</pl>
 				</indianocean>
 			</variables>
 			<data genre="4" price="1" quality="35" fictional="1" />
@@ -8237,12 +8252,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Flugzeug wahrscheinlich abgestürzt</de>
 				<en>Plane probably crashed</en>
-				<pl></pl>
+				<pl>Samolot prawdopodobnie się rozbił</pl>
 			</title>
 			<description>
 				<de>Das vermisste Flugzeug ${fromindonesia} ist wahrscheinlich abgestürzt. Suche nach Überlebenden wird fortgesetzt.</de>
 				<en>The missing plane ${fromindonesia} probably crashed. Search for survivors continues.</en>
-				<pl></pl>
+				<pl>Zaginiony samolot ${fromindonesia} prawdopodobnie się rozbił. Trwają poszukiwania ocalałych.</pl>
 			</description>
 			<data genre="4" price="1" quality="35" fictional="1" />
 			<effects>
@@ -8253,12 +8268,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Flugzeugwrack entdeckt</de>
 				<en>Wreckage of plane discovered</en>
-				<pl></pl>
+				<pl>Wrak samolotu odnaleziony</pl>
 			</title>
 			<description>
 				<de>Das abgestürzte Flugzeug ${fromindonesia} wurde im ${indianocean} gefunden. Bilanz: ${deathcount} Tote.</de>
 				<en>The crashed plane ${fromindonesia} was found in the ${indianocean}. The toll: ${deathcount} dead.</en>
-				<pl></pl>
+				<pl>Rozbity samolot ${fromindonesia} został znaleziony w ${indianocean}. Liczba ofiar śmiertelnych: ${deathcount}.</pl>
 			</description>
 			<data genre="4" price="1" quality="55" fictional="1" />
 		</news>
@@ -8267,12 +8282,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Montreal wird französische Provinz!</de>
 				<en>Montreal becomes a French province!</en>
-				<pl></pl>
+				<pl>Montreal staje się francuską prowincją!</pl>
 			</title>
 			<description>
 				<de>Nach einer Volksabstimmung in Montreal wählten 83 Prozent der Kanadier die französische Nationalität.</de>
 				<en>After a referendum in Montreal, 83 percent of Canadians voted for French nationality.</en>
-				<pl></pl>
+				<pl>Po referendum w Montrealu 83 procent Kanadyjczyków zagłosowało za francuskim obywatelstwem.</pl>
 			</description>
 			<data genre="0" price="1" quality="65" fictional="1" flags="2" />
 			<effects>
@@ -8284,12 +8299,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Diplomaten sind verwirrt</de>
 				<en>Diplomats are confused</en>
-				<pl></pl>
+				<pl>Dyplomaci są zdezorientowani</pl>
 			</title>
 			<description>
 				<de>Nun ist es offiziell: Montreal gehört ab sofort zu Frankreich. Diplomaten aller Welt sind verwirrt: Grenzt ab nun die EU an den Vereinigten Staaten Amerikas?</de>
 				<en>Now it's official: Montreal is now part of France. Diplomats around the world are confused: does the EU now border the United States of America?</en>
-				<pl></pl>
+				<pl>To już oficjalne: Montreal jest teraz częścią Francji. Dyplomaci na całym świecie są zdezorientowani: czy UE graniczy teraz ze Stanami Zjednoczonymi Ameryki?</pl>
 			</description>
 			<data genre="0" price="1" quality="55" fictional="1" flags="2" />
 			<effects>
@@ -8300,12 +8315,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Kanada möchte zur EU</de>
 				<en>Canada wants to join the EU</en>
-				<pl></pl>
+				<pl>Kanada chce dołączyć do UE</pl>
 			</title>
 			<description>
 				<de>Nach dem Zusammenschluss von Montreal und Frankreich möchte nun das ganze Land in die EU. Kanadische Diplomaten haben mit Brüssel Beitrittsverhandlungen aufgenommen. Die USA sind empört.</de>
 				<en>Following the merger of Montreal and France, the whole country now wants to join the EU. Canadian diplomats have started accession negotiations with Brussels. The USA is outraged.</en>
-				<pl></pl>
+				<pl>Po połączeniu Montrealu i Francji, cały kraj chce teraz dołączyć do UE. Kanadyjscy dyplomaci rozpoczęli negocjacje akcesyjne z Brukselą. Stany Zjednoczone są oburzone.</pl>
 			</description>
 			<data genre="0" price="1" quality="60" fictional="1" flags="2" />
 		</news>
@@ -8314,24 +8329,24 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>${onlinepoker} immer beliebter</de>
 				<en>${.ucfirst:onlinepoker} increasingly popular</en>
-				<pl></pl>
+				<pl>${.ucfirst:onlinepoker} coraz bardziej popularny</pl>
 			</title>
 			<description>
 				<de>Marktforscher stellen fest, dass ${amongonlinegames} besonders das Pokern beliebt geworden ist. Es wird oft um hohe Preisgelder gespielt.</de>
 				<en>Market researchers have found that poker has become particularly popular ${amongonlinegames}. It is often played for high prize money.</en>
-				<pl></pl>
+				<pl>Badacze rynku odkryli, że poker stał się szczególnie popularny ${amongonlinegames}. Często gra się w niego o wysokie nagrody pieniężne.</pl>
 			</description>
 			<variables>
 				<currentyear>${.worldtime:"year"}</currentyear>
 				<onlinepoker>
 					<de>${.gte:currentyear:1996:"Online-Poker":"BTX-Poker"}</de>
 					<en>${.gte:currentyear:1996:"online poker":"BBS poker"}</en>
-					<pl></pl>
+					<pl>${.gte:currentyear:1996:"Online-Poker":"BTX-Poker"}</pl>
 				</onlinepoker>
 				<amongonlinegames>
 					<de>${.gte:currentyear:1996:"unter den Online-Spielen":"unter den elektronischen Mailbox-Spielen"}</de>
 					<en>${.gte:currentyear:1996:"among online games":"among electronic bulletin board games"}</en>
-					<pl></pl>
+					<pl>${.gte:currentyear:1996:"wśród gier online":"wśród elektronicznych gier planszowych"}</pl>
 				</amongonlinegames>
 			</variables>
 			<data genre="3" price="1" quality="25" fictional="1" />
@@ -8343,12 +8358,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Sportsender reagieren auf ${onlinepoker}-Trend</de>
 				<en>Sports broadcasters react to ${onlinepoker} trend</en>
-				<pl></pl>
+				<pl>Nadawcy sportowi reagują na trend dotyczący ${onlinepoker}</pl>
 			</title>
 			<description>
 				<de>Sportsender reagieren auf den Trend, dass ${onlinepoker} immer beliebter wird. Die Gründung sog. Pok-E-Sports-Ligen und Termine für die ersten Live-Übertragungen sind im Gespräch.</de>
 				<en>Sports broadcasters are responding to the trend that ${onlinepoker} is becoming increasingly popular. The establishment of so-called pok-e-sports leagues and dates for the first live broadcasts are being discussed.</en>
-				<pl></pl>
+				<pl>Nadawcy sportowi reagują na trend, zgodnie z którym ${onlinepoker} staje się coraz bardziej popularny. Dyskutowane jest utworzenie tak zwanych lig pok-E-sportowych i daty pierwszych transmisji na żywo.</pl>
 			</description>
 			<data genre="2" price="1" quality="30" fictional="1" />
 		</news>
@@ -8357,18 +8372,18 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>${berlin} autofrei</de>
 				<en>${berlin} car-free</en>
-				<pl></pl>
+				<pl>${berlin} bez samochodów</pl>
 			</title>
 			<description>
 				<de>Ab dem nächsten Jahr wird die Landeshauptstadt ${berlin} eine autofreie Zone. Der öffentliche Verkehr feierte nach diesem Beschluss bis morgens.</de>
 				<en>From next year, the state capital ${berlin} will be a car-free zone. Following this decision, public transport celebrated until the morning.</en>
-				<pl></pl>
+				<pl>Od przyszłego roku miasto ${berlin} będzie strefą wolną od samochodów. W związku z tą decyzją transport publiczny świętował do rana.</pl>
 			</description>
 			<variables>
 				<berlin>
 					<de>Berlin|München|Hamburg|Bremen|Hannover|Düsseldorf|Mainz|Saarbrücken|Stuttgart|Dresden|Magdeburg|Kiel|Erfurt|Wiesbaden|Potsdam</de>
 					<en>Berlin|Munich|Hamburg|Bremen|Hanover|Düsseldorf|Mainz|Saarbrücken|Stuttgart|Dresden|Magdeburg|Kiel|Erfurt|Wiesbaden|Potsdam</en>
-					<pl></pl>
+					<pl>Berlin|Munich|Hamburg|Bremen|Hanover|Düsseldorf|Mainz|Saarbrücken|Stuttgart|Dresden|Magdeburg|Kiel|Erfurt|Wiesbaden|Potsdam</pl>
 				</berlin>
 			</variables>
 			<data genre="0" price="1" quality="45" fictional="1" />
@@ -8378,12 +8393,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Wir wollen ${thedeutschmark}!</de>
 				<en>We want ${thedeutschmark}!</en>
-				<pl></pl>
+				<pl>Chcemy ${thedeutschmark}!</pl>
 			</title>
 			<description>
 				<de>Einer Umfrage vom April ${currentyear} zufolge wollen ${percentcount} Prozent der Deutschen ${theiroldcurrency} wieder zurück.</de>
 				<en>According to a survey from April ${currentyear}, ${percentcount} percent of Germans want ${theiroldcurrency} back.</en>
-				<pl></pl>
+				<pl>Według ankiety z kwietnia ${currentyear} roku, ${percentcount} procent Niemców chce powrotu ${theiroldcurrency}.</pl>
 			</description>
 			<variables>
 				<currentyear>${.worldtime:"year"}</currentyear>
@@ -8393,12 +8408,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 				<thedeutschmark>
 					<de>${.gte:currentyear:2002:"die D-Mark":"die Reichsmark"}</de>
 					<en>${.gte:currentyear:2002:"the Deutschmark":"the Reichsmark"}</en>
-					<pl></pl>
+					<pl>${.gte:currentyear:2002:"waluty Deutschmark":"waluty Reichsmark"}</pl>
 				</thedeutschmark>
 				<theiroldcurrency>
 					<de>${.gte:currentyear:2002:"ihre alte Währung":"die Reichsmark"}</de>
 					<en>${.gte:currentyear:2002:"their old currency":"the Reichsmark"}</en>
-					<pl></pl>
+					<pl>${.gte:currentyear:2002:"ich starej waluty":"waluty Reichsmark"}</pl>
 				</theiroldcurrency>
 			</variables>
 			<data genre="0" price="1" quality="20" fictional="1" />
@@ -8409,24 +8424,24 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>${swedenandnorway} wollen Union</de>
 				<en>${swedenandnorway} want Union</en>
-				<pl></pl>
+				<pl>${swedenandnorway} chce Unii</pl>
 			</title>
 			<description>
 				<de>Nach historischem Vorbild wollen ${swedenandnorway} eine Union bilden. Auch ${finland} würde sich der neuen USL (Union Skandinavischer Länder) anschließen.</de>
 				<en>Following historical precedent, ${swedenandnorway} want to form a union. ${finland} also would join the new USN (Union of Scandinavian Nations).</en>
-				<pl></pl>
+				<pl>Zgodnie z historycznym precedensem, ${swedenandnorway} chcą utworzyć unię. ${finland} również dołączyłaby do nowej UNS (Unii Narodów Skandynawskich).</pl>
 			</description>
 			<variables>
 				<countries_csv>
 					<de>Schweden;Norwegen;Finnland;Dänemark;Island</de>
 					<en>Sweden;Norway;Finland;Denmark;Iceland</en>
-					<pl></pl>
+					<pl>Szwecja;Norwegia;Finlandia;Dania;Islandia</pl>
 				</countries_csv>
 				<combination_csv>0;1;2|0;1;3|0;1;4|0;2;3|0;2;4|0;3;4|1;2;3|1;2;4|1;3;4|2;3;4</combination_csv>
 				<swedenandnorway>
 					<de>${.csv:countries_csv:${.csv:combination_csv:0}} und ${.csv:countries_csv:${.csv:combination_csv:1}}</de>
 					<en>${.csv:countries_csv:${.csv:combination_csv:0}} and ${.csv:countries_csv:${.csv:combination_csv:1}}</en>
-					<pl></pl>
+					<pl>${.csv:countries_csv:${.csv:combination_csv:0}} i ${.csv:countries_csv:${.csv:combination_csv:1}}</pl>
 				</swedenandnorway>
 				<finland>
 					<all>${.csv:countries_csv:${.csv:combination_csv:2}}</all>
@@ -8442,12 +8457,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Skandinavien-Rundang in ${exhibitiontown}</de>
 				<en>Scandinavia trail in ${exhibitiontown}</en>
-				<pl></pl>
+				<pl>Szlak Skandynawii w mieście ${exhibitiontown}</pl>
 			</title>
 			<description>
 				<de>Anlässlich der geplanten USL von ${finland}, ${swedenandnorway} nimmt die derzeit in ${exhibitiontown} gastierende Wanderausstellung „Nordeuropa im Wandel der Zeit“ den Rundgang „Kulturgeschichte Skandinaviens“ ins Programm auf.</de>
 				<en>On the occasion of the planned USN of ${finland}, ${swedenandnorway}, the traveling exhibit "Northern Europe in the course of time", currently touring ${exhibitiontown}, will add the trail "Cultural history of Scandinavia" to its program.</en>
-				<pl></pl>
+				<pl>Z okazji planowanego połączenia w unię UNS (Unii Narodów Skandynawskich), podróżująca wystawa "Europa Północna w obecnym czasie", obecnie podróżująca po mieście ${exhibitiontown}, doda do swojego programu temat „Kulturowa historia Skandynawii“.</pl>
 			</description>
 			<data genre="5" price="1" quality="35" fictional="1" />
 			<effects>
@@ -8458,12 +8473,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Keine News über USL von ${swedenandnorway}</de>
 				<en>No news about ${swedenandnorway} USN</en>
-				<pl></pl>
+				<pl>Brak wiadomości o UNS (Unii Narodów Skandynawskich)</pl>
 			</title>
 			<description>
 				<de>Polarnacht-Winterschlaf, lauschige Mittsommernächte,... die letztjährigen Pläne der USL (Union Skandinavischer Länder) zwischen ${finland}, ${swedenandnorway} wurden wohl vergessen.</de>
 				<en>Polar night hibernation, cozy midsummer nights,... last year's plans of the USN (Union of Scandinavian Nations) between ${finland}, ${swedenandnorway} were probably forgotten.</en>
-				<pl></pl>
+				<pl>Hibernacja w noc polarną, przytulne noce w środku lata... zeszłoroczne plany UNS (Unii Narodów Skandynawskich) pomiędzy krajami: ${finland}, ${swedenandnorway} zostały prawdopodobnie zapomniane.</pl>
 			</description>
 			<data genre="0" price="1" quality="45" fictional="1" />
 		</news>
@@ -8472,12 +8487,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>GPS-Geräte zu kompliziert</de>
 				<en>GPS devices too complicated</en>
-				<pl></pl>
+				<pl>Zbyt skomplikowane urządzenia GPS</pl>
 			</title>
 			<description>
 				<de>Terroristen werden nun doch auch weiterhin ohne GPS-Geräte ihre Bomben legen, da das Bedienen solcher Geräte eine gewisse Intelligenz fordert.</de>
 				<en>Terrorists will, after all, continue to plant their bombs without GPS devices, as operating such devices requires a certain amount of intelligence.</en>
-				<pl></pl>
+				<pl>W końcu terroryści będą mieli problem z podkładaniem bomb bez urządzeń GPS, ponieważ obsługa takich urządzeń wymaga pewnej inteligencji i wiedzy.</pl>
 			</description>
 			<data genre="0" price="1" quality="10" fictional="1" />
 		</news>
@@ -8505,7 +8520,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 						Black prints secured in ${town};ran an "underground library" in ${their} locker with illegal copies of textbooks and novels. ${.ucfirst:they} was caught buying ${firecrackers}|
 						Lunch black market in ${town} disbanded;organized an illegal "school lunch black market". To that end, ${they} sold food from the school cafeteria without permission
 					</en>
-					<pl></pl>
+					<pl>Fałszywe pieniądze zabezpieczone w mieście ${town};${verb} prawo. Osoba ta wyprodukowała banknoty za pomocą kolorowej drukarki i została przyłapana na kupowaniu ${firecrackers}|
+						Egzotyczne zwierzęta skonfiskowane w mieście ${town};${verb} prawo. Osoba ta prowadziłą „przydomowe zoo“ z egzotycznymi zwierzętami, takimi jak alpaki, flamingi i płaszczki, w swoim ogrodzie|
+						Podrobiona lemoniada przechwycona w mieście ${town};${verb} prawo. Osoba ta prowadziła nielegalną wytwórnie lemoniady w piwnicy, mieszając różne syropy i dwutlenek węgla.|
+						Rakieta przejęta w mieście ${town};${verb} prawo. Osoba ta założyła „tajny klub eksploracji kosmosu“ i zbudowała domowej roboty rakietę w laboratorium w piwnicy. Chciała polecieć nią w kosmos|
+						Nielegalne wydruki zabezpieczone w mieście ${town};${verb} prawo. Przestępca prowadził „podziemną bibliotekę“ z nielegalnymi kopiami podręczników i powieści. Osoba ta została przyłapany na kupowaniu ${firecrackers}|
+						Nielegalna sprzedaż obiadów w mieście ${town};${verb} prawo. Osoba ta organizowała nielegalny „czarny rynek obiadów szkolnych“. W tym celu sprzedawała jedzenie ze szkolnej stołówki bez pozwolenia</pl>
 				</what_csv>
 				<counterfeitmoneysecuredin>
 					<all>${.csv:what_csv:0}</all>
@@ -8521,7 +8541,9 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 					<en>The ${age} year old schoolboy;he;his;${.persongenerator:"fullname":"en":"male"}|
 						The ${age} year old schoolgirl;she;her;${.persongenerator:"fullname":"en":"female"}
 					</en>
-					<pl></pl>
+					<pl>${age} letni uczeń;on;jego;${.persongenerator:"fullname":"en":"male"};Złamał|
+						${age} letnia uczenica;ona;jej;${.persongenerator:"fullname":"en":"female";Złamała}
+					</pl>
 				</schoolkid_csv>
 				<theschoolkid>
 					<all>${.csv:schoolkid_csv:0}</all>
@@ -8535,10 +8557,13 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 				<johndoe>
 					<all>${.csv:schoolkid_csv:3}</all>
 				</johndoe>
+				<verb><!-- add a verb only in Polish-->
+					<pl>${.csv:schoolkid_csv:4}</pl>
+				</verb>
 				<firecrackers>
 					<de>Böllern|Comic-Tassen|Glitzerstiften|Einhornmasken|Mega-Kaugummibällen|Riesengummibärchen|Hip-Hop-Schallplatten|Heavy-Metal-Alben|Videospielen</de>
 					<en>firecrackers|cartoon cups|glitter pens|unicorn masks|mega chewing gum balls|giant gummy bears|hip hop records|heavy metal albums|video games</en>
-					<pl></pl>
+					<pl>petard|kubków z kreskówek|długopisów z brokatem|masek jednorożców|mega gumy do żucia|gigantycznych żelków|hip hopowej płyty|płyty heavy metalowej|gry wideo</pl>
 				</firecrackers>
 				<town>${.stationmap:"randomcity"}</town>
 			</variables>
@@ -8549,12 +8574,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Umweltminister gegen Oldtimer</de>
 				<en>Environment minister against vintage cars</en>
-				<pl></pl>
+				<pl>Minister środowiska przeciwko zabytkowym samochodom</pl>
 			</title>
 			<description>
 				<de>Der Umweltminister möchte die H-Kennzeichen, die Oldtimer kennzeichnen, abschaffen. Oldtimer seien nur alte und stinkende Luftverpester.</de>
 				<en>The Minister for the Environment wants to abolish the license plates that identify vintage cars. "Old-timers" are just old and smelly air polluters.</en>
-				<pl></pl>
+				<pl>Minister Środowiska chce zlikwidować tablice rejestracyjne identyfikujące samochody zabytkowe. "Old-timery" są po prostu starymi i śmierdzącymi trucicielami powietrza.</pl>
 			</description>
 			<data genre="0" price="1" quality="30" fictional="1" />
 		</news>
@@ -8563,7 +8588,7 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Öl in ${leipzig} gefunden</de>
 				<en>Oil found in ${leipzig}</en>
-				<pl>${leipzig}: Znaleziono olej</pl>
+				<pl>${leipzig}: Znaleziono ropę naftową</pl>
 			</title>
 			<description>
 				<de>Bei Baugrunduntersuchungen in ${leipzig} haben Geologen wider Erwarten Öl gefunden.</de>
@@ -8600,12 +8625,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Kurdistan unabhängig</de>
 				<en>Kurdistan now independent</en>
-				<pl></pl>
+				<pl>Kurdystan jest teraz niepodległy</pl>
 			</title>
 			<description>
 				<de>Nach zähen Verhandlungen, die auch nachts nicht unterbrochen wurden, ist der Staat Kurdistan Wirklichkeit geworden.</de>
 				<en>After tough negotiations, which were not interrupted even at night, the state of Kurdistan has become a reality.</en>
-				<pl></pl>
+				<pl>Po trudnych negocjacjach, które nie zostały przerwane nawet w nocy, państwo Kurdystan stało się rzeczywistością.</pl>
 			</description>
 			<data genre="0" price="1" quality="40" fictional="1" flags="2" />
 			<effects>
@@ -8617,12 +8642,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Innenminister feiert mit</de>
 				<en>Interior Minister joins celebrations</en>
-				<pl></pl>
+				<pl>Minister spraw wewnętrznych dołącza do obchodów</pl>
 			</title>
 			<description>
 				<de>Für den deutschen Innenminister ist dieser Tag wie Geburtstag und Weihnachten zusammen: Alle Kurden in Deutschland wollen in ihre neue Heimat ziehen.</de>
 				<en>For the German Interior Minister, this day is like his birthday and Christmas combined: All Kurds in Germany want to move to their new homeland.</en>
-				<pl></pl>
+				<pl>Dla niemieckiego ministra spraw wewnętrznych ten dzień jest jak jego urodziny i Boże Narodzenie razem wzięte: Wszyscy Kurdowie w Niemczech chcą przenieść się do swojej nowej ojczyzny.</pl>
 			</description>
 			<data genre="0" price="1" quality="40" fictional="1" flags="2" />
 			<effects>
@@ -8633,12 +8658,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Kurden feiern ihre Unabhängigkeit</de>
 				<en>Kurds celebrate their independence</en>
-				<pl></pl>
+				<pl>Kurdowie świętują niepodległość</pl>
 			</title>
 			<description>
 				<de>Kurden in ganz Europa feiern, und alle Dönerläden geben heute Abend Gratisdöner aus.</de>
 				<en>Kurds all over Europe are celebrating, and all kebab stores are giving out free kebabs tonight.</en>
-				<pl></pl>
+				<pl>Kurdowie w całej Europie świętują, a wszystkie sklepy z kebabami rozdają dziś darmowe kebaby.</pl>
 			</description>
 			<data genre="0" price="1" quality="40" fictional="1" />
 		</news>
@@ -8647,12 +8672,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Alt-Bundeskanzler war Stasi-Spitzel</de>
 				<en>Former Federal Chancellor was a Stasi informer</en>
-				<pl></pl>
+				<pl>Były kanclerz federalny był informatorem Stasi</pl>
 			</title>
 			<description>
 				<de>Alt-Bundeskanzler ${helmutkohl} war in den 70ern Spitzel der ostdeutschen Staatssicherheit. Dies belegen Akten der SDE.</de>
 				<en>Former Federal Chancellor ${helmutkohl} was an informer for the East German secret police in the 1970s. This is proven by SDE files.</en>
-				<pl></pl>
+				<pl>Były kanclerz federalny ${helmutkohl} był informatorem wschodnioniemieckiej tajnej policji w latach 70-tych. Potwierdzają to akta SDE.</pl>
 			</description>
 			<variables>
 				<helmutkohl>${.person:"fa8ec236-c57b-4672-9f31-afe980a6ed40":"fullname"}</helmutkohl>
@@ -8665,12 +8690,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Alt-Bundeskanzler war Stasi-Spitzel</de>
 				<en>Former Federal Chancellor was a Stasi informer</en>
-				<pl></pl>
+				<pl>Były kanclerz federalny był informatorem Stasi</pl>
 			</title>
 			<description>
 				<de>Alt-Bundeskanzler ${helmutschmidt} war in den 70ern Spitzel der ostdeutschen Staatssicherheit. Dies belegen Akten der SDE.</de>
 				<en>Former Federal Chancellor ${helmutschmidt} was an informer for the East German secret police in the 1970s. This is proven by SDE files.</en>
-				<pl></pl>
+				<pl>Były kanclerz federalny ${helmutschmidt} był informatorem wschodnioniemieckiej tajnej policji w latach 70-tych. Potwierdzają to akta SDE.</pl>
 			</description>
 			<variables>
 				<helmutschmidt>${.person:"6cd8e08b-b67e-4a45-aa7e-e92cac4b9337":"fullname"}</helmutschmidt>
@@ -8683,12 +8708,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Alt-Bundeskanzler war Stasi-Spitzel</de>
 				<en>Former Federal Chancellor was a Stasi informer</en>
-				<pl></pl>
+				<pl>Były kanclerz federalny był informatorem Stasi</pl>
 			</title>
 			<description>
 				<de>Alt-Bundeskanzler ${gerhardschroeder} war in den 80ern Spitzel der ostdeutschen Staatssicherheit. Dies belegen Akten der SDE.</de>
 				<en>Former Federal Chancellor ${gerhardschroeder} was an informer for the East German secret police in the 1980s. This is proven by SDE files.</en>
-				<pl></pl>
+				<pl>Były kanclerz federalny ${gerhardschroeder} był informatorem wschodnioniemieckiej tajnej policji w latach 80-tych. Potwierdzają to akta SDE.</pl>
 			</description>
 			<variables>
 				<gerhardschroeder>${.person:"59704761-b8e6-405b-8d2b-74a010e599d8":"fullname"}</gerhardschroeder>
@@ -8701,12 +8726,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Alt-Bundeskanzlerin war Stasi-Spitzel</de>
 				<en>Former Federal Chancellor was a Stasi informer</en>
-				<pl></pl>
+				<pl>Była kanclerz federalna była informatorem Stasi</pl>
 			</title>
 			<description>
 				<de>Alt-Bundeskanzlerin ${angelamerkel} war in den 80ern Spitzel der ostdeutschen Staatssicherheit. Dies belegen Akten der SDE.</de>
 				<en>Former Federal Chancellor ${angelamerkel} was an informer for the East German secret police in the 1980s. This is proven by SDE files.</en>
-				<pl></pl>
+				<pl>Była kanclerz federalna ${angelamerkel} była informatorem wschodnioniemieckiej tajnej policji w latach 80-tych. Potwierdzają to akta SDE.</pl>
 			</description>
 			<variables>
 				<angelamerkel>${.person:"63f7f2cf-b7b9-48f7-813a-a8cc0548838f":"fullname"}</angelamerkel>
@@ -8722,94 +8747,94 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<description>
 				<de>Die ${russian_${i}} ${footballteam} wurde beim Training ${struckbylightning_${i}}. ${three} Spieler wurden schwer verletzt ins Krankenhaus gebracht.</de>
 				<en>The ${russian_${i}} ${footballteam} was ${struckbylightning_${i}} during training. ${three} players were seriously injured and taken to hospital.</en>
-				<pl></pl>
+				<pl>${footballteam} z ${russian_${i}} została ${struckbylightning_${i}} podczas treningu. ${three} zawodników zostało poważnie rannych i przewiezionych do szpitala.</pl>
 			</description>
 			<variables>
 				<footballteam>
 					<de>Fußballelf|Rugbymannschaft|Feldhockeymannschaft|Polomannschaft|Baseballmannschaft</de> <!-- nur feminin! -->
 					<en>Football Team|Rugby Team|Field Hockey Team|Polo Team|Baseball Team</en>
-					<pl></pl>
+					<pl>Drużyna piłkarska|Drużyna rugby|Drużyna hokeja na trawie|Drużyna polo|Drużyna baseballowa</pl>
 				</footballteam>
 				<i>0|1|2|3|4</i>
 				<struck_0>
 					<de>vom Blitz getroffen</de>
 					<en>struck by lightning</en>
-					<pl></pl>
+					<pl>uderzona przez piorun</pl>
 				</struck_0>
 				<struck_1>
 					<de>von Hagel verletzt</de>
 					<en>injured by hail</en>
-					<pl></pl>
+					<pl>zraniona przez grad</pl>
 				</struck_1>
 				<struck_2>
 					<de>von Erdbeben verletzt</de>
 					<en>injured by earthquake</en>
-					<pl></pl>
+					<pl>ranna w wyniku trzęsienia ziemi</pl>
 				</struck_2>
 				<struck_3>
 					<de>von Lava erfasst</de>
 					<en>hit by lava</en>
-					<pl></pl>
+					<pl>poparzona przez lawę</pl>
 				</struck_3>
 				<struck_4>
 					<de>von Zyklon heimgesucht</de>
 					<en>struck by cyclone</en>
-					<pl></pl>
+					<pl>poszkodowana przez cyklon</pl>
 				</struck_4>
 				<struckbylightning_0>
 					<de>vom Blitz getroffen</de>
 					<en>struck by lightning</en>
-					<pl></pl>
+					<pl>uderzona przez piorun</pl>
 				</struckbylightning_0>
 				<struckbylightning_1>
 					<de>von einem heftigen Hagelsturm heimgesucht</de>
 					<en>struck by a severe hailstorm</en>
-					<pl></pl>
+					<pl>zraniona przez silne gradobicie</pl>
 				</struckbylightning_1>
 				<struckbylightning_2>
 					<de>von einem Erdbeben erschüttert</de>
 					<en>shaken by an earthquake</en>
-					<pl></pl>
+					<pl>wstrząśnięta przez trzęsienie ziemi</pl>
 				</struckbylightning_2>
 				<struckbylightning_3>
 					<de>von der Lava eines Vulkanausbruchs erfasst</de>
 					<en>hit by lava from a volcanic eruption</en>
-					<pl></pl>
+					<pl>poparzona przez lawę z erupcji wulkanu</pl>
 				</struckbylightning_3>
 				<struckbylightning_4>
 					<de>von einem heftigen Zyklon heimgesucht</de>
 					<en>struck by a severe cyclone</en>
-					<pl></pl>
+					<pl>poszkodowana przez silny cyklon</pl>
 				</struckbylightning_4>
 				<russian_0>
 					<de>russische|polnische|ungarische|rumänische|kanadische|norwegische|schwedische|finnische|dänische|deutsche|österreichische|schweizerische|französische|englische|schottische|walisische|irische|nordirische</de>
 					<en>Russian|Polish|Hungarian|Romanian|Canadian|Norwegian|Swedish|Finnish|Danish|German|Austrian|Swiss|French|English|Scottish|Welsh|Irish|Northern Irish</en>
-					<pl></pl>
+					<pl>Rosji|Polski|Węgier|Rumunii|Kanady|Norwegi|Szwecji|Finlandi|Danii|Niemiec|Austrii|Szwajcarii|Francji|Angli|Szkocji|Wali|Irlandii|Północnej Irlandii</pl>
 				</russian_0>
 				<russian_1>
 					<de>russische|polnische|ungarische|rumänische|kanadische|norwegische|schwedische|finnische|dänische|deutsche|österreichische|schweizerische|französische|englische|schottische|walisische|irische|nordirische</de>
 					<en>Russian|Polish|Hungarian|Romanian|Canadian|Norwegian|Swedish|Finnish|Danish|German|Austrian|Swiss|French|English|Scottish|Welsh|Irish|Northern Irish</en>
-					<pl></pl>
+					<pl>Rosji|Polski|Węgier|Rumunii|Kanady|Norwegi|Szwecji|Finlandi|Danii|Niemiec|Austrii|Szwajcarii|Francji|Angli|Szkocji|Wali|Irlandii|Północnej Irlandii</pl>
 				</russian_1>
 				<russian_2>
 					<de>neuseeländische|indische|pakistanische|chinesische|nepalesische|bhutanische|griechische|türkische|italienische|US-amerikanische|japanische|indonesische</de>
 					<en>New Zealand|Indian|Pakistani|Chinese|Nepalese|Bhutanese|Greek|Turkish|Italian|US American|Japanese|Indonesian</en>
-					<pl></pl>
+					<pl>Nowej Zelandii|Indii|Pakistanu|Chin|Nepalu|Butanu|Grecji|Turcji|Włoch|USA|Japonii|Indonezji</pl>
 				</russian_2>
 				<russian_3>
 					<de>indonesische|japanische|philippinische|chilenische|italienische|US-amerikanische|neuseeländische|isländische|ecuadorianische</de>
 					<en>Indonesian|Japanese|Philippine|Chilean|Italian|US American|New Zealand|Icelandic|Ecuadorian</en>
-					<pl></pl>
+					<pl>Indonezji|Japonii|Filipin|Chile|Włoch|USA|Nowej Zelandii|Islandii|Ekwadoru</pl>
 				</russian_3>
 				<russian_4>
 					<de>bangladeschische|indische|thailändische|laotische|chinesische|mauritische|seychellische|fidjianische|vanuatuische|indonesische|australische</de>
 					<en>Bangladeshi|Indian|Thai|Laotian|Chinese|Mauritic|Seychellian|Fidjian|Vanuatu|Indonesian|Australian</en>
-					<pl></pl>
+					<pl>Bangladeszu|Indii|Tajlandii|Laosu|Chin|Mauretanii|Seszeli|Fidżi|Vanuatu|Indonezji|Australii</pl>
 				</russian_4>
 				<three>
 					<de>Drei|Vier|Fünf|Sechs|Sieben</de>
 					<en>Three|Four|Five|Six|Seven</en>
-					<pl></pl>
+					<pl>Trzech|Czterech|Pięciu|Sześciu|Siedmiu</pl>
 				</three>
 			</variables>
 			<data genre="2" price="1" quality="30" fictional="1" />
@@ -8819,23 +8844,23 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>${munich}: ${cabdriver} überfallen</de>
 				<en>${munich}: ${cabdriver} robbed</en>
-				<pl></pl>
+				<pl>${munich}: ${cabdriver}</pl>
 			</title>
 			<description>
 				<de>Ein ${cabdriver} in ${munich} wurde überfallen. Beute: ${amounteuro} Euro und ${amountcent} Cent.</de>
 				<en>A ${cabdriver} in ${munich} was robbed. Loot: ${amounteuro} euros and ${amountcent} cents.</en>
-				<pl></pl>
+				<pl>${.ucfirst:cabdriver} w dzielnicy ${munich}. Łupem padło: ${amounteuro},${amountcent} euro.</pl>
 			</description>
 			<variables>
 				<cabdriver>
 					<de>Taxifahrer|Dönerladen|Fast-Food-Restaurant|Tankstellen-Shop|Zigarettenladen|Kiosk|Späti</de> <!-- nur Maskulinum oder Neutrum! -->
 					<en>cab driver|kebab shop|fast food restaurant|gas station|cigarette shop|kiosk|drugstore</en>
-					<pl></pl>
+					<pl>taksówkarz został obrabowany|kawiarnia została obrabowana|restauracja została obrabowana|stacja benzynowa została obrabowana|sklep z papierosam został obrabowany|kiosk został obrabowany|apteka została obrabowana</pl>
 				</cabdriver>
 				<munich>
 					<de>München|Schwabing|Starnberg|Grünwald|Ingolstadt|Charlottenburg|Berlin-Mitte|Grunewald|Spandau|Frankfurt-Innenstadt|Sachsenhausen|Blankenese|Hamburg-Winterhude|Monaco|Paris</de>
 					<en>Munich|Schwabing|Starnberg|Grünwald|Ingolstadt|Charlottenburg|Berlin-Mitte|Grunewald|Spandau|Frankfurt-Innenstadt|Sachsenhausen|Blankenese|Hamburg-Winterhude|Monaco|Paris</en>
-					<pl></pl>
+					<pl>Monachium|Schwabing|Starnberg|Grünwald|Ingolstadt|Charlottenburg|Berlin-Mitte|Grunewald|Spandau|Centrum Frankfurtu|Sachsenhausen|Blankenese|Hamburg-Winterhude|Monako|Paryż</pl>
 				</munich>
 				<amounteuro>4|5|6|7|8</amounteuro>
 				<amountcent>12|24|36|48|60|72|84|96</amountcent>
@@ -8848,23 +8873,23 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>${munich}: ${cabdriver} überfallen</de>
 				<en>${munich}: ${cabdriver} robbed</en>
-				<pl></pl>
+				<pl>${munich}: ${cabdriver}</pl>
 			</title>
 			<description>
 				<de>Ein ${cabdriver} in ${munich} wurde überfallen. Beute: ${amountdm} Mark und ${amountpf} Pfennig.</de>
 				<en>A ${cabdriver} in ${munich} was robbed. Loot: ${amountdm} deutschmarks and ${amountpf} pfennigs.</en>
-				<pl></pl>
+				<pl>${.ucfirst:cabdriver} w dzielnicy ${munich}. Łupem padło: ${amountdm},${amountpf} DM.</pl>
 			</description>
 			<variables>
 				<cabdriver>
 					<de>Taxifahrer|Dönerladen|Fast-Food-Restaurant|Tankstellen-Shop|Zigarettenladen|Kiosk|Späti</de> <!-- nur Maskulinum oder Neutrum! -->
 					<en>cab driver|kebab shop|fast food restaurant|gas station|cigarette shop|kiosk|drugstore</en>
-					<pl></pl>
+					<pl>taksówkarz został obrabowany|bar kebab został obrabowany|restauracja została obrabowana|stacja benzynowa została obrabowana|sklep z papierosam został obrabowany|kiosk został obrabowany|apteka została obrabowana</pl>
 				</cabdriver>
 				<munich>
 					<de>München|Schwabing|Starnberg|Grünwald|Ingolstadt|Charlottenburg|Berlin-Mitte|Grunewald|Spandau|Frankfurt-Innenstadt|Sachsenhausen|Blankenese|Hamburg-Winterhude</de>
 					<en>Munich|Schwabing|Starnberg|Grünwald|Ingolstadt|Charlottenburg|Berlin-Mitte|Grunewald|Spandau|Frankfurt-Innenstadt|Sachsenhausen|Blankenese|Hamburg-Winterhude</en>
-					<pl></pl>
+					<pl>Monachium|Schwabing|Starnberg|Grünwald|Ingolstadt|Charlottenburg|Berlin-Mitte|Grunewald|Spandau|Centrum Frankfurtu|Sachsenhausen|Blankenese|Hamburg-Winterhude</pl>
 				</munich>
 				<amountdm>5|6|7|8|9</amountdm>
 				<amountpf>12|24|36|48|60|72|84|96</amountpf>
@@ -8879,18 +8904,18 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Aufruhr in ${beijing}</de>
 				<en>Uproar in ${beijing}</en>
-				<pl></pl>
+				<pl>Wrzawa w mieście ${beijing} w Chinach</pl>
 			</title>
 			<description>
 				<de>In den frühen Morgenstunden fiel auf dem Marktplatz in ${beijing}, China, ein Sack Reis um. Die Polizei ermittelt.</de>
 				<en>In the early hours of the morning, a sack of rice fell over on the market square in ${beijing}, China. The police are investigating.</en>
-				<pl></pl>
+				<pl>We wczesnych godzinach porannych worek ryżu przewrócił się na rynku w chińskim mieście ${beijing}. Policja prowadzi dochodzenie.</pl>
 			</description>
 			<variables>
 				<beijing>
 					<de>Peking|Shanghai|Chengdu|Xiamen|Hangzhou|Xi'an|Tianjin|Wuhan|Chongqing|Guangzhou|Shenzhen</de>
 					<en>Beijing|Shanghai|Chengdu|Xiamen|Hangzhou|Xi'an|Tianjin|Wuhan|Chongqing|Guangzhou|Shenzhen</en>
-					<pl></pl>
+					<pl>Pekin|Szanghaj|Chengdu|Xiamen|Hangzhou|Xi'an|Tianjin|Wuhan|Chongqing|Guangzhou|Shenzhen</pl>
 				</beijing>
 			</variables>
 			<data genre="4" price="1" quality_min="15" quality_max="40" fictional="1" />
@@ -8902,12 +8927,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Polizeipräsident von ${beijing} vor Rücktritt</de>
 				<en>${beijing} Police chief about to resign</en>
-				<pl></pl>
+				<pl>${beijing}: Szef policji bliski rezygnacji</pl>
 			</title>
 			<description>
 				<de>Da die Ermittlungen zum umgefallenen Reissack in einer Sackgasse stecken, erhöht sich der Druck auf den Polizeipräsidenten.</de>
 				<en>As the investigation into the toppled rice sack reaches a dead end, the pressure on the police chief increases.</en>
-				<pl></pl>
+				<pl>Śledztwo w sprawie przewróconego worka z ryżem utknęło w martwym punkcie, a presja na szefa policji rośnie.</pl>
 			</description>
 			<data genre="4" price="1" quality_min="15" quality_max="40" fictional="1" />
 			<effects>
@@ -8918,12 +8943,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Erste Festnahmen im Reisgate-Fall</de>
 				<en>First arrests in the Ricegate case</en>
-				<pl></pl>
+				<pl>Pierwsze aresztowania w sprawie afery ryżowej</pl>
 			</title>
 			<description>
 				<de>Im Fall des umgefallenen Reissacks ist ein Nudelhändler festgenommen worden. Sein Motiv sei Neid auf den Reishändler.</de>
 				<en>A noodle trader has been arrested in the case of the toppled rice sack. His motive is said to be envy of the rice trader.</en>
-				<pl></pl>
+				<pl>Handlarz makaronem został aresztowany w sprawie przewróconego worka z ryżem. Mówi się, że jego motywem była zazdrość o sprzedawcę ryżu.</pl>
 			</description>
 			<data genre="4" price="1" quality_min="15" quality_max="40" fictional="1" />
 			<effects>
@@ -8934,12 +8959,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Aufatmen im Reisgate-Fall</de>
 				<en>Sigh of relief in Ricegate case</en>
-				<pl></pl>
+				<pl>Odetchnięcie z ulgą w sprawie Ricegate</pl>
 			</title>
 			<description>
 				<de>Der Staatsanwalt von ${beijing} teilt mit: „So ein Sack Reis interessiert niemanden. Alle Ermittlungen werden eingestellt.“</de>
 				<en>The ${beijing} public prosecutor says: "Nobody is interested in a sack of rice like this. All investigations will be closed."</en>
-				<pl></pl>
+				<pl>Prokurator z miasta ${beijing} mówi: „Nikt nie jest zainteresowany tym workiem ryżu. Wszystkie dochodzenia zostaną zamknięte“.</pl>
 			</description>
 			<data genre="4" price="1" quality_min="15" quality_max="40" fictional="1" />
 		</news>
@@ -8948,12 +8973,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Hat ${actor} etwas mit dieser Frau?</de>
 				<en>Is ${actor} involved with this woman?</en>
-				<pl></pl>
+				<pl>Czy ${actor} spotyka się z tą kobietą?</pl>
 			</title>
 			<description>
 				<de>Hollywoodstar ${actor} wurde in einem Nobelrestaurant in LA mit einer unbekannten Frau gesichtet.</de>
 				<en>Hollywood star ${actor} was spotted in a posh restaurant in LA with an unknown woman.</en>
-				<pl></pl>
+				<pl>${actor} - hollywoodzka gwiazda została zauważona w eleganckiej restauracji w Los Angeles z nieznaną kobietą.</pl>
 			</description>
 			<variables>
 				<currentyear>${.worldtime:"year"}</currentyear>
@@ -8983,7 +9008,7 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 				<gettingmarried>
 					<de>Heiraten - aber richtig!|Hochzeit mit Hindernissen|Sag einfach Ja!|Verliebt, verlobt, der große Tag!|Der große Tag des Jaworts|Das Wow des Jaworts|Ring frei für die Liebe!|Heiratsantrag auf Umwegen|Flitterwochen mit Folgen|Ein Ja mit Sahnehäubchen|Und wie die Braut sich traut!|Ehe mit Herz und Witz|Ja, ich will - und zwar sofort!|Liebe, Lachen, Hochzeitsspaß|Jawort im Doppelpack|Das große Glück trägt Weiß|Unter die Haube - aber schnell!</de>
 					<en>Getting Married - Done Right!|Wedding with Obstacles|Just Say Yes!|In Love, Engaged, the Big Day!|The Big Day of the Wedding Vow|The Wedding Wow|Clear the Wedding Ring!|A Roundabout Proposal|About a Honeymoon and what Follows|A Yes with Cherry on Top|The Run-to-You Bride|A Wedding with Wit and Charme|Yes, I Will - and I Will Right Now!|Love, Laughter, Marry, Fun|Double Whammy Wedding Vow|Big Bliss Wears White|Gettin' Hitched - Gettin' Fast</en>
-					<pl></pl>
+					<pl>Ślub - jak należy!|Ślub z przeszkodami|Po prostu powiedz tak!|Zakochani, zaręczeni, wielki dzień!|Wielki dzień ślubnej przysięgi|Ślubne wow|Oczyść obrączkę!|Oświadczyny na rondzie|O miesiącu miodowym i tym, co po nim|Tak z wisienką na torcie|Biegnąca panna młoda|Ślub zakochanych|Tak, zrobię to - i zrobię to teraz!|Miłość, śmiech, małżeństwo, zabawa|Podwójna przysięga ślubna|Wielka miłość ubiera się na biało|Szybki ślub na całe życie</pl>
 				</gettingmarried>
 			</variables>
 			<data genre="1" price="1" quality_min="30" quality_max="60" fictional="1" />
@@ -8996,12 +9021,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>${actor} dementiert Affäre</de>
 				<en>${actor} denies affair</en>
-				<pl></pl>
+				<pl>${actor} zaprzecza, że ma romans</pl>
 			</title>
 			<description>
 				<de>Hollywoodstar ${actor} dementiert, dass er eine Affäre mit einer Unbekannten hätte. Sie sei ihm ja seit dem ersten Date eben nicht mehr unbekannt.</de>
 				<en>Hollywood star ${actor} denies that he is having an affair with an unknown woman. After all, she has no longer been unknown to him since their first date.</en>
-				<pl></pl>
+				<pl>Hollywoodzka gwiazda ${aktor} zaprzecza, jakoby miał romans z nieznaną kobietą. W końcu nie jest mu ona nieznana od czasu ich pierwszej randki.</pl>
 			</description>
 			<data genre="1" price="1" quality_min="30" quality_max="60" fictional="1" />
 			<effects>
@@ -9012,12 +9037,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>${actor} vor Scheidung</de>
 				<en>${actor} about to divorce</en>
-				<pl></pl>
+				<pl>${aktor} zamierza się rozwieść</pl>
 			</title>
 			<description>
 				<de>Das könnte teuer werden. Nach den Gerüchten um eine Affäre möchte sich die Ehefrau von ${actor} trennen.</de>
 				<en>This could prove to be expensive. After rumors of an affair, the wife of ${actor} wants to separate.</en>
-				<pl></pl>
+				<pl>${aktor} zamierza się rozwieść. Może się to okazać kosztowne. Po plotkach o romansie, żona aktora chce się rozstać.</pl>
 			</description>
 			<data genre="1" price="1" quality_min="30" quality_max="60" fictional="1" />
 			<effects>
@@ -9028,12 +9053,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Ist ${actor} gewalttätig?</de>
 				<en>Is ${actor} violent?</en>
-				<pl></pl>
+				<pl>Czy słynny aktor ${aktor} jest agresywny?</pl>
 			</title>
 			<description>
 				<de>Namhaften Paparazzi zufolge erkennt man auf diesem Foto, wie ${actor} zuschlägt. Auch verdächtig, dass seine Frau nur noch Sonnenbrille trägt.</de>
 				<en>According to renouned paparazzi, in this photo it is clearly visible how ${actor} is punching someone. It's also suspicious that his wife is now wearing sunglasses all the time.</en>
-				<pl></pl>
+				<pl>Według paparazzi, na tym zdjęciu wyraźnie widać, jak aktor - ${aktor} kogoś uderza. Podejrzane jest również to, że jego żona cały czas nosi okulary przeciwsłoneczne.</pl>
 			</description>
 			<data genre="1" price="1" quality_min="30" quality_max="60" fictional="1" />
 			<effects>
@@ -9044,12 +9069,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>${actor} Gift für Kinokasse?</de>
 				<en>${actor} box office poison?</en>
-				<pl></pl>
+				<pl>${actor} Czy jego film okaże się wielką klapą?</pl>
 			</title>
 			<description>
 				<de>Die neueste Liebeskomödie „${gettingmarried}“ mit ${actor} floppte. Es ist anzunehmen, dass er aktuell Gift für die TV- und Filmbranche ist.</de>
 				<en>The latest romantic comedy "${gettingmarried}" with ${actor} flopped. It can be assumed that he is currently poison for the TV and film industry.</en>
-				<pl></pl>
+				<pl>Najnowsza komedia romantyczna „${gettingmarried}“ w której gra ${actor} może okazać się wielką klapą. Można przypuszczać, że ten film to trucizna dla branży telewizyjnej i filmowej.</pl>
 			</description>
 			<data genre="1" price="1" quality_min="30" quality_max="60" fictional="1" />
 		</news>
@@ -9058,12 +9083,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>${actress} in Polizeikontrolle</de>
 				<en>${actress} stopped by police</en>
-				<pl></pl>
+				<pl>${actress} zatrzymana przez policję</pl>
 			</title>
 			<description>
 				<de>Schauspielerin ${actress} beendete eine Alkohol-Autofahrt in einer Polizeikontrolle. Nachdem sich die Beamten erholt hatten, wurden ${alcoholvalue} Promille festgestellt.</de>
 				<en>Actress ${actress} was stopped for driving under the influence by the police. After the officers had recovered, the blood alcohol level was found to be ${alcoholvalue} %.</en>
-				<pl></pl>
+				<pl>Aktorka ${actress} została zatrzymana przez policję za jazdę pod wpływem alkoholu. Po wytrzeźwieniu funkcjonariusze stwierdzili, że poziom alkoholu w jej krwi wynosił ${alcoholvalue} promila.</pl>
 			</description>
 			<variables>
 				<currentyear>${.worldtime:"year"}</currentyear>
@@ -9080,6 +9105,7 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 				<alcoholvalue>
 					<de>1,3|1,4|1,5|1,6|1,7|1,8|1,9|2,0|2,1</de>
 					<en>.13|.14|.15|.16|.17|.18|.19|.20|.21</en>
+					<pl>1,3|1,4|1,5|1,6|1,7|1,8|1,9|2,0|2,1</pl>
 				</alcoholvalue>
 			</variables>
 			<data genre="1" price="1" quality_min="30" quality_max="60" fictional="1" />
@@ -9092,12 +9118,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Fotoshooting mal anders</de>
 				<en>Photo shoot, but differently</en>
-				<pl></pl>
+				<pl>Sesja zdjęciowa, ale jakaś inna</pl>
 			</title>
 			<description>
 				<de>Die wegen Alkohol am Steuer festgenommene Schauspielerin ${actress} hat sich mit Gefängnisfotografen angelegt. Angeblich würde sie in schlechtem Licht erscheinen.</de>
 				<en>The actress ${actress}, who was arrested for drink-driving, has clashed with prison photographers. Allegedly, they would make her appear in a bad light.</en>
-				<pl></pl>
+				<pl>Aktorka ${actress}, która została aresztowana za jazdę pod wpływem alkoholu, starła się z więziennymi fotografami. Rzekomo sprawiali, że aktorka była stawiana w złym świetle.</pl>
 			</description>
 			<data genre="1" price="1" quality_min="30" quality_max="60" fictional="1" />
 			<effects>
@@ -9108,12 +9134,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>${actress}: Würger-Burger</de>
 				<en>${actress}: Choke burger</en>
-				<pl></pl>
+				<pl>${actress}: Dławii się burgerem</pl>
 			</title>
 			<description>
 				<de>Kann ${actress} noch tiefer sinken? Ein Paparazzivideo zeigt sie beim Versuch, einen Burger zu essen. Es ist ein Trauerspiel, sie so zu sehen.</de>
 				<en>Can ${actress} sink any lower? A paparazzi video shows her trying to eat a burger. It's a tragedy to see her like this.</en>
-				<pl></pl>
+				<pl>Czy aktorka - ${actress} może upaść jeszcze niżej? Nagranie paparazzi pokazuje ją próbującą zjeść hamburgera. To tragedia widzieć ją w takim stanie.</pl>
 			</description>
 			<data genre="1" price="1" quality_min="30" quality_max="60" fictional="1" />
 		</news>
