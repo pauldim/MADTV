@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <tvtdb>
-	<version value="4" />
+	<version value="5" />
 	<allnews>
 
 		<!-- 'Real news reel' - Historical news sorted by date (some fictional 'alternative universe' variations may occur) -->
@@ -7514,20 +7514,20 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 					<pl>${guentergrass};fajkę;Znany autor ${guentergrass};jego słynną fajkę|
 						${jobs};sweter;${thetechentrepreneur_or_lisadaughterof};jego słynny czarny sweter z golfem|
 						${karllagerfeld_or_sothebys};${hairbraid_or_lagerfeldhairbraid};${theeccentric_or_theauctionhouse};${hisfamoushairbraid_or_thefamoushairbraidof}|
-						${churchill};cygaro;${randolphspencerchurchill}, grandson of former British Prime Minister ${winston} ${churchill},;pozostałą połowę cygara, która została wypalona na potrzeby relacji medialnych podczas D-Day|
-						${einstein};kosmyk włosów;${thomasmartin} ${einstein}, great-grandson of the famous physicist ${albert} ${einstein},;jeden ze srebrnych kosmyków włosów tego geniusza|
-						${gandhi};dhoti;${kanu} ${gandhi}, scientist and grandson of the historic Indian statesman and independence leader ${mahatma} ${gandhi},;pierwszą noszoną koszulkę dhoti|
-						${dali};wąsy;The Fundación ${salvador} ${dali}, a foundation set up to administer the estate of the famous artist,;jego słynne i charakterystyczne wąsy|
-						${picasso};ceramiczny garnek;Paloma ${picasso}, daughter of the famous painter and sculptor ${pablo} ${picasso},;jego ceramiczny garnek. Zaprojektowany przez niego samego, oczywiście|
-						${chaplin};laskę;${geraldine} ${chaplin}, actress and daughter of comedian ${charlie} ${chaplin},;słynną laskę Trampa|
-						${debbieharry_or_madonna};pejcz dominatrix;Singer ${debbieharry_or_madonna};jej często używany pejcz dominatrix|
+						${churchill};cygaro;${randolphspencerchurchill}, wnuk byłego premiera Wielkiej Brytanii ${winston}a ${churchill}a,;pozostałą połowę cygara, która została wypalona na potrzeby relacji medialnych podczas D-Day|
+						${einstein};kosmyk włosów;${thomasmartin} ${einstein}, prawnuk słynnego fizyka ${albert}a ${einstein}a,;jeden ze srebrnych kosmyków włosów tego geniusza|
+						${gandhi};dhoti;${kanu} ${gandhi}, naukowiec i wnuk historycznego indyjskiego męża stanu i przywódcy niepodległościowego ${mahatma} ${gandhi}ego,;pierwszą noszoną koszulkę dhoti|
+						${dali};wąsy;The Fundación ${salvador} ${dali}, fundacja utworzona w celu zarządzania majątkiem słynnego artysty,;jego słynne i charakterystyczne wąsy|
+						${picasso};ceramiczny garnek;Paloma ${picasso}, córka słynnego malarza i rzeźbiarza ${pablo} ${picasso},;jego ceramiczny garnek. Zaprojektowany przez niego samego, oczywiście|
+						${chaplin};laskę;${geraldine} ${chaplin}, aktorka i córka komika ${charlie} ${chaplin}a,;słynną laskę Trampa|
+						${debbieharry_or_madonna};pejcz dominatrix;Piosenkarka ${debbieharry_or_madonna};jej często używany pejcz dominatrix|
 						${bowie};garnitur ${ziggystardust}a;${musicianandartist_or_angiebowieformerwifeof};jego kultowy ${ziggystardust}owski garnitur|
-						${nolanbushnell_or_elonmusk};kolekcję hentai;The bustling tech entrepreneur and ${atarifounder_or_teslaceo} ${nolanbushnell_or_elonmusk};jego kolekcję hentai|
-						${richardbranson};plakaty pin-up-owe;Entrepreneur and founder of the Virgo record label ${richardbranson};jego kolekcję plakatów z panienkami w stylu pin-up|
-						${monroe};białą sukienkę;The ${marilyn} ${monroe} Estate Trust;słynną białą sukienkę aktorki|
-						${monroe};szyb wentylacyjny;The ${marilyn} ${monroe} Estate Trust;szyb wentylacyjny, który podniósł jej słynną białą sukienkę|
-						${eltonjohn};100 okularów;Popstar ${eltonjohn};100 jego najbardziej ekstrawaganckich okularów|
-						${hemingway};butelkę absyntu;${mariel} ${hemingway}, actress and granddaughter of the famous writer ${ernest} ${hemingway};butelkę absyntu, z której już pił|
+						${nolanbushnell_or_elonmusk};kolekcję hentai;Tętniący życiem przedsiębiorca technologiczny i ${atarifounder_or_teslaceo} ${nolanbushnell_or_elonmusk};jego kolekcję hentai|
+						${richardbranson};plakaty pin-up-owe;Przedsiębiorca i założyciel wytwórni płytowej Virgo ${richardbranson};jego kolekcję plakatów z panienkami w stylu pin-up|
+						${monroe};białą sukienkę;Powiernictwo majątkowe ${marilyn} ${monroe};słynną białą sukienkę aktorki|
+						${monroe};szyb wentylacyjny;Powiernictwo majątkowe ${marilyn} ${monroe};szyb wentylacyjny, który podniósł jej słynną białą sukienkę|
+						${eltonjohn};100 okularów;Gwiazda Pop ${eltonjohn};100 jego najbardziej ekstrawaganckich okularów|
+						${hemingway};butelkę absyntu;${mariel} ${hemingway}, aktorka i wnuczka słynnego pisarza ${ernest}a ${hemingway}a;butelkę absyntu, z której już pił|
 						${yeltsin};wódkę;${borisyeltsin_or_daughterof};otwartą butelkę wódki, z której już popijał
 						</pl>
 				</namewhat_csv>
@@ -8383,7 +8383,7 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 				<berlin>
 					<de>Berlin|München|Hamburg|Bremen|Hannover|Düsseldorf|Mainz|Saarbrücken|Stuttgart|Dresden|Magdeburg|Kiel|Erfurt|Wiesbaden|Potsdam</de>
 					<en>Berlin|Munich|Hamburg|Bremen|Hanover|Düsseldorf|Mainz|Saarbrücken|Stuttgart|Dresden|Magdeburg|Kiel|Erfurt|Wiesbaden|Potsdam</en>
-					<pl>Berlin|Munich|Hamburg|Bremen|Hanover|Düsseldorf|Mainz|Saarbrücken|Stuttgart|Dresden|Magdeburg|Kiel|Erfurt|Wiesbaden|Potsdam</pl>
+					<pl>Berlin|Monachium|Hamburg|Brema|Hanower|Dusseldorf|Mainz|Saarbrücken|Sztuttgart|Drezno|Magdeburg|Kiel|Erfurt|Wiesbaden|Poczdam</pl>
 				</berlin>
 			</variables>
 			<data genre="0" price="1" quality="45" fictional="1" />
@@ -8541,8 +8541,8 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 					<en>The ${age} year old schoolboy;he;his;${.persongenerator:"fullname":"en":"male"}|
 						The ${age} year old schoolgirl;she;her;${.persongenerator:"fullname":"en":"female"}
 					</en>
-					<pl>${age} letni uczeń;on;jego;${.persongenerator:"fullname":"en":"male"};Złamał|
-						${age} letnia uczenica;ona;jej;${.persongenerator:"fullname":"en":"female";Złamała}
+					<pl>${age} letni uczeń;on;jego;${.persongenerator:"fullname":"pl":"male"};Złamał|
+						${age} letnia uczenica;ona;jej;${.persongenerator:"fullname":"pl":"female";Złamała}
 					</pl>
 				</schoolkid_csv>
 				<theschoolkid>
@@ -9026,7 +9026,7 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<description>
 				<de>Hollywoodstar ${actor} dementiert, dass er eine Affäre mit einer Unbekannten hätte. Sie sei ihm ja seit dem ersten Date eben nicht mehr unbekannt.</de>
 				<en>Hollywood star ${actor} denies that he is having an affair with an unknown woman. After all, she has no longer been unknown to him since their first date.</en>
-				<pl>Hollywoodzka gwiazda ${aktor} zaprzecza, jakoby miał romans z nieznaną kobietą. W końcu nie jest mu ona nieznana od czasu ich pierwszej randki.</pl>
+				<pl>Hollywoodzka gwiazda ${actor} zaprzecza, jakoby miał romans z nieznaną kobietą. W końcu nie jest mu ona nieznana od czasu ich pierwszej randki.</pl>
 			</description>
 			<data genre="1" price="1" quality_min="30" quality_max="60" fictional="1" />
 			<effects>
@@ -9037,12 +9037,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>${actor} vor Scheidung</de>
 				<en>${actor} about to divorce</en>
-				<pl>${aktor} zamierza się rozwieść</pl>
+				<pl>${actor} zamierza się rozwieść</pl>
 			</title>
 			<description>
 				<de>Das könnte teuer werden. Nach den Gerüchten um eine Affäre möchte sich die Ehefrau von ${actor} trennen.</de>
 				<en>This could prove to be expensive. After rumors of an affair, the wife of ${actor} wants to separate.</en>
-				<pl>${aktor} zamierza się rozwieść. Może się to okazać kosztowne. Po plotkach o romansie, żona aktora chce się rozstać.</pl>
+				<pl>${actor} zamierza się rozwieść. Może się to okazać kosztowne. Po plotkach o romansie, żona aktora chce się rozstać.</pl>
 			</description>
 			<data genre="1" price="1" quality_min="30" quality_max="60" fictional="1" />
 			<effects>
@@ -9053,12 +9053,12 @@ W tym roku ponownie spodziewane są demonstracje.</pl>
 			<title>
 				<de>Ist ${actor} gewalttätig?</de>
 				<en>Is ${actor} violent?</en>
-				<pl>Czy słynny aktor ${aktor} jest agresywny?</pl>
+				<pl>Czy słynny aktor ${actor} jest agresywny?</pl>
 			</title>
 			<description>
 				<de>Namhaften Paparazzi zufolge erkennt man auf diesem Foto, wie ${actor} zuschlägt. Auch verdächtig, dass seine Frau nur noch Sonnenbrille trägt.</de>
 				<en>According to renouned paparazzi, in this photo it is clearly visible how ${actor} is punching someone. It's also suspicious that his wife is now wearing sunglasses all the time.</en>
-				<pl>Według paparazzi, na tym zdjęciu wyraźnie widać, jak aktor - ${aktor} kogoś uderza. Podejrzane jest również to, że jego żona cały czas nosi okulary przeciwsłoneczne.</pl>
+				<pl>Według paparazzi, na tym zdjęciu wyraźnie widać, jak aktor - ${actor} kogoś uderza. Podejrzane jest również to, że jego żona cały czas nosi okulary przeciwsłoneczne.</pl>
 			</description>
 			<data genre="1" price="1" quality_min="30" quality_max="60" fictional="1" />
 			<effects>
