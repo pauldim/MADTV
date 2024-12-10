@@ -1,0 +1,2264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tvtdb>
+	<version value="3" comment="Fictional news entries by scr0llbaer" />
+
+	<allnews>
+		<news guid="9c58c119-6d16-41fa-9a58-76c5824099aa" type="0" thread_guid="51b23dcb-0069-4435-936a-33c6973491c2" creator="9551">
+			<title>
+				<de>Wal in ${thames} gesichtet</de>
+				<en>Whale sighted in ${thames}</en>
+				<pl>Wieloryb widziany w rzece ${thames}</pl>
+			</title>
+			<description>
+				<de>Da staunten die Anwohner an den Ufern des Flusses nicht schlecht, als sie am frühen Morgen lautes Platschen und hoch aufspritzendes Wasser bewundern durften.</de>
+				<en>The residents on the shores of the river were amazed when they witnessed loud splashing and high spraying water in the early morning.</en>
+				<pl>Mieszkańcy nad brzegiem rzeki byli zdumieni, gdy wczesnym rankiem byli świadkami głośnego plusku i wysokiego rozprysku wody.</pl>
+			</description>
+			<data genre="4" price="1" quality="60" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,10,15" news="92598126-f227-4fd2-894e-a5902eaeb392" />
+			</effects>
+			<variables>
+				<thames>
+					<de>Themse|Rhein|Mississippi|Nil|Amazonas|Wolga|Seine</de>
+					<en>Thames|Rhine|Mississippi|Nile|Amazon River|Volga|Seine</en>
+					<pl>Tamiza|Ren|Mississippi|Nil|Amazonki|Wołga|Seine</pl>
+				</thames>
+			</variables>
+		</news>
+		<news guid="92598126-f227-4fd2-894e-a5902eaeb392" type="2" thread_guid="51b23dcb-0069-4435-936a-33c6973491c2" creator="9551">
+			<title>
+				<de>${generalorg_greenpeace} schlägt Alarm</de>
+				<en>${generalorg_greenpeace} sounds the alarm</en>
+				<pl>${generalorg_greenpeace} bije na alarm</pl>
+			</title>
+			<description>
+				<de>Wegen Wal in ${thames} müsse eine Rettungsaktion sofort eingeleitet werden.</de>
+				<en>Rescue operation for whale in ${thames} must be initiated immediately, ${generalorg_greenpeace} said.</en>
+				<pl>Operacja ratunkowa wieloryba w rzece ${thames} musi zostać natychmiast rozpoczęta, powiedział ${generalorg_greenpeace}.</pl>
+			</description>
+			<data genre="4" price="1" quality="70" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernewschoice" time="1,10,15" choose="or" news1="5367ea49-6b5c-4703-87d1-b2427212f4d3" probability1="50" news2="5d9a2849-c5f2-4504-912f-84cf5065a9b5" probability2="50" />
+			</effects>
+		</news>
+		<news guid="5367ea49-6b5c-4703-87d1-b2427212f4d3" type="2" thread_guid="51b23dcb-0069-4435-936a-33c6973491c2" creator="9551">
+			<title>
+				<de>Wal in ${thames}: Rettung in Sicht</de>
+				<en>Whale in ${thames}: Rescue in sight</en>
+				<pl>Wieloryb w rzece ${thames}: Ratunek w zasięgu wzroku</pl>
+			</title>
+			<description>
+				<de>${generalorg_greenpeace} leitet die Rettungs-Aktion ein. Das Tier dürfe nicht zu schaden kommen, so der Sprecher.</de>
+				<en>${generalorg_greenpeace} launches rescue action. The animal must not come to harm, the spokesman said.</en>
+				<pl>${generalorg_greenpeace} rozpoczyna akcję ratunkową. Rzecznik powiedział, że zwierzę nie może zostać skrzywdzone.</pl>
+			</description>
+			<data genre="4" price="1" quality="50" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,10,15" news="43799353-d91e-4f70-accb-703f6d6b861a" />
+			</effects>
+		</news>
+		<news guid="43799353-d91e-4f70-accb-703f6d6b861a" type="2" thread_guid="51b23dcb-0069-4435-936a-33c6973491c2" creator="9551">
+			<title>
+				<de>Schlechtes Wetter behindert Wal-Rettung</de>
+				<en>Bad weather hinders rescue action for whale</en>
+				<pl>Zła pogoda utrudnia akcję ratunkową wielorybów</pl>
+			</title>
+			<description>
+				<de>Die Leitstelle vermeldet, dass die Schiffe auf Grund des anhaltenden Sturms nicht einsatzbereit gemacht werden können.</de>
+				<en>The control center reports that the ships cannot be made operational due to the ongoing storm.</en>
+				<pl>Centrum kontroli informuje, że statki nie mogą zostać uruchomione z powodu trwającej burzy.</pl>
+			</description>
+			<data genre="4" price="1" quality="60" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,10,15" news="5ab7ad14-2513-427f-893c-913d936e0575" />
+			</effects>
+		</news>
+		<news guid="5ab7ad14-2513-427f-893c-913d936e0575" type="2" thread_guid="51b23dcb-0069-4435-936a-33c6973491c2" creator="9551">
+			<title>
+				<de>Weiterhin Schwierigkeiten bei Wal-Rettung</de>
+				<en>Difficulties with whale rescue continue</en>
+				<pl>Trudności z ratowaniem wielorybów trwają</pl>
+			</title>
+			<description>
+				<de>Man versuche es mit Locksignalen, doch der Wal reagiere nicht.</de>
+				<en>It is being attempted with mating calls, but the whale does not react.</en>
+				<pl>Próbuje się go nawoływać do godów, ale wieloryb nie reaguje.</pl>
+			</description>
+			<data genre="4" price="1" quality="50" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernewschoice" time="1,10,15" choose="or" news1="321a8590-eec0-4f1d-8031-6d1f9b443b33" probability1="50" news2="9891cfa6-1cd9-41e4-b179-496da048f7d4" probability2="50" />
+			</effects>
+		</news>
+		<news guid="321a8590-eec0-4f1d-8031-6d1f9b443b33" type="2" thread_guid="51b23dcb-0069-4435-936a-33c6973491c2" creator="9551">
+			<title>
+				<de>Zustand des Wals verschlechtert sich</de>
+				<en>Condition of the whale deteriorates</en>
+				<pl>Stan wieloryba pogarsza się</pl>
+			</title>
+			<description>
+				<de>${generalorg_greenpeace}: Man müsse umgehend eine Lösung für die Situation finden, sonst überlebe der Wal nicht.</de>
+				<en>${generalorg_greenpeace}: A solution to the situation must be found immediately, otherwise the whale will not survive, ${generalorg_greenpeace} said.</en>
+				<pl>${generalorg_greenpeace}: Rozwiązanie sytuacji musi zostać znalezione natychmiast, w przeciwnym razie wieloryb nie przeżyje, powiedział ${generalorg_greenpeace}.</pl>
+			</description>
+			<data genre="4" price="1" quality="40" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,10,15" news="a33be652-8202-4685-a6ae-1b530f04b3a5" />
+			</effects>
+		</news>
+		<news guid="a33be652-8202-4685-a6ae-1b530f04b3a5" type="2" thread_guid="51b23dcb-0069-4435-936a-33c6973491c2" creator="9551">
+			<title>
+				<de>Wal in ${thames} ist tot</de>
+				<en>Whale in ${thames} dead</en>
+				<pl>Wieloryb w rzece ${thames} nie żyje</pl>
+			</title>
+			<description>
+				<de>Die genaue Todesursache ist noch unklar, vermutlich war der Wal bereits schwach und konnte nicht genug Nahrung finden.</de>
+				<en>The exact cause of death is still unclear, probably the whale was already weak and could not find enough food.</en>
+				<pl>Dokładna przyczyna śmierci jest wciąż niejasna, prawdopodobnie wieloryb był już słaby i nie mógł znaleźć wystarczającej ilości pożywienia.</pl>
+			</description>
+			<data genre="4" price="1" quality="70" fictional="1" />
+		</news>
+		<news guid="9891cfa6-1cd9-41e4-b179-496da048f7d4" type="2" thread_guid="51b23dcb-0069-4435-936a-33c6973491c2" creator="9551">
+			<title>
+				<de>Wal in ${thames} schwimmt zur Flussmündung</de>
+				<en>Whale in ${thames} swims to river mouth</en>
+				<pl>Wieloryb w rzece ${thames} płynie do ujścia rzeki</pl>
+			</title>
+			<description>
+				<de>Es sind Fortschritte bei der Rettungsaktion zu verzeichnen. Hoffentlich findet der Wal seinen Weg.</de>
+				<en>Progress is being made in the rescue operation. Hopefully the whale will find its way.</en>
+				<pl>Czynione są postępy w akcji ratunkowej. Miejmy nadzieję, że wieloryb znajdzie swoją drogę.</pl>
+			</description>
+			<data genre="4" price="1" quality="50" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,10,15" news="5d9a2849-c5f2-4504-912f-84cf5065a9b5" />
+			</effects>
+		</news>
+		<news guid="5d9a2849-c5f2-4504-912f-84cf5065a9b5" type="2" thread_guid="51b23dcb-0069-4435-936a-33c6973491c2" creator="9551">
+			<title>
+				<de>Wal von ${thames} ins Meer zurückgeschwommen</de>
+				<en>Whale from ${thames} swam back to sea</en>
+				<pl>Wieloryb z rzeki ${thames} wypłynął z powrotem do morza</pl>
+			</title>
+			<description>
+				<de>Na also! Der Wal ist wieder in seinem natürlichen Habitat.</de>
+				<en>There you go! The whale is back in its natural habitat.</en>
+				<pl>No i proszę! Wieloryb powrócił do swojego naturalnego środowiska.</pl>
+			</description>
+			<data genre="4" price="1" quality="70" fictional="1" />
+		</news>
+
+		<news guid="52328f89-ae30-49fc-add1-e455757220ef" type="0" creator="9551" comment="availability in thread id cujo-news-roter-platz was originally applied to the wrong (second) item, so the first item appeared at any date, but I found while play-testing that it still can be used in general and in addition when slightly modified to a fictional copycat event.">
+			<availability year_range_from="1988" year_range_to="-1" script='${.eq:${.worldtime:"season"}:1}' />
+			<title>
+				<de>${brand_cessna} in der Nähe von Moskau gesichtet</de>
+				<en>${brand_cessna} spotted near Moscow</en>
+				<pl>${brand_cessna} zauważony w pobliżu Moskwy</pl>
+			</title>
+			<description>
+				<de>Die russische Luftabwehr hat in der Nähe von Moskau ein deutsches Kleinflugzeug der Marke ${brand_cessna} gesichtet. Handelt es sich dabei um einen Nachahmer? Einen Selbstmordattentäter?</de>
+				<en>Russian air defense has spotted a German small plane of the brand ${brand_cessna} near Moscow. Is it a copycat? A suicide bomber?</en>
+				<pl>Rosyjska obrona powietrzna zauważyła pod Moskwą niemiecki mały samolot marki ${brand_cessna}. Czy to naśladowca? Zamachowiec-samobójca?</pl>
+			</description>
+			<data genre="4" price="0.55" quality="8" fictional="1" />
+		</news>
+
+		<news guid="4e9e0ab5-5e33-4d9f-8679-72cb0e3d0bae" type="0" thread_guid="99ce928a-24ed-4090-b92c-9ebfd5e8b83c" creator="9551" comment="Source: First two items ChatGPT news generator which effectively has some kind of templated generator too as some returned items are in the format 'Town holds funeral for dead squirrel|dead car|dead tree|etc'. Everything else made up by me. TODO: Internationalize more (generated names etc) once playing other regions becomes available. TODO: variations 'dead car', 'dead tree' may be a more subtle pun, at least in English, perhaps separate them out">
+			<title>
+				<de>${squirrel} ${joe} gestorben</de>
+				<en>${joe} the ${squirrel} has died</en>
+				<pl>Ulubione miastowe zwierzę: ${squirrel} zdechło</pl>
+			</title>
+			<description>
+				<de>In ${funeraltown} ist ${squirrel} ${joe} gestorben, ein lokales Wahrzeichen, das ${hadbeenlivingon}.</de>
+				<en>In ${funeraltown} the ${squirrel} ${joe} has died, a local landmark that ${hadbeenlivingon}.</en>
+				<pl>W ${funeraltown} zdechł ulubiony zwierzak miasta: ${squirrel} ${joe}. Zwierzak ${hadbeenlivingon}.</pl>
+			</description>
+			<variables>
+				<funeraltown>${.stationmap:"randomcity"}</funeraltown>
+				<joe>${.persongenerator:"firstname":"de":"female"}|${.persongenerator:"firstname":"en":"female"}|${.persongenerator:"firstname":"es":"female"}|${.persongenerator:"firstname":"de":"male"}|${.persongenerator:"firstname":"en":"male"}|${.persongenerator:"firstname":"es":"male"}</joe>
+				<animals_csv>
+					<de>Eichhörnchen;Nagetier;seit mehr als ${twelve} Jahren in einem Baum am Rathausplatz lebte|
+						Streifenhörnchen;Nagetier;seit mehr als ${twelve} Jahren in einem Baum am Rathausplatz lebte|
+						Erdhörnchen;Nagetier;seit mehr als ${twelve} Jahren in einem Baum am Rathausplatz lebte|
+						Murmeltier;Nagetier;seit mehr als ${twelve} Jahren auf der Rathausplatz-Grünfläche lebte|
+						Waldmurmeltier;Nagetier;seit mehr als ${twelve} Jahren auf der Rathausplatz-Grünfläche lebte|
+						Opossum;Beuteltier;seit mehr als ${twelve} Jahren auf der Rathausplatz-Grünfläche lebte|
+						Lindenbaum;Holz;seit ${twelve}hundert Jahren auf dem Rathausplatz stand und von vielen Einwohnern oft und gern umarmt wurde|
+						Eichenbaum;Holz;seit ${twelve}hundert Jahren auf dem Rathausplatz stand und von vielen Einwohnern oft und gern umarmt wurde|
+						Trabbi;Automobil;seit mehr als ${twelve} Jahren Besorgungen für Bürger machte. Das intelligente, ${neonyellow} Fahrzeug war dabei unermüdlich|
+						${brand_manta};Automobil;seit mehr als ${twelve} Jahren Besorgungen für Bürger machte. Das intelligente, ${neonyellow} Fahrzeug war dabei unermüdlich|
+						${brand_vw}-${brand_beetle};Automobil;seit mehr als ${twelve} Jahren Besorgungen für Bürger machte. Das intelligente, ${neonyellow} Fahrzeug war dabei unermüdlich|
+						${brand_firebird};Automobil;seit mehr als ${twelve} Jahren Besorgungen für Bürger machte. Das intelligente, ${neonyellow} Fahrzeug war dabei unermüdlich|
+						Laternenmast;Verkehrswesen;seit über hundert Jahren am Rathausplatz stand und den Bürgern stets ein Licht der Hoffnung spendete. Nun ist es für immer erloschen
+					</de> <!-- alle nur Maskulinum und Neutrum; Autos nur Maskulinum! -->
+					<en>squirrel;Rodent;had been living on a tree at the town hall square for more than ${twelve} years|
+						chipmunk;Rodent;had been living on a tree at the town hall square for more than ${twelve} years|
+						gopher;Rodent;had been living on a tree at the town hall square for more than ${twelve} years|
+						marmot;Rodent;had been living on the town hall square greenspace for more than ${twelve} years|
+						groundhog;Rodent;had been living on the town hall square greenspace for more than ${twelve} years|
+						opossum;Marsupial;had been living on the town hall square greenspace for more than ${twelve} years|
+						linden tree;Wood;had stood on the town hall square for ${twelve} hundred years and was often hugged fondly by many residents|
+						oak tree;Wood;had stood on the town hall square for ${twelve} hundred years and was often hugged fondly by many residents|
+						Trabbi;Vehicle;had been running errands for citizens for more than ${twelve} years. The sentient, ${neonyellow} vehicle was tireless in doing so|
+						${brand_manta};Vehicle;had been running errands for citizens for more than ${twelve} years. The sentient, ${neonyellow} vehicle was tireless in doing so|
+						${brand_vw}-${brand_beetle};Vehicle;had been running errands for citizens for more than ${twelve} years. The sentient, ${neonyellow} vehicle was tireless in doing so|
+						${brand_firebird};Vehicle;had been running errands for citizens for more than ${twelve} years. The sentient, ${neonyellow} vehicle was tireless in doing so|
+						lamp post;Traffic;had stood on the town hall square for more than a hundred years and had always given citizens a light of hope. Now it is extinguished forever
+					</en>
+					<pl>wiewiórka;Chomik;mieszkał na drzewie, na placu ratuszowym przez ponad ${twelve} lat|
+						kuna;Chomik;mieszkał na placu ratuszowym przez ponad ${twelve} lat|
+						świstak;Chomik;mieszkał na placu ratuszowym przez ponad ${twelve} lat|
+						kot;Chomik;mieszkał na zielonej przestrzeni placu ratuszowego przez ponad ${twelve} lat|
+						jeż;Chomik;mieszkał na zielonej przestrzeni placu ratuszowego przez ponad ${twelve} lat|
+						opos;Torbacz;mieszkał na placu ratuszowym przez ponad ${twelve} lat|
+						pies;Drewno;mieszkał w budzie na placu ratuszowym przez ${twelve} stuleci i był często czule przytulany przez wielu mieszkańców|
+						dzik;Drewno;mieszkał na placu ratuszowym przez ponad ${twelve} lat i był często czule przytulany przez wielu mieszkańców|
+						koń;Pojazd;mieszkał na placu ratuszowym przez ponad ${twelve} lat i był często czule przytulany przez wielu mieszkańców|
+						panda;Pojazd;mieszkał na placu ratuszowym przez ponad ${twelve} lat i był często czule przytulany przez wielu mieszkańców|
+						szop pracz;Pojazd;mieszkał na placu ratuszowym przez ponad ${twelve} lat i był często czule przytulany przez wielu mieszkańców|
+						gołąb;Pojazd;mieszkał na placu ratuszowym przez ponad ${twelve} lat i był często czule przytulany przez wielu mieszkańców|
+						orzeł;Pojazd;mieszkał na placu ratuszowym przez ponad ${twelve} lat i był często czule przytulany przez wielu mieszkańców
+					</pl> <!-- TODO: Polish version seems to use only animals (marten, cat, dog, wild boar, horse, panda, raccoon, pigeon, eagle) (can be added) but then seems to use some "wrong" details and categories -->
+				</animals_csv>
+				<squirrel>
+					<all>${.csv:animals_csv:0}</all>
+				</squirrel>
+				<rodent>
+					<all>${.csv:animals_csv:1}</all>
+				</rodent>
+				<hadbeenlivingon>
+					<all>${.csv:animals_csv:2}</all>
+				</hadbeenlivingon>
+				<neonyellow>
+					<de>neongelbe|knallrote|knallpinke|bordeauxviolette|purpurne|feuerrote|limonengrüne|tiefschwarze|himmelblaue|leuchtweiße</de>
+					<en>neon-yellow|candy-red|glaring-pink|claret-violet|purple|blazing-red|lemon-green|jet-black|sky-blue|shiny-white</en>
+					<pl>neonowo-żółty|cukierkowy|różowy|fioletowy|purpurowy|czerwony|cytrynowy|czarny|błękitny|lśniąco-biały</pl>
+				</neonyellow>
+				<twelve>
+					<de>sieben|acht|neun|elf|zwölf|dreizehn|vierzehn|fünfzehn</de>
+					<en>seven|eight|nine|eleven|twelve|thirteen|fourteen|fifteen</en> <!-- skip 'ten' hundred years -->
+					<pl>siedem|osiem|dziewięć|jedenaście|dwanaście|trzynaście|czternaście|piętnaście</pl>
+				</twelve>
+				<exhibitiontown>${.stationmap:"randomcity"}</exhibitiontown>
+				<singerfirstname>${.persongenerator:"firstname":"de":"female"}</singerfirstname>
+				<singersecondname>${.persongenerator:"firstname":"en":"female"}</singersecondname> <!-- absichtlicher deutsch-englischer 'Künstler'-Vorname. TODO: maybe English-French for the English version -->
+				<singerlastname>${.persongenerator:"lastname":"de":"female"}</singerlastname>
+				<dontleaveme>
+					<de>verlass mich nicht|lass mich nicht allein|lass mich nicht im Stich|komm zurück</de>
+					<en>don't leave me|don't abandon me|do not forsake me|come back</en>
+					<pl>nie zostawiaj mnie|nie opuszczaj mnie|nie porzucaj mnie|wróć do mnie</pl>
+				</dontleaveme>
+				<scientistfirstname>${.persongenerator:"firstname":"de":"male"}</scientistfirstname>
+				<scientistsecondname>${.persongenerator:"firstname":"de":"female"}</scientistsecondname> <!-- absichtlich weiblicher zweiter Vorname -->
+				<scientistpenultimatename>${.persongenerator:"lastname":"de":"male"}</scientistpenultimatename>
+				<scientistlastname>${.persongenerator:"lastname":"de":"male"}</scientistlastname> <!-- Doppel-Nachname erzwingen, was anscheinend in verschiedenen Variablen erfolgen muss. Innerhalb einer wird bei zwei GENERATOR-Aufrufen derselbe nochmal zurückgegeben. -->
+			</variables>
+			<data genre="4" price="1" quality="20" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,4,6" news="59e0b6e8-dae6-417b-9f40-1c4e6ffeadd0" />
+			</effects>
+		</news>
+		<news guid="59e0b6e8-dae6-417b-9f40-1c4e6ffeadd0" type="2" thread_guid="99ce928a-24ed-4090-b92c-9ebfd5e8b83c" creator="9551">
+			<title>
+				<de>Beerdigung für ${joe}</de>
+				<en>Funeral for ${joe}</en>
+				<pl>Pogrzeb zwierzęcia miastowego o imieniu ${joe}</pl>
+			</title>
+			<description>
+				<de>${funeraltown} führt eine Beerdigung für ${squirrel} ${joe} durch. ${joe} sei eines natürlichen Todes gestorben, und die Einwohner organisieren einen Umzug und eine Zeremonie, um sich zu verabschieden.</de>
+				<en>${funeraltown} holds a funeral for ${squirrel} ${joe}. ${joe} has died of natural causes, and the townspeople organize a procession and a ceremony to say goodbye.</en>
+				<pl>Miasto ${funeraltown} organizuje pogrzeb dla zwierzątka ${squirrel} o imieniu ${joe}. ${joe} zmarł z przyczyn naturalnych, a mieszkańcy miasta organizują procesję i ceremonię pożegnalną.</pl>
+			</description>
+			<data genre="4" price="1" quality="15" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,6,10" news="2f570f1d-13b8-4c4c-83a4-7227194e7542" />
+			</effects>
+		</news>
+		<news guid="2f570f1d-13b8-4c4c-83a4-7227194e7542" type="2" thread_guid="99ce928a-24ed-4090-b92c-9ebfd5e8b83c" creator="9551">
+			<title>
+				<de>Auch ${exhibitiontown} gedenkt ${joe}</de>
+				<en>Also ${exhibitiontown} commemorates ${joe}</en>
+				<pl>Również miasto ${exhibitiontown} upamiętnia zwierzę o imieniu ${joe}</pl>
+			</title>
+			<description>
+				<de>Anlässlich des Todes von ${squirrel} ${joe} nimmt die gerade in ${exhibitiontown} gastierende Wanderausstellung „Mensch und ${rodent} im Wandel der Zeit“ ab übermorgen den Rundgang „Vom ${squirrel} und Menschen“ ins Programm auf.</de>
+				<en>To commemorate the death of ${squirrel} ${joe}, the traveling exhibit "Man and ${rodent} in the course of time", currently touring ${exhibitiontown}, will add the trail "Of ${squirrel} and Man" to its program starting the day after tomorrow.</en>
+				<pl>Aby upamiętnić śmierć zwierzęcia ${squirrel} ${joe}, objazdowa wystawa "Człowiek i zwierzę z biegiem czasu", obecnie podróżująca po mieście ${exhibitiontown}, od pojutrza doda do swojego programu wystawę "${squirrel} i człowiek".</pl>
+			</description>
+			<data genre="5" price="1" quality="40" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,24,36" news="0753174a-1661-4dfe-8ea3-6c3e4525ef4f" />
+			</effects>
+		</news>
+		<news guid="0753174a-1661-4dfe-8ea3-6c3e4525ef4f" type="2" thread_guid="99ce928a-24ed-4090-b92c-9ebfd5e8b83c" creator="9551">
+			<title>
+				<de>${joe} an der Spitze der Hitparade</de>
+				<en>${joe} at the top of the charts</en>
+				<pl>${joe} na szczycie listy przebojów</pl>
+			</title>
+			<description>
+				<de>Schlagersängerin ${singerfirstname}-${singersecondname} ${singerlastname} hat mit dem Titel „${joe}, ${dontleaveme}!“, der dem kürzlich in ${funeraltown} verstorbenen ${squirrel} gewidmet ist, die Spitze der Charts erreicht.</de>
+				<en>Folk singer ${singerfirstname}-${singersecondname} ${singerlastname} has reached the top of the charts with the track "${joe}, ${dontleaveme}!" dedicated to the recently deceased ${squirrel} in ${funeraltown}.</en>
+				<pl>Folkowy wokalista ${singerfirstname}-${singersecondname} ${singerlastname} osiągnął szczyty list przebojów z utworem „${joe}, ${dontleaveme}!” poświęconym niedawno zdechłemu zwierzęciu z miasta ${funeraltown}.</pl>
+			</description>
+			<data genre="1" price="1" quality="50" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,24,36" news="9318dddb-bafe-4116-9a8b-65b69e9c070a" />
+			</effects>
+		</news>
+		<news guid="9318dddb-bafe-4116-9a8b-65b69e9c070a" type="2" thread_guid="99ce928a-24ed-4090-b92c-9ebfd5e8b83c" creator="9551">
+			<title>
+				<de>${joe}-Merchandise verkauft sich prächtig</de>
+				<en>${joe} merchandise is selling beautifully</en>
+				<pl>Towary upamiętniające zwierzę ${joe} sprzedają się znakomicie</pl>
+			</title>
+			<description>
+				<de>Der Tod von ${squirrel} ${joe} hat die Menschen tief berührt und für riesige Verkaufszahlen an Plüschzeug, Tassen und anderem Krimskrams gesorgt. Die Fünf Wirtschaftsweisen blicken wieder optimistisch in die Zukunft.</de>
+				<en>The death of ${squirrel} ${joe} has touched people deeply and caused huge sales of plush toys, mugs and other clutter. The Five Sages of Economy are once again optimistic for the future.</en>
+				<pl>Śmierć zwierzęcia głęboko poruszyła ludzi i spowodowała ogromną sprzedaż pluszowych zabawek, kubków i innych gadżetów. Pięciu Mędrców Ekonomii ponownie optymistycznie patrzy w przyszłość.</pl>
+			</description>
+			<data genre="0" price="1" quality="60" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="2,9,10,8,20" news="8d3887bc-a10a-4458-a8b9-8627764ccc5d" />
+			</effects>
+		</news>
+		<news guid="8d3887bc-a10a-4458-a8b9-8627764ccc5d" type="2" thread_guid="99ce928a-24ed-4090-b92c-9ebfd5e8b83c" creator="9551">
+			<title>
+				<de>${rodent}forscher schreibt über ${joe}</de>
+				<en>${rodent} researcher writes about ${joe}</en>
+				<pl>Badacz pisze o zwierzęciu ${joe}</pl>
+			</title>
+			<description>
+				<de>Anlässlich des Todestages des ${squirrel}s hat der renommierte Prof. Dr. Dr. ${scientistfirstname} ${scientistsecondname} ${scientistpenultimatename}-${scientistlastname} aus ${exhibitiontown} sein populärwissenschaftliches Buch „Vom ${squirrel} und Menschen und von mir“ herausgebracht.</de>
+				<en>To mark the anniversary of the death of the ${squirrel}, renowned Prof. Dr. Dr. ${scientistfirstname} ${scientistsecondname} ${scientistpenultimatename}-${scientistlastname} from ${exhibitiontown} has published his popular science book "Of ${squirrel} and man and of me".</en>
+				<pl>Z okazji rocznicy śmierci zwierzątka ${squirrel}, znany prof. dr ${scientistfirstname} ${scientistsecondname} ${scientistpenultimatename}-${scientistlastname} z miasta ${exhibitiontown} wydał swoją popularnonaukową książkę "${squirrel}, człowiek i ja".</pl>
+			</description>
+			<data genre="3" price="1" quality="40" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,4,6" news="4cbb9f4c-fd68-4538-8b28-983a1930221d" />
+			</effects>
+		</news>
+		<news guid="4cbb9f4c-fd68-4538-8b28-983a1930221d" type="2" thread_guid="99ce928a-24ed-4090-b92c-9ebfd5e8b83c" creator="9551">
+			<title>
+				<de>Keine News über ${singerfirstname}-${singersecondname} ${singerlastname}</de>
+				<en>No news about ${singerfirstname}-${singersecondname} ${singerlastname}</en>
+				<pl>Brak wiadomości o piosenkarzu. ${singerfirstname}-${singersecondname} ${singerlastname} zniknął</pl>
+			</title>
+			<description>
+				<de>Die Schlagersängerin mit ihrem Lied über ${squirrel} „${joe}, ${dontleaveme}!“ aus dem letzten Jahr war wohl ein One-Hit-Wonder. Niemand weiß, was sie heute so treibt.</de>
+				<en>The folk singer with her tune about ${squirrel} "${joe}, ${dontleaveme}!" from last year was probably a one-hit wonder. No one knows what she's up to today.</en>
+				<pl>Piosenkarz folkowy ze swoją melodią o zwierzęciu ${squirrel} "${joe}, ${dontleaveme}!" z zeszłego roku był prawdopodobnie cudem jednego przeboju. Nikt nie wie, co robi dzisiaj.</pl>
+			</description>
+			<data genre="1" price="1" quality="20" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,4,6" news="66aee363-ee72-4051-956e-b2f304adb8b6" />
+			</effects>
+		</news>
+		<news guid="66aee363-ee72-4051-956e-b2f304adb8b6" type="2" thread_guid="99ce928a-24ed-4090-b92c-9ebfd5e8b83c" creator="9551">
+			<title>
+				<de>Wanderausstellung endlich in ${funeraltown}</de>
+				<en>Traveling exhibit finally in ${funeraltown}</en>
+				<pl>Podróżująca wystawa w końcu w mieście ${funeraltown}</pl>
+			</title>
+			<description>
+				<de>Der Kreis schließt sich: Die Wanderausstellung „Mensch und ${rodent} im Wandel der Zeit“ kommt endlich in ${funeraltown} an, wo ${squirrel} ${joe} gestorben war.</de>
+				<en>Coming full circle, the traveling exhibit "Man and ${rodent} in the course of time" finally arrives in ${funeraltown}, where ${squirrel} ${joe} had died.</en>
+				<pl>Zataczając pełne koło, podróżująca wystawa "Człowiek i ${rodent} z biegiem czasu" w końcu dociera do miasta ${funeraltown}, gdzie ${squirrel} ${joe} zdechł.</pl>
+			</description>
+			<data genre="5" price="1" quality="40" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,4,6" news="150c3746-7389-49c1-9f6b-6ad27b321efa" />
+			</effects>
+		</news>
+		<news guid="150c3746-7389-49c1-9f6b-6ad27b321efa" type="2" thread_guid="99ce928a-24ed-4090-b92c-9ebfd5e8b83c" creator="9551">
+			<title>
+				<de>${singerfirstname}-${singersecondname} ${singerlastname} gesichtet</de>
+				<en>${singerfirstname}-${singersecondname} ${singerlastname} sighted</en>
+				<pl>Piosenkarz ${singerfirstname}-${singersecondname} ${singerlastname} widziany</pl>
+			</title>
+			<description>
+				<de>Augenzeugenberichten zufolge hat Sängerin ${singerfirstname}-${singersecondname} ${singerlastname} eine neue Berufung gefunden und ist Teil einer Wanderausstellung namens „Mensch und ${rodent} im Wandel der Zeit“.</de>
+				<en>According to eyewitnesses, singer ${singerfirstname}-${singersecondname} ${singerlastname} has found a new vocation and is part of a traveling exhibit named "Man and ${rodent} in the course of time".</en>
+				<pl>Według naocznych świadków, piosenkarz ${singerfirstname}-${singersecondname} ${singerlastname} znalazł nowe powołanie i jest częścią podróżującej wystawy o nazwie "Człowiek i ${rodent} z biegiem czasu".</pl>
+			</description>
+			<data genre="1" price="1" quality="30" fictional="1" />
+		</news>
+
+		<news guid="733f6d6a-4021-45c0-8ace-7768f9a922f0" type="0" thread_guid="52d6aec3-e4ae-4f87-ac56-5db89c01cea0" creator="9551" comment="Source: ChatGPT came up with the inflatable duck escaping from the parade. Asked for a few variations and made up my own. Continuations by myself.">
+			<title>
+				<de>${giantinflatable} ${duck} ${escapes} Parade</de>
+				<en>${giantinflatable} ${duck} ${escapes} parade</en>
+				<pl>${giantinflatable} ${duck} ${escapes} z parady</pl>
+			</title>
+			<description>
+				<de>${the} ${duck} gehörte zu einem Festumzug in ${paradetown}, löste sich aus der Verankerung und schwebte davon. ${theobject} umfasst mehr als 15 Meter, wurde über der Stadt schwebend gesichtet und verschwand hinter dem Horizont. Die Suchaktion ist im Gange.</de>
+				<en>${.ucfirst:the} ${duck}, part of a parade in ${paradetown}, broke loose from its moorings and floated away. ${theobject} spans more than 50 feet, was spotted floating over the city and disappeared behind the horizon. The search operation is underway.</en>
+				<pl>${giantinflatable} ${duck}, część parady w mieście ${paradetown}, wyrwał się z cum i odfrunął. Ma ponad 50 stóp wysokości. Został zauważony nad miastem i zniknął za horyzontem. Trwa operacja poszukiwawcza.</pl>
+			</description>
+			<variables>
+				<inflatable_csv>
+					<de>Riesige aufblasbare;Ente;Die;Sie|
+						Riesiges aufblasbares;Einhorn;Das;Es|
+						Riesiges aufblasbares;Pony;Das;Es|
+						Riesige aufblasbare;Pizza;Die;Sie|
+						Riesiger aufblasbarer;T-Rex;Der;Er|
+						Riesiger aufblasbarer;Oktopus;Der;Er|
+						Riesige aufblasbare;Eistüte;Die;Sie|
+						Riesiger aufblasbarer;Teddybär;Der;Er|
+						Riesiges aufblasbares;UFO;Das;Es|
+						Riesiger aufblasbarer;Diamant;Der;Er|
+						Riesige aufblasbare;Kuh;Die;Sie|
+						Riesiger aufblasbarer;Dildo;Der;Er|
+						Riesige aufblasbare;Wurst;Die;Sie|
+						69;Herzballons-Geschwader;Das;Es|
+						101;Luftballons-Bündel;Das;Es|
+					</de>
+					<en>Giant inflatable;duck;the;It|
+						Giant inflatable;unicorn;the;It|
+						Giant inflatable;pony;the;It|
+						Giant inflatable;pizza;the;It|
+						Giant inflatable;T-Rex;the;It|
+						Giant inflatable;octopus;the;It|
+						Giant inflatable;ice-cream cone;the;It|
+						Giant inflatable;teddy bear;the;It|
+						Giant inflatable;UFO;the;It|
+						Giant inflatable;diamond;the;It|
+						Giant inflatable;cow;the;It|
+						Giant inflatable;dildo;the;It|
+						Giant inflatable;sausage;the;It|
+						69;heart balloons squadron;the;It|
+						101;red balloons bunch;the;It
+					</en>
+					<pl>Gigantyczny nadmuchiwany balon w kształcie;kaczki;;|
+						Gigantyczny nadmuchiwany balon w kształcie;jednorożca;;|
+						Gigantyczny nadmuchiwany balon w kształcie;kucyka;;|
+						Gigantyczny nadmuchiwany balon w kształcie;pizzy;;|
+						Gigantyczny nadmuchiwany balon w kształcie;T-Rexa;;|
+						Gigantyczny nadmuchiwany balon w kształcie;ośmiornicy;;|
+						Gigantyczny nadmuchiwany balon w kształcie;rożek lodowego;;|
+						Gigantyczny nadmuchiwany balon w kształcie;pluszowego misia;;|
+						Gigantyczny nadmuchiwany balon w kształcie;UFO;;|
+						Gigantyczny nadmuchiwany balon w kształcie;diamentu;;|
+						Gigantyczny nadmuchiwany balon w kształcie;krowy;;|
+						Gigantyczny nadmuchiwany balon w kształcie;dildo;;|
+						Gigantyczny nadmuchiwany balon w kształcie;kiełbasy;;|
+						Gigantyczny nadmuchiwany balon w kształcie;serca;;|
+						Gigantyczny nadmuchiwany balon w kształcie;piłki;;
+					</pl>
+				</inflatable_csv>
+				<giantinflatable>
+					<all>${.csv:inflatable_csv:0}</all>
+				</giantinflatable>
+				<duck>
+					<all>${.csv:inflatable_csv:1}</all>
+				</duck>
+				<the>
+					<all>${.csv:inflatable_csv:2}</all>
+				</the>
+				<theobject> <!-- variable name would be just 'it' but avoiding confusion with language tag 'it' here -->
+					<all>${.csv:inflatable_csv:3}</all>
+				</theobject>
+				<escapes>
+					<de>entkommt|entwischt|entflieht|entfleucht</de>
+					<en>escapes|eludes|flees|absconds</en>
+					<pl>ucieka|odfruwa|odlatuje|odfruwa</pl>
+				</escapes>
+				<paradetown>${.stationmap:"randomcity"}</paradetown>
+				<sightedtown>${.stationmap:"randomcity"}</sightedtown>
+				<foundtown>${.stationmap:"randomcity"}</foundtown>
+				<andbroughtdownby>
+					<de> und von der Feuerwehr zu Boden gebracht|. ${theobject} wurde gemütlich schwimmend in einem Parkteich entdeckt und wohlbehalten an die Organisatoren der Parade zurückgegeben|. ${theobject} wurde von ein paar Witzbolden entführt, doch die Polizei konnte die Entführer ausfinding machen</de>
+					<en> and brought down by the fire department|. ${theobject} was discovered leisurely floating in a park pond and was safely returned to the parade organizers|. ${theobject} was hijacked by some pranksters, but the police were able to track down them down</en>
+					<pl> i ściągnięty przez straż pożarną| w stawie w parku i bezpiecznie zwrócony organizatorom parady|Okazało się że balon został porwany przez żartownisiów, ale policji udało się ich wytropić</pl>
+				</andbroughtdownby>
+				<nina>Nina|Nia|Nana|Nona</nina>
+				<artistlastname>${.persongenerator:"lastname":"de":"female"}|${.persongenerator:"lastname":"en":"female"}|${.persongenerator:"lastname":"fr":"female"}</artistlastname>
+				<ofsportsclub>
+					<de>des Sportclubs|des Sportvereins|der Sportfreunde|des Fußballclubs|der Spielvereinigung</de>
+					<en>of Sports Club|of the Sports Association|of Sports Friends|of Football Club|of United</en>
+					<pl>Klubu Sportowego|Stowarzyszenia Sportowego|Przyjaciół Sportu|Klubu Piłkarskiego|Zjednoczonych</pl>
+				</ofsportsclub>
+			</variables>
+			<data genre="4" price="1" quality="15" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,18,30" news="bfcac3ba-4030-4ac5-8627-e850bdbe1e22" />
+			</effects>
+		</news>
+		<news guid="bfcac3ba-4030-4ac5-8627-e850bdbe1e22" type="2" thread_guid="52d6aec3-e4ae-4f87-ac56-5db89c01cea0" creator="9551">
+			<title>
+				<de>${giantinflatable} ${duck} in ${sightedtown} gesichtet</de>
+				<en>${giantinflatable} ${duck} sighted in ${sightedtown}</en>
+				<pl>${giantinflatable} ${duck} widziany w mieście ${sightedtown}</pl>
+			</title>
+			<description>
+				<de>${the} ${duck} von der Parade in ${paradetown} flog heute Morgen über ${sightedtown} hinweg, wie Augenzeugen berichteten. Die Fliegerstaffel ist hinterher.</de>
+				<en>${.ucfirst:the} ${duck} off the ${paradetown} parade flew over ${sightedtown} this morning, according to eyewitnesses. The super high-tech jet fighters are in pursuit.</en>
+				<pl>${giantinflatable} ${duck} z parady w mieście ${paradetown} przeleciał dziś rano nad miastem ${sightedtown}, według naocznych świadków. Super zaawansowane technologicznie myśliwce odrzutowe są w pościgu.</pl>
+			</description>
+			<data genre="4" price="1" quality="10" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,18,30" news="e707f054-6a75-478b-bba7-b368da4ea7c5" />
+			</effects>
+		</news>
+		<news guid="e707f054-6a75-478b-bba7-b368da4ea7c5" type="2" thread_guid="52d6aec3-e4ae-4f87-ac56-5db89c01cea0" creator="9551">
+			<title>
+				<de>${giantinflatable} ${duck} in ${foundtown} gefunden</de>
+				<en>${giantinflatable} ${duck} found in ${foundtown}</en>
+				<pl>${giantinflatable} ${duck} znaleziony w mieście ${foundtown}</pl>
+			</title>
+			<description>
+				<de>${the} ${duck} von der Parade in ${paradetown} wurde heute nachmittag schließlich in ${foundtown} gefunden${andbroughtdownby}.</de>
+				<en>${.ucfirst:the} ${duck} off the ${paradetown} parade was eventually found in ${foundtown} this afternoon${andbroughtdownby}.</en>
+				<pl>${giantinflatable} ${duck} z miasta ${paradetown} został ostatecznie znaleziony w mieście ${foundtown} tego popołudnia${andbroughtdownby}.</pl>
+			</description>
+			<data genre="4" price="1" quality="20" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernewschoice" time="1,3,7" choose="or" news1="0dd044d0-7752-435e-8f12-7a3047e3e69b" probability1="25" news2="23ec2ae3-c7cf-413b-89fe-b5f44f408a11" probability2="25" news3="262a7de8-89b0-4fa5-884e-19c2861392fb" probability3="25" news4="d5c19330-0592-4585-b63d-7e6a18e2e75b" probability4="25" />
+			</effects>
+		</news>
+		<news guid="0dd044d0-7752-435e-8f12-7a3047e3e69b" type="2" thread_guid="52d6aec3-e4ae-4f87-ac56-5db89c01cea0" creator="9551">
+			<title>
+				<de>Rocksängerin ${nina} ${artistlastname} landet Riesenhit</de>
+				<en>Rock singer ${nina} ${artistlastname} lands huge hit</en>
+				<pl>Piosenkarka rockowa ${nina} ${artistlastname} podbija listy przebojów</pl>
+			</title>
+			<description>
+				<de>„${theobject} ${escapes} den Kriegsministern!“ Inspiriert vom Flug über ${sightedtown} landet Rocksängerin ${nina} ${artistlastname} mit „${giantinflatable} ${duck}“ einen internationalen Riesenhit.</de>
+				<en>"${theobject} ${escapes} the war ministers!" Inspired by the flight over ${sightedtown}, rock singer ${nina} ${artistlastname} lands a huge international hit with "${giantinflatable} ${duck}".</en>
+				<pl>Zainspirowana lotem nad miastem ${sightedtown}, wokalistka rockowa ${nina} ${artistlastname} nagrywa piosenkę która staje się wielkim międzynarodowym hitem. Ten hit to "${giantinflatable} ${duck}".</pl>
+			</description>
+			<data genre="1" price="1" quality="25" fictional="1" />
+		</news>
+		<news guid="23ec2ae3-c7cf-413b-89fe-b5f44f408a11" type="2" thread_guid="52d6aec3-e4ae-4f87-ac56-5db89c01cea0" creator="9551">
+			<title>
+				<de>${duck}-Computerspiel wird großer Erfolg</de>
+				<en>${.ucfirst:duck} computer game becomes big success</en>
+				<pl>Gra komputerowa staje się wielkim sukcesem</pl>
+			</title>
+			<description>
+				<de>Der vom Flug über ${sightedtown} inspirierte Action-Kracher „${the} ${duck} ${escapes}“ des aufstrebenden Garagen-Studios „${artistlastname}soft“ aus ${paradetown} führt zur Zeit die internationalen Verkaufscharts an.</de>
+				<en>Inspired by the flight over ${sightedtown}, the action smash hit "${.ucfirst:the} ${duck} ${escapes}" by the up-and-coming bedroom studio "${artistlastname}soft" from ${paradetown} is currently topping the international sales charts.</en>
+				<pl>Zainspirowani lotem nad miastem ${sightedtown} gigantycznego nadmuchiwanego balonu w kształcie ${duck} studio ${artistlastname}soft z miasta ${paradetown} wydaje grę, która podbija serca graczy.</pl>
+			</description>
+			<data genre="3" price="1" quality="25" fictional="1" />
+		</news>
+		<news guid="262a7de8-89b0-4fa5-884e-19c2861392fb" type="2" thread_guid="52d6aec3-e4ae-4f87-ac56-5db89c01cea0" creator="9551">
+			<title>
+				<de>Wanderausstellung in ${sightedtown} wird erweitert</de>
+				<en>Traveling exhibit in ${sightedtown} to be expanded</en>
+				<pl>Wystawa objazdowa w mieście ${sightedtown} zostanie rozszerzona</pl>
+			</title>
+			<description>
+				<de>Inspiriert vom Flug aus ${paradetown} nimmt die gerade zufällig in ${sightedtown} gastierende Wanderausstellung „Der Mensch ${escapes}“ ab übermorgen den Rundgang „Über ${duck} und Mensch“ ins Programm auf.</de>
+				<en>Inspired by the flight from ${paradetown}, the traveling exhibit "Man ${escapes}" that just happens to be currently touring ${sightedtown} will add the trail "Of ${duck} and man" to its program starting the day after tomorrow.</en>
+				<pl>Zainspirowana lotem gigantycznego nadmuchiwanego balonu w kształcie $${duck}, objazdowa wystawa, która właśnie objeżdża miasto ${sightedtown}, od pojutrza doda do swojego programu wystawę „${duck} i człowiek”.</pl>
+			</description>
+			<data genre="5" price="1" quality="25" fictional="1" />
+		</news>
+		<news guid="d5c19330-0592-4585-b63d-7e6a18e2e75b" type="2" thread_guid="52d6aec3-e4ae-4f87-ac56-5db89c01cea0" creator="9551">
+			<title>
+				<de>${duck} wird Sportmaskottchen in ${sightedtown}</de>
+				<en>${.ucfirst:duck} becomes sports mascot in ${sightedtown}</en>
+				<pl>${.ucfirst:duck} zostaje maskotką sportową w mieście ${sightedtown}</pl>
+			</title>
+			<description>
+				<de>Inspiriert vom Flug aus ${paradetown} wird „${duck} ${artistlastname}“ das neue Maskottchen ${ofsportsclub} ${sightedtown}. Der freche Freigeist von ${artistlastname} repräsentiere den Club sehr treffend.</de>
+				<en>Inspired by the flight from ${paradetown}, "${artistlastname} ${the} ${duck}" becomes the new mascot ${ofsportsclub} ${sightedtown}. The bold free spirit of ${artistlastname} is said to represent the club very aptly.</en>
+				<pl>Klub sportowy zainspirowany przelotem gigantycznego balonu wybrał nową maskotką klubu sportowego. Ten gigantyczny balon w kształcie ${duck} ma reprezentować klub.</pl>
+			</description>
+			<data genre="2" price="1" quality="25" fictional="1" />
+		</news>
+
+		<news guid="8ac54969-a412-4c23-98c1-a3b2f449605d" type="0" thread_guid="d578f569-5a26-405a-903d-4afe21c03308" creator="9551" comment="Source: Items 1 and 2, variations and the 'duel' version from ChatGPT, other continuations made up by me. TODO: Perhaps more internationalization of artist name and things like 'beer tents', but we still have only German region available to play.">
+			<title>
+				<de>${mw} ${sues} ${theirparrot}</de>
+				<en>${.ucfirst:mw} ${sues} ${theirparrot}</en>
+				<pl>${mw} ${sues} ${theirparrot}</pl>
+			</title>
+			<description>
+				<de>${name} aus ${subjecttown} ${claims}${ithadinsulted}.</de>
+				<en>${name} from ${subjecttown} ${claims}${ithadinsulted}.</en>
+				<pl>${name} z miasta ${subjecttown} ${claims}${ithadinsulted}.</pl>
+			</description>
+			<variables>
+				<person_csv>
+					<de>Mann;Der;er;sein;ihm;ihn;sich selbst;${.persongenerator:"fullname":"de":"male"}|
+						Frau;Die;sie;ihr;ihr;sie;sich selbst;${.persongenerator:"fullname":"de":"female"}</de>
+					<en>man;The;he;his;him;him;himself;${.persongenerator:"fullname":"en":"male"}|
+						woman;The;she;her;her;her;herself;${.persongenerator:"fullname":"en":"female"}</en>
+					<pl>Mężczyzna;nazwał;on;jego;o nim;o nim;sam;${.persongenerator:"fullname":"pl":"male"}|
+						Kobieta;nazwała;ona;jej;o niej;o niej;sama;${.persongenerator:"fullname":"pl":"female"}</pl>
+				</person_csv>
+				<mw>
+					<all>${.csv:person_csv:0}</all>
+				</mw>
+				<the>
+					<all>${.csv:person_csv:1}</all>
+				</the>
+				<heshe>
+					<all>${.csv:person_csv:2}</all>
+				</heshe>
+				<their>
+					<all>${.csv:person_csv:3}</all>
+				</their>
+				<them_dat>
+					<all>${.csv:person_csv:4}</all>
+				</them_dat>
+				<them_acc>
+					<all>${.csv:person_csv:5}</all>
+				</them_acc>
+				<themself>
+					<all>${.csv:person_csv:6}</all>
+				</themself>
+				<name>
+					<all>${.csv:person_csv:7}</all>
+				</name>
+				<subjecttown>${.stationmap:"randomcity"}</subjecttown>
+				<sues>
+					<de>verklagt|klagt gegen</de> <!-- too long: erhebt Klage gegen|prozessiert gegen -->
+					<en>sues|files suit against</en> <!--too long: files lawsuit against|takes action against -->
+					<pl>pozywa|składa pozew sądowy</pl>
+				</sues>
+				<claims>
+					<de>behauptet|gibt an|macht geltend</de>
+					<en>claims|alleges|argues</en>
+					<pl>twierdzenia|zarzuty|argumenty</pl>
+				</claims>
+				<what_csv>
+					<de>${their}en Hauspapagei;, der Vogel habe ${them_acc} beleidigt und ${their}en Ruf vor ${their}en Freunden geschädigt; ${heshe} fordert eine öffentliche Entschuldigung von dem Papagei und eine einstweilige Verfügung, um weitere Verleumdungen zu verhindern|
+						${their} Motorrad;, das Gefährt habe ${them_acc} während einer Tour absichtlich zu Fall gebracht; ${heshe} fordert Schadensersatz für Verletzungen und Schäden|
+						${their} Spiegelbild;, die Reflektion habe ${them_dat} emotionales Leid zugefügt und jede ${their}er Bewegungen nachgeahmt; ${heshe} beantragt eine einstweilige Verfügung und Schadensersatz wegen Verletzung der Privatsphäre|
+						einen Kaufhausspiegel;, der Kaufhausspiegel habe ${their} Aussehen verzerrt, so dass ${heshe} an ${their}er eigenen Schönheit zweifeln musste; ${heshe} fordert, dass der Spiegel ersetzt oder verändert wird|
+						${themself};, ${heshe} habe ${their}e eigenen Bürgerrechte verletzt, indem ${heshe} sich betrunken und eine Straftat begangen habe, und verlangt, dass der Staat ${them_dat} 5 Millionen zahle|
+						${their}en Schatten;, dass ${their} eigener Schatten ${them_acc} verfolgte und ${their}e Aktivitäten ausspionierte, und führt weiter aus, dass dies eine Verletzung ${their}er Privatsphäre darstelle; ${heshe} fordert eine Untersuchung der Angelegenheit|
+						einen Wahrsager;, dass falsche Vorhersagen zu den Lottozahlen gemacht wurden; ${heshe} verlangt eine Entschädigung für das Geld, das ${heshe} aufgrund der Ratschläge des Wahrsagers für Lotterielose ausgegeben hat|
+						${their} Navi;, das Gerät habe ${them_dat} irreführende Anweisungen gegeben, was zu zahlreichen falschen Abzweigungen und Verzögerungen geführt habe; ${heshe} fordert Entschädigung für verschwendete Zeit und Kraftstoff|
+						${their}e Katze;, das Tier habe ${them_dat} durch ihr unaufhörliches Miauen und ihr unberechenbares Verhalten erheblichen seelischen Schaden zugefügt; ${heshe} fordert Schadenersatz für die verursachte Notlage|
+						${their}en Wecker;, dass das unaufhörliche, laute Klingeln chronischen Schlafentzug verursacht und ${their} allgemeines Wohlbefinden beeinträchtige; ${heshe} fordert Entschädigung für die daraus entstandenen gesundheitlichen Probleme|
+						${their}en Fernseher;, dass der Fernseher ${them_dat} geheime Botschaften schickt und dazu drängt, spezifische Aufgaben auszuführen; ${heshe} fordert eine Untersuchung der Angelegenheit, um die Quelle der Botschaften zu ermitteln|
+						${their}en Friseur;, man hätte ${them_dat} einen schrecklichen Haarschnitt verpasst, der ${their} Selbstwertgefühl beschädigt habe; ${heshe} fordert eine Entschädigung für die Kosten der Dienstleistung und den entstandenen seelischen Schaden
+					</de>
+					<en>${their} pet parrot; the bird had insulted ${them_acc} and tarnished ${their} reputation in front of ${their} friends; ${heshe} seeks a public apology from the parrot and a restraining order to prevent further defamation|
+						${their} motorcycle; the vehicle had intentionally caused ${them_acc} to crash during a ride; ${heshe} demands compensation for injuries and damages|
+						${their} mirror reflection; the reflection had caused ${them_dat} emotional distress and mimicked ${their} every move; ${heshe} seeks a restraining order and damages for invasion of privacy|
+						a shop mirror; the shop mirror had distorted ${their} appearance and caused ${them_dat} to doubt ${their} own beauty; ${heshe} demands that the mirror be replaced or altered|
+						${themself}; ${heshe} had violated ${their} own civil rights by getting drunk and committing a crime, and demands that the state pay ${them_dat} 5 million|
+						${their} own shadow; that ${their} own shadow has been following ${them_acc} and spying on ${their} activities, and further claims it was an invasion of ${their} privacy, demanding an investigation into the matter|
+						a fortune teller; that they have provided inaccurate predictions regarding lottery numbers; ${heshe} seeks compensation for the money ${heshe} has spent on lottery tickets based on the fortune teller's advice|
+						${their} sat nav; the device had given ${them_acc} misleading directions, leading to numerous wrong turns and delays; ${heshe} seeks reimbursement for the wasted time and fuel|
+						${their} cat; that the pet had caused ${them_dat} significant emotional distress with its incessant meowing and unpredictable behavior; ${heshe} seeks damages for the distress caused|
+						${their} alarm clock; that the loud incessant ringing had caused ${them_dat} chronic sleep deprivation and affected ${their} overall well-being; ${heshe} seeks compensation for the resulting health issues|
+						${their} television; the television was sending ${them_dat} secret messages, urging to carry out specific tasks; ${heshe} demands an investigation into the matter to uncover the source of the messages|
+						${their} hairdresser; they have given ${them_dat} a terrible haircut that had damaged ${their} self-esteem; ${heshe} seeks reimbursement for the cost of the service and emotional distress caused
+					</en>
+					<pl>${their} zwierzątko papuga; ptak obraził ${them_acc} i zszargał reputację ${their} przed ${their} przyjaciółmi; ${heshe} domaga się publicznych przeprosin od papugi i zakazu zbliżania się, aby zapobiec dalszemu zniesławianiu|
+						${their} motocykl; pojazd celowo spowodował wypadek ${them_acc} podczas jazdy; ${heshe} żąda odszkodowania za obrażenia i szkody|
+						${their} odbicie lustrzane; odbicie spowodowało u ${them_dat} cierpienie emocjonalne i naśladowało każdy ruch ${their}; ${heshe} domaga się zakazu zbliżania się i odszkodowania za naruszenie prywatności|
+						lustro sklepowe; sklepowe lustro zniekształciło wygląd ${their} i sprawiło, że ${them_dat} zwątpił w ${their} własne piękno; ${heshe} żąda wymiany lub zmiany lustra|
+						${themself}; ${heshe} naruszył ${their} własne prawa obywatelskie, upijając się i popełniając przestępstwo, i żąda, aby państwo zapłaciło ${them_dat} 5 milionów|
+						${their} własny cień; że ${their} własny cień śledził ${them_acc} i szpiegował działania ${their}, a ponadto twierdzi, że było to naruszenie prywatności ${their}, domagając się śledztwa w tej sprawie|
+						wróżka; że przedstawili niedokładne prognozy dotyczące numerów loterii; ${heshe} domaga się odszkodowania za pieniądze, które ${heshe} wydał na losy loterii w oparciu o porady wróżki|
+						${their} nawigacja satelitarna; urządzenie podało ${them_acc} mylące wskazówki, co doprowadziło do licznych błędnych skrętów i opóźnień; ${heshe} domaga się zwrotu kosztów za zmarnowany czas i paliwo|
+						${their} kot; że zwierzę spowodowało u ${them_dat} znaczne cierpienie emocjonalne swoim nieustannym miauczeniem i nieprzewidywalnym zachowaniem; ${heshe} domaga się odszkodowania za spowodowane cierpienie|
+						${their} budzik; że głośne, nieprzerwane dzwonienie spowodowało chroniczne pozbawienie ${them_dat} snu i wpłynęło na ogólne samopoczucie ${their}; ${heshe} domaga się odszkodowania za wynikające z tego problemy zdrowotne|
+						${their} TV; telewizja wysyłała ${them_dat} tajne wiadomości, nakłaniając do wykonania określonych zadań; ${heshe} żąda śledztwa w tej sprawie, aby odkryć źródło wiadomości|
+						${their} fryzjer; zafundowali ${them_dat} okropną fryzurę, która zaszkodziła ${their} poczuciu własnej wartości; ${heshe} domaga się zwrotu kosztów usługi i spowodowanych nią cierpień emocjonalnych
+					</pl>
+				</what_csv>
+				<theirparrot>
+					<all>${.csv:what_csv:0}</all>
+				</theirparrot>
+				<ithadinsulted>
+					<all>${.csv:what_csv:1}</all>
+				</ithadinsulted>
+				<deemedfrivolous>
+					<de> als ${frivolous} ${deemed} und|</de>
+					<en> ${deemed} ${frivolous} and was|</en>
+					<pl> ${deemed} ${frivolous} i był|</pl>
+				</deemedfrivolous>
+				<deemed>
+					<de>eingestuft|erachtet|klassifiziert|abgetan</de>
+					<en>deemed|ruled|classified|brushed aside as</en>
+					<pl>uznany|zaliczony|sklasyfikowany|odrzucony na bok jako</pl>
+				</deemed>
+				<frivolous>
+					<de>frivol|unseriös|albern|nichtig|absurd</de>
+					<en>frivolous|dubious|silly|inane|absurd</en>
+					<pl>niepoważny|wątpliwy|głupi|bezsensowny|absurdalny</pl>
+				</frivolous>
+				<quickly>
+					<de> rasch| schnell|</de>
+					<en> quickly| swiftly|</en>
+					<pl> szybko| sprawnie|</pl>
+				</quickly>
+				<forlackofevidence>
+					<de> aus Mangel an Beweisen| aufgrund fehlender Indizien|</de>
+					<en> for lack of evidence| due to insufficient evidentiary support|</en>
+					<pl> z powodu braku dowodów| z powodu niewystarczającego wsparcia dowodowego|</pl>
+				</forlackofevidence>
+				<dismissed>
+					<de>abgewiesen|eingestellt|abgewiesen|abgelehnt|abgewiesen|fallen gelassen|abgewiesen|zurückgewiesen|abgewiesen</de>
+					<en>dismissed|overturned|dismissed|denied|dismissed|rejected|dismissed|thrown out|dismissed</en>
+					<pl>zwolniony|odrzucony|odrzucony|odrzucony|odrzucony|odrzucony|wyrzucony|wyrzucony|odrzucony</pl>
+				</dismissed>
+				<byajudge>
+					<de> von einem Richter | vom Gericht|</de>
+					<en> by a judge | by the court|</en>
+					<pl> przez sędziego | przez sąd|</pl>
+				</byajudge>
+				<appeals>
+					<de>legt Berufung ein|geht in Berufung</de>
+					<en>appeals|files an appeal</en>
+					<pl>odwołania|złożenie odwołania</pl>
+				</appeals>
+				<artistfirstname>
+					<de>${.persongenerator:"firstname":"de":"male"}</de>
+					<en>${.persongenerator:"firstname":"en":"male"}</en>
+					<pl>${.persongenerator:"firstname":"pl":"male"}</pl>
+				</artistfirstname>
+				<artistlastname>
+					<de>${.persongenerator:"lastname":"de"}</de>
+					<en>${.persongenerator:"lastname":"en"}</en>
+					<pl>${.persongenerator:"lastname":"pl"}</pl>
+				</artistlastname>
+				<band>
+					<de>Band|Gang|Kapelle|Combo|Band</de>
+					<en>Band|Gang|Band|Combo|Band</en>
+					<pl>Band|Gang|Band|Combo|Band</pl>
+				</band>
+				<against>
+					<de>Gegen|Über|Durch|Auf|Für|Aber|Doch,|Doch nicht|Nicht doch|Warum|Wozu|Nicht|Nein,</de>
+					<en>Against|About|Through|To|For|But|Yet,|But not|Oh no, not|Why|What for|Not|No,</en>
+					<pl>Przeciwko|Przez|Dla|Ale|Jeszcze|Ale nie|O nie, nie|Dlaczego|O nie, nie|Dlaczego|Za co|Nie|Nie,</pl>
+				</against>
+				<artisttown>${.stationmap:"randomcity"}</artisttown>
+			</variables>
+			<data genre="4" price="1" quality="20" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,6,10" news="017aef0b-57a0-4677-82d2-507d7fa822f9" />
+			</effects>
+		</news>
+		<news guid="017aef0b-57a0-4677-82d2-507d7fa822f9" type="2" thread_guid="d578f569-5a26-405a-903d-4afe21c03308" creator="9551">
+			<title>
+				<de>Klage von ${name} ${dismissed}</de>
+				<en>${name}'s lawsuit ${dismissed}</en>
+				<pl>Pozew ${name} ${dismissed}</pl>
+			</title>
+			<description>
+				<de>Die Klage von ${name} gegen ${theirparrot} wurde${deemedfrivolous}${forlackofevidence}${quickly}${byajudge} ${dismissed}.</de>
+				<en>The lawsuit of ${name} against ${theirparrot} was${deemedfrivolous}${quickly} ${dismissed}${byajudge}${forlackofevidence}.</en>
+				<pl>Pozew ${name} przeciwko ${theirparrot} został${deemedfrivolous}${quickly} ${dismissed}${byajudge}${forlackofevidence}.</pl>
+			</description>
+			<data genre="4" price="1" quality="30" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernewschoice" time="1,3,7" choose="or" news1="3153bc8d-4ee6-4d0a-9135-a8d1cf39ce7c" probability1="50" news2="ddc63d39-7c94-4710-85f1-e8462c14f34b" probability2="50" />
+			</effects>
+		</news>
+		<news guid="3153bc8d-4ee6-4d0a-9135-a8d1cf39ce7c" type="2" thread_guid="d578f569-5a26-405a-903d-4afe21c03308" creator="9551">
+			<title>
+				<de>${mw} fordert ${theirparrot} zum Duell</de>
+				<en>${.ucfirst:mw} challenges ${theirparrot} to a duel</en>
+				<pl>${mw} wyzywa ${theirparrot} na pojedynek</pl>
+			</title>
+			<description>
+				<de>Nach der abgewiesenen Klage greift ${name} zu den Mitteln der Selbstjustiz. ${the} ${mw} meint es ernst. Showdown morgen 12 Uhr mittags auf dem Marktplatz ${subjecttown}.</de>
+				<en>After the dismissed lawsuit, ${name} resorts to vigilante justice. ${the} ${mw} means business. Showdown tomorrow at 12 high noon marketplace ${subjecttown}.</en>
+				<pl>Po odrzuceniu pozwu, ${name} ucieka się do wymierzania sprawiedliwości. ${mw} jest poważny. Starcie odbędzie się jutro o 12 w południe na rynku miasta ${subjecttown}.</pl>
+			</description>
+			<effects>
+				<effect trigger="happen" type="triggernewschoice" time="1,18,30" choose="or" news1="a3716822-419b-4a1a-ac1d-4529eea1ec6a" probability1="50" news2="5af0c98a-e1f9-4842-827f-dfb90ae93d5b" probability2="50" />
+			</effects>
+			<data genre="4" price="1" quality="30" fictional="1" />
+		</news>
+		<news guid="a3716822-419b-4a1a-ac1d-4529eea1ec6a" type="2" thread_guid="d578f569-5a26-405a-903d-4afe21c03308" creator="9551">
+			<title>
+				<de>Duell auf Marktplatz ${subjecttown} abgesagt</de>
+				<en>Duel on marketplace ${subjecttown} cancelled</en>
+				<pl>Pojedynek na rynku miasta ${subjecttown} odwołany</pl>
+			</title>
+			<description>
+				<de>Die Behörden sind rechtzeitig eingeschritten und haben das Duell von ${name} gegen ${theirparrot} verhindert. ${name} wurde in eine Anstalt eingewiesen.</de>
+				<en>The authorities intervened in time and prevented the duel between ${name} and ${theirparrot}. ${name} was institutionalized.</en>
+				<pl>Władze interweniowały na czas i zapobiegły pojedynkowi między ${name} i ${theirparrot}. ${name} został zinstytucjonalizowany.</pl>
+			</description>
+			<data genre="4" price="1" quality="30" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,6,10" news="a91c818c-df10-4dbb-a103-9b12e7cef6fe" />
+			</effects>
+		</news>
+		<news guid="5af0c98a-e1f9-4842-827f-dfb90ae93d5b" type="2" thread_guid="d578f569-5a26-405a-903d-4afe21c03308" creator="9551">
+			<title>
+				<de>Duell gegen ${theirparrot} verloren</de>
+				<en>Duel against ${theirparrot} lost</en>
+				<pl>Pojedynek z ${theirparrot} przegrany</pl>
+			</title>
+			<description>
+				<de>${name} wurde geschickt und zielgenau die Waffe aus ${their}er Hand geschossen; ${heshe} wurde mit drei verstauchten Fingern ins Krankenhaus eingeliefert.</de>
+				<en>${name} got the gun shot out of ${their} hand skillfully and accurately; ${heshe} was hospitalized with three sprained fingers.</en>
+				<pl>${name} umiejętnie i celnie wyjęła pistolet z ręki ${their}; ${heshe} trafiła do szpitala z trzema zwichniętymi palcami.</pl>
+			</description>
+			<data genre="4" price="1" quality="30" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,6,10" news="a91c818c-df10-4dbb-a103-9b12e7cef6fe" />
+			</effects>
+		</news>
+		<news guid="ddc63d39-7c94-4710-85f1-e8462c14f34b" type="2" thread_guid="d578f569-5a26-405a-903d-4afe21c03308" creator="9551">
+			<title>
+				<de>${name} ${appeals}</de>
+				<en>${name} ${appeals}</en>
+				<pl>${name} ${appeals}</pl>
+			</title>
+			<description>
+				<de>Nun erneut vor dem Landgericht: ${the} ${mw} ${claims}${ithadinsulted}.</de>
+				<en>Now again before the regional court: ${the} ${mw} ${claims}${ithadinsulted}.</en>
+				<pl>Teraz ponownie przed sądem okręgowym: ${mw} ${claims}${ithadinsulted}.</pl>
+			</description>
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,6,10" news="1b671c51-6731-4b9e-9d60-728ada55995b" />
+			</effects>
+			<data genre="4" price="1" quality="30" fictional="1" />
+		</news>
+		<news guid="1b671c51-6731-4b9e-9d60-728ada55995b" type="2" thread_guid="d578f569-5a26-405a-903d-4afe21c03308" creator="9551">
+			<title>
+				<de>Klage von ${name} erneut ${dismissed}</de>
+				<en>${name}'s lawsuit again ${dismissed}</en>
+				<pl>Pozew ${name} ponownie ${dismissed}</pl>
+			</title>
+			<description>
+				<de>Auch das Landgericht hat die Klage von ${name} gegen ${theirparrot}${deemedfrivolous}${forlackofevidence}${quickly} ${dismissed}.</de>
+				<en>${name}'s lawsuit against ${theirparrot} was${deemedfrivolous}${quickly} ${dismissed}${forlackofevidence} also by the regional court.</en>
+				<pl>Pozew ${name} przeciwko ${theirparrot} został uznany${deemedfrivolous}${quickly} ${dismissed}${forlackofevidence} również przez sąd okręgowy.</pl>
+			</description>
+			<data genre="4" price="1" quality="30" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,6,10" news="a91c818c-df10-4dbb-a103-9b12e7cef6fe" />
+			</effects>
+		</news>
+		<news guid="a91c818c-df10-4dbb-a103-9b12e7cef6fe" type="2" thread_guid="d578f569-5a26-405a-903d-4afe21c03308" creator="9551">
+			<title>
+				<de>Aufarbeitung Causa ${name} begonnen</de>
+				<en>${name} case processing started</en>
+				<pl>Rozpoczęto przetwarzanie sprawy ${name}</pl>
+			</title>
+			<description>
+				<de>Die Causa ${name} gegen ${theirparrot} findet Eingang in die rechtswissenschaftliche Literatur, und viele Jurastudierende werden sich mit der Fallstudie herumschlagen dürfen.</de>
+				<en>The case of ${name} against ${theirparrot} has found its way into jurisprudential literature, and many law students will be given the opportunity to grapple with the case study.</en>
+				<pl>Sprawa ${name} przeciwko ${theirparrot} trafiła do literatury prawniczej, a wielu studentów prawa będzie miało okazję zmierzyć się z tym przypadkiem na studiach.</pl>
+			</description>
+			<data genre="3" price="1" quality="40" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernewschoice" time="1,3,7" choose="or" news1="de4653c8-ef8c-4bd1-9470-b215c9f5c7fc" probability1="25" news2="3e57cb8c-2212-406c-bed4-cf6a5326d539" probability2="25" news3="f3c94d9d-8204-494d-843d-90e1ae50b520" probability3="25" news4="17f2268c-f87a-42b1-86f6-32170ff2aae1" probability4="25" />
+			</effects>
+		</news>
+		<news guid="de4653c8-ef8c-4bd1-9470-b215c9f5c7fc" type="2" thread_guid="d578f569-5a26-405a-903d-4afe21c03308" creator="9551">
+			<title>
+				<de>${artistfirstname}-${artistlastname}-${band} landet Riesenhit</de>
+				<en>${artistfirstname} ${artistlastname} ${band} lands huge hit</en>
+				<pl>${artistfirstname} ${artistlastname} ${band} osiąga szczyty list przebojów</pl>
+			</title>
+			<description>
+				<de>Der von der Causa ${name} inspirierte Gassenhauer „${against} ${theirparrot}!“ der aus ${artisttown} stammenden Musikkapelle hat sich schnell zum Dauerbrenner in den Bierzelten der Nation entwickelt.</de>
+				<en>The hit song "${against} ${theirparrot}!" by the music band hailing from ${artisttown}, inspired by the case of ${name}, has quickly become a permanent favorite in the nation's beer tents.</en>
+				<pl>Przebój „${against} ${theirparrot}!” zespołu muzycznego pochodzącego z miasta ${artisttown}, zainspirowany sprawą ${name}, szybko stał się stałym hitem w krajowych namiotach piwnych.</pl>
+			</description>
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,36,48" news="579c00f4-9604-40cb-b0c5-21ee829df594" />
+			</effects>
+			<data genre="1" price="1" quality="40" fictional="1" />
+		</news>
+		<news guid="3e57cb8c-2212-406c-bed4-cf6a5326d539" type="2" thread_guid="d578f569-5a26-405a-903d-4afe21c03308" creator="9551">
+			<title>
+				<de>Kabarettist ${artistfirstname} ${artistlastname} geht auf Tour</de>
+				<en>Satirist ${artistfirstname} ${artistlastname} goes on tour</en>
+				<pl>Satyryk ${artistfirstname} ${artistlastname} wyrusza w trasę koncertową</pl>
+			</title>
+			<description>
+				<de>Der aufstrebene Kabarettist ${artistfirstname} ${artistlastname} beginnt seine Tour in ${artisttown} und stellt sein neues von der Causa ${name} inspiriertes Programm „${against} ${theirparrot}!“ vor.</de>
+				<en>Up-and-coming satirist ${artistfirstname} ${artistlastname} begins his tour in ${artisttown} and presents his new program "${against} ${theirparrot}!" inspired by the case of ${name}.</en>
+				<pl>Wschodzący satyryk ${artistfirstname} ${artistlastname} rozpoczyna swoją trasę w ${artisttown} i prezentuje swój nowy program „${against} ${theirparrot}!” inspirowany przypadkiem ${name}.</pl>
+			</description>
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,36,48" news="579c00f4-9604-40cb-b0c5-21ee829df594" />
+			</effects>
+			<data genre="5" price="1" quality="40" fictional="1" />
+		</news>
+		<news guid="f3c94d9d-8204-494d-843d-90e1ae50b520" type="2" thread_guid="d578f569-5a26-405a-903d-4afe21c03308" creator="9551">
+			<title>
+				<de>Komiker ${artistfirstname} ${artistlastname} geht auf Tour</de>
+				<en>Comedian ${artistfirstname} ${artistlastname} goes on tour</en>
+				<pl>Komik ${artistfirstname} ${artistlastname} wyrusza w trasę koncertową</pl>
+			</title>
+			<description>
+				<de>Der aufstrebene Komiker ${artistfirstname} ${artistlastname} beginnt seine Stadiontour in ${artisttown} und stellt sein neues von der Causa ${name} inspiriertes Programm „Über ${mw} und ${theirparrot}“ vor.</de>
+				<en>Up-and-coming comedian ${artistfirstname} ${artistlastname} begins his stadium tour in ${artisttown} and presents his new program "Of ${mw} and ${theirparrot}" inspired by the case of ${name}.</en>
+				<pl>Wschodzący komik ${artistfirstname} ${artistlastname} rozpoczyna swoją stadionową trasę w mieście ${artisttown} i prezentuje swój nowy program „${mw} i ${theirparrot}” zainspirowany przypadkiem ${name}.</pl>
+			</description>
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,36,48" news="579c00f4-9604-40cb-b0c5-21ee829df594" />
+			</effects>
+			<data genre="1" price="1" quality="40" fictional="1" />
+		</news>
+		<news guid="17f2268c-f87a-42b1-86f6-32170ff2aae1" type="2" thread_guid="d578f569-5a26-405a-903d-4afe21c03308" creator="9551">
+			<title>
+				<de>Wanderausstellung in ${artisttown} wird erweitert</de>
+				<en>Traveling exhibit in ${artisttown} to be expanded</en>
+				<pl>Wystawa objazdowa w ${artisttown} zostanie rozszerzona</pl>
+			</title>
+			<description>
+				<de>Beeindruckt von der Causa ${name} nimmt die gerade in ${artisttown} gastierende Wanderausstellung „Gesetz und Mensch im Wandel der Zeit“ ab übermorgen den Rundgang „Über ${mw} und ${theirparrot}“ ins Programm auf.</de>
+				<en>Impressed by the case of ${name}, the traveling exhibit "Law and Man in the course of time" currently touring ${artisttown} will add the trail "Of ${mw} and ${theirparrot}" to its program starting the day after tomorrow.</en>
+				<pl>Będąc pod wrażeniem przypadku ${name}, objazdowa wystawa „Prawo i człowiek w czasie”, która obecnie objeżdża miasto ${artisttown}, doda do swojego programu wystawę „O ${mw} i ${theirparrot}”, która rozpocznie się pojutrze.</pl>
+			</description>
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,36,48" news="579c00f4-9604-40cb-b0c5-21ee829df594" />
+			</effects>
+			<data genre="5" price="1" quality="40" fictional="1" />
+		</news>
+		<news guid="579c00f4-9604-40cb-b0c5-21ee829df594" type="2" thread_guid="d578f569-5a26-405a-903d-4afe21c03308" creator="9551">
+			<title>
+				<de>${mw} lädt ${theirparrot} auf ein Bier ein</de>
+				<en>${.ucfirst:mw} invites ${theirparrot} for a beer</en>
+				<pl>${mw} zaprasza ${theirparrot} na piwo</pl>
+			</title>
+			<description>
+				<de>${name}, inzwischen rehabilitiert, beendet ${their}e Fehde gegen ${theirparrot} und schließt ${their}en Frieden. Man müsse auch mal wieder loslassen können.</de>
+				<en>${name}, now rehabilitated, ends ${their} feud against ${theirparrot} and makes ${their} peace. One also has to be able to let go sometimes.</en>
+				<pl>${name}, teraz zrehabilitowany, kończy ${their} waśń przeciwko ${theirparrot} i zawiera ${their} pokój. Czasem trzeba też umieć odpuścić.</pl>
+			</description>
+			<data genre="4" price="1" quality="30" fictional="1" />
+		</news>
+
+		<news guid="1cbec0df-5486-4348-b05a-b2b74bc609f8" type="0" creator="9551" comment="Source: Typical ChatGPT 'funny news' items. TODO: Add many more variations, ChatGPT has plenty of this format.">
+			<title>
+				<de>${man}${fortheft} verhaftet</de>
+				<en>${man} arrested${fortheft}</en>
+				<pl>${man} aresztowany${fortheft}</pl>
+			</title>
+			<description>
+				<all>${themanwho}</all>
+			</description>
+			<variables>
+				<person_csv> <!-- TODO: Replace year 2050 with script to guarantee future? :) -->
+					<de>Mann; wegen Picknicktisch-Diebstahl;Der Mann, der den Tisch aus einem Park in ${town} stahl und angab, ihn zu einem Grillfest eines Freundes zu bringen, wurde wegen schweren Diebstahls${andcriminalmischief} angeklagt.|
+						Marskult-Anführer;;Ein Mann, der seit mehreren Jahren in ${town} lebte, begann, von einer bevorstehenden Marsianer-Invasion zu predigen und zog eine kleine Anhängerschaft an. Er wurde wegen Betrugs${andcriminalmischief} verhaftet.|
+						Venuskult-Anführerin;;Eine Frau, die seit mehreren Jahren in ${town} lebte, begann, von einer bevorstehenden Invasion der „Schwestern von der Venus“ zu schwärmen und zog eine kleine Anhängerschaft an. Sie wurde wegen Betrugs${andcriminalmischief} verhaftet.|
+						„Mann aus der Zukunft“;;Ein Mann, der behauptet, aus dem Jahr 2050 zu stammen, wurde in ${town} wegen Unruhestiftung${andcriminalmischief} verhaftet. Er wurde später als psychisch krank eingestuft und gegen Kaution freigelassen.|
+						Mann; wegen Ampel-Diebstahl;Der Mann, der die Ampel von einer Straßenkreuzung in ${town} stahl und angab, das Grillfest eines Freundes mit Partylichtern aufwerten zu wollen, wurde wegen schweren Diebstahls${andcriminalmischief} angeklagt.|
+						Mann; wegen Straßenlaternen-Klau;Der Mann, der die Laterne von einer Straße in ${town} stahl und angab, dunkleren Gegenden ein „Licht der Hoffnung“ bringen zu wollen, wurde wegen schweren Diebstahls${andcriminalmischief} angeklagt.|
+						Mann; wegen Verkehrsschild-Diebstahl;Der Mann, der das Verkehrsschild von einer Straßenkreuzung in ${town} stahl und angab, zur „Lichtung“ des „Schilderwaldproblems“ beitragen zu wollen, wurde wegen schweren Diebstahls${andcriminalmischief} angeklagt.|
+						Frau; wegen Mülleimer-Diebstahl;Die Frau, die den Mülleimer eines Parks in ${town} nahm und ihn 30 Meter weiter feiernden Leuten brachte, damit sie auch ihren Müll entsorgten, wurde wegen schweren Diebstahls${andcriminalmischief} angeklagt.|
+						Marskult-Anführerin;;Eine Frau, die seit mehreren Jahren in ${town} lebte, begann, von einer bevorstehenden Invasion muskulöser Marskrieger in Lendenschurzen zu schwärmen. Sie wurde wegen Erregung öffentlichen Ärgernisses${andcriminalmischief} verhaftet.|
+						Venuskult-Anführer;;Ein Mann, der seit mehreren Jahren in ${town} lebte, begann, von einer bevorstehenden Invasion knapp bekleideter Venusgöttinnen zu schwärmen. Er wurde wegen Erregung öffentlichen Ärgernisses${andcriminalmischief} verhaftet.
+					</de>
+					<en>Man; for stealing a picnic table;The man, who stole the table from a park in ${town} and claimed to be taking it to a friend's backyard barbecue, was charged with grand larceny${andcriminalmischief}.|
+						Male Mars cult leader;;A man who had been living in ${town} for several years began preaching about a coming Martian invasion and attracted a small following of people. He was arrested for fraud${andcriminalmischief}.|
+						Female Venus cult leader;;A woman who had been living in ${town} for several years began raving about an impending invasion of the "Sisters from Venus" and attracted a small following of people. She was arrested for fraud${andcriminalmischief}.|
+						"Man from the Future";;A man claiming to be from the year 2050 was arrested in ${town} for causing a disturbance${andcriminalmischief}. He was later found to be mentally ill and and released on bail.|
+						Man; for stealing a traffic light;The man who stole the traffic light from a ${town} intersection and stated he was about to spruce up a friend's barbecue with party lights has been charged with grand larceny${andcriminalmischief}.|
+						Man; for stealing a street light;The man who stole the light from a street in ${town} and stated he wanted to bring a "light of hope" to darker neighborhoods was charged with grand larceny${andcriminalmischief}.|
+						Man; for stealing a street sign;The man who stole the traffic sign from an intersection in ${town} and stated he wanted to contribute to the "clearing" of the "traffic sign jungle problem" was charged with grand larceny${andcriminalmischief}.|
+						Woman; for stealing a trash can;The woman who took the trash can from a park in ${town} and moved it 30 yards over to partying people so they could dispose of their trash was charged with grand larceny${andcriminalmischief}.|
+						Female Mars cult leader;;A woman who had lived in ${town} for several years began raving about an impending invasion of muscular Martian warriors in loincloths. She was arrested for public nuisance${andcriminalmischief}.|
+						Male Venus cult leader;;A man who had been living in ${town} for several years began raving about an impending invasion of scantily clad Venusian goddesses. He was arrested for public nuisance${andcriminalmischief}.
+					</en>
+					<pl>Mężczyzna; za kradzież stołu piknikowego;Mężczyzna, który ukradł stół z parku w mieście ${town} i twierdził, że zabrał go na przydomowego grilla przyjaciela, został oskarżony o wielką kradzież${andcriminalmischief}.|
+						Przywódca kultu Marsa;;Mężczyzna, który mieszkał w ${town} przez kilka lat, zaczął głosić o nadchodzącej inwazji Marsjan i przyciągnął niewielką grupę ludzi. Został aresztowany za oszustwo${andcriminalmischief}.|
+						Przywódczyni kultu Wenus;;Kobieta, która mieszkała w ${town} przez kilka lat, zaczęła opowiadać o zbliżającej się inwazji "Sióstr z Wenus" i przyciągnęła niewielką grupę ludzi. Została aresztowana za oszustwo${andcriminalmischief}.|
+						„Człowiek z przyszłości”;;Mężczyzna twierdzący, że pochodzi z roku 2050 został aresztowany w ${town} za wywołanie zamieszek${andcriminalmischief}. Później uznano go za chorego psychicznie i zwolniono za kaucją.|
+						Mężczyzna; za kradzież sygnalizacji świetlnej;Mężczyzna, który ukradł sygnalizację świetlną ze skrzyżowania w ${town} i oświadczył, że ma zamiar urozmaicić grilla przyjaciela lampkami imprezowymi, został oskarżony o wielką kradzież${andcriminalmischief}.|
+						Mężczyzna; za kradzież latarni ulicznej;Mężczyzna, który ukradł lampę z ulicy w ${town} i oświadczył, że chce wnieść „światło nadziei” do ciemnych dzielnic, został oskarżony o kradzież${andcriminalmischief}.|
+						Mężczyzna; za kradzież znaku ulicznego;Mężczyzna, który ukradł znak drogowy ze skrzyżowania w ${town} i oświadczył, że chce przyczynić się do „rozwiązania” „problemu dżungli znaków drogowych”, został oskarżony o kradzież${andcriminalmischief}.|
+						Biedak; za kradzież kosza na śmieci;Kobieta, która zabrała kosz na śmieci z parku w ${town} i przeniosła go 30 metrów dalej do imprezujących ludzi, aby mogli pozbyć się swoich śmieci, została oskarżona o wielką kradzież${andcriminalmischief}.|
+						Przywódczyni kultu Marsa;;Kobieta, która mieszkała w ${town} od kilku lat, zaczęła opowiadać o zbliżającej się inwazji umięśnionych marsjańskich wojowników w przepaskach biodrowych. Została aresztowana za zakłócanie porządku publicznego${andcriminalmischief}.|
+						Przywódca kultu Wenus;;Mężczyzna, który mieszkał w ${town} przez kilka lat, zaczął opowiadać o zbliżającej się inwazji skąpo odzianych wenusjańskich bogiń. Został aresztowany za zakłócanie porządku publicznego${andcriminalmischief}.
+					</pl>
+				</person_csv>
+				<man>
+					<all>${.csv:person_csv:0}</all>
+				</man>
+				<fortheft>
+					<all>${.csv:person_csv:1}</all>
+				</fortheft>
+				<themanwho>
+					<all>${.csv:person_csv:2}</all>
+				</themanwho>
+				<andcriminalmischief>
+					<de> und kriminellen Fehlverhaltens| und ordnungswidrigen Verhaltens|</de>
+					<en> and criminal mischief| and disorderly conduct|</en>
+					<pl> i wykroczenie| i zakłócanie porządku|</pl>
+				</andcriminalmischief>
+				<town>${.stationmap:"randomcity"}</town>
+			</variables>
+			<data genre="4" price="1" quality="15" fictional="1" />
+		</news>
+
+		<news guid="b3b730a5-937e-47c1-a56f-ccf0d494fdc1" type="0" thread_guid="0a6897fc-2bfc-4138-af17-71ac768b3beb" creator="9551" comment="Source: made up. Spoof of https://en.wikipedia.org/wiki/Alternative_for_Germany | TODO: Translated versions should perhaps use something different and internationally more recognizable | #maintenancecritical">
+			<title>
+				<de>AvW stellt Antrag auf Dritten Weltkrieg</de>
+				<en>AotW submits request for Third World War</en>
+				<pl>AdS składa wniosek o trzecią wojnę światową</pl>
+			</title>
+			<description>
+				<de>Früher war alles besser: Das ultrakonservative Bündnis Alternative von Welt (AvW) beantragt bei den Vereinten Ländern einen neuen Weltkrieg. Man müsse wieder in einen guten 25-Jahre-Rhythmus kommen.</de>
+				<en>Everything was better in the past: The ultra-conservative alliance Alternative of the World (AotW) applies to the United Countries for a new world war. It is necessary to get back to a good 25-year rhythm.</en>
+				<pl>W przeszłości wszystko było lepsze: Ultrakonserwatywny sojusz Alternatywa dla Świata (AdS) występuje do Stanów Zjednoczonych o nową wojnę światową. Konieczny jest powrót do dobrego 25-letniego rytmu.</pl>
+			</description>
+			<variables>
+				<currentyear>${.worldtime:"year"}</currentyear>
+				<exhibitiontown>${.stationmap:"randomcity"}</exhibitiontown>
+				<angelina>Adelheid|Agathe|Alberta|Alena|Alene|Alina|Aline|Allegra|Allene|Alona|Amalia|Amalie|Amelia|Amelie|Andrea|Anette|Angelika|Angelina|Anika|Anita|Anke|Annalena|Annamari|Annamarie|Anneke|Anneliese|Annemarie|Annetta|Annette|Annika|Anthonia|Antje|Antonia|Antonie|Ariana|Augusta|August</angelina>
+				<mertel>Markel|Markels|Märkler|Märklers|Merkler|Merklers|Merpel|Mersen|Mersel|Mertel|Mertels|Merten|Mertens|Moerkel|Moerkels|Moertel|Moertels|Mörkel|Mörkels|Mörtel|Mörtels|Murkel|Murkels</mertel>
+				<gottliebmaessigmann>${gottlieb} ${maessigmann}</gottliebmaessigmann>
+				<gottlieb>Benedict|Benedikt|Carsten|Christian|Christof|Christoph|Clemens|Delbert|Detlef|Detlev|Diederich|Diedrich|Diepold|Dieter|Diether|Dieterich|Dietmar|Dietrich|Dirk|Egon|Elias|Elimar|Elmar|Emil|Emmerich|Engelbert|Ewald|Ferdinand|Fredrik|Fridolf|Fridolin|Friedemann|Frieder|Friedrich|Gerwin|Giselbert|Giselher|Gottfried|Gottlieb|Gottlob|Gottschalk|Gustav|Hans-Ulrich|Hansjörg|Harald|Hein|Heine|Heiner|Heini|Helge|Henning|Heribert|Herschel|Herwig|Janosch|Julius|Klemens|Karsten|Ludolf|Maik|Martin|Meinolf|Meinrad|Mirco|Mirko|Nico|Olaf|Paul|Philip|Philipp|Ralph|Roderick|Rötger|Sander|Severin|Sven|Thies|Traugott|Willi</gottlieb>
+				<maessigmann>Bächli|Bluemel|Blume|Blumenberg|Blumenkrantz|Blumenthal|Edelmann|Edelstein|Ehrlich|Engel|Engelberg|Engelberger|Engelke|Engelkes|Engl|Ermentraut|Eulenburg|Fiedler|Freudenberg|Freudenberger|Freudenthal|Freund|Freundlich|Friedberg|Friedberger|Friedeberg|Friedel|Friedl|Friedländer|Fröhlich|Fromm|Frommelt|Gaertner|Gans|Gansz|Gansfried|Ganzfried|Gärtner|Glöckner|Glück|Glücklich|Goldberg|Goldberger|Goldblatt|Goldblum|Goldenberg|Goldfarb|Goldstern|Grün|Grünbaum|Grünberg|Grünke|Gunkel|Hanfstaengl|Hase|Hasenauer|Hasenfus|Hasenfuß|Hasenhüttl|Himmelblau|Hoenigberg|Honig|Honigberg|Honigmann|Hönigmann|Honigsberg|Immergut|Immerwahr|Kindermann|Kindl|Kindler|Kindlmann|Klee|Kleeberg|Kleeblatt|Klein|Kleine|Kleinfeld|Kleinknecht|Kleinman|Kleinmann|Klemm|Klemme|Kornblum|Lamm|Lappe|Lasch|Leid|Leidig|Lieb|Lieber|Lieberknecht|Liebermann|Liebers|Liebich|Lieblein|Liebmann|Liebreich|Lilie|Lilienthal|Maass|Maessigmann|Maiwald|Mäßigmann|Mässigmann|Möhre|Muessig|Muff|Nelke|Nelken|Obst|Rehlein|Rose|Rosen|Rosenbaum|Rosenberg|Rosenberger|Rosenblatt|Rosenblum|Rosenfeld|Rosengart|Rosengarten|Rosenhain|Rosenkranz|Rosenmeier|Rosensaft|Rosenstock|Rosenthal|Rosenwasser|Rosenzweig|Samt|Samtrock|Sanft|Sanftmut|Schlapp|Schön|Schöne|Schwan|Segen|Seiden|Seifer|Selig|Seligmann|Sommer|Sommerfeld|Sonne|Sonnenblume|Sonnenfeld|Stern|Sternberg|Streichler|Treu|Vögele|Wiese|Wurm|Würmer</maessigmann>
+				<hassoaggroman>${hasso} ${aggroman}</hassoaggroman>
+				<hasso>Adolf|Albrecht|Ansgar|Arno|Artur|Arthur|Axel|Baldur|Bernhard|Berthold|Bertolt|Bruno|Calvin|Ekkehard|Eilhard|Eilhart|Erhard|Ernst|Gebhard|Gebhardt|Gerhard|Gerhardt|Gerhold|Gernot|Götz|Hanno|Hartmann|Hartmut|Hasso|Hauke|Hellmut|Hellmuth|Helmut|Helmuth|Ingo|Jan|Kalle|Karl|Knut|Konrad|Kuno|Kurt|Lothar|Ludger|Magnus|Manfred|Norbert|Norman|Patrick|Rainer|Randall|Reinhard|Reinhardt|Reinhart|Reinhold|Roman|Rupprecht|Ruprecht|Samuel|Siegfried|Sigmar|Sigmund|Sylvester|Torger|Udo|Urban|Veit|Vollrath|Waldemar|Walther|Wernher|Wolfgang|Xaver</hasso>
+				<aggroman>Abstreiter|Ackroman|Aggroman|Armbruster|Assenmacher|Axmann|Bär|Bauerfeind|Bauernfeind|Bechtholdt|Bechtold|Bluter|Bodenblut|Boll|Brandstätter|Brandstetter|Braun|Braunbeck|Braune|Brauner|Braunig|Bräunlich|Braunstein|Breitbart|Breitkreuz|Brettschneider|Deutsch|Deutscher|Deutschmann|Dorn|Dornberger|Drach|Drache|Drachmann|Fähnrich|Feuer|Feuerwerker|Fleisch|Fleischer|Fleischhacker|Fleischhauer|Funke|Gassmann|Gassner|Goebbels|Göring|Hass|Hacke|Hackenholt|Haider|Hammer|Hammerer|Hammerschmidt|Hammerstein|Hardegen|Hardenberg|Harnisch|Hart|Hartenstein|Hartig|Hartl|Hartleben|Hartnagel|Hartstein|Hass|Hassel|Hassbach|Hassing|Hassler|Hauer|Haugk|Haugwitz|Haupt|Hauptmann|Hauschild|Heerwagen|Heidler|Heitler|Heydrich|Himmler|Hinrichs|Hitzig|Jungblut|Jungbluth|Junker|Junkermann|Kahl|Kahle|Kahlenberg|Kahler|Kalbfleisch|Keckler|Laut|Löwe|Ludendorff|Mannheim|Maurenbrecher|Nothnagel|Österreicher|Pfahl|Pfahler|Rausch|Rothbart|Rott|Rottmann|Rottmanner|Rumpff|Ruppel|Sauer|Sauerbeck|Sauerbruch|Sauermann|Schachner|Schächter|Schädlich|Schädler|Scharf|Scharff|Schild|Schilder|Schildhauer|Schimpf|Schimpff|Schirmacher|Schlachter|Schlächter|Schlag|Schlagbauer|Schläger|Schlecht|Schlechter|Schleifer|Schnauf|Schnaufer|Schönhuber|Schwartz|Schwartzmann|Schwarzenberger|Schwarzkopf|Schwarzmann|Schwefel|Schwerdtfeger|Schwert|Schwertfeger|Sieg|Siegmann|Siegwart|Steinbrecher|Steinhardt|Steinhauer|Streit|Streitmann|Streitwagen|Sturm|Stürmer|Unruh|Wächter|Wilderer|Wildhauer|Wolf|Wolfensohn|Wolfermann|Zürner|Zundel|Zunder</aggroman>
+				<margaret>${.person:"4a5167ec-9aba-413b-be68-2eff1012a02f":"firstname"}</margaret>
+				<carol>${.person:"e0099043-01d3-48d2-bc97-ce4eae50c9d1":"firstname"}</carol>
+				<thatcher>${.person:"4a5167ec-9aba-413b-be68-2eff1012a02f":"lastname"}</thatcher>
+				<thatcher_subj_a>
+					<de>die „Iron Lady“ ${margaret} ${thatcher}</de>
+					<en>the „Iron Lady“ ${margaret} ${thatcher}</en>
+					<pl>„Żelazna Dama” ${margaret} ${thatcher}</pl>
+				</thatcher_subj_a>
+				<thatcher_subj_b>
+					<de>${carol} ${thatcher}</de>
+					<en>${carol} ${thatcher}</en>
+					<pl>${carol} ${thatcher}</pl>
+				</thatcher_subj_b>
+				<thatcher_gen_a>
+					<de>ihr Credo</de>
+					<en>her credo</en>
+					<pl>swoje credo</pl>
+				</thatcher_gen_a>
+				<thatcher_gen_b>
+					<de>das Credo ihrer Mutter, der „Iron Lady“</de>
+					<en>the credo of her mother, the "Iron Lady"</en>
+					<pl>credo swojej matki, „Żelaznej Damy”</pl>
+				</thatcher_gen_b>
+				<theironlady>
+					<all>${.lte:currentyear:2010:thatcher_subj_a:thatcher_subj_b}</all>
+				</theironlady>
+				<hercredo>
+					<all>${.lte:currentyear:2010:thatcher_gen_a:thatcher_gen_b}</all>
+				</hercredo>
+				<trail_a>
+					<de>den in den Jahren des Kalten Krieges eigentlich hochaktuellen Rundgang „Was bleibt nach dem Fallout“ wieder ins Programm auf</de>
+					<en>is reinstating the trail "What Remains After the Fallout", actually highly topical in the years of the Cold War</en>
+					<pl>przywraca ścieżkę „Co pozostaje po opadzie nuklearnym”, w rzeczywistości bardzo aktualną w latach zimnej wojny</pl>
+				</trail_a>
+				<trail_b>
+					<de>den schon seit Jahren eingestellten Rundgang „Was bleibt nach dem Fallout“ wieder ins Programm auf</de>
+					<en>is reinstating the trail "What Remains After the Fallout," which had been suspended for several years</en>
+					<pl>przywraca ścieżkę „Co pozostaje po opadzie nuklearnym”, która została zawieszona na kilka lat</pl>
+				</trail_b>
+				<isreinstatingthetrail>
+					<all>${.lte:currentyear:1989:trail_a:trail_b}</all>
+				</isreinstatingthetrail>
+			</variables>
+			<data genre="0" price="1" quality="55" fictional="1" />
+			<availability script='${.gt:${.worldtime:"daysplayed"}:12}' />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,24,36" news="2e32bf54-c56e-4991-9907-bbad7c36fcd1" />
+			</effects>
+		</news>
+		<news guid="2e32bf54-c56e-4991-9907-bbad7c36fcd1" type="2" thread_guid="0a6897fc-2bfc-4138-af17-71ac768b3beb" creator="9551">
+			<title>
+				<de>AvW begründet Weltkriegs-Vorschlag</de>
+				<en>AotW substantiates World War proposal</en>
+				<pl>AdS uzasadnia propozycję wojny światowej</pl>
+			</title>
+			<description>
+				<de>So ein Krieg würde die Wirtschaft ankurbeln. Raketentechnologie würde entwickelt. Anreize würden gesetzt für Ausbau eines Ersatzplaneten wie den Mars. Und nach dem Krieg könnten wir wieder ein Wirtschaftswunder haben.</de>
+				<en>Such a war would boost the economy. Rocket technology would be developed. Incentives would be set for development of a replacement planet like Mars. And after the war we could have an economic miracle again.</en>
+				<pl>Taka wojna pobudziłaby gospodarkę. Rozwinęłaby się technologia rakietowa. Powstałyby zachęty do rozwoju planety zastępczej, takiej jak Mars. A po wojnie znów moglibyśmy mieć cud gospodarczy.</pl>
+			</description>
+			<data genre="0" price="1" quality="45" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,24,36" news="2d782a35-4cf5-48dc-b922-5ec4a1d6abfc" />
+			</effects>
+		</news>
+		<news guid="2d782a35-4cf5-48dc-b922-5ec4a1d6abfc" type="2" thread_guid="0a6897fc-2bfc-4138-af17-71ac768b3beb" creator="9551">
+			<title>
+				<de>AvW legt Weltkriegs-Eröffnungstrategien dar</de>
+				<en>AotW lays out World War opening strategies</en>
+				<pl>AdS przedstawia strategie otwierające wojnę światową</pl>
+			</title>
+			<description>
+				<de>Man könne wieder ein hinterhältiges Attentat auf einen Thronfolger anzetteln. Oder einen Überfall auf einen Sender an der Grenze organisieren. Die Mittel für solche Operationen stünden bereit.</de>
+				<en>One could again instigate a devious assassination attempt on an heir to the throne. Or organize a raid on a transmitter at the border. The means for such operations would be ready.</en>
+				<pl>Można ponownie podżegać do przebiegłego zamachu na następcę tronu. Albo zorganizować nalot na nadajnik na granicy. Środki do takich operacji byłyby gotowe.</pl>
+			</description>
+			<data genre="0" price="1" quality="45" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,24,36" news="aedabde8-3a3e-4861-b487-b47c950284d7" />
+			</effects>
+		</news>
+		<news guid="aedabde8-3a3e-4861-b487-b47c950284d7" type="2" thread_guid="0a6897fc-2bfc-4138-af17-71ac768b3beb" creator="9551">
+			<title>
+				<de>Kriegsausstellung in ${exhibitiontown} erweitert</de>
+				<en>War exhibition in ${exhibitiontown} expanded</en>
+				<pl>Wystawa wojenna w mieście ${exhibitiontown} rozszerzona</pl>
+			</title>
+			<description>
+				<de>Anlässlich des AvW-Vorstoßes nimmt die gerade in ${exhibitiontown} gastierende Wanderausstellung „Krieg und Mensch“ ${isreinstatingthetrail}.</de>
+				<en>In response to the AotW push, the traveling exhibit "War and Man", currently touring ${exhibitiontown}, ${isreinstatingthetrail}.</en>
+				<pl>W odpowiedzi na kampanię AdS, objazdowa wystawa „Wojna i człowiek”, która obecnie podróżuje po mieście ${exhibitiontown}, ${isreinstatingthetrail}.</pl>
+			</description>
+			<data genre="5" price="1" quality="40" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,24,36" news="d595c46b-687e-4a5a-a328-e376c063ceb9" />
+			</effects>
+		</news>
+		<news guid="d595c46b-687e-4a5a-a328-e376c063ceb9" type="2" thread_guid="0a6897fc-2bfc-4138-af17-71ac768b3beb" creator="9551">
+			<title>
+				<de>Proteste gegen AvW-Weltkriegspläne</de>
+				<en>Protests against AotW World War plans</en>
+				<pl>Protesty przeciwko planom wojny światowej w AdS</pl>
+			</title>
+			<description>
+				<de>Tausende von Menschen sämtlicher politischer Richtungen protestieren auf den Straßen vieler Länder auf „Friedensparaden“ gegen die AvW-Pläne. Es kommt zu zeitweise gewaltsamen und fragwürdigen Maßnahmen durch die Polizei.</de>
+				<en>Thousands of people of all political persuasions protest in the streets of many countries at "Peace Parades" against the AotW plans. At times, violent and questionable measures are taken by the police.</en>
+				<pl>Tysiące ludzi o różnych przekonaniach politycznych protestuje na ulicach wielu krajów podczas „Parad Pokoju” przeciwko planom AdS. Czasami policja stosuje brutalne i wątpliwe środki.</pl>
+			</description>
+			<data genre="0" price="1" quality="55" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,24,36" news="58688de1-6d7a-4809-91e1-f0f51b1d267b" />
+			</effects>
+		</news>
+		<news guid="58688de1-6d7a-4809-91e1-f0f51b1d267b" type="2" thread_guid="0a6897fc-2bfc-4138-af17-71ac768b3beb" creator="9551" comment="reference: https://de.wikipedia.org/wiki/Alternativlos | deliberatlely using a different spoof than the already existing 'Murkel' as this one here's still a kid">
+			<title>
+				<de>AvW-Protestsong in den Charts</de>
+				<en>AotW protest song enters charts</en>
+				<pl>Piosenka protest AdS wchodzi na listy przebojów</pl>
+			</title>
+			<description>
+				<de>Der bei der Protestbewegung entstandene, nur mit Gitarre gespielte Folk-Song „Wir wollen keine Alternative“ der kleinen ${angelina} ${mertel} ist auf Platz 7 der Single-Charts eingestiegen.</de>
+				<en>The folk song "We Don't Want an Alternative" by little ${angelina} ${mertel}, created during the protest movement and played only with guitar, has entered the single charts at number 7.</en>
+				<pl>Mała ${angelina} ${mertel} weszła na listę singli na 7. miejscu ze swoją folkową piosenką „Nie chcemy alternatywy”, która powstała podczas ruchu protestacyjnego i jest grana tylko na gitarze.</pl>
+			</description>
+			<data genre="1" price="1" quality="35" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,24,36" news="85698374-1266-4e85-b3eb-c0080e9a23c4" />
+			</effects>
+		</news>
+		<news guid="85698374-1266-4e85-b3eb-c0080e9a23c4" type="2" thread_guid="0a6897fc-2bfc-4138-af17-71ac768b3beb" creator="9551">
+			<title>
+				<de>Smarte Stöcke und Steine entwickelt</de>
+				<en>Smart sticks and stones developed</en>
+				<pl>Opracowano inteligentne kije i kamienie</pl>
+			</title>
+			<description>
+				<de>Da nach Expertenmeinung ein 4. Weltkrieg wieder mit Stöcken und Steinen ausgetragen werden würde, entwickelt der Militärdienstleister ${brand_bostondynamics} schon mal „Smart Sticks and Stones powered by Solar and AI“.</de>
+				<en>With experts saying a World War 4 would once again be fought with sticks and stones, military services provider ${brand_bostondynamics} is already developing "Smart Sticks and Stones powered by Solar and AI".</en>
+				<pl>Ponieważ eksperci twierdzą, że IV wojna światowa znów będzie toczona za pomocą kijów i kamieni, dostawca usług wojskowych ${brand_bostondynamics} już opracowuje „inteligentne kije i kamienie zasilane energią słoneczną i sztuczną inteligencją”.</pl>
+			</description>
+			<data genre="3" price="1" quality="55" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,24,36" news="55c67451-fcc5-4c37-9c0d-727a6ff44d06" />
+			</effects>
+		</news>
+		<news guid="55c67451-fcc5-4c37-9c0d-727a6ff44d06" type="2" thread_guid="0a6897fc-2bfc-4138-af17-71ac768b3beb" creator="9551">
+			<title>
+				<de>Weltkriegsantrag fällt durch</de>
+				<en>World War proposal falls flat</en>
+				<pl>Propozycja Wojny Światowej upadła</pl>
+			</title>
+			<description>
+				<de>Trotz interessanter technologischer Neuentwicklungen und anderer diverser Lobby-Zuarbeit stieß der AvW-Antrag auf wenig Resonanz bei den Vereinten Ländern. Nur 5 Stimmen waren dafür.</de>
+				<en>Despite interesting new technological developments and other assorted lobby pandering, the AotW motion met with little response from the United Countries. Only 5 votes were in favor.</en>
+				<pl>Pomimo interesujących nowych osiągnięć technologicznych i innego rodzaju lobbingu, wniosek AdS spotkał się z niewielkim odzewem ze strony krajów zjednoczonych. Tylko 5 głosów było za.</pl>
+			</description>
+			<data genre="0" price="1" quality="55" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,24,36" news="a8a96cf5-b22e-4537-9f48-69182e55c1de" />
+			</effects>
+		</news>
+		<news guid="a8a96cf5-b22e-4537-9f48-69182e55c1de" type="2" thread_guid="0a6897fc-2bfc-4138-af17-71ac768b3beb" creator="9551">
+			<title>
+				<de>Niedergeschlagenheit bei der AvW</de>
+				<en>Despondency at the AotW</en>
+				<pl>Przygnębienie w AdS</pl>
+			</title>
+			<description>
+				<de>Nach der Ablehnung des Weltkriegs-Antrags bei den Vereinten Ländern leckt man bei der AvW die Wunden. Dann müsse man sich eben wieder auf wichtigerere Dinge konzentrieren, wie den Getrennte-Toiletten-Nichtaufhebungs-Gesetzesvorschlag.</de>
+				<en>After the rejection of the World War proposal at the United Countries, the AotW is licking its wounds. Then one would have to concentrate again on more important things again, like the separate-toilets-non-repeal bill.</en>
+				<pl>Po odrzuceniu propozycji wojny światowej w Stanach Zjednoczonych, AdS liże rany. Następnie trzeba będzie ponownie skoncentrować się na ważniejszych rzeczach, takich jak ustawa o oddzielnych toaletach.</pl>
+			</description>
+			<data genre="0" price="1" quality="40" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="2,9,10,8,20" news="34b7dd0a-04dd-40aa-836b-45d7ec2d2dcc" />
+			</effects>
+		</news>
+		<news guid="34b7dd0a-04dd-40aa-836b-45d7ec2d2dcc" type="2" thread_guid="0a6897fc-2bfc-4138-af17-71ac768b3beb" creator="9551">
+			<title>
+				<de>AvW wählt neuen Vorsitzenden</de>
+				<en>AotW elects new chairman</en>
+				<pl>AdS wybiera nowego przewodniczącego</pl>
+			</title>
+			<description>
+				<de>Der neue Vorsitzende ${gottliebmaessigmann} gilt als recht gemäßigt, friedliebend und auch sozial ziemlich progressiv. Er wolle etwa den laufenden Frauen-Rückwärts-Einpark-Verbot-Gesetzesvorschlag nicht weiter mittragen.</de>
+				<en>The new chairman ${gottliebmaessigmann} is considered to be quite moderate, peace-loving and also socially pretty progressive. For example, he won't continue to support the current women's reverse parking ban bill.</en>
+				<pl>Nowy przewodniczący ${gottliebmaessigmann} jest uważany za dość umiarkowanego, miłującego pokój, a także społecznie dość postępowego. Na przykład, nie będzie on nadal wspierał obecnej ustawy o zakazie parkowania tyłem dla kobiet.</pl>
+			</description>
+			<data genre="0" price="1" quality="35" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="2,6,7,8,20" news="f3d79b38-4865-42fb-8f11-2f72ea82ca86" />
+			</effects>
+		</news>
+		<news guid="f3d79b38-4865-42fb-8f11-2f72ea82ca86" type="2" thread_guid="0a6897fc-2bfc-4138-af17-71ac768b3beb" creator="9551">
+			<title>
+				<de>${thatcher} erinnert an Credo</de>
+				<en>${thatcher} reiterates credo</en>
+				<pl>${thatcher} powtarza credo</pl>
+			</title>
+			<description>
+				<de>Angesichts der wirtschaftlichen Lage bekräftigt ${theironlady} nochmal ${hercredo}, mahnt und erinnert daran, eisern zu sparen und appelliert an die Weltbevölkerung: „There is no alternative.“</de>
+				<en>In light of the economic situation, ${theironlady} reiterates ${hercredo}, urges and reminds us to adopt ironclad austerity measures, and appeals to the world's population: "There is no alternative."</en>
+				<pl>W świetle sytuacji gospodarczej ${theironlady} powtarza ${hercredo}, wzywa i przypomina nam o przyjęciu żelaznych środków oszczędnościowych i apeluje do ludności świata: „Nie ma alternatywy”.</pl>
+			</description>
+			<data genre="0" price="1" quality="40" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,3,5" news="458128fd-81a9-4c94-94b9-511fe8f2806f" />
+			</effects>
+		</news>
+		<news guid="458128fd-81a9-4c94-94b9-511fe8f2806f" type="2" thread_guid="0a6897fc-2bfc-4138-af17-71ac768b3beb" creator="9551">
+			<title>
+				<de>AvW von ${thatcher} gekränkt</de>
+				<en>AotW offended by ${thatcher}</en>
+				<pl>AdS obrażony przez ${thatcher}a</pl>
+			</title>
+			<description>
+				<de>Der Vorsitzende der „Alternative von Welt“, ${gottliebmaessigmann}, zeigt sich gekränkt von ${thatcher}s Ansage, es gebe keine Alternative. „Es gibt uns noch! Und wir sind gesund und munter!“</de>
+				<en>The chairman of the "Alternative of the World", ${gottliebmaessigmann}, is offended by ${thatcher}'s statement that there is no alternative. "We're still here! And we're alive and kicking!"</en>
+				<pl>Przewodniczący „Alternatywy dla Świata”, ${gottliebmaessigmann}, jest urażony stwierdzeniem ${thatcher}, że nie ma alternatywy. „Wciąż tu jesteśmy! Żyjemy i kopiemy!”</pl>
+			</description>
+			<data genre="0" price="1" quality="40" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="2,6,7,8,20" news="c33f421e-01e9-4700-b746-eba446c54310" />
+			</effects>
+		</news>
+		<news guid="c33f421e-01e9-4700-b746-eba446c54310" type="2" thread_guid="0a6897fc-2bfc-4138-af17-71ac768b3beb" creator="9551">
+			<title>
+				<de>${brand_bostondynamics} zeigt Fortschritte</de>
+				<en>${brand_bostondynamics} shows progress</en>
+				<pl>${brand_bostondynamics} pokazuje postępy</pl>
+			</title>
+			<description>
+				<de>Trotz eines Klimas des Friedens werde weiter eifrig geforscht. Die neuen „Smart Sticks and Stones“ können nun schon selbständig bis zu Kniehöhe hüpfen und dabei einen Rückwärtssalto hinlegen. Sehr niedlich sehen sie dabei aus.</de>
+				<en>Despite a climate of peace, research continues apace. The new "Smart Sticks and Stones" can now hop on their own up to knee height and perform backflips while doing so. They look very cute at this.</en>
+				<!-- TODO: Once something like that is supported, next iterations to show great progress could be thigh height, pelvic height, breast height, two backflips,... -->
+				<pl>Pomimo klimatu pokoju, badania trwają w najlepsze. Nowe „inteligentne patyki i kamienie” mogą teraz samodzielnie podskakiwać do wysokości kolan i wykonywać przy tym salta w tył. Wyglądają przy tym bardzo uroczo.</pl>
+			</description>
+			<data genre="3" price="1" quality="45" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="2,12,13,8,20" news="56ee3865-cd2f-4490-977a-083bdc991c7e" />
+			</effects>
+		</news>
+		<news guid="56ee3865-cd2f-4490-977a-083bdc991c7e" type="2" thread_guid="0a6897fc-2bfc-4138-af17-71ac768b3beb" creator="9551">
+			<title>
+				<de>AvW wählt neuen Vorsitzenden</de>
+				<en>AotW elects new chairman</en>
+				<pl>AdS wybiera nowego przewodniczącego</pl>
+			</title>
+			<description>
+				<de>Der neue Vorsitzende ${hassoaggroman} gilt wieder als recht aggressiv, kriegstreiberisch und ultrakonservativ. Man sei auf der Hut, mit welchen Vorschlägen er um die Ecke kommen wird.</de>
+				<en>The new chairman ${hassoaggroman} is again considered to be quite aggressive, warmongering and ultraconservative. Be on the lookout for what proposals he will come around the corner with.</en>
+				<!-- and da capo. TODO: Once something like that is supported, add variation to first item 'beantragt *erneut* dritten Weltkrieg' for the 2nd, 3rd,... iterations -->
+				<pl>Nowy przewodniczący ${hassoaggroman} jest ponownie uważany za dość agresywnego, podżegającego do wojny i ultrakonserwatywnego. Należy wypatrywać, z jakimi propozycjami pojawi się za rogiem.</pl>
+			</description>
+			<data genre="0" price="1" quality="35" fictional="1" />
+		</news>
+
+		<news guid="c0f1d022-0b0f-48ed-9ccf-bef1e8ab8069" type="0" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551" comment="Meiguwu mega thread - mostly made up, some little help from ChatGPT; -uwu endings reference to https://en.wikipedia.org/wiki/Uwu">
+			<title>
+				<de>${meiguwu} Top 5 Entwicklungsregion</de>
+				<en>${meiguwu} Top 5 developing region</en>
+				<pl>${meiguwu} 5 najlepszych rozwijających się regionów</pl>
+			</title>
+			<description>
+				<de>Die ostasiatische Sonderwirtschaftszone ${meiguwu} gehörte im letzten Jahr zu den schnellstwachsenden Tech- und Wirtschaftsregionen weltweit.</de>
+				<en>The East Asian special economic zone ${meiguwu} was one of the fastest growing tech and economic regions in the world last year.</en>
+				<pl>Wschodnioazjatycka specjalna strefa ekonomiczna w mieście ${meiguwu} była w ubiegłym roku jednym z najszybciej rozwijających się regionów technologicznych i gospodarczych na świecie.</pl>
+			</description>
+			<variables>
+				<meiguwu>Meiguwu|Saitorin|Nokoshima|Hikaruwu|Jinsanuwu|Shurankuwu|Chiyotek|Xingling|Shintanuwu|Hakuruwu</meiguwu>
+				<isknownfor>
+					<de>ist bekannt für|ist berühmt für|ist weltbekannt für|ist anerkannt für|spezialisiert sich auf|ist spezialisiert auf</de>
+					<en>is known for|is famous for|is renowned for|is recognized for|specializes in|is specialized in</en>
+					<pl>jest rozpoznawalny z|jest sławny z|jest znany z|jest rozpoznawany z|jest uznany z|jest słynny z</pl>
+				</isknownfor>
+				<robotics>
+					<de>Fortschritte in Robotik, insbesondere bei menschenähnlichen Androiden und industrieller Automatisierung,|führende Entwicklung in den Bereichen Robotik und künstliche Intelligenz|Durchbrüche in Biotechnologie und Genforschung|Fortschritte bei erneuerbaren Energien und nachhaltigen Technologien|Errungenschaften in Marinetechnik und Unterwasserforschung|Virtual-Reality- und Augmented-Reality-Technik|Nanotechnologie und Mikroelektronik, mit Schwerpunkt auf Miniaturisierung und Präzisionsfertigung,|fortschrittliche Werkstofftechnik und Nanomaterialien|Durchbrüche in der Medizintechnik und Innovationen im Gesundheitswesen|Weltraumforschung und Satellitentechnologie</de>
+					<en>advancements in robotics, particularly in human-like androids and industrial automation|cutting-edge robotics and artificial intelligence technologies|bioengineering breakthroughs and genetic research|advancements in renewable energy and sustainable technologies|achievements in maritime technology and underwater exploration|virtual reality and augmented reality technologies|nanotechnology and microelectronics, with a focus on miniaturization and precision manufacturing,|advanced materials engineering and nanomaterials|breakthroughs in medical technology and healthcare innovations|space exploration and satellite technology</en>
+					<pl>postępów w robotyce, w szczególności w androidach człekopodobnych i automatyce przemysłowej,|najnowocześniejszych technologii robotyki i sztucznej inteligencji|przełomu w bioinżynierii i badaniach genetycznych|przełomu w energii odnawialnej i zrównoważonych technologii|osiągnięć w technologii morskiej i eksploracji podwodnej|rzeczywistości wirtualnej i technologii rzeczywistości rozszerzonej|nanotechnologii i mikroelektroniki, z naciskiem na miniaturyzację i produkcję precyzyjną,|zaawansowanej inżynierii materiałowej i nanomateriałów|przełomu w technologii medycznej i innowacji w opiece zdrowotnej|eksploracji kosmosu i technologii satelitarnej</pl>
+				</robotics>
+				<hasbecomeagloballeader>
+					<de>ist zudem zu einem globalen Vorreiter für grüne Innovationen und Smart-City-Entwicklung geworden|bietet zudem eine pulsierende Technologiebranche mit fortschrittlichen Forschungseinrichtungen und innovativen Start-ups|beherbergt zudem hochmoderne Laboratorien und Biotech-Unternehmen|ist zudem ein Zentrum für Schiffbau, Ozeanographie und Tiefseeforschung|veranstaltet zudem bedeutende Technologiekonferenzen bekannt für immersive Gaming-Erlebnisse und fortschrittliche Visualisierungssysteme|ist zudem Standort für bahnbrechende Fortschritte in der Halbleitertechnologie|zieht zudem Spitzentalente und Unternehmen in der Robotikbranche an|ist zudem führend in der Entwicklung von leichten, hochfesten Materialien, die in der Luft- und Raumfahrt, der Automobil- und der Elektronikindustrie eingesetzt werden|ist zudem Knotenpunkt für Biomedizin, Telemedizin und tragbare Gesundheitsgeräte|beheimatet zudem ein Raumfahrtzentrum und Produktionsanlagen für Satelliten, die eine wichtige Rolle in der Raumfahrtindustrie spielen</de>
+					<en>has also become a global leader in green innovation and smart city development|also boasts a thriving tech industry with advanced research facilities and innovative startups|also is home to state-of-the-art laboratories and biotech companies|is also a hub for shipbuilding, oceanography, and deep-sea research|also hosts major tech conferences known for immersive gaming experiences and advanced visualization systems|is also home to groundbreaking advancements in semiconductor technology|also attracts top talent and companies in the robotics industry|also leads the way in the development of lightweight, high-strength materials used in aerospace, automotive, and electronics industries|is also a hub for biomedicine, telemedicine, and wearable health devices|is also home to a spaceport and satellite manufacturing facilities, playing a significant role in the space industry</en>
+					<pl>stał się także światowym liderem w dziedzinie ekologicznych innowacji i rozwoju inteligentnych miast|ma także kwitnący przemysł technologiczny z zaawansowanymi ośrodkami badawczymi i innowacyjnymi startupami|jest także domem dla najnowocześniejszych laboratoriów i firm biotechnologicznych|jest także ośrodkiem przemysłu stoczniowego, oceanografii, i badań głębinowych|jest także gospodarzem dużych konferencji technologicznych znanych z wciągających gier i zaawansowanych systemów wizualizacji|jest także domem dla przełomowych postępów w technologii półprzewodników|przyciąga także największe talenty i firmy z branży robotyki|jest także liderem w rozwoju lekkich, wytrzymałych materiałów wykorzystywanych w przemyśle lotniczym, motoryzacyjnym i elektronicznym|jest także ośrodkiem biomedycyny, telemedycyny i urządzeń zdrowotnych do noszenia|jest także domem dla portu kosmicznego i zakładów produkcji satelitów, odgrywając znaczącą rolę w przemyśle kosmicznym.</pl>
+				</hasbecomeagloballeader>
+				<summittown>${.stationmap:"randomcity"}</summittown>
+				<communism>
+					<de>Kommunismus|Liberalsozialismus|Luxemburgismus|Titoismus|Rätekommunismus|Situationismus|Syndikalismus|Distributismus|Mutualismus|Trotzkismus</de>
+					<en>Communism|Liberal Socialism|Luxemburgism|Titoism|Council Communism|Situationism|Syndicalism|Distributism|Mutualism|Trotskyism</en>
+					<pl>Komunizm|Socjalizm liberalny|Luksemburgizm|Titoizm|Komunizm soborowy|Sytuacjonizm|Syndykalizm|Dystrybutyzm|Mutualizm|Trockizm</pl>
+				</communism>
+				<capitalism>
+					<de>Kapitalismus|Manchester-Kapitalismus|Agorismus|Georgismus|Voluntarismus|Objektivismus|Neoliberalismus|klassischem Liberalismus|Laissez-faire|Keynesianismus</de>
+					<en>Capitalism|Manchester Liberalism|Agorism|Georgism|Voluntaryism|Objectivism|Neoliberalism|Classic Liberalism|Laissez-faire|Keynesianism</en>
+					<pl>Kapitalizm|Manchesterski liberalizm|Agoryzm|Georgizm|Woluntaryzm|Obiektywizm|Neoliberalizm|Klasyczny liberalizm|Laissez-faire|Keynesizm</pl>
+				</capitalism>
+				<confucianism>
+					<de>Konfuzianismus|Neokonfuzianismus|Taoismus|Daoismus|Zen-Buddhismus|Shintoismus|Mohismus|Yinyangismus|Sikhismus|Jainismus|Sufismus</de>
+					<en>Confucianism|Neo-Confucianism|Taoism|Daoism|Zen Buddhism|Shinto|Mohism|Yinyangism|Sikhism|Jainism|Sufism</en>
+					<pl>Konfucjanizm|Neokonfucjanizm|Taoizm|Daoizm|Buddyzm Zen|Shinto|Mohizm|Jinyangizm|Sikhizm|Dżinizm|Sufizm</pl>
+				</confucianism>
+				<namedancing>
+					<de>Namentanzen|Eurythmie|Mummerei|Mummenschanz|Dionysien|Voodoo|Derwischtanz</de>
+					<en>Name dancing|Eurythmy|Mummery|Mummers' Plays|Dionysia|Voodoo|Dervish Dance</en>
+					<pl>Nazwa dance|Eurythmy|Mummery|Pląsy Mummera|Dionysia|Voodoo|Dervish Dance</pl>
+				</namedancing>
+				<newtech_csv>
+					<de>Teilchenbeschleuniger;Der Teilchenbeschleuniger hat die Form einer 8 und kann somit die Teilchen unendlich beschleunigen.|
+						Super-KI;Die Super-KI liefert nicht nur aktuelle Information - sie hat auch Jahrmilliarden zu früh bereits die Antwort auf die „letzte Frage“ des Wärmetods des Universums.|
+						HoloScreen;Der holographische Bildschirm ist eine unvergleichliche Erfahrung mit optional unendlich aufgelöster, vektorbasierter 3D-Darstellung und perfektem Kontrast. Und das ist nur die Vorstufe zum Holodeck, an dem noch geforscht wird.|
+						Super-Quanten-Internet;Das Super-Quanten-Internet befördert dank verschränkter Teilchen manche Information als das Licht und sorgt so für sensationelle Ping-Werte. Endlich weltweite Match-Ups - die Revolution im Online-Gaming!
+					</de>
+					<en>Particle Accelerator;The particle accelerator is shaped like an 8 and can therefore accelerate the particles infinitely.|
+						Super AI;The Super AI doesn't just provide up-to-date information - it also has the answer to the "last question" of the heat death of the universe billions of years too early.|
+						HoloScreen;The holographic screen is an unrivaled experience with optionally infinite resolution vector-based 3D display and perfect contrast. And it is just the preliminary stage to the holodeck, which is still being researched.|
+						Super Quantum Internet;Thanks to entangled particles, the super quantum internet transports some of the information faster than light and thus ensures sensational ping values. Global match-ups at last - the revolution in online gaming!
+					</en>
+					<pl>Akcelerator cząstek; Akcelerator cząstek ma kształt ósemki i dlatego może przyspieszać cząstki w nieskończoność.
+						Super AI; Super AI nie tylko dostarcza aktualnych informacji - ma również odpowiedzieć na „ostatnie pytanie” dotyczące śmierci cieplnej wszechświata o miliardy lat za wcześnie.
+						HoloScreen;Ekran holograficzny to niezrównane doświadczenie z opcjonalną nieskończoną rozdzielczością wektorowego wyświetlacza 3D i doskonałym kontrastem. A to dopiero wstępny etap do holodeku, nad którym wciąż trwają badania.|
+						Super kwantowy internet;Dzięki splątanym cząsteczkom, super kwantowy internet przenosi niektóre informacje szybciej niż światło, a tym samym zapewnia rewelacyjne wartości ping. Nareszcie globalne pojedynki - rewolucja w grach online!
+					</pl>
+				</newtech_csv>
+				<particleacc>
+					<all>${.csv:newtech_csv:0}</all>
+				</particleacc>
+				<itsshapedlike>
+					<all>${.csv:newtech_csv:1}</all>
+				</itsshapedlike>
+				<srilanka>
+					<de>Sri Lanka|Osttimor|Brunei|Laos</de>
+					<en>Sri Lanka|East Timor|Brunei|Laos</en>
+					<pl>Sri Lanka|Timor Wschodni|Brunei|Laos</pl>
+				</srilanka>
+				<goalsfor>0|0|0|0|0|1|1|2</goalsfor>
+				<goalsagainst>7|8|9|10|11|12|13|14|15|16|17</goalsagainst>
+				<tvtowermeta_csv>
+					<de>${meiguwu}-Bürger lieben TVTower-Programm;Die meisten Einwohner von ${meiguwu} schauen stundenlang die TVTower-Sender und lernen dabei unsere Sprache und unsere Kultur, empfangen das Programm aber schwarz.;Milliarden neue Zuschauer aus ${meiguwu}?;Alle Finanzierungsprobleme der TVTower-Programmplaner würden der Vergangenheit angehören, wenn die Zuschauerzahlen aus ${meiguwu} amtlich wären zur Vorlage an die Werbekunden.;TVTower-Chefs fliegen nach ${meiguwu};Die TVTower-Senderchefs, die eineiigen Raffer-Vierlinge, fliegen nach ${meiguwu} zu Verhandlungen über die Kommerzialisierung des Empfangs des TVTower-Programms.;Chefs noch im TVTower;Mindestens ein Spieler hat nachgesehen, ob der Sender-Chef noch da ist. Ist er. Handelt es sich bei den Raffers gar um Achtlinge?;Verhandlungen in ${meiguwu} erfolglos;Die Bürger von ${meiguwu} schauen das TVTower-Programm weiterhin schwarz. Die Frage, wozu die dicken cholerischen TVTower-Chefs eigentlich gut sind, bleibt weiterhin offen.|
+						${meiguwu}-Bürger lieben TVTower-Game;Die Einwohner von ${meiguwu} scheinen noch verrückter nach WiSim-Spielen zu sein als Deutsche, beziehen TVTower aber als Schwarzkopien.;Milliarden $$$ aus ${meiguwu} für TVTower-Game?;Potenziell hunderte Milliarden Dollar könnten durch ordungsgemäßen Vertrieb in ${meiguwu} eingenommen werden. Mit dem Geld könnte TVTower zum besten Spiel aller Zeiten ausgebaut werden.;Ronny fliegt nach ${meiguwu};Ronny Otto, CEO von Gamezworld, fliegt nach ${meiguwu} zu Verhandlungen über die ordnungsgemäße Vermarktung des TVTower-Games.;TVTower-Forum weiterhin betreut;Mindestens ein Spieler hat nachgesehen, ob Ronny trotz seiner wichtigen Geschäftsreise immer noch im Forum und im Chat heurmtrollt. Tut er.;Verhandlungen in ${meiguwu} erfolglos;Die Vertriebshäuser gingen mit Ronnys exorbitanten Preisvorstellungen einfach nicht mit. Die Einwohner von ${meiguwu} beziehen das TVTower-Game weiterhin schwarz.
+					</de>
+					<en>${meiguwu} citizens love TVTower program;Most of the inhabitants of ${meiguwu} watch the TVTower channels for hours, learning our language and our culture, but they receive the broadcast illicitly, they're pirating.;Billions of new viewers from ${meiguwu}?;All the financing problems of TVTower program planners would be a thing of the past if the viewer figures from ${meiguwu} were official for submission to advertisers.;TVTower bosses fly to ${meiguwu};The TVTower channel bosses, the identical Raffer quadruplets, fly to ${meiguwu} for negotiations on the commercialization of the reception of the TVTower broadcasting.;Bosses still in TVTower;At least one player has checked to see if the channel boss is still there. He is. Are the Raffers actually octuplets?;Negotiations in ${meiguwu} failed;The citizens of ${meiguwu} continue to watch the TVTower program illicitly. The question about what the fat, choleric TVTower bosses are actually good for remains unanswered.|
+						${meiguwu} citizens love TVTower game;The inhabitants of ${meiguwu} seem to be even crazier about biz-sim games than Germans, but obtain TVTower as pirated copies.;Billions $$$ from ${meiguwu} for TVTower game?;Potentially hundreds of billions of dollars could be raised through proper sales in ${meiguwu}. The money could be used to make TVTower the best game of all time.;Ronny flies to ${meiguwu};Ronny Otto, CEO of Gamezworld, flies to ${meiguwu} for negotiations on the proper distribution of the TVTower game.;TVTower forum still managed;At least one player has checked to see if Ronny is still trolling the forum and the chat despite his important business trip. He is.;Negotiations in ${meiguwu} failed;The distribution centers simply did not go along with Ronny's exorbitant proposed prices. The inhabitants of ${meiguwu} continue to obtain the TVTower game as pirated copies.
+					</en>
+					<pl>Mieszkańcy ${meiguwu} uwielbiają program TVTower; Większość mieszkańców ${meiguwu} godzinami ogląda kanały TVTower, ucząc się naszego języka i naszej kultury, ale odbierają program nielegalnie, piracą.; Miliardy nowych widzów z ${meiguwu}?; Wszystkie problemy finansowe planistów programów TVTower należałyby do przeszłości, gdyby dane dotyczące oglądalności z ${meiguwu} były oficjalne do przedłożenia reklamodawcom. Szefowie TVTower lecą do ${meiguwu}; Szefowie kanału TVTower, identyczne czworaczki Rafferów, lecą do ${meiguwu} na negocjacje w sprawie komercjalizacji odbioru transmisji TVTower. Szefowie wciąż w TVTower; Przynajmniej jeden gracz sprawdził, czy szef kanału wciąż tam jest. Jest. Czy Rafferowie faktycznie są ośmioraczkami?;Negocjacje w ${meiguwu} nie powiodły się;Obywatele ${meiguwu} nadal nielegalnie oglądają program TVTower. Pytanie o to, do czego tak naprawdę służą grubi, choleryczni szefowie TVTower, pozostaje bez odpowiedzi.|
+						Mieszkańcy ${meiguwu} uwielbiają grę TVTower; Mieszkańcy miasta ${meiguwu} wydają się być jeszcze bardziej zwariowani na punkcie gier biz-sim niż Niemcy, ale TVTower pozyskują jako pirackie kopie; Miliardy dolarów z ${meiguwu} na grę TVTower?; Potencjalnie setki miliardów dolarów można by zebrać dzięki odpowiedniej sprzedaży w ${meiguwu}. Pieniądze te mogłyby zostać wykorzystane do uczynienia TVTower najlepszą grą wszech czasów.; Ronny leci do ${meiguwu}; Ronny Otto, CEO Gamezworld, leci do ${meiguwu} na negocjacje w sprawie właściwej dystrybucji gry TVTower.; Forum TVTower nadal zarządzane; Przynajmniej jeden gracz sprawdził, czy Ronny nadal trolluje forum i czat pomimo swojej ważnej podróży służbowej. Negocjacje w ${meiguwu} nie powiodły się; centra dystrybucji po prostu nie zgodziły się na wygórowane ceny proponowane przez Ronny'ego. Mieszkańcy miasta ${meiguwu} nadal otrzymują grę TVTower jako pirackie kopie.
+					</pl>
+				</tvtowermeta_csv>
+				<citizenslovetvtower>
+					<all>${.csv:tvtowermeta_csv:0}</all>
+				</citizenslovetvtower>
+				<inhabitantspirating>
+					<all>${.csv:tvtowermeta_csv:1}</all>
+				</inhabitantspirating>
+				<billionsnewviewers>
+					<all>${.csv:tvtowermeta_csv:2}</all>
+				</billionsnewviewers>
+				<allfinancialtroublessolved>
+					<all>${.csv:tvtowermeta_csv:3}</all>
+				</allfinancialtroublessolved>
+				<bossesflyto>
+					<all>${.csv:tvtowermeta_csv:4}</all>
+				</bossesflyto>
+				<bossesnegotiations>
+					<all>${.csv:tvtowermeta_csv:5}</all>
+				</bossesnegotiations>
+				<stillavailable>
+					<all>${.csv:tvtowermeta_csv:6}</all>
+				</stillavailable>
+				<atleastoneplayer>
+					<all>${.csv:tvtowermeta_csv:7}</all>
+				</atleastoneplayer>
+				<negotiationsfailed>
+					<all>${.csv:tvtowermeta_csv:8}</all>
+				</negotiationsfailed>
+				<stillpirating>
+					<all>${.csv:tvtowermeta_csv:9}</all>
+				</stillpirating>
+				<singerfirstname>Kaori|Korui|Kyung|Sora</singerfirstname>
+				<singerlastname>Sakita|Shimoi|Seong|Kwon</singerlastname>
+				<transporttech_csv>
+					<de>Teleportation;Die Bürger können sich nun überall hinbeamen, wo sie wollen.;wenn sich jeder wild über Grenzen hinweg beamen könnte|
+						Antigravitation;Die Bürger können nun in Kleinfluggeräten herumschwirren, noch wendiger und schneller als fliegende Untertassen.;wenn jeder wild über Grenzen hinweg schwirren könnte
+					</de>
+					<en>teleportation;Citizens can now beam themselves anywhere they want.;if everyone could freely beam across borders|
+						antigravity;Citizens can now buzz around in small aircraft, even more agile and faster than flying saucers.;if everyone could whizz wildly across borders
+					</en>
+					<pl>teleportacja; obywatele mogą teraz przesyłać się w dowolne miejsce; gdyby wszyscy mogli swobodnie przesyłać się przez granice|
+						antygrawitacja; obywatele mogą teraz poruszać się małymi samolotami, jeszcze bardziej zwinnymi i szybszymi niż latające spodki; gdyby każdy mógł swobodnie przekraczać granice.
+					</pl>
+				</transporttech_csv>
+				<teleportation>
+					<all>${.csv:transporttech_csv:0}</all>
+				</teleportation>
+				<citizenscannow>
+					<all>${.csv:transporttech_csv:1}</all>
+				</citizenscannow>
+				<ifeveryonecould>
+					<all>${.csv:transporttech_csv:2}</all>
+				</ifeveryonecould>
+				<festivitytown>${.stationmap:"randomcity"}</festivitytown>
+				<vanished_csv>
+					<de>auf der Venus;auf der rasch terraformierten Venus|
+						auf dem Mars;auf dem rasch terraformierten Mars|
+						auf dem Mond;auf der dunklen Seite des Mondes|
+						im Inneren der Erde;auf der Innenseite der hohlen Erde|
+						in Agartha;im versteckten unterirdischen Reich Agartha|
+						im Äther;in der feinstofflichen ätherischen Zwischenwelt
+					</de>
+					<en>on Venus;on the rapidly terraformed Venus|
+						on Mars;on the rapidly terraformed Mars|
+						on the Moon;on the dark side of the Moon|
+						inside Earth;on the inside of the hollow Earth|
+						in Agartha;in the hidden underground realm of Agartha|
+						in the ether;in the intangible ethereal netherworld
+					</en>
+					<pl>na Wenus; na szybko terraformowanej Wenus|
+						na Marsie; na szybko terraformowanym Marsie|
+						na Księżycu; na ciemnej stronie Księżyca|
+						wewnątrz Ziemi; wewnątrz pustej Ziemi|
+						w Agarthcie; w ukrytym podziemnym królestwie Agarthy|
+						w eterze; w niematerialnym świecie eterycznym
+					</pl>
+				</vanished_csv>
+				<onvenus>
+					<all>${.csv:vanished_csv:0}</all>
+				</onvenus>
+				<ontherapidlytransformedvenus>
+					<all>${.csv:vanished_csv:1}</all>
+				</ontherapidlytransformedvenus>
+				<festivitytownatlantis>${.stationmap:"randomcity"}</festivitytownatlantis>
+			</variables>
+			<data genre="0" price="1" quality="60" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,3,5" news="dd161f02-9ddc-4064-b22c-a7875665cb3a" />
+			</effects>
+			<availability script='${.gt:${.worldtime:"daysplayed"}:12}' />
+		</news>
+		<news guid="dd161f02-9ddc-4064-b22c-a7875665cb3a" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>Tech-Boom in ${meiguwu}</de>
+				<en>Tech boom in ${meiguwu}</en>
+				<pl>Boom technologiczny w ${meiguwu}</pl>
+			</title>
+			<description>
+				<de>Die boomende ostasiatische Sonderwirtschaftszone ${meiguwu} ${isknownfor} ${robotics}.</de>
+				<en>The booming East Asian special economic zone ${meiguwu} ${isknownfor} ${robotics}.</en>
+				<pl>Prężnie rozwijająca się wschodnioazjatycka specjalna strefa ekonomiczna ${meiguwu} ${isknownfor} ${robotics}.</pl>
+			</description>
+			<data genre="3" price="1" quality="40" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,21,34" news="794b9b1f-2fde-4b6c-bb86-f2239effb8f7" />
+			</effects>
+		</news>
+		<news guid="794b9b1f-2fde-4b6c-bb86-f2239effb8f7" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu}: Hervorragende Prognosen</de>
+				<en>${meiguwu}: Excellent Prospects</en>
+				<pl>${meiguwu}: Doskonałe perspektywy</pl>
+			</title>
+			<description>
+				<de>Die boomende ostasiatische Sonderwirtschaftszone ${meiguwu} wird so schnell nicht vom Radar verschwinden, sagen Wirtschaftsexperten.</de>
+				<en>The booming East Asian special economic zone ${meiguwu} will not disappear from the radar any time soon, economic experts say.</en>
+				<pl>Eksperci ekonomiczni twierdzą, że dynamicznie rozwijająca się wschodnioazjatycka specjalna strefa ekonomiczna w mieście ${meiguwu}, nie zniknie z radarów w najbliższym czasie.</pl>
+			</description>
+			<data genre="0" price="1" quality="40" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,3,5" news="6fc67b26-2b8a-480f-baf8-0208da8f1de0" />
+			</effects>
+		</news>
+		<news guid="6fc67b26-2b8a-480f-baf8-0208da8f1de0" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu}: Globaler Tech.-Vorreiter</de>
+				<en>${meiguwu}: Global tech leader</en>
+				<pl>${meiguwu}: Światowy lider technologiczny</pl>
+			</title>
+			<description>
+				<de>Die boomende ostasiatische Sonderwirtschaftszone ${hasbecomeagloballeader}.</de>
+				<en>The booming East Asian special economic zone ${hasbecomeagloballeader}.</en>
+				<pl>Dynamicznie rozwijająca się wschodnioazjatycka specjalna strefa ekonomiczna ${hasbecomeagloballeader}.</pl>
+			</description>
+			<data genre="3" price="1" quality="45" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="2,2,6,1,23" news="220848bb-6820-4a72-8bc8-3976427a4d8b" />
+			</effects>
+		</news>
+		<news guid="220848bb-6820-4a72-8bc8-3976427a4d8b" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu} baut Eiffelturm nach</de>
+				<en>${meiguwu} replicates the Eiffel Tower</en>
+				<pl>${meiguwu} replikuje wieżę Eiffla</pl>
+			</title>
+			<description>
+				<de>Besser als das Original - besserer Feuer- und Korrosionsschutz und außerdem etwas größer: Ein neuer Eiffelturm steht im fernöstlichen ${meiguwu}.</de>
+				<en>Better than the original - better fire and corrosion protection and also slightly larger: a new Eiffel Tower stands in Far East ${meiguwu}.</en>
+				<pl>Lepsza od oryginału - lepsza ochrona przeciwpożarowa i antykorozyjna, a także nieco większa: nowa wieża Eiffla stoi na Dalekim Wschodzie w mieście ${meiguwu}.</pl>
+			</description>
+			<data genre="5" price="1" quality="40" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="2,2,6,1,23" news="8f712f37-afbc-4671-97e9-513c2a23530d" />
+			</effects>
+		</news>
+		<news guid="8f712f37-afbc-4671-97e9-513c2a23530d" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu}: Neuer riesiger Vergnügungspark</de>
+				<en>${meiguwu}: New huge amusement park</en>
+				<pl>${meiguwu}: Nowy ogromny park rozrywki</pl>
+			</title>
+			<description>
+				<de>Die „Daisyworld“ im fernöstlichen ${meiguwu} ist 20x größer als das amerikanische Vorbild und hat außerdem viele Anime- und Manga-Attraktionen.</de>
+				<en>The "Daisyworld" in Far East ${meiguwu} is 20 times bigger than the American original and also has many anime and manga attractions.</en>
+				<pl>"Daisyworld" na Dalekim Wschodzie w mieście ${meiguwu} jest 20 razy większy niż amerykański oryginał i również posiada wiele atrakcji związanych z anime i mangą.</pl>
+			</description>
+			<data genre="1" price="1" quality="40" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="2,2,6,1,23" news="799c8a9a-adf5-47fd-868e-5b5441b3d20d" />
+			</effects>
+		</news>
+		<news guid="799c8a9a-adf5-47fd-868e-5b5441b3d20d" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu} expandiert</de>
+				<en>${meiguwu} expands</en>
+				<pl>${meiguwu} rozszerza się</pl>
+			</title>
+			<description>
+				<de>In der fernöstlichen Region ${meiguwu} werden in den bisher schwach besiedelten Ecken riesige neue Städte gebaut. Ein Großteil der verarmten Landbevölkerung soll eingegliedert werden.</de>
+				<en>In the Far Eastern region of ${meiguwu}, huge new cities are being built in previously sparsely populated areas, with the aim of incorporating a large part of the impoverished rural population.</en>
+				<pl>W dalekowschodnim regionie ${meiguwu}, ogromne nowe miasta są budowane na wcześniej słabo zaludnionych obszarach, w celu włączenia dużej części zubożałej ludności wiejskiej.</pl>
+			</description>
+			<data genre="0" price="1" quality="35" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="2,2,6,1,23" news="28df5516-4c8f-40d8-9e11-9421990b25bc" />
+			</effects>
+		</news>
+		<news guid="28df5516-4c8f-40d8-9e11-9421990b25bc" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu}: Blühene Wirtschaft</de>
+				<en>${meiguwu}: Thriving economy</en>
+				<pl>${meiguwu}: Dobrze prosperująca gospodarka</pl>
+			</title>
+			<description>
+				<de>Was ist das Geheimnis der fernöstlichen Region, während der Rest der Welt mit der Rezession kämpft? Ökonomen aus aller Welt am Wirtschaftsgipfel in ${summittown} sind sich uneinig.</de>
+				<en>What is the secret of the Far Eastern region while the rest of the world is struggling with recession? Economists from around the world at the economic summit in ${summittown} are divided.</en>
+				<pl>Jaki jest sekret regionu Dalekiego Wschodu, podczas gdy reszta świata zmaga się z recesją? Ekonomiści z całego świata na szczycie gospodarczym w mieście ${summittown} są podzieleni.</pl>
+			</description>
+			<data genre="0" price="1" quality="40" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,3,5" news="88a7ca08-f4db-4a90-a96d-b8c0dd0886c1" />
+			</effects>
+		</news>
+		<news guid="88a7ca08-f4db-4a90-a96d-b8c0dd0886c1" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu}s Wirtschaft erklärt</de>
+				<en>${meiguwu}'s economy explained</en>
+				<pl>Gospodarka miasta ${meiguwu} wyjaśniona</pl>
+			</title>
+			<description>
+				<de>Ein Ökonom aus ${meiguwu} erklärt: Das Wirtschaftssystem bestehe aus dem Besten aus ${communism}, ${capitalism}, ${confucianism} und ${namedancing}, sei aber nach westlichen Maßstäben eigentlich nicht kategorisierbar.</de>
+				<en>An economist from ${meiguwu} explains: The economic system consists of the best of ${communism}, ${capitalism}, ${confucianism} and ${namedancing}, but cannot actually be categorized according to Western standards.</en>
+				<pl>Ekonomista z miasta ${meiguwu} wyjaśnia: System ekonomiczny składa się z tego, co najlepsze, a jest to: ${communism}, ${capitalism}, ${confucianism} i ${namedancing}, ale w rzeczywistości nie może być skategoryzowany według zachodnich standardów.</pl>
+			</description>
+			<data genre="0" price="1" quality="45" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,5,8" news="82d8767c-8e0e-43f8-ae94-8d0f6baeded5" />
+			</effects>
+		</news>
+		<news guid="82d8767c-8e0e-43f8-ae94-8d0f6baeded5" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu}: Wenig Korruption</de>
+				<en>${meiguwu}: Low corruption</en>
+				<pl>${meiguwu}: Niski poziom korupcji</pl>
+			</title>
+			<description>
+				<de>Nach Ansicht von Experten liegt der Erfolg von ${meiguwu} in der geringen bis nicht vorhandenen Korruption. Dies sei auf die Tradition, Kultur und Werten der Einheimischen zurückzuführen.</de>
+				<en>According to experts, the success of ${meiguwu} lies in the low to non-existent level of corruption. This is due to the tradition, culture and values of the locals.</en>
+				<pl>Według ekspertów, sukces miasta ${meiguwu} leży w niskim lub nieistniejącym poziomie korupcji. Wynika to z tradycji, kultury i wartości mieszkańców.</pl>
+			</description>
+			<data genre="0" price="1" quality="40" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="2,2,6,1,23" news="24bff879-3176-41fd-8c24-d7e646713562" />
+			</effects>
+		</news>
+		<news guid="24bff879-3176-41fd-8c24-d7e646713562" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551" comment="reference: https://reddit.com/r/germany/comments/64aucx/question_from_canadian_what_was_stoiber_talking/">
+			<title>
+				<de>${meiguwu} mit neuer Supermagnetbahn</de>
+				<en>${meiguwu} with new super maglev</en>
+				<pl>${meiguwu} z nową super magnetyczną koleją</pl>
+			</title>
+			<description>
+				<de>Die Vorwürfe des deutschen Megakonzerns ${brand_siemens} werden von den Ingenieuren aus ${meiguwu} zurückgewiesen. Der „Transbolt“ sei kein Plagiat, denn man sei damit bereits in 9 Minuten am Flughafen.</de>
+				<en>The accusations of the German mega corporation ${brand_siemens} are rejected by the engineers from ${meiguwu}. The "Transbolt" is not a plagiarism, because it can take you to the airport in only 9 minutes, not 10, as advertised by ${brand_siemens}.</en>
+				<pl>Oskarżenia niemieckiej mega korporacji ${brand_siemens} zostały odrzucone przez inżynierów z miasta ${meiguwu}. "Transbolt" nie jest plagiatem, ponieważ dzięki niemu można znaleźć się na lotnisku już w 9 minut, a nie 10, jak reklamuje ${brand_siemens}.</pl>
+			</description>
+			<data genre="3" price="1" quality="50" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="2,2,6,1,23" news="52ef13f1-82f2-47d2-a2be-53a76b2d4554" />
+			</effects>
+		</news>
+		<news guid="52ef13f1-82f2-47d2-a2be-53a76b2d4554" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu} baut neuen Raumbahnhof</de>
+				<en>${meiguwu} builds new spaceport</en>
+				<pl>${meiguwu} buduje nowy port kosmiczny</pl>
+			</title>
+			<description>
+				<de>Raketenstartbasis, Forschungszentrum, Job-Motor, Vergnügungspark und Verkleidungs-/Cosplay-Festival in einem: „Cape Carnival“ ist das neue Wahrzeichen in ${meiguwu}.</de>
+				<en>Rocket launch base, research center, job creator, amusement park and dress-up/cosplay festival all in one: "Cape Carnival" is the new landmark in ${meiguwu}.</en>
+				<pl>Baza startowa rakiet, centrum badawcze, miejsce pracy, park rozrywki i festiwal przebieranek/kostiumów w jednym: "Cape Carnival" to nowy punkt orientacyjny w mieście ${meiguwu}.</pl>
+			</description>
+			<data genre="3" price="1" quality="55" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="2,2,6,1,23" news="89f28e07-7d83-4d3d-bdfb-ebc4e5efb7c8" />
+			</effects>
+		</news>
+		<news guid="89f28e07-7d83-4d3d-bdfb-ebc4e5efb7c8" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu}: Raumfahrtprogramm</de>
+				<en>${meiguwu}: Space program</en>
+				<pl>${meiguwu}: Program kosmiczny</pl>
+			</title>
+			<description>
+				<de>Da es die restliche Welt mit der Raumfahrt schleifen lässt, springt Cape Carnival in ${meiguwu} ein. Der Jungfernflug für die erste Linie rund um den Mond startet in drei Monaten.</de>
+				<en>As the rest of the world is putting space travel on the back burner, Cape Carnival in ${meiguwu} is stepping in. The maiden flight for the first line around the moon starts in three months.</en>
+				<pl>Podczas gdy reszta świata odkłada podróże kosmiczne na dalszy plan, Cape Carnival w mieście ${meiguwu} wkracza do akcji. Dziewiczy lot pierwszej linii komunikacyjnej wokół Księżyca rozpocznie się za trzy miesiące.</pl>
+			</description>
+			<data genre="3" price="1" quality="50" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="2,2,6,1,23" news="522c9ed6-6682-4275-8903-6e08e4048104" />
+			</effects>
+		</news>
+		<news guid="522c9ed6-6682-4275-8903-6e08e4048104" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu} baut ${particleacc}</de>
+				<en>${meiguwu} builds ${particleacc}</en>
+				<pl>Miasto ${meiguwu} buduje ${particleacc}</pl>
+			</title>
+			<description>
+				<de>Damit endgültig *die* führende Wirtschafts- und Technologieregion: ${meiguwu} baut die beste ihrer Art - die neue ${particleacc}-Technologie lässt die weltweite Konkurrenz weit hinter sich.</de>
+				<en>Finally proven to be *the* leading economic and technology region: ${meiguwu} is building the best of its kind - the new ${particleacc} technology leaves the global competition far behind.</en>
+				<pl>Wreszcie udowodniono, że jest *najlepszym* regionem gospodarczym i technologicznym: miasto ${meiguwu} buduje najlepszą w swoim rodzaju nową technologię - ${particleacc} pozostawia globalną konkurencję daleko w tyle.</pl>
+			</description>
+			<data genre="0" price="1" quality="55" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,3,5" news="ca47188a-8e6c-462e-9cc7-8e2328ac19c1" />
+			</effects>
+		</news>
+		<news guid="ca47188a-8e6c-462e-9cc7-8e2328ac19c1" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>Details zu ${meiguwu}-${particleacc}</de>
+				<en>Details about ${meiguwu} ${particleacc}</en>
+				<pl>Szczegóły dotyczące ${particleacc} w mieście ${meiguwu}</pl>
+			</title>
+			<description>
+				<all>${itsshapedlike}</all>
+			</description>
+			<data genre="3" price="1" quality="50" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,8,13" news="a4d89c1a-8156-4161-af97-33deed8fabd9" />
+			</effects>
+		</news>
+		<news guid="a4d89c1a-8156-4161-af97-33deed8fabd9" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${particleacc}-Know-How bleibt in ${meiguwu}</de>
+				<en>${particleacc} know-how stays in ${meiguwu}</en>
+				<pl>Know-how ${particleacc} pozostaje w ${meiguwu}.</pl>
+			</title>
+			<description>
+				<de>Was hat der Rest der Welt von den Innovationen in ${meiguwu}? Leider wenig. Bürokratie und Patentrechte stehen dem Export der ${particleacc}-Technologie und der Erhöhung des Lebensstandards im Westen im Wege.</de>
+				<en>What does the rest of the world gain from the innovations in ${meiguwu}? Unfortunately, very little. Bureaucracy and patent rights stand in the way of exporting the ${particleacc} technology and raising living standards in the West.</en>
+				<pl>Co reszta świata zyska dzięki innowacjom w mieście ${meiguwu}? Niestety, bardzo niewiele. Biurokracja i prawa patentowe stoją na drodze eksportu technologii dotyczącej ${particleacc} i podniesienia standardów życia na Zachodzie.</pl>
+			</description>
+			<data genre="0" price="1" quality="55" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="2,2,6,1,23" news="7a8e829c-0f1b-431e-9c55-2b02fbfeebba" />
+			</effects>
+		</news>
+		<news guid="7a8e829c-0f1b-431e-9c55-2b02fbfeebba" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu}: Nun eigene Nation</de>
+				<en>${meiguwu}: Now its own nation</en>
+				<pl>${meiguwu}: Teraz własny naród</pl>
+			</title>
+			<description>
+				<de>Die ehemalige Sonderwirtschaftszone ${meiguwu} hat sich „freigekauft“ und ist nun eine eigenständige Nation.</de>
+				<en>The former special economic zone ${meiguwu} has "bought its freedom" and is now a nation in its own right.</en>
+				<pl>Była specjalna strefa ekonomiczna miasta ${meiguwu} "kupiła sobie wolność" i jest teraz samodzielnym narodem.</pl>
+			</description>
+			<data genre="0" price="1" quality="45" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="2,2,6,1,23" news="79d69be8-25c5-4fb7-ab38-d517d567fac1" />
+			</effects>
+		</news>
+		<news guid="79d69be8-25c5-4fb7-ab38-d517d567fac1" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu} überwacht Bürger</de>
+				<en>${meiguwu} surveils citizens</en>
+				<pl>${meiguwu} inwigiluje obywateli</pl>
+			</title>
+			<description>
+				<de>Westliche Journalisten haben die Schattenseiten der Entwicklungen in ${meiguwu} enthüllt. Es wurde ein diskriminierendes Social-Credit-Scoring eingeführt.</de>
+				<en>Western journalists have revealed the dark side of developments in ${meiguwu}. Discriminatory social credit scoring has been introduced.</en>
+				<pl>Zachodni dziennikarze ujawnili ciemną stronę wydarzeń w mieście ${meiguwu}. Wprowadzono dyskryminującą punktację społeczną.</pl>
+			</description>
+			<data genre="0" price="1" quality="50" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,5,8" news="0f706f01-4ebe-47c4-b846-6321b020a765" />
+			</effects>
+		</news>
+		<news guid="0f706f01-4ebe-47c4-b846-6321b020a765" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>Proteste gegen ${meiguwu}-Credit-Scoring</de>
+				<en>Protests against ${meiguwu} credit scoring</en>
+				<pl>Protesty przeciwko scoringowi kredytowemu w mieście ${meiguwu}</pl>
+			</title>
+			<description>
+				<de>Nach den jüngsten Enthüllungen über ${meiguwu} kam weltweit zu Protesten. Einige westliche Länder haben interne Gespräche über mögliche Strategien zur Einführung der Demokratie in dieser Region begonnen.</de>
+				<en>Following the recent revelations about ${meiguwu}, there have been protests around the world. Some Western countries have begun internal discussions about possible strategies to bring democracy to that region.</en>
+				<pl>Po ostatnich rewelacjach na temat miasta ${meiguwu} na całym świecie odbyły się protesty. Niektóre kraje zachodnie rozpoczęły wewnętrzne dyskusje na temat możliwych strategii wprowadzenia demokracji w tym regionie.</pl>
+			</description>
+			<data genre="0" price="1" quality="40" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,8,13" news="ad42df97-3679-47b5-be9f-f16f40cee40c" />
+			</effects>
+		</news>
+		<news guid="ad42df97-3679-47b5-be9f-f16f40cee40c" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu} rechtfertigt Credit-Scoring</de>
+				<en>${meiguwu} justifies credit scoring</en>
+				<pl>${meiguwu} uzasadnia scoring kredytowy</pl>
+			</title>
+			<description>
+				<de>Politiker und Wirtschaftswissenschaftler aus ${meiguwu} rechtfertigen ihr „Smart City“-Konzept. Es sei notwendig zur effizienten Ressourcen-Allokation.</de>
+				<en>Politicians and economists from ${meiguwu} justify their "smart city" concept. It is necessary for the efficient allocation of resources.</en>
+				<pl>Politycy i ekonomiści z miasta ${meiguwu} uzasadniają swoją koncepcję "inteligentnego miasta". Jest to konieczne dla efektywnej alokacji zasobów.</pl>
+			</description>
+			<data genre="0" price="1" quality="35" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,8,13" news="e8b29adf-ce2d-44ce-811f-1dbd53cc3264" />
+			</effects>
+		</news>
+		<news guid="e8b29adf-ce2d-44ce-811f-1dbd53cc3264" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu}: Riesige Geisterstädte</de>
+				<en>${meiguwu}: Huge ghost cities</en>
+				<pl>${meiguwu}: Ogromne miasta duchów</pl>
+			</title>
+			<description>
+				<de>Die Journalisten enthüllten außerdem, dass viele der riesigen neuen Städte leer stünden. Sie waren wohl gedacht zum Eingliedern der Landbevölkerung - oder zum Abzocken ausländischer Investoren.</de>
+				<en>The journalists also revealed that many of the huge new cities are empty. They were probably intended to integrate the rural population - or to rip off foreign investors.</en>
+				<pl>Dziennikarze ujawnili również, że wiele z ogromnych nowych miast jest pustych. Prawdopodobnie miały one na celu integrację ludności wiejskiej - lub oszukanie zagranicznych inwestorów.</pl>
+			</description>
+			<data genre="0" price="1" quality="40" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,8,13" news="98c68d6d-160b-4252-bcf1-b42b37e2795f" />
+			</effects>
+		</news>
+		<news guid="98c68d6d-160b-4252-bcf1-b42b37e2795f" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu} rudert zurück</de>
+				<en>${meiguwu} backpedals</en>
+				<pl>${meiguwu} wycofuje się</pl>
+			</title>
+			<description>
+				<de>${meiguwu} gesteht Fehler ein. Das Überwachungsprogramm wird zurückgezogen. Die Geisterstädte beweisen: Die Maßnahmen zur Ressourcen-Allokation hätten nicht funktioniert.</de>
+				<en>${meiguwu} admits mistakes. The surveillance program is being withdrawn. The ghost cities prove it: The resource allocation measures have not worked.</en>
+				<pl>${meiguwu} przyznaje się do błędów. Program nadzoru jest wycofywany. Dowodzą tego miasta-widma: Środki alokacji zasobów nie zadziałały.</pl>
+			</description>
+			<data genre="0" price="1" quality="50" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="2,2,6,1,23" news="16f06d3c-3d70-4cfc-8587-e83ef8b984cf" />
+			</effects>
+		</news>
+		<news guid="16f06d3c-3d70-4cfc-8587-e83ef8b984cf" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu} erschafft Wurmloch</de>
+				<en>${meiguwu} creates wormhole</en>
+				<pl>${meiguwu} tworzy tunel czasoprzestrzenny</pl>
+			</title>
+			<description>
+				<de>In einer Forschungseinrichtung in ${meiguwu} wurde versehentlich ein Wurmloch erzeugt. Es bestehe aber keine Gefahr für die Bevölkerung.</de>
+				<en>A wormhole has been accidentally created in a research facility in ${meiguwu}. There is no danger to the population, it is reported.</en>
+				<pl>W ośrodku badawczym w mieście ${meiguwu} przypadkowo utworzono tunel czasoprzestrzenny. Według raportu nie ma zagrożenia dla ludności.</pl>
+			</description>
+			<data genre="3" price="1" quality="40" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,8,13" news="dc2b7d43-72b0-4c50-b6b4-90c0619b1d59" />
+			</effects>
+		</news>
+		<news guid="dc2b7d43-72b0-4c50-b6b4-90c0619b1d59" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu}: Dämonen eingefangen</de>
+				<en>${meiguwu}: Demons captured</en>
+				<pl>${meiguwu}: Demony schwytane</pl>
+			</title>
+			<description>
+				<de>Aus dem Wurmloch in ${meiguwu} waren drei Dämonen geschlüpft. Sie konnten eingefangen werden. Es wird nochmal bekräftigt, es bestehe keine Gefahr für die Bevölkerung - oder das Raum-Zeit-Kontinuum.</de>
+				<en>Three demons had emerged from the wormhole in ${meiguwu}. They have been captured. It is confirmed once again that there is no danger to the population - or the space-time continuum.</en>
+				<pl>Trzy demony wyszły z tunelu czasoprzestrzennego w mieście ${meiguwu}. Po raz kolejny potwierdzono, że nie ma zagrożenia dla populacji - ani dla kontinuum czasoprzestrzennego.</pl>
+			</description>
+			<data genre="3" price="1" quality="45" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,5,8" news="f232dd43-8210-4a78-8aa5-24c08c03dd0e" />
+			</effects>
+		</news>
+		<news guid="f232dd43-8210-4a78-8aa5-24c08c03dd0e" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu}: Analyse der Dämonen</de>
+				<en>${meiguwu}: Analysis of the demons</en>
+				<pl>${meiguwu}: Analiza demonów</pl>
+			</title>
+			<description>
+				<de>Trotz der Proteste von Tierschutzvereinigungen werden Versuche an den Wurmloch-Dämonen unternommen, um neue wissenschaftliche und medizinische Erkenntnisse zu erlangen.</de>
+				<en>Despite protests from animal rights groups, experiments are being carried out on the wormhole demons in order to gain new scientific and medical knowledge.</en>
+				<pl>Pomimo protestów grup walczących o prawa zwierząt, eksperymenty na demonach z tuneli czasoprzestrzennych w celu zdobycia nowej wiedzy naukowej i medycznej są dalej przeprowadzane.</pl>
+			</description>
+			<data genre="3" price="1" quality="40" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,8,13" news="9836c671-fc9a-4c5c-b969-ae123d776a39" />
+			</effects>
+		</news>
+		<news guid="9836c671-fc9a-4c5c-b969-ae123d776a39" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu}: Krebsheilmittel gefunden</de>
+				<en>${meiguwu}: Cancer cure found</en>
+				<pl>${meiguwu}: Znaleziono lek na raka</pl>
+			</title>
+			<description>
+				<de>Dank der Forschungen an den Dämonen aus dem Wurmloch konnte herausgefunden werden, wie Krebs entsteht, und wie er geheilt werden kann. Auch das Problem des Alterns wurde damit gelöst.</de>
+				<en>Thanks to research on the demons from the wormhole, it has been possible to find out how cancer develops and how it can be cured. Thereby, the problem of ageing has also been solved.</en>
+				<pl>Dzięki badaniom nad demonami z tunelu czasoprzestrzennego udało się dowiedzieć, jak rozwija się rak i jak można go wyleczyć. W ten sposób rozwiązano również problem starzenia się.</pl>
+			</description>
+			<data genre="3" price="1" quality="45" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,5,8" news="0cbd0da3-da62-4280-9f7b-cb86060cf14e" />
+			</effects>
+		</news>
+		<news guid="0cbd0da3-da62-4280-9f7b-cb86060cf14e" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu}-Krebsheilmittel: Kein Export</de>
+				<en>${meiguwu} cancer cure: No export</en>
+				<pl>${meiguwu} lekarstwo na raka: Bez eksportu</pl>
+			</title>
+			<description>
+				<de>Bürokratische und patentrechtliche Gründe stehen im Weg, um die restliche Welt außerhalb von ${meiguwu} von Krebs zu heilen.</de>
+				<en>Bureaucratic and patent law reasons stand in the way of curing cancer in the rest of the world outside ${meiguwu}.</en>
+				<pl>Biurokracja i prawo patentowe stoją na drodze do wyleczenia raka w pozostałej części świata poza miastem ${meiguwu}.</pl>
+			</description>
+			<data genre="0" price="1" quality="55" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="2,2,6,1,23" news="987f4b7f-3575-437c-8b32-121e6690d5cd" />
+			</effects>
+		</news>
+		<news guid="987f4b7f-3575-437c-8b32-121e6690d5cd" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu}: Riesiges Wachstum</de>
+				<en>${meiguwu}: Huge growth</en>
+				<pl>${meiguwu}: Ogromny wzrost</pl>
+			</title>
+			<description>
+				<de>Nebenbei ist die Bevölkerung in ${meiguwu} inzwischen auf über ein Dutzend Milliarden Einwohner angestiegen, dank Unsterblichkeit, 13-Kinder-Politik, Arkologien und vertikal ausgedehnter Wolkenstädte.</de>
+				<en>Along the way, the population in ${meiguwu} has grown to over a dozen billion, thanks to immortality, a 13-child policy, arcologies and vertically expanded cloud cities.</en>
+				<pl>Po drodze populacja w mieście ${meiguwu} wzrosła do kilkunastu miliardów dzięki nieśmiertelności, polityce 13 dzieci, arkologiom i pionowo rozbudowanym miastom w chmurze.</pl>
+			</description>
+			<data genre="0" price="1" quality="45" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="2,2,6,1,23" news="1a5b7a64-7b7d-41f1-b5b1-0aa72b823e73" />
+			</effects>
+		</news>
+		<news guid="1a5b7a64-7b7d-41f1-b5b1-0aa72b823e73" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu} - ${srilanka} ${goalsfor}:${goalsagainst}</de>
+				<en>${meiguwu} ${goalsfor}-${goalsagainst} ${srilanka}</en>
+				<pl>${meiguwu} - ${srilanka} ${goalsfor}:${goalsagainst}</pl>
+			</title>
+			<description>
+				<de>Wo es noch nicht so läuft für ${meiguwu} ist der Fußball. Die Nationalmannschaft verliert in der Asien-Vor-Vor-Qualifikation haushoch gegen ${srilanka} und verbleibt auf dem letzten Platz der ${sports_fifa}-Weltrangliste.</de>
+				<en>Where things are not yet going so well for ${meiguwu} is soccer. The national team loses heavily to ${srilanka} in the Asian pre-pre-qualifiers and remains in last place in the ${sports_fifa} world rankings.</en>
+				<pl>Sprawy odnośnie piłki nożnej w mieście ${meiguwu} nie idą tak dobrze jak inne. Reprezentacja narodowa przegrywa wysoko z państwem ${srilanka} w azjatyckich pre-kwalifikacjach i pozostaje na ostatnim miejscu w światowym rankingu ${sports_fifa}.</pl>
+			</description>
+			<data genre="2" price="1" quality="35" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="2,2,6,1,23" news="99f71d0b-92a2-4869-88fb-93d4d1ce907f" />
+			</effects>
+		</news>
+		<news guid="99f71d0b-92a2-4869-88fb-93d4d1ce907f" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<all>${citizenslovetvtower}</all>
+			</title>
+			<description>
+				<all>${inhabitantspirating}</all>
+			</description>
+			<data genre="3" price="1" quality="45" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,5,8" news="52964ea8-07e7-4f61-b831-a420d20b7bb1" />
+			</effects>
+		</news>
+		<news guid="52964ea8-07e7-4f61-b831-a420d20b7bb1" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<all>${billionsnewviewers}</all>
+			</title>
+			<description>
+				<all>${allfinancialtroublessolved}</all>
+			</description>
+			<data genre="3" price="1" quality="40" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,5,8" news="e48a30a8-f013-46a5-9c00-6e051144e607" />
+			</effects>
+		</news>
+		<news guid="e48a30a8-f013-46a5-9c00-6e051144e607" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<all>${bossesflyto}</all>
+			</title>
+			<description>
+				<all>${bossesnegotiations}</all>
+			</description>
+			<data genre="3" price="1" quality="45" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,3,5" news="c3f150c9-d051-491d-bdeb-eaef20e44424" />
+			</effects>
+		</news>
+		<news guid="c3f150c9-d051-491d-bdeb-eaef20e44424" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<all>${stillavailable}</all>
+			</title>
+			<description>
+				<all>${atleastoneplayer}</all>
+			</description>
+			<data genre="3" price="1" quality="35" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,8,13" news="c27ee130-acb6-4946-83bf-7b03d2ae911b" />
+			</effects>
+		</news>
+		<news guid="c27ee130-acb6-4946-83bf-7b03d2ae911b" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<all>${negotiationsfailed}</all>
+			</title>
+			<description>
+				<all>${stillpirating}</all>
+			</description>
+			<data genre="3" price="1" quality="40" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="2,2,6,1,23" news="3ceb6695-7524-4b3f-8632-4746177a2267" />
+			</effects>
+		</news>
+		<news guid="3ceb6695-7524-4b3f-8632-4746177a2267" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu}-Star mit Pipé-Laho auf Tournee</de>
+				<en>${meiguwu} Star on Tour with Pipé-Laho</en>
+				<pl>${meiguwu} Gwiazda w trasie z Pipé-Laho</pl>
+			</title>
+			<description>
+				<de>Die aufsteigende Shamisen-RnB-Interpretin ${singerfirstname} ${singerlastname} aus ${meiguwu} ist mit der frankoindonesischen Pipé-Laho gerade auf der äußerst erfolgreichen „Glitzermorgensternchen aus Fernost“-Doppelheadliner-Welttournee.</de>
+				<en>The rising Shamisen-RnB performer ${singerfirstname} ${singerlastname} from ${meiguwu} is currently, with the French-Indonesian Pipé-Laho, on the extremely successful "Glittering Morning Stars from the Far East" double headliner world tour.</en>
+				<pl>Wschodzący wykonawca Shamisen-RnB ${singerfirstname} ${singerlastname} z ${meiguwu} jest obecnie, wraz z francusko-indonezyjskim Pipé-Laho, na niezwykle udanej światowej trasie koncertowej "Glittering Morning Stars from the Far East".</pl>
+			</description>
+			<data genre="1" price="1" quality="35" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="2,2,6,1,23" news="b0444aea-a0be-45d1-9d1f-4e8b3d553dbd" />
+			</effects>
+		</news>
+		<news guid="b0444aea-a0be-45d1-9d1f-4e8b3d553dbd" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu}: Verhältnis mit China schwierig</de>
+				<en>${meiguwu}: Difficult relationship with China</en>
+				<pl>${meiguwu}: Trudne relacje z Chinami</pl>
+			</title>
+			<description>
+				<de>Das Verhältnis mit dem großen Nachbarn sei weiterhin schwierig. Trotz Vorbildfunktion und vieler Gemeinsamkeiten in der frühen Entwicklung sei man neue Wege gegangen, die beim großen Bruder nicht gut ankommen.</de>
+				<en>The relationship with the big neighbor is still difficult. Despite the role model function and many similarities in early developments, new paths have been taken that have not gone down well with the big brother.</en>
+				<pl>Relacje z dużym sąsiadem są nadal trudne. Pomimo wzoru do naśladowania i wielu podobieństw we wczesnym rozwoju, obrano nowe ścieżki, które nie podobają się starszemu bratu.</pl>
+			</description>
+			<data genre="0" price="1" quality="40" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="2,2,6,1,23" news="1ef4b8b5-ccdc-4463-aa0c-5730dcab9053" />
+			</effects>
+		</news>
+		<news guid="1ef4b8b5-ccdc-4463-aa0c-5730dcab9053" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu}: ${teleportation} erfunden</de>
+				<en>${meiguwu}: Invention of ${teleportation}</en>
+				<pl>${meiguwu}: Wynalezienie wynalazku ${teleportation}</pl>
+			</title>
+			<description>
+				<de>Es war nur eine Frage der Zeit: In ${meiguwu} wurde die ${teleportation}stechnologie erfunden. ${citizenscannow}</de>
+				<en>It was only a matter of time: They invented ${teleportation} technology in ${meiguwu}. ${citizenscannow}</en>
+				<pl>To była tylko kwestia czasu:  W ${meiguwu} wynaleźli nową technologię. To ${teleportation}. ${citizenscannow}</pl>
+			</description>
+			<data genre="3" price="1" quality="50" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,5,8" news="96be6649-4d7e-4aa4-9c97-2239bf8af892" />
+			</effects>
+		</news>
+		<news guid="96be6649-4d7e-4aa4-9c97-2239bf8af892" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>Kein Export von ${teleportation}s-Tech</de>
+				<en>No export of ${teleportation} tech</en>
+				<pl>Brak możliwości eksportu nowej technologii</pl>
+			</title>
+			<description>
+				<de>Wieder bleibt der restlichen Welt die ${teleportation}-Technologie aus ${meiguwu} vorenthalten. Der Zoll ist eingeschritten. Wo kämen wir denn da hin, ${ifeveryonecould}?</de>
+				<en>Once again, the rest of the world is denied the ${teleportation} technology out of ${meiguwu}. Customs have intervened. Because where would we end up ${ifeveryonecould}?</en>
+				<pl>Po raz kolejny reszta świata została pozbawiona nowej technologii: ${teleportation} z miasta ${meiguwu}. Służby celne interweniowały. Bo gdzie byśmy skończyli ${ifeveryonecould}?</pl>
+			</description>
+			<data genre="0" price="1" quality="55" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="2,2,6,1,23" news="9a58b8e2-2cfc-4745-8651-4b5d3bace180" />
+			</effects>
+		</news>
+		<news guid="9a58b8e2-2cfc-4745-8651-4b5d3bace180" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu}: Intergalaktische Kommunikation</de>
+				<en>${meiguwu}: Intergalactic communication</en>
+				<pl>${meiguwu}: Komunikacja międzygalaktyczna</pl>
+			</title>
+			<description>
+				<de>Sensation aus ${meiguwu}: Man habe „den Code geknackt“ und Kontakt mit der Intergalaktischen Föderation aufgenommen. Man werde die Erde gebührlich repräsentieren, so dass wir uns für gewisse politische Führer nicht schämen müssen.</de>
+				<en>Sensation from ${meiguwu}: The "code has been cracked" and contact has been made with the Intergalactic Federation. Earth will be duly represented so that we need not be ashamed of certain political leaders.</en>
+				<pl>Sensacja od miasta ${meiguwu}: "Kod został złamany" i nawiązano kontakt z Federacją Międzygalaktyczną. Ziemia będzie należycie reprezentowana, więc nie musimy się wstydzić niektórych przywódców politycznych.</pl>
+			</description>
+			<data genre="0" price="1" quality="55" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,5,8" news="d4573d1d-cac4-43ec-a9b7-80920bff03f4" />
+			</effects>
+		</news>
+		<news guid="d4573d1d-cac4-43ec-a9b7-80920bff03f4" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>Galaktisches Internet in Hintergrundstrahlung</de>
+				<en>Galactic Internet in background radiation</en>
+				<pl>Galaktyczny Internet w promieniowaniu tła</pl>
+			</title>
+			<description>
+				<de>Ein Physiker aus ${meiguwu} erklärt: das intergalaktische Kommunikationsnetz ist mit hoher Entropie kodierter Bestandteil der kosmischen Hintergrundstrahlung. Somit finden es nur Zivilisationen, die reif dafür sind. Netter Nebeneffekt.</de>
+				<en>A physicist from ${meiguwu} explains: the intergalactic communication network is a high-entropy encoded component of the cosmic background radiation. So only civilizations that are ripe for it can find it. Nice side effect.</en>
+				<pl>Fizyk z ${meiguwu} wyjaśnia: międzygalaktyczna sieć komunikacyjna jest zakodowanym składnikiem kosmicznego promieniowania tła o wysokiej entropii. Więc tylko cywilizacje, które są na to gotowe, mogą ją znaleźć. Miły efekt uboczny.</pl>
+			</description>
+			<data genre="3" price="1" quality="50" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,8,13" news="a594c054-05b9-42fe-9c00-c05567d48210" />
+			</effects>
+		</news>
+		<news guid="a594c054-05b9-42fe-9c00-c05567d48210" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu}: Fermi-Paradoxon geklärt?</de>
+				<en>${meiguwu}: Fermi paradox solved?</en>
+				<pl>${meiguwu}: Paradoks Fermiego rozwiązany?</pl>
+			</title>
+			<description>
+				<de>Forscher aus ${meiguwu} verraten: Die Erde ist zu abgelegen. Außer vereinzelten Abenteurern oder Banditen verirrten sich bisher nur wenige Außerirdische auf die Erde.</de>
+				<en>Researchers from ${meiguwu} reveal: Earth is too remote. Apart from the occasional adventurer or bandit, only a few aliens have ever strayed to Earth.</en>
+				<pl>Naukowcy z ${meiguwu} ujawniają: Ziemia jest zbyt odległa. Poza okazjonalnymi poszukiwaczami przygód lub bandytami, tylko kilku kosmitów kiedykolwiek zawędrowało na Ziemię.</pl>
+			</description>
+			<data genre="3" price="1" quality="45" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,21,34" news="2ee2ce80-de37-4edc-9ccf-431368b22929" />
+			</effects>
+		</news>
+		<news guid="2ee2ce80-de37-4edc-9ccf-431368b22929" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu}-Festspiele in ${festivitytown}</de>
+				<en>${meiguwu}-festivities in ${festivitytown}</en>
+				<pl>${meiguwu}-uroczystości w ${festivitytown}</pl>
+			</title>
+			<description>
+				<de>Die Entwicklungen in ${meiguwu} haben viele Menschen inspiriert, Fantasien beflügelt und Sehnsüchte erweckt, so auch in ${festivitytown}, wo Festspielwochen stattfinden, rund um einen Nachbau des Nachbaus des Eiffelturms.</de>
+				<en>The developments in ${meiguwu} have inspired many people, sparked imaginations and awakened longings, including in ${festivitytown}, where festival weeks are held around a replica of the replica of the Eiffel Tower.</en>
+				<pl>Rozwój w mieście ${meiguwu} zainspirował wielu ludzi, pobudził wyobraźnię i rozbudził tęsknoty, w tym w mieście ${festivitytown}, gdzie tygodnie festiwalowe odbywają się wokół repliki wieży Eiffla.</pl>
+			</description>
+			<data genre="5" price="1" quality="50" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="2,2,6,1,23" news="9333f55b-d0af-4e79-9481-bcb7a49c7b26" />
+			</effects>
+		</news>
+		<news guid="9333f55b-d0af-4e79-9481-bcb7a49c7b26" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>TVTower plant ${meiguwu}-Doku</de>
+				<en>TVTower plans ${meiguwu} documentary</en>
+				<pl>TVTower planuje film dokumentalny o mieście ${meiguwu}</pl>
+			</title>
+			<description>
+				<de>Die außergewöhnlichen Entwicklungen in ${meiguwu} sind ja nicht zu ignorieren. Der TVTower-Drehbuchschreiber arbeitet an einer Doku.</de>
+				<en>The extraordinary developments in ${meiguwu} are impossible to ignore after all. The TVTower screenwriter is working on a documentary.</en>
+				<pl>Niezwykły rozwój sytuacji w mieście ${meiguwu} jest niemożliwy do zignorowania. Scenarzysta TVTower pracuje nad filmem dokumentalnym.</pl>
+			</description>
+			<data genre="5" price="1" quality="45" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,8,13" news="5f54dfcd-59ce-40c3-86e1-461f19058dfe" />
+			</effects>
+		</news>
+		<news guid="5f54dfcd-59ce-40c3-86e1-461f19058dfe" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu}-Doku konfisziert</de>
+				<en>${meiguwu} documentary confiscated</en>
+				<pl>${meiguwu} dokument skonfiskowany</pl>
+			</title>
+			<description>
+				<de>Der Drehbuchschreiber im bekannten TVTower hatte eine Doku über ${meiguwu} fertig und wollte sie gerade den ansässigen Produzenten anbieten, als der Gerichtsvollzieher auftauchte und sie konfiszierte, „aus Gründen der nationalen Sicherheit“.</de>
+				<en>The screenwriter in the famous TVTower had finished a documentary about ${meiguwu} and was just about to offer it to the local producers when the bailiff turned up and confiscated it, "for reasons of national security".</en>
+				<pl>Scenarzysta w słynnej TVTower ukończył film dokumentalny o mieście ${meiguwu} i właśnie miał go zaoferować lokalnym producentom, gdy pojawił się komornik i skonfiskował go "ze względów bezpieczeństwa narodowego".</pl>
+			</description>
+			<data genre="0" price="1" quality="50" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,8,13" news="cea427d6-4af5-4923-9a3c-31a4403d7d0a" />
+			</effects>
+		</news>
+		<news guid="cea427d6-4af5-4923-9a3c-31a4403d7d0a" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>Kriegserklärung an ${meiguwu}</de>
+				<en>Declaration of war on ${meiguwu}</en>
+				<pl>Wypowiedzenie wojny miastu ${meiguwu}</pl>
+			</title>
+			<description>
+				<de>Die Ereignisse haben sich schnell überschlagen: Politiker hierzulande und aus den größten westlichen Ländern haben ${meiguwu} den Krieg erklärt, da sie bei der Kommunikation mit der Intergalaktischen Föderation außen vor gelassen würden.</de>
+				<en>The events escalated quickly: politicians in this country and from the largest Western nations declared war on ${meiguwu} because they were being left out of communication with the Intergalactic federation.</en>
+				<pl>Wydarzenia szybko eskalowały: politycy w tym kraju i z największych zachodnich narodów wypowiedzieli wojnę miastu ${meiguwu}, ponieważ zostali pominięci w komunikacji z federacją międzygalaktyczną.</pl>
+			</description>
+			<data genre="0" price="1" quality="55" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,8,13" news="0c0dcb56-4110-43f9-af11-b0584b19aa3e" />
+			</effects>
+		</news>
+		<news guid="0c0dcb56-4110-43f9-af11-b0584b19aa3e" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>Proteste nach Kriegserklärung</de>
+				<en>Protests after declaration of war</en>
+				<pl>Protesty po wypowiedzeniu wojny</pl>
+			</title>
+			<description>
+				<de>Weltweit gehen die Menschen auf die Straße. Aus ${meiguwu} selbst kommen beruhigende Stimmen: Die Erdbevölkerung habe nichts zu befürchten, man habe diese hitzigen Kindsköpfe und deren primitive Waffentechnologie schon im Griff.</de>
+				<en>People around the world are taking to the streets. Calming voices are emerging from ${meiguwu} itself: The earth's population has nothing to fear, these hot-headed childish minds and their primitive weapons technology are already in check.</en>
+				<pl>Ludzie na całym świecie wychodzą na ulice. Uspokajające głosy pojawiają się z samego miasta ${meiguwu}: Populacja Ziemi nie ma się czego obawiać, te gorące, dziecinne umysły i ich prymitywna technologia zbrojeniowa są już pod kontrolą.</pl>
+			</description>
+			<data genre="0" price="1" quality="45" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,8,13" news="882d9cda-da92-41d7-b62c-e7d2aa5520bc" />
+			</effects>
+		</news>
+		<news guid="882d9cda-da92-41d7-b62c-e7d2aa5520bc" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>Reaktion aus ${meiguwu}</de>
+				<en>Response from ${meiguwu}</en>
+				<pl>Odpowiedź z miasta ${meiguwu}</pl>
+			</title>
+			<description>
+				<de>Die Reaktion aus ${meiguwu} auf die Kriegserklärung klingt ungewöhnlich lakonisch. Niemand würde „außen vor gelassen“, jeder könne mit der Intergalaktischen Föderation kommunizieren, wenn man nicht zu dumm dafür sei.</de>
+				<en>The reaction from ${meiguwu} to the declaration of war sounds unusually laconic. No one would be "left out", anyone could communicate with the Intergalactic federation if they weren't too stupid to do so.</en>
+				<pl>Reakcja ${meiguwu} na wypowiedzenie wojny brzmi niezwykle lakonicznie. Nikt nie zostałby "pominięty", każdy mógłby komunikować się z Federacją Międzygalaktyczną, jeśli nie byłby na to zbyt głupi.</pl>
+			</description>
+			<data genre="0" price="1" quality="50" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,21,34" news="2bdb2031-249d-4ace-bce1-277bce95679b" />
+			</effects>
+		</news>
+		<news guid="2bdb2031-249d-4ace-bce1-277bce95679b" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu} verschwunden?</de>
+				<en>${meiguwu} disappeared?</en>
+				<pl>${meiguwu} zniknęło?</pl>
+			</title>
+			<description>
+				<de>Der Flugzeugträger U.S.S. Freedom wollte ${meiguwu} auf die Pelle rücken, doch dort, wo die Nation laut Karte hätte sein sollen, fand man lediglich einen leeren Fleck in der Landschaft vor.</de>
+				<en>The aircraft carrier U.S.S. Freedom was about to move in on ${meiguwu}, but where the nation was supposed to be according to the map, all they found was an empty spot in the landscape.</en>
+				<pl>Lotniskowiec U.S.S. Freedom miał się zbliżyć do miasta ${meiguwu}, ale w miejscu, w którym według mapy miał znajdować się naród, znaleźli tylko puste miejsce w krajobrazie.</pl>
+			</description>
+			<data genre="0" price="1" quality="55" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="1,21,34" news="cf285c2e-9b5e-4893-ab78-269e053c3f08" />
+			</effects>
+		</news>
+		<news guid="cf285c2e-9b5e-4893-ab78-269e053c3f08" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu} nun ${onvenus}?</de>
+				<en>${meiguwu} now ${onvenus}?</en>
+				<pl>${meiguwu} teraz ${onvenus}?</pl>
+			</title>
+			<description>
+				<de>Unbestätigten Augenzeugenberichten zufolge befindet ${meiguwu} sich nun ${ontherapidlytransformedvenus}. Der Kontakt stünde weiterhin allen offen, die reinen Herzens sind. Na dann sind sie wohl in Sicherheit.</de>
+				<en>According to unconfirmed eyewitness reports, ${meiguwu} is now ${ontherapidlytransformedvenus}. Contact would still be open to all who are pure of heart. Well then, seems they're on the safe side.</en>
+				<pl>Według niepotwierdzonych doniesień naocznych świadków, ${meiguwu} to teraz ${ontherapidlytransformedvenus}. Kontakt będzie nadal otwarty dla wszystkich, którzy mają czyste serca. Wygląda na to, że są po bezpiecznej stronie.</pl>
+			</description>
+			<data genre="0" price="1" quality="45" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="2,8,9,1,23" news="0a3b82a1-e581-4174-a9bd-4581989bb817" />
+			</effects>
+		</news>
+		<news guid="0a3b82a1-e581-4174-a9bd-4581989bb817" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551" comment="TODO: The Bach as in Bachblüten is actually a name, maybe spoof">
+			<title>
+				<de>${meiguwu}-Festspiele zusammengelegt</de>
+				<en>${meiguwu}-festivities merged</en>
+				<pl>Połączono festiwale w mieście ${meiguwu}</pl>
+			</title>
+			<description>
+				<de>Wie letztes Jahr finden wieder die ${meiguwu}-Festspiele statt, diesmal in ${festivitytownatlantis}, und werden fortan in die Atlantis-, Mu-, Bachblüten-, Astrologie- und Esoterik-Wochen integriert.</de>
+				<en>Like last year, the ${meiguwu} festival will take place again, this time in ${festivitytownatlantis}, and will from now on be integrated into the Atlantis, Mu, Bach Flower, Astrology and Esotericism Weeks.</en>
+				<pl>Podobnie jak w zeszłym roku, festiwal ${meiguwu} odbędzie się ponownie, tym razem w mieście ${festivitytownatlantis}, i od teraz będzie zintegrowany z Tygodniami Atlantydy, Mu, Kwiatów Bacha, Astrologii i Ezoteryki.</pl>
+			</description>
+			<data genre="5" price="1" quality="55" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="2,2,6,1,23" news="02763d5d-89cd-40e2-9d2a-4056e648c59b" />
+			</effects>
+		</news>
+		<news guid="02763d5d-89cd-40e2-9d2a-4056e648c59b" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu}-Kult-Anführer verhaftet</de>
+				<en>${meiguwu} cult leader arrested</en>
+				<pl>Przywódca kultu ${meiguwu} aresztowany</pl>
+			</title>
+			<description>
+				<de>Ein Mann, der seit mehreren Jahren in ${festivitytownatlantis} lebte, schwärmte von einer vergessenen Zivilisation namens ${meiguwu} und zog eine kleine Anhängerschaft an. Er wurde wegen Betrugs und ordnungswidrigen Verhaltens verhaftet.</de>
+				<en>A man who had been living in ${festivitytownatlantis} for several years was raving about a forgotten civilization by the name of ${meiguwu} and attracted a small following. He was arrested for fraud and disorderly conduct.</en>
+				<pl>Mężczyzna, który mieszkał w mieście ${festivitytownatlantis} przez kilka lat, opowiadał o zapomnianej cywilizacji o nazwie ${meiguwu} i przyciągnął niewielką rzeszę zwolenników. Został aresztowany za oszustwo i zakłócanie porządku.</pl>
+			</description>
+			<data genre="4" price="1" quality="35" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="2,2,6,1,23" news="addaf70f-4452-4190-aa57-26abd6af0af9" />
+			</effects>
+		</news>
+		<news guid="addaf70f-4452-4190-aa57-26abd6af0af9" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>${meiguwu} nur Mythos</de>
+				<en>${meiguwu} only a myth</en>
+				<pl>${meiguwu} to tylko mit</pl>
+			</title>
+			<description>
+				<de>Der Innenminister erinnert erneut, dass ${meiguwu} nur eine Legende sei, ein Mythos, hat nie existiert. Diejenigen Verrückten, die immer noch dran glauben, sollen sich umgehend zum Blitzdingsen melden.</de>
+				<en>The Minister of the Interior reiterates again that ${meiguwu} is just a legend, a myth, it never existed. All those lunatics who still believe in it are to report immediately to be flashy-thinged.</en>
+				<pl>Minister spraw wewnętrznych ponownie powtarza, że miasto ${meiguwu} to tylko legenda, mit, który nigdy nie istniał. Wszyscy ci szaleńcy, którzy nadal w to wierzą, mają natychmiast zgłosić się do flashy-thingu.</pl>
+			</description>
+			<data genre="0" price="1" quality="55" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="triggernews" time="2,2,6,1,23" news="94e3c0e8-7648-4986-9add-5e24da9b2d6e" />
+			</effects>
+		</news>
+		<news guid="94e3c0e8-7648-4986-9add-5e24da9b2d6e" type="2" thread_guid="48feebb0-4ef2-419b-8342-aa6376a4f246" creator="9551">
+			<title>
+				<de>Romanbestseller: „Das verlorene ${meiguwu}“</de>
+				<en>Bestselling novel: "Lost Realm of ${meiguwu}"</en>
+				<pl>Bestsellerowa powieść: "Zaginione miasto ${meiguwu}".</pl>
+			</title>
+			<description>
+				<de>Der SciFi-Thriller erzählt eine (laut Kritikern weit hergeholte) Geschichte über eine hochtechnologisierte Fernost-Region, die schließlich die Welt politisch dominierte und dann entschwand. Augenzeugen verschwanden oder wurden diskreditiert.</de>
+				<en>The sci-fi thriller tells a (far-fetched, according to critics) story about a high-tech Far Eastern region that eventually dominated the world politically and then disappeared. Eyewitnesses disappeared or were discredited.</en>
+				<pl>Thriller science-fiction opowiada (według krytyków naciąganą) historię o zaawansowanym technologicznie regionie Dalekiego Wschodu, który ostatecznie zdominował świat politycznie, a następnie zniknął. Naoczni świadkowie zniknęli lub zostali zdyskredytowani.</pl>
+			</description>
+			<data genre="5" price="1" quality="45" fictional="1" />
+		</news>
+	</allnews>
+</tvtdb>
