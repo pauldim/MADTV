@@ -1,4 +1,4 @@
-dist_id;Distillery;Location;Region;Founded;Owner;Number wash stills;WSCapacity ;Number mid stills;MS Capacity ;Number spirit stills;SSCapacity ;Number column stills;CSCapacity ;Production;Water source;Cask type;Status;Type;Product Info;Country
+ï»¿dist_id;Distillery;Location;Region;Founded;Owner;Number wash stills;WSCapacity ;Number mid stills;MS Capacity ;Number spirit stills;SSCapacity ;Number column stills;CSCapacity ;Production;Water source;Cask type;Status;Type;Product Info;Country
 1;Aberargie;Aberargie;Lowland;2017;Perth Distilling Co;?;?;?;?;?;?;X;X;?;?;?;Operational;Malt whisky;;Scotland
 2;Aberfeldy;Aberfeldy;Highland;1896;John Dewar & Sons;2;?;X;X;2;?;X;X;3 500 000;Pitilie Burn;American White Oak, Ex-Bourbon Casks (Main);Operational;Malt whisky;;Scotland
 3;Aberlour;Aberlour;Speyside;1879;Chivas Brothers;2;21310;X;X;2;"20000; 15456";X;X;3 900 000;Birkenbush, Target spring;?;Operational;Malt whisky;;Scotland
@@ -34,7 +34,7 @@ dist_id;Distillery;Location;Region;Founded;Owner;Number wash stills;WSCapacity ;
 Sherry (14%)";Operational;Malt whisky;"Legend; 12-year-old; 15-year-old; 18-year-old; 25-year-old";Scotland
 33;Braeval;Ballindalloch;Speyside;1973;Chivas Brothers;2;?;X;X;4;?;X;X;4 200 000;Preenie & Kate's Well (distilling), Pitilie Burn (cooling water);?;Operational;Malt whisky;;Scotland
 34;Brora;Brora;Highland;1819;Diageo;1;13 500;X;X;1;13 500;X;X;?;Clynemilton Burn;?;Operational;Malt whisky;;Scotland
-35;Bruichladdich;Rhinns of Islay;Islay;1881;Rémy Cointreau;2;12000;1;adjustable;2;11000;X;X;1 500 000;Bruichladdich loch (mash), burn (cooling), and Octomore spring (bottling);?;Operational;Malt whisky;;Scotland
+35;Bruichladdich;Rhinns of Islay;Islay;1881;RÃ©my Cointreau;2;12000;1;adjustable;2;11000;X;X;1 500 000;Bruichladdich loch (mash), burn (cooling), and Octomore spring (bottling);?;Operational;Malt whisky;;Scotland
 36;Bunnahabhain;Port Askaig;Islay;1881;Distell;2;30 000;X;X;2;15 000;X;X;3 500 000;Margadale River;?;Operational;Malt whisky;;Scotland
 37;Burn O'Bennie;Banchory;Highland;2021;Deeside Brewery & Distillery Ltd.;?;?;?;?;?;?;X;X;?;?;?;Operational;Malt whisky;;Scotland
 38;Cabrach;Cabrach;Speyside;2024;The Cabrach Trust;?;?;?;?;?;?;X;X;?;?;?;Operational;Malt whisky;;Scotland
@@ -89,13 +89,13 @@ Loch nan Eun form the White Burn";?;Operational;Malt whisky;;Scotland
 85;Glenturret;Crieff;Highland;1763;Lalique Group;1;?;X;X;1;?;X;X;340 000;Loch Turret in Glenturret;Oak;Operational;Malt whisky;The Glenturret;Scotland
 86;GlenWyvis;Dingwall;Highland;2015;GlenWyvis Distillery Ltd.;2;?;X;X;2;?;X;X;?;?;"European Sherry Hogshead, American Oak Refill Hogshead, American Standard Barrel, European Sherry Quarter
 European Sherry Firki";Operational;Malt whisky;;Scotland
-87;Harris;Tarbert;Island;2015;Isle of Harris Distillers Ltd.;1;?;X;X;1;?;X;X;230 000;Abhainn Cnoc a’Charrainn;?;Operational;Malt whisky;;Scotland
+87;Harris;Tarbert;Island;2015;Isle of Harris Distillers Ltd.;1;?;X;X;1;?;X;X;230 000;Abhainn Cnoc aâ€™Charrainn;?;Operational;Malt whisky;;Scotland
 88;Highland Park;Kirkwall;Island;1798;Edrington;2;?;X;X;2;?;X;X;2 500 000;?;?;Operational;Malt whisky;;Scotland
 89;Holyrood;Edinburgh;Lowland;2019;David Robertson;1;?;X;X;1;?;X;X;53 000;?;?;Operational;Malt whisky;;Scotland
 90;Inchdairnie;Glenrothes;Lowland;2015;John Fergus & Co.;1;?;X;x;1;?;X;X;2 000 000;?;Flowers of May and Goathill springs;Operational;Malt whisky;;Scotland
 91;Inchgower;Buckie;Speyside;1871;Diageo;2;?;X;X;2;?;X;X;1 990 000;Menduff Hills springs;?;Operational;Malt whisky;;Scotland
 92;Jackton;Jackton;Lowland;2020;RAER Spirits;;;;;;;X;X;;;?;Operational;Malt whisky;;Scotland
-93;Jura;Craighouse, Jura;Island;1810;Whyte & Mackay;2;24 500;X;X;2;15 500;X;X;2 500 000;Loch a’Bhaile Mhargaidh;?;Operational;Malt whisky;;Scotland
+93;Jura;Craighouse, Jura;Island;1810;Whyte & Mackay;2;24 500;X;X;2;15 500;X;X;2 500 000;Loch aâ€™Bhaile Mhargaidh;?;Operational;Malt whisky;;Scotland
 94;Kilchoman;Kilchoman;Islay;2005;Kilchoman Distillery Company;2;?;X;X;2;?;X;X;500 000;Small dam close to distillery;?;Operational;Malt whisky;3 Years 5 Years 8 Years 10 Years 11 Years;Scotland
 95;Kingsbarns;Kingsbarns;Lowland;2014;The Kingsbarns Company of Distillers;1;?;X;X;1;?;X;X;200 000;Borehole;?;Operational;Malt whisky;;Scotland
 96;Kininvie;Dufftown;Speyside;1990;William Grant & Sons;3;?;X;X;6;?;X;X;?;Conval Hills;?;Operational;Malt whisky;;Scotland
@@ -116,7 +116,7 @@ European Sherry Firki";Operational;Malt whisky;;Scotland
 111;Mannochmore;Elgin;Speyside;1971;Diageo;3;14 400;X;X;3;17 000;X;X;3 200 000;Bardon Burn;?;Operational;Malt whisky;;Scotland
 112;Miltonduff;Elgin;Speyside;1824;Chivas Brothers;3;18 000;X;X;3;18 000;X;X;5 800 000;Local spring;?;Operational;Malt whisky;;Scotland
 113;Mortlach;Dufftown;Speyside;1823;Diageo;3;?;X;X;3;?;X;X;3 700 000;Dykehead Catsvraig;?;Operational;Malt whisky;;Scotland
-114;Nc’nean;Lochlaline;Highland;2017;Drimnin Distillery Company;1;?;X;X;1;?;X;X;?;?;?;Operational;Malt whisky;;Scotland
+114;Ncâ€™nean;Lochlaline;Highland;2017;Drimnin Distillery Company;1;?;X;X;1;?;X;X;?;?;?;Operational;Malt whisky;;Scotland
 115;North Uist;Benbecula;Island;2024;North Uist Distillery Company;?;?;?;?;?;?;X;X;?;?;?;Operational;Malt whisky;;Scotland
 116;Oban;Oban;Highland;1794;Diageo;1;?;X;X;1;?;X;X;670 000;Two lochs in Ardconnel;?;Operational;Malt whisky;;Scotland
 117;Port Ellen;Port Ellen;Islay;1825;Diageo;2;?;X;X;2;?;X;X;2 700 000;Leorin Lochs;?;Operational;Malt whisky;;Scotland
@@ -147,7 +147,7 @@ European Sherry Firki";Operational;Malt whisky;;Scotland
 142;Tullibardine;Blackford;Highland;1949;Picard Vins & Spiritueux;2;?;X;X;2;?;X;X;2 700 000;Ochil Hills, Danny Burn;?;Operational;Malt whisky;;Scotland
 143;Uile-bheist;Inverness;Highland;2023;Victoria and John Erasmus;?;?;?;?;?;?;X;X;?;?;?;Operational;Malt whisky;;Scotland
 144;Wolfburn;Thurso;Highland;1822;Aurora Brewing;1;?;X;X;1;?;X;X;125 000;Wolf Burn;American Oak Bourbon, Oak Quarter Cask, Bourbon Hogsheads, Oloroso sherry;Operational;Malt whisky;;Scotland
-145;8 Doors;John O’Groats;Highland;2022;Kerry and Derek Campbell;?;?;?;?;?;?;X;X;?;?;?;Operational;Malt whisky;;Scotland
+145;8 Doors;John Oâ€™Groats;Highland;2022;Kerry and Derek Campbell;?;?;?;?;?;?;X;X;?;?;?;Operational;Malt whisky;;Scotland
 146;Cameronbridge;Fife;?;1824;Diageo;X;X;X;X;X;X;3;?;136 000 000;River Leven;?;Operational;Grain whisky;;Scotland
 147;Girvan;Girvan;?;1963;William Grant & Sons;X;X;X;X;X;X;5;?;115 000 000;River Girvan;?;Operational;Grain whisky;;Scotland
 148;Invergordon;Easter Ross;?;1959;Whyte & Mackay;X;X;X;X;X;X;3 Coffey;?;36 000 000; Loch Glass;?;Operational;Grain whisky;3 coffey stills;Scotland
