@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tvtdb>
+	<version value="3" />
+	<allachievements>
+		<achievement guid="tvt-gameachievement-audience1" creator="5578" created_by="Ronny">
+			<title>
+				<de>Lokalsender</de>
+				<en>Regional broadcaster</en>
+				<pl>Nadawca regionalny</pl>
+			</title>
+			<!-- kein Text = automatisches Generieren aus Aufgabentext + Belohnung -->
+			<text />
+			<tasks>
+				<task guid="tvt-gameachievement-task-audience1" creator="5578" created_by="Ronny">
+					<title>
+						<de>Erreiche 250.000 Zuschauer</de>
+						<en>Reach an audience of 250,000</en>
+						<pl>Dotarcie do 250 000 odbiorców</pl>
+					</title>
+					<text>
+						<de>Strahle ein Programm aus und erreiche damit mindestens 250.000 Zuschauer.</de>
+						<en>Broadcast a programme and reach an audience of at least 250.000.</en>
+						<pl>Nadawanie programu i dotarcie do co najmniej 250 000 widzów.</pl>
+					</text>
+					<data type="reachAudience" minAudienceAbsolute="250000" checkMinute="5" />
+				</task>
+			</tasks>
+			<rewards>
+				<reward guid="tvt-gameachievement-reward-audience1" creator="5578" created_by="Ronny">
+					<!-- kein Titel und es wird der Belohnungsinterne Text genommen -->
+					<title />
+					<text />
+					<data type="money" money="75000" />
+				</reward>
+			</rewards>
+			<!-- flags = 0. "0" fuer "keine Besonderheiten" -->
+			<data flags="0" group="1" category="1" index="1" sprite_finished="gfx_datasheet_achievement_img_level1" sprite_unfinished="gfx_datasheet_achievement_img_level0" />
+		</achievement>
+		<achievement guid="tvt-gameachievement-audience2" creator="5578" created_by="Ronny">
+			<title>
+				<de>Sender auf Überholspur</de>
+				<en>Broadcaster in the fast lane</en>
+				<pl>Nadawca na pasie szybkiego ruchu</pl>
+			</title>
+			<!-- kein Text = automatisches Generieren aus Aufgabentext + Belohnung -->
+			<text />
+			<tasks>
+				<task guid="tvt-gameachievement-task-audience2" creator="5578" created_by="Ronny">
+					<title>
+						<de>Erreiche 2,5 Millionen Zuschauer</de>
+						<en>Reach an audience of 2.5 million</en>
+						<pl>Dotarcie do 2,5 miliona odbiorców</pl>
+					</title>
+					<text>
+						<de>Strahle ein Programm aus und erreiche damit mindestens 2,5 Millionen Zuschauer.</de>
+						<en>Broadcast a programme and reach an audience of at least 2.5 million.</en>
+						<pl>Nadawanie programu i dotarcie do co najmniej 2,5 miliona widzów.</pl>
+					</text>
+					<data type="reachAudience" minAudienceAbsolute="2500000" checkMinute="5" />
+				</task>
+			</tasks>
+			<rewards>
+				<reward guid="tvt-gameachievement-reward-audience2" creator="5578" created_by="Ronny">
+					<!-- kein Titel und es wird der Belohnungsinterne Text genommen -->
+					<title />
+					<text />
+					<data type="money" money="200000" />
+				</reward>
+			</rewards>
+			<!-- flags = 0. "0" fuer "keine Besonderheiten" -->
+			<data flags="0" group="1" category="1" index="2" sprite_finished="gfx_datasheet_achievement_img_level2" sprite_unfinished="gfx_datasheet_achievement_img_level0" />
+		</achievement>
+		<achievement guid="tvt-gameachievement-audience3" creator="5578" created_by="Ronny">
+			<title>
+				<de>Man kennt uns</de>
+				<en>They know us</en>
+				<pl>Oni nas znają</pl>
+			</title>
+			<!-- kein Text = automatisches Generieren aus Aufgabentext + Belohnung -->
+			<text />
+			<tasks>
+				<task guid="tvt-gameachievement-task-audience3" creator="5578" created_by="Ronny">
+					<title>
+						<de>Erreiche 10 Millionen Zuschauer</de>
+						<en>Reach an audience of 10 million</en>
+						<pl>Dotarcie do 10 milionów odbiorców</pl>
+					</title>
+					<text>
+						<de>Strahle ein Programm aus und erreiche damit mindestens 10 Millionen Zuschauer.</de>
+						<en>Broadcast a programme and reach an audience of at least 10 million.</en>
+						<pl>Nadawanie programu i dotarcie do co najmniej 10 milionów widzów.</pl>
+					</text>
+					<data type="reachAudience" minAudienceAbsolute="10000000" checkMinute="5" />
+				</task>
+			</tasks>
+			<rewards>
+				<reward guid="tvt-gameachievement-reward-audience3" creator="5578" created_by="Ronny">
+					<!-- kein Titel und es wird der Belohnungsinterne Text genommen -->
+					<title />
+					<text />
+					<data type="money" money="500000" />
+				</reward>
+			</rewards>
+			<!-- flags = 0. "0" fuer "keine Besonderheiten" -->
+			<data flags="0" group="1" category="1" index="3" sprite_finished="gfx_datasheet_achievement_img_level3" sprite_unfinished="gfx_datasheet_achievement_img_level0" />
+		</achievement>
+		<achievement guid="tvt-gameachievement-newsaudience1" creator="5578" created_by="Ronny">
+			<title>
+				<de>Wald- und Wiesenjournalismus</de>
+				<en>Everyday journalism</en>
+				<pl>Codzienne dziennikarstwo</pl>
+			</title>
+			<!-- kein Text = automatisches Generieren aus Aufgabentext + Belohnung -->
+			<text />
+			<tasks>
+				<task guid="tvt-gameachievement-task-newsaudience1" creator="5578" created_by="Ronny">
+					<title>
+						<de>Erreiche 150.000 Zuschauer mit Nachrichten</de>
+						<en>Reach an audience of 150.000 with a news show</en>
+						<pl>Dotarcie z programem informacyjnym do 150 000 widzów</pl>
+					</title>
+					<text>
+						<de>Strahle eine Nachrichtensendung aus und erreiche damit mindestens 150.000 Zuschauer.</de>
+						<en>Broadcast a news show and reach an audience of at least 150.000.</en>
+						<pl>Nadawanie programu informacyjnego i dotarcie do co najmniej 150 000 widzów.</pl>
+					</text>
+					<data type="reachAudience" minAudienceAbsolute="150000" checkMinute="0" />
+				</task>
+			</tasks>
+			<rewards>
+				<reward guid="tvt-gameachievement-reward-newsaudience1" creator="5578" created_by="Ronny">
+					<!-- kein Titel und es wird der Belohnungsinterne Text genommen -->
+					<title />
+					<text />
+					<data type="money" money="50000" />
+				</reward>
+			</rewards>
+			<!-- flags = 0. "0" fuer "keine Besonderheiten" -->
+			<data flags="0" group="2" category="2" index="1" sprite_finished="gfx_datasheet_achievement_img_level1" sprite_unfinished="gfx_datasheet_achievement_img_level0" />
+		</achievement>
+		<achievement guid="tvt-gameachievement-newsaudience2" creator="5578" created_by="Ronny">
+			<title>
+				<de>Lokaljournalismus</de>
+				<en>Regional journalism</en>
+				<pl>Dziennikarstwo regionalne</pl>
+			</title>
+			<!-- kein Text = automatisches Generieren aus Aufgabentext + Belohnung -->
+			<text />
+			<tasks>
+				<task guid="tvt-gameachievement-task-newsaudience2" creator="5578" created_by="Ronny">
+					<title>
+						<de>Erreiche 1 Million Zuschauer mit Nachrichten</de>
+						<en>Reach an audience of 1 million with a news broadcast</en>
+						<pl>Dotarcie z wiadomościami do 1 miliona odbiorców</pl>
+					</title>
+					<text>
+						<de>Strahle eine Nachrichtensendung aus und erreiche damit mindestens 1 Million Zuschauer.</de>
+						<en>Broadcast news and reach an audience of at least 1 million.</en>
+						<pl>Nadawanie wiadomości i docieranie do co najmniej 1 miliona odbiorców.</pl>
+					</text>
+					<data type="reachAudience" minAudienceAbsolute="1000000" checkMinute="0" />
+				</task>
+			</tasks>
+			<rewards>
+				<reward guid="tvt-gameachievement-reward-newsaudience2" creator="5578" created_by="Ronny">
+					<!-- kein Titel und es wird der Belohnungsinterne Text genommen -->
+					<title />
+					<text />
+					<data type="money" money="100000" />
+				</reward>
+			</rewards>
+			<!-- flags = 0. "0" fuer "keine Besonderheiten" -->
+			<data flags="0" group="2" category="2" index="2" sprite_finished="gfx_datasheet_achievement_img_level2" sprite_unfinished="gfx_datasheet_achievement_img_level0" />
+		</achievement>
+		<achievement guid="tvt-gameachievement-newsaudience3" creator="5578" created_by="Ronny">
+			<title>
+				<de>Nachrichten für alle</de>
+				<en>News for everyone</en>
+				<pl>Wiadomości dla każdego</pl>
+			</title>
+			<!-- kein Text = automatisches Generieren aus Aufgabentext + Belohnung -->
+			<text />
+			<tasks>
+				<task guid="tvt-gameachievement-task-newsaudience3" creator="5578" created_by="Ronny">
+					<title>
+						<de>Erreiche 5 Million Zuschauer mit Nachrichten</de>
+						<en>Reach an audience of 5 million with a news broadcast</en>
+						<pl>Dotarcie z wiadomościami do 5 milionów odbiorców</pl>
+					</title>
+					<text>
+						<de>Strahle eine Nachrichtensendung aus und erreiche damit mindestens 5 Million Zuschauer.</de>
+						<en>Broadcast news and reach an audience of at least 5 million.</en>
+						<pl>Nadawanie wiadomości i docieranie do co najmniej 5 milionów odbiorców.</pl>
+					</text>
+					<data type="reachAudience" minAudienceAbsolute="5000000" checkMinute="0" />
+				</task>
+			</tasks>
+			<rewards>
+				<reward guid="tvt-gameachievement-reward-newsaudience3" creator="5578" created_by="Ronny">
+					<!-- kein Titel und es wird der Belohnungsinterne Text genommen -->
+					<title />
+					<text />
+					<data type="money" money="250000" />
+				</reward>
+			</rewards>
+			<!-- flags = 0. "0" fuer "keine Besonderheiten" -->
+			<data flags="0" group="2" category="2" index="3" sprite_finished="gfx_datasheet_achievement_img_level3" sprite_unfinished="gfx_datasheet_achievement_img_level0" />
+		</achievement>
+		<achievement guid="tvt-gameachievement-reachBroadcastArea1" creator="5578" created_by="Ronny">
+			<title>
+				<de>Sendegebiet „Bronze“</de>
+				<en>Broadcast Area "Bronze"</en>
+				<pl>Obszar nadawania „Brązowy”</pl>
+			</title>
+			<!-- kein Text = automatisches Generieren aus Aufgabentext + Belohnung -->
+			<text />
+			<tasks>
+				<task guid="tvt-gameachievement-task-reachBroadcastArea1" creator="5578" created_by="Ronny">
+					<title>
+						<de>Sendegebiet mit 2,5 Millionen Empfängern</de>
+						<en>Broadcast area with 2.5 million receivers</en>
+						<pl>Obszar nadawania z 2.5 milionami odbiorników</pl>
+					</title>
+					<text>
+						<de>Erhöhe das Sendegebiet auf über 2,5 Millionen mögliche Empfänger.</de>
+						<en>Increase the broadcast area to more than 2.5 million receiver.</en>
+						<pl>Zwiększenie obszaru nadawania do ponad 2.5 miliona odbiorników.</pl>
+					</text>
+					<data type="reachBroadcastArea" minReachAbsolute="2500000" />
+				</task>
+			</tasks>
+			<rewards>
+				<reward guid="tvt-gameachievement-reward-reachBroadcastArea1" creator="5578" created_by="Ronny">
+					<!-- kein Titel und es wird der Belohnungsinterne Text genommen -->
+					<title />
+					<text />
+					<data type="money" money="100000" />
+				</reward>
+			</rewards>
+			<!-- flags = 2. "2" fuer "nur der erste bekommt die Belohnung" -->
+			<data flags="2" group="3" category="4" index="1" sprite_finished="gfx_datasheet_achievement_img_level1" sprite_unfinished="gfx_datasheet_achievement_img_level0" />
+		</achievement>
+		<achievement guid="tvt-gameachievement-reachBroadcastArea2" creator="5578" created_by="Ronny">
+			<title>
+				<de>Sendegebiet „Silber“</de>
+				<en>Broadcast Area "Silver"</en>
+				<pl>Obszar nadawania „Srebrny”</pl>
+			</title>
+			<!-- kein Text = automatisches Generieren aus Aufgabentext + Belohnung -->
+			<text />
+			<tasks>
+				<task guid="tvt-gameachievement-task-reachBroadcastArea2" creator="5578" created_by="Ronny">
+					<title>
+						<de>Sendegebiet mit 10 Millionen Empfängern</de>
+						<en>Broadcast area with 10 million receivers</en>
+						<pl>Obszar nadawania z 10 milionami odbiorników</pl>
+					</title>
+					<text>
+						<de>Erhöhe das Sendegebiet auf über 10 Millionen mögliche Empfänger.</de>
+						<en>Increase the broadcast area to more than 10 million receivers.</en>
+						<pl>Zwiększenie obszaru nadawania do ponad 10 milionów odbiorników.</pl>
+					</text>
+					<data type="reachBroadcastArea" minReachAbsolute="10000000" />
+				</task>
+			</tasks>
+			<rewards>
+				<reward guid="tvt-gameachievement-reward-reachBroadcastArea2" creator="5578" created_by="Ronny">
+					<!-- kein Titel und es wird der Belohnungsinterne Text genommen -->
+					<title />
+					<text />
+					<data type="money" money="250000" />
+				</reward>
+			</rewards>
+			<!-- flags = 2. "2" fuer "nur der erste bekommt die Belohnung" -->
+			<data flags="2" group="3" category="4" index="2" sprite_finished="gfx_datasheet_achievement_img_level2" sprite_unfinished="gfx_datasheet_achievement_img_level0" />
+		</achievement>
+		<achievement guid="tvt-gameachievement-reachBroadcastArea3" creator="5578" created_by="Ronny">
+			<title>
+				<de>Sendegebiet „Gold“</de>
+				<en>Broadcast Area "Gold"</en>
+				<pl>Obszar nadawania „Złoty”</pl>
+			</title>
+			<!-- kein Text = automatisches Generieren aus Aufgabentext + Belohnung -->
+			<text />
+			<tasks>
+				<task guid="tvt-gameachievement-task-reachBroadcastArea3" creator="5578" created_by="Ronny">
+					<title>
+						<de>Sendegebiet mit 25 Millionen Empfängern</de>
+						<en>Broadcast area with 25 million receivers</en>
+						<pl>Obszar nadawania z 25 milionami odbiorników</pl>
+					</title>
+					<text>
+						<de>Erhöhe das Sendegebiet auf über 25 Millionen mögliche Empfänger.</de>
+						<en>Increase the broadcast area to more than 25 million receivers.</en>
+						<pl>Zwiększenie obszaru nadawania do ponad 25 milionów odbiorników.</pl>
+					</text>
+					<data type="reachBroadcastArea" minReachAbsolute="25000000" />
+				</task>
+			</tasks>
+			<rewards>
+				<reward guid="tvt-gameachievement-reward-reachBroadcastArea3" creator="5578" created_by="Ronny">
+					<!-- kein Titel und es wird der Belohnungsinterne Text genommen -->
+					<title />
+					<text />
+					<data type="money" money="500000" />
+				</reward>
+			</rewards>
+			<!-- flags = 2. "2" fuer "nur der erste bekommt die Belohnung" -->
+			<data flags="2" group="3" category="4" index="3" sprite_finished="gfx_datasheet_achievement_img_level3" sprite_unfinished="gfx_datasheet_achievement_img_level0" />
+		</achievement>
+
+		<achievement guid="tvt-gameachievement-broadcastNewsShow-weather1" creator="5578" created_by="Ronny">
+			<title>
+				<de>Wetterfrosch</de>
+				<en>Tree Frog</en>
+				<pl>Żaba na drzewie</pl>
+			</title>
+			<!-- kein Text = automatisches Generieren aus Aufgabentext + Belohnung -->
+			<text />
+			<tasks>
+				<task guid="tvt-gameachievement-task-broadcastNewsShow-weather1" creator="5578" created_by="Ronny">
+					<title>
+						<de>Sende 3 Wetterberichte</de>
+						<en>Broadcast 3 weather forecasts</en>
+						<pl>Transmisja 3 prognoz pogody</pl>
+					</title>
+					<text>
+						<de>Sende 3 Wetterberichte in einer Nachrichtensendung.</de>
+						<en>Broadcast 3 weather forecasts in one single news show.</en>
+						<pl>Transmisja 3 prognoz pogody w jednym programie informacyjnym.</pl>
+					</text>
+					<data type="BroadcastNewsShow" keyword1="weatherforecast" keyword2="weatherforecast" keyword3="weatherforecast" />
+				</task>
+			</tasks>
+			<rewards>
+				<reward guid="tvt-gameachievement-reward-broadcastNewsShow-weather1" creator="5578" created_by="Ronny">
+					<!-- kein Titel und es wird der Belohnungsinterne Text genommen -->
+					<title />
+					<text />
+					<data type="money" money="75000" />
+				</reward>
+			</rewards>
+			<data flags="0" group="4" category="2" index="1" />
+		</achievement>
+		<achievement guid="tvt-gameachievement-broadcastNewsShow-showbiz1" creator="5578" created_by="Ronny">
+			<title>
+				<de>Klatschreporter</de>
+				<en>Gossip reporter</en>
+				<pl>Plotkarz</pl>
+			</title>
+			<!-- kein Text = automatisches Generieren aus Aufgabentext + Belohnung -->
+			<text />
+			<tasks>
+				<task guid="tvt-gameachievement-task-broadcastNewsShow-showbiz1" creator="5578" created_by="Ronny">
+					<title>
+						<de>Sende 3 Showbiz-Nachrichten</de>
+						<en>Broadcast 3 showbiz news</en>
+						<pl>Transmisja 3 wiadomości showbiznesowych</pl>
+					</title>
+					<text>
+						<de>Sende 3 Showbiz-Nachrichten in einer Nachrichtensendung.</de>
+						<en>Broadcast 3 showbiz news in one single news broadcast.</en>
+						<pl>Transmisja 3 wiadomości showbiznesowych w jednym programie informacyjnym.</pl>
+					</text>
+					<data type="BroadcastNewsShow" genre1="1" genre2="1" genre3="1" />
+				</task>
+			</tasks>
+			<rewards>
+				<reward guid="tvt-gameachievement-reward-broadcastNewsShow-3newsgenres" creator="5578" created_by="Ronny">
+			<!-- kein Titel und es wird der Belohnungsinterne Text genommen -->
+					
+					<title />
+					
+					<text />
+					<data type="money" money="25000" />
+				</reward>
+			</rewards>
+			<data flags="0" group="5" category="2" index="1" />
+		</achievement>
+		<achievement guid="tvt-gameachievement-broadcastNewsShow-culture1" creator="5578" created_by="Ronny">
+			<title>
+				<de>Kulturkult</de>
+				<en>Culture cult</en>
+				<pl>Kult kultury</pl>
+			</title>
+			<!-- kein Text = automatisches Generieren aus Aufgabentext + Belohnung -->
+			<text />
+			<tasks>
+				<task guid="tvt-gameachievement-task-broadcastNewsShow-culture1" creator="5578" created_by="Ronny">
+					<title>
+						<de>Sende 3 Kultur-Nachrichten</de>
+						<en>Broadcast 3 culture news</en>
+						<pl>Transmisja 3 wiadomości kulturalnych</pl>
+					</title>
+					<text>
+						<de>Sende 3 Kultur-Nachrichten in einer Nachrichtensendung.</de>
+						<en>Broadcast 3 culture news in one single news broadcast.</en>
+						<pl>Transmisja 3 wiadomości kulturalnych w jednym programie informacyjnym.</pl>
+					</text>
+					<data type="BroadcastNewsShow" genre1="5" genre2="5" genre3="5" />
+				</task>
+			</tasks>
+			<rewards>
+				<!-- gleiche Belohnung wie "Klatschreporter" -->
+				<reward guid="tvt-gameachievement-reward-broadcastNewsShow-3newsgenres" />
+			</rewards>
+			<data flags="0" group="5" category="2" index="1" />
+		</achievement>
+		<achievement guid="tvt-gameachievement-broadcastNewsShow-sport1" creator="5578" created_by="Ronny">
+			<title>
+				<de>Sport frei</de>
+				<en>All about sport</en>
+				<pl>Wszystko na temat sportu</pl>
+			</title>
+			<!-- kein Text = automatisches Generieren aus Aufgabentext + Belohnung -->
+			<text />
+			<tasks>
+				<task guid="tvt-gameachievement-task-broadcastNewsShow-sport1" creator="5578" created_by="Ronny">
+					<title>
+						<de>Sende 3 Sport-Nachrichten</de>
+						<en>Broadcast 3 sport news</en>
+						<pl>Transmisja 3 wiadomości sportowych</pl>
+					</title>
+					<text>
+						<de>Sende 3 Sport-Nachrichten in einer Nachrichtensendung.</de>
+						<en>Broadcast 3 sport news in one single news broadcast.</en>
+						<pl>Transmisja 3 wiadomości sportowych w jednym programie informacyjnym.</pl>
+					</text>
+					<data type="BroadcastNewsShow" genre1="2" genre2="2" genre3="2" />
+				</task>
+			</tasks>
+			<rewards>
+				<!-- gleiche Belohnung wie "Klatschreporter" -->
+				<reward guid="tvt-gameachievement-reward-broadcastNewsShow-3newsgenres" />
+			</rewards>
+			<data flags="0" group="5" category="2" index="1" />
+		</achievement>
+
+		<achievement guid="tvt-gameachievement-blockbuster1" creator="ani">
+			<title>
+				<de>Blockbuster „Bronze“</de>
+				<en>Blockbuster "Bronze"</en>
+				<pl>Blockbuster „Brązowy”</pl>
+			</title>
+			<text>
+				<de>Erreiche eine Einschaltquote von 40% (20 und 21 Uhr)</de>
+				<en>Achieve an audience rating of 40% (8pm and 9pm)</en>
+				<pl>Osiągnięcie oglądalności na poziomie 40% (godz. 20:00 i 21:00)</pl>
+			</text>
+			<tasks>
+				<task guid="tvt-gameachievement-task-blockbuster1-20" >
+					<data type="reachAudience" minAudienceQuote="0.4" checkHour="20" checkMinute="5" />
+				</task>
+				<task guid="tvt-gameachievement-task-blockbuster1-21" >
+					<data type="reachAudience" minAudienceQuote="0.4" checkHour="21" checkMinute="5" />
+				</task>
+			</tasks>
+			<rewards>
+				<reward guid="tvt-gameachievement-reward-blockbuster1">
+					<!-- kein Titel und es wird der Belohnungsinterne Text genommen -->
+					<title />
+					<text />
+					<data type="money" money="100000" />
+				</reward>
+			</rewards>
+			<!-- flags = 2. "2" fuer "nur der erste bekommt die Belohnung" -->
+			<data flags="2" group="6" category="1" index="1" sprite_finished="gfx_datasheet_achievement_img_level1" sprite_unfinished="gfx_datasheet_achievement_img_level0" />
+		</achievement>
+		<achievement guid="tvt-gameachievement-blockbuster2" creator="ani">
+			<title>
+				<de>Blockbuster „Silber“</de>
+				<en>Blockbuster "Silver"</en>
+				<pl>Blockbuster „Srebrny”</pl>
+			</title>
+			<text>
+				<de>Erreiche eine Einschaltquote von 55% (20 - 22 Uhr)</de>
+				<en>Achieve an audience rating of 55% (8pm - 10pm)</en>
+				<pl>Osiągnięcie oglądalności na poziomie 55% (od 20:00 do 22:00)</pl>
+			</text>
+			<tasks>
+				<task guid="tvt-gameachievement-task-blockbuster2-20" >
+					<data type="reachAudience" minAudienceQuote="0.55" checkHour="20" checkMinute="5" />
+				</task>
+				<task guid="tvt-gameachievement-task-blockbuster2-21" >
+					<data type="reachAudience" minAudienceQuote="0.55" checkHour="21" checkMinute="5" />
+				</task>
+				<task guid="tvt-gameachievement-task-blockbuster2-22" >
+					<data type="reachAudience" minAudienceQuote="0.55" checkHour="22" checkMinute="5" />
+				</task>
+			</tasks>
+			<rewards>
+				<reward guid="tvt-gameachievement-reward-blockbuster2">
+					<!-- kein Titel und es wird der Belohnungsinterne Text genommen -->
+					<title />
+					<text />
+					<data type="money" money="500000" />
+				</reward>
+			</rewards>
+			<!-- flags = 2. "2" fuer "nur der erste bekommt die Belohnung" -->
+			<data flags="2" group="6" category="1" index="2" sprite_finished="gfx_datasheet_achievement_img_level2" sprite_unfinished="gfx_datasheet_achievement_img_level0" />
+		</achievement>
+		<achievement guid="tvt-gameachievement-blockbuster3" creator="ani">
+			<title>
+				<de>Blockbuster „Gold“</de>
+				<en>Blockbuster "Gold"</en>
+				<pl>Blockbuster „Złoty”</pl>
+			</title>
+			<text>
+				<de>Erreiche eine Einschaltquote von 70% (20 - 23 Uhr)</de>
+				<en>Achieve an audience rating of 70% (8pm - 11pm)</en>
+				<pl>Osiągnięcie oglądalności na poziomie 70% (od 20:00 do 23:00)</pl>
+			</text>
+			<tasks>
+				<task guid="tvt-gameachievement-task-blockbuster3-20" >
+					<data type="reachAudience" minAudienceQuote="0.7" checkHour="20" checkMinute="5" />
+				</task>
+				<task guid="tvt-gameachievement-task-blockbuster3-21" >
+					<data type="reachAudience" minAudienceQuote="0.7" checkHour="21" checkMinute="5" />
+				</task>
+				<task guid="tvt-gameachievement-task-blockbuster3-22" >
+					<data type="reachAudience" minAudienceQuote="0.7" checkHour="22" checkMinute="5" />
+				</task>
+				<task guid="tvt-gameachievement-task-blockbuster3-23" >
+					<data type="reachAudience" minAudienceQuote="0.7" checkHour="23" checkMinute="5" />
+				</task>
+			</tasks>
+			<rewards>
+				<reward guid="tvt-gameachievement-reward-blockbuster3">
+					<!-- kein Titel und es wird der Belohnungsinterne Text genommen -->
+					<title />
+					<text />
+					<data type="money" money="1500000" />
+				</reward>
+			</rewards>
+			<!-- flags = 2. "2" fuer "nur der erste bekommt die Belohnung" -->
+			<data flags="2" group="6" category="1" index="3" sprite_finished="gfx_datasheet_achievement_img_level3" sprite_unfinished="gfx_datasheet_achievement_img_level0" />
+		</achievement>
+	</allachievements>
+</tvtdb>

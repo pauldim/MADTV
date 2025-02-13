@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tvtdb>
+	<version value="3" comment="Freddys_Krempel" />
+
+	<!-- person entries moved to database_people_fictional.xml -->
+
+	<allprogrammes>
+		<programme guid="Freddy_Film_CustomB_1" product="1" licence_type="1" fictional="1" creator="8667" created_by="Rumpelfreddy">
+			<title>
+				<de>Express nach Sibirien</de>
+				<en>Express to Siberia</en>
+				<pl>Express do Syberii</pl>
+			</title>
+			<description>
+				<de>Eine Mutter versucht ihren in Sibirien verschollenen Sohn wieder zu finden. Kalter Krieg Propaganda aus dem Bilderbuch.</de>
+				<en>A mother is trying to find her missing son in Siberia. Picture book Cold War propaganda.</en>
+				<pl>Matka próbuje odnaleźć zaginionego syna na Syberii. Książka obrazkowa o zimnowojennej propagandzie</pl>
+			</description>
+			<staff>
+				<member index="0" function="5">Per_custom_Freddy_13</member>
+				<member index="1" function="2">Rumpelfreddy-fictionalperson-AnnaAdlerman</member>
+				<member index="2" function="2">Per_custom_Freddy_15</member>
+				<member index="3" function="2">Per_custom_Freddy_673</member>
+				<member index="4" function="2">Per_custom_Freddy_410</member>
+				<member index="5" function="2">Per_custom_Freddy_513</member>
+			</staff>
+			<groups target_groups="6" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<targetgroupattractivity children="1.5" teenagers_female="1.5" housewives="2" employees="1.25" />
+			<data country="D" year="1969" distribution="2" maingenre="1" subgenre="7" flags="32" blocks="3" price_mod="1.0" />
+			<ratings critics="23" speed="8" outcome="9" />
+		</programme>
+		
+		<programme guid="Freddy_Film_CustomB_2" product="1" licence_type="1" fictional="1" creator="8667" created_by="Rumpelfreddy">
+			<title>
+				<de>Tempel des Grauens</de>
+				<en>Temple of Horror</en>
+				<pl>Świątynia Grozy</pl>
+			</title>
+			<description>
+				<de>Superarchäologe McMuffin überlistet südamerikanische Indianer und klaut ihren Schatz. Nichts in diesem Film ist nicht aus Pappmaschee.</de>
+				<en>Super archaeologist McMuffin outwits South American Indians and steals their treasure. Nothing in this film is not made of papier-mâché.</en>
+				<pl>Super archeolog McMuffin przechytrza południowoamerykańskich Indian i kradnie ich skarb. Nic w tym filmie nie jest zrobione z papier-mâché.</pl>
+			</description>
+			<staff>
+				<member index="0" function="5">Per_custom_Freddy_34</member>
+				<member index="1" function="2">Per_custom_Freddy_140</member>
+				<member index="2" function="2">Per_custom_Freddy_116</member>
+				<member index="3" function="2">Per_custom_Freddy_146</member>
+				<member index="4" function="2">Per_custom_Freddy_361</member>
+			</staff>
+			<groups target_groups="18" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<targetgroupattractivity employees="1.25" />
+			<data country="CDN" year="1988" distribution="2" maingenre="1" subgenre="2,17" flags="32" blocks="2" price_mod="1.0" />
+			<ratings critics="11" speed="43" outcome="14" />
+		</programme>
+		
+		<programme guid="Freddy_Film_CustomB_3" product="1" licence_type="1" fictional="1" creator="8667" created_by="Rumpelfreddy">
+			<title>
+				<de>Tempel der Verdammnis</de>
+				<en>Temple of Doom</en>
+				<pl>Świątynia zagłady</pl>
+			</title>
+			<description>
+				<de>Superarchäologe McMuffin schleicht an karibischen Zombies vorbei und klaut ihren Schatz. Schlechtere Zombies muss man erst mal finden.</de>
+				<en>Super archaeologist McMuffin sneaks past Caribbean zombies and steals their treasure. It takes a lot of effort to find worse zombies.</en>
+				<pl>Super archeolog McMuffin przekrada się obok karaibskich zombie i kradnie ich skarb. Znalezienie gorszych zombie wymaga wiele wysiłku.</pl>
+			</description>
+			<staff>
+				<member index="0" function="5">Per_custom_Freddy_34</member>
+				<member index="1" function="2">Per_custom_Freddy_140</member>
+				<member index="2" function="2">Per_custom_Freddy_116</member>
+				<member index="3" function="2">Per_custom_Freddy_273</member>
+				<member index="4" function="2">Per_custom_Freddy_362</member>
+			</staff>
+			<groups target_groups="18" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<targetgroupattractivity employees="1.25" />
+			<data country="CDN" year="1991" distribution="2" maingenre="1" subgenre="2,17" flags="32" blocks="2" price_mod="1.0" />
+			<ratings critics="10" speed="38" outcome="15" />
+		</programme>
+		
+		<programme guid="Freddy_Film_CustomB_4" product="1" licence_type="1" fictional="1" creator="8667" created_by="Rumpelfreddy">
+			<title>
+				<de>Tempel der Mumie</de>
+				<en>Temple of the Mummy</en>
+				<pl>Świątynia mumii</pl>
+			</title>
+			<description>
+				<de>Superarchäologe McMuffin äschert eine Mumie ein und klaut ihren Schatz. Das beste am Film sind die Wüstenaufnahmen wenn niemand zu sehen ist.</de>
+				<en>Super archaeologist McMuffin incinerates a mummy and steals its treasure. The best thing about the movie are the desert shots when no one is around.</en>
+				<pl>Super archeolog McMuffin spopiela mumię i kradnie jej skarb. Najlepszą rzeczą w filmie są ujęcia pustyni, gdy nikogo nie ma w pobliżu.</pl>
+			</description>
+			<staff>
+				<member index="0" function="5">Per_custom_Freddy_34</member>
+				<member index="1" function="2">Per_custom_Freddy_140</member>
+				<member index="2" function="2">Per_custom_Freddy_116</member>
+				<member index="3" function="2">Per_custom_Freddy_253</member>
+				<member index="4" function="2">Per_custom_Freddy_363</member>
+			</staff>
+			<groups target_groups="18" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<targetgroupattractivity employees="1.25" />
+			<data country="CDN" year="1994" distribution="2" maingenre="1" subgenre="2,12" flags="32" blocks="2" price_mod="1.0" />
+			<ratings critics="7" speed="39" outcome="18" />
+		</programme>
+		
+		<programme guid="Freddy_Film_CustomB_5" product="1" licence_type="1" fictional="1" creator="8667" created_by="Rumpelfreddy">
+			<title>
+				<de>Das Rennen zum Nordpol</de>
+				<en>The Race to the North Pole</en>
+				<pl>Wyścig do bieguna północnego</pl>
+			</title>
+			<description>
+				<de>Versuch einer Verfilmung des Rennens um die Entdeckung des Nordpols. Bleibt beim Versuch.</de>
+				<en>Attempt at filming the race to discover the North Pole. Keep trying.</en>
+				<pl>Próba sfilmowania wyścigu o odkrycie bieguna północnego.</pl>
+			</description>
+			<staff>
+				<member index="0" function="5">Per_custom_Freddy_72</member>
+				<member index="1" function="2">Per_custom_Freddy_46</member>
+				<member index="2" function="2">Per_custom_Freddy_41</member>
+				<member index="3" function="2">Per_custom_Freddy_48</member>
+				<member index="4" function="2">Per_custom_Freddy_307</member>
+			</staff>
+			<groups target_groups="18" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<targetgroupattractivity children="1.5" employees="1.25" />
+			<data country="S" year="1952" distribution="2" maingenre="1" subgenre="7" flags="32" blocks="3" price_mod="1.0" />
+			<ratings critics="19" speed="12" outcome="9" />
+		</programme>
+		
+		<programme guid="Freddy_Film_CustomB_6" product="1" licence_type="1" fictional="1" creator="8667" created_by="Rumpelfreddy">
+			<title>
+				<de>Glück in Schweden</de>
+				<en>Happiness in Sweden</en>
+				<pl>Szczęście w Szwecji</pl>
+			</title>
+			<description>
+				<de>Millie aus Kentucky gewinnt eine Abenteuerreise durch Schweden. In Schweden zurecht auf dem Index.</de>
+				<en>Millie from Kentucky wins an adventure trip through Sweden. On the index in Sweden. Deservedly.</en>
+				<pl>Millie z Kentucky wygrywa przygodową wycieczkę po Szwecji. Zasłużenie.</pl>
+			</description>
+			<staff>
+				<member index="0" function="5">Per_custom_Freddy_115</member>
+				<member index="1" function="2">Per_custom_Freddy_143</member>
+				<member index="2" function="2">Per_custom_Freddy_50</member>
+				<member index="3" function="2">Per_custom_Freddy_126</member>
+				<member index="4" function="2">Per_custom_Freddy_151</member>
+				<member index="5" function="2">Per_custom_Freddy_44</member>
+			</staff>
+			<groups target_groups="6" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<targetgroupattractivity children="1.5" teenagers_female="1.5" housewives="2" employees="1.25" />
+			<data country="USA" year="2002" distribution="2" maingenre="1" subgenre="15" flags="32" blocks="3" price_mod="1.0" />
+			<ratings critics="8" speed="16" outcome="9" />
+		</programme>
+		
+		<programme guid="Freddy_Film_CustomB_7" product="1" licence_type="1" fictional="1" creator="8667" created_by="Rumpelfreddy" comment="Prequels now added: 048e8ec6-6c8f-4878-b16b-f1db4d3fd931 | TODO: Continuation as screenplays">
+			<title>
+				<de>Kroko See 6</de>
+				<en>Croco Lake 6</en>
+				<pl>Croco Lake 6</pl>
+			</title>
+			<description>
+				<de>Schon wieder sind ein mutiertes Krokodil und seine Klone in einem Badesee gesehen worden. Bademeister und Ex-Fremdenlegionär Günter schnetzelt sie alle.</de>
+				<en>Again a mutated crocodile and its clones have been seen in a lake. Bath attendant and ex Foreign Legionnaire Gunter slaughters them all.</en>
+				<pl>W jeziorze znów widziano zmutowanego krokodyla i jego klony. Nadzorca pływania i były żołnierz Legii Cudzoziemskiej Gunter zabija je wszystkie.</pl>
+			</description>
+			<staff>
+				<member index="0" function="5">Per_custom_Freddy_12</member>
+				<member index="1" function="2">Per_custom_Freddy_17</member>
+				<member index="2" function="2">Per_custom_Freddy_8</member>
+				<member index="3" function="2">Per_custom_Freddy_6</member>
+				<member index="4" function="2">Per_custom_Freddy_381</member>
+				<member index="5" function="2">Per_custom_Freddy_637</member>
+			</staff>
+			<groups target_groups="18" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<targetgroupattractivity employees="1.25" />
+			<data country="D" year="2004" distribution="3" maingenre="2" subgenre="12,1" flags="96" blocks="2" price_mod="1.0" available="0" /> <!-- availability triggered by 0cdf29f9-658f-4b1a-b8db-2b3dec70c700 -->
+			<ratings critics="4" speed="48" outcome="9" />
+		</programme>
+		
+		<programme guid="Freddy_Film_CustomB_8" product="1" licence_type="1" fictional="1" creator="8667" created_by="Rumpelfreddy">
+			<title>
+				<de>27 sind nicht genug</de>
+				<en>27 Are Not Enough</en>
+				<pl>27 to za mało</pl>
+			</title>
+			<description>
+				<de>27 Weltkriegsveteranen bekämpfen einen Superterroristen, der die USA bedroht. 27 mal Schauspielkunst am Abgrund.</de>
+				<en>27 World War veterans fight a super terrorists how threatens the USA. 27 times abysmal acting.</en>
+				<pl>27 weteranów wojny światowej walczy z super terrorystą, który zagraża USA. 27 razy fatalne aktorstwo.</pl>
+			</description>
+			<staff>
+				<member index="0" function="5">Per_custom_Freddy_34</member>
+				<member index="1" function="2">Per_custom_Freddy_146</member>
+				<member index="2" function="2">Per_custom_Freddy_140</member>
+				<member index="3" function="2">Per_custom_Freddy_12</member>
+				<member index="4" function="2">Per_custom_Freddy_690</member>
+				<member index="5" function="2">Per_custom_Freddy_157</member>
+			</staff>
+			<groups target_groups="18" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<targetgroupattractivity employees="1.25" />
+			<data country="D" year="1995" distribution="3" maingenre="2" subgenre="" flags="32" blocks="2" price_mod="1.0" />
+			<ratings critics="7" speed="51" outcome="19" />
+		</programme>
+		
+		<programme guid="Freddy_Film_CustomB_9" product="1" licence_type="1" fictional="1" creator="8667" created_by="Rumpelfreddy">
+			<title>
+				<de>Midgards Schlacht um die Erde</de>
+				<en>Midgards Battle for Earth</en>
+				<pl>Bitwa Midgardów o Ziemię</pl>
+			</title>
+			<description>
+				<de>Thor bekämpft seinen mit Hammer und Sichel bewaffneten bösen Zwilling, der die USA vernichten will, indem der den Kommunismus mit Hilfe von Satan ausruft.</de>
+				<en>Thor fights his evil twin armed with a hammer and sickle who wants to destroy the USA by proclaiming communism with the help of Satan.</en>
+				<pl>Thor walczy ze swoim złym bliźniakiem uzbrojonym w młot i sierp, który chce zniszczyć USA, głosząc komunizm z pomocą Szatana.</pl>
+			</description>
+			<staff>
+				<member index="0" function="5">Per_custom_Freddy_37</member>
+				<member index="1" function="2">Per_custom_Freddy_109</member>
+				<member index="2" function="2">Per_custom_Freddy_150</member>
+				<member index="3" function="2">Per_custom_Freddy_168</member>
+				<member index="4" function="2">Per_custom_Freddy_175</member>
+				<member index="5" function="2">Per_custom_Freddy_430</member>
+			</staff>
+			<groups target_groups="18" pro_pressure_groups="16" contra_pressure_groups="32" />
+			<targetgroupattractivity children="1.25" teenagers="2" unemployed="1.5" />
+			<data country="USA" year="1982" distribution="3" maingenre="10" subgenre="2,5" flags="32" blocks="2" price_mod="1.0" />
+			<ratings critics="11" speed="43" outcome="19" />
+		</programme>
+		
+		<programme guid="Freddy_Film_CustomB_10" product="1" licence_type="1" fictional="1" creator="8667" created_by="Rumpelfreddy">
+			<title>
+				<de>Tiefsee Dinoschrecken, Banzai</de>
+				<en>Dino Deep Sea Terror, Banzai</en>
+				<pl>Dino głębinowy terror, banzai</pl>
+			</title>
+			<description>
+				<de>Ein Megahai, der Dinosaurier DNA gefressen hat, überfällt Japan und wird von Jetman mit einem Staubwedel aufgehalten da das Monster gegen Staub allergisch ist.</de>
+				<en>A mega shark that has eaten dinosaur DNA invades Japan but is stopped by Jetman with a feather duster because the monster is allergic to dust.</en>
+				<pl>Mega rekin, który zjadł DNA dinozaura, atakuje Japonię, ale zostaje powstrzymany przez Jetmana za pomocą miotełki do kurzu, ponieważ potwór jest uczulony na kurz.</pl>
+			</description>
+			<staff>
+				<member index="0" function="5">Per_custom_Freddy_309</member>
+				<member index="1" function="2">Per_custom_Freddy_310</member>
+				<member index="2" function="2">Per_custom_Freddy_308</member>
+			</staff>
+			<groups target_groups="18" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<targetgroupattractivity employees="1.25" />
+			<data country="J" year="1961" distribution="1" maingenre="2" subgenre="16" flags="40" blocks="2" price_mod="1.0" />
+			<ratings critics="8" speed="37" outcome="13" />
+		</programme>
+		
+		<programme guid="Freddy_Film_CustomB_11" product="1" licence_type="1" fictional="1" creator="8667" created_by="Rumpelfreddy">
+			<title>
+				<de>Metzel Mambo</de>
+				<en>Slaughter Mambo</en>
+				<pl>Zabójcze mambo</pl>
+			</title>
+			<description>
+				<de>In der Zukunft gibt nur noch Essen für die, welche an einem blutigen Arenaspiel teilnehmen. Mambo rettet seine Familie, indem er alle anderen tötet.</de>
+				<en>In the future, there is only food for those who participate in a bloody arena game. Mambo saves his family by killing everyone else.</en>
+				<pl>W przyszłości jest tylko jedzenie dla tych, którzy biorą udział w krwawej grze na arenie. Mambo ratuje swoją rodzinę, zabijając wszystkich innych.</pl>
+			</description>
+			<staff>
+				<member index="0" function="5">Per_custom_Freddy_37</member>
+				<member index="1" function="2">Per_custom_Freddy_219</member>
+				<member index="2" function="2">Per_custom_Freddy_243</member>
+				<member index="3" function="2">Per_custom_Freddy_223</member>
+				<member index="4" function="2">Per_custom_Freddy_670</member>
+				<member index="5" function="2">Per_custom_Freddy_641</member>
+			</staff>
+			<groups target_groups="18" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<targetgroupattractivity employees="1.25" />
+			<data country="D" year="2001" distribution="3" maingenre="2" subgenre="16" flags="96" blocks="2" price_mod="1.0" />
+			<ratings critics="3" speed="61" outcome="19" />
+		</programme>
+		
+		<programme guid="Freddy_Film_CustomB_12" product="1" licence_type="1" fictional="1" creator="8667" created_by="Rumpelfreddy">
+			<title>
+				<de>Frucht Kung Fu</de>
+				<en>Fruit Kung Fu</en>
+				<pl>Owocowe Kung Fu</pl>
+			</title>
+			<description>
+				<de>Shao Lin Mönch Chang unterrichtet den amerikanischen Teenager Tom im Früchte-Kung-Fu, damit dieser seine Eltern rächen kann.</de>
+				<en>Shao Lin monk Chang teaches American teenager Tom Fruit Kung Fu so that he can avenge his parents.</en>
+				<pl>Mnich Shao Lin Chang uczy amerykańskiego nastolatka Toma, Fruit Kung Fu, aby ten mógł pomścić swoich rodziców.</pl>
+			</description>
+			<staff>
+				<member index="0" function="5">Per_custom_Freddy_524</member>
+				<member index="1" function="2">Per_custom_Freddy_219</member>
+				<member index="2" function="2">Per_custom_Freddy_582</member>
+				<member index="3" function="2">Per_custom_Freddy_588</member>
+				<member index="4" function="2">Per_custom_Freddy_152</member>
+				<member index="5" function="2">Per_custom_Freddy_165</member>
+			</staff>
+			<groups target_groups="18" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<targetgroupattractivity children="1.5" employees="1.25" />
+			<data country="USA" year="1989" distribution="3" maingenre="2" subgenre="1" flags="32" blocks="2" price_mod="1.0" />
+			<ratings critics="13" speed="42" outcome="16" />
+			<effects>
+				<effect trigger="broadcastFirstTime" type="modifyProgrammeAvailability" enable="1" guid="Freddy_Film_CustomB_13" />
+			</effects>
+		</programme>
+		
+		<programme guid="Freddy_Film_CustomB_13" product="1" licence_type="1" fictional="1" creator="8667" created_by="Rumpelfreddy">
+			<title>
+				<de>Frucht Kung Fu 2</de>
+				<en>Fruit Kung Fu 2</en>
+				<pl>Owocowe Kung Fu 2</pl>
+			</title>
+			<description>
+				<de>Tom kämpft gegen böse Gemüsekultisten mit Hilfe seines Frucht Kung Fu. Deutlich schlechter als Teil eins.</de>
+				<en>Tom fights against evil vegetable cultists with the help of his Fruit Kung Fu. Significantly worse than part one.</en>
+				<pl>Tom walczy ze złymi warzywnymi kultystami przy pomocy swojego owocowego kung fu. Znacznie gorsza niż część pierwsza.</pl>
+			</description>
+			<staff>
+				<member index="0" function="5">Per_custom_Freddy_524</member>
+				<member index="1" function="2">Per_custom_Freddy_219</member>
+				<member index="2" function="2">Per_custom_Freddy_160</member>
+				<member index="3" function="2">Per_custom_Freddy_161</member>
+				<member index="4" function="2">Per_custom_Freddy_163</member>
+			</staff>
+			<groups target_groups="18" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<targetgroupattractivity children="1.5" employees="1.25" />
+			<data country="USA" year="1991" distribution="3" maingenre="2" subgenre="10" flags="32" blocks="2" price_mod="1.0" available="0" /> <!-- availability triggered by Freddy_Film_CustomB_12 -->
+			<ratings critics="9" speed="47" outcome="10" />
+			<effects>
+				<effect trigger="broadcastFirstTime" type="modifyProgrammeAvailability" enable="1" guid="Freddy_Film_CustomB_14" />
+			</effects>
+		</programme>
+		
+		<programme guid="Freddy_Film_CustomB_14" product="1" licence_type="1" fictional="1" creator="8667" created_by="Rumpelfreddy" comment="TODO: Continuation as screenplays">
+			<title>
+				<de>Frucht Kung Fu 3</de>
+				<en>Fruit Kung Fu 3</en>
+				<pl>Owocowe Kung Fu 3</pl>
+			</title>
+			<description>
+				<de>Tom ist tot. Sein Geist erscheint dem deutschen Tim im Schlaf und bringt ihm Frucht Kung Fu bei, damit dieser gegen die russische Mafia kämpfen kann.</de>
+				<en>Tom is dead. His spirit appears to the German Tim in his sleep and teaches him Fruit Kung Fu so that he can fight against the Russian Mafia.</en>
+				<pl>Tom nie żyje. Jego duch ukazuje się niemieckiemu Timowi we śnie i uczy go Fruit Kung Fu, aby mógł walczyć z rosyjską mafią.</pl>
+			</description>
+			<staff>
+				<member index="0" function="5">Per_custom_Freddy_12</member>
+				<member index="1" function="2">Per_custom_Freddy_663</member>
+				<member index="2" function="2">Per_custom_Freddy_15</member>
+				<member index="3" function="2">Per_custom_Freddy_160</member>
+				<member index="4" function="2">Per_custom_Freddy_424</member>
+			</staff>
+			<groups target_groups="18" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<targetgroupattractivity children="1.5" employees="1.25" />
+			<data country="D" year="2001" distribution="3" maingenre="2" subgenre="5" flags="48" blocks="2" price_mod="1.0" available="0" /> <!-- availability triggered by Freddy_Film_CustomB_13 -->
+			<ratings critics="2" speed="32" outcome="4" />
+		</programme>
+		
+		<programme guid="Freddy_Film_CustomB_15" product="1" licence_type="1" fictional="1" creator="8667" created_by="Rumpelfreddy">
+			<title>
+				<de>Santa gegen die Magmazwerge</de>
+				<en>Santa Against the Magma Dwarfs</en>
+				<pl>Święty Mikołaj przeciwko Magmowym Krasnoludom</pl>
+			</title>
+			<description>
+				<de>Santas Werkstatt am Nordpol droht durch einen Vulkan zerstört zu werden. 3 Tage vor Weihnachten. Also zerstört Santa kurzerhand die Unterweltzivilisation, die daran Schuld trägt.</de>
+				<en>Santa's workshop at the North Pole is in danger of being destroyed by a volcano. 3 days before Christmas. So Santa destroys without further ado the underworld civilization that is to blame.</en>
+				<pl>Warsztat Świętego Mikołaja na biegunie północnym jest zagrożony zniszczeniem przez wulkan. 3 dni przed Bożym Narodzeniem. Mikołaj niszczy więc bez zbędnych ceregieli podziemną cywilizację, która jest temu winna.</pl>
+			</description>
+			<staff>
+				<member index="0" function="5">Per_custom_Freddy_167</member>
+				<member index="1" function="2">Per_custom_Freddy_142</member>
+				<member index="2" function="2">Per_custom_Freddy_27</member>
+				<member index="3" function="2">Per_custom_Freddy_33</member>
+			</staff>
+			<groups target_groups="19" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<targetgroupattractivity children="2" teenagers="2" housewives="2" employees="1.25" />
+			<data country="USA" year="1959" distribution="1" maingenre="2" subgenre="9" flags="32" blocks="3" price_mod="1.0" />
+			<ratings critics="7" speed="18" outcome="22" />
+		</programme>
+		
+		<programme guid="Freddy_Film_CustomB_16" product="1" licence_type="1" fictional="1" creator="8667" created_by="Rumpelfreddy">
+			<title>
+				<de>Julia in der Feenwelt</de>
+				<en>Julia In the Fairy World</en>
+				<pl>Julia w świecie wróżek</pl>
+			</title>
+			<description>
+				<de>Julias neue Schuhe gibt es nur in der Welt der Feen. Also reist sie mit Hilfe von Poo ihrem rosa Eisbär dorthin um zu shoppen.</de>
+				<en>Julia's new shoes are available only in the world of fairies. Thus, with the help of Poo, her pink polar bear, she travels there so she can go shopping.</en>
+				<pl>Nowe buty Julii są dostępne tylko w świecie wróżek. Dlatego z pomocą Poo, jej różowego misia polarnego, udaje się tam na zakupy.</pl>
+			</description>
+			<staff>
+				<member index="0" function="5">Rumpelfreddy-fictionalperson-HannaHobkinns</member>
+				<member index="1" function="2">various-voice-artists</member>
+			</staff>
+			<groups target_groups="7" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<targetgroupattractivity women="1.25" teenagers_female="2" />
+			<data country="D" year="2005" distribution="2" maingenre="3" subgenre="9" flags="48" blocks="2" price_mod="1.0" />
+			<ratings critics="6" speed="12" outcome="27" />
+		</programme>
+		
+		<programme guid="Freddy_Film_CustomB_17" product="1" licence_type="1" fictional="1" creator="8667" created_by="Rumpelfreddy" comment="Prequels now added: 6a11e4c6-eb2b-49b2-b6e6-deb2957ca8cb | TODO: Continuation as screenplays">
+			<title>
+				<de>Super Mega Duper Teenage Kraft Roboter 4</de>
+				<en>Super Duper Mega Teenage Robot Force 4</en>
+				<pl>Super Duper Mega nastoletnie roboty 4</pl>
+			</title>
+			<description>
+				<de>18 Teenager kombinieren ihre Superkraftroboter um den Galaktischen Übermotz Roboter aufzuhalten. Reines Produktplacement ohne jede Qualität.</de>
+				<en>18 teenagers combine their super power robots to stop the Galactic Supreme Uber-Robot. Pure product placement without any quality.</en>
+				<pl>18 nastolatkowie łączą swoje super-moce robotów, aby powstrzymać Galaktycznego Najwyższego Uber-Robota. Czyste lokowanie produktu bez żadnej jakości.</pl>
+			</description>
+			<staff>
+				<member index="0" function="5">Per_custom_Freddy_117</member>
+				<member index="1" function="2">various-voice-artists</member>
+			</staff>
+			<groups target_groups="19" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<targetgroupattractivity men="1.25" teenagers_male="2" />
+			<data country="USA" year="2006" distribution="3" maingenre="3" subgenre="2,16" flags="34" blocks="2" price_mod="1.0" available="0" /> <!-- availability triggered by 9c556f2e-fd6c-4b84-90e4-48f9b4f26e2c -->
+			<ratings critics="5" speed="41" outcome="16" />
+		</programme>
+	</allprogrammes>
+</tvtdb>

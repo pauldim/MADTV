@@ -1,0 +1,1671 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tvtdb>
+	<version value="3" comment="jorgaeffs Nachrichten; TODO: This file has a lot of persons that should be referenced once possible" />
+	<allnews>
+
+		<!-- real historical news items moved to database_news.xml -->
+
+		<!-- "POLITIK + WIRTSCHAFT" -->
+
+		<news guid="news-jorgaeff-dumb-01" type="0" thread_guid="news-jorgaeff-dumb" creator="8936" created_by="jorgaeff" comment="#maintenancecritical">
+			<title>
+				<de>${donald} ${trump} wird Präsident der ${duban1short}</de>
+				<en>${donald} ${trump} becomes President of the ${duban1short}</en>
+				<pl>${donald} ${trump} zostaje prezesem ${duban1short}</pl>
+			</title>
+			<description>
+				<de>Die ${duban1long} hat ${donald} ${trump} zu ihrem neuen Präsidenten ernannt. Für die nächsten vier Jahre wird ${themultimillionaire} die Geschicke der Republik leiten.</de>
+				<en>The ${duban1long} has appointed ${donald} ${trump} as its new president. For the next four years, ${themultimillionaire} will lead the fortunes of the republic.</en>
+				<pl>${duban1long} mianowała ${donald}a ${trump}a na swojego nowego prezydenta. Przez następne cztery lata ${themultimillionaire} będzie kierował losami republiki.</pl>
+			</description>
+			<variables>
+				<currentyear>${.worldtime:"year"}</currentyear>
+				<!--
+					19xx-1990: Donald Trump or Willi Stoph
+					1991-2005: Donald Trump or Manfred Gerlach
+					2006-2014: Donald Trump or Egon Krenz
+					2015-20xx: George W. Bush or Egon Krenz
+				-->
+				<i>0|1</i> <!-- US or GDR -->
+				<epoch>${.lte:currentyear:1990:0:"${.lte:currentyear:2005:1:"${.lte:currentyear:2015:2:3}"}"}</epoch>
+				<president_0_id>${.csv:"7cfb1ee1-0391-4532-8d85-7b70e24a6d9b;7cfb1ee1-0391-4532-8d85-7b70e24a6d9b;7cfb1ee1-0391-4532-8d85-7b70e24a6d9b;1f75865b-39e1-4398-a6d9-ac35b6ac43f3":epoch}</president_0_id>
+				<president_0_attr>
+					<de>${.csv:"der Multi-Millionär;der Multi-Millionär;der Multi-Millionär;der Ex-US-Präsident":epoch}</de>
+					<en>${.csv:"the multi-millionaire;the multi-millionaire;the multi-millionaire;the ex-US president":epoch}</en>
+					<pl>${.csv:"multimilioner;multimilioner;multimilioner;były prezydent USA":epoch}</pl>
+				</president_0_attr>
+				<president_1_id>${.csv:"04fc0e00-91fb-4baf-b9f9-f0cd5852ebba;b75d5dd8-fd43-45fa-828e-c9c18b0f1462;cc0f5c37-e4e8-46d2-b2f8-a62d951a5880;cc0f5c37-e4e8-46d2-b2f8-a62d951a5880":epoch}</president_1_id>
+				<president_1_attr>
+					<de>der Ex-Staatsratsvorsitzende der DDR</de>
+					<en>the former Chairman of the State Council of the GDR</en>
+					<pl>były przewodniczący Rady Państwowej NRD</pl>
+				</president_1_attr>
+				<donald>${.person:president_${i}_id:"firstname"}</donald>
+				<trump>${.person:president_${i}_id:"lastname"}</trump>
+				<themultimillionaire>
+					<all>${president_${i}_attr}</all>
+				</themultimillionaire>
+				<duban_csv>
+					<de>VR Duban;Volksrepublik Duban;Volksrepublik Duban;FR Duban;Freie Republik Duban;Freie Republik Duban|
+						FR Duban;Freie Republik Duban;Freien Republik Duban;VR Duban;Volksrepublik Duban;Volksrepublik Duban
+					</de>
+					<en>PR Duban;People's Republic of Duban;People's Republic of Duban;FR Duban;Free Republic of Duban;Free Republic of Duban|
+						FR Duban;Free Republic of Duban;Free Republic of Duban;PR Duban;People's Republic of Duban;People's Republic of Duban
+					</en>
+					<pl>LR Duban;Dubańska Republika Ludowa;Ludowej Republiki Dubanu;WR Duban;Wolna Republika Duban;Wolną Republikę Dubanu|
+						WR Duban;Wolna Republika Duban;Wolnej Republiki Duban;LR Duban;Dubańska Republika Ludowa;Dubańską Republikę Ludową
+					</pl>
+				</duban_csv>
+				<duban1short>
+					<all>${.csv:duban_csv:0}</all>
+				</duban1short>
+				<duban1long>
+					<all>${.csv:duban_csv:1}</all>
+				</duban1long>
+				<duban1long_gen>
+					<all>${.csv:duban_csv:2}</all>
+				</duban1long_gen>
+				<duban2short>
+					<all>${.csv:duban_csv:3}</all>
+				</duban2short>
+				<duban2long>
+					<all>${.csv:duban_csv:4}</all>
+				</duban2long>
+				<duban2long_acc>
+					<all>${.csv:duban_csv:5}</all>
+				</duban2long_acc>
+			</variables>
+			<data genre="0" price="0.9" quality="75" fictional="1" />
+			<effects>
+				<!-- "morgen 9-12 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,1,1,9,12" news="news-jorgaeff-dumb-02" />
+			</effects>
+		</news>
+		<news guid="news-jorgaeff-dumb-02" type="2" thread_guid="news-jorgaeff-dumb" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>${trump} provoziert ${duban2short}</de>
+				<en>${trump} provokes ${duban2short}</en>
+				<pl>${trump} prowokuje ${duban2short}</pl>
+			</title>
+			<description>
+				<de>In seiner Eröffnungsrede bezeichnete der neue Präsident der ${duban1short}, ${donald} ${trump}, die ${duban2long_acc} als „... Abschaum, der beseitigt werden muss!“. Die ${duban2long} drohte daraufhin Konsequenzen an.</de>
+				<en>In his opening speech, the new president of the ${duban1short}, ${donald} ${trump}, referred to the ${duban2long_acc} as "... Scum that must be eliminated!". The ${duban2long} followed up with threats of consequences.</en>
+				<pl>W swoim przemówieniu inauguracyjnym ${trump} określił ${duban2long_acc} jako „... Szumowiny, które muszą zostać wyeliminowane!”. ${duban2long} zaczęła grozić konsekwencjami.</pl>
+			</description>
+			<data genre="0" price="0.9" quality="75" fictional="1" />
+			<effects>
+				<!-- "uebermorgen 8-16 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,2,2,8,16" news="news-jorgaeff-dumb-03" />
+			</effects>
+		</news>
+		<news guid="news-jorgaeff-dumb-03" type="2" thread_guid="news-jorgaeff-dumb" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>${donald} ${trump} möchte Mauer bauen</de>
+				<en>${donald} ${trump} wants to build wall</en>
+				<pl>${donald} ${trump} chce zbudować mur</pl>
+			</title>
+			<description>
+				<de>Weil sein hölzerner Gartenzaun schon wieder kaputt ist, möchte der Präsident der ${duban1long_gen} nun eine Mauer um sein Grundstück bauen. Sein Kommentar: „Steine halten einfach länger.“</de>
+				<en>Because his wooden garden fence is once again damaged, the president of the ${duban1long_gen} now wants to build a wall around his property. His comment: "Stones just last longer."</en>
+				<pl>Ponieważ jego drewniany płot ogrodowy został ponownie uszkodzony, prezydent ${duban1long_gen} chce teraz zbudować mur wokół swojej posiadłości. Jego komentarz: „Kamienie są po prostu trwalsze”.</pl>
+			</description>
+			<data genre="0" price="0.7" quality="55" fictional="1" />
+			<effects>
+				<!-- "morgen 2-7 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,1,1,2,7" news="news-jorgaeff-dumb-04" />
+			</effects>
+		</news>
+		<news guid="news-jorgaeff-dumb-04" thread_guid="news-jorgaeff-dumb" type="2" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>${donald} ${trump} vermisst Quietsche-Entchen</de>
+				<en>${donald} ${trump} is missing rubber ducky</en>
+				<pl>${donald} ${trump} zgubił gumową kaczkę</pl>
+			</title>
+			<description>
+				<de>Der Präsident der ${duban1short} ist traurig, da er schon seit Tagen seine Quietsche-Ente nicht mehr findet. „Ohne die Quietsche-Ente macht ihm das Baden keinen Spaß mehr, und er duscht lieber“, wird ${trump} von seinem Pressesprecher zitiert.</de>
+				<en>The President of the ${duban1short} is sad because he hasn't been able to find his rubber ducky for days. "Without the rubber duck, he no longer enjoys bathing and he prefers to take a shower," ${trump} is quoted as saying by his press spokesman.</en>
+				<pl>Prezes ${duban1short} jest smutny, ponieważ od kilku dni nie może znaleźć swojej piszczącej gumowej kaczuszki. „Bez gumowej kaczuszki nie lubi się już kąpać i woli brać prysznic”” - ${trump} jest cytowany przez swojego rzecznika prasowego.</pl>
+			</description>
+			<data genre="0" price="0.7" quality="55" fictional="1" />
+		</news> <!-- TODO: pause thread for the mentioned four years or fill it with entries in that time frame -->
+
+		<!-- "SHOWBIZ" -->
+
+		<news guid="news-jorgaeff-bricks-01" type="0" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>${rollingstones} auf Abschiedstournee</de>
+				<en>${rollingstones} on farewell tour</en>
+				<pl>${rollingstones} na pożegnalnej trasie</pl>
+			</title>
+			<description>
+				<de>Mit einem Alterdurchschnitt von 89 Jahren touren die ${rollingstones} durch die Altersheime der Nation. Für ihren Pressesprecher ist es „... die perfekte Möglichkeit sich einen Ruhesitz auszusuchen.“</de>
+				<en>With an average age of 89 years, the ${rollingstones} tour the retirement homes of the nation. For their spokesman, it is "... the perfect opportunity to choose a retirement home."</en>
+				<pl>Ze średnią wieku 89 lat, ${rollingstones} objeżdżają domy spokojnej starości w całym kraju. Dla ich rzecznika jest to „... doskonała okazja, aby wybrać dom spokojnej starości”.</pl>
+			</description>
+			<variables>
+				<rollingstones>${.person:"6d31485f-6f62-4553-84af-a6c3db6b5ed1":"firstname"}</rollingstones>
+			</variables>
+			<data genre="1" price="0.45" quality="45" fictional="1" />
+		</news>
+
+		<news guid="news-jorgaeff-chorris-01" type="0" thread_guid="news-jorgaeff-chorris" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>${chucknorris} schlägt Zeit tot</de>
+				<en>${chucknorris} kills time</en>
+				<pl>${chucknorris} zabija czas</pl>
+			</title>
+			<description>
+				<de>Das hat vor ihm noch keiner geschafft, doch nun ist es Kampfkünstler und Action-Schauspieler ${chucknorris} gelungen die Zeit tot zu schlagen. Und das Beste: Es ist völlig legal!</de>
+				<en>No one has ever done that before him, but now martial artist and action star ${chucknorris} has managed to kill time. And what's best: It's completely legal!</en>
+				<pl>Nikt przed nim tego nie zrobił, ale teraz artysta sztuk walki i gwiazda akcji ${chucknorris} zdołał zabić czas. A co najlepsze: Jest to całkowicie legalne!</pl>
+			</description>
+			<variables>
+				<chucknorris>${.person:"f9886d56-43a6-4584-950e-d62ecf41e62a":"fullname"}</chucknorris>
+			</variables>
+			<data genre="1" price="0.3" quality="30" fictional="1" />
+			<effects>
+				<!-- "in 3 Tagen 20-23 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,3,3,20,23" news="news-jorgaeff-chorris-02" />
+			</effects>
+		</news>
+		<news guid="news-jorgaeff-chorris-02" type="2" thread_guid="news-jorgaeff-chorris" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>${chucknorris} zählt bis zur Unendlichkeit</de>
+				<en>${chucknorris} counts to infinity</en>
+				<pl>${chucknorris} liczy do nieskończoności</pl>
+			</title>
+			<description>
+				<de>Laut eigenen Angaben hat ${chucknorris} bereits 2x bis zur Unendlichkeit gezählt. Die Mathe-Experten dieser Erde rätseln immer noch darüber, ob das stimmt.</de>
+				<en>According to his own statements, ${chucknorris} has already counted to infinity twice. The math experts of this world are still puzzling over whether this is true.</en>
+				<pl>Według jego własnych oświadczeń, ${chucknorris} policzył już do nieskończoności dwa razy. Eksperci matematyczni tego świata wciąż zastanawiają się, czy to prawda.</pl>
+			</description>
+			<data genre="1" price="0.3" quality="30" fictional="1" />
+		</news>
+
+		<news guid="news-jorgaeff-drops-01" type="0" thread_guid="news-jorgaeff-drops" creator="8936" created_by="jorgaeff" comment="TODO: Maybe shouldn't be the 'real' Johnny Depp but a separate parody">
+			<title>
+				<de>${johnny} ${depp} bei Dreharbeiten schwer verletzt</de>
+				<en>${johnny} ${depp} seriously injured during filming</en>
+				<pl>${johnny} ${depp} poważnie ranny podczas kręcenia filmu</pl>
+			</title>
+			<description>
+				<de>Beim Dreh von „Mein Grog - dein Grog“ hat sich ${johnny} ${depp} an einer zerbrochenen Grogflasche verletzt. Die Dreharbeiten verzögern sich.</de>
+				<en>During the filming of "My Grog - Your Grog" ${johnny} ${depp} injured himself due to a broken grog bottle. The shooting is delayed.</en>
+				<pl>Podczas kręcenia filmu „My Grog - Your Grog” ${johnny} ${depp} zranił się z powodu pękniętej butelki grogu. Zdjęcia zostały opóźnione.</pl>
+			</description>
+			<variables>
+				<johnny>${.person:"e7924d67-a4de-417d-a1f9-581fd611b534":"firstname"}</johnny>
+				<depp>${.person:"e7924d67-a4de-417d-a1f9-581fd611b534":"lastname"}</depp>
+				<pattyglansen>${.person:"21e88c65-0cc6-4bd1-bd14-b48b6ce25402":"fullname"}</pattyglansen>
+				<bennyjameson>${.person:"ronny-programmeperson-bennyjameson":"fullname"}</bennyjameson>
+			</variables>
+			<data genre="1" price="0.4" quality="40" fictional="1" />
+			<effects>
+				<!-- "morgen 10-12 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,1,1,10,12" news="news-jorgaeff-drops-02" />
+			</effects>
+		</news>
+		<news guid="news-jorgaeff-drops-02" type="2" thread_guid="news-jorgaeff-drops" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>„Mein Grog - dein Grog“: Dreh geht weiter</de>
+				<en>"My Grog - Your Grog": filming continues</en>
+				<pl>„My Grog - Your Grog”: zdjęcia trwają</pl>
+			</title>
+			<description>
+				<de>Der Dreh des neuen ${depp}-Films geht weiter! Der Schauspieler möchte trotz schwerer Verletzung auf die Zähne beißen und den Film fertig drehen.</de>
+				<en>The shooting of the new ${depp} film continues! The actor wants to grit his teeth and finish shooting the film despite a serious injury.</en>
+				<pl>Zdjęcia do nowego filmu ${depp} trwają! Aktor chce zacisnąć zęby i dokończyć zdjęcia do filmu pomimo poważnej kontuzji.</pl>
+			</description>
+			<data genre="1" price="0.35" quality="35" />
+			<effects>
+				<!-- "in 2 Tagen 8-16 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,2,2,8,16" news="news-jorgaeff-drops-03" />
+			</effects>
+		</news>
+		<news guid="news-jorgaeff-drops-03" type="2" thread_guid="news-jorgaeff-drops" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Neuer ${depp}-Film kommt in die Kinos</de>
+				<en>New ${depp} movie coming to theaters</en>
+				<pl>Nowy film ${depp} już wkrótce w kinach</pl>
+			</title>
+			<description>
+				<de>Trotz der schweren Verletzung des Hauptdarstellers wurde der Dreh des Filmes zu Ende gebracht und wird nun einem Millionen-Publikum vorgestellt.</de>
+				<en>Despite the serious injury of the main actor, the shooting of the film was completed and is now presented to an audience of millions.</en>
+				<pl>Pomimo poważnej kontuzji głównego aktora, zdjęcia do filmu zostały ukończone i są obecnie prezentowane milionowej widowni.</pl>
+			</description>
+			<data genre="1" price="0.45" quality="45" />
+			<effects>
+				<!-- "in 3 Tagen 8-14 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,3,3,8,14" news="news-jorgaeff-drops-04" />
+			</effects>
+		</news>
+		<news guid="news-jorgaeff-drops-04" type="2" thread_guid="news-jorgaeff-drops" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Goldene Brombeere für ${johnny} ${depp}</de>
+				<en>Golden Bramble for ${johnny} ${depp}</en>
+				<pl>Golden Bramble dla ${johnny} ${depp}</pl>
+			</title>
+			<description>
+				<de>Schauspieler ${johnny} ${depp} wurde für seine schlechte Performance in „Mein Grog - dein Grog“ mit der Goldenen Brombeere geehrt.</de>
+				<en>Actor ${johnny} ${depp} was awarded the Golden Bramble for his poor performance in "My Grog - Your Grog".</en>
+				<pl>Aktor ${johnny} ${depp} otrzymał nagrodę Golden Bramble za słaby występ w „My Grog - Your Grog”.</pl>
+			</description>
+			<data genre="1" price="0.45" quality="45" />
+			<effects>
+				<!-- "in 2-4 Stunden" -->
+				<effect trigger="happen" type="triggernews" time="1,2,4" news="news-jorgaeff-drops-05" />
+			</effects>
+		</news>
+		<news guid="news-jorgaeff-drops-05" type="2" thread_guid="news-jorgaeff-drops" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>${pattyglansen} gesteht Affäre</de>
+				<en>${pattyglansen} confesses affair</en>
+				<pl>${pattyglansen} przyznaje się do romansu</pl>
+			</title>
+			<description>
+				<de>Am Rande der Filmpreisverleihungen gesteht ${pattyglansen}, die zusammen mit ${johnny} ${depp} in „Mein Grog - dein Grog“ vor der Kamera stand, eine Affäre mit dem Schauspieler.</de>
+				<en>On the sidelines of the film awards, ${pattyglansen}, who co-starred with ${johnny} ${depp} in "My Grog - Your Grog," confesses to an affair with the actor.</en>
+				<pl>Na marginesie rozdania nagród filmowych ${pattyglansen}, która zagrała z ${johnny} ${depp}em w „My Grog - Your Grog”, wyznaje, że ma romans z aktorem.</pl>
+			</description>
+			<data genre="1" price="0.35" quality="35" fictional="1" />
+			<effects>
+				<!-- "in 0-3 Stunden" -->
+				<effect trigger="happen" type="triggernews" time="1,0,3" news="news-jorgaeff-drops-06" />
+				<effect trigger="happen" type="modifyPersonPopularity" guid="21e88c65-0cc6-4bd1-bd14-b48b6ce25402" valueMin="0.05" valueMax="0.075" />
+			</effects>
+		</news>
+		<news guid="news-jorgaeff-drops-06" type="2" thread_guid="news-jorgaeff-drops" creator="8936" created_by="jorgaeff" comment="TODO: minor castable character, players will be unfamiliar, make this person more prominent">
+			<title>
+				<de>${bennyjameson} klaut Filmpreis</de>
+				<en>${bennyjameson} steals film award</en>
+				<pl>${bennyjameson} kradnie nagrodę filmową</pl>
+			</title>
+			<description>
+				<de>Weil er bei den Filmpreisverleihungen keinen Preis erhalten hat, klaut sich ${bennyjameson} einfach einen und verschwindet durch die Hintertür.</de>
+				<en>Because he didn't receive a prize at the film awards, ${bennyjameson} simply nicked one for himself and disappeared through the back door.</en>
+				<pl>Ponieważ nie otrzymał nagrody na rozdaniu nagród filmowych, ${bennyjameson} po prostu zgarnął jedną dla siebie i zniknął tylnymi drzwiami.</pl>
+			</description>
+			<data genre="1" price="0.45" quality="40" fictional="1" />
+			<effects>
+				<!-- "übermorgen 17-23 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,2,2,17,23" news="news-jorgaeff-drops-07" />
+				<effect trigger="happen" type="modifyPersonPopularity" guid="ronny-programmeperson-bennyjameson" valueMin="0.03" valueMax="0.07" />
+			</effects>
+		</news>
+		<news guid="news-jorgaeff-drops-07" type="2" thread_guid="news-jorgaeff-drops" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>${bennyjameson} zu Gefängnisstrafe verurteilt</de>
+				<en>${bennyjameson} sentenced to prison</en>
+				<pl>${bennyjameson} skazany na karę więzienia</pl>
+			</title>
+			<description>
+				<de>Den geklauten Filmpreis hat er zurück gegeben. Trotzdem wurde ${bennyjameson} zu einer dreitägigen Gefängnisstrafe verurteilt, die er bereits angetreten hat.</de>
+				<en>He gave back the stolen film award. Nevertheless, ${bennyjameson} was convicted to a three-day prison sentence, which he has already entered.</en>
+				<pl>Oddał skradzioną nagrodę filmową. Mimo to, ${bennyjameson} został skazany na karę trzech dni pozbawienia wolności, którą już odbył.</pl>
+			</description>
+			<data genre="1" price="0.5" quality="45" fictional="1" />
+			<effects>
+				<!-- "übermorgen 10-16 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,2,2,10,16" news="news-jorgaeff-drops-08" />
+				<effect trigger="happen" type="modifyPersonPopularity" guid="ronny-programmeperson-bennyjameson" valueMin="-0.07" valueMax="-0.03" />
+			</effects>
+		</news>
+		<news guid="news-jorgaeff-drops-08" type="2" thread_guid="news-jorgaeff-drops" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>${bennyjameson} aus dem Gefängnis entlassen</de>
+				<en>${bennyjameson} released from prison</en>
+				<pl>${bennyjameson} zwolniony z więzienia</pl>
+			</title>
+			<description>
+				<de>Aufgrund guter Führung wurde ${bennyjameson} einen Tag früher aus dem Gefängnis entlassen. Der Schauspieler möchte seine Erfahrungen nun in einem Film verarbeiten.</de>
+				<en>Because of good behavior ${bennyjameson} was released from prison a day early. The actor now wants to reflect on his experience in a film.</en>
+				<pl>Dzięki dobremu zachowaniu ${bennyjameson} został zwolniony z więzienia dzień wcześniej. Aktor chce teraz opowiedzieć o swoim doświadczeniu w filmie.</pl>
+			</description>
+			<data genre="1" price="0.55" quality="50" fictional="1" />
+			<effects>
+				<!-- "in 7 Tagen 0-23 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,7,7,0,23" news="news-jorgaeff-drops-09" />
+				<effect trigger="happen" type="modifyPersonPopularity" guid="ronny-programmeperson-bennyjameson" valueMin="0.01" valueMax="0.03" />
+			</effects>
+		</news>
+		<news guid="news-jorgaeff-drops-09" type="2" thread_guid="news-jorgaeff-drops" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>${bennyjameson} erhält Filmpreis</de>
+				<en>${bennyjameson} receives film award</en>
+				<pl>${bennyjameson} otrzymuje nagrodę filmową</pl>
+			</title>
+			<description>
+				<de>Für die Rolle eines Häftlings wurde ${bennyjameson} mit einem Filmpreis geehrt. Die Kritiker loben die besonders realistische Darstellung des Schauspielers.</de>
+				<en>For the role of a prisoner ${bennyjameson} was honored with a film award. The critics praise the actor's particularly realistic portrayal.</en>
+				<pl>Za rolę więźnia ${bennyjameson} został uhonorowany nagrodą filmową. Krytycy chwalą aktora za wyjątkowo realistyczny portret.</pl>
+			</description>
+			<data genre="1" price="0.6" quality="55" fictional="1" />
+			<effects>
+				<effect trigger="happen" type="modifyPersonPopularity" guid="ronny-programmeperson-bennyjameson" valueMin="0.03" valueMax="0.07" />
+			</effects>
+		</news>
+
+		<!-- "SPORT" -->
+
+		<news guid="news-jorgaeff-socks-01" type="0" creator="8936" created_by="jorgaeff" comment="TODO: Reference not clear, if any; was (erroneously?) declared as non-fictional but no date">
+			<title>
+				<de>Blue Socks gewinnen Football-Meisterschaft</de>
+				<en>Blue Socks Win Football Championship</en>
+				<pl>Niebieskie skarpetki zdobywają mistrzostwo w piłce nożnej</pl>
+			</title>
+			<description>
+				<de>Zum ersten Mal seit 26 Jahren haben die Blue Socks wieder die Meisterschaft gewonnen. In einer packenden Finalserie konnten sie sich letztendlich gegen die Rednecks mit 4:3 durchsetzen.</de>
+				<en>For the first time in 26 years, the Blue Socks have won the championship again. In a thrilling final series, they were ultimately able to prevail against the Rednecks with 4-3.</en>
+				<pl>Po raz pierwszy od 26 lat Blue Socks ponownie zdobyli mistrzostwo. W emocjonującej serii finałowej udało im się ostatecznie wygrać z Rednecks wynikiem 4-3.</pl>
+			</description>
+			<data genre="2" price="0.2" quality="30" fictional="1" />
+		</news>
+
+		<news guid="news-jorgaeff-fufa-01" type="0" creator="8936" created_by="jorgaeff" comment="previously declared non-fictional but likely wrong">
+			<title>
+				<de>Weltmeisterschaft ohne Nationalteams?</de>
+				<en>World Cup without national teams?</en>
+				<pl>Mistrzostwa Świata bez reprezentacji narodowych?</pl>
+			</title>
+			<description>
+				<de>Ginge es nach den Vorstellungen der ${sports_fifa}, würden ab dem kommenden Jahr die Fußball-Weltmeisterschaften erstmals ohne die Nationalteams stattfinden. Die Teilnehmer sollen dann durch Casting-Shows ermittelt werden.</de>
+				<en>If it went according to the ideas of the ${sports_fifa}, then, starting next year, the World Cup would take place for the first time without national teams. The participants would then be determined via casting shows.</en>
+				<pl>Jeśli wszystko poszłoby zgodnie z pomysłami ${sports_fifa}, to od przyszłego roku mistrzostwa świata po raz pierwszy odbyłyby się bez udziału drużyn narodowych. Uczestnicy byliby wówczas wyłaniani w drodze castingów.</pl>
+			</description>
+			<data genre="2" price="0.35" quality="40" fictional="1" />
+		</news>
+
+		<news guid="news-jorgaeff-abstieg-01" type="0" thread_guid="news-jorgaeff-abstieg" creator="8936" created_by="jorgaeff" comment="TODO: case of alternative history; Hamburger SV *did* relegate for the first time in history to 2nd league eventually, but probably not yet at the time this news was authored. Reference 'Knut Knolle' not clear, leaving as fictional for now.">
+			<title>
+				<de>Bundesliga-Relegation: Wer steigt auf, wer ab?</de>
+				<en>Bundesliga play-offs: Who will rise, who will fall?</en>
+				<pl>Play-offy Bundesligi: Kto awansuje, kto spadnie?</pl>
+			</title>
+			<description>
+				<de>Der ${sports_1fc_generic} Nürnberg kämpft gegen den ${sportsclub_hamburgersv} um den Aufstieg in die Fußball-Bundesliga. Wird der Bundesliga-Dino aus dem Norden dem Abstieg erneut entgehen oder werden die Herausforderer aus Franken siegreich sein?</de>
+				<en>The ${sports_1fc_generic} Nuremberg (the "Glubb") fights against ${sportsclub_hamburgersv} for promotion to the Bundesliga. Will the Bundesliga dino from the north escape relegation again or will the challengers from Franconia be victorious?</en>
+				<pl>${sports_1fc_generic} Norymberga („Glubb“) walczy z ${sportsclub_hamburgersv} o awans do Bundesligi. Czy dino z północy ponownie uniknie spadku z Bundesligi, czy też rywale z Frankonii odniosą zwycięstwo?</pl>
+			</description>
+			<variables>
+				<uweseeler>${.person:"1617d822-7f5e-4362-a4bd-e0f05a2dfee0":"fullname"}</uweseeler>
+				<president> <!-- was not really 'Ehrenpräsident' though, but taking liberty here, and news item seems to refer more to a date in the 2000s -->
+					<de>${.lte:currentyear:1997:"Präsident":"Ehrenpräsident"}</de>
+					<en>${.lte:currentyear:1997:"president":"honorary president"}</en>
+					<pl>${.lte:currentyear:1997:"prezes":"honorowy prezes"}</pl>
+				</president>
+			</variables>
+			<data genre="2" price="0.3" quality="30" fictional="1" flags="2" />
+			<availability year_range_from="1995" year_range_to="2016" script='${.eq:${.worldtime:"month"}:5}' />
+			<effects>
+				<!-- "morgen 6-10 Uhr / News a oder b" -->
+				<effect trigger="happen" type="triggernewschoice" choose="or" probability="100" time="2,1,1,6,10" news1="news-jorgaeff-abstieg-02a" probability1="50" news2="news-jorgaeff-abstieg-02b" probability2="50"/>
+			</effects>
+		</news>
+		<news guid="news-jorgaeff-abstieg-02a" type="2" thread_guid="news-jorgaeff-abstieg" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>${sportsclub_hamburgersv} steigt erstmalig ab</de>
+				<en>${sportsclub_hamburgersv} relegated for the first time</en>
+				<pl>${sportsclub_hamburgersv} po raz pierwszy zdegradowany</pl>
+			</title>
+			<description>
+				<de>Erstmalig in seiner Vereinsgeschichte ist der ${sportsclub_hamburgersv} aus der Bundesliga abgestiegen. Er unterlag dem „Glubb“ in einem spannenden Spiel mit 0:1 nach Verlängerung. Wackelt jetzt der Stuhl von Trainer Knut Knolle?</de>
+				<en>For the first time in its club history, ${sportsclub_hamburgersv} has been relegated from the Bundesliga. They lost to the "Glubb" in an exciting game with 0-1 after extra time. Is the seat of coach Knut Knolle in question now?</en>
+				<pl>${sportsclub_hamburgersv} po raz pierwszy w historii klubu spadł z Bundesligi. Przegrali z „Glubbem“ w emocjonującym meczu 0-1 po dogrywce. Czy fotel trenera Knuta Knolle stoi teraz pod znakiem zapytania?</pl>
+			</description>
+			<data genre="2" price="0.3" quality="30" fictional="1" />
+			<effects>
+				<!-- "in 4-8 Stunden / News a oder b" -->
+				<effect trigger="happen" type="triggernewschoice" choose="or" probability="100" time="1,4,8" news1="news-jorgaeff-abstieg-03a" probability1="50" news2="news-jorgaeff-abstieg-03b" probability2="50"/>
+			</effects>
+		</news>
+		<news guid="news-jorgaeff-abstieg-02b" type="2" thread_guid="news-jorgaeff-abstieg" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>„Glubb“ verpasst Aufstieg</de>
+				<en>"Glubb" misses promotion</en>
+				<pl>„Glubb“ nie awansuje</pl>
+			</title>
+			<description>
+				<de>Nicht ganz gereicht hat es für den „Glubb“. Die Franken zogen gegen die Hamburger den Kürzeren und verpassten mit einem knappen 0:1 den Aufstieg in die Bundesliga.</de>
+				<en>It was not quite enough for the "Glubb". The Franconians drew the short straw against Hamburg and missed with a narrow 0-1 the promotion to the Bundesliga.</en>
+				<pl>To nie wystarczyło dla „Glubba“. Frankończycy wyciągnęli krótką słomkę przeciwko Hamburgowi i przegrali 0-1 i awans do Bundesligi</pl>
+			</description>
+			<data genre="2" price="0.3" quality="0" fictional="1" />
+			<effects>
+				<!-- "in 4-8 Stunden / News c oder d" -->
+				<effect trigger="happen" type="triggernewschoice" choose="or" probability="100" time="1,4,8" news1="news-jorgaeff-abstieg-03c" probability1="50" news2="news-jorgaeff-abstieg-03d" probability2="50"/>
+			</effects>
+		</news>
+		<news guid="news-jorgaeff-abstieg-03a" type="2" thread_guid="news-jorgaeff-abstieg" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>${sportsclub_hamburgersv} trennt sich von Trainer</de>
+				<en>${sportsclub_hamburgersv} parts ways with coach</en>
+				<pl>${sportsclub_hamburgersv} rozstaje się z trenerem</pl>
+			</title>
+			<description>
+				<de>Aufgrund des erstmaligen Abstiegs des ${sportsclub_hamburgersv} zieht ${president} ${uweseeler} die Reißleine und entlässt Trainer Knut Knolle. ${uweseeler} möchte nun den Trainermarkt sondieren und nach geeigneten Nachfolgern Ausschau halten.</de>
+				<en>Due to the first-time relegation of ${sportsclub_hamburgersv}, ${president} ${uweseeler} pulls the plug and sacks coach Knut Knolle. ${uweseeler} now wants to explore the market and look for suitable successors.</en>
+				<pl>Z powodu pierwszego spadku ${sportsclub_hamburgersv}, ${president} ${uweseeler} wyciąga wtyczkę i zwalnia trenera Knuta Knolle. ${uweseeler} chce teraz zbadać rynek i poszukać odpowiednich następców.</pl>
+			</description>
+			<data genre="2" price="0.25" quality="25" fictional="1" />
+		</news>
+		<news guid="news-jorgaeff-abstieg-03b" type="2" thread_guid="news-jorgaeff-abstieg" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>${sportsclub_hamburgersv} hält am Trainer fest</de>
+				<en>${sportsclub_hamburgersv} holds on to coach</en>
+				<pl>${sportsclub_hamburgersv} trzyma się trenera</pl>
+			</title>
+			<description>
+				<de>Trotz des Abstiegs aus der Bundesliga möchte ${president} ${uweseeler} am Trainer festhalten: „Knut Knolle ist unser Mann auch für die 2. Liga. Mit ihm werden wir wieder aufsteigen.“</de>
+				<en>Despite the relegation from the Bundesliga, ${president} ${uweseeler} wants to hold on to the coach: "Knut Knolle is our man also for the 2nd league. With him, we will rise again."</en>
+				<pl>Pomimo spadku z Bundesligi, ${president} ${uweseeler} chce zatrzymać trenera: „Knut Knolle to nasz człowiek także na 2. ligę. Z nim znów się podniesiemy”.</pl>
+			</description>
+			<data genre="2" price="0.25" quality="25" fictional="1" />
+		</news>
+		<news guid="news-jorgaeff-abstieg-03c" type="2" thread_guid="news-jorgaeff-abstieg" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Muss der „Glubb“ Insolvenz anmelden?</de>
+				<en>Does the "Glubb" have to file for bankruptcy?</en>
+				<pl>Czy „Glubb“ musi ogłosić upadłość?</pl>
+			</title>
+			<description>
+				<de>Viel wurde investiert um nach Jahren der Zweitklassigkeit endlich wieder im Oberhaus mitspielen zu können, doch gebracht hat es leider nichts. Gewachsen ist nur der Schuldenberg und der könnte den „Glubberern“ jetzt zum Verhängnis werden.</de>
+				<en>After years of second-class status, much was invested to finally be able to play in the top division again, but unfortunately it has yielded nothing. Only the mountain of debt has grown, and that could be the doom now for the "Glubbers".</en>
+				<pl>Po latach statusu drugoligowca wiele zainwestowano, by w końcu znów móc grać w najwyższej klasie rozgrywkowej, ale niestety nic to nie dało. Wzrosła tylko góra długów, co może być teraz zgubą dla „Glubbersów“.</pl>
+			</description>
+			<data genre="2" price="0.25" quality="25" fictional="1" />
+		</news>
+		<news guid="news-jorgaeff-abstieg-03d" type="2" thread_guid="news-jorgaeff-abstieg" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Der „Glubb“ ist wieder schuldenfrei</de>
+				<en>The "Glubb" is debt-free again</en>
+				<pl>„Glubb“ znów jest wolny od długów</pl>
+			</title>
+			<description>
+				<de>Bedingt durch die hohe Aufstiegsprämie konnte der „Glubb“ alle seine Schulden abbauen und steht somit wieder auf gesunden Füßen. Die „Glubberer“ hoffen, dass dies auch so bleibt.</de>
+				<en>Due to the high promotion bonus, the "Glubb" was able to reduce all its debts and is thus back on a sound footing. The "Glubbers" hope that this will continue.</en>
+				<pl>Dzięki wysokiej premii promocyjnej „Glubb“ był w stanie zredukować wszystkie swoje długi i tym samym powrócił na solidne podstawy. „Glubbersi“ mają nadzieję, że ten stan się utrzyma.</pl>
+			</description>
+			<data genre="2" price="0.25" quality="25" fictional="1" />
+		</news>
+
+		<news guid="news-jorgaeff-racing-01" type="0" thread_guid="news-jorgaeff-racing" creator="8936" created_by="jorgaeff" comment="previously somewhat 'real' with random outcome, thus may collide with actual historical news to be added; turning this into a fictional kids championship; spoof names now intended to be in diminuitive form, in addition to eventual existing 'real' entries | Previously 'Formula X' but Formula 1,2,3,... is probably better spoofed with Formula A,B,C,...">
+			<title>
+				<de>U15 ${sports_formula1}: Wer holt sich die Fahrer-WM?</de>
+				<en>U15 ${sports_formula1}: Who will win the drivers' championship?</en>
+				<pl>${sports_formula1} U15: Kto zdobędzie mistrzostwo kierowców?</pl>
+			</title>
+			<description>
+				<de>Zu einem Dreikampf kommt es heute Abend beim letzten Rennen der Unter-15-${sports_formula1} zwischen den punktgleichen Piloten ${driver1}, ${driver2} und ${driver3}. Wer wird Fahrer-Weltmeister?</de>
+				<en>There will be a triple-header tonight in the final race of the Under-15 ${sports_formula1} between the drivers ${driver1}, ${driver2} and ${driver3}, who are tied on points. Who will be the world drivers' champion?</en>
+				<pl>Dziś wieczorem w ostatnim wyścigu Formuły A do lat 15 dojdzie do potrójnego pojedynku. Kierowcy ${driver1}, ${driver2} i ${driver3} zremisowali na punkty. Kto zostanie mistrzem świata kierowców?</pl>
+			</description>
+			<variables>
+				<driver1>Louis Pummelton|Miki Lausa|Kiki Rasburg|Alain Most|Jamie Hurt|Nigel Damsell|Mika Häkkleinen|Michi Schublattler</driver1>
+				<driver2>Sebastian Kettkar|Ayrton Flenna|Jackie Stewie|Mario Androlli|Jody Schleckie|Nelson Pequeno|Emerson Littipoldi|Damian Chill</driver2>
+				<driver3>Floriano Alfonso|Jackie Villejeune|Rubens Balliballo|Davy Coolheart|Gerald Burgie|Riccardo Capresi|Sean Alusi|Heinz-Harald Frantzi</driver3>
+			</variables>
+			<data genre="2" price="0.45" quality="45" fictional="1" />
+			<effects>
+				<!-- "möglicher Effekt: Live-Übertragung" -->
+				<!-- "morgen 6-12 Uhr / News a, b, c oder d" -->
+				<effect trigger="happen" type="triggernewschoice" choose="or" probability="100" time="2,1,1,6,12" news1="news-jorgaeff-racing-02a" probability1="30" news2="news-jorgaeff-racing-02b" probability2="30" news3="news-jorgaeff-racing-02c" probability3="30" news4="news-jorgaeff-racing-02d" probability4="10"/>
+			</effects>
+		</news>
+		<news guid="news-jorgaeff-racing-02a" type="2" thread_guid="news-jorgaeff-racing" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>${driver1} ist Weltmeister</de>
+				<en>${driver1} is world champion</en>
+				<pl>${driver1} mistrzem świata</pl>
+			</title>
+			<description>
+				<de>Der neue U15-${sports_formula1}-Weltmeister heißt ${driver1}. In einem spannenden Rennen konnte er sich gegen seine Rivalen ${driver2} und ${driver3} trotz einer 10-Sekunden-Strafe wegen zu schnellem Fahren durchsetzen.</de>
+				<en>The new U15 ${sports_formula1} world champion is ${driver1}. In an exciting race, he was able to prevail against his rivals ${driver2} and ${driver3} despite a 10-second penalty for speeding.</en>
+				<pl>Nowym mistrzem świata ${sports_formula1} do lat 15 został ${driver1}. W emocjonującym wyścigu udało mu się zwyciężyć pomimo 10-sekundowej kary za przekroczenie prędkości. Jego rywale ${driver2} i ${driver3} zostali w tyle.</pl>
+			</description>
+			<data genre="2" price="0.5" quality="50" fictional="1" />
+		</news>
+		<news guid="news-jorgaeff-racing-02b" type="2" thread_guid="news-jorgaeff-racing" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>${driver2} ist Weltmeister</de>
+				<en>${driver2} is world champion</en>
+				<pl>${driver2} mistrzem świata</pl>
+			</title>
+			<description>
+				<de>Der neue U15-${sports_formula1}-Weltmeister heißt ${driver2}. In einem spannenden Rennen konnte er sich gegen seine Rivalen ${driver1} und ${driver3} trotz einer 10-Sekunden-Strafe wegen zu schnellem Fahren durchsetzen.</de>
+				<en>The new U15 ${sports_formula1} world champion is ${driver2}. In an exciting race, he was able to prevail over his rivals ${driver1} and ${driver3} despite a 10-second penalty for speeding.</en>
+				<pl>Nowym mistrzem świata ${sports_formula1} do lat 15 został ${driver2}. W emocjonującym wyścigu udało mu się zwyciężyć pomimo 10-sekundowej kary za przekroczenie prędkości. Jego rywale ${driver1} i ${driver3} zostali w tyle.</pl>
+			</description>
+			<data genre="2" price="0.5" quality="50" fictional="1" />
+		</news>
+		<news guid="news-jorgaeff-racing-02c" type="2" thread_guid="news-jorgaeff-racing" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>${driver3} ist Weltmeister</de>
+				<en>${driver3} is world champion</en>
+				<pl>${driver3} mistrzem świata</pl>
+			</title>
+			<description>
+				<de>Der neue U15-${sports_formula1}-Weltmeister heißt ${driver3}. In einem spannenden Rennen konnte er sich gegen seine Rivalen ${driver1} und ${driver2} trotz einer 10-Sekunden-Strafe wegen zu schnellem Fahren durchsetzen.</de>
+				<en>The new U15 ${sports_formula1} world champion is ${driver3}. In an exciting race, he was able to prevail over his rivals ${driver1} and ${driver2} despite a 10-second penalty for speeding.</en>
+				<pl>Nowym mistrzem świata ${sports_formula1} do lat 15 został ${driver3}. W emocjonującym wyścigu udało mu się zwyciężyć pomimo 10-sekundowej kary za przekroczenie prędkości. Jego rywale ${driver1} i ${driver2} zostali w tyle.</pl>
+			</description>
+			<data genre="2" price="0.5" quality="50" fictional="1" />
+		</news>
+		<news guid="news-jorgaeff-racing-02d" type="2" thread_guid="news-jorgaeff-racing" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Sensation: Erstmalig drei Weltmeister</de>
+				<en>Sensation: Three world champions for the first time</en>
+				<pl>Sensacja: Trzech mistrzów świata po raz pierwszy</pl>
+			</title>
+			<description>
+				<de>Zu einem Novum kam es beim letzten Rennen der U15-${sports_formula1}: Alle drei WM-Führenden schieden nach Reifenplatzern aus. Somit gibt es erstmalig in der Geschichte der U15-Formel A drei Weltmeister.</de>
+				<en>There was a novelty in the last race of U15 ${sports_formula1}: All three world championship leaders dropped out after tire blowouts. Thus, for the first time in the history of U15 Formula A, there are three world champions.</en>
+				<pl>W ostatnim wyścigu ${sports_formula1} do lat 15 miała miejsce nowość: wszyscy trzej liderzy mistrzostw świata odpadli po przebiciu opon. Tym samym po raz pierwszy w historii Formuły A do lat 15 mamy trzech mistrzów świata.</pl>
+			</description>
+			<data genre="2" price="0.6" quality="60" fictional="1" />
+		</news>
+
+		<news guid="news-jorgaeff-nachtrennen-01" type="0" thread_guid="news-jorgaeff-nachtrennen" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Erstes Nachtrennen der Formel Öko</de>
+				<en>First Formula Eco night race</en>
+				<pl>Pierwszy nocny wyścig Formuły Eco</pl>
+			</title>
+			<description>
+				<de>Heute Abend startet das erste Nachtrennen der Formel Öko. Die solarbetriebenen Boliden sollen eine Alternative zu den aus fossilen Rohstoffen betriebenen Flitzern der ${sports_formula1} sein.</de>
+				<en>Tonight starts the first night race in Formula Eco. The solar-powered racers are intended to be an alternative to the fossil fuel-powered speedsters of ${sports_formula1}.</en>
+				<pl>Dziś wieczorem rozpocznie się pierwszy nocny wyścig Formuły Eco. Napędzane energią słoneczną bolidy mają być alternatywą dla napędzanych paliwami kopalnymi bolidów ${sports_formula1}.</pl>	
+			</description>
+			<data genre="2" price="0.30" quality="30" fictional="1" />
+			<effects>
+				<!-- "möglicher Effekt: Live-Übertragung" -->
+				<!-- "in 1 Tagen 0-23 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,1,1,0,23" news="news-jorgaeff-nachtrennen-02" />
+			</effects>
+		</news>
+		<news guid="news-jorgaeff-nachtrennen-02" type="2" thread_guid="news-jorgaeff-nachtrennen" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Nachtrennen der Formel Öko abgebrochen</de>
+				<en>Formula Eco night race canceled</en>
+				<pl>Nocny wyścig Formuły Eco odwołany</pl>
+			</title>
+			<description>
+				<de>Ein Novum in der Geschichte des Rennsports! Erstmalig muss ein Rennen aufgrund von Energiemangel abgebrochen werden. Die Initiatoren haben wohl vergessen, dass die solarbetriebenen Boliden das Sonnenlicht benötigen, um fahren zu können.</de>
+				<en>A novelty in the history of racing! For the first time, a race must be canceled due to a lack of power. The initiators have probably forgotten that the solar-powered carts need the sunlight to be able to drive.</en>
+				<pl>Nowość w historii wyścigów! Po raz pierwszy wyścig musi zostać odwołany z powodu braku zasilania. Pomysłodawcy chyba zapomnieli, że pojazdy zasilane energią słoneczną potrzebują światła słonecznego, aby móc jeździć.</pl>
+			</description>
+			<data genre="2" price="0.35" quality="40" fictional="1" />
+		</news>
+
+		<news guid="news-jorgaeff-dyson-01" type="0" thread_guid="news-jorgaeff-dyson" creator="8936" created_by="jorgaeff" comment="TODO: deal with this 'half-fictional' aspect somehow">
+				<!-- "Beginnt an einem Sonntag" -->
+			<availability year_range_from="2005" script='${.eq:${.worldtime:"weekday"}:6}' />
+			<title>
+				<de>Klatschkowski weiterhin Boxweltmeister</de>
+				<en>Klatschkowski still world boxing champion</en>
+				<pl>Klatschkowski wciąż mistrzem świata w boksie</pl>
+			</title>
+			<description>
+				<de>Auch der 49. Herausforderer hat es nicht geschafft Eugen Klatschkowski als Weltmeister im Schwergewicht zu entthronen. Die Suche nach weiteren Herausforderern gestaltet sich schwer.</de>
+				<en>Even the 49th challenger has not managed to dethrone Eugen Klatschkowski as world heavyweight champion. The search for more challengers is proving difficult.</en>
+				<pl>Nawet 49. challenger nie zdołał zdetronizować Eugena Klatschkowskiego jako mistrza świata wagi ciężkiej. Poszukiwania kolejnych pretendentów okazują się trudne.</pl>
+			</description>
+			<data genre="2" price="0.35" quality="35" fictional="1" />
+			<effects>
+				<!-- "Montag 12-16.00 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,1,1,12,16" news="news-jorgaeff-dyson-02" />
+			</effects>
+		</news>
+		<news guid="news-jorgaeff-dyson-02" type="2" thread_guid="news-jorgaeff-dyson" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Klatschkowski möchte Titel verteidigen</de>
+				<en>Klatschkowski wants to defend title</en>
+				<pl>Klatschkowski chce bronić tytułu</pl>
+			</title>
+			<description>
+				<de>Aufgrund des Mangels an Herausforderern spricht der aktuelle Meister im Schwergewicht, Eugen Klatschkowski, eine offene Herausforderung „...an alle die Manns genug sind um mit mir in den Ring zu steigen“ aus.</de>
+				<en>Due to the lack of challengers, the current heavyweight champion, Eugen Klatschkowski, issues an open challenge "...to all those who are man enough to get into the ring with me."</en>
+				<pl>Z powodu braku pretendentów, obecny mistrz wagi ciężkiej, Eugen Klatschkowski, rzuca otwarte wyzwanie "... wszystkim, którzy są na tyle odważni, aby wejść ze mną do ringu".</pl>
+			</description>
+			<data genre="2" price="0.4" quality="40" fictional="1" />
+			<effects>
+				<!-- "in 4-8 Stunden" -->
+				<effect trigger="happen" type="triggernews" time="1,4,8" news="news-jorgaeff-dyson-03" />
+			</effects>
+		</news>
+		<news guid="news-jorgaeff-dyson-03" type="2" thread_guid="news-jorgaeff-dyson" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Spike Dyson nimmt Herausforderung an</de>
+				<en>Spike Dyson accepts challenge</en>
+				<pl>Spike Dyson przyjmuje wyzwanie</pl>
+			</title>
+			<description>
+				<de>Spike Dyson, der ehemalige mehrfache Weltmeister im Schwergewicht, nimmt die offene Herausforderung des aktuellen Champions, Eugen Klatschkowski, an und möchte mit diesem in einer Woche in Vas Legas in den Ring steigen.</de>
+				<en>Spike Dyson, the former multiple heavyweight world champion, accepts the open challenge of the current champion, Eugen Klatschkowski, and wants to get in the ring with him in a week in Vas Legas.</en>
+				<pl>Spike Dyson, były wielokrotny mistrz świata wagi ciężkiej, przyjmuje otwarte wyzwanie obecnego mistrza, Eugena Klatschkowskiego, i chce stanąć z nim w ringu za tydzień w Vas Legas.</pl>
+			</description>
+			<data genre="2" price="0.45" quality="45" fictional="1" />
+			<effects>
+				<!-- "Dienstag 12-16 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,1,1,12,16" news="news-jorgaeff-dyson-04" />
+			</effects>
+		</news>
+		<news guid="news-jorgaeff-dyson-04" type="2" thread_guid="news-jorgaeff-dyson" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Spike Dyson trainiert für Comeback</de>
+				<en>Spike Dyson trains for comeback</en>
+				<pl>Spike Dyson przygotowuje się do powrotu</pl>
+			</title>
+			<description>
+				<de>Trotz seines fortgeschrittenen Alters trainiert der Ex-Weltmeister im Schwergewicht, Spike Dyson, für ein Comeback im Boxring. Ziel ist den amtierenden Champion, Eugen Klatschkowski, beim „Kampf der Titanen“ am Samstag zu besiegen.</de>
+				<en>Despite his advanced age, the former world heavyweight champion, Spike Dyson, is training for a comeback in the boxing ring. The goal is to defeat the current champion, Eugen Klatschkowski, at the "Clash of the Titans" on Saturday.</en>
+				<pl>Pomimo zaawansowanego wieku, były mistrz świata wagi ciężkiej, Spike Dyson, trenuje do powrotu na ring bokserski. Jego celem jest pokonanie obecnego mistrza, Eugena Klatschkowskiego, podczas sobotniego "Starcia Tytanów".</pl>
+			</description>
+			<data genre="2" price="0.5" quality="50" fictional="1" />
+			<effects>
+				<!-- "Freitag 12-16 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,1,1,12,16" news="news-jorgaeff-dyson-05" />
+			</effects>
+		</news>
+		<news guid="news-jorgaeff-dyson-05" type="2" thread_guid="news-jorgaeff-dyson" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Dyson vs. Klatschkowski: Tumulte vor Boxkampf</de>
+				<en>Dyson vs. Klatschkowski: Riots before match</en>
+				<pl>Dyson vs Klatschkowski: Zamieszki przed walką</pl>
+			</title>
+			<description>
+				<de>Das Wiegen vor dem Fight zwischen Spike Dyson und Eugen Klatschkowski hat sich zum Spektakel entwickelt. Während die Kontrahenten auf die Waage traten, eskalierte Dysons Sohn Shawn und trat Klatschkowski mit Anlauf in die Klöten.</de>
+				<en>The weigh-in before the boxing match between Spike Dyson and Eugen Klatschkowski turned into a spectacle. While the competitors stepped on the scales, Dyson's son Shawn escalated and ran up and kicked Klatschkowski in the nuts.</en>
+				<pl>Ważenie przed walką bokserską Spike'a Dysona z Eugenem Klatschkowskim przerodziło się w spektakl. Podczas gdy zawodnicy wchodzili na wagę, syn Dysona, Shawn, podbiegł i kopnął Klatschkowskiego w jaja.</pl>
+			</description>
+			<data genre="2" price="0.55" quality="55" fictional="1" />
+			<effects>
+				<!-- "Samstag 18-20 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,1,1,18,20" news="news-jorgaeff-dyson-06" />
+			</effects>
+		</news>
+		<news guid="news-jorgaeff-dyson-06" type="2" thread_guid="news-jorgaeff-dyson" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Heute Abend: Dyson vs. Klatschkowski</de>
+				<en>Tonight: Dyson vs. Klatschkowski</en>
+				<pl>Dziś wieczorem: Dyson vs. Klatschkowski</pl>
+			</title>
+			<description>
+				<de>Wird es heute Abend einen neuen Box-Champion geben, oder kann Eugen Klatschkowski auch den 50. Herausforderer besiegen? Die Wetten stehen 7:1 für eine erfolgreiche Titelverteidigung.</de>
+				<en>Will there be a new boxing champion tonight, or can Eugen Klatschkowski also defeat the 50th challenger? The bets are 7-1 for a successful title defense.</en>
+				<pl>Czy dziś wieczorem zostanie wyłoniony nowy mistrz świata w boksie, czy też Eugen Klatschkowski pokona 50. pretendenta? Zakłady wynoszą 7-1 na udaną obronę tytułu.</pl>
+			</description>
+			<data genre="2" price="0.6" quality="60" fictional="1" />
+			<effects>
+				<!-- "möglicher Effekt: Live-Übertragung" -->
+				<!-- "in 4 Stunden / News a oder b" -->
+				<effect trigger="happen" type="triggernewschoice" choose="or" probability="100" time="1,4" news1="news-jorgaeff-dyson-06a" probability1="30" news2="news-jorgaeff-dyson-06b" probability2="70" />
+			</effects>
+		</news>
+		<news guid="news-jorgaeff-dyson-06a" type="2" thread_guid="news-jorgaeff-dyson" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Spike Dyson neuer Box-Weltmeister</de>
+				<en>Spike Dyson new boxing world champion</en>
+				<pl>Spike Dyson nowym mistrzem świata w boksie</pl>
+			</title>
+			<description>
+				<de>Der 50. Herausforderer war einer zu viel: Spike Dyson ist trotz seiner 52 Jahre der neue Box-Weltmeister. In einem spannenden Kampf konnte er den Dauer-Champion Eugen Klatschkowski nach klarem K. o. in der 12. Runde den Gürtel abnehmen.</de>
+				<en>The 50th challenger was one too many: Spike Dyson, despite his 52 years, is the new boxing world champion. In an exciting fight he was able to take the belt from the long-standing champion Eugen Klatschkowski after a clear knockout in the 12th round.</en>
+				<pl>Pięćdziesiąty pretendent to o jeden za dużo: Spike Dyson, mimo swoich 52 lat, został nowym mistrzem świata w boksie. W ekscytującej walce udało mu się odebrać pas wieloletniemu mistrzowi Eugenowi Klatschkowskiemu po wyraźnym nokaucie w 12. rundzie.</pl>
+			</description>
+			<data genre="2" price="0.7" quality="70" fictional="1" />
+			<effects>
+				<!-- "morgen 10-18 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,1,1,10,18" news="news-jorgaeff-dyson-07a" />
+			</effects>
+		</news>
+		<news guid="news-jorgaeff-dyson-06b" type="2" thread_guid="news-jorgaeff-dyson" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Klatschkowski bleibt Box-Weltmeister</de>
+				<en>Klatschkowski remains boxing world champion</en>
+				<pl>Klatschkowski pozostaje bokserskim mistrzem świata</pl>
+			</title>
+			<description>
+				<de>Auch der 50. Herausforderer hat es nicht geschafft Eugen Klatschkowski zu entthronen. Dyson blieb in dem rund 30-minütigen Kampf letztendlich chancenlos. Somit bleibt Klatschkowski weiterhin Champion.</de>
+				<en>Even the 50th challenger failed to dethrone Eugen Klatschkowski. In the end, Dyson was left without a chance in the fight, which lasted about 30 minutes. Thus, Klatschkowski remains champion.</en>
+				<pl>Nawet 50-ty pretendent nie zdołał zdetronizować Eugena Klatschkowskiego. Ostatecznie Dyson został bez szans w walce, która trwała około 30 minut. Tym samym Klatschkowski pozostał mistrzem.</pl>
+			</description>
+			<data genre="2" price="0.7" quality="70" fictional="1" />
+			<effects>
+				<!-- "morgen 10-18 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,1,1,10,18" news="news-jorgaeff-dyson-07b" />
+			</effects>
+		</news>
+		<news guid="news-jorgaeff-dyson-07a" type="2" thread_guid="news-jorgaeff-dyson" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Spike Dyson: Mit Yoga habe ich es geschafft</de>
+				<en>Spike Dyson: With yoga I made it</en>
+				<pl>Spike Dyson: Z jogą mi się to udało</pl>
+			</title>
+			<description>
+				<de>Spike Dyson lüftet sein Geheimnis: Eine spezielle Yoga-Therapie hat ihm beim Sieg über Klatschkowski geholfen. Dyson möchte nun ein Buch darüber schreiben und eine DVD herausbringen.</de>
+				<en>Spike Dyson reveals his secret: A special yoga therapy has helped him in the victory over Klatschkowski. Dyson now wants to write a book about it and release a DVD.</en>
+				<pl>Spike Dyson zdradza swój sekret: specjalna terapia jogą pomogła mu w zwycięstwie nad Klatschkowskim. Dyson chce teraz napisać o tym książkę i wydać DVD.</pl>
+			</description>
+			<data genre="2" price="0.55" quality="55" fictional="1" />
+		</news>
+		<news guid="news-jorgaeff-dyson-07b" type="2" thread_guid="news-jorgaeff-dyson" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Klatschkowski tritt zurück</de>
+				<en>Klatschkowski resigns</en>
+				<pl>Klatschkowski rezygnuje</pl>
+			</title>
+			<description>
+				<de>Wenn es am schönsten ist soll man aufhören. Nach 50 erfolgreichen Titelverteidigungen beendet Rekord-Champion Klatschkowski seine Karriere und hängt seine Boxhandschuhe an den Nagel.</de>
+				<en>Quit while you're ahead. After 50 successful title defenses, record champion Klatschkowski ends his career and chucks out his boxing gloves.</en>
+				<pl>Zrezygnuj, póki jesteś do przodu. Po 50 udanych obronach tytułu, rekordowy mistrz Klatschkowski kończy karierę i wyrzuca rękawice bokserskie.</pl>
+			</description>
+			<data genre="2" price="0.55" quality="55" fictional="1" />
+		</news>
+
+		<news guid="news-jorgaeff-badminton-01" type="0" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Badminton: Alle Ergebnisse und Tabellen ${.worldtime:"month"}/${.worldtime:"year"}</de>
+				<en>Badminton: All results and tables ${.worldtime:"month"}/${.worldtime:"year"}</en>
+				<pl>Badminton: Wszystkie wyniki i tabele ${.worldtime:"month"}/${.worldtime:"year"}</pl>
+			</title>
+			<description>
+				<de>Alle Badminton-Ergebnisse mit aktuellen Tabellen .</de>
+				<en>All badminton results with current tables.</en>
+				<pl>Wszystkie wyniki badmintona z aktualnymi tabelami.</pl>
+			</description>
+			<data genre="2" price="0.20" quality="20" fictional="1" />
+		</news>
+
+		<news guid="news-jorgaeff-schach-01" type="0" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Schach: Alle Ergebnisse und Tabellen ${.worldtime:"month"}/${.worldtime:"year"}</de>
+				<en>Chess: All results and tables ${.worldtime:"month"}/${.worldtime:"year"}</en>
+				<pl>Szachy: Wszystkie wyniki i tabele ${.worldtime:"month"}/${.worldtime:"year"}</pl>
+			</title>
+			<description>
+				<de>Alle Schach-Ergebnisse mit aktuellen Tabellen.</de>
+				<en>All chess results with current tables.</en>
+				<pl>Wszystkie wyniki szachowe z aktualnymi tabelami.</pl>
+			</description>
+			<data genre="2" price="0.20" quality="20" fictional="1" />
+		</news>
+
+		<news guid="news-jorgaeff-hockey-01" type="0" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Hockey: Alle Ergebnisse und Tabellen ${.worldtime:"month"}/${.worldtime:"year"}</de>
+				<en>Hockey: All results and tables ${.worldtime:"month"}/${.worldtime:"year"}</en>
+				<pl>Hokej: Wszystkie wyniki i tabele ${.worldtime:"month"}/${.worldtime:"year"}</pl>
+			</title>
+			<description>
+				<de>Alle Hockey-Ergebnisse mit aktuellen Tabellen.</de>
+				<en>All field hockey results with current tables.</en>
+				<pl>Wszystkie wyniki hokejowe z aktualnymi tabelami.</pl>
+			</description>
+			<data genre="2" price="0.20" quality="20" fictional="1" />
+		</news>
+
+		<news guid="news-jorgaeff-billard-01" type="0" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Billard: Alle Ergebnisse und Tabellen ${.worldtime:"month"}/${.worldtime:"year"}</de>
+				<en>Billiards: All results and tables ${.worldtime:"month"}/${.worldtime:"year"}</en>
+				<pl>Bilard: Wszystkie wyniki i tabele ${.worldtime:"month"}/${.worldtime:"year"}</pl>
+			</title>
+			<description>
+				<de>Alle Ergebnisse vom Billard mit aktuellen Tabellen.</de>
+				<en>All results in billiards with current tables.</en>
+				<pl>Wszystkie wyniki w bilarda z aktualnymi tabelami.</pl>
+			</description>
+			<data genre="2" price="0.20" quality="20" fictional="1" />
+		</news>
+
+		<news guid="news-jorgaeff-ringen-01" type="0" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Ringen: Alle Ergebnisse und Tabellen ${.worldtime:"month"}/${.worldtime:"year"}</de>
+				<en>Wrestling: All results and tables ${.worldtime:"month"}/${.worldtime:"year"}</en>
+				<pl>Wrestling: Wszystkie wyniki i tabele ${.worldtime:"month"}/${.worldtime:"year"}</pl>
+			</title>
+			<description>
+				<de>Alle Ergebnisse vom Ringen mit aktuellen Tabellen.</de>
+				<en>All results in wrestling with current tables.</en>
+				<pl>Wszystkie wyniki w zawodach wrestlingu z aktualnymi tabelami.</pl>
+			</description>
+			<data genre="2" price="0.20" quality="20" fictional="1" />
+		</news>
+
+		<news guid="news-jorgaeff-tennis-01" type="0" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Tennis: Alle Ergebnisse und Tabellen ${.worldtime:"month"}/${.worldtime:"year"}</de>
+				<en>Tennis: All results and tables ${.worldtime:"month"}/${.worldtime:"year"}</en>
+				<pl>Tenis: Wszystkie wyniki i tabele ${.worldtime:"month"}/${.worldtime:"year"}</pl>
+			</title>
+			<description>
+				<de>Alle Tennis-Ergebnisse mit aktuellen Tabellen.</de>
+				<en>All tennis results with current tables.</en>
+				<pl>Wszystkie wyniki tenisa z aktualnymi tabelami.</pl>
+			</description>
+			<data genre="2" price="0.20" quality="20" fictional="1" />
+		</news>
+
+		<news guid="news-jorgaeff-tischtennis-01" type="0" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Tischtennis: Alle Ergebnisse und Tabellen ${.worldtime:"month"}/${.worldtime:"year"}</de>
+				<en>Table tennis: All results and tables ${.worldtime:"month"}/${.worldtime:"year"}</en>
+				<pl>Tenis stołowy: Wszystkie wyniki i tabele ${.worldtime:"month"}/${.worldtime:"year"}</pl>
+			</title>
+			<description>
+				<de>Alle Tischtennis-Ergebnisse mit aktuellen Tabellen.</de>
+				<en>All table tennis results with current tables.</en>
+				<pl>Wszystkie wyniki tenisa stołowego z aktualnymi tabelami.</pl>
+			</description>
+			<data genre="2" price="0.20" quality="20" fictional="1" />
+		</news>
+
+		<news guid="news-jorgaeff-volleyball-01" type="0" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Volleyball: Alle Ergebnisse und Tabellen ${.worldtime:"month"}/${.worldtime:"year"}</de>
+				<en>Volleyball: All results and tables ${.worldtime:"month"}/${.worldtime:"year"}</en>
+				<pl>Siatkówka: Wszystkie wyniki i tabele ${.worldtime:"month"}/${.worldtime:"year"}</pl>
+			</title>
+			<description>
+				<de>Alle Volleyball-Ergebnisse mit aktuellen Tabellen.</de>
+				<en>All volleyball results with current tables.</en>
+				<pl>Wszystkie wyniki siatkarskie z aktualnymi tabelami.</pl>
+			</description>
+			<data genre="2" price="0.20" quality="20" fictional="1" />
+		</news>
+
+		<!-- "TECHNIK + WISSENSCHAFT" (Medien & Technik)-->
+
+		<news guid="news-jorgaeff-faulkswagen-01" type="0" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>${brand_volkswagen} entwickelt Null-Liter-Auto</de>
+				<en>${brand_volkswagen} develops zero-liter car</en>
+				<pl>${brand_volkswagen} opracowuje samochód o zerowym zużyciu paliwa</pl>
+			</title>
+			<description>
+				<de>Ein Auto, das keinen einzigen Liter Benzin verbraucht, wurde von ${brand_volkswagen} entwickelt. Der Clou: ${brand_volkswagen} gibt den Verbrauch ab sofort nur noch in Gallonen an.</de>
+				<en>A car that does not consume a single liter of fuel has been developed by ${brand_volkswagen}. The secret: ${brand_volkswagen} specifies the fuel consumption from now on only in gallons.</en>
+				<pl>${brand_volkswagen} opracował samochód, który nie zużywa ani litra paliwa. Sekret: ${brand_volkswagen} określa zużycie paliwa od teraz tylko w galonach.</pl>
+			</description>
+			<data genre="3" price="0.55" quality="55" fictional="1" />
+		</news>
+
+		<news guid="news-jorgaeff-blitzenergie-01" type="0" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Blitzenergie kann genutzt werden</de>
+				<en>Thunderbolt power can be utilized</en>
+				<pl>Możliwość wykorzystania zasilania z energi piorunów - Thunderbolt</pl>
+			</title>
+			<description>
+				<de>Forscher haben endlich eine Möglichkeit gefunden, die Energie der Blitze zu nutzen. Sollte das Projekt seine Serienreife erlangen, so könte dies die Energieprobleme des Planeten lösen.</de>
+				<en>Researchers have finally found a way to harness the energy of thunderbolts. If the project reaches its maturity phase, this could solve the energy problems of the planet.</en>
+				<pl>Naukowcy w końcu znaleźli sposób na wykorzystanie energii piorunów. Jeśli projekt osiągnie fazę dojrzałości, może to rozwiązać problemy energetyczne naszej planety.</pl>
+			</description>
+			<data genre="3" price="0.45" quality="45" fictional="1" />
+		</news>
+
+		<news guid="news-jorgaeff-milch-01" type="0" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Milch macht müde Männer munter</de>
+				<en>Milk makes meek men mighty</en>
+				<pl>Mleko czyni skromnych ludzi potężnymi</pl>
+			</title>
+			<description>
+				<de>Alle haben es gewusst - niemand hat es geglaubt. Aber es stimmt! Milch macht müde Männer munter. Diese Nachricht wurde Ihnen präsentiert von der Milchindustrie.</de>
+				<en>Everybody knew it - nobody believed it. But it's true! Milk makes meek men mighty. It makes tired men feel lively. This message was brought to you by the dairy industry.</en>
+				<pl>Wszyscy to wiedzieli - nikt w to nie wierzył. Ale to prawda! Mleko czyni skromnych ludzi potężnymi. Sprawia, że zmęczeni ludzie czują się ożywieni. Ta wiadomość została przekazana przez przemysł mleczarski.</pl>
+			</description>
+			<data genre="3" price="0.15" quality="15" fictional="1" />
+		</news>
+
+		<news guid="news-jorgaeff-c256-01" type="0" thread_guid="news-jorgaeff-space-c256a" creator="8936" created_by="jorgaeff">
+				<!-- "erscheint 1989-90" -->
+			<availability year_range_from="1989" year_range_to="1990" />
+			<title>
+				<de>${brand_commodore} veröffentlicht C256</de>
+				<en>${brand_commodore} releases C256</en>
+				<pl>${brand_commodore} wypuszcza C256</pl>
+			</title>
+			<description>
+				<de>Der nordamerikanische Technologie-Konzern ${brand_commodore} stattet seinen neuen Mikro-Computer mit einem RAM von 256 KB aus. Fans sind begeistert von der tollen Grafik und der schnellen Rechenleistung.</de>
+				<en>The North American technology company ${brand_commodore} equips its new micro-computer with 256 KB of RAM. Fans are excited about the great graphics and fast computing power.</en>
+				<pl>Północnoamerykańska firma technologiczna ${brand_commodore} wyposaża swój nowy mikrokomputer w 256 KB pamięci RAM. Fani są podekscytowani świetną grafiką i dużą mocą obliczeniową.</pl>
+			</description>
+			<data genre="3" price="0.5" quality="50" fictional="1" flags="2" />
+			<effects>
+				<!-- "in 3 Tagen 4-8 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,3,3,4,8" news="news-jorgaeff-c256-02" />
+			</effects>
+		</news>
+
+		<news guid="news-jorgaeff-c256-02" type="2" thread_guid="news-jorgaeff-space-c256a" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>C256 entwickelt sich zum Verkaufsschlager</de>
+				<en>C256 turns out to be a bestseller</en>
+				<pl>C256 okazuje się być bestsellerem</pl>
+			</title>
+			<description>
+				<de>Der neue C256 von ${brand_commodore} geht weg wie warme Semmeln. Viele Nutzer kaufen sich ein Zweitgerät, da der Mikro-Computer, der mittlerweile sogar in eine Butterdose passt, auch mal verlegt werden kann.</de>
+				<en>The new C256 from ${brand_commodore} goes like hot cakes. Many users buy a second device, because the micro-computer, which now even fits in a butter dish, can easily be misplaced from time to time.</en>
+				<pl>Nowy C256 od ${brand_commodore} rozchodzi się jak ciepłe bułeczki. Wielu użytkowników kupuje drugie urządzenie, ponieważ mikrokomputer, który teraz mieści się nawet w talerzu na masło, można od czasu do czasu łatwo zgubić.</pl>
+			</description>
+			<data genre="3" price="0.55" quality="55" fictional="1" flags="2" />
+		</news>
+
+		<news guid="news-jorgaeff-c256-03" type="0" thread_guid="news-jorgaeff-space-c256b" creator="8936" created_by="jorgaeff">
+				<!-- "erscheint 1994-95" -->
+			<availability year_range_from="1994" year_range_to="1995" />
+			<title>
+				<de>${brand_commodore} veröffentlicht C512</de>
+				<en>${brand_commodore} releases C512</en>
+				<pl>${brand_commodore} wypuszcza C512</pl>
+			</title>
+			<description>
+				<de>Der nordamerikanische Technologie-Konzern ${brand_commodore} stattet seinen neuen Mikro-Computer mit einem RAM von 512 KB aus. Fans sind begeistert von der tollen Grafik und der schnellen Rechenleistung.</de>
+				<en>The North American technology company ${brand_commodore} equips its new micro-computer with 512 KB of RAM. Fans are excited about the great graphics and fast computing power.</en>
+				<pl>Północnoamerykańska firma technologiczna ${brand_commodore} wyposaża swój nowy mikrokomputer w 512 KB pamięci RAM. Fani są podekscytowani świetną grafiką i dużą mocą obliczeniową.</pl>
+			</description>
+			<data genre="3" price="0.5" quality="50" fictional="1" flags="2" />
+			<effects>
+				<!-- "in 3 Tagen 4-8 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,3,3,4,8" news="news-jorgaeff-c256-04" />
+			</effects>
+		</news>
+
+		<news guid="news-jorgaeff-c256-04" type="2" thread_guid="news-jorgaeff-space-c256b" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>C512 übertrifft alle Erwartungen</de>
+				<en>C512 exceeds all expectations</en>
+				<pl>C512 przekracza wszelkie oczekiwania</pl>
+			</title>
+			<description>
+				<de>Der neue C512 von ${brand_commodore} übertrifft sogar seinen Vorgänger. Viele Nutzer kaufen sich ein Dritt- und Viertgerät, da der Mikro-Computer, der nun in einen Eierbecher passt, auch mal verlegt werden kann.</de>
+				<en>The new C512 from ${brand_commodore} even surpasses its predecessor. Many users buy a third and fourth device, because the micro-computer, which now fits in an egg cup, can easily be misplaced from time to time.</en>
+				<pl>Nowy C512 od ${brand_commodore} nawet przewyższa swojego poprzednika. Wielu użytkowników kupuje trzecie i czwarte urządzenie, ponieważ mikrokomputer, który teraz mieści się w pojemniku na jajka, można od czasu do czasu łatwo zgubić.</pl>
+			</description>
+			<data genre="3" price="0.55" quality="55" fictional="1" flags="2" />
+		</news>
+
+		<news guid="news-jorgaeff-c256-05" type="0" thread_guid="news-jorgaeff-space-c256c" creator="8936" created_by="jorgaeff">
+				<!-- "erscheint 1999-00" -->
+			<availability year_range_from="1999" year_range_to="2000" />
+			<title>
+				<de>${brand_commodore} veröffentlicht C1k024</de>
+				<en>${brand_commodore} releases C1k024</en>
+				<pl>${brand_commodore} wydaje C1k024</pl>
+			</title>
+			<description>
+				<de>Der nordamerikanische Technologie-Konzern ${brand_commodore} stattet seinen neuen Mikro-Computer mit einem RAM von 1024 KB aus. Fans sind begeistert von der tollen Grafik und der schnellen Rechenleistung.</de>
+				<en>The North American technology company ${brand_commodore} equips its new micro-computer with 1024 KB of RAM. Fans are excited about the great graphics and fast computing power.</en>
+				<pl>Północnoamerykańska firma technologiczna ${brand_commodore} wyposaża swój nowy mikrokomputer w 1024 KB pamięci RAM. Fani są podekscytowani świetną grafiką i dużą mocą obliczeniową.</pl>
+			</description>
+			<data genre="3" price="0.5" quality="50" fictional="1" flags="2" />
+			<effects>
+				<!-- "in 3 Tagen 4-8 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,3,3,4,8" news="news-jorgaeff-c256-06" />
+			</effects>
+		</news>
+
+		<news guid="news-jorgaeff-c256-06" type="2" thread_guid="news-jorgaeff-space-c256c" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>C1k024 - der meistverkaufte aller Zeiten</de>
+				<en>C1k024 - the all-time best-seller</en>
+				<pl>C1k024 - bestseller wszech czasów</pl>
+			</title>
+			<description>
+				<de>Mal eben locker den Verkaufserfolg des Vorgängers pulverisiert. Viele Nutzer kaufen sich den C1k024 von ${brand_commodore} im 10er-Pack, da der in einen Fingerhut passende Mikro-Computer, auch mal verlegt werden kann.</de>
+				<en>Just so easily crushed the sales success of the predecessor. Many users buy the C1k024 from ${brand_commodore} in packs of 10, as the micro-computer, which fits into a thimble, can easily be misplaced from time to time.</en>
+				<pl>Tak łatwo zmiażdżył sukces sprzedażowy poprzednika. Wielu użytkowników kupuje C1k024 od ${brand_commodore} w opakowaniach po 10 sztuk, ponieważ mikrokomputer, który mieści się w naparstku, może być łatwo zgubiony od czasu do czasu.</pl>
+			</description>
+			<data genre="3" price="0.55" quality="55" fictional="1" flags="2" />
+		</news>
+
+		<news guid="news-jorgaeff-c256-07" type="0" thread_guid="news-jorgaeff-space-c256d" creator="8936" created_by="jorgaeff">
+				<!-- "erscheint 2004-05" -->
+			<availability year_range_from="2004" year_range_to="2005" />
+			<title>
+				<de>${brand_commodore} veröffentlicht C2k048</de>
+				<en>${brand_commodore} publishes C2k048</en>
+				<pl>${brand_commodore} publikuje C2k048</pl>
+			</title>
+			<description>
+				<de>Der nordamerikanische Technologie-Konzern ${brand_commodore} stattet seinen neuen Mikro-Computer mit einem RAM von 2048 KB aus. Fans sind begeistert von der tollen Grafik und der schnellen Rechenleistung.</de>
+				<en>The North American technology company ${brand_commodore} equips its new micro-computer with 2048 KB of RAM. Fans are excited about the great graphics and fast computing power.</en>
+				<pl>Północnoamerykańska firma technologiczna ${brand_commodore} wyposaża swój nowy mikrokomputer w 2048 KB pamięci RAM. Fani są podekscytowani świetną grafiką i szybką mocą obliczeniową.</pl>
+			</description>
+			<data genre="3" price="0.5" quality="50" fictional="1" flags="2" />
+			<effects>
+				<!-- "in 3 Tagen 4-8 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,3,3,4,8" news="news-jorgaeff-c256-08" />
+			</effects>
+		</news>
+
+		<news guid="news-jorgaeff-c256-08" type="2" thread_guid="news-jorgaeff-space-c256d" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>C2k048 - ein Verkaufsflop</de>
+				<en>C2k048 - a sales flop</en>
+				<pl>C2k048 - sprzedażowa klapa</pl>
+			</title>
+			<description>
+				<de>Diese Rechnung geht nicht auf: Der auf einen Stecknadelkopf passende Mikro-Computer kann teilweise in den Läden nicht mehr aufgefunden werden. ${brand_commodore} hat die Produktion eingestellt.</de>
+				<en>This plan did not work out: The micro-computer, which fits on the head of a pin, can no longer be found in stores in some cases. ${brand_commodore} has stopped the production.</en>
+				<pl>Ten plan nie wypalił: Mikrokomputer, który mieści się w główce szpilki, w niektórych przypadkach nie można już znaleźć w sklepach. ${brand_commodore} wstrzymał produkcję.</pl>
+			</description>
+			<data genre="3" price="0.55" quality="55" fictional="1" flags="2" />
+		</news>
+
+		<!-- "TAGESGESCHEHEN" -->
+
+		<news guid="news-jorgaeff-hyperraum-01" type="0" thread_guid="news-jorgaeff-hyperraum" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Hyperraum-Umgehungsstraße geplant</de>
+				<en>Hyperspace bypass planned</en>
+				<pl>Planowana obwodnica nadprzestrzenna</pl>
+			</title>
+			<description>
+				<de>Das Zentralkomitee der Volonen plant den Neubau einer Hyperraum-Umgehungsstraße in Erdnähe. Gefahr für die Erde?</de>
+				<en>The Central Committee of the Volons is planning to build a new hyperspace bypass near Earth. Is the Earth in danger?</en>
+				<pl>Komitet Centralny Volonów planuje budowę nowej obwodnicy nadprzestrzennej w pobliżu Ziemi. Czy Ziemia jest w niebezpieczeństwie?</pl>
+			</description>
+			<data genre="4" price="1" quality="75" fictional="1" />
+			<effects>
+				<!-- "morgen 10-12 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,1,1,10,12" news="news-jorgaeff-hyperraum-02" />
+			</effects>
+		</news>
+
+		<news guid="news-jorgaeff-hyperraum-02" type="2" thread_guid="news-jorgaeff-hyperraum" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Wird die Menschheit umgesiedelt?</de>
+				<en>Will humanity be relocated?</en>
+				<pl>Czy ludzkość zostanie przeniesiona?</pl>
+			</title>
+			<description>
+				<de>Die Erde steht dem Neubau einer Hyperraum-Umgehungsstraße im Weg. Ein Ersatzplanet für die Menschheit wird fieberhaft gesucht.</de>
+				<en>The Earth is in the way of a hyperspace bypass reconstruction. A replacement planet for mankind is feverishly sought.</en>
+				<pl>Ziemia jest na drodze rekonstrukcji obwodnicy nadprzestrzennej. Planeta zastępcza dla ludzkości jest gorączkowo poszukiwana.</pl>
+			</description>
+			<data genre="4" price="1.1" quality="85" />
+			<effects>
+				<!-- "übermorgen 8-19 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,2,2,8,19" news="news-jorgaeff-hyperraum-03" />
+			</effects>
+		</news>
+
+		<news guid="news-jorgaeff-hyperraum-03" type="2" thread_guid="news-jorgaeff-hyperraum" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Suche nach Ersatzplaneten gescheitert</de>
+				<en>Search for replacement planet failed</en>
+				<pl>Poszukiwanie planety zastępczej nie powiodło się</pl>
+			</title>
+			<description>
+				<de>Kein geeigneter Planet wurde gefunden! Der Bau der Hyperraum-Umgehungsstraße soll trotzdem wie geplant durchgeführt werden. Wird die Erde jetzt zerstört?</de>
+				<en>No suitable planet was found! The construction of the hyperspace bypass shall nevertheless be carried out as planned. Is the Earth now going to be destroyed?</en>
+				<pl>Nie znaleziono odpowiedniej planety! Budowa obwodnicy nadprzestrzennej zostanie jednak przeprowadzona zgodnie z planem. Czy Ziemia zostanie teraz zniszczona?</pl>
+			</description>
+			<data genre="4" price="1.2" quality="100" />
+		</news>
+
+		<news guid="news-jorgaeff-hyperraum-04" type="2" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Bau der Umgehungsstraße auf Eis gelegt</de>
+				<en>Construction of bypass put on hold</en>
+				<pl>Budowa obwodnicy wstrzymana</pl>
+			</title>
+			<description>
+				<de>Aufgrund unüberschaubarer Kosten wird der Bau der Hyperraum-Umgehungsstraße für unbestimmte Zeit auf Eis gelegt. Die Erde atmet auf!</de>
+				<en>Due to incalculable costs, the construction of the hyperspace bypass is put on hold indefinitely. Gasp of relief on Earth!</en>
+				<pl>Ze względu na nieobliczalne koszty, budowa obwodnicy nadprzestrzennej zostaje wstrzymana na czas nieokreślony. Ziemia odetchnęła z ulgą!</pl>
+			</description>
+			<data genre="4" price="1.3" quality="100" />
+		</news>
+
+		<news guid="news-jorgaeff-news-01" type="0" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Manfred Mustermann verklagt VISUM</de>
+				<en>John Doe sues VISUM</en>
+				<pl>John Doe pozywa VISUM</pl>
+			</title>
+			<description>
+				<de>Manfred Mustermann hat Klage gegen VISUM eingereicht. Der Kreditkarten-Anbieter hatte wiederholt Werbung mit dem Namen Mustermanns betrieben ohne um Erlaubnis zu fragen.</de>
+				<en>John Doe has filed a lawsuit against VISUM. The credit card provider had repeatedly advertised with the name of Doe without asking permission.</en>
+				<pl>John Doe złożył pozew przeciwko VISUM. Dostawca kart kredytowych wielokrotnie reklamował się nazwiskiem Doe bez pytania o zgodę.</pl>
+			</description>
+			<data genre="4" price="0.3" quality="30" />
+		</news>
+
+		<news guid="news-jorgaeff-fisch-01" type="0" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Singender Fisch vertreibt Einbrecher</de>
+				<en>Singing fish scares away burglars</en>
+				<pl>Śpiewająca ryba odstrasza włamywaczy</pl>
+			</title>
+			<description>
+				<de>Von einem an der Wand hängenden singenden Fisch mit Bewegungsmelder wurde ein Einbrecher im TV-Tower vertrieben. Der Dieb hatte es wohl auf Betty Butterblooms Geschenke-Sammlung abgesehen.</de>
+				<en>A burglar in the TV Tower was scared away by a singing fish with motion detector hanging on the wall. The thief was probably after Betty Butterbloom's gift collection.</en>
+				<pl>Włamywacza w wieży telewizyjnej TVTower odstraszyła śpiewająca ryba z czujnikiem ruchu wisząca na ścianie. Złodziejowi prawdopodobnie chodziło o kolekcję prezentów Betty Butterbloom.</pl>
+			</description>
+			<data genre="4" price="0.1" quality="20" fictional="1" />
+		</news>
+
+		<news guid="news-jorgaeff-oma-01" type="0" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Oma fährt im Hühnerstall Motorrad</de>
+				<en>Grandma Drives Motorcycle In Chicken Coop</en>
+				<pl>Babcia jeździ motocyklem w kurniku</pl>
+			</title>
+			<description>
+				<de>Da staunten die Polizisten nicht schlecht als sie eine alte Frau auf einem Motorrad sitzend durch einen Hühnerstall fahren sahen. Die betagte Seniorin hatte sich wohl verfahren.</de>
+				<en>The policemen were quite amazed when they saw an old woman sitting on a motorcycle driving through a chicken coop. The aged senior citizen had probably lost her way.</en>
+				<pl>Policjanci byli dość zdumieni, gdy zobaczyli starszą kobietę siedzącą na motocyklu i przejeżdżającą przez kurnik. Seniorka prawdopodobnie zgubiła drogę.</pl>
+			</description>
+			<data genre="4" price="0.3" quality="30" fictional="1" />
+		</news>
+
+		<news guid="news-jorgaeff-junge-01" type="0" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Junge sorgt für Polizeieinsatz</de>
+				<en>Boy causes police operation</en>
+				<pl>Chłopiec wywołuje operację policyjną</pl>
+			</title>
+			<description>
+				<de>Weil ihm der Musikgeschmack seiner Eltern missfiel, hielt ein 12-jähriger Junge während einer Autofahrt einen Zettel mit der Aufschrift „Hilfe“ an die Fensterscheibe. Besorgte Autofahrer alarmierten die Polizei.</de>
+				<en>Because he disliked his parents' taste in music, a 12-year-old boy held a note saying "Help" to the window pane during a car ride. Concerned motorists alerted the police.</en>
+				<pl>Ponieważ nie podobał mu się gust muzyczny rodziców, 12-letni chłopiec podczas jazdy samochodem przyłożył do szyby kartkę z napisem "Pomocy". Zaniepokojeni kierowcy zaalarmowali policję.</pl>
+			</description>
+			<data genre="4" price="0.15" quality="25" fictional="1" />
+		</news>
+
+		<news guid="news-jorgaeff-fluchttunnel-01" type="0" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Kinder graben Fluchttunnel</de>
+				<en>Children dig escape tunnel</en>
+				<pl>Dzieci kopią tunel ewakuacyjny</pl>
+			</title>
+			<description>
+				<de>Zwei Fünfjährige haben mehrere Tage lang mit ihren Sandschaufeln einen Fluchttunnel aus ihrem Kindergarten gegraben und sind geflohen. Die Polizei konnte die beiden finden und wohlbehalten ihren Eltern übergeben.</de>
+				<en>Two five-year-olds have dug an escape tunnel from their kindergarten for several days with their sand shovels and escaped. The police were able to find the two and hand them, safe and sound, over to their parents.</en>
+				<pl>Dwóch pięciolatków przez kilka dni kopało łopatami do piasku tunel ucieczkowy ze swojego przedszkola i uciekło. Policji udało się odnaleźć dwójkę dzieci i przekazać je całe i zdrowe rodzicom.</pl>
+			</description>
+			<data genre="4" price="0.25" quality="35" fictional="1" />
+		</news>
+
+		<news guid="news-jorgaeff-newsschreiber-01" type="0" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Newsschreiber streiken</de>
+				<en>News writers on strike</en>
+				<pl>Dziennikarze strajkują</pl>
+			</title>
+			<description>
+				<de>Zahlreiche Newsschreiber sind dem Aufruf ihrer Gewerkschaft gefolgt und streiken. Sie erhoffen sich bessere Arbeitsbedingungen sowie kostenloses Wasser und Brot während der Arbeitszeit.</de>
+				<en>Numerous newswriters have followed the call of their union and are on strike. They hope for better working conditions and free water and bread during working hours.</en>
+				<pl>Wielu dziennikarzy podążyło za wezwaniem swojego związku zawodowego i rozpoczęło strajk. Mają nadzieję na lepsze warunki pracy oraz darmową wodę i chleb w godzinach pracy.</pl>
+			</description>
+			<data genre="4" price="0.3" quality="25" fictional="1" />
+			<!-- "Effekt: es stehen weniger Nachrichten zur Verfügung" -->
+		</news>
+
+		<news guid="news-jorgaeff-lotto-01" type="0" creator="8936" created_by="jorgaeff">
+			<!-- "erscheint mittwochs ab 18.00 Uhr" -->
+			<availability script='${.and:${.eq:${.worldtime:"weekday"}:2}:${.gte:${.worldtime:"hour"}:18}}' />
+			<title>
+				<de>Gewinnzahlen vom Mittwochs-Lotto</de>
+				<en>Winning numbers from Wednesday Lottery</en>
+				<pl>Zwycięskie liczby ze środowej loterii</pl>
+			</title>
+			<description>
+				<de>Hier die aktuellen Lottozahlen vom Mittwochs-Lotto präsentiert von Lotto-Fee Gudrun Heinemann. Wurde der Jackpot diesmal geknackt?</de>
+				<en>Here are the current lottery numbers from the Wednesday Lottery presented by Lottery Fairy Gudrun Heinemann. Has the jackpot been cracked this time?</en>
+				<pl>Oto aktualne numery lotto ze środowej loterii prezentowanej przez Wróżkę Loterii Gudrun Heinemann. Czy tym razem jackpot został rozbity?</pl>
+			</description>
+			<data genre="4" price="0.4" quality="40" fictional="1" />
+		</news>
+
+		<news guid="news-jorgaeff-lotto-02" type="0" creator="8936" created_by="jorgaeff">
+			<!-- "erscheint samstags ab 20.00 Uhr" -->
+			<availability script='${.and:${.eq:${.worldtime:"weekday"}:5}:${.gte:${.worldtime:"hour"}:20}}' />
+			<title>
+				<de>Gewinnzahlen vom Samstags-Lotto</de>
+				<en>Winning numbers from Saturday Lottery</en>
+				<pl>Zwycięskie liczby z sobotniej loterii</pl>
+			</title>
+			<description>
+				<de>Hier die aktuellen Lottozahlen vom Samstags-Lotto präsentiert von Lotto-Fee Else Polsbäck. Wurde der Jackpot diesmal geknackt?</de>
+				<en>Here are the current lottery numbers from the Saturday Lottery presented by Lottery Fairy Else Polsbäck. Has the jackpot been cracked this time?</en>
+				<pl>Oto aktualne numery lotto z sobotniej loterii prezentowanej przez Wróżkę Loterii Else Polsbäck. Czy tym razem jackpot został rozbity?</pl>
+			</description>
+			<data genre="4" price="0.6" quality="60" fictional="1" />
+		</news>
+
+		<news guid="news-jorgaeff-sonntag-01" type="0" creator="8936" created_by="jorgaeff">
+			<!-- "erscheint jeden Sonntag ab 18.00 Uhr" -->
+			<availability script='${.and:${.eq:${.worldtime:"weekday"}:6}:${.gte:${.worldtime:"hour"}:18}}' />
+			<title>
+				<de>Das Wort zum Sonntag</de>
+				<en>Sunday's Words of Wisdom</en>
+				<pl>Niedzielne słowa mądrości</pl>
+			</title>
+			<description>
+				<de>Fernseh-Pfarrer Benno Breitkopf wendet sich in seiner allwöchentlichen Kolumne an das deutsche Volk und prangert den zunehmenden Sittenverfall an. Wen's interessiert...</de>
+				<en>Television pastor Benno Breitkopf addresses the German people in his weekly column and denounces the increasing moral decay. If anyone cares...</en>
+				<pl>Telewizyjny pastor Benno Breitkopf zwraca się do narodu niemieckiego w swoim cotygodniowym felietonie i potępia postępujący upadek moralny. Jeśli kogoś to obchodzi...</pl>
+			</description>
+			<data genre="4" price="0.20" quality="20" fictional="1" />
+		</news>
+
+		<news guid="news-jorgaeff-2018-4-01" type="0" creator="8936" created_by="jorgaeff">
+			<availability year_range_from="2018" year_range_to="2018" />
+			<title>
+				<de>Newsschreiber gesteht Fake-News</de>
+				<en>News writer admits to fake news</en>
+				<pl>Autor wiadomości przyznaje się do fałszywych wiadomości</pl>
+			</title>
+			<description>
+				<de>Jorgaeff, der legendäre News-Schreiber von TVTower, gesteht, seit Jahren selbst ausgedachte Nachrichten geschrieben zu haben: Vieles sei gar nicht so passiert und Ähnlichkeiten mit lebenden Personen rein zufällig.</de>
+				<en>Jorgaeff, the legendary news writer of TVTower, confesses to have written news made up by himself for years: Many things had not happened that way at all, and similarities with living persons would be purely coincidental.</en>
+				<pl>Jorgaeff, legendarny autor wiadomości TVTower, przyznaje, że przez lata pisał wiadomości wymyślone przez siebie: Wiele rzeczy wcale nie wydarzyło się w ten sposób, a podobieństwo do żyjących osób byłoby czysto przypadkowe.</pl>
+			</description>
+			<data genre="4" price="0.1" quality="10" fictional="1" flags="2" />
+		</news>
+
+		<!-- "KULTUR" -->
+
+		<news guid="news-jorgaeff-klinski-01" type="0" thread_guid="news-jorgaeff-klinski" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Kaugummi-Klumpen-Sammlung versteigert</de>
+				<en>Collection of chewing gum clumps auctioned off</en>
+				<pl>Kolekcja gum do żucia wystawiona na aukcję</pl>
+			</title>
+			<description>
+				<de>Klaas Klimskis kaukasische Kaugummi-Klumpen-Sammlung wurde beim Auktionshaus ii-bääh für 1,2 Millionen € versteigert.</de>
+				<en>Klaas Klimski's Caucasian chewing gum clump collection was sold at auction house eww-bleah for € 1.2 million.</en>
+				<pl>Kolekcja kaukaskich gum do żucia Klaasa Klimskiego została sprzedana przez dom aukcyjny eww-bleah za 1,2 miliona euro.</pl>
+			</description>
+			<data genre="5" price="0.4" quality="30" fictional="1" />
+			<effects>
+				<!-- "übermorgen 8-11 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,2,2,8,11" news="news-jorgaeff-klinski-02" />
+			</effects>
+		</news>
+
+		<news guid="news-jorgaeff-klinski-02" type="2" thread_guid="news-jorgaeff-klinski" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Dieb klaut Kaugummi-Klumpen-Sammlung</de>
+				<en>Thief steals chewing gum clump collection</en>
+				<pl>Złodziej kradnie kolekcję gum do żucia</pl>
+			</title>
+			<description>
+				<de>Eben ersteigert - schon geklaut. Ein Dieb erbeutet die wohl teuerste Kaugummi-Klumpen-Sammlung der Welt und verschwindet spurlos.</de>
+				<en>Just bought at auction - already stolen. A thief captures the probably most expensive chewing gum clump collection in the world and disappears without a trace.</en>
+				<pl>Dopiero co kupione na aukcji - już skradzione. Złodziej przechwytuje prawdopodobnie najdroższą kolekcję gum do żucia na świecie i znika bez śladu.</pl>
+			</description>
+			<data genre="5" price="0.5" quality="40" />
+			<effects>
+				<!-- "übermorgen 15-19 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,2,2,15,19" news="news-jorgaeff-klinski-03" />
+			</effects>
+		</news>
+
+		<news guid="news-jorgaeff-klinski-03" type="2" thread_guid="news-jorgaeff-klinski" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Polizei fängt Kaugummi-Klumpen-Klauer</de>
+				<en>Police catch chewing gum clump thief</en>
+				<pl>Policja łapie złodzieja gumy do żucia</pl>
+			</title>
+			<description>
+				<de>Die Sammlung ist zurück! Ein kluger Kommissar stellt dem Dieb eine Falle; dieser tappt hinein und gesteht: „Ich bin Kleptomane!“</de>
+				<en>The collection is back! A clever inspector sets a trap for the thief, who blunders into it and confesses: "I'm a kleptomaniac!"</en>
+				<pl>Kolekcja powraca! Sprytny inspektor zastawia pułapkę na złodzieja, który wpada w nią i wyznaje: „Jestem kleptomanem!”.</pl>
+			</description>
+			<data genre="5" price="0.6" quality="50" />
+		</news>
+
+		<news guid="news-jorgaeff-festspiele-01" type="0" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Festspielzeit hat begonnen</de>
+				<en>Festival season has begun</en>
+				<pl>Sezon festiwalowy rozpoczęty</pl>
+			</title>
+			<description>
+				<de>Drei Tage lang finden die Kulturfestspiele statt. Zahlreiche Städte bieten eine unzählbare Menge an kulturellen Veranstaltungen an.</de>
+				<en>Three days of cultural festivities are held. Numerous cities offer a countless amount of cultural events.</en>
+				<pl>Odbywają się trzy dni festiwali kulturalnych. Liczne miasta oferują niezliczoną ilość wydarzeń kulturalnych.</pl>
+			</description>
+			<data genre="5" price="0.3" quality="30" fictional="1" />
+			<!-- "möglicher Effekt: höhere Zuschauerzahlen bei Kultursendungen" -->
+		</news>
+
+		<news guid="news-jorgaeff-putzfrau-01" type="0" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Putzfrau zerstört Kunstwerk</de>
+				<en>Cleaning lady destroys work of art</en>
+				<pl>Sprzątaczka niszczy dzieło sztuki</pl>
+			</title>
+			<description>
+				<de>Das Werk „Bei Hempels unterm Sofa“ von Georg Hempel wurde im Nationalmuseum von einer Putzfrau zerstört. Der Reinigungskraft war nicht klar, ein 800.000 ${dem} teures Kunstwerk vor sich zu haben.</de>
+				<en>The work "At Family Hempel under the Sofa" by Georg Hempel was destroyed in the National Museum by a cleaning lady. The cleaner was not aware to have an 800.000 ${dem} priced work of art in front of her.</en>
+				<pl>Dzieło „U rodziny Hempel pod sofą” autorstwa Georga Hempla zostało zniszczone w Muzeum Narodowym przez sprzątaczkę. Sprzątaczka nie zdawała sobie sprawy, że ma przed sobą dzieło sztuki wycenione na 800 000 ${dem}.</pl>
+			</description>
+			<variables>
+				<currentyear>${.worldtime:"year"}</currentyear>
+				<dem>
+					<de>${.lte:currentyear:2001:"DM":"€"}</de>
+					<en>${.lte:currentyear:2001:"DEM":"€"}</en>
+					<pl>${.lte:currentyear:2001:"DEM":"euro"}</pl>
+				</dem>
+			</variables>
+			<data genre="5" price="0.35" quality="35" fictional="1" />
+		</news>
+
+		<news guid="news-jorgaeff-fanta-01" type="0" thread_guid="news-jorgaeff-fanta" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Heribert Fanta erhält Literaturpreis</de>
+				<en>Heribert Fanta receives literature prize</en>
+				<pl>Heribert Fanta otrzymuje nagrodę literacką</pl>
+			</title>
+			<description>
+				<de>Der Bestseller des deutsch-syrisch-libanesischen Autors Heribert Fanta über einen Fischer im Jemen bricht sämtliche Rekorde und ist mit dem diesjährigen Literaturpreis ausgezeichnet worden.</de>
+				<en>The bestseller of the German-Syrian-Lebanese author Heribert Fanta about a fisherman in Yemen breaks all records and has been awarded with this year's literature prize.</en>
+				<pl>Bestseller niemiecko-syryjsko-libańskiego autora Heriberta Fanty o rybaku z Jemenu pobił wszelkie rekordy i został nagrodzony tegoroczną nagrodą literacką.</pl>
+			</description>
+			<data genre="5" price="0.3" quality="30" fictional="1" />
+			<effects>
+				<!-- "in 2 Tagen 13-17 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,2,2,13,17" news="news-jorgaeff-fanta-02" />
+			</effects>
+		</news>
+
+		<news guid="news-jorgaeff-fanta-02" type="2" thread_guid="news-jorgaeff-fanta" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Heribert Fanta ist Easiophobiker</de>
+				<en>Heribert Fanta is Easiophobic</en>
+				<pl>Heribert Fanta jest ezofobem</pl>
+			</title>
+			<description>
+				<de>Nur wenige Menschen leiden an Easiophobie - der Angst zu schreiben. Der deutsche Erfolgsautor Heribert Fanta ist einer von Ihnen. Er möchte sich künftig nur noch auf die Produktion von Film-Dokumentationen konzentrieren.</de>
+				<en>Few people suffer from easiophobia - the fear of writing. The successful German author Heribert Fanta is one of them. In the future he would like to concentrate on the production of film documentaries only.</en>
+				<pl>Niewiele osób cierpi na easiofobię - strach przed pisaniem. Jednym z nich jest odnoszący sukcesy niemiecki pisarz Heribert Fanta. W przyszłości chciałby skoncentrować się wyłącznie na produkcji filmów dokumentalnych.</pl>
+			</description>
+			<data genre="5" price="0.4" quality="40" fictional="1" />
+			<effects>
+				<!-- "in 3 Tagen 10-16 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,3,3,10,16" news="news-jorgaeff-fanta-03" />
+			</effects>
+		</news>
+
+		<news guid="news-jorgaeff-fanta-03" type="2" thread_guid="news-jorgaeff-fanta" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Neue Dokumentation von Heribert Fanta</de>
+				<en>New documentary by Heribert Fanta</en>
+				<pl>Nowy film dokumentalny Heriberta Fanty</pl>
+			</title>
+			<description>
+				<de>Die neue Dokumentation des deutsch-syrisch-libanesischen Ex-Autors über einen Bäcker im Sudan hat die Herzen der Juroren erweicht. Sie statten das Werk Fantas mit dem Prädikat „Besonders wertvoll“ aus.</de>
+				<en>The new documentary by the German-Syrian-Lebanese ex-author about a baker in Sudan has softened the hearts of the jurors. They endow the work Fantas with the predicate "Especially valuable".</en>
+				<pl>Nowy dokument niemiecko-syryjsko-libańskiego byłego autora o piekarzu w Sudanie zmiękczył serca jurorów. Przyznali oni dziełu Fantasa tytuł „Szczególnie wartościowy”.</pl>
+			</description>
+			<data genre="5" price="0.35" quality="35" fictional="1" />
+			<effects>
+				<!-- "in 5 Tagen 18-22 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,5,5,18,22" news="news-jorgaeff-fanta-04" />
+			</effects>
+		</news>
+
+		<news guid="news-jorgaeff-fanta-04" type="2" thread_guid="news-jorgaeff-fanta" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Heribert Fanta überwindet Schreibangst</de>
+				<en>Heribert Fanta overcomes fear of writing</en>
+				<pl>Heribert Fanta pokonuje strach przed pisaniem</pl>
+			</title>
+			<description>
+				<de>Easiophobiker und Ex-Autor Heribert Fanta hat seine Schreibangst überwunden und erstmalig seit zwei Jahren einen Einkaufszettel geschrieben. „Ohne war das immer doof, weil ich die Hälfte vergessen habe“, so der Autor.</de>
+				<en>Easiophobic and ex-author Heribert Fanta has overcome his fear of writing and for the first time in two years wrote a shopping list. "Without it was always stupid, because I forgot half," says the author.</en>
+				<pl>Eazjofob i były autor Heribert Fanta przezwyciężył strach przed pisaniem i po raz pierwszy od dwóch lat napisał listę zakupów. „Bez tego zawsze było głupio, bo zapominałem o połowie” - mówi autor.</pl>
+			</description>
+			<data genre="5" price="0.45" quality="45" fictional="1" />
+		</news>
+
+		<news guid="news-jorgaeff-gamseier-01" type="0" creator="8936" created_by="jorgaeff" comment="reference: https://de.wikipedia.org/wiki/RTL_Samstag_Nacht#Karl_Ranseier | Varianten-Quelle: 'Internet' und ChatGPT | TODO: Various puns have to be translated better or adapted / changed">
+			<title>
+				<de>${karl} ${rans}${eier} ist tot</de>
+				<en>${karl} ${rans}${eier} is dead</en>
+				<pl>${karl} ${rans}${eier} nie żyje</pl>
+			</title>
+			<description>
+				<all>${.csv:theprobablymost_csv:0}</all>
+			</description>
+			<variables>
+				<currentyear>${.worldtime:"year"}</currentyear>
+				<karl>Karl|Karl|Karl|Karl|Klaus|Knut|Kurd|Kurt|Kurt</karl>
+				<rans>Rans|Ramm|Ramsch|Rantz|Ranz|Rein|Reins|Gams</rans>
+				<eier>eier|geier|meier|reier|reiher|scheier|seier|weier|weiher</eier>
+				<wolfgang>${.person:"1e0f9b72-847d-42a4-9c26-491fac2cc929":"firstname"}</wolfgang>
+				<lippert>${.person:"1e0f9b72-847d-42a4-9c26-491fac2cc929":"lastname"}</lippert>
+				<ayrton>${.person:"84330774-b938-4eb6-8b54-8316dd4172f0":"firstname"}</ayrton>
+				<senna>${.person:"84330774-b938-4eb6-8b54-8316dd4172f0":"lastname"}</senna>
+				<influencer>
+					<de>${.gte:currentyear:2009:"Influencer":"Naturfilmer"}</de>
+					<en>${.gte:currentyear:2009:"influencer":"nature film maker"}</en>
+					<pl>${.gte:currentyear:2009:"influencer":"nieudany twórca filmów przyrodniczych"}</pl>
+				</influencer>
+				<generatefollowers>
+					<de>${.gte:currentyear:2009:"Follower zu generieren":"Geschichte zu schreiben"}</de>
+					<en>${.gte:currentyear:2009:"generate followers":"make history"}</en>
+					<pl>${.gte:currentyear:2009:"wygenerować obserwujących":"przejść do historii"}</pl>
+				</generatefollowers>
+				<withalivestream>
+					<de>${.gte:currentyear:2009:"mit einem Livestream":"mit sensationellen Aufnahmen"}</de>
+					<en>${.gte:currentyear:2009:"with a live stream":"with sensational footage"}</en>
+					<pl>${.gte:currentyear:2009:"za pomocą transmisji na żywo":"za pomocą sensacyjnego materiału filmowego"}</pl>
+				</withalivestream>
+				<theprobablymost_csv> <!-- one-element CSV for readability -->
+					<de>Der wohl erfolgloseste Nachrichtensprecher aller Zeiten war der Erste im deutschen Fernsehen, der weder „Bonn“ noch „Berlin“ aussprechen konnte. Er starb gestern im Alter von 63 Jahren beim Versuch die Wetterkarten neu zu mischen.|
+						Der wohl erfolgloseste Enzyklopädie-Autor aller Zeiten verstarb gestern beim Erstellen eines Artikels über das Paarungsverhaltens des geschniegelten Borneograupapageis.|
+						Der wohl erfolgloseste Physiker des 20. Jahrhunderts dachte sich schon als Schuljunge die „Absolutitätstheorie“ aus, in der Licht immer die gleiche Geschwindigkeit hat. Er starb beim Experiment, wo er mit einer Taschenlampe vor einem fahrenden Zug herlief.|
+						Der wohl erfolgloseste Feuerwehrmann aller Zeiten verstarb, als er versuchte, ein brennendes Streichholz mit einem Liter Benzin zu löschen. Zuvor hatte er Großbrände oft mit Konfettikanonen bekämpft.|
+						Der wohl erfolgloseste ${influencer} aller Zeiten versuchte, ${withalivestream} aus einer Höhle in Grönland ${generatefollowers}. Er starb, als er in ein Loch fiel, das er selbst für bessere Lichtverhältnisse gegraben hatte.|
+						Der wohl erfolgloseste Geheimagent aller Zeiten scheiterte und starb bei seiner Undercover-Mission, als er sich in seinem falschen Bart verhedderte.|
+						Der wohl erfolgloseste Extremsportler aller Zeiten verstarb bei dem Versuch, den Weltrekord im Rückwärts-Bungee-Springen zu brechen. Er wurde von dem herunterfallenden Klavier erschlagen, an das er das Seil befestigt hatte.|
+						Der wohl erfolgloseste Astronaut und Sohn einer bemannten Raumpflegerin scheiterte an seiner größten Mission: Beim Wiedereintritt musste er nachzahlen, weil ihm der Stempel fehlte. Er starb gestern, als er mit Dynamit in die Luft fliegen wollte.|
+						Der wohl erfolgloseste Showmaster aller Zeiten erfand nie gesendete Klassiker wie „Traumhochrechnung“ und wurde mit dem ${wolfgang}-${lippert}-Preis gedemütigt. Er starb schließlich im Studio, als er bei „${mediatitle_familyfeud}“ erschossen wurde.|
+						Der wohl erfolgloseste Drogenabhängige spritzte Heroin in die Oder und erfand die 1,5-Liter-Pfandspritze. Bei Junkies war er unbeliebt, weil er im ${brand_maggi}-Koks-Studio ${brand_knorr} fixte. Er starb an einer Überdosis Fischeier - Deutschlands erster Rogentoter.|
+						Der wohl erfolgloseste Nachrichtensprecher hörte sich schon immer am liebsten selber reden. Sein „Gedicht aus Bonn“ fand keinen Anklang. Er starb, als er Schalke 05 sagte, obwohl die 3:0 gewonnen hatten. Die Nachricht von seinem Tod erreichte ihn leider zu spät.|
+						Der wohl erfolgloseste Profifußballer aller Zeiten brachte neue Spielkultur mit Torwarthausschuhen und log Tore aus 70 Metern. Er starb gestern bei einem Freundschaftsspiel in Grönland, als er beim Trikottausch erfror.|
+						Der wohl erfolgloseste Polizist aller Zeiten lebte 10 Jahre undercover in einer Litfaßsäule und scheiterte bei der Aufklärung seiner Tochter. Er starb gestern in Essen-Bredeney, als er seine kugelsichere Weste falsch herum anzog und sich selbst erschoss.|
+						Der wohl erfolgloseste Formel-1-Pilot gründete den Rennstall „${rans}${eier} Trabbi“ und erfand die Siegerrolltreppe. Er scheiterte er beim Großen Preis von Spar, als all seine Schachfiguren aus der Zielflagge fielen. Er starb bei seiner ${ayrton}-${senna}-Parodie.|
+						Der wohl erfolgloseste Diktator aller Zeiten scheiterte mit Parolen wie „Ein Volk, ein Reich, eins achtzig“ und einem Angriff mit Panzerschildkröten. Er starb gestern, als er versuchte, seinen Schäferhund „Fass“ zu nennen.|
+						Der wohl erfolgloseste Zirkusdirektor aller Zeiten erfand das ${brand_loewensenf}-Bändigen und scheiterte als Schlangenmensch beim Anstehen. Er starb gestern auf der Reeperbahn, als er einen süßen Hasen aus einem 8-Zylinder ziehen wollte.|
+						Der wohl erfolgloseste Wilthentrinker trank eine Palette Wilthen in einem Zug durch die Maschine und ging dabei nicht über „Los“. Er starb gestern abend bei seiner letzten Ölung. Sein Erbe reichte nur für eine Urnenbestattung in einer 3-Liter-Wilthenflasche.|
+						Der wohl erfolgloseste Kapitän aller Zeiten heiratete eine Schiffsschraube und erfand den aufblasbaren Anker. Bei der großen Sinnflut rettete er sich auf eine Leinsameninsel. Er starb gestern, als er bemerkte, dass seine Schwimmweste nicht kugelsicher war.|
+						Der wohl erfolgloseste Tyrann aller Zeiten rief vom Reichstagsbalkon die Diktatur aus und bekam eine Anzeige wegen Ruhestörung. Er starb vorgestern, als er versuchte, seinen Hunger zu unterdrücken.|
+						Der wohl erfolgloseste Schönheitschirurg aller Zeiten schnitt schon in der Kindheit Grimassen und machte Mädchen schöne Augen. Er erfand Heliumbrüste, doch die Patientinnen flogen ohne zu bezahlen weg. Er starb gestern an einer Portion Skalpellkartoffeln.|
+						Der wohl erfolgloseste Feuerwehrmann stand stets auf dem Schlauch, erfand das Feuerzangenbowling, löschte das olympische Feuer mit einer Wolldecke, steckte sich bei einem Seuchenstation-Brand an und starb. Sein Erbe geht an eine Brandstiftung.|
+						Der wohl erfolgloseste Gigolo aller Zeiten arbeitete als Latrin-Lover, machte einer Bäuerin den kompletten Hof und half sogar alten Damen über die Strapse. Er starb gestern in einem Hafenbecken in Sizilien, weil er Casanova mit Cosanostra verwechselte.|
+						Der wohl erfolgloseste Hellseher war von seinem Tod selbst überrascht. Er besaß nicht nur das zweite Gesicht, sondern auch die dritten Zähne. Er wurde beim Lesen eines Sternzeichens von einem ${brand_mercedes} überfahren.|
+						Das wohl erfolgloseste ${generalorg_adac}-Mitglied aller Zeiten erlangte Berühmtheit als Geisterfahrer und durch seine Bemühungen, die ${sports_formula1} auszurechnen. Er starb gestern im Alter von 82 Jahren an den Folgen einer Führerscheinprüfung.|
+						Der wohl erfolgloseste Automechaniker aller Zeiten hatte schon als Kind einen Plattfuß und lud gern ein zu einer Runde Chef-Roulette. Er starb gestern im Alter von 83 Jahren und wurde in einem ${brand_saab} beerdigt.|
+						Der wohl erfolgloseste Flüchtling aller Zeiten liebte schon als Kind die Fluchtzwerge, züchtete Fluchtfliegen und erfand sogar den Fluchtkompensator. Er starb gestern in einer Talkshow, als er das öffentlich-rechtliche Fernsehen verfluchte.|
+						Der wohl erfolgloseste Laubpuster nahm nie ein Blatt vor den Mund. Er wurde bei der Laubtrennung im Nadelwald erwischt und verlor seinen Laubsägen-Schein. Er starb im Urlaub in einer Laube und wurde auf einem Komposthaufen beerdigt.|
+						Der wohl erfolgloseste Webdesigner aller Zeiten erfand die Schreibschrift-Tastatur und cellulosefreie Webseiten. Er starb gestern, als er versehentlich vom Server gelöscht wurde. Die Trauerfeier findet im engsten Kreis seiner Backups statt.|
+						Der wohl erfolgloseste Politiker aller Zeiten war schon früh ständig leer und gab volle Versprechen. Oder umgekehrt. Er warnte vor der Kluft zwischen Arm und Bein - erfolglos. Gestern starb er bei der Neuauflage der großen Kollision.|
+						Der wohl erfolgloseste Demonstrant aller Zeiten zündete schon als Kind Spielzeugautos an und protestierte gegen den G1-Gipfel. Gestern starb er an einer Überdosis Anti-Demonstrativa. Zur Beisetzung lief eine Demo-Version seines Lieblingsliedes.|
+						Der wohl erfolgloseste LARPer aller Zeiten spielte schon als Kind verrückt und entwickelte die Meilensteine „Cowboy und Indianer“ und „Räuber und Gendarm“. Er starb gestern im Alter von 87 Jahren und hinterlässt 7 Kinder sowie einen Ork namens Horst.|
+						Der wohl erfolgloseste Verbraucherschützer aller Zeiten wurde in einer Pyramide von einer Sandsteinstafel erschlagen, als er Verbraucherschutz im alten Ägypten erforschte. Er hinterlässt 36 Berichte, 17 Stellungnahmen und 14.424 Beschwerden.|
+						Der wohl erfolgloseste Straßenmarkierungsmaler aller Zeiten malte Zebrastreifen in Schlangenlinien, was die Wirte begeisterte - die Behörden nicht. Er verunglückte, als er mit einem Streichholz die neue Farblieferung im Tankwagen inspizierte.|
+						Der wohl erfolgloseste Knecht Ruprecht aller Zeiten drohte in den frühen Morgenstunden einem nicht braven Mann eine Tracht Prügel an, der sich mit einer Machete wehrte. ${rans}${eier} hinterlässt Rute, falschen Bart und einen trauernden Nikolaus.|
+						Der wohl erfolgloseste Endurofahrer aller Zeiten beendete nie ein Rennen und verschleierte seine Stürze als innovative Manöver. Er verstarb gestern, als er sein Motorrad aus einem Kirschbaum barg, der völlig überraschend unter ihm gewachsen war.
+					</de>
+					<en>The probably most unsuccessful newscaster of all time was the first on German television who could not pronounce "Bonn" or "Berlin". He died yesterday at the age of 63 while trying to reshuffle the weather charts.|
+						The probably most unsuccessful encyclopedia author of all times died yesterday while writing an article about the mating behavior of the spruced up Borneo grey parrot.|
+						The probably most unsuccessful physicist of the 20th century came up with the "theory of absolutivity" as a schoolboy, in which light always has the same speed. He died in an experiment where he ran in front of a moving train with a flashlight.|
+						The probably most unsuccessful firefighter of all time died when he tried to extinguish a burning match with a liter of petrol. Before that, he had often fought conflagrations with confetti cannons.|
+						The probably most unsuccessful ${influencer} of all time tried to ${generatefollowers} ${withalivestream} from a cave in Greenland. He died when he fell into a hole he had dug himself for better lighting conditions.|
+						The probably most unsuccessful secret agent of all time failed and died during his undercover mission when he got tangled up in his fake beard.|
+						The probably most unsuccessful extreme athlete of all time died while attempting to break the world record for backwards bungee jumping. He was killed by the falling piano to which he had attached the rope.|
+						The probably most unsuccessful astronaut and son of a manned space captain failed his greatest mission: during re-entry, he had to pay extra because he didn't have a stamp. He died yesterday trying to fly into the air with dynamite.|
+						The probably most unsuccessful showmaster of all time created never-aired classics like "Dream Calculations" and was humiliated with the ${wolfgang} ${lippert} Award. He finally died in a studio, shot during "${mediatitle_familyfeud}".|
+						The probably most unsuccessful drug addict injected heroin into a stream and invented the 1.5-liter deposit syringe. Junkies disliked him for snorting ${brand_knorr} in the ${brand_maggi} Coke Studio. He died from a fish egg overdose - Germany's first roe victim.|
+						The probably most unsuccessful newscaster always preferred to hear himself speak. His "Song from Bonn" was not well received. He died when he said Schalke 05, even though they had won 3-0. Unfortunately, the news of his death reached him too late.|
+						The probably most unsuccessful professional footballer of all time introduced innovations like goalkeeper slippers and faked goals from 70 meters. He died yesterday during a friendly match in Greenland, freezing to death during a jersey swap.|
+						The probably most unsuccessful police officer of all time spent 10 years undercover in a billboard column and failed to clue up his daughter. He died yesterday in Essen-Bredeney when he put on his bulletproof vest backwards and accidentally shot himself.|
+						The probably most unsuccessful Formula 1 driver founded the "${rans}${eier} Trabbi" racing team and invented the winner's escalator. He failed in the Spar Grand Prix when all his chess pieces fell off the chequered flag. He died during his ${ayrton} ${senna} parody.|
+						The probably most unsuccessful dictator of all time failed with slogans such as "One people, one empire, one eighty" and an attack with tortoiseshells. He died yesterday when he tried to name his sheepdog "Snatch".|
+						The probably most unsuccessful circus director of all time invented lion-mustard taming and failed as a contortionist while lining up. He died yesterday on the Reeperbahn when he tried to pull a cute bunny out of an 8-cylinder.|
+						The probably most unsuccessful Wilthen drinker drank a pallet of Wilthen in one go through the machine and did not pass "Go". He died last night at his final unction. His inheritance provided only enough for an urn burial in a 3-liter Wilthen bottle.|
+						The probably most unsuccessful captain of all time married a propelling screw and invented the inflatable anchor. During the great flood, he saved himself on a flaxseed island. He died yesterday when he realized his life vest wasn't bulletproof.|
+						The probably most unsuccessful tyrant of all time declared a dictatorship from the Reichstag balcony and got a noise complaint. He died the day before yesterday trying to suppress his hunger.|
+						The probably most unsuccessful plastic surgeon of all time was already making faces and eyes at the girls as a child. He invented helium breasts, but his patients flew away without paying. He died yesterday from a portion of scalpeeled potatoes.|
+						The probably most unsuccessful firefighter was always on the hose, invented fire tong bowling, extinguished the Olympic fire with a woollen blanket, contracted a fire at an epidemic ward and died. His estate goes to an arson foundation.|
+						The probably most unsuccessful gigolo of all time worked as a latrine lover, courted a farmer's wife and even helped old ladies over the straps. He died yesterday in a harbor basin in Sicily because he mistook Casanova for Cosanostra.|
+						The probably most unsuccessful clairvoyant was surprised by his own death. He not only had second sight, but also third teeth. He was run over by a ${brand_mercedes} while reading a star sign.|
+						The probably most unsuccessful automobile club member of all time achieved fame as a wrong-way driver and through his efforts to calculate ${sports_formula1}. He died yesterday at the age of 82 as a result of a driving test.|
+						The probably most unsuccessful car mechanic of all time already had a puncture as a kid and liked to invite people to a round of chef-roulette. He died yesterday at the age of 83 and was buried in a box hole.|
+						The probably most unsuccessful fugitive of all time loved fudgees as a child, bred refuge flies and even invented the flight compensator. He died yesterday on a talk show when he refuted public television.|
+						The probably most unsuccessful leaf blower never minced his words. He was caught cutting leaves in a pine forest and lost his fretsaw license. He died on vacation in an arbor and was buried in a compost heap.|
+						The probably most unsuccessful web designer of all time invented the cursive keyboard and cellulose-free homepages. He died yesterday when he was accidentally deleted from the server. The funeral will be held in the intimate circle of his backups.|
+						The probably most unsuccessful politician of all time was constantly empty and made canned promises early on. Or the other way around. He warned of the gap between the pure and the snitches - unsuccessfully. He died yesterday during the reenactment of the great collision.|
+						The probably most unsuccessful demonstrator of all time set toy cars on fire as a child and protested against the G1 summit. Yesterday he died of an overdose of Anti-Demonstrativa. A demo version of his favorite song played at the funeral.|
+						The probably most unsuccessful LARPer of all time was acting up already as a child and developed the milestones "Cowboys and Indians" and "Robbers and Gendarmes". He died yesterday at the age of 87 and leaves behind 7 children and an orc named Horst.|
+						The probably most unsuccessful consumer advocate of all time was killed by a sandstone tablet in a pyramid while researching consumer protection in ancient Egypt. He left behind 36 reports, 17 statements and 14,424 complaints.|
+						The probably most unsuccessful road marking painter of all time painted crosswalks in serpentine lines, which delighted the innkeepers - but not the authorities. He was killed when he used a match to inspect the new paint delivery in the tanker.|
+						The probably most unsuccessful Knecht Ruprecht of all time threatened an unruly man with a good spanking in the early hours of the morning who fought back with a machete. ${rans}${eier} leaves behind rods, a fake beard and a grieving Santa Claus.|
+						The probably most unsuccessful enduro rider of all time never finished a race and disguised his crashes as innovative maneuvers. He died yesterday when he retrieved his bike from a cherry tree that had completely unexpectedly grown underneath him.
+					</en>
+					<pl>Prawdopodobnie najbardziej nieudany prezenter wiadomości wszech czasów był pierwszym w niemieckiej telewizji, który nie potrafił wymówić słów „Bonn” lub „Berlin”. Zmarł wczoraj w wieku 63 lat, gdy próbował przetasować listę przebojów pogodowych.|
+						Prawdopodobnie najbardziej nieudany autor encyklopedii wszechczasów zmarł wczoraj podczas pisania artykułu o zachowaniach godowych wypielęgnowanej papugi szarej z Borneo.|
+						Prawdopodobnie najbardziej nieudany fizyk XX wieku jako uczeń wymyślił „teorię absolutności”, w której światło ma zawsze taką samą prędkość. Zginął podczas eksperymentu, w którym biegł przed jadącym pociągiem z latarką.|
+						Prawdopodobnie najbardziej nieudany strażak wszech czasów zginął, gdy próbował ugasić płonącą zapałkę litrem benzyny. Wcześniej często walczył z pożarami za pomocą armatek konfetti.|
+						Prawdopodobnie najbardziej nieudany ${influencer} wszechczasów próbował ${generatefollowers} ${withalivestream} z jaskini na Grenlandii. Zginął, gdy wpadł do dziury, którą sam wykopał, aby uzyskać lepsze warunki oświetleniowe.|
+						Prawdopodobnie najbardziej nieudany tajny agent wszechczasów zawiódł i zginął podczas tajnej misji, gdy zaplątał się w swoją sztuczną brodę.|
+						Prawdopodobnie najbardziej nieudany sportowiec ekstremalny wszech czasów zginął podczas próby pobicia rekordu świata w skoku na bungee tyłem. Został zabity przez spadający fortepian, do którego przymocował linę.|
+						Prawdopodobnie najbardziej nieudany astronauta i syn kapitana załogowego statku kosmicznego nie wykonał swojej największej misji: przy wejściu w atmosferę musiał dopłacić, bo nie miał pieczątki. Zginął wczoraj, próbując wznieść się w powietrze za pomocą dynamitu.|
+						Prawdopodobnie najbardziej nieudany showman w historii stworzył nigdy niewyemitowane klasyki jak „Kalkulacje marzeń” i został upokorzony nagrodą ${wolfgang}a ${lippert}a. Zginął w studiu, gdy został zastrzelony podczas programu „${mediatitle_familyfeud}“.|
+						Prawdopodobnie najbardziej nieudany narkoman wstrzykiwał heroinę do Odry i wynalazł strzykawkę zwrotną 1,5 litra. Ćpuny go nie lubiły, bo w studiu ${brand_maggi}-Koks wciągał ${brand_knorr}a. Zmarł w wyniku przedawkowania ikry rybiej - pierwszy „rogentoter“ Niemiec.|
+						Prawdopodobnie najbardziej nieudany prezenter wiadomości zawsze wolał słuchać siebie mówiącego. Jego „Song from Bonn” nie została dobrze przyjęta. Zmarł, gdy powiedział Schalke 05, mimo że wygrali 3-0. Niestety, wiadomość o jego śmierci dotarła do niego zbyt późno.|
+						Prawdopodobnie najbardziej nieudany piłkarz w historii wprowadził innowacje, jak kapcie bramkarskie, i oszukiwał gole z 70 metrów. Zmarł wczoraj podczas meczu towarzyskiego na Grenlandii, zamarzając przy wymianie koszulek.|
+						Prawdopodobnie najbardziej nieudany policjant wszech czasów spędził 10 lat pod przykrywką na słupie ogłoszeniowym i nie udało mu się namierzyć swojej córki. Zginął wczoraj w Essen-Bredeney, gdy założył kamizelkę kuloodporną tył na przód i przypadkowo się postrzelił.|
+						Prawdopodobnie najbardziej nieudany kierowca Formuły 1 założył zespół „${rans}${eier} Trabbi“ i wynalazł zwycięskie ruchome schody. Zawiódł w Grand Prix Spar, kiedy wszystkie jego figury szachowe spadły z flagi w szachownicę. Zmarł podczas parodii: „${ayrton} ${senna}”.|
+						Prawdopodobnie najbardziej nieudany dyktator w historii nie zdobył poparcia hasłami „Jeden naród, jedno imperium, jeden metr osiemdziesiąt“ ani atakiem z użyciem pancernych żółwi. Zmarł wczoraj, próbując nazwać swojego owczarka „Snatch“.|
+						Prawdopodobnie najbardziej nieudany dyrektor cyrku wszechczasów wymyślił oswajanie lwów z musztardą i zawiódł jako kontorsjonista w kolejce. Zginął wczoraj na Reeperbahn, gdy próbował wyciągnąć słodkiego króliczka z 8-cylindrowego samochodu.|
+						Prawdopodobnie najbardziej nieudany pijący Wilthen wypił paletę Wilthen za jednym razem przez maszynę i nie przeszedł „Start”. Zmarł zeszłej nocy podczas ostatniego namaszczenia. Jego spadek wystarczył jedynie na pochówek w urnie w 3-litrowej butelce Wilthen.|
+						Prawdopodobnie najbardziej nieudany kapitan w historii poślubił śrubę okrętową i wynalazł dmuchany kotwicę. Podczas wielkiej powodzi uratował się na wyspie lnianej. Zginął wczoraj, gdy zdał sobie sprawę, że jego kamizelka ratunkowa nie jest kuloodporna.|
+						Prawdopodobnie najbardziej nieudany tyran w historii ogłosił dyktaturę z balkonu Reichstagu i dostał mandat za zakłócanie spokoju. Zmarł przedwczoraj, próbując stłumić głód.|
+						Prawdopodobnie najbardziej nieudany chirurg plastyczny wszech czasów już jako dziecko robił miny i oczy do dziewczynek. Wynalazł helowe piersi, ale jego pacjentki odleciały nie płacąc. Zmarł wczoraj od porcji ziemniaków ze skalpela.|
+						Prawdopodobnie najbardziej nieudany strażak był zawsze na wężu, wynalazł kręgle strażackie, ugasił pożar olimpijski wełnianym kocem, zaraził się pożarem na oddziale epidemicznym i zmarł. Jego majątek trafił do fundacji zajmującej się podpaleniami.|
+						Prawdopodobnie najbardziej nieudany żigolak wszech czasów pracował jako latrynoski kochanek, zalecał się do żony rolnika, a nawet pomagał staruszkom przy pasach. Zmarł wczoraj w basenie portowym na Sycylii, ponieważ pomylił Casanovę z Cosanostrą.|
+						Prawdopodobnie najbardziej nieudany jasnowidz był zaskoczony własną śmiercią. Miał nie tylko drugi wzrok, ale także trzecie zęby. Został przejechany przez ${brand_mercedes}a podczas odczytywania znaku gwiazdy.|
+						Prawdopodobnie najbardziej nieudany członek automobilklubu wszech czasów zyskał sławę jako kierowca jeżdżący po niewłaściwych drogach oraz dzięki swoim staraniom o skalkulowanie ${sports_formula1}. Zmarł wczoraj w wieku 82 lat w wyniku egzaminu na prawo jazdy.|
+						Prawdopodobnie najbardziej nieudany mechanik samochodowy wszech czasów już jako dziecko miał przebicie opony i lubił zapraszać ludzi na rundę szef-ruletki. Zmarł wczoraj w wieku 83 lat i został pochowany w skrzyni.|
+						Prawdopodobnie najbardziej nieudany uciekinier wszech czasów w dzieciństwie uwielbiał krówki, hodował muchy schronieniowe, a nawet wynalazł kompensator lotu. Zmarł wczoraj w talk show, gdy obalił telewizję publiczną.|
+						Prawdopodobnie najbardziej nieudany dmuchacz liści nigdy nie przebierał w słowach. Został przyłapany na ścinaniu liści w sosnowym lesie i stracił licencję pilarza. Zmarł na wakacjach w altanie i został pochowany w pryzmie kompostu.|
+						Prawdopodobnie najbardziej nieudany projektant stron internetowych wszechczasów wynalazł klawiaturę kursywną i strony główne bez celulozy. Zmarł wczoraj, gdy został przypadkowo usunięty z serwera. Pogrzeb odbędzie się w kameralnym gronie jego kopii zapasowych.|
+						Prawdopodobnie najbardziej nieudany polityk wszechczasów był ciągle pusty i wcześnie składał obietnice bez pokrycia. Albo na odwrót. Ostrzegał przed przepaścią między czystymi a donosicielami - bezskutecznie. Zmarł wczoraj podczas odtwarzania wielkiego zderzenia.|
+						Prawdopodobnie najbardziej nieudany demonstrant wszech czasów jako dziecko podpalał samochodziki i protestował przeciwko szczytowi G1. Wczoraj zmarł z powodu przedawkowania Anti-Demonstrativa. Na pogrzebie zagrano wersję demo jego ulubionej piosenki.|
+						Prawdopodobnie najbardziej nieudany LARPer wszech czasów działał już jako dziecko i opracował kamienie milowe „Kowboje i Indianie” oraz „Rozbójnicy i żandarmi”. Zmarł wczoraj w wieku 87 lat i pozostawił po sobie siedmioro dzieci oraz orka o imieniu Horst.|
+						Prawdopodobnie najbardziej nieudany rzecznik konsumentów wszech czasów został zabity przez tablicę z piaskowca w piramidzie podczas badań nad ochroną konsumentów w starożytnym Egipcie. Pozostawił po sobie 36 raportów, 17 oświadczeń i 14 424 skargi.|
+						Prawdopodobnie najbardziej nieudany malarz oznakowań drogowych wszechczasów malował przejścia dla pieszych w serpentynowe linie, co zachwycało karczmarzy - ale nie władze. Zginął, gdy użył zapałki do sprawdzenia dostawy nowej farby w cysternie.|
+						Prawdopodobnie najbardziej nieudany Knecht Ruprecht wszech czasów groził chłostą niesfornemu mężczyźnie we wczesnych godzinach porannych, który walczył z maczetą. ${rans}${eier} pozostawia po sobie rózgi, sztuczną brodę i zasmuconego Świętego Mikołaja.|
+						Prawdopodobnie najbardziej nieudany zawodnik enduro wszech czasów nigdy nie ukończył wyścigu, a swoje kraksy maskował innowacyjnymi manewrami. Zginął wczoraj, gdy wyciągał swój rower spod drzewa wiśniowego, które zupełnie niespodziewanie wyrosło pod nim.
+					</pl>
+				</theprobablymost_csv>
+			</variables>
+			<data genre="5" price="0.3" quality="30" fictional="1" />
+		</news>
+
+		<news guid="news-jorgaeff-grafitti-01" type="0" thread_guid="news-jorgaeff-grafitti" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Bahn beklagt Millionenschaden durch Grafittis</de>
+				<en>Deutsche Bahn laments damage in the millions</en>
+				<pl>Deutsche Bahn ubolewa nad milionowymi szkodami</pl>
+			</title>
+			<description>
+				<de>Für die einen ist es Vandalismus, für die anderen eine Ausdrucksweise urbaner Kultur. Im vergangenen Jahr musste die Bahn Millionen für die Reinigung beschmierter Waggons aufbringen, was sich natürlich auch auf die Fahrpreise auswirkt.</de>
+				<en>For some it is vandalism, for others an expression of urban culture. Last year, Deutsche Bahn had to spend millions to clean graffitied train cars, which of course will also affect tricket prices.</en>
+				<pl>Dla niektórych jest to wandalizm, dla innych wyraz kultury miejskiej. W zeszłym roku Deutsche Bahn musiało wydać miliony na czyszczenie wagonów kolejowych pokrytych graffiti, co oczywiście wpłynie również na ceny biletów.</pl>
+			</description>
+			<data genre="5" price="0.35" quality="35" fictional="1" />
+			<effects>
+				<!-- "in 7 Tagen 14-20 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,7,7,14,20" news="news-jorgaeff-grafitti-02" />
+			</effects>
+		</news>
+
+		<news guid="news-jorgaeff-grafitti-02" type="2" thread_guid="news-jorgaeff-grafitti" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Grafitti entwickelt sich zur Kunstform</de>
+				<en>Grafitti develops into an art form</en>
+				<pl>Grafitti staje się formą sztuki</pl>
+			</title>
+			<description>
+				<de>Lange Zeit waren Grafittis nur als Schmierereien angesehen. Doch langsam steigt in der Gesellschaft die Akzeptanz für die bunten Bilder. Sogar Prominente greifen öffentlich zur Sprühdose und besprühen ungeniert Wände und Bahnwaggons.</de>
+				<en>For a long time, grafitti were regarded only as smearings. But slowly the acceptance for the colorful images is rising in society. Even celebrities take up the spray can in public and unabashedly spray walls and train cars.</en>
+				<pl>Przez długi czas grafitti były uważane jedynie za mazaje. Ale powoli akceptacja dla kolorowych obrazów rośnie w społeczeństwie. Nawet celebryci publicznie używają sprayu i bez skrępowania malują ściany i wagony kolejowe.</pl>
+			</description>
+			<data genre="5" price="0.4" quality="40" fictional="1" />
+			<effects>
+				<!-- "in 4 Tagen 10-20 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,4,4,10,20" news="news-jorgaeff-grafitti-03" />
+			</effects>
+		</news>
+
+		<news guid="news-jorgaeff-grafitti-03" type="2" thread_guid="news-jorgaeff-grafitti" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>Bahn verkauft Grafitti-Waggons</de>
+				<en>Deutsche Bahn selling graffiti wagons</en>
+				<pl>Deutsche Bahn sprzedaje wagony z graffiti</pl>
+			</title>
+			<description>
+				<de>Die Bahn hat einige ihrer besprühten Waggons verkauft. Bei dem derzeitigen Grafitti-Hype sei es lukrativer die alten Waggons zu verscherbeln und neue zu kaufen. Gartenzwerge waren gestern - heute stellt man sich einen Waggon in den Vorgarten.</de>
+				<en>Deutsche Bahn has sold some of their spray-painted wagons. With the current graffiti hype, it is more lucrative to sell off the old wagons and buy new ones. Garden gnomes were yesterday - today you put a wagon in your front yard.</en>
+				<pl>Deutsche Bahn sprzedało część swoich pomalowanych sprayem wagonów. Przy obecnym szumie graffiti bardziej opłacalne jest sprzedawanie starych wagonów i kupowanie nowych. Wczoraj były krasnale ogrodowe - dziś stawiasz wagon na swoim podwórku.</pl>
+			</description>
+			<data genre="5" price="0.45" quality="45" fictional="1" />
+			<effects>
+				<!-- "in 2 Tagen 7-12 Uhr" -->
+				<effect trigger="happen" type="triggernews" time="2,2,2,7,12" news="news-jorgaeff-grafitti-04" />
+			</effects>
+		</news>
+
+		<news guid="news-jorgaeff-grafitti-04" type="2" thread_guid="news-jorgaeff-grafitti" creator="8936" created_by="jorgaeff">
+			<title>
+				<de>${brand_basf} entwickelt unübersprühbare Farbe</de>
+				<en>${brand_basf} develops non-over-sprayable paint</en>
+				<pl>${brand_basf} opracowuje farbę, której nie da się spryskać</pl>
+			</title>
+			<description>
+				<de>Die von ${brand_basf} entwickelte unübersprühbare Farbe könnte das Ende für Grafittis bedeuten. Dennoch ist sich die Bahn unschlüssig, ob sie die Farbe einsetzen soll, da der Verkauf besprühter Waggons sehr lukrativ zu sein scheint.</de>
+				<en>The non-over-sprayable paint developed by ${brand_basf} could spell the end for graffiti. Nevertheless, Deutsche Bahn is undecided whether to use the paint, as the sale of sprayed wagons seems to be very lucrative.</en>
+				<pl>Nienadająca się do spryskiwania farba opracowana przez ${brand_basf} może oznaczać koniec graffiti. Niemniej jednak Deutsche Bahn nie jest zdecydowana, czy użyć farby, ponieważ sprzedaż spryskanych wagonów wydaje się być bardzo lukratywna.</pl>
+			</description>
+			<data genre="5" price="0.5" quality="50" fictional="1" />
+		</news>
+
+		<news guid="news-jorgaeff-1985-5-02" type="0" creator="8936" created_by="jorgaeff" comment="TODO: previously restricted to 1985; reference not clear">
+			<title>
+				<de>Edward-Swanstein-Museum eröffnet</de>
+				<en>Edward Swanstein Museum opened</en>
+				<pl>Otwarto Muzeum Edwarda Swansteina</pl>
+			</title>
+			<description>
+				<de>In Rüsselsheim wurde das Museum des ersten avantgardistischen Dichters und Dramaturgen der Neuzeit, Edward Swanstein, eröffnet. Das Museum zeigt Werke des Künstlers und bildet sein Leben anhand von Pantomimen nach.</de>
+				<en>In Russelsheim the museum of the first avant-garde poet and dramatist of modern times, Edward Swanstein, was opened. The museum displays works of the artist and recreates his life through pantomimes.</en>
+				<pl>W Russelsheim otwarto muzeum pierwszego awangardowego poety i dramaturga czasów współczesnych, Edwarda Swansteina. Muzeum prezentuje dzieła artysty i odtwarza jego życie poprzez pantomimy.</pl>
+			</description>
+			<data genre="5" price="0.3" quality="30" fictional="1" flags="2" />
+		</news>
+
+		<news guid="news-jorgaeff-1985-5-03" type="0" creator="8936" created_by="jorgaeff" comment="TODO: previously restricted to 1985; reference not clear, probably https://www.ndr.de/nachrichten/info/epg/Der-Kunstzerstoerer-Die-Saeure-Attentate-von-Hans-Joachim-Bohlmann,sendung1447870.html">
+			<title>
+				<de>Säureanschlag im Kunsthaus Wanne-Eickel</de>
+				<en>Acid attack in the Wanne-Eickel art gallery</en>
+				<pl>Atak kwasem w galerii sztuki Wanne-Eickel</pl>
+			</title>
+			<description>
+				<de>Durch einen Säureanschlag wird im Kunsthaus Wanne-Eickel das Gemälde „Die Rubensdame“ von Hans-Dieter Blasewitz völlig zerstört.</de>
+				<en>Through an acid attack in the Wanne-Eickel art gallery, the painting "The Rubens Lady" by Hans-Dieter Blasewitz has been completely destroyed.</en>
+				<pl>W wyniku ataku kwasem w galerii sztuki Wanne-Eickel obraz „Dama Rubensa” Hansa-Dietera Blasewitza został całkowicie zniszczony.</pl>
+			</description>
+			<data genre="5" price="0.35" quality="35" fictional="1" flags="2" />
+		</news>
+	</allnews>
+</tvtdb>
