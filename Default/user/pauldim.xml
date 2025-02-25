@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tvtdb>
+	<version value="3" comment="pauldim proposition" />
+	<celebritypeople>
+		<!--  -->
+		<person guid="pauldim-person-id001" tmdb_id="0" imdb_id="nm0041003" creator="pauldim">
+			<first_name_fake></first_name_fake>
+			<last_name_fake>Damian</last_name_fake>
+			<nick_name_fake>Attanburough</nick_name_fake>
+			<nick_name></nick_name>
+			<first_name>David</first_name>
+			<last_name>Attenborough</last_name>
+			<details job="" gender="1" birthday="1926-05-08" deathday="" country="EN" />
+		</person>
+	</celebritypeople>
+
+	<allprogrammes>
+		<!-- -->
+		<programme guid="" product="2" licence_type="3" creator="9551" imdb_id="tt0135095">
+			<title_fake>
+				<de>Leben auf der Erde</de>
+				<en>Life on our planet</en>
+				<pl>Życie na naszej planecie</pl>
+			</title_fake>
+			<title>
+				<de>Leben auf der Erde</de>
+				<en>Life on Earth</en>
+				<pl>Życie na Ziemi</pl>
+			</title>
+			<description>
+				<de>${.self:"cast":1:"fullname"} bahnbrechende Studie über die Evolution des Lebens auf unserem Planeten.</de>
+				<en>${.self:"cast":1:"fullname"}'s groundbreaking study of the evolution of life on our planet.</en>
+				<pl>Przełomowe studium ${.self:"cast":1:"firstname"}a ${.self:"cast":1:"lastname"} na temat ewolucji życia na naszej planecie.</pl>
+			</description>
+			<staff>
+				<member index="0" function="8">pauldim-person-id001</member>
+				<member index="1" function="128">pauldim-person-id001</member>
+			</staff>
+			<groups target_groups="" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<targetgroupattractivity children="0.5" teenagers_female="0.5" employees="" />
+			<data country="EN" distribution="2" maingenre="6" subgenre="" flags="0" blocks="1" price_mod="1" />
+			<releaseTime year="1979" day="1" />
+			<ratings critics="90" speed="80" outcome="80" />
+			<children>
+				<programme guid="" product="2" licence_type="2" imdb_id="tt0846518" creator="9551">
+					<title_fake>
+						<de>S1E1. Die unendliche Vielfalt</de>
+						<en>S1E1. The Infinite Variety</en>
+						<pl>S1E1. Mnoga różnorodność gatunkowa</pl>
+					</title_fake>
+					<title>
+						<de>S1E1. Die unendliche Vielfalt</de>
+						<en>S1E1. The Infinite Variety</en>
+						<pl>S1E1. Nieskończona różnorodność</pl>
+					</title>
+					<description>
+						<de>Hintergrundinformationen zu den Ursprüngen des Lebens auf der Erde und anhand von Fossilien, wie einige der heutigen Lebewesen ihre Vorfahren durch die Äonen bis in diese frühesten Zeiten zurückverfolgen können.</de>
+						<en>Background to the origins of life on Earth and with the evidence of fossils, how some of today's living creatures can trace their ancestry back through the eons to those earliest of times.</en>
+						<pl>Wstęp do początków życia na Ziemi i dzięki dowodom w postaci skamieniałości, możemy prześledzić pochodzenie przez eony do tych najwcześniejszych czasów.</pl>
+					</description>
+				</programme>
+				<programme guid="" product="2" licence_type="2" imdb_id="tt5706380" creator="9551">
+					<title_fake>
+						<de>S1E2. Baukörper</de>
+						<en>S1E2. Building Bodies</en>
+						<pl>S1E2. Jak są zbudowane?</pl>
+					</title_fake>
+					<title>
+						<de>S1E2. Baukörper</de>
+						<en>S1E2. Building Bodies</en>
+						<pl>S1E2. Budowa ciał</pl>
+					</title>
+					<description>
+						<de>Die fortlaufende Geschichte der Evolution des Lebens auf der Erde erforscht die frühesten im Meer lebenden wirbellosen Tiere.</de>
+						<en>The continuing story of the evolution of life on earth explores the earliest sea living invertebrates.</en>
+						<pl>Kontynuacja historii ewolucji życia na Ziemi. Badamy najwcześniejsze żyjące w morzu bezkręgowce.</pl>
+					</description>
+				</programme>
+				<programme guid="" product="2" licence_type="2" imdb_id="tt5706380" creator="9551">
+					<title_fake>
+						<de>S1E3. Die ersten Wälder</de>
+						<en>S1E3. At the First Forest</en>
+						<pl>S1E3. W pierwszych drzewach</pl>
+					</title_fake>
+					<title>
+						<de>S1E3. Die ersten Wälder</de>
+						<en>S1E3. The First Forests</en>
+						<pl>S1E3. Pierwsze lasy</pl>
+					</title>
+					<description>
+						<de>Erforscht die ersten landlebenden Pflanzen und Insekten, die Probleme, mit denen sie konfrontiert waren, und wie sie diese überwunden haben.</de>
+						<en>Explores the first land living plants and insects, the problems they faced and how they overcame them.</en>
+						<pl>Odkrywamy pierwsze żyjące na lądzie rośliny i owady, problemy z jakimi się borykały i jak je przezwyciężały.</pl>
+					</description>
+				</programme>
+				<programme guid="" product="2" licence_type="2" imdb_id="tt5706380" creator="9551">
+					<title_fake>
+						<de>S1E4. Die wimmelnden Horden</de>
+						<en>S1E4. The Swarming Hordes</en>
+						<pl>S1E4. Roje zbiorowisk</pl>
+					</title_fake>
+					<title>
+						<de>S1E4. Die wimmelnden Horden</de>
+						<en>S1E4. The Swarming Hordes</en>
+						<pl>S1E4. Rój hord</pl>
+					</title>
+					<description>
+						<de>Untersucht die Symbiose zwischen Pflanzen und Insekten und wie einige Insekten zu Superorganismen geworden sind.</de>
+						<en>Examines the symbiosis between plants and insects together with how some insects have become super-organisms.</en>
+						<pl>Badamy symbiozę między roślinami i owadami oraz sposób, w jaki niektóre owady stały się superorganizmami.</pl>
+					</description>
+				</programme>
+				<programme guid="" product="2" licence_type="2" imdb_id="tt5706380" creator="9551">
+					<title_fake>
+						<de>S1E5. Die Eroberung der Gewässer</de>
+						<en>S1E5. The Conquest of the Waters</en>
+						<pl>S1E5. Życie na wodzie</pl>
+					</title_fake>
+					<title>
+						<de>S1E5. Die Eroberung der Gewässer</de>
+						<en>S1E5. The Conquest of the Waters</en>
+						<pl>S1E5. Podbój wód</pl>
+					</title>
+					<description>
+						<de>Die Evolution der Fische, die zu ihrer heutigen enormen Vielfalt und ihrer Fähigkeit, bemerkenswerte Lebensräume zu besetzen, geführt hat.</de>
+						<en>Tracing the evolution of fish leading to today's immense variety and ability to occupy remarkable environments.</en>
+						<pl>Prześledzenie ewolucji ryb, która doprowadziła do ich ogromnej różnorodności i zdolności do zajmowania niezwykłych środowisk.</pl>
+					</description>
+				</programme>
+				<programme guid="" product="2" licence_type="2" imdb_id="tt5706380" creator="9551">
+					<title_fake>
+						<de>S1E6. Invasion des Landes</de>
+						<en>S1E6. Invasion of the Land</en>
+						<pl>S1E6. Podbuj ziemii</pl>
+					</title_fake>
+					<title>
+						<de>S1E6. Invasion des Landes</de>
+						<en>S1E6. Invasion of the Land</en>
+						<pl>S1E6. Inwazja na ziemię</pl>
+					</title>
+					<description>
+						<de>Die Evolution des Lebens geht weiter: Einige Fische wandern an Land und werden zu Amphibien.</de>
+						<en>The evolution of life continues with some fish moving on to the land and becoming amphibians.</en>
+						<pl>Ewolucja życia trwa nadal, a niektóre ryby przenoszą się na ląd i stają się płazami.</pl>
+					</description>
+				</programme>
+				<programme guid="" product="2" licence_type="2" imdb_id="tt5706380" creator="9551">
+					<title_fake>
+						<de>S1E7. Die Sieger des trockenen Landes</de>
+						<en>S1E7. Victors of the Dry Land</en>
+						<pl>S1E7. Na suchym lądzie</pl>
+					</title_fake>
+					<title>
+						<de>S1E7. Die Sieger des trockenen Landes</de>
+						<en>S1E7. Victors of the Dry Land</en>
+						<pl>S1E7. Zwycięzcy Suchego Lądu</pl>
+					</title>
+					<description>
+						<de>Die Entstehung und Entwicklung der Reptilien, einschließlich der Geschichte der Dinosaurier.</de>
+						<en>The rise and evolution of reptiles including the history of dinosaurs.</en>
+						<pl>Powstanie i ewolucja gadów, w tym historia dinozaurów.</pl>
+					</description>
+				</programme>
+				<programme guid="" product="2" licence_type="2" imdb_id="tt5706380" creator="9551">
+					<title_fake>
+						<de>S1E8. Die Herren der Lüfte</de>
+						<en>S1E8. Lords of the Air</en>
+						<pl>S1E8. W powietrzu</pl>
+					</title_fake>
+					<title>
+						<de>S1E8. Die Herren der Lüfte</de>
+						<en>S1E8. Lords of the Air</en>
+						<pl>S1E8. Władcy powietrza</pl>
+					</title>
+					<description>
+						<de>Die Entwicklung der Vögel von ihren ersten reptilienartigen Vorfahren bis zu der immensen Artenvielfalt, die wir heute kennen.</de>
+						<en>The evolution of birds from their first reptilian ancestors to the immense variety of species we know today.</en>
+						<pl>Ewolucja ptaków od ich pierwszych gadzich przodków do ogromnej różnorodności gatunków, które znamy dzisiaj.</pl>
+					</description>
+				</programme>
+				<programme guid="" product="2" licence_type="2" imdb_id="tt5706380" creator="9551">
+					<title_fake>
+						<de>S1E9. Der Aufstieg der Säugetiere</de>
+						<en>S1E9. The Rise of the Mammals</en>
+						<pl>S1E9. I powstały ssaki</pl>
+					</title_fake>
+					<title>
+						<de>S1E9. Der Aufstieg der Säugetiere</de>
+						<en>S1E9. The Rise of the Mammals</en>
+						<pl>S1E9. Powstanie ssaków</pl>
+					</title>
+					<description>
+						<de>Verfolgt die frühe Evolution der Säugetiere, die nach dem Aussterben der Dinosaurier zu großer Bedeutung gelangten, und konzentriert sich auf die heutigen eierlegenden Säugetiere (Monotremes) und Beuteltiere.</de>
+						<en>Tracing the early evolution of mammals that rose to prominence following the extinction of the dinosaurs and concentrating on today's egg laying mammals (monotremes) and marsupials.</en>
+						<pl>Śledzimy wczesną ewolucję ssaków, które zyskały na znaczeniu po wyginięciu dinozaurów i koncentrujemy się na dzisiejszych ssakach składających jaja (monotremach) i torbaczach.</pl>
+					</description>
+				</programme>
+				<programme guid="" product="2" licence_type="2" imdb_id="tt5706380" creator="9551">
+					<title_fake>
+						<de>S1E10. Thema und Variationen</de>
+						<en>S1E10. Theme and Variations</en>
+						<pl>S1E10. Schemat i odmiany</pl>
+					</title_fake>
+					<title>
+						<de>S1E10. Thema und Variationen</de>
+						<en>S1E10. Theme and Variations</en>
+						<pl>S1E10. Temat i wariacje</pl>
+					</title>
+					<description>
+						<de>Die Evolution der Säugetiere wird fortgesetzt, wobei der Schwerpunkt auf einigen plazentalen Arten liegt und Fledermäuse, Wale und Delfine im Mittelpunkt stehen.</de>
+						<en>The evolution of mammals continues with the focus on some placental species including emphasis on bats, whales and dolphins.</en>
+						<pl>Ewolucja ssaków jest kontynuowana z naciskiem na niektóre gatunki łożyskowe, w tym nietoperze, wieloryby i delfiny.</pl>
+					</description>
+				</programme>
+			</children>
+		</programme>
+	</allprogrammes>
+
+</tvtdb>
