@@ -12,11 +12,47 @@
 			<last_name>Attenborough</last_name>
 			<details job="" gender="1" birthday="1926-05-08" deathday="" country="EN" />
 		</person>
+		<person guid="pauldim-person-id002" tmdb_id="0" imdb_id="nm0532702" creator="pauldim">
+			<first_name_fake></first_name_fake>
+			<last_name_fake>Jarosław</last_name_fake>
+			<nick_name_fake>Makulski</nick_name_fake>
+			<nick_name></nick_name>
+			<first_name>Juliusz</first_name>
+			<last_name>Machulski</last_name>
+			<details job="" gender="1" birthday="1955-03-10" deathday="" country="PL" />
+		</person>
+		<person guid="pauldim-person-id003" tmdb_id="0" imdb_id="nm0836136" creator="pauldim">
+			<first_name_fake></first_name_fake>
+			<last_name_fake>Jan</last_name_fake>
+			<nick_name_fake>Stehr</nick_name_fake>
+			<nick_name></nick_name>
+			<first_name>Jerzy</first_name>
+			<last_name>Stuhr</last_name>
+			<details job="" gender="1" birthday="1947-04-18" deathday="2024-07-09" country="PL" />
+		</person>
+		<person guid="pauldim-person-id004" tmdb_id="0" imdb_id="nm0276758" creator="pauldim">
+			<first_name_fake></first_name_fake>
+			<last_name_fake>Katarzyna</last_name_fake>
+			<nick_name_fake>Fagura</nick_name_fake>
+			<nick_name></nick_name>
+			<first_name>Katarzyna</first_name>
+			<last_name>Figura</last_name>
+			<details job="" gender="2" birthday="1962-03-22" deathday="" country="PL" />
+		</person>
+		<person guid="pauldim-person-id005" tmdb_id="0" imdb_id="nm0158587" creator="pauldim">
+			<first_name_fake></first_name_fake>
+			<last_name_fake>Jarosław</last_name_fake>
+			<nick_name_fake>Chielniak</nick_name_fake>
+			<nick_name></nick_name>
+			<first_name>Jacek</first_name>
+			<last_name>Chmielnik</last_name>
+			<details job="" gender="1" birthday="1953-01-31" deathday="2007-08-22" country="PL" />
+		</person>
 	</celebritypeople>
 
 	<allprogrammes>
 		<!-- -->
-		<programme guid="" product="2" licence_type="3" creator="9551" imdb_id="tt0135095">
+		<programme guid="pd-b01595ec-0775-42cb-8eeb-7f30f5772287" product="2" licence_type="3" creator="9810" imdb_id="tt0135095">
 			<title_fake>
 				<de>Leben auf der Erde</de>
 				<en>Life on our planet</en>
@@ -36,13 +72,13 @@
 				<member index="0" function="8">pauldim-person-id001</member>
 				<member index="1" function="128">pauldim-person-id001</member>
 			</staff>
-			<groups target_groups="" pro_pressure_groups="0" contra_pressure_groups="0" />
-			<targetgroupattractivity children="0.5" teenagers_female="0.5" employees="" />
-			<data country="EN" distribution="2" maingenre="6" subgenre="" flags="0" blocks="1" price_mod="1" />
+			<groups target_groups="69" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<targetgroupattractivity children="0.7" teenagers_female="0.7" employees="1" unemployed="1" managers="1" pensioners="2"/>
+			<data country="EN" distribution="2" maingenre="6" subgenre="9, 300" flags="0" blocks="1" price_mod="0.5" />
 			<releaseTime year="1979" day="1" />
 			<ratings critics="90" speed="80" outcome="80" />
 			<children>
-				<programme guid="" product="2" licence_type="2" imdb_id="tt0846518" creator="9551">
+				<programme guid="pd-5ed15dbe-c148-48a1-851c-c8c864760413" product="4" licence_type="3" imdb_id="tt0846518" creator="9810">
 					<title_fake>
 						<de>S1E1. Die unendliche Vielfalt</de>
 						<en>S1E1. The Infinite Variety</en>
@@ -59,7 +95,7 @@
 						<pl>Wstęp do początków życia na Ziemi i dzięki dowodom w postaci skamieniałości, możemy prześledzić pochodzenie przez eony do tych najwcześniejszych czasów.</pl>
 					</description>
 				</programme>
-				<programme guid="" product="2" licence_type="2" imdb_id="tt5706380" creator="9551">
+				<programme guid="e5599587-c0eb-4e00-84e2-4acd2cdfc434" product="4" licence_type="3" imdb_id="tt5706380" creator="9810">
 					<title_fake>
 						<de>S1E2. Baukörper</de>
 						<en>S1E2. Building Bodies</en>
@@ -76,7 +112,7 @@
 						<pl>Kontynuacja historii ewolucji życia na Ziemi. Badamy najwcześniejsze żyjące w morzu bezkręgowce.</pl>
 					</description>
 				</programme>
-				<programme guid="" product="2" licence_type="2" imdb_id="tt5706380" creator="9551">
+				<programme guid="a433b667-6d1a-41b8-b3d8-67b4afffde6c" product="4" licence_type="3" imdb_id="tt5706380" creator="9810">
 					<title_fake>
 						<de>S1E3. Die ersten Wälder</de>
 						<en>S1E3. At the First Forest</en>
@@ -93,7 +129,7 @@
 						<pl>Odkrywamy pierwsze żyjące na lądzie rośliny i owady, problemy z jakimi się borykały i jak je przezwyciężały.</pl>
 					</description>
 				</programme>
-				<programme guid="" product="2" licence_type="2" imdb_id="tt5706380" creator="9551">
+				<programme guid="ededa626-d2ac-400c-b61d-33e708dc8b19" product="4" licence_type="3" imdb_id="tt5706380" creator="9810">
 					<title_fake>
 						<de>S1E4. Die wimmelnden Horden</de>
 						<en>S1E4. The Swarming Hordes</en>
@@ -110,7 +146,7 @@
 						<pl>Badamy symbiozę między roślinami i owadami oraz sposób, w jaki niektóre owady stały się superorganizmami.</pl>
 					</description>
 				</programme>
-				<programme guid="" product="2" licence_type="2" imdb_id="tt5706380" creator="9551">
+				<programme guid="b51a2c3c-2548-4e07-8ded-207579a91280" product="4" licence_type="3" imdb_id="tt5706380" creator="9810">
 					<title_fake>
 						<de>S1E5. Die Eroberung der Gewässer</de>
 						<en>S1E5. The Conquest of the Waters</en>
@@ -127,7 +163,7 @@
 						<pl>Prześledzenie ewolucji ryb, która doprowadziła do ich ogromnej różnorodności i zdolności do zajmowania niezwykłych środowisk.</pl>
 					</description>
 				</programme>
-				<programme guid="" product="2" licence_type="2" imdb_id="tt5706380" creator="9551">
+				<programme guid="695caac3-b3c1-4b16-89fb-dac2f284ab24" product="4" licence_type="3" imdb_id="tt5706380" creator="9810">
 					<title_fake>
 						<de>S1E6. Invasion des Landes</de>
 						<en>S1E6. Invasion of the Land</en>
@@ -144,7 +180,7 @@
 						<pl>Ewolucja życia trwa nadal, a niektóre ryby przenoszą się na ląd i stają się płazami.</pl>
 					</description>
 				</programme>
-				<programme guid="" product="2" licence_type="2" imdb_id="tt5706380" creator="9551">
+				<programme guid="e3ef2fa0-9957-4d8d-89a2-9dac00546da4" product="4" licence_type="3" imdb_id="tt5706380" creator="9810">
 					<title_fake>
 						<de>S1E7. Die Sieger des trockenen Landes</de>
 						<en>S1E7. Victors of the Dry Land</en>
@@ -161,7 +197,7 @@
 						<pl>Powstanie i ewolucja gadów, w tym historia dinozaurów.</pl>
 					</description>
 				</programme>
-				<programme guid="" product="2" licence_type="2" imdb_id="tt5706380" creator="9551">
+				<programme guid="67851194-ea3e-43c6-92a5-4f23ebee50f4" product="4" licence_type="3" imdb_id="tt5706380" creator="9810">
 					<title_fake>
 						<de>S1E8. Die Herren der Lüfte</de>
 						<en>S1E8. Lords of the Air</en>
@@ -178,7 +214,7 @@
 						<pl>Ewolucja ptaków od ich pierwszych gadzich przodków do ogromnej różnorodności gatunków, które znamy dzisiaj.</pl>
 					</description>
 				</programme>
-				<programme guid="" product="2" licence_type="2" imdb_id="tt5706380" creator="9551">
+				<programme guid="0f6f4381-d17e-4ba2-85b9-8f1e134411c2" product="4" licence_type="3" imdb_id="tt5706380" creator="9810">
 					<title_fake>
 						<de>S1E9. Der Aufstieg der Säugetiere</de>
 						<en>S1E9. The Rise of the Mammals</en>
@@ -195,7 +231,7 @@
 						<pl>Śledzimy wczesną ewolucję ssaków, które zyskały na znaczeniu po wyginięciu dinozaurów i koncentrujemy się na dzisiejszych ssakach składających jaja (monotremach) i torbaczach.</pl>
 					</description>
 				</programme>
-				<programme guid="" product="2" licence_type="2" imdb_id="tt5706380" creator="9551">
+				<programme guid="86a133bf-231f-4bed-b41f-a04dfce78f89" product="4" licence_type="3" imdb_id="tt5706380" creator="9810">
 					<title_fake>
 						<de>S1E10. Thema und Variationen</de>
 						<en>S1E10. Theme and Variations</en>
@@ -214,6 +250,103 @@
 				</programme>
 			</children>
 		</programme>
+		<!-- -->
+		<programme guid="pd-" product="2" licence_type="3" creator="9810" imdb_id="tt0135095">
+			<title_fake>
+				<de></de>
+				<en></en>
+				<pl></pl>
+			</title_fake>
+			<title>
+				<de></de>
+				<en></en>
+				<pl></pl>
+			</title>
+			<description>
+				<de></de>
+				<en></en>
+				<pl></pl>
+			</description>
+			<staff>
+				<member index="0" function="1">pauldim-person-id002</member>
+				<member index="1" function="2">pauldim-person-id005</member>
+				<member index="2" function="2">pauldim-person-id003</member>
+				<member index="3" function="2">pauldim-person-id004</member>
+			</staff>
+			<groups target_groups="69" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<targetgroupattractivity children="0.7" teenagers_female="0.7" employees="1" unemployed="1" managers="1" pensioners="2" housewives="1" men="1" women="1"/>
+			<data country="PL" distribution="2" maingenre="6" subgenre="9, 300" flags="0" blocks="1" price_mod="0.5" />
+			<releaseTime year="1988" day="5" />
+			<ratings critics="90" speed="80" outcome="80" />
+				<children>
+					<programme guid="pd-" product="4" licence_type="3" imdb_id="tt0846518" creator="9810">
+						<title_fake>
+							<de></de>
+							<en></en>
+							<pl></pl>
+						</title_fake>
+						<title>
+							<de>Kingsajz</de>
+							<en>Kingsajz</en>
+							<pl>Kingsajz</pl>
+						</title>
+						<description>
+							<de></de>
+							<en>This comedy follows a young scientist in the contemporary world, who actually came from the world of dwarves, thanks to a magic potion, held by the Big Eater, ruler of the dwarves. The dwarf kingdom, Shuflandia, exists in a cellar of a library, and only the most obedient get the chance to grow to king size and inhabit the larger world.</en>
+							<pl>Ta komedia podąża za młodym naukowcem we współczesnym świecie, który tak naprawdę pochodzi ze świata krasnoludów, dzięki magicznej miksturze, będącej w posiadaniu Wielkiego Pożeracza, władcy krasnoludów. Królestwo krasnoludów, Shuflandia, istnieje w piwnicy biblioteki, a tylko najbardziej posłuszni mają szansę urosnąć do rozmiarów króla i zamieszkać w większym świecie.</pl>
+						</description>
+				</children>
+			</programme>
+			
+			<programme guid="" product="1" licence_type="1" tmdb_id="0" imdb_id="" creator="9810">
+				<title_fake>
+					<de></de>
+					<en></en>
+					<pl></pl>
+				</title_fake>
+				<title>
+					<de></de>
+					<en></en>
+					<pl></pl>
+				</title>
+				<description>
+					<de></de>
+					<en></en>
+					<pl></pl>
+				</description>
+				<staff>
+					<member index="0" function="1">2b6fb1b7-57b7-44bf-b930-a032d9193475</member>
+					<member index="1" function="2">dc2348e7-382c-4fad-98b6-bd0df974d274</member>
+				</staff>
+				<groups target_groups="6" pro_pressure_groups="1" contra_pressure_groups="2" />
+				<data country="" year="" distribution="1" maingenre="15" subgenre="7" flags="0" blocks="2" price_mod="0.90" />
+				<ratings critics="" speed="" outcome="" />
+			</programme>
+
+			<programme guid="" product="1" licence_type="1" tmdb_id="0" imdb_id="" creator="9810">
+				<title_fake>
+					<de></de>
+					<en></en>
+					<pl></pl>
+				</title_fake>
+				<title>
+					<de></de>
+					<en></en>
+					<pl></pl>
+				</title>
+				<description>
+					<de></de>
+					<en></en>
+					<pl></pl>
+				</description>
+				<staff>
+					<member index="0" function="1">2b6fb1b7-57b7-44bf-b930-a032d9193475</member>
+					<member index="1" function="2">dc2348e7-382c-4fad-98b6-bd0df974d274</member>
+				</staff>
+				<groups target_groups="6" pro_pressure_groups="1" contra_pressure_groups="2" />
+				<data country="" year="" distribution="1" maingenre="15" subgenre="7" flags="0" blocks="2" price_mod="0.90" />
+				<ratings critics="" speed="" outcome="" />
+			</programme>
 	</allprogrammes>
 
 </tvtdb>
