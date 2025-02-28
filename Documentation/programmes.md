@@ -1,61 +1,56 @@
 # Programme (programmes)
 
-Wpisy programów są osadzone jako lista elementów podrzędnych `programme` w tagu `allprogrammes`.
+Die Programm-Einträge sind als Liste von `programme`-Kindelementen in das `allprogrammes`-Tag eingebettet.
 
 ```XML
 <allprogrammes>
 	<programme guid="54084557-4497-48d5-8e3a-6a6c987ebb26" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0114746" creator="">
-		<title_fake>
-			<de>11 Donkeys</de>
-			<en>11 Donkeys</en>
-			<pl>11 Donkeys</pl>
-		</title_fake>
 		<title>
+			<de>11 Donkeys</de>
+			<en></en>
+		</title>
+		<title_original>
 			<de>12 Monkeys</de>
 			<en>Twelve Monkeys</en>
-			<pl>Dwanaście małp</pl>
-		</title>
+		</title_original>
 		<description>
-			<de>${.self:"cast":1:"fullname"} als potentieller Weltretter, der in die Vergangenheit geschickt wird, um die Apokalypse aufzuhalten.</de>
-			<en>${.self:"cast":1:"fullname"} as a potential world savior sent back in time to stop the apocalypse.</en>
-			<pl>${.self:"cast":1:"fullname"} jako potencjalny zbawca świata wysłany w przeszłość, by powstrzymać apokalipsę.</pl>
+			<de>[1|Full] als potentieller Weltretter...</de>
+			<en></en>
 		</description>
 		<staff>
 			<member index="0" function="1">85341df9-bd8f-4fd0-9f80-c9ab44ca0829</member>
 			<member index="1" function="2">2b6af8c4-7775-44da-820e-1ce9c55d8cd9</member>
 			<member index="2" function="2">1312b7b5-3215-40fd-92c8-fb0a16a2aebe</member>
 			<member index="3" function="2">6773978f-3667-4c03-813b-0fbc01b8135c</member>
-			<member index="4" function="2">cf2e581a-2189-4635-9358-68d9c83aad01</member>
 		</staff>
-		<groups target_groups="18" pro_pressure_groups="0" contra_pressure_groups="0" />
-		<targetgroupattractivity employees="1.5" unemployed="2" />
-		<data country="USA" year="1995" distribution="1" maingenre="16" subgenre="17,14" flags="0" blocks="3" price_mod="0.67" />
-		<ratings critics="79" speed="79" outcome="64" />
+		<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+		<data country="USA" year="1995" distribution="1" maingenre="16" subgenre="" flags="0" blocks="3" price_mod="0.67" />
+		<ratings critics="42" speed="28" outcome="51" />
 	</programme>
 </allprogrammes>
 ```
 
-Kraj: USA (`country`) Gatunek: Science-Fiction(`maingenre`) Rodzaj: Film (`product`) Tytuł: 11 Donkeys (`title`) Rok: 1995 (`year`) Dystrybucja: W kinach (`distribution`) Ilość bloków: trwa 3 godziny (`blocks`) Tempo: ale niezbyt szybkie tempo (`speed`).
-Ocena krytyków (`critics`) i wynik handlowy (`outcome`) był przeciętny.
-Nie określono konkretnej grupy docelowej (`target_groups`).
-Reżyser (`member index 0`) i 3 głównych aktorów (`member index 1-3`).
-Pojedyncza licencja (`licence_type`) jest dostępny w rozsądnej cenie (`price_mod`).
+Der US-amerikanische (`country`) Science-Fiction(`maingenre`)-Film (`product`) 11 Donkeys (`title`) wurde 1995 (`year`) für das Kino (`distribution`) produziert, ist 3 Stunden lang (`blocks`) aber wenig temporeich (`speed`).
+Die Bewertung durch Kritiker (`critics`) und das kommerzielle Ergebnis (`outcome`) waren durchschnittlich.
+Es ist keine speziell angesprochene Zielgruppe angegeben (`target_groups`).
+Es gab einen Regisseur (`member index 0`) und 3 Hauptdarsteller (`member index 1-3`).
+Die Einzellizenz (`licence_type`) ist preiswert zu haben (`price_mod`).
 
-## Właściwości programów
+## Eigenschaften von programme
 
-|    Nazwa     |   Typ               |                          Opis                             |
-|    -----     |   ----------------  |  -----------------------------------------------------    |
-| guid         | Obowiązkowe         | [GUID](main.md#guid)                                      |
-| product      | Obowiązkowe         | [Typ programu](main.md#Programmtyp) 						 |
-| licence_type | Obowiązkowe         | [Typ licencji](main.md#Lizenztyp)                         |
-| fictional    | Opcjonalne          | [Standardowa właściwość](main.md#fictional)               |
-| tmdb_id      | Opcjonalne          | [Standardowa właściwość](main.md#tmdb_id)                 |
-| imdb_id      | Opcjonalne          | [Standardowa właściwość](main.md#imdb_id)                 |
-| creator      | Metadane opcjonalne | [Standardowa właściwość](main.md#creator)                 |
-| created_by   | Metadane opcjonalne | [Standardowa właściwość](main.md#created_by)              |
-| comment 	   | Informatycyjne      | [Standardowa właściwość](main.md#comment)                 |
+| Name | Art | Beschreibung |
+| ---- | --- |------------- |
+| guid | Pflicht | [GUID](main.md#guid) |
+| product | Pflicht  | [Programmtyp](main.md#Programmtyp) |
+| licence_type | Pflicht | [Lizenztyp](main.md#Lizenztyp) |
+| fictional | optional | [Standardeigenschaft](main.md#fictional) |
+| tmdb_id | optional | [Standardeigenschaft](main.md#tmdb_id) |
+| imdb_id | optional | [Standardeigenschaft](main.md#imdb_id) |
+| creator | Metadaten optional | [Standardeigenschaft](main.md#creator) |
+| created_by | Metadaten optional | [Standardeigenschaft](main.md#created_by) |
+| comment |  informativ  |[Standardeigenschaft](main.md#comment) |
 
-## Elementy programu dotyczące dzieci
+## Kindelemente von programme
 
 Standardelemente für Titel [title](main.md#title) und Beschreibung [description](main.md#description) sind sindvollerweise zu definieren.
 Analog zum Titel kann der urspüngliche Titel unter `title_original` angegeben werden.
@@ -301,22 +296,22 @@ Obwohl Kritiker nicht überzeugt waren und der Film totlangweilig ist, war er ei
 Diese Fernsehdokumentation wurde ein Jahr vor Spielstart gedreht und spricht vor allem Rentner an.
 Die grundsätzlichen Daten werden für die Serie (lizentyp 3) als ganzes definiert, die Einzelfolgen (children mit typ 2) überschreiben dann nur die gewünschten Werte (insb. Titel und Beschreibung).
 
-### Program na żywo LIVE
+### Live-Programm
 
-WAŻNE Data wydania musi być ustawiona dla Live (data Live lub data pierwszej dostępności dla Always-Live).
-W przypadku seriali na żywo najlepiej jest użyć Always-Live lub osobnej daty premiery dla każdego odcinka (w przeciwnym razie nie będzie możliwe wyemitowanie wszystkich odcinków na żywo).
+WICHTIG bei Live muss ein Release-Termin gesetzt sein (Live-Datum oder bei Always-Live der erste Verfügbarkeitstermin).
+Für Live-Serien am besten Always-Live oder für jede Folge ein eigenes Release-Datum (da man sonst nicht alle Folgen live senden kann)
 
-DO ZROBIENIA
+TODO
 
-## DO ZROBIENIA i pytania
+## TODOs und Fragen
 
-### Dokumentacja
+### Dokumentation
 
-* dane - obsługa i opis innych importowanych pól
-* dowiedzieć się o możliwych modyfikatorach
+* data - weitere eingelesene Felder unterstützen und beschreiben
+* mögliche Modifier in Erfahrung bringen
 
-### Ogólne
+### Generell
 
-* ze względu na konfigurowalną liczbę dni, dzień z releaseTime musi być interpretowany inaczej
-* Konwertowanie odwołań z innych programów w edytorze
-* Wyjaśnij wpływ grupy lobbingowej: czy nadawanie programu zmienia mój wizerunek w danej grupie lobbingowej?
+* wegen der konfigurierbaren Zahl der Tage muss day aus releaseTime anders interpretiert werden
+* Referenzierung von anderen Programmen im Editor umsetzen
+* Auswirkung der Lobbygruppe klären: bei Ausstrahlung des Programms verändert sich mein Image bei der entsprechenden Lobbygruppe?
