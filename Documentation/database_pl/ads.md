@@ -1,6 +1,6 @@
-# Werbung (ad)
+# Reklama (ad)
 
-Die Werbeeinträge sind als Liste von `ads`-Kindelementen in das `allads`-Tag eingebettet.
+Wpisy reklamowe są osadzone w tagu `allads` jako lista elementów podrzędnych `ads`.
 
 ```XML
 <allads>
@@ -8,10 +8,12 @@ Die Werbeeinträge sind als Liste von `ads`-Kindelementen in das `allads`-Tag ei
 		<title>
 			<de>Plöpp-Bier</de>
 			<en>Pop'Beer</en>
+			<pl>Piwo Pop</pl>
 		</title>
 		<description>
 			<de>Prickelndes Hopfengold...</de>
 			<en>Tingling hop gold...</en>
+			<pl>Chmielowe złoto...</pl>
 		</description>
 		<conditions min_audience="1.56" min_image="4" target_group="256" pro_pressure_groups="0" contra_pressure_groups="0"/>
 		<data quality="15" repetitions="3" duration="3" profit="976" penalty="1550" infomercial_profit="97" fix_infomercial_profit="1"/>
@@ -19,89 +21,89 @@ Die Werbeeinträge sind als Liste von `ads`-Kindelementen in das `allads`-Tag ei
 </allads>
 ```
 
-Um diesen Werbevertrag zu erfüllen müssen dreimal (`repititions`) innerhalb von drei Tagen (`duration`) eine von der Reichweite abhängige Anzahl (`min_audience`) von Männern (`target_group`) einschalten.
-Um die Werbung überhaupt angeboten zu bekommen, ist ein Image von mindestens 4% erforderlich (`min_image`).
+Aby wypełnić ten kontrakt reklamowy, określona liczba (`min_audience`) mężczyzn (`target_group`) w zależności od zasięgu musi być wyświetlony trzy razy (`repititions`) w ciągu trzech dni (`duration`).
+Aby reklama była w ogóle oferowana, wymagany jest obraz o wartości co najmniej 4% (`min_image`).
 
 
-## Eigenschaften von ads
+## Właściwości reklam
 
-| Name | Art | Beschreibung |
+| Nazwa | Typ | Opis |
 | ---- | --- |------------- |
-| guid | Pflicht | [GUID](main.md#guid), insb. für Referenzierung bei Nachfolgenachrichten |
-| creator | Metadaten optional | [Standardeigenschaft](main.md#creator) |
-| created_by | Metadaten optional | [Standardeigenschaft](main.md#created_by) |
-| comment |  informativ  |[Standardeigenschaft](main.md#comment) |
+| guid | Obowiązkowe | [GUID](main.md#guid), szczególnie w przypadku odwoływania się w kolejnych wiadomościach |
+| creator | Metadane opcjonalne | [Standardowa właściwość](main.md#creator) |
+| created_by | Metadane opcjonalne | [Standardowa właściwość](main.md#created_by) |
+| comment |  informatyczny  |[Standardowa właściwość](main.md#comment) |
 
-## Kindelemente von ads
+## Elementy podrzędne reklam
 
-Standardelemente für Titel [title](main.md#title), Beschreibung [description](main.md#description) 
-sind Pflicht, genau wie die nachfolgend beschriebenen Elemente für Bedingungen ([conditions](ads.md#Bedigungen-conditions)) und werbespezifische Daten ([data](ads.md#Daten-data)).
-Mit Verfügbarkeit [availability](time.md#Verfügbarkeit) kann man steuern, wann die Werbung grundsätzlich zur Verfügung steht.
+Standardowe elementy dla tytułu [Tytuł](main.md#title), opisu [Opis](main.md#description)
+są obowiązkowe, podobnie jak opisane poniżej elementy dla warunków ([Warunki](ads.md#Warunki)) i danych specyficznych dla reklamy ([Dane](ads.md#Dane)).
+[Dostępność](time.md#Dostępność) może być używana do kontrolowania, kiedy reklama jest ogólnie dostępna.
 
-### Bedingungen (conditions)
+### Warunki
 
-| Name | Art | Beschreibung |
+| Nazwa | Typ | Opis |
 | ---- | --- |------------- |
-| min_audience | optional | Mindestzuschauerquote |
-| min_image | optional | Mindestsenderimage (0-100) |
-| max_image | optional | Höchstsenderimage (0-100) |
-| target_group | optional | [Zielgruppe(n)](main.md#Zielgruppe) für die zu erreichenden Zuschauerzahl |
-| allowed_genre | optional | erlaubtes [Hauptgenre](main.md#Genre) |
-| prohibited_genre | optional | verbotenes [Genre](main.md#Genre) (noch nicht unterstützt) |
-| allowed_programme_flag | optional | erlaubte [Programmflags](main.md#Programmflags) |
-| prohibited_programme_flag | optional | verbotene [Programmflags](main.md#Programmflags) (noch nicht unterstützt) |
+| min_audience | opcjonalnie | Minimalny udział w widowni |
+| min_image | opcjonalnie | Minimalny wizerunek stacji (0-100) |
+| max_image | opcjonalnie | Maksymalny wizerunek stacji (0-100) |
+| target_group | opcjonalnie | [Grupy docelowe](main.md#Grupy_docelowe) dla liczby widzów, którzy mają zostać osiągnięci |
+| allowed_genre | opcjonalnie | dozwolone gatunki główne [Gatunek główny](main.md#Gatunek_główny) |
+| prohibited_genre | opcjonalnie | zabroniony gatunek [Gatunek główny](main.md#Gatunek) (jeszcze nieobsługiwane) |
+| allowed_programme_flag | opcjonalnie | dozwolona flaga programu [Flagi programu](main.md#Flagi_programu) |
+| prohibited_programme_flag | opcjonalnie | zabroniona flaga programu [Flagi programu](main.md#Flagi_programu) (jeszcze nieobsługiwane) |
 
-Die Mindestzuschauerquote `min_audience`bezieht sich auf die möglichen Zuschauer im aktuellen Sendegebiet.
-Die Schalter für verbotene Genre und Flags werden aktuell vom Programm noch nicht unterstützt.
+Minimalny udział widowni "min_audience" odnosi się do możliwej widowni w bieżącym obszarze nadawania.
+Przełączniki zakazanych gatunków i flag nie są jeszcze obsługiwane przez program.
 
-### Daten (data)
+### Dane
 
-| Name | Art | Beschreibung |
+| Nazwa | Typ | Opis |
 | ---- | --- |------------- |
-| available | optional | verfügbar (Wahrheitswert) |
-| type | optional | Vertragstyp (0=normal, 1=nur für Spielevents) |
-| quality | optional | Qualität (Default 10) |
-| repetitions | Pflicht | Anzahl Wiederhlungen |
-| duration | Pflicht | Anzahl der erlaubten Tage |
-| profit | Pflicht | Basis für Ertragsberechnung pro Spot |
-| penalty | Pflicht | Basis für Berechnung Vertragsstrafe pro Spot|
-| fix_price | optional | Wahrheitswert, Profit und Strafe skalieren nicht mit Reichweite(level) |
-| infomercial | optional | als Dauerwerbesendung erlaubt (Wahrheitswert) |
-| infomercial_profit | optional | Basis für Etragsberechnung Infomercial |
-| fix_infomercial_profit | optional | Wahrheitswert, Einnahmen für Infomercials nicht dynamisch berechnet |
-| blocks | optional | Anzahl Sendeblöcke des Infomercials |
-| pro_pressure_groups | optional | angesprochene [Lobbygruppe](main.md#Lobbygruppe) |
-| contra_pressure_groups | optional | abgeschreckte [Lobbygruppe](main.md#Lobbygruppe) |
+| available | opcjonalnie | dostępny (wartość prawdy) |
+| type | opcjonalnie | Typ kontraktu (0=normalny, 1=tylko dla wydarzeń związanych z grami) |
+| quality | opcjonalnie | Jakość (domyślnie 10) |
+| repetitions | Obowiązkowe | Liczba powtórzeń |
+| duration | Obowiązkowe | Liczba dozwolonych dni |
+| profit | Obowiązkowe | Podstawa obliczania wydajności na spot |
+| penalty | Obowiązkowe | Podstawa naliczania kary umownej za każdy punkt|
+| fix_price | opcjonalnie | Wartość prawdy, zysk i kara nie skalują się z zakresem (poziomem). |
+| infomercial | opcjonalnie | dozwolony jako stały program reklamowy (wartość prawdy) |
+| infomercial_profit | opcjonalnie | Podstawa obliczania wydajności Infomercial |
+| fix_infomercial_profit | opcjonalnie | Wartość prawdy, przychody z reklam nie są obliczane dynamicznie |
+| blocks | opcjonalnie | Liczba wyemitowanych bloków reklam|
+| pro_pressure_groups | opcjonalnie | adresowana grupa lobbystów [Grupa lobbystów](main.md#Grupy_lobbystów) |
+| contra_pressure_groups | opcjonalnie | przeciwna grupa lobbystów [Grupa lobbystów](main.md#Grupy_lobbystów) |
 
-Sofern die Werte nicht als unveränderlich markiert wurden (`fix_price`), wird der Wert für `profit` noch mit einem Faktor multipliziert, der sich aus Image, Reichweite, Qualität etc. berechnet.
-Deshalb kann auch bei einem hohen `profit`-Wert ein geringerer Erlös pro Spot resultieren als bei einem 
-niedrigen.
+Jeśli wartości nie zostały oznaczone jako niezmienne (`fix_price`), wartość `profit` jest mnożona przez współczynnik obliczany na podstawie obrazu, zasięgu, jakości itp.
+Dlatego nawet wysoka wartość `profit` może skutkować niższym przychodem na spot niż niska wartość `profit`.
 
-### Modifier
 
-Syntax siehe auch [modifiers](main.md#modifiers).
-Mögliche Anpassungen sind
+### Modyfikatory
 
-| Name | Bedeutung |
+Składnia patrz także [Modyfikatory](main.md#modifiers).
+Możliwe atrybuty to
+
+| Nazwa | Znaczenie |
 | -----| --------- |
-| topicality::infomercialRefresh | Erholung nach Ausstrahlung als Infomercial (0.8 langsamer, 1.2 schneller) |
-| topicality::infomercialWearoff | Aktualitätsverlust bach Ausstrahlung als Infomercial (0.8 weniger, 1.2 mehr) |
+| topicality::infomercialRefresh | Odzyskiwanie aktualności po emisji jako reklama (0,8 wolniej, 1,2 szybciej) |
+| topicality::infomercialWearoff | Utrata aktualności po emisji jako reklama informacyjna (0,8 mniej, 1,2 więcej) |
 
-Beispiel: `<modifier name="infomercialWearoff" value="0.7" />`
+Przykład: `<modifier name="infomercialWearoff" value="0.7" />`
 
-Der Einfluss der Modifier (insb. Wearoff) dürfte aber praktisch irrelevant sein, da berechneten Werte durch die geringen Zuschauerzahlen praktisch immer außerhalb der Min-Max-Grenzen liegen.
+Jednak wpływ modyfikatorów (zwłaszcza zużycia) powinien być praktycznie nieistotny, ponieważ obliczone wartości praktycznie zawsze znajdują się poza limitami min-max ze względu na niską liczbę widzów.
 
-## TODOs und Fragen
+## DO ZROBIENIA i pytania
 
-### Dokumentation
+### Dokumentacja
 
-* nochmal mit DB-Einlesen abgleichen
-* profit beeinflusst Belohnung pro Spot - genauer beschreiben
-* infomercial-Profit genauer beschreiben
-* data-quality=nochmal Einfluss prüfen (nicht nur Infomercial)
+* sprawdź ponownie z importem DB
+* Zysk wpływa na nagrodę za spot - opisz bardziej szczegółowo
+* Opisz zysk z reklamy bardziej szczegółowo
+* Jakość danych=sprawdź ponownie wpływ (nie tylko infomercial)
 
-### Generell
+### Ogólne
 
-* conditions:  pro_pressure_groups, contra_pressure_groups, forbidden..., noch nicht ausgewertet
-* der Quellcode unterstützt noch Effekte und Modifiers, welche in der aktuellen Datenbank nicht vorkommt und von der Grammatik nicht unterstützt werden
-* sollte allowed/prohibited_genre nicht eher eine Liste sein. Bei der großen Anzahl von Genres erscheint es nicht immer sinnvoll, nur ein einziges zu erlauben/verbieten.
+* warunki: pro_pressure_groups, contra_pressure_groups, forbidden..., jeszcze nie ocenione
+* kod źródłowy nadal obsługuje efekty i modyfikatory, które nie występują w bieżącej bazie danych i nie są obsługiwane przez gramatykę
+* allowed/prohibited_genre nie powinien być raczej listą. Biorąc pod uwagę dużą liczbę gatunków, nie zawsze ma sens zezwalanie/zakazywanie tylko jednego.

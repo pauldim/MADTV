@@ -1,6 +1,6 @@
-# Erfolge (achievement)
+# Osiągnięcia (achievement)
 
-Die Erfolgseinträge sind als Liste von `achievement`-Kindelementen in das `allachievements`-Tag eingebettet.
+Wpisy osiągnięć są osadzone jako lista elementów podrzędnych `achievement` w tagu `allachievements`.
 
 ```XML
 <allachievements>
@@ -8,16 +8,19 @@ Die Erfolgseinträge sind als Liste von `achievement`-Kindelementen in das `alla
 		<title>
 			<de>Lokalsender</de>
 			<en>Regional broadcaster</en>
+			<pl>Nadawca regionalny</pl>
 		</title>
 		<tasks>
 			<task guid="tvt-gameachievement-task-audience1" creator="5578" created_by="Ronny">
 				<title>
 					<de>Erreiche 250.000 Zuschauer</de>
 					<en>Reach an audience of 250.000</en>
+					<pl>Dotarcie do 250 000 odbiorców</pl>
 				</title>
 				<text>
 					<de>Strahle ein Programm aus und erreiche damit mindestens 250.000 Zuschauer.</de>
 					<en>Broadcast a programme and reach an audience of at least 250.000.</en>
+					<pl>Nadawanie programu i dotarcie do co najmniej 250 000 widzów.</pl>
 				</text>
 				<data type="reachAudience" minAudienceAbsolute="250000" checkMinute="5" />
 			</task>
@@ -32,133 +35,136 @@ Die Erfolgseinträge sind als Liste von `achievement`-Kindelementen in das `alla
 </allachievements>
 ```
 
-Für das Erfüllen einer oder mehrerer Aufgaben (`task`) gibt es eine Belohnung (`reward`).
-Der Erfolg (`achievement`) selbst hat oft keine Beschreibung (`text`), da diese aus der Aufgabe erstellt wird.
-Im obigen Fall muss während einer Sendung (`checkminute` + `category`) eine Zuschauerzahl (`reachAudience`) von 250.000 (`minAudienceAbsolute`) erreicht werden.
-Dann gibt es eine Belohnung von 50.000 Geld (`type`+`money`).
+Istnieje nagroda za ukończenie jednego lub więcej zadań (zadanie).
+Samo osiągnięcie często nie ma opisu (`text`), ponieważ jest on tworzony na podstawie zadania.
+W powyższym przypadku, widownia (`reachAudience`) 250,000 (`minAudienceAbsolute`) musi zostać osiągnięta podczas programu (`checkminute` + `category`).
+Następnie przyznawana jest nagroda w wysokości 50 000 pieniędzy (`type` + `money`).
 
-## Eigenschaften von achievement
+## Właściwości osiągnięć
 
-| Name | Art | Beschreibung |
+| Nazwa | Typ | Opis |
 | ---- | --- |------------- |
-| guid | Pflicht | [GUID](main.md#guid), insb. für Referenzierung bei Nachfolgenachrichten |
-| creator | Metadaten optional | [Standardeigenschaft](main.md#creator) |
-| created_by | Metadaten optional | [Standardeigenschaft](main.md#created_by) |
-| comment |  informativ  |[Standardeigenschaft](main.md#comment) |
+| guid | Obowiązkowe | [GUID](main.md#guid), szczególnie w przypadku odwoływania się w kolejnych wiadomościach |
+| creator | Metadane opcjonalne | [Standardowa właściwość](main.md#creator) |
+| created_by | Metadane opcjonalne | [Standardowa właściwość](main.md#created_by) |
+| comment |  informatyczny  |[Standardowa właściwość](main.md#comment) |
 
-## Kindelemente von achievement
+## Rodzaje osiągnięć
 
-Das Standardelement Titel [title](main.md#title) muss angegeben werden, ein beschreibender Text [text](main.md#text) ist optional und wird typischerweise automatisch aus der Aufgabe erstellt.
+Standardowy tytuł elementu [title](main.md#title) musi być określony, tekst opisowy [text](main.md#text) jest opcjonalny i zazwyczaj jest tworzony automatycznie z zadania.
 
-### Aufgaben (tasks)
+### Zadania (tasks)
 
-Im Hauptknoten `tasks` kann eine Liste von Einzelaufgaben `task` definiert werden, die erfüllt werden müssen.
-Typischerweise ist es genau eine Aufgabe.
-Die Standardkindelemente `title` und `text` sind optional (und werden vermutlich gar nicht verwendet).
-Eine Aufgabe hat dieselben Standardeigenschaften `id`, `creator` und `created_by` wie auch der Elternknoten auch.
+Listę poszczególnych zadań, które muszą zostać wykonane, można zdefiniować w głównym węźle "zadania".
+Zazwyczaj jest to dokładnie jedno zadanie.
+Standardowe elementy podrzędne `title` i `text` są opcjonalne (i prawdopodobnie nie są w ogóle używane).
+Zadanie ma takie same domyślne właściwości `id`, `creator` i `created_by` jak węzeł nadrzędny.
 
-Das entscheidende Kindelement sind die Aufgabendaten `data`.
-Daraus ermittelt das Programm, wann die Aufgabe erfüllt ist.
-Man muss die `type`-Eigenschaft (siehe unten) definieren.
-Welche anderen dann benötigt werden, hängt vom Typ ab.
+Decydującym elementem podrzędnym są dane zadania `data`.
+Program używa ich do określenia, kiedy zadanie zostało zakończone.
+Właściwość `type` (patrz poniżej) musi być zdefiniowana.
+To, jakie inne elementy są wymagane, zależy od typu.
 
 #### type="reachAudience"
 
-| Name | Art | Beschreibung |
+| Nazwa | Typ | Opis |
 | ---- | --- |------------- |
-| minAudienceAbsolute | optional | absolute Zuschauerzahl |
-| minAudienceQuote | optional | Einschaltquote (0.2 entspricht 20%)|
-| limitToGenres | optional | Aufgabe gilt nur für Ausstrahlungen dieses Genres |
-| limitToFlags | optional | Aufgabe gilt nur für Ausstrahlungen mit diesen Flags |
-| checkMinute | optional | Minute in der geprüft wird |
-| checkHour | optional | Stunde in der geprüft wird |
+| minAudienceAbsolute | opcjonalny | Bezwzględna liczba widzów |
+| minAudienceQuote | opcjonalny | Udział w widowni (0,2 odpowiada 20%)|
+| limitToGenres | opcjonalny | Zadanie dotyczy tylko transmisji tego gatunku |
+| limitToFlags | opcjonalny | Zadanie dotyczy tylko transmisji z tymi flagami |
+| checkMinute | opcjonalny | Minuta, w której jest sprawdzana |
+| checkHour | opcjonalny | Godzina wykonania testu |
 
-Durch das Angeben der Minute kann man bestimmen, ob die Zuschauerzahl während einer normalen Sendung oder einer Nachrichtensendung erreicht werden soll.
-Aber selbst Zuschauerzahl oder Quote sind optional, so könnte man z.B. über Genre und Flags den Spieler belohnen, der zuerst eine Kultur-Sendung ausstrahlt.
+Określając minutę, można ustalić, czy liczba widzów powinna zostać osiągnięta podczas normalnego programu, czy programu informacyjnego.
+Ale nawet liczba widzów lub oceny są opcjonalne, więc można na przykład użyć gatunku i flag, aby nagrodzić gracza, który jako pierwszy nadaje program kulturalny.
 
 `<data type="reachAudience" minAudienceAbsolute="1000000" checkMinute="5" checkHour="3">` - Um 3:05 Uhr müssen 1 Mio. Zuschauer eingeschaltet haben.
 
 #### type="reachBroadcastArea"
 
-| Name | Art | Beschreibung |
+| Nazwa | Typ | Opis |
 | ---- | --- |------------- |
-| minReachAbsolute | optional | absolut zu erreichende Zuschauerzahl im Sendegebiet |
-| minReachPercentage | optional | prozentuale Abdeckung des gesamten Sendegebiets |
+| minReachAbsolute | opcjonalny | Bezwzględna liczba widzów, którzy mają być osiągnięci w obszarze nadawania |
+| minReachPercentage | opcjonalny | Procentowe pokrycie całego obszaru nadawania |
 
-`<data type="reachBroadcastArea" minReachAbsolute="20000000">` - Das Sendegebiet muss 20 Mio. Zuschauer erreichen können.
+`<data type="reachBroadcastArea" minReachAbsolute="20000000">` - Obszar nadawania musi być w stanie dotrzeć do 20 milionów widzów.
 
 #### type="BroadcastNewsShow"
 
-Hier können für jeden Nachrichtenslot Genre (`genre`), Schlüsselwort (`keyword`), minimale Qualität (`minQuality`) und maximale Qualität (`maxQuality`) gefordert werden.
-Der Slot wird als Zahl zwischen 1 und 3 an den Bezeichner gehängt.
+Gatunek (`genre`), słowo kluczowe (`keyword`), minimalna jakość (`minQuality`) i maksymalna jakość (`maxQuality`) mogą być wymagane dla każdego slotu wiadomości.
+Slot jest dołączany do identyfikatora jako liczba od 1 do 3.
 
-`<type="BroadcastNewsShow" genre1="5" keyword2="weatherforecast" minQuality3="80">` - Nachrichtensendung mit Kulturnachricht im ersten Slot, Wetterbericht im zweiten und einer Nachricht mit Qualität mindestens 80 im dritten.
+`<type="BroadcastNewsShow" genre1="5" keyword2="weatherforecast" minQuality3="80">` - Program informacyjny z wiadomościami kulturalnymi w pierwszym slocie, prognozą pogody w drugim i wiadomościami o jakości co najmniej 80 w trzecim.
 
-### Belohnung (rewards)
+### Nagroda (rewards)
 
-Im Hauptknoten `rewards` kann eine Liste von Einzelbelohnungen `reward` definiert werden, die der Spieler bei Erfüllung der Aufgabe erhält.
-Aktuell gibt es nur Geldbelohnungen.
-Eine Belohnung hat dieselben Standardeigenschaften `id`, `creator` und `created_by` wie auch der Elternknoten auch.
-Die Standardkindelemente `title` und `text` für die Beschreibung der Aufgabe sind optional und können automatisch aus den Belohnungsdaten ermittelt werden.
+W głównym węźle `rewards` można zdefiniować listę indywidualnych nagród `reward`, które gracz otrzymuje po wykonaniu zadania.
+Obecnie dostępne są tylko nagrody pieniężne.
+Nagroda ma te same standardowe właściwości `id`, `creator` i `created_by` co węzeł nadrzędny.
+Standardowe elementy podrzędne `title` i `text` dla opisu zadania są opcjonalne i mogą być określane automatycznie na podstawie danych nagrody.
 
-Das entscheidende Kindelement sind die Belohnungsdaten `data`.
-Der `data`-Knoten hat folgenden Eigenschaften:
+Decydującym elementem podrzędnym są dane nagrody `data`.
+Węzeł `data` ma następujące właściwości:
 
-| Name | Art | Beschreibung |
+
+
+| Nazwa | Typ | Opis |
 | ---- | --- |------------- |
-| type | Pflicht | Typ der Belohnung (aktuell nur money) |
-| money | optional | Betrag der Geldbelohnung|
+| type | Obowiązkowe | Rodzaj nagrody (obecnie tylko pieniądze) |
+| money | opcjonalny | Kwota nagrody pieniężnej|
 
-Wenn man in einer Belohnung dieselbe `id` nochmal verwendet, kann man die Daten der zuvor definierten Belohnung "wiederverwenden".
+Jeśli ponownie użyjesz tego samego `id` w nagrodzie, możesz "ponownie użyć" danych z poprzednio zdefiniowanej nagrody.
 
-### Daten (data)
+### Dane (data)
 
-| Name | Art | Beschreibung |
+| Nazwa | Typ | Opis |
 | ---- | --- |------------- |
-| category | Pflicht | AchievementCategory (siehe unten) |
-| group | Pflicht? | Zahl für die Gruppierung von Erfolgen |
-| index | Pflicht | Position innerhalb der Gruppe |
-| flags | optional | Flags (siehe unten) 0 und 2 am häufigsten |
-| sprite_finished | optional | ID für das Bild, wenn der Erfolg erreicht wurde |
-| sprite_unfinished | optional | ID für das Bild, wenn der Erfolg noch nicht erreicht wurde |
+| category | Obowiązkowe | AchievementCategory (patrz poniżej) |
+| group | Obowiązkowe? | Numer dla grupowania sukcesów |
+| index | Obowiązkowe | Pozycja w Grupie |
+| flags | opcjonalny | Flagi (patrz poniżej) 0 i 2 najczęściej używane |
+| sprite_finished | opcjonalny | Identyfikator obrazu po osiągnięciu sukcesu |
+| sprite_unfinished | opcjonalny | identyfikator obrazu, jeśli sukces nie został jeszcze osiągnięty |
 
-Die Sprites definiert man vorrangig dann, wenn es Gold-, Silber- und Bonzeversion desselben Erfolgs gibt. (siehe in `config/gfx.xml` den Abschnitt zu Achievements)
+Sprite'y są przede wszystkim definiowane, gdy istnieją złote, srebrne i brązowe wersje tego samego osiągnięcia. (zobacz sekcję o osiągnięciach w `config/gfx.xml`)
 
-## spezifische Werte achievement
+## osiągnięcie określonych wartości
 
-| **AchievementCategory** | Bedeutung |
+| **AchievementCategory** | Znaczenie |
 |------------------------ | --------- |
-| 0 | alle |
-| 1 | Programm |
-| 2 | Nachrichten |
-| 4 | Sendegebiet |
-| 8 | Sonstiges |
+| 0 | wszystkie |
+| 1 | Program |
+| 2 | Wiadomości |
+| 4 | Obszar nadawania |
+| 8 | Inne |
 
-| **TaskType** | Bedeutung |
+| **TaskType** | Znaczenie |
 |------------- | --------- |
-| reachAudience | bei einer Ausstrahlung eine bestimmte Zuschauerzahl/-Quote erreichen |
-| reachBroadcastArea | eine bestimmte Größe des Sendegebiets erreichen |
-| BroadcastNewsShow | einen bestimmten Nachrichtenmix senden |
+| reachAudience | osiągnięcie określonej liczby widzów/ocen podczas transmisji |
+| reachBroadcastArea | osiągnąć określony rozmiar obszaru nadawania |
+| BroadcastNewsShow | Wysyłanie określonego miksu wiadomości |
 
-Siehe `game.achievements.bmx` die RegisterCreators-Definitionen am Ende der Datei.
+Zobacz `game.achievements.bmx` definicje RegisterCreators na końcu pliku.
 
-| **AchievementFlag** | Bedeutung |
+| **AchievementFlag** | Znaczenie |
 |-------------------- | --------- |
-| 1 | kann schief gehen (Einmal-Erfolg) |
-| 2 | nur erster, der die Aufgabe erfüllt, gewinnt |
+| 1 | może się nie udać (jednorazowy sukces) |
+| 2 | wygrywa tylko ten, kto pierwszy wykona zadanie |
 
-Aktuell sind nur 0 und 2 in der Datenbank in Verwendung. 1 könnte eher für spontane Erfolge innerhalb des Spiels verwendet werden.
+Tylko 0 i 2 są obecnie używane w bazie danych. 1 może być używany do spontanicznych osiągnięć w grze.
 
-## Beispiele
+## Przykłady
 
-## TODOs und Fragen
+## DO ZROBIENIA i pytania
 
-### Dokumentation
+### Dokumentacja
 
-Wenn man mehrere Tasks definieren würde, müssen die dann am selben Tag erfüllt werden? Beispiel dreimal reachAudience für checkHour 6, 7, 8 um eine bestimmte Quote im Frühstücksfernsehen zu prüfen; oder Kulturprogramm während der gesamten Prime-Time.
+Jeśli zdefiniowano kilka zadań, czy muszą one zostać wykonane tego samego dnia? Na przykład, reachAudience trzy razy dla checkHour 6, 7, 8, aby sprawdzić określoną kwotę w telewizji śniadaniowej; lub program kulturalny przez cały czas największej oglądalności.
 
-### Generell
+### Ogólne
 
-* Wenn es schon einen Reward-Typ gibt, wäre es dann nicht sinnvoller den Wert generisch zu machen? (type="money" value="50000", type="betty" value="5", type="image" value="1")
-* Achievement-Flags noch nicht in der Konstantenklasse
-* Die aktuelle Definition von checkHour könnte zu restriktiv sein. Damit scheint sich nämlich nicht prüfen zu lassen "zur Primetime" also zwischen 19 und 23 Uhr. (Erste Kultursendung zur besten Sendezeit)
+* Jeśli istnieje już typ nagrody, czy nie byłoby bardziej sensowne, aby wartość była ogólna? (type="money" value="50000", type="betty" value="5", type="image" value="1")
+* Flagi osiągnięć jeszcze nie w stałej klasie
+* Obecna definicja checkHour może być zbyt restrykcyjna. Wydaje się, że nie jest możliwe sprawdzenie "w najlepszym czasie", tj. między 19:00 a 23:00. (Pierwszy program kulturalny w najlepszym czasie antenowym)
+

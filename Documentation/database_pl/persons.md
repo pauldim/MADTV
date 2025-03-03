@@ -1,25 +1,27 @@
-# Personen (person)
+# Ludzie (person)
 
-Personen sind in der Datenbank in drei Kategorien eingeteilt: Hauptpersonen (celebritypeople), Nebenpersonen (insignificantpeople) und Filmrollen (programmeroles).
+W bazie danych osoby są podzielone na trzy kategorie: Główne postacie (celebritypeople), Drugoplanowe postacie (insignificantpeople) i Role filmowe (programmemeroles).
 
-Die Personen haben in Filmen etc. mitgewirkt und stehen für Produktionen in unterschiedlichen Berufen zur Verfügung.
-Für Hauptpersonen sind dabei zahlreiche Eigenschaften in der Datenbank bereits festgelegt.
-Die im Supermarkt verfügbaren Laien werden hingegen aus Nebenpersonen ausgesucht und ihre Eigenschaften werden gewürfelt.
+Osoby te pojawiły się w filmach itp. i są dostępne do produkcji w różnych zawodach.
+Liczne cechy są już zdefiniowane w bazie danych dla głównych postaci.
+Z drugiej strony, nieprofesjonaliści dostępni w supermarkecie są wybierani spośród postaci drugoplanowych, a ich cechy są składane.
 
-Filmrollen (analog James Bond) sind in Filmen dargestellte Personen.
+Role filmowe (podobne do Jamesa Bonda) to postacie przedstawiane w filmach.
 
-Welche der folgenden Eigenschaften und Kindelemente jeweils unterstützt werden, ist in den Abschnitten zu Hauptpersonen, Nebenpersonen und Filmrollen aufgelistet.
+Które z poniższych właściwości i elementów podrzędnych są obsługiwane w każdym przypadku, są wymienione w sekcjach dotyczących głównych postaci, postaci drugorzędnych i ról filmowych.
 
-Im Gegensatz zu Filmtiteln etc. werden sprachspezifische Werte (z.B. andere Schreibweise eines Namens in einer anderen Sprache) nicht direkt von der Hauptdefinition unterstützt.
-Die Lokalisierung von Personennamen oder Filmrollen ist in [separaten Dateien](lang.md) möglich.
 
-## Eigenschaften von person
 
-| Name | Art | Beschreibung |
+W przeciwieństwie do tytułów filmów itp., wartości specyficzne dla języka (np. inna pisownia nazwy w innym języku) nie są bezpośrednio obsługiwane przez główną definicję.
+Lokalizacja nazw osobowych lub ról filmowych jest możliwa w [oddzielnych plikach](lang.md).
+
+## Właściwości_osoby
+
+| Nazwa | Typ | Opis |
 | ---- | --- |------------- |
-| guid | Pflicht | [GUID](main.md#guid), insb. für Referenzierung bei Filmen etc. |
-| first_name | Pflicht* | Vorname |
-| last_name | Pflicht* | Nachname |
+| guid | Obowiązkowe | [GUID](main.md#guid), insb. für Referenzierung bei Filmen etc. |
+| first_name | Obowiązkowe* | Vorname |
+| last_name | Obowiązkowe* | Nachname |
 | nick_name | optional | Spitzname |
 | title | optional | Titel |
 | gender | optional | [Geschlecht](main.md#Geschlecht) |
@@ -57,7 +59,7 @@ Für die bessere Lesbarkeit sind bei [Hauptpersonen](persons.md#Hauptpersonen) m
 Die meisten der Felder lassen sich auch direkt als Personenattribut angeben.
 Im `details`-Knoten sind sie vorrangig zur besseren Lesbarkeit bei [Hauptpersonen](persons.md#Hauptpersonen) verfügbar.
 
-| Name | Art | Beschreibung |
+| Nazwa | Typ | Opis |
 | ---- | --- |------------- |
 | job | optional | (aktuell) ausgeübte [Berufe](main.md#Job) |
 | gender | optional | [Geschlecht](main.md#Geschlecht) |
@@ -78,7 +80,7 @@ Das ist für fiktionale Personen interessant, die unabhängig vom Startjahr des 
 Diese Daten definieren insbesondere die Werte für Eignung für eine Besetzung.
 Wo nicht anders angegeben sind die möglichen Werte zwischen 0 und 100 (Prozent).
 
-| Name | Art | Beschreibung |
+| Nazwa | Typ | Opis |
 | ---- | --- |------------- |
 | topgenre | optional | [Hauptgenre](main.md#Genre) |
 | price_mod | optional | Preisfaktor (Zahl mit Nachkommastellen um 1 herum) |
@@ -117,7 +119,7 @@ Zu beachten ist, dass nur fiktive Hauptpersonen unmittelbar zum Spielbeginn in i
 </celebritypeople>
 ```
 
-## Nebenpersonen
+## Postacie_drugoplanowe
 
 Nebenpersonen sind als Liste von `person`-Kindelementen in das `insignificantpeople`-Tag eingebettet.
 Es werden nur die wichtigsten Eigenschaften definert; insb. gibt es hier keine weiteren Kindknoten unterhalb von `person`.
@@ -148,11 +150,11 @@ Sie sind als Liste von `programmerole`-Kindelementen in das `programmeroles`-Tag
 
 Die folgendenen Felder sollten definiert werden
 
-| Name | Art | Beschreibung |
+| Nazwa | Typ | Opis |
 | ---- | --- |------------- |
-| guid | Pflicht | [GUID](main.md#guid), insb. für Referenzierung bei Drehbuchvorlagen etc. |
-| first_name | Pflicht* | Vorname |
-| last_name | Pflicht* | Nachname |
+| guid | Obowiązkowe | [GUID](main.md#guid), insb. für Referenzierung bei Drehbuchvorlagen etc. |
+| first_name | Obowiązkowe* | Vorname |
+| last_name | Obowiązkowe* | Nachname |
 | nick_name | optional | Spitzname |
 | title | optional | Titel (Dr. etc) |
 | gender | optional | [Geschlecht](main.md#Geschlecht) |

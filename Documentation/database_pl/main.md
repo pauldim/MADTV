@@ -338,11 +338,11 @@ Wewnętrznie wartość 100 odpowiada jednemu procentowi, więc 25 to 0,25%, a -1
 Należy zauważyć, że efekt ten działa jako dodatek do automatycznych dostosowań dokonywanych przez grę.
 Flaga emisji 2048 (ignorowana przez Betty) (tylko) wyłącza automatyczne dostosowanie, flaga nie ma wpływu na samodzielnie zdefiniowane efekty.
 
-### Variablen
+### Zmienne
 
 Wraz z konwersją rozdzielczości zmiennej i rozszerzeniem na ewaluację funkcji, temat ten zyskuje własną postać [Hauptkapitel](variables.md).
 
-## Standardwertebereiche
+## Domyślne zakresy wartości
 
 Składniowo wartości właściwości są zawsze ciągami znaków ujętymi w podwójne cudzysłowy.
 Aby jednak wartość była poprawna, może podlegać dalszym ograniczeniom.
@@ -362,7 +362,7 @@ Możliwe ograniczenia obejmują
 Poniższe sekcje zawierają listę zakresów wartości używanych przez kilka elementów.
 W kodzie źródłowym są one zdefiniowane w `game.gameconstants.bmx`.
 
-### Gatunek
+### Gatunek_główny
 
 | Wartość | Znaczenie |
 | ---- | --------- |
@@ -402,7 +402,7 @@ W kodzie źródłowym są one zdefiniowane w `game.gameconstants.bmx`.
 
 (Kod źródłowy: `TVTProgrammeGenre`)
 
-### Typ programu
+### Typ_programu
 
 | Wartość | Znaczenie |
 | ---- | --------- |
@@ -417,7 +417,7 @@ W kodzie źródłowym są one zdefiniowane w `game.gameconstants.bmx`.
 
 (Quellcode: `TVTProgrammeProductType`)
 
-### Flagi programu
+### Flagi_programu
 
 Flagi programu są wartością flagi, tzn. kilka wartości może być zakodowanych w jednej liczbie.
 W tym celu wartości są sumowane.
@@ -631,7 +631,7 @@ Należy pamiętać, że wartości tych nie należy mylić ze skrótami językowy
 Podstawą standaryzacji czyszczenia bazy danych była lista tablic rejestracyjnych (https://de.wikipedia.org/wiki/Liste_der_Kfz-Nationalit%C3%A4tszeichen).
 W przypadku koprodukcji kraje są oddzielone ukośnikiem i bez spacji (`F/CDN`).
 
-### Zielgruppe
+### Grupy_docelowe 
 
 Grupa docelowa jest wartością flagową, tzn. kilka grup docelowych może być zakodowanych w jednym numerze.
 Wartości odpowiednich grup są sumowane.
@@ -655,7 +655,7 @@ Wartości odpowiednich grup są sumowane.
 
 Jeśli grupa jest zdefiniowana jako grupa docelowa (np. dla reklam lub programów), nieco wyższa wartość atrakcyjności jest przyjmowana jako normalna podstawa przy obliczaniu liczby widzów dla tej grupy.
 
-### Lobbygruppe
+### Grupy_lobbystów
 
 Grupa lobby jest wartością flagową, tzn. kilka grup lobby może być zakodowanych w jednym numerze.
 Wartości odpowiednich grup są sumowane.
