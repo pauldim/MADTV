@@ -1,24 +1,28 @@
-# Variablen und Funktionsaufrufe
+# Zmienne_i_wywołania_funkcji
 
-Für die Version 0.8.3 wurde die Verarbeitung von Variablen und anderen dynamischen Inhalten überarbeitet.
-Ziel war eine einheitlichere Syntax und gleichzeitig mehr Flexibilität.
-Folgende grundsätliche Konzepte gibt es weiterhin
+Przetwarzanie zmiennych i innych dynamicznych treści zostało zmienione w wersji 0.8.3.
+Celem było osiągnięcie bardziej znormalizowanej składni i większej elastyczności w tym samym czasie.
+Następujące podstawowe koncepcje nadal istnieją
 
-* eigene Variablendefinitionen
-* Alternativen in Vorlagen, von denen (z.B. für eine konkrete Nachricht) eine ausgewählt wird
-* vom Spiel bereitgestellte dynamische Inhalte
+* Własne definicje zmiennych
+* Alternatywy w szablonach, z których jedna jest wybierana (np. dla określonej wiadomości)
+* Dynamiczna zawartość dostarczana przez grę
 
-Ergänzt wurden
+Dodano następujące elementy
 
-* Verwendung von Bedingungen nicht nur im Script für die Verfügbarkeit sondern überall wo Variablen erlaubt sind
-* Funktionen, die Zugriff auf andere Datenbankelemente erlauben (z.B. Referenz auf Personen, die nicht Teil der Besetzung sind)
-* Funktionen, die eine kompaktere Schreibweise für dynamische Inhalte erlauben
-* [globale Variablen](lang.md) für die Möglichkeit einheitlicher Benennungen ohne mehrfaches Definieren (oder duplizierte Klartexte)
+* Wykorzystanie warunków nie tylko w skrypcie dostępności, ale wszędzie tam, gdzie zmienne są dozwolone.
+* Funkcje umożliwiające dostęp do innych elementów bazy danych (np. odniesienie do osób, które nie są częścią obsady)
+* Funkcje pozwalające na bardziej kompaktową notację dynamicznej zawartości
+* [Zmienne globalne](lang.md) dla możliwości ujednoliconego nazewnictwa bez wielokrotnych definicji (lub zduplikowanych zwykłych tekstów).
 
-Haupteinsatzgebiet von Variablen ist die Erzeugung von Varianz in Texten (Nachrichten, Drehbüchern) aber auch die Referenz z.B. auf Personen, ohne deren Namen fest in den Texten zu hinterlegen.
-Das kann z.B. sinnvoll sein, wenn z.B. Anpassungen an Personen- oder Rollendefinitionen in der Datenbank gemacht werden.
-Filmtitel oder Beschreibungen müssen dann nicht entsprechend korrigiert werden.
-Typischerweise werden Variablen an allen Stellen verwendet, an denen es sprachspezifische Texte gibt.
+
+
+Głównym zastosowaniem zmiennych jest tworzenie wariancji w tekstach (wiadomościach, skryptach), ale także odwoływanie się do osób, na przykład bez trwałego przechowywania ich nazw w tekstach.
+Może to być przydatne na przykład w przypadku wprowadzania zmian w definicjach osób lub ról w bazie danych.
+Tytuły lub opisy filmów nie muszą być wówczas odpowiednio korygowane.
+Zazwyczaj zmienne są używane we wszystkich miejscach, w których występują teksty specyficzne dla danego języka.
+
+
 
 ```XML
 ...
@@ -36,22 +40,24 @@ Typischerweise werden Variablen an allen Stellen verwendet, an denen es sprachsp
 ...
 ```
 
-## Syntaxgrundlagen
+## Podstawy_składni
 
-Da wir es nicht mehr nur mit einfachen Variablen und Zugriff auf Werte aus dem Spiel mittels Konstanten zu tun haben, sprechen wir von *Ausdrücken*.
-Der grundsätzliche Aufbau eines erst zur Zeit des Spiels ausgewerteten Ausdrucks ist `${auszuwerten}`.
-Er beginnt mit `${` und endet mit `}`.
-`auszuwerten` kann wie im obigen Beispiel der Name einer selbst definierten Variable sein oder aber eine komplexere Struktur haben kann, z.B. selbst wieder Ausdrücke enthalten.
+Ponieważ nie mamy już do czynienia z prostymi zmiennymi i dostępem do wartości z gry za pomocą stałych, mówimy o *wyrażeniach*.
+Podstawową strukturą wyrażenia, która jest oceniana tylko w czasie gry, jest `${do oceny}`.
+Zaczyna się od `${` i kończy `}`.
+Tak jak w powyższym przykładzie, `do oceny` może być nazwą samodzielnie zdefiniowanej zmiennej lub może mieć bardziej złożoną strukturę, np. zawierać samo wyrażenie.
 
-* `${einfacheVariable}`
-* `${variablenPraefix_${suffixZuerstAusgewertet}}`
+
+
+* `${simpleVariable}`
+* `${variablenPraefix_${suffixFirstEvaluated}}`
 * `${.funktionsName:parameter1:parameter2...}`
 
-### Variablendefinition
+### Definicja_zmiennej
 
-Eine Reihe von Datenbankstrukturen erlauben die Definition von Variablen, um z.B. für Texte und Beschreibugnen mehr Varianz zu erlauben.
-Die Variablen selbst und ihre möglichen Belegungen werden im Hauptknoten `variables` definiert, wobei für jede Variable wieder mehrere Sprachvarianten erlaubt sind.
-Unterschiedliche Möglichkeiten für die Ersetzung der Variable verden durch senkrechte Striche `|` voneinander getrennt.
+Wiele struktur bazy danych pozwala na definiowanie zmiennych, np. w celu zapewnienia większej różnorodności tekstów i opisów.
+Same zmienne i ich możliwe przypisania są zdefiniowane w głównym węźle `variables`, przy czym dla każdej zmiennej dozwolonych jest kilka wariantów językowych.
+Różne opcje zastąpienia zmiennej są oddzielone pionowymi liniami `|`.
 
 
 ```XML
@@ -59,6 +65,7 @@ Unterschiedliche Möglichkeiten für die Ersetzung der Variable verden durch sen
 		<animal>
 			<de>der Bär|die Maus|das Kamel</de>
 			<en>the bear|the mouse|the camel</en>
+			<pl>niedźwiedź|mysz|wielbłąd</pl>
 		</animal>
 		<rndcity>${.stationmap:"randomcity"}</rndcity>
 		<city>Berlin|Bonn|Trier|${.stationmap:"randomcity"}</city>
@@ -68,57 +75,67 @@ Unterschiedliche Möglichkeiten für die Ersetzung der Variable verden durch sen
 	</variables>
 ```
 
-Im diesem Beispiel werden vier Variablen definiert: `animal`, `rndcity`, `city` und `name`.
-Typischerweise wird es innerhalb der Definition Tags für unterschiedliche Sprachen geben, so dass sprachspezifische Texte erstellt werden können.
-Für `animal` gibt es eine deutsche und eine englische Variante.
-Diese Definition enthält Alternativen (`Variante 1|Variante 2|Variante 3`), die durch `|` voneinander getrennt sind.
-Zur Auswertungszeit wird für die Variable einmalig eine Zahl gewürfelt (je nach Anzahl der Alternativen) und dann für alle Sprachen verwendet.
-Leere Alternativen sind erlaubt (`<de>||große </de>` - nur in einem Drittel der Fälle würde das Adjektiv erscheinen).
-Wird also die 2 gewürfelt, wäre der Wert von `animal` im Deutschen `die Maus` und im Englischen `the mouse`.
+W tym przykładzie zdefiniowano cztery zmienne: `animal`, `rndcity`, `city` i `name`.
+Zazwyczaj w definicji znajdują się znaczniki dla różnych języków, dzięki czemu można tworzyć teksty specyficzne dla danego języka.
+Dla `animal` istnieje niemiecki, angielski i polski wariant.
+Definicja ta zawiera alternatywy (`wariant 1|wariant 2|wariant 3`), które są oddzielone przez `|`.
+W czasie ewaluacji liczba jest rzucana raz dla zmiennej (w zależności od liczby alternatyw), a następnie używana dla wszystkich języków.
+Puste alternatywy są dozwolone (`<en>||big </en>` - przymiotnik pojawiłby się tylko w jednej trzeciej przypadków).
+Tak więc, jeśli wyrzucono 2, wartością `animal` będzie `die Maus` w języku niemieckim i `the mouse` w języku angielskim i `mysz` w języku polskim.
 
-Soll der Text aber immer für alle Sprachen genau gleich sein, kann seit Version 8.3.0 auf das Sprachtag verzichtet werden.
-`<rndcity>${.stationmap:"randomcity"}</rndcity>` macht für alle Sprachen einen einmalig erzeugten Stadtnamen (für die vom Spiel zur Verfügung gestellten Funktionen siehe unten) unter dem Variablennamen `rndcity` verfügbar.
 
-Für `name` ist die angegebene Sprache `all`.
-Das ist eine Kurzschreibweise für Kopien desselben Eintrags für alle Sprachen, für die offiziell Datenbankübersetzungen existieren (aktuell Englisch, Deutsch und Polnisch).
-Warum sollte man aber `all` verwenden, wenn keine Variablen involviert sind, das Ergebnis also für alle Sprachen ohnehin identisch wäre?
-Irgendwann könnte eine Sprache dazukommen, in der einer der Namen eine andere Schreibweise hat.
-In diesem Fall kann einfach eine weitere Sprachdefinition ergänzt werden ohne die Struktur es Bestandseintrags ändern zu müssen.
 
-Variablendefinitionen können natürlich selbst wieder Referenzen auf andere Variablen enthalten.
-Dabei darf es natürlich keine Zyklen geben (v1 hängt von der Auswertung von v2 ab und v2 von der Auswertung von v1).
+Jeśli jednak tekst powinien być zawsze dokładnie taki sam dla wszystkich języków, znacznik języka można pominąć od wersji 8.3.0.
+`<rndcity>${.stationmap: "randomcity"}</rndcity>` czyni unikalnie wygenerowaną nazwę miasta dostępną dla wszystkich języków (dla funkcji dostarczanych przez grę, zobacz poniżej) pod zmienną `rndcity`.
 
-### einfache Variablen
+Dla `name` określony język to `all`.
+Jest to skrót dla kopii tego samego wpisu dla wszystkich języków, dla których istnieją oficjalne tłumaczenia bazy danych (obecnie angielski, niemiecki i polski).
+Ale po co używać `all`, skoro nie ma żadnych zmiennych, więc wynik i tak byłby identyczny dla wszystkich języków?
+W pewnym momencie można dodać język, w którym jedna z nazw ma inną pisownię.
+W takim przypadku można po prostu dodać kolejną definicję języka bez konieczności zmiany struktury wpisu w wykazie.
 
-Der Zugriff auf eine so definierte Variable erfolgt im einfachsten Fall über den Ausdruck `${variablenname}`.
-Für die oben definierten Variablen wären das die Ausdrücke `${animal}`, `${rndcity}` und `${city}`.
-Sie können im Titel, der Beschreibung aber auch in anderen Variablendefinitionen verwendet werden.
-Bevor der Wert einer Variable feststeht, werden zunächst alle Ausdrücke in der Definition vollständig ausgewertet.
-(Variablendefinitionen dürfen also nicht auf sich gegenseitig verweisen.)
 
-### wichtiger Hinweis zu kopierten Spracheinträgen
 
-Soll z.B. der Titel eines Drehbuchs zufällig erzeugt werden und mehrere Varianten unterstützen, kann folgendes Schema verwendet werden:
+Definicje zmiennych mogą oczywiście same zawierać odniesienia do innych zmiennych.
+Oczywiście nie mogą występować cykle (v1 zależy od oceny v2, a v2 zależy od oceny v1).
+
+### Proste_zmienne
+
+W najprostszym przypadku, zmienna zdefiniowana w ten sposób jest dostępna poprzez wyrażenie `${variablenname}`.
+Dla zmiennych zdefiniowanych powyżej byłyby to wyrażenia `${animal}`, `${rndcity}` i `${city}`.
+Mogą one być używane w tytule, opisie, ale także w innych definicjach zmiennych.
+Przed określeniem wartości zmiennej, wszystkie wyrażenia w definicji są najpierw w pełni oceniane.
+(Definicje zmiennych nie mogą zatem odnosić się do siebie nawzajem).
+
+
+
+### Ważna uwaga dotycząca skopiowanych wpisów językowych
+
+Jeśli na przykład tytuł skryptu ma być generowany losowo i obsługiwać kilka wariantów, można użyć następującego schematu:
 
 ```XML
 ...
 	<title>
 		<de>${theTitle}</de>
 		<en>${theTitle}</en>
+		<pl>${theTitle}</pl>
 	</title>
 ...
 	<variables>
 		<theTitle>
 			<de>Die Saga von ...|Das Geheimnis von ...</de>
 			<en>The Saga of ...|The Secret of ...</en>
+			<pl>Saga o ...|Sekret ...</pl>
 		</theTitle>
 	</variables>
 ...
 ```
 
-Selbst wenn die Spracheinträge für `title` für alle Sprachen gleich sind und nur aus der Variablenreferenz bestehen, kann die verkürzte Schreibweise `<title>${theTitle}</title>` nicht verwendet werden.
-In dem Fall würden nämlich alle Sprachen denselben Titel bekommen - der Ausdruck wird nur einmal ausgewertet und dann für alle Sprachen verwendet.
-Für eine verkürzte Schreibweise kann man das Sprachtag `all` verwenden und stattdessen schreiben:
+Nawet jeśli wpisy językowe dla `title` są takie same dla wszystkich języków i składają się tylko z odniesienia do zmiennej, nie można użyć skróconej notacji `<title>${theTitle}</title>`.
+W tym przypadku wszystkie języki otrzymałyby ten sam tytuł - wyrażenie jest obliczane tylko raz, a następnie używane dla wszystkich języków.
+Aby uzyskać skróconą notację, można użyć tagu języka `all` i napisać go zamiast tego:
+
+
 
 ```XML
 	<title>
@@ -126,22 +143,23 @@ Für eine verkürzte Schreibweise kann man das Sprachtag `all` verwenden und sta
 	</title>
 ```
 
-Hier wird für alle (unterstützten) Sprachen eine Kopie des Eintrags erstellt.
+Kopia wpisu jest tworzona tutaj dla wszystkich (obsługiwanych) języków.
 
-Aus demselben Grund würde man auch nicht folgende Variablendefinition verwenden:
+Z tego samego powodu nie można użyć następującej definicji zmiennej:
 
 ```XML
 	<variables>
 		<city>
 			<de>Lissabon|${.stationmap:"randomcity"}</de>
 			<en>Lisbon|${.stationmap:"randomcity"}</en>
+			<pl>Lisbona|${.stationmap:"randomcity"}</pl>
 		</city>
 	</variables>
 ```
 
-Wird zur Spielzeit die Alternative zwei gewürfelt, würde sowohl für Deutsch als auch für Englisch ein zufälliger Städtename ermittelt.
-In den Texten würden dann also unterschiedliche Städte erscheinen, was vermutlich nicht dem gewünschten Ergebnis entspricht.
-Richtig wäre
+Jeśli w czasie gry zostanie wyrzucona alternatywa druga, losowa nazwa miasta zostanie ustalona zarówno dla języka niemieckiego, jak i angielskiego i polskiego.
+W tekstach pojawiłyby się różne miasta, co prawdopodobnie nie jest pożądanym rezultatem.
+Prawidłowym wyborem byłoby
 
 ```XML
 	<variables>
@@ -149,211 +167,239 @@ Richtig wäre
 		<city>
 			<de>Lissabon|${rndcity}</de>
 			<en>Lisbon|${rndcity}</en>
+			<pl>Lisbona|${rndcity}</pl>
 		</city>
 	</variables>
 ```
 
-Da `rndcity` sprachunabhängig definiert ist und der Wert einer Variablen nur einmalig ermittelt wird, liefert die zeite Alternative von `city` wie gewünscht dieselbe Stadt.
+Ponieważ `rndcity` jest zdefiniowane niezależnie od języka, a wartość zmiennej jest określana tylko raz, alternatywa czasowa `city` zwraca to samo miasto, co było pożądane.
 
-### geschachtelte Variablen
+### Zmienne zagnieżdżone
 
-Da Ausdrücke selbst wieder Ausdrücke enthalten können, die von innen nach außen ausgewertet werden, können geschachtelte Variablen verwendet werden `${varpraefix_${variant}}`.
-Hird zunächst die Variante aufgelöst und bestimmt damit, welche "Hauptvariable" Verwendung findet.
+Ponieważ same wyrażenia mogą zawierać wyrażenia, które są obliczane od wewnątrz na zewnątrz, można użyć zagnieżdżonych zmiennych `${varpraefix_${variant}}`.
+Najpierw rozwiązywany jest wariant, co określa, która "główna zmienna" jest używana.
 
 ```XML
 ...
 	<title>
 		<de>${wer_${geschlecht}} und ${pronomen_${geschlecht}} ${adj}${was}</de>
+		<en>${wer_${geschlecht}} and ${pronomen_${geschlecht}} ${adj}${was}</en>
+		<pl>${wer_${geschlecht}} i ${pronomen_${geschlecht}} ${adj}${was}</pl>
 	</title>
 ...
 	<variables>
 		<geschlecht>maennl|weibl</geschlecht>
 		<wer_maennl>
 			<de>Der Anwalt|Der Bäcker|Der König</de>
+			<en>Attorney|Baker|King</en>
+			<pl>Prawnik|Piekarz|Król</pl>
 		</wer_maennl>
 		<wer_weibl>
 			<de>Die Lehrerin|Die Ärztin|Die Königin</de>
+			<en>Teacher|Doctor|Queen</en>
+			<pl>Nauczycielka|Doktorka|Królowa</pl>
 		</wer_weibl>
 		<pronomen_maennl>
 			<de>seine</de>
+			<en>his</en>
+			<pl>jego</pl>
 		</pronomen_maennl>
 		<pronomen_weibl>
 			<de>ihre</de>
+			<en>her</en>
+			<pl>jej</pl>
 		</pronomen_weibl>
 		<adj>
-			<!--erste Alternative leer - also ohne Adjektiv-->
+			<!--pierwsza alternatywa pusta - tj. bez przymiotnika-->
 			<de>|teuren |neusten |früheren </de>
+			<en>|expensive | latest | previous </en>
+			<pl>|drogie | najnowsze | wcześniejsze </pl>
 		</adj>
 		<was>
 			<de>Autos|Liebschaften|Pferde|Probleme</de>
+			<en>cars|romans|horses|problems</en>
+			<pl>samochody|romanse|konie|problemy</pl>
 		</was>
 	</variables>
 ...
 ```
 
-Das ist eine Möglichkeit grammatisch korrekte Texte zu erstellen.
-Zunächst wird einmalig das Geschlecht ermittelt wodurch aus `${wer_${geschlecht}}` entweder `${wer_maennl}` oder `${wer_weibl}` wird.
-Das ist dann eine einfache Variable, die direkt aufgelöst werden kann.
+Jest to sposób na tworzenie poprawnych gramatycznie tekstów.
+Po pierwsze, płeć jest określana raz, przy czym `${who_${gender}}` staje się albo `${who_maennl}` albo `${who_weibl}`.
+Jest to wtedy prosta zmienna, którą można rozwiązać bezpośrednio.
 
-Mögliche Titel wären in diesem Beispiel also
-* Der Anwalt und seine teuren Liebschaften
-* Die Lehrerin und ihre Autos
-* Der König und seine früheren Pferde
+Możliwe tytuły w tym przykładzie to
+* Prawnik i jego drogie romanse
+* Nauczycielka i jej samochody
+* Król i jego wcześniejsze konie
 
-Eine weitere ab Version 0.8.3 verfügbare Möglichkeit solche komplexeren Texte zu erstellen ist die csv-Funktion - siehe weiter unten.
+Inną opcją dostępną od wersji 0.8.3 do tworzenia takich złożonych tekstów jest funkcja csv - patrz poniżej.
 
-### Funktionsaufrufe
+### Wywołania_funkcji
 
-Neben dem Auflösen selbst definierter Variablen erlauben Ausdrücke auch das Auswerten von Funktionen.
-Diese sind im Spiel fest hinterlegt und werden abhängig vom Kontext der Verwendung und dem aktuellen Zustand des Spiels ausgewertet.
+Oprócz rozwiązywania samodzielnie zdefiniowanych zmiennych, wyrażenia mogą być również używane do oceny funkcji.
+Są one na stałe przechowywane w grze i oceniane w zależności od kontekstu użycia i aktualnego stanu gry.
 
-Der grundsätzliche Aufbau eines Funktionsaufrufs ist `${.funktionsName:parameter1:parameter2...}`, wobei die Anzahl der Parameter und deren Typ von der Funktion und dem Kontext der Verwendung abhängt.
-Mögliche Paramtertypen sind
+Podstawową strukturą wywołania funkcji jest `${.functionName:parameter1:parameter2...}`, przy czym liczba parametrów i ich typ zależą od funkcji i kontekstu użycia.
+Możliwe typy parametrów to
 
-* Zeichenkette (`"wert"` - in Anführungszeichen)
-* Variable (`variablenName` - ohne Anführungszeichen)
-* Zahl (`17`, `0.25`)
-* Wahrheitswert (`0`,`1`,`true`,`false`)
+* Ciąg znaków (`"wartość"` - w cudzysłowie)
+* Zmienna (`variablenName` - bez cudzysłowów)
+* Liczba (`17`, `0.25`)
+* wartość prawdy (`0`, `1`, `true`, `false`)
 
-Als Parameter kann natürlich auch wieder ein Ausdruck verwendet werden, dessen Wert zunächst ermittelt wird, bevor er als Funktionsparameter verwendet wird.
-Wird ein Stringparameter erwartet, dessen Wert aber von einer Variable abhängt, kann die Variablenauflösung innerhalb von Anführungszeichen erfolgen `${.funktion:"${variableOderAusdruck}"}`.
+Oczywiście wyrażenie może być również użyte jako parametr, którego wartość jest najpierw określana, zanim zostanie użyta jako parametr funkcji.
+Jeśli oczekiwany jest parametr łańcuchowy, ale jego wartość zależy od zmiennej, rozdzielenie zmiennej można przeprowadzić w cudzysłowie `${.function:"${variableOrExpression}"}`.
 
-Es gibt *globale* Funktionen, die an jeder Stelle verwendet werden können.
-Beispiele dafür sind das bereits verwendete Würfeln von Städtenamen, Funktionen zum ermitteln aktueller Spielzeitwerte oder Bedingungen
+Istnieją *globalne* funkcje, które mogą być używane w dowolnym momencie.
+Przykładem tego jest już używane rzucanie kostką nazw miast, funkcje do określania bieżących wartości czasu gry lub warunków
 
-* `${.stationmap:"randomcity"}` - zufällig ermittelter Städtename
-* `${.worldtime:"year"}` - aktuelles Jahr im Spiel
-* `${.if:${.eq:${.worldtime:"weekday"}:0}:"Montag":"nicht Montag"}` - wenn der aktuelle Wochentag 0 ist (entspricht Montag) dann wird der gesamte Ausdruck zu `Montag` ausgewertetn ansonsten zu `nicht Montag`
-* `${.person:"123abc":"fullname"}` - vollständiger Name der Persion mit der GUID 123abc
+* `${.stationmap: "randomcity"}` - losowo określona nazwa miasta
+* `${.worldtime: "year"}` - bieżący rok w grze
+* `${.if:${.eq:${.worldtime: "weekday"}:0}: "Monday": "not Monday"}` - jeśli bieżący dzień tygodnia wynosi 0 (odpowiada poniedziałkowi), to całe wyrażenie jest obliczane na `Monday` w przeciwnym razie na `not Monday`.
+* `${.person: "123abc": "fullname"}` - pełna nazwa osoby z GUID 123abc
 
-Andere Funktionen sind kontextabhängig, können also nur in bestimmten Datenbankobjekten verwendet werden.
-`${.self:"role":1:"fullname"}` zum Beispiel liefert den vollständiger Name der Rolle mit Index 1.
-Dieser Ausdruck ergibt aber nur in einem Programm oder einer Drehbuchvorlage Sinn.
-In Nachrichten gibt es keine Rollen.
 
-## Übersicht über wichtige Funktionen
+Inne funkcje są zależne od kontekstu i dlatego mogą być używane tylko w niektórych obiektach bazy danych.
+Na przykład `${.self: "role":1: "fullname"}` zwraca pełną nazwę roli z indeksem 1.
+Wyrażenie to ma jednak sens tylko w szablonie programu lub skryptu.
+W wiadomościach nie ma ról.
 
-Einstiegspunkte für die definierten Funktionen sind `game.gamescriptexpression.bmx` für TVTower-spezifische Funktionen und `base.util.scriptexpression_ng.bmx` für allgemeine Funktionen (Bedingungen etc.).
-Mit einer Textsuche nach `RegisterFunctionHandler` bekommt man einen schnellen Überblick, was es so gibt und wo es definiert ist.
-In der registrierten `SEFN_`-Funktion kann man dann die möglichen Parameter nachvollziehen.
-Die im folgenden aufgelisteten Funktionen und Parameter müssen nicht vollständig sein!
+## Przegląd_ważnych_funkcji
+
+Punkty wejścia dla zdefiniowanych funkcji to `game.gamescriptexpression.bmx` dla funkcji specyficznych dla TVTower i `base.util.scriptexpression_ng.bmx` dla funkcji ogólnych (warunki itp.).
+Wyszukiwanie tekstowe dla `RegisterFunctionHandler` daje szybki przegląd tego, co jest dostępne i gdzie jest zdefiniowane.
+Możliwe parametry można następnie prześledzić w zarejestrowanej funkcji `SEFN_`.
+Wymienione poniżej funkcje i parametry niekoniecznie są kompletne!
+
+
 
 ### stationmap
 
-Die Funktion `.stationmap` bietet kontextunabhängigen Zugriff auf Informationen zur gerade im Spiel verwendeten Karte (aktuell nur Deutschland).
-Es muss genau ein Zeichenkettenparameter angegeben werden.
+Funkcja `.stationmap` zapewnia niezależny od kontekstu dostęp do informacji o mapie aktualnie używanej w grze (obecnie tylko Niemcy).
+Należy podać dokładnie jeden parametr łańcuchowy.
 
-* `${.stationmap:"randomcity"}` - zufälliger Städtename
-* `${.stationmap:"population"}` - Bevölkerungszahl
-* `${.stationmap:"mapname"}` - Name des Landes
-* `${.stationmap:"mapnameshort"}` - ISO-Ländercode
+* `${.stationmap:"randomcity"}` - losowa nazwa miasta
+* `${.stationmap:"population"}` - Wielkość populacji
+* `${.stationmap:"mapname"}` - Nazwa kraju
+* `${.stationmap:"mapnameshort"}` - Kod kraju ISO
 
 ### worldtime
 
-Die Funktion `.worldtime` bietet kontextunabhängigen Zugriff auf den aktuellen Zeitpunkt im Spiel.
-Es muss genau eine Zeichenkettenparameter angegeben werden.
+Funkcja `.worldtime` zapewnia niezależny od kontekstu dostęp do aktualnego czasu w grze.
+Należy podać dokładnie jeden parametr string.
 
-* `${.worldtime:"year"}` - aktuelles Jahr
-* `${.worldtime:"month"}` - aktueller Monat (als Zahl)
-* `${.worldtime:"day"}` - aktueller Tag (als fortlaufende Zahl)
-* `${.worldtime:"dayofmonth"}` - Tag des Monats (1-31)
-* `${.worldtime:"hour"}` - aktuelle Stunde des Tages (0-23)
-* `${.worldtime:"minute"}` - aktuelle Minute (0-59)
-* `${.worldtime:"daysplayed"}` - Anzahl fertig gespielter Tage
-* `${.worldtime:"dayplaying"}` - aktueller Spieltag
-* `${.worldtime:"yearsplayed"}` - Anzahl fertig gespielter Jahre
-* `${.worldtime:"weekday"}` - aktueller Wochentag (als Zahl; 0=Montag)
-* `${.worldtime:"season"}` - aktueller Jahreszeit (als Zahl; 1=Frühling, 4=Winter), wobei Frühling März bis Mai ist
+* `${.worldtime:"year"}` - Bieżący rok
+* `${.worldtime:"month"}` - Bieżący miesiąc (jako liczba)
+* `${.worldtime:"day"}` - Bieżący dzień (jako kolejny numer)
+* `${.worldtime:"dayofmonth"}` - Dzień miesiąca (1-31)
+* `${.worldtime:"hour"}` - Bieżąca godzina dnia (0-23)
+* `${.worldtime:"minute"}` - bieżąca minuta (0-59)
+* `${.worldtime:"daysplayed"}` - Liczba zakończonych dni
+* `${.worldtime:"dayplaying"}` - bieżący dzień gry
+* `${.worldtime:"yearsplayed"}` - Liczba ukończonych lat
+* `${.worldtime:"weekday"}` - Bieżący dzień tygodnia (jako liczba; 0=poniedziałek)
+* `${.worldtime:"season"}` - bieżąca pora roku (jako liczba; 1=wiosna, 4=zima), gdzie wiosna to okres od marca do maja
 
-### persongenerator
+### generator_osób
 
-Die Funktion `.persongenerator` erlaubt kontextunabhängig länderspezifische Namen zu erzeugen.
-Es ist nicht direkt möglich, eine Person zu erzeugen und dann auf die unterschiedlichen Namensbestandteile (Vorname, Nachname, etc.) zuzugreifen.
-Der Grundsätzliche Aufruf ist `${.persongenerator:"Namenstyp":"Land":"Geschlecht":WahrscheinlichkeitFürTitel}.
-Nur der erste Parameter Namenstyp ist Pflicht und bis auf die Wahrscheinlichkeit für den (z.B. akademischen) Titel (Zahl zwischen 0 und 1) sind alles Zeichenkettenparameter.
+Funkcja `.persongenerator` pozwala na generowanie nazwisk specyficznych dla kraju niezależnie od kontekstu.
+Nie jest możliwe bezpośrednie utworzenie osoby, a następnie uzyskanie dostępu do różnych składników imienia (imię, nazwisko itp.).
+Podstawowe wywołanie to `${.persongenerator: "NameType": "Country": "Gender":ProbabilityForTitle}.
+Tylko pierwszy parametr name type jest obowiązkowy i oprócz prawdopodobieństwa dla tytułu (np. akademickiego) (liczba od 0 do 1), wszystkie parametry są ciągami znaków.
 
-Erlaubte Namenstypen sind
-* "name", "firstname" - Vorname
-* "lastname" - Nachname
-* "fullname" - vollständiger Name inklusive Titel
-* "title" - (akademischer) Titel
 
-Ist das Länderkürzel nicht angegeben, leer oder unbekannt wird ein zufälliges Land verwendet.
-Einstiegspunkt für weitere Recherche ist `base.util.persongenerator.bmx`.
-Aktuell bekannte Kürzel sind: aut, de, uk, cn, ru, tr, us, dk, gr, ug, es, fr, pl.
-Ein paar weitere delegieren auf ähnliche Länder (sco, e, irl, nor, swe, se, sui, bra, por, mex, d).
 
-Für das Geschlecht werden folgende Werte unterstützt
+Dozwolone typy nazw to
+* "name", "firstname" - imię
+* "lastname" - nazwisko
+* "fullname" - pełne imię i nazwisko wraz z tytułem
+* "title" - tytuł (akademicki)
 
-* männlich: `"m"`, `"1"`, `"male"`
-* weiblich: `"f"`, `"2"`, `"female"`
-* bei anderen Werten wird ein zufälliges Geschlecht ausgewählt
+Jeśli kod kraju nie jest określony, jest pusty lub nieznany, używany jest losowy kraj.
+Punktem wejścia dla dalszych wyszukiwań jest `base.util.persongenerator.bmx`.
+Obecnie znane skróty to: aut, de, uk, cn, ru, tr, us, dk, gr, ug, es, fr, pl.
+Kilka innych odnosi się do podobnych krajów (sco, e, irl, nor, swe, se, sui, bra, por, mex, d).
 
-Beispiele:
+Obsługiwane są następujące wartości dla płci
 
-* `${.persongenerator:"firstname"}` - beliebiger Vorname
-* `${.persongenerator:"firstname":"us":"male"}` - US-amerikanischer männlicher Vorname
-* `${.persongenerator:"fullname":"":"female":0.9}` - weiblicher Name mit 90%iger Wahrscheinlichkeit für einen Titel
+* męska: `"m"`, `"1"`, `"male"`
+* female: `"f"`, `"2"`, `"female"`
+* dla innych wartości wybierana jest losowa płeć
 
-### locale
+Przykłady:
 
-Die Funktion `.locale` bietet kontextunabhängigen Zugriff auf die Übersetzungsdateien (`res/lang/...`).
-Es können allerdings keine dort verwendeten Parameter übergeben oder wie im Spiel verwendete Zufallsvarianten gewählt werden.
-Neben dem Schlüssel kann optional das Länderkürzel angegeben werden (ansonsten wird die gerade im Spiel eingestellte Sprache verwendet).
+* `${.persongenerator:"firstname"}` - dowolne imię
+* `${.persongenerator:"firstname":"us":"male"}` - Amerykańskie imię męskie
+* `${.persongenerator:"fullname":"":"female":0.9}` - imię żeńskie z 90% prawdopodobieństwem
 
-* ${.locale:"HOUR"} - Auflösung des Schlüssels "HOUR" aus `genSettings_...` - Stunde auf Deutsch, heure auf Französisch
-* ${.locale:"MOVIES","es"} - Auflösung des Schlüssels "MOVIES" aus `programme_es.txt` -  Peliculas
+### lokalność
 
-Da sich zwischen Spielversionen die Lokalisierungsdateien ändern können, die Datenbank aber im Spielstand hinterlegt ist, sollte man darauf achten, keine Schlüssel in der Datenbank zu verwenden, bei denen ein Entfallen/Umbenennen in zukünftigen Versionen wahrscheinlich ist.
+Funkcja `.locale` zapewnia niezależny od kontekstu dostęp do plików tłumaczeń (`res/lang/...`).
+Nie można jednak przekazywać żadnych parametrów ani wybierać losowych wariantów używanych w grze.
+Oprócz klucza, opcjonalnie można określić kod kraju (w przeciwnym razie używany jest język aktualnie ustawiony w grze).
 
-### Referenz auf eigene Besetzung
+* ${.locale:"HOUR"} - Rozdzielczość klucza "HOUR" z `genSettings_...` - godzina po niemiecku, heure po francusku
+* ${.locale:"MOVIES","es"} - Pobranie klucza "MOVIES" z pliku `programme_es.txt` - Peliculas
 
-In Programmen kann auf die Namen der eigenen Besetzung, in Programmen und Drehbuchvorlagen auf die Rollen zugegriffen werden.
-Der grundsätzliche Funktionsaufbau ist immer gleich `${.self:"Typ":Index:"Attribut":inklusiveTitel}`.
-`.self` ist der Indikator dafür, dass die Auswertung im Kontext des definierenden Objekts erfolgt.
-Typ kann `cast` (nur Programme, da in einem Drehbuch die tatsächliche Besetzung noch nicht feststeht) oder `role` für die Rolle sein.
-Index ist die Stelle des gewünchten Wertes in der Besetzungs-/Jobliste in der Datenbank und sollte mit dem an dem Eintrag definierten index-Attributs übereinstimmen (Index 0 ist der erste Eintrag der Liste).
-Ein Index der außerhalb der Anzahl der Besetzungen liegt, führt zu einem Fehler.
-Der Wahrheitswert `inklusiveTitel` ist optional und gibt bei einem Nachnamen oder vollen Namen an, ob dieser mit Titel zurückgegeben werden soll (Standardfall ist nein).
+Ponieważ pliki lokalizacyjne mogą się zmieniać między wersjami gry, ale baza danych jest przechowywana w zapisie gry, należy uważać, aby nie używać żadnych kluczy w bazie danych, które mogą zostać usunięte / zmienione w przyszłych wersjach.
 
-Die wichtigste möglichen Werte für `Attribut` entsprechen (nahezu) den Werten für zufällige Namen
-* `firstname` - Vorname
-* `lastname` - Nachname
-* `fullname` - vollständiger Name
-* `tilte` - Titel
-* `nickname` - Spitzname (Vorname, falls kein Spitzname definiert ist)
+### Odniesienie do własnej obsady
 
-Wird für Drehbuchvorlagen eine Rolle referenziert, die in der Jobliste nicht explizit hinterlegt ist (kein `role_guid`-Attribut), wird automatisch eine Rolle erzeugt, d.h. bei jeder Erstellung eines Drehbuchs aus der Vorlage eine neue Rolle mit neuem Namen.
-Auf diese Weise muss man nicht unbedingt selbst mittels Personengenerator oder verschiedenen Variablen Namen selbst erfinden.
-Bei fertigen Programmen darf man natürlich nur in der Datenbank hinterlegte Rollen refernzieren
+W programach można uzyskać dostęp do nazw własnej obsady; w programach i szablonach skryptów można uzyskać dostęp do ról.
+Podstawowa struktura funkcji jest zawsze taka sama `${.self: "type":index: "attribute":includingtitle}`.
+`.self` jest wskaźnikiem, że ewaluacja odbywa się w kontekście definiującego obiektu.
+Typ może być `cast` (tylko programy, ponieważ rzeczywista obsada nie została jeszcze określona w skrypcie) lub `role` dla roli.
+Indeks jest pozycją żądanej wartości na liście obsady/zadania w bazie danych i powinien być zgodny z atrybutem indeksu zdefiniowanym dla wpisu (indeks 0 jest pierwszym wpisem na liście).
+Indeks znajdujący się poza liczbą spotkań prowadzi do błędu.
+Wartość prawdy `includingTitle` jest opcjonalna i określa, czy nazwisko lub pełna nazwa powinna zostać zwrócona wraz z tytułem (domyślnym przypadkiem jest no).
 
-Angenommen mit Index 0 ist immer der Regisseur definiert, und alles weitere sind Schauspieler ergeben sich folgende Beispiele
 
-* `${.self:"cast":0:"fullname":true}` - vollständiger Name des Regisseurs inklive Titel (in einer Programmdefinition)
-* `${.self:"cast":2:"firstname"}` - Vorname des Schauspielers mit Index 2
-* `${.self:"role":1:"nickname"}` - Spitzname der Rolle, die für Index 1 hinterlegt ist (oder ggf. erzeugt wird)
 
-### Bedingungen
+Najważniejsze możliwe wartości dla `Attribute` odpowiadają (prawie) wartościom dla losowych nazw
+* `firstname` - Imię
+* `lastname` - Nazwisko
+* `fullname` - Imię i nazwisko
+* `tilte` - Tytuł
+* `nickname` - Pseudonim (imię, jeśli nie zdefiniowano pseudonimu)
 
-Bedingungen werden insbesondere für die Verfügbarkeitsscripte benötigt, um z.B. zu prüfen, ob schon genügend Spieltage vergangen sind, bevor eine Drehbuchvorlage verfügbar wird.
-Sie kann aber auch für die Erzeugung von Texten hilfreich sein.
-In früheren Versionen mussten z.B. mehrere Nachrichtenketten definiert werden, um sich im Laufe der Zeit ändernde Währungen oder Städtenamen zu unterstützen.
-Nun könnten diese Texte dynamisch durch Bedingungen erzeugt werden.
+Jeśli w szablonach scenariuszy znajduje się odwołanie do roli, która nie jest jawnie przechowywana na liście zadań (brak atrybutu `role_guid`), rola jest tworzona automatycznie, tj. nowa rola z nową nazwą jest tworzona za każdym razem, gdy scenariusz jest tworzony na podstawie szablonu.
+W ten sposób niekoniecznie trzeba samodzielnie wymyślać nazwy za pomocą generatora osób lub różnych zmiennych.
+W przypadku gotowych programów można oczywiście odwoływać się tylko do ról przechowywanych w bazie danych
 
-Wichtigster Startpunkt für Fallunterscheidungen ist `${.if:Bedingung:ErgebnisWennJa:ErgebnisWennNein}`.
-Die Ergebnisparameter sind optional und wenn sie fehlen wird der jeweilte Wahrheitswert der Bedingungn zurückgegeben.
 
-* `${.if:${.worldtime:"year"}==2000:"zweitausend":"nicht 2000"}` - wenn das aktuelle Jahr 2000 ist, kommt "zweitausend" raus, ansonsten "nicht 2000"
-* `${.if:"${var}"=="foo":"bar":"karte"}` - wenn die Variable `var` zu `foo` ausgewertet wird, kommt "bar" raus, ansonsten "karte"
-* `${.if:${.gt:${.worldtime:"hour"}:21}:"spät":"nicht spät"}` - Wenn es nach 22 Uhr ist, kommt "spät" raus, ansonsten "nicht spät"
-* `${.if:var:"nicht leer":"leer"}` - wenn die Variable `var` zu einer leeren Zeichenkette ausgewertet wird, kommt "leer" raus, ansonsten "nicht leer"
 
-Das letzte Beispiel zeigt, wie sich Auswertungsergebnisse über gut Variablennamen weitergeben lassen.
+Zakładając, że reżyser jest zawsze definiowany z indeksem 0, a wszyscy pozostali są aktorami, otrzymamy następujące przykłady
+
+* `${.self: "cast":0: "fullname":true}` - pełne imię i nazwisko reżysera wraz z tytułem (w definicji programu)
+* `${.self: "cast":2: "firstname"}` - imię aktora z indeksem 2
+* `${.self: "role":1: "nickname"}` - pseudonim roli, który jest przechowywany dla indeksu 1 (lub jest tworzony w razie potrzeby)
+
+
+
+### Warunki
+
+Warunki są wymagane w szczególności w przypadku skryptów dostępności, np. w celu sprawdzenia, czy upłynęła wystarczająca liczba dni gry, zanim szablon skryptu stanie się dostępny.
+Mogą być one jednak również pomocne przy generowaniu tekstów.
+Na przykład we wcześniejszych wersjach konieczne było zdefiniowanie kilku łańcuchów komunikatów w celu obsługi zmieniających się w czasie walut lub nazw miast.
+Teraz teksty te mogą być generowane dynamicznie przy użyciu warunków.
+
+
+
+Najważniejszym punktem wyjścia dla rozróżniania przypadków jest `${.if:Condition:ResultIfYes:ResultIfNo}`.
+Parametry wyniku są opcjonalne i jeśli ich brakuje, zwracana jest odpowiednia wartość prawdy warunku.
+
+* `${.if:${.worldtime:"year"}==2000:"zweitausend":"nicht 2000"}` - jeśli bieżący rok to 2000, wynikiem jest "dwa tysiące", w przeciwnym razie "nie 2000".
+* `${.if:"${var}"=="foo":"bar":"karte"}` - jeśli zmienna `var` jest obliczana na `foo`, wynikiem jest "bar", w przeciwnym razie "karte"
+* `${.if:${.gt:${.worldtime:"hour"}:21}:"spät":"nicht spät"}` - Jeśli jest po 22:00, pojawia się "późno", w przeciwnym razie "nie późno"
+* `${.if:var:"nicht leer":"leer"}` - jeśli zmienna `var` jest obliczana na pusty łańcuch, wynikiem jest "empty", w przeciwnym razie "not empty".
+
+Ostatni przykład pokazuje, w jaki sposób wyniki oceny mogą być przekazywane przy użyciu doprawidłowychbrych nazw zmiennych.
 
 ```XML
 <variables>
 	<geschlecht>m|f</geschlecht>
-	<maennl>${.if:"${geschlecht}"=="m"}:"true":""}</maennl>
+	<maennl>${{.if:"${geschlecht}"=="m"}:"true":""}</maennl>
 	<artikel>
 		<de>
 			${.if:maennl:"Der:"Die"}
@@ -361,79 +407,87 @@ Das letzte Beispiel zeigt, wie sich Auswertungsergebnisse über gut Variablennam
 	</artikel>
 ...
 ```
-Das Geschlecht wird gewürfelt.
-Wenn `f`rauskommt, ist der Inhalt der Variable `maennl` leer und liefert bei der If-Prüfung den Wahrheitswert falsch.
+Płeć jest zrolowana.
+Jeśli `f` wyjdzie, zawartość zmiennej `maennl` jest pusta i zwraca wartość false w sprawdzeniu If.
 
-Für Vergleiche stehen mehrere Funktionen bereit.
-Oben wurde eine Gleichheit mit `==` geprüft.
-Da die Verwendung spitzer Klammern in XML außer für Tags nicht wirklich empfehlenswert ist, wird von der Verwendung der normalen Operatoren (`<`,`<=`,`>`, `>=`,`<>`) abgeraten.
-Stattdessen sollten die entsprechenden Vergleichsfunktionen für den Vergleich von `p1`und `p2`verwendet werden.
+Dostępnych jest kilka funkcji do porównywania.
+Równość z `==` została sprawdzona powyżej.
+Ponieważ użycie nawiasów kątowych w XML nie jest zalecane, z wyjątkiem tagów, użycie normalnych operatorów (`<`,`<=`,`>`,`>=`,`<>`) nie jest zalecane.
+Zamiast tego, odpowiednie funkcje porównania powinny być użyte do porównania `p1` i `p2`.
 
-* `${.eq:p1:p2}` - wahr gdw (genau dann, wenn) p1 gleich p2 ist
-* `${.neq:p1:p2}` - wahr gdw p1 ungleich p2 ist
-* `${.gt:p1:p2}` - wahr gdw p1 größer als p2 ist
-* `${.gte:p1:p2}` - wahr gdw p1 größer als oder gleich p2 ist
-* `${.lt:p1:p2}` - wahr gdw p1 kleiner als p2 ist
-* `${.lte:p1:p2}` - wahr gdw p1 kleiner als oder gleich p2 ist
+* `${.eq:p1:p2}` - true gdw (dokładnie jeśli) p1 jest równe p2
+* `${.neq:p1:p2}` - true gdw p1 nie jest równe p2
+* `${.gt:p1:p2}` - true gdw p1 jest większe niż p2
+* `${.gte:p1:p2}` - true gdw p1 jest większe lub równe p2
+* `${.lt:p1:p2}` - true gdw p1 jest mniejsze niż p2
+* `${.lte:p1:p2}` - true gdw p1 jest mniejsze lub równe p2
 
-Da ein einfaches if-then-else sehr häufig vorkommt und die verschachtelten Funktionsaufrufe nicht leicht lesbar sind, gibt es neben dem Vergleich, der einen Wahrheitswert zurückliefert auch noch eine Kurzschreibweise.
-`${.cmp:p1:p2:ErgebnisWennJa:ErgebnisWennNein}` - je nach Ergebnis des Vergleichs von p1 und p2 ist das Ergebnis entweder der vorletzte oder der letzte Parameter
+Ponieważ prosty if-then-else występuje bardzo często, a zagnieżdżone wywołania funkcji nie są łatwe do odczytania, oprócz porównania istnieje również notacja skrócona, która zwraca wartość prawdy.
+`${.cmp:p1:p2:ResultIfYes:ResultIfNo}` - w zależności od wyniku porównania p1 i p2, wynik jest przedostatnim lub ostatnim parametrem.
 
-* `${.eq:geschlecht:"m":"Der":"Die"}` - Wenn der Wert der Variable `geschlecht` `m` ist, kommt `Der` raus, ansonste `Die`
-* `${.gte:${.worldtime:"year"}:2002:"Euro":"DM"}` -  ab 2002 Euro, vorher DM
+* `${.eq:gender: "m": "The": "The"}` - Jeśli wartością zmiennej `gender` jest `m`, wynikiem jest `The`, w przeciwnym razie `The`.
+* `${.gte:${.worldtime: "year"}:2002: "Euro": "DM"}` - od 2002 Euro, przed DM.
 
-Mit `${.not:bedingung}` kann eine Bedingung negiert werden.
-Und- und Oder-Verknüpfungen von zwei oder mehr Bedingungen sind auch möglich.
+Warunek można zanegować za pomocą `${.not:condition}`.
+Możliwe są również kombinacje AND i OR dwóch lub więcej warunków.
 
-* `${.and:p1:p2}` - wahr gdw alle Bedingungen (p1 und p2) wahr sind
-* `${.and:p1:p2:p3:p4}` - wahr gdw alle Bedingungen (p1 bis p4) wahr sind
-* `${.or:p1:p2}` - wahr gdw mindestens eine der Bedingungenen (p1 oder p2) wahr sind
-* `${.or:p1:p2:p3:p4}` - wahr gdw mindestens eine der Bedingungen wahr sind
+* `${.and:p1:p2}` - prawda jeśli wszystkie warunki (p1 i p2) są prawdziwe
+* `${.and:p1:p2:p3:p4}` - true jeśli wszystkie warunki (p1 do p4) są prawdziwe
+* `${.or:p1:p2}` - true jeśli przynajmniej jeden z warunków (p1 lub p2) jest prawdziwy
+* `${.or:p1:p2:p3:p4}` - true jeśli przynajmniej jeden z warunków jest prawdziwy
 
-Es versteht sich von selbst, dass die Parameter der Vergleiche etc. selbst wieder komplexe Ausdrücke (mit dem richtigen Typ) sein können.
-Dabei ist aber äußerste Vorsicht geboten, damit aus Zeichenketten innerer Ausdrücke nicht plötzlich Variablennamen im äußeren Ausdruck werden, die zu unerwartetem Verhalten führen.
+Jest rzeczą oczywistą, że parametry porównań itp. mogą same być złożonymi wyrażeniami (z prawidłowym typem).
+Należy jednak zachować szczególną ostrożność, aby zapewnić, że ciągi znaków wyrażeń wewnętrznych nie staną się nagle nazwami zmiennych w wyrażeniu zewnętrznym, co doprowadzi do nieoczekiwanego zachowania.
 
-Beispiel für eine solche Falle:
+Przykład takiej pułapki:
 
-`${.eq:0:1:"foo":${.eq:0:1:"bar":"baz"}}` -> `${.eq:0:1:"foo":baz}}` -> Wert der vermutlich undefinierten Variable baz.
-Gewollt war wohl eher `${.eq:0:1:"foo":"${.eq:0:1:"bar":"baz"}"}` -> `${.eq:0:1:"foo":"baz"}}`.
-Zu beachten sind die Anführungszeichen um den inneren Ausdruck.
+`${.eq:0:1:"foo":${.eq:0:1:"bar":"baz"}}` -> `${.eq:0:1:"foo":baz}}` -> Wartość prawdopodobnie niezdefiniowanej zmiennej baz.
+Intencją było prawdopodobnie bardziej `${.eq:0:1:"foo":"${.eq:0:1:"bar":"baz"}"}` -> `${.eq:0:1:"foo":"baz"}}`.
+Zwróć uwagę na cudzysłów wokół wewnętrznego wyrażenia.
 
 
 ### csv
 
-Bislang konnten grammatisch korrekte Sätze ausschließlich mit verschachtelten Variablen umgesetzt werden.
-Mit Funktionen gibt es nun eine zusätzliche Möglichkeit, die zu einer besseren Lesbarkeit in der Datenbank führen kann.
-Die Grundidee ist, dass man eine Liste von Datensätzen zur Verfügung stellt, von denen jeder einzelne alle nötigen Informationen enthält.
-Die Funktion `.csv` erlaubt dann den Zuriff auf die einzelnen Elemente des Datensatzes.
-Der grundsätzliche Aufbau des Funktionsaufrufs ist `${.csv:"Datensatz":Index:"Separator":LeerzeichenEntfernen}`.
-Pflichtparameter sind der Datensatz (Zeichenkette) und Index (welcher Teil des Datensatzes wird zurückgegeben).
-Wenn der Separator im Datensatz nicht das Semikolon ist (`;`), kann optional der Separator mitgegeben werden.
-Normalerweise werden automatisch Leerzeichen, Tabulatutoren etc. vor und hinter dem Gesamtdatensatz entfernt.
-Das kann mit dem vierten Parameter (Wahrheitswert) unterbunden werden.
+Do tej pory poprawne gramatycznie zdania można było realizować tylko za pomocą zmiennych zagnieżdżonych.
+Dzięki funkcjom istnieje teraz dodatkowa opcja, która może prowadzić do lepszej czytelności w bazie danych.
+Podstawową ideą jest dostarczenie listy rekordów danych, z których każdy zawiera wszystkie niezbędne informacje.
+Funkcja `.csv` umożliwia następnie dostęp do poszczególnych elementów rekordu danych.
+Podstawowa struktura wywołania funkcji to `${.csv: "Record":Index: "Separator":SpaceRemove}`.
+Obowiązkowymi parametrami są zestaw danych (ciąg znaków) i indeks (która część zestawu danych jest zwracana).
+Jeśli separator w zestawie danych nie jest średnikiem (`;`), separator może być opcjonalnie określony.
+Zwykle spacje, tabulatory itp. są automatycznie usuwane przed i po całym rekordzie danych.
+Można temu zapobiec za pomocą czwartego parametru (wartość prawdy).
 
-Einfache Beispiele:
-* `${.csv:"a;b;c":0}` liefert `a`
-* `${.csv:"a;b;c":2}` liefert `c`
-* `${.csv:"a,b,c":1:","}` liefert `b`
 
-Das folgende Beispiel soll illustrieren, was mit der Kombination aus Alternativen, verschachtelten Variablen und csv-Datensätzen möglich ist.
+
+Proste przykłady:
+* `${.csv:"a;b;c":0}` dostarcza `a`
+* `${.csv:"a;b;c":2}` dostarcza `c`
+* `${.csv:"a,b,c":1:","}` dostarcza `b`
+
+Poniższy przykład ma na celu zilustrowanie możliwości kombinacji alternatyw, zmiennych zagnieżdżonych i rekordów danych csv.
 
 ```XML
 ...
 	<title>
 		<de>${wer_${geschlecht}} und ${pron_nom_${geschlecht}} ${adj}${was}</de>
+		<en>${wer_${geschlecht}} and ${pron_nom_${geschlecht}} ${adj}${was}</en>
+		<pl>${wer_${geschlecht}} i ${pron_nom_${geschlecht}} ${adj}${was}</pl>
 	</title>
 	<description>
 		<de>Wie alle ${wer_plural_${geschlecht}} kämpft ${name} mit ${pron_gen_${geschlecht}} Vorliebe für ${was}.</de>
+		<en>Like ${all_plural_${geschlecht}} ${wer_plural_${geschlecht}}, ${name} is struggling with ${pron_gen_${geschlecht}} preference for ${was}.</en>
+		<pl>Jak ${all_plural_${geschlecht}} ${wer_plural_${geschlecht}}, ${name} zmaga się z ${pron_gen_${geschlecht}} sprawami.</pl>
 	</description>
 ...
 	<variables>
 		<geschlecht>m|f</geschlecht>
 		<name>${.persongenerator:"firstname":"de":geschlecht}</name>
 		<werData>
-			<!--Für die bessere Lesbarkeit kommt jeder Datensatz auf eine eigene Zeile.
-			    Dafür auch das automatische Entfernen von Leerzeichen vor und nach dem Datensatz.
+			<!--Dla lepszej czytelności, każdy rekord danych ma swój własny wiersz.
+			    Obejmuje to również automatyczne usuwanie spacji przed i po rekordzie danych.
+
+				Dla języka angielskiego i polskiego musimy pozmieniać parę zmiennych aby była poprawna wersja gramatyczna, przykład jest poprawny dla jezyka niemieckiego
 			-->
 			<de>
 				Anwalt;Anwälte;Anwältin;Anwältinnen|
@@ -442,42 +496,94 @@ Das folgende Beispiel soll illustrieren, was mit der Kombination aus Alternative
 				Lehrer;Lehrer;Lehrerin;Lehrerinnen|
 				Arzt;Ärzte;Ärztin;Ärztinnen
 			</de>
+			<en>
+				lawyer;lawyers;female lawyer;female lawyers;every;all;every;all|
+				baker;bakers;female baker;female bakers;every;all;every;all|
+				king;kings;queen;queens;every;all;every;all|
+				teacher;teachers;female teacher;female teachers;every;all;every;all|
+				doctor;doctors;female doctor;female doctors;every;all;every;all
+			</en>
+			<pl>
+				prawnik;prawnicy;prawniczka;prawniczki;każdy;wszyscy;każda;wszystkie|
+				piekarz;piekarze;piekarka;piekarki;każdy;wszyscy;każda;wszystkie|
+				król,królowie,królowa,królowe;każdy;wszyscy;każda;wszystkie|
+				nauczyciel;nauczyciele;nauczycielka;nauczycielki;każdy;wszyscy;każda;wszystkie|
+				lekarz;lekarze;lekarka;lekarki;każdy;wszyscy;każda;wszystkie
+			</pl>
 		</werData>
 		<wer_m>
 			<de>Der ${.csv:werData:0}</de>
+			<en>${.csv:werData:0}</en>
+			<pl>${.csv:werData:0}</pl>
 		</wer_m>
 		<wer_f>
 			<de>Die ${.csv:werData:2}</de>
+			<en>${.csv:werData:2}</en>
+			<pl>${.csv:werData:2}</pl>
 		</wer_f>
 		<wer_plural_m>
 			<de>${.csv:werData:1}</de>
+			<en>${.csv:werData:1}</en>
+			<pl>${.csv:werData:1}</pl>
 		</wer_plural_m>
 		<wer_plural_f>
 			<de>Die ${.csv:werData:3}</de>
+			<en>${.csv:werData:3}</en>
+			<pl>${.csv:werData:3}</pl>
 		</wer_plural_f>
+		<!--Dla języka angielskiego i polskiego musimy pozmieniać parę zmiennych aby była poprawna wersja gramatyczna, przykład jest poprawny dla jezyka niemieckiego
+			-->
+		<all_m>
+			<en>${.csv:werData:5}</en>
+			<pl>${.csv:werData:5}</pl>
+		</all_m>
+		<all_f>
+			<en>${.csv:werData:7}</en>
+			<pl>${.csv:werData:7}</pl>
+		</all_f>
+		<all_plural_m>
+			<en>${.csv:werData:6}</en>
+			<pl>${.csv:werData:6}</pl>
+		</all_plural_m>
+		<all_plural_f>
+			<en>${.csv:werData:8}</en>
+			<pl>${.csv:werData:8}</pl>
+		</all_plural_f>
 		<pron_nom_m>
 			<de>seine</de>
+			<en>his</en>
+			<pl>jego</pl>
 		</pron_nom_m>
 		<pron_gen_m>
 			<de>seiner</de>
+			<en>her</en>
+			<pl>jej</pl>
 		</pron_gen_m>
 		<pron_nom_f>
 			<de>ihre</de>
+			<en>their</en>
+			<pl>ich</pl>
 		</pron_nom_f>
 		<pron_gen_f>
 			<de>ihrer</de>
+			<en>their</en>
+			<pl>ich</pl>
 		</pron_gen_f>
 		<adj>
 			<de>|teuren |neusten |früheren </de>
+			<en>|cheap |latest |earlier </en>
+			<pl>|tanie |najnowsze |wcześniejsze </pl>
 		</adj>
 		<was>
 			<de>Autos|Liebschaften|Pferde|Probleme</de>
+			<en>cars|romances|horses|problems</en>
+			<pl>samochody|romanse|konie|problemy</pl>
 		</was>
 	</variables>
 ...
 ```
 
-Alternativ kann man auch grammatische Information in den Datensätzen doppeln sowie Bedingungen verwenden und so mit weniger Variablen auskommen.
+Alternatywnie można również powielić informacje gramatyczne w rekordach danych i użyć warunków, aby uzyskać mniej zmiennych.
 
 ```XML
 ...
@@ -490,8 +596,8 @@ Alternativ kann man auch grammatische Information in den Datensätzen doppeln so
 ...
 	<variables>
 		<werData>
-			<!--Für die bessere Lesbarkeit kommt jeder Datensatz auf eine eigene Zeile.
-			    Dafür auch das automatische Entfernen von Leerzeichen vor und nach dem Datensatz.
+			<!--Dla lepszej czytelności, każdy rekord danych ma swój własny wiersz.
+			    Obejmuje to również automatyczne usuwanie spacji przed i po rekordzie danych.
 			-->
 			<de>
 				Anwalt;Anwälte;m|
@@ -530,26 +636,25 @@ Alternativ kann man auch grammatische Information in den Datensätzen doppeln so
 ...
 ```
 
-Mit der Verwendung von Bedingungen in den Ausdrücken könnten weitere Variablen eingespart werden.
+Używając warunków w wyrażeniach, można zapisać kolejne zmienne.
 
-### globale Referenz auf Datenbankobjekte
+### Globalne odniesienie do obiektów bazy danych
 
-Von beliebigen Stellen aus kann auf Personen, Rollen und Programme über deren in der Datenbank vergebenen GUID zugegriffen werden.
-Hier nur ein paar Beispiele.
-In `game.gamescriptexpression.bmx` kann man nachschauen, ob die vielleicht benötigte Information schon jetzt verfügbar ist.
+Dostęp do osób, ról i programów można uzyskać z dowolnej lokalizacji za pośrednictwem ich identyfikatora GUID przypisanego w bazie danych.
+Oto kilka przykładów.
+W `game.gamescriptexpression.bmx` można sprawdzić, czy potrzebne informacje są już dostępne.
 
-* `${.person:"836b4aa3-b5c6-4529-b30d-4501594cdf13":"nickname"}` - Spitzname der Person mit der gegebenen GUID
-* `${.person:"3342a0e3-66f3-4f30-922c-ebe1b0611a00":"age"}` - Alter der Person
-* `${.programme:"04439fd1-e89f-4922-a48e-6f8ddf96f7ab":"episodecount"}` - Anzahl Folgen der Serie
-* `${.programme:"35190c1d-aa55-4e84-967f-72a374e84dcf":"year"}` - Erscheinungsjahr des Programms
-* `${.programme:"02d0dfa5-dbcf-40b5-abb4-7e20a58d8efa":"cast":1:"fullname"}` - vollständiger Name der Besetzung mit Index 1 (wie bei den Referenzen auf die eigene Besetzung ist Index 0 typischerweise der erste Eintrag der Liste)
-* `${.programme:"a61e7775-7565-48cd-ab4a-e5faea09d70d":"title"}` - Titel des Programms
-* `${.role:"1d1f05ea-43ff-4399-81d9-f00239460700":"fullname"}` - vollständiger Name der Rolle
-1d1f05ea-43ff-4399-81d9-f00239460700
-
+* `${.person:"836b4aa3-b5c6-4529-b30d-4501594cdf13":"nickname"}` - Pseudonim osoby o podanym identyfikatorze GUID
+* `${.person:"3342a0e3-66f3-4f30-922c-ebe1b0611a00":"age"}` - Wiek osoby
+* `${.programme:"04439fd1-e89f-4922-a48e-6f8ddf96f7ab":"episodecount"}` - Liczba odcinków serialu
+* `${.programme:"35190c1d-aa55-4e84-967f-72a374e84dcf":"year"}` - Rok publikacji programu
+* `${.programme:"02d0dfa5-dbcf-40b5-abb4-7e20a58d8efa":"cast":1:"fullname"}` - Pełna nazwa obsady z indeksem 1 (podobnie jak w przypadku odniesień do własnej obsady, indeks 0 jest zazwyczaj pierwszym wpisem na liście).
+* `${.programme:"a61e7775-7565-48cd-ab4a-e5faea09d70d":"title"}` - Tytuł programu
+* `${.role:"1d1f05ea-43ff-4399-81d9-f00239460700":"fullname"}` - Pełna nazwa stanowiska 1d1f05ea-43ff-4399-81d9-f00239460700
 
 
-### Zeichenkettenoperationen
 
-Mit `.ucfirst:parameter` kann mann den ersten Buchstaben des Parameters in einen Großbuchstaben umwandeln.
-Das ist hilfreich, wenn man Wörter für Satzanfang und Satzinneres nicht in zwei Varianten definieren möchte.
+### Operacje na ciągach znaków
+
+Za pomocą `.ucfirst:parameter` można przekonwertować pierwszą literę parametru na wielką literę.
+Jest to przydatne, jeśli nie chcesz definiować słów dla początku i końca zdania w dwóch wariantach.

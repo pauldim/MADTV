@@ -1,6 +1,6 @@
-# Nachrichten (news)
+# Wiadomości (news)
 
-Die Nachrichteneinträge sind als Liste von `news`-Kindelementen in das `allnews`-Tag eingebettet.
+Wpisy wiadomości są osadzone w tagu `allnews` jako lista elementów podrzędnych `news`.
 
 ```XML
 <allnews>
@@ -8,10 +8,12 @@ Die Nachrichteneinträge sind als Liste von `news`-Kindelementen in das `allnews
 			<title>
 				<de>Straßenfeger findet 1.000 Mark</de>
 				<en>Street sweeper finds 1,000 marks</en>
+				<pl>Zamiatacz ulic znajduje 1 000 marek</pl>
 			</title>
 			<description>
 				<de>Besser hätte der Morgen ...</de>
 				<en>The morning couldn't ...</en>
+				<pl>Poranek nie mógł ...</pl>
 			</description>
 			<effects>
 				<effect trigger="happen" type="triggernews" news="X-news-geld2" time="1,10,15" />
@@ -22,18 +24,20 @@ Die Nachrichteneinträge sind als Liste von `news`-Kindelementen in das `allnews
 </allnews>
 ```
 
-Diese bis 2001 verfügbare (`year_range_to`) überteuerte (`price`) Tagesgeschehennachricht (`genre`) von niedriger Qualität (`quality`) hat deutsche und englische Titel und Nachrichtentexte (`title`, `description`) und stößt (`effect`) in 10 bis 15 Stunden (`time`) die Nachfolgenachricht mit der GUID X-news-geld2 an.
-(In diesem aus der Datenbank leicht angepassten Beispiel hätte man auch die Jahresbeschränkung weglassen und stattdessen die Währung über die globale Währungsvariable verwenden können.)
+Dostępny do 2001 roku (`year_range_to`), ten przeceniony (`price`) codzienny news (`gatre`) o niskiej jakości (`quality`) ma niemieckie, angielskie i polskie tytuły i teksty newsów (`title`, `description`) i wywołuje (`effect`) wiadomość follow-up z GUID X-news-geld2 w ciągu 10 do 15 godzin (`time`).
+(W tym przykładzie, który został nieznacznie zaadaptowany z bazy danych, ograniczenie roku mogło również zostać pominięte, a waluta użyta za pośrednictwem globalnej zmiennej waluty).
 
-## Eigenschaften von news
 
-| Name | Art | Beschreibung |
+
+## Właściwości wiadomości
+
+| Nazwa | Typ | Opis |
 | ---- | --- |------------- |
-| guid | Pflicht | [GUID](main.md#guid), insb. für Referenzierung bei Nachfolgenachrichten |
-| type | Pflicht | Nachrichtentyp; siehe unten 0=Startnachricht, 2=Nachfolgenachricht |
-| thread_guid | optional | GUID des Nachrichtenthemas - Nachrichten die zusammengehören |
-| creator | Metadaten optional | [Standardeigenschaft](main.md#creator) |
-| created_by | Metadaten optional | [Standardeigenschaft](main.md#created_by) |
+| guid | Obowiązkowe | [GUID](main.md#guid), insb. für Referenzierung bei Nachfolgenachrichten |
+| type | Obowiązkowe | Nachrichtentyp; siehe unten 0=Startnachricht, 2=Nachfolgenachricht |
+| thread_guid | opcjonalny | GUID des Nachrichtenthemas - Nachrichten die zusammengehören |
+| creator | Metadaten opcjonalny | [Standardeigenschaft](main.md#creator) |
+| created_by | Metadaten opcjonalny | [Standardeigenschaft](main.md#created_by) |
 | comment |  informativ  |[Standardeigenschaft](main.md#comment) |
 
 ### Bedeutung der `thread_guid`
@@ -60,16 +64,16 @@ Wenn die Variablendefinitionen der aktuellen und der Vorgängernachricht nicht z
 
 ### Daten (data)
 
-| Name | Art | Beschreibung |
+| Nazwa | Typ | Opis |
 | ---- | --- |------------- |
-| genre | Pflicht | Genre; Werte 0-5, siehe unten |
-| price | Pflicht | Preis*faktor*; z.B. 1, 0.4, 0.9 oder 1.5 |
-| quality | Pflicht* | Qualität; Werte nat. Zahlen 0-100 |
-| flags | optional | siehe unten; häufigster Anwendungsfall "2": Nachricht steht nur einmalig zur Verfügung |
-| happen_time | optional | Nachricht muss zur definierten [Zeit](time.md#Zeitattribute) erscheinen |
-| min_subscription_level | optional | Abolevel (1,2,3), ab dem die Nachricht verfügbar ist |
-| keywords | optional | Schlüsselbegriffe, die durch die KI für die Erkennung von Nachrichten von Nachrichten verwendet werden kann |
-| available | optional |  Wahrheitswert - ist die Nachricht verfügbar |
+| genre | Obowiązkowe | Genre; Werte 0-5, siehe unten |
+| price | Obowiązkowe | Preis*faktor*; z.B. 1, 0.4, 0.9 oder 1.5 |
+| quality | Obowiązkowe* | Qualität; Werte nat. Zahlen 0-100 |
+| flags | opcjonalny | siehe unten; häufigster Anwendungsfall "2": Nachricht steht nur einmalig zur Verfügung |
+| happen_time | opcjonalny | Nachricht muss zur definierten [Zeit](time.md#Zeitattribute) erscheinen |
+| min_subscription_level | opcjonalny | Abolevel (1,2,3), ab dem die Nachricht verfügbar ist |
+| keywords | opcjonalny | Schlüsselbegriffe, die durch die KI für die Erkennung von Nachrichten von Nachrichten verwendet werden kann |
+| available | opcjonalny |  Wahrheitswert - ist die Nachricht verfügbar |
 | fictional | informativ | [Standardeigenschaft](main.md#fictional) |
 
 Anstelle von `quality` können auch `quality_min`, `quality_max` und `quality_slope` definiert werden.
