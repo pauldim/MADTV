@@ -20,89 +20,89 @@ Lokalizacja nazw osobowych lub ról filmowych jest możliwa w [oddzielnych plika
 | Nazwa | Typ | Opis |
 | ---- | --- |------------- |
 | guid | Obowiązkowe | [GUID](main.md#guid), insb. für Referenzierung bei Filmen etc. |
-| first_name | Obowiązkowe* | Vorname |
-| last_name | Obowiązkowe* | Nachname |
-| nick_name | optional | Spitzname |
-| title | optional | Titel |
-| gender | optional | [Geschlecht](main.md#Geschlecht) |
-| job | optional | (aktuell) ausgeübte [Berufe](main.md#Job) |
-| country | optional | [Herkunftsland](main.md#Länder) |
-| first_name_original | informativ | wenn es ein echtes Vorbild gibt - der ursprüngliche Vorname |
-| last_name_original | informativ |  wenn es ein echtes Vorbild gibt - der ursprüngliche Nachname |
-| nick_name_original | informativ |  wenn es ein echtes Vorbild gibt - der ursprüngliche Spitzname |
-| title_original | informativ |  wenn es ein echtes Vorbild gibt - der ursprüngliche Titel |
-| fictional | optional | [Standardeigenschaft](main.md#fictional) |
-| levelup | optional | Wahrheitswert - kann die Person eine "Hauptperson" werden (Standardwert 1) |
-| castable | optional | Wahrheitswert - kann die Person generell in einer Produktion mitwirken |
-| face_code | optional | definiertes Aussehen des Avatars |
-| generator | optional | Anweisungen für automatischen Attributerzeugung (Name, Vorname, Herkunftsland) |
-| tmdb_id | Metadaten optional |  [Standardeigenschaft](main.md#tmdb_id) |
-| imdb_id | Metadaten optional | [Standardeigenschaft](main.md#imdb_id) |
-| creator | Metadaten optional | [Standardeigenschaft](main.md#creator) |
-| created_by | Metadaten optional | [Standardeigenschaft](main.md#created_by) |
-| comment |  informativ  |[Standardeigenschaft](main.md#comment) |
+| first_name | Obowiązkowe* | Imię |
+| last_name | Obowiązkowe* | Nazwisko |
+| nick_name | opcjonalny | Pseudonim|
+| title | opcjonalny | Tytuł |
+| gender | opcjonalny | [Płeć](main.md#Geschlecht) |
+| job | opcjonalny | (obecnie) wykonywane [Zawody](main.md#Job) |
+| country | opcjonalny | [Kraj pochodzenia](main.md#Länder) |
+| first_name_original | informacyjny | jeśli istnieje prawdziwy wzór do naśladowania - oryginalne imię |
+| last_name_original | informacyjny |  jeśli istnieje prawdziwy wzór do naśladowania - oryginalne nazwisko |
+| nick_name_original | informacyjny |  jeśli istnieje prawdziwy wzór do naśladowania - oryginalny pseudonim |
+| title_original | informacyjny |  jeśli istnieje prawdziwy wzór do naśladowania - oryginalny tytuł |
+| fictional | opcjonalny | [Standardowa właściwość](main.md#fictional) |
+| levelup | opcjonalny | Wartość prawdy - czy dana osoba może zostać "główną osobą" (wartość domyślna 1) |
+| castable | opcjonalny | Wartość prawdy - czy dana osoba może ogólnie uczestniczyć w produkcji? |
+| face_code | opcjonalny | Zdefiniowany wygląd awatara |
+| generator | opcjonalny | Instrukcje dotyczące automatycznego generowania atrybutów (nazwisko, imię, kraj pochodzenia) |
+| tmdb_id | Metadaten opcjonalny |  [Standardowa właściwość](main.md#tmdb_id) |
+| imdb_id | Metadaten opcjonalny | [Standardowa właściwość](main.md#imdb_id) |
+| creator | Metadaten opcjonalny | [Standardowa właściwość](main.md#creator) |
+| created_by | Metadaten opcjonalny | [Standardowa właściwość](main.md#created_by) |
+| comment |  informacyjny  |[Standardowa właściwość](main.md#comment) |
 
-Der Standardwert für `castable` (bis Version 0.8.2 `bookable`) ist "1".
-Grundsätzlich sind aber nur fiktionale Personen in Eigenproduktionen einsetzbar.
-Das Programm unterscheidet für die Einsatzbarkeit zwischen `castable` (grundsätzlich) und `bookable` (zum jetzigen Zeitpunkt).
+Domyślną wartością dla "castable" (do wersji 0.8.2 "bookable") jest "1".
+Zasadniczo jednak tylko postacie fikcyjne mogą być wykorzystywane w produkcjach wewnętrznych.
+Program rozróżnia "castable" (w zasadzie) i "bookable" (obecnie).
 
-`generator` wird nur selten benutzt, der Wert enthält kommasepariert ein Länderkürzel und das Geschlecht für die Bestimmung des Namens.
-Beispiel `generator="de,2"` für eine deutsche Frau.
-Siehe auch die Beschreibung zum Personengenerator in den [Variablen](variables.md).
+`generator` jest rzadko używany, wartość zawiera oddzielony przecinkami skrót kraju i płeć do określenia nazwy.
+Przykład `generator="de,2"` dla Niemki.
+Zobacz także opis generatora osób w [zmienne](variables.md).
 
-## Kindelemente von person
+## Rodzaje osób
 
-Für die bessere Lesbarkeit sind bei [Hauptpersonen](persons.md#Hauptpersonen) manchmal auch `first_name`, `last_name`, `nick_name`, `title` und deren original-Versionen als Kindelemente angegeben.
+Dla lepszej czytelności, [główne osoby](persons.md#main_persons) czasami zawiera także `first_name`, `last_name`, `nick_name`, `title` i ich oryginalne wersje jako elementy potomne.
 
-### Details (details)
+### Szczegóły (details)
 
-Die meisten der Felder lassen sich auch direkt als Personenattribut angeben.
-Im `details`-Knoten sind sie vorrangig zur besseren Lesbarkeit bei [Hauptpersonen](persons.md#Hauptpersonen) verfügbar.
-
-| Nazwa | Typ | Opis |
-| ---- | --- |------------- |
-| job | optional | (aktuell) ausgeübte [Berufe](main.md#Job) |
-| gender | optional | [Geschlecht](main.md#Geschlecht) |
-| birthday | optional | Geburtstag |
-| deathday | optional | Todestag |
-| fictional | informativ | [Standardeigenschaft](main.md#fictional) |
-| country | optional |[Herkunftsland](main.md#Länder) |
-| face_code | optional | definiertes Aussehen des Avatars |
-
-Beispiel `<details job="2" gender="1" birthday="1970-08-23" deathday="1993-10-31" country="US" />` - US-amerikanischer Schauspieler, der vom 23.8.1970 bis zum 31.10.1993 gelebt hat.
-
-Ab Version 0.8.2 werden auch relative (negative) Jahresangaben z.B. für das Geburtsjahr unterstützt.
-Das ist für fiktionale Personen interessant, die unabhängig vom Startjahr des Spiels gleich alt sein sollen.
-`birthday="-31-03-02"` würde also 31 Jahre vor dem Startjahr bedeuten.
-
-### Daten (data)
-
-Diese Daten definieren insbesondere die Werte für Eignung für eine Besetzung.
-Wo nicht anders angegeben sind die möglichen Werte zwischen 0 und 100 (Prozent).
+Większość pól można również określić bezpośrednio jako atrybut osoby.
+W węźle `details` są one dostępne głównie w [Główne osoby](persons.md#Main persons) dla lepszej czytelności.
 
 | Nazwa | Typ | Opis |
 | ---- | --- |------------- |
-| topgenre | optional | [Hauptgenre](main.md#Genre) |
-| price_mod | optional | Preisfaktor (Zahl mit Nachkommastellen um 1 herum) |
-| affinity | optional | Affinität |
-| charisma | optional | Charisma |
-| humor | optional | Humor |
-| power | optional | Kraft |
-| appearance | optional | Aussehen |
-| fame | optional | Berühmtheit |
-| scandalizing | optional | Tendenz Skandale zu verursachen |
-| popularity | optional | Beliebtheit |
-| popularity_target | optional | Langzeitbeliebtheit |
+| job | opcjonalny | (obecnie) wykonywane [zawody](main.md#Job) |
+| gender | opcjonalny | [Płeć](main.md#Geschlecht) |
+| birthday | opcjonalny | Urodziny |
+| deathday | opcjonalny | Rok śmierci |
+| fictional | informacyjny | [Standardowa właściwość](main.md#fictional) |
+| country | opcjonalny |[Kraj pochodzenia](main.md#Kraje) |
+| face_code | opcjonalny | Zdefiniowany wygląd awatara |
 
-Beispiel `<data popularity="20" affinity="50" fame="20" scandalizing="0" price_mod="0.7" power="0" humor="9" charisma="11" appearance="21" topgenre="0" />`
+Przykład `<details job="2" gender="1" birthday="1970-08-23" deathday="1993-10-31" country="US" />` - Amerykański aktor, który żył od 23 sierpnia 1970 roku do 31 października 1993 roku.
 
-Die Langzeitbeliebtheit wird in der Datenbank noch nicht verwendet.
+Od wersji 0.8.2 obsługiwane są również lata względne (ujemne), np. dla roku urodzenia.
+Jest to interesujące dla postaci fikcyjnych, które powinny być w tym samym wieku niezależnie od roku rozpoczęcia gry.
+`birthday="-31-03-02"` oznaczałoby więc 31 lat przed rokiem początkowym.
 
-## Hauptpersonen
+### dane (data)
 
-Hauptpersonen sind als Liste von `person`-Kindelementen in das `celebritypeople`-Tag eingebettet.
-Es werden alle oben genannten Eigenschaften und Kindelemente unterstützt.
-Zu beachten ist, dass nur fiktive Hauptpersonen unmittelbar zum Spielbeginn in ihren Berufen für die Besetzung in Produktionen zur Verfügung stehen.
+Dane te określają w szczególności wartości przydatności do spotkania.
+O ile nie określono inaczej, możliwe wartości wynoszą od 0 do 100 (procent).
+
+| Nazwa | Typ | Opis |
+| ---- | --- |------------- |
+| topgenre | opcjonalny | [Gatunek główny](main.md#Gatunek_główny) |
+| price_mod | opcjonalny | Współczynnik ceny (liczba z miejscami dziesiętnymi wokół 1) |
+| affinity | opcjonalny | Affinity |
+| charisma | opcjonalny | Charisma |
+| humor | opcjonalny | Humor |
+| power | opcjonalny | Moc |
+| appearance | opcjonalny | Wygląd |
+| fame | opcjonalny | Celebryta |
+| scandalizing | opcjonalny | Tendencja do wywoływania skandali |
+| popularity | opcjonalny | Popularność |
+| popularity_target | opcjonalny | Długoterminowa popularność|
+
+Przykład `<data popularity="20" affinity="50" fame="20" scandalizing="0" price_mod="0.7" power="0" humor="9" charisma="11" appearance="21" topgenre="0" />`
+
+Długoterminowa popularność nie jest jeszcze wykorzystywana w bazie danych.
+
+## Główne postacie
+
+Główne osoby są osadzone w tagu `celebritypeople` jako lista elementów podrzędnych `person`.
+Wszystkie powyższe właściwości i elementy podrzędne są obsługiwane.
+Należy zauważyć, że tylko fikcyjne główne postacie są dostępne w swoich profesjach do obsadzenia w produkcjach bezpośrednio na początku gry.
 
 ```XML
 <celebritypeople>
@@ -121,9 +121,9 @@ Zu beachten ist, dass nur fiktive Hauptpersonen unmittelbar zum Spielbeginn in i
 
 ## Postacie_drugoplanowe
 
-Nebenpersonen sind als Liste von `person`-Kindelementen in das `insignificantpeople`-Tag eingebettet.
-Es werden nur die wichtigsten Eigenschaften definert; insb. gibt es hier keine weiteren Kindknoten unterhalb von `person`.
-Fiktive Nebenpersonen stehen als als Laien für Produktionen zur Verfügung, können im Spielverlauf dann aber zu Hauptpersonen aufsteigen.
+Osoby drugorzędne są osadzone jako lista elementów podrzędnych `person` w tagu `insignificantpeople`.
+Definiowane są tylko najważniejsze właściwości; w szczególności, nie ma dalszych węzłów podrzędnych poniżej `person`.
+Fikcyjne postacie drugoplanowe są dostępne jako laicy w produkcjach, ale mogą zostać awansowane na główne postacie w trakcie gry.
 
 ```XML
 <insignificantpeople>
@@ -133,12 +133,12 @@ Fiktive Nebenpersonen stehen als als Laien für Produktionen zur Verfügung, kö
 </insignificantpeople>
 ```
 
-Die erste Person ist eine ausgedachte Schottin, die zweite eine deutsche Frau Mueller, deren Vorname zufällig ausgewählt wird.
+Pierwszą osobą jest zmyślona Szkotka, a drugą niemiecka pani Mueller, której imię jest wybierane losowo.
 
-## Filmrollen
+## Role_filmowe
 
-Filmrollen sind in Programmen dargestellte Personen.
-Sie sind als Liste von `programmerole`-Kindelementen in das `programmeroles`-Tag eingebettet.
+Role filmowe to osoby przedstawiane w programach.
+Są one osadzone w tagu `programmeroles` jako lista elementów potomnych `programmerole`.
 
 ```XML
 <programmeroles>
@@ -148,22 +148,22 @@ Sie sind als Liste von `programmerole`-Kindelementen in das `programmeroles`-Tag
 </programmeroles>
 ```
 
-Die folgendenen Felder sollten definiert werden
+Należy zdefiniować następujące pola
 
 | Nazwa | Typ | Opis |
 | ---- | --- |------------- |
-| guid | Obowiązkowe | [GUID](main.md#guid), insb. für Referenzierung bei Drehbuchvorlagen etc. |
-| first_name | Obowiązkowe* | Vorname |
-| last_name | Obowiązkowe* | Nachname |
-| nick_name | optional | Spitzname |
-| title | optional | Titel (Dr. etc) |
-| gender | optional | [Geschlecht](main.md#Geschlecht) |
-| country | optional | [Herkunftsland](main.md#Länder) |
-| fictional | optional | [Standardeigenschaft](main.md#fictional) |
+| guid | Obowiązkowe | [GUID](main.md#guid), zwłaszcza do odwoływania się do szkiców scenariuszy itp. |
+| first_name | Obowiązkowe* | Imię |
+| last_name | Obowiązkowe* | Nazwisko |
+| nick_name | opcjonalny | Pseudonim |
+| title | opcjonalny | Tytuł (Dr itp) |
+| gender | opcjonalny | [Płeć](main.md#Płeć) |
+| country | opcjonalny | [Kraj pochodzenia](main.md#Kraje) |
+| fictional | opcjonalny | [Standardowa właściwość](main.md#fictional) |
 
-## TODOs und Fragen
+## DO ZROBIENIA i pytania
 
-### Generell
+### Ogólne
 
-* data klären - werden diese Werte als Basis genommen und dann gewürfelt?
-* data beim Einlesen werden auch min/max-Werte (noch keine Grammatikunterstützung)
+* dane - czy te wartości są traktowane jako podstawa, a następnie rolowane?
+* dane podczas wczytywania również wartości min/max (brak obsługi gramatyki)

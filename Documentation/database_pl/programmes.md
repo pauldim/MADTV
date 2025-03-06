@@ -237,17 +237,21 @@ Aby to zrobić, program bazowy jest przywoływany za pomocą `programmedata_id`.
 </programme>
 ```
 
-## Beispiele
+## Przykłady
 
-### minimal 
+### minimalne 
 
 ```XML
 <programme guid="auth-programme-test" product="1" licence_type="1" created_by="documentation">
 	<title>
 		<de>Reißerischer Titel</de>
+		<de>Ripping title</de>
+		<pl>Tytuł zgrywania</pl>
 	</title>
 	<description>
 		<de>Ansprechende Beschreibung.</de>
+		<en>Attractive description.</en>
+		<pl>Atrakcyjny opis.</pl>
 	</description>
 	<staff>
 		<member index="0" function="1">PersonGUID</member>
@@ -267,11 +271,13 @@ Chociaż krytycy nie byli przekonani, a film jest śmiertelnie nudny, odniósł 
 <programme guid="7ad20bf5-c4c6-4237-b52a-b7b189ede0bf" product="7" licence_type="3" tmdb_id="0" imdb_id="" creator="5578" created_by="Ronny">
 	<title>
 		<de>Rolf Krall besucht...</de>
-		<en></en>
+		<en>Rolf Krall visits...</en>
+		<pl>Rolf Krall odwiedza...</pl>
 	</title>
 	<description>
 		<de>Der bekannte Moderator [1|Full] ...</de>
-		<en></en>
+		<en>Well-known presenter [1|Full] ...</en>
+		<pl>Znany prezenter [1|Full] ...</pl>
 	</description>
 	<staff>
 		<member index="0" function="1">3bb46451-4b1c-4ae7-90a4-8dbbe66f3bd1</member>
@@ -285,10 +291,13 @@ Chociaż krytycy nie byli przekonani, a film jest śmiertelnie nudny, odniósł 
 		<programme guid="8258fb18-d138-49b4-b07c-0519eec12d2c" product="7" licence_type="2" tmdb_id="0" imdb_id="" creator="5578" created_by="Ronny">
 			<title>
 				<de>Rolf Krall besucht... Madame Krussaud</de>
-				<en></en>
+				<en>Rolf Krall visits... Madame Krussaud</en>
+				<pl>Rolf Krall odwiedza... Madame Krussaud</pl>
 			</title>
 			<description>
 				<de>Im Schatten ihrer Schwester ...</de>
+				<en>In the shadow of his sister ...</en>
+				<pl>W cieniu swojej siostry ...</pl>
 				<en></en>
 			</description>
 			<ratings critics="28" speed="32" />

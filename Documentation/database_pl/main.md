@@ -638,7 +638,7 @@ Wartości odpowiednich grup są sumowane.
 
 | Wartość | Znaczenie |
 | ---- | --------- |
-| 0 | wszystko |
+| 0 | Wszyscy |
 | 1 | Dzieci |
 | 2 | Nastolatki |
 | 4 | Gospodynie domowe - "Kury domowe"|
@@ -647,7 +647,7 @@ Wartości odpowiednich grup są sumowane.
 | 32 | Menedżer |
 | 64 | Emeryt |
 | 128 | Kobiety |
-| 256 | mężczyźni |
+| 256 | Mężczyźni |
 
 (Kod źródłowy: `TVTTargetGroup`)
 

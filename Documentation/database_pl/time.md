@@ -1,6 +1,6 @@
 # Zeitsteuerung
 
-## Zeitattribute
+## Atrybuty_czasu
 
 Zeitattribute haben als Wert eine kommaseparierte Liste von Zahlen.
 Dabei definierte die erste Zahl die Art der Zeitberechnung und welche Bedeutung die nachfolgenden Werte haben.

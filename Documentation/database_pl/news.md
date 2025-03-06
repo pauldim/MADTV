@@ -24,7 +24,7 @@ Wpisy wiadomości są osadzone w tagu `allnews` jako lista elementów podrzędny
 </allnews>
 ```
 
-Dostępny do 2001 roku (`year_range_to`), ten przeceniony (`price`) codzienny news (`gatre`) o niskiej jakości (`quality`) ma niemieckie, angielskie i polskie tytuły i teksty newsów (`title`, `description`) i wywołuje (`effect`) wiadomość follow-up z GUID X-news-geld2 w ciągu 10 do 15 godzin (`time`).
+Dostępny do 2001 roku (`year_range_to`), ten przeceniony (`price`) codzienny news (`genre`) o niskiej jakości (`quality`) ma niemieckie, angielskie i polskie tytuły i teksty newsów (`title`, `description`) i wywołuje (`effect`) wiadomość follow-up z GUID X-news-geld2 w ciągu 10 do 15 godzin (`time`).
 (W tym przykładzie, który został nieznacznie zaadaptowany z bazy danych, ograniczenie roku mogło również zostać pominięte, a waluta użyta za pośrednictwem globalnej zmiennej waluty).
 
 
@@ -33,81 +33,83 @@ Dostępny do 2001 roku (`year_range_to`), ten przeceniony (`price`) codzienny ne
 
 | Nazwa | Typ | Opis |
 | ---- | --- |------------- |
-| guid | Obowiązkowe | [GUID](main.md#guid), insb. für Referenzierung bei Nachfolgenachrichten |
-| type | Obowiązkowe | Nachrichtentyp; siehe unten 0=Startnachricht, 2=Nachfolgenachricht |
-| thread_guid | opcjonalny | GUID des Nachrichtenthemas - Nachrichten die zusammengehören |
-| creator | Metadaten opcjonalny | [Standardeigenschaft](main.md#creator) |
-| created_by | Metadaten opcjonalny | [Standardeigenschaft](main.md#created_by) |
-| comment |  informativ  |[Standardeigenschaft](main.md#comment) |
+| guid | Obowiązkowe | [GUID](main.md#guid), szczególnie w przypadku odwoływania się w kolejnych wiadomościach |
+| type | Obowiązkowe | Typ wiadomości; patrz poniżej 0=wiadomość początkowa, 2=wiadomość uzupełniająca |
+| thread_guid | opcjonalny | GUID tematu wiadomości - wiadomości, które należą do siebie |
+| creator | Metadane opcjonalne | [Standardowa właściwość](main.md#creator) |
+| created_by | Metadane opcjonalne | [Standardowa właściwość](main.md#created_by) |
+| comment |  informativ  |[Standardowa właściwość](main.md#comment) |
 
-### Bedeutung der `thread_guid`
+### Znaczenie `thread_guid`
 
-Bis Version 0.8.0 war der Wert rein informativ und wurde nicht ausgewertet
-Eine (identische) `thread_guid` wurde typischerweise für Nachrichten einer zusammengehörigen Nachrichtenkette mit Startnachricht und Nachfolgenachrichten vergeben.
-Ab Version 0.8.1 bekommt die `thread_guid` eine weitere wichtige Bedeutung.
+Do wersji 0.8.0 wartość ta miała charakter czysto informacyjny i nie była analizowana
+(Identyczny) `thread_guid` był zwykle przypisywany do wiadomości powiązanego łańcucha wiadomości z wiadomością początkową i kolejnymi wiadomościami.
+Od wersji 0.8.1, `thread_guid` ma inne ważne znaczenie.
 
-Nachrichten sind analog Drehbuchvorlagen eigentlich Vorlagen, aus denen die eigentlich ausstrahlbaren Nachrichten erzeugt werden.
-Das Spiel markiert eine Vorlage, um sie nicht zu schnell wiederzuverwenden.
-Ab Version 0.8.1 wird zusätlich die `thread_guid` markiert.
+Podobnie jak szablony skryptów, wiadomości są w rzeczywistości szablonami, z których tworzone są wiadomości, które mogą być faktycznie nadawane.
+Gra oznacza szablon, aby nie został zbyt szybko ponownie użyty.
+Od wersji 0.8.1, oznaczony jest również `thread_guid`.
 
-Wenn sich also zwei Startnachrichten dieselbe `thread_guid` teilen, blockiert die Auswahl der einen Nachricht die andere.
-Auf diese Weise kann erreicht werden, dass nicht zu viele Nachrichten zum selben Thema gleichzeitig erscheinen.
+Jeśli więc dwie wiadomości startowe mają ten sam `thread_guid`, wybór jednej z nich blokuje drugą.
+Gwarantuje to, że nie pojawi się zbyt wiele wiadomości na ten sam temat w tym samym czasie.
 
-## Kindelemente von news
+## Elementy podrzędne wiadomości
 
-Standardelemente für Titel [title](main.md#title), Beschreibung [description](main.md#description) sind sinnvollerweise zu definieren, Variablen [variables](variables.md) sind nötig, wenn sie in Titel oder Beschreibung verwendet werden sollen und mit (zeitlicher) Verfügbarkeit [availability](time.md#Verfügbarkeit) kann man steuern, wann die Nachrichten veröffentlicht werden können.
+Standardowe elementy dla tytułu [title](main.md#title), opisu [description](main.md#description) są przydatne do zdefiniowania, zmienne [variables](variables.md) są niezbędne, jeśli mają być użyte w tytule lub opisie, a dzięki (czasowej) dostępności [availability](time.md#availability) można kontrolować, kiedy wiadomości mogą być publikowane.
 
-Ab Version 0.8.1 werden die Variablen an angestoßene Nachrichten weitergegeben.
-Das erlaubt es, Nachrichtenketten abwechslungsreicher zu gestalten, da gewürfelte Namen etc. damit auch in späteren Nachrichten konsistent verwendet werden können.
-Dafür sollten alle verwendeten Variablen in der Startnachricht definiert werden.
-Wenn die Variablendefinitionen der aktuellen und der Vorgängernachricht nicht zusammen passen, kann es zum Programmabruch kommen.
+Od wersji 0.8.1 zmienne są przekazywane do wyzwalanych wiadomości.
+Dzięki temu łańcuchy wiadomości mogą być bardziej zróżnicowane, ponieważ nazwy kostek itp. mogą być również konsekwentnie używane w późniejszych wiadomościach.
+Aby to zrobić, wszystkie używane zmienne powinny być zdefiniowane w komunikacie startowym.
+Jeśli definicje zmiennych w bieżącym i poprzednim komunikacie nie są zgodne, program może zostać przerwany.
 
-### Daten (data)
+
+
+### Dane (data)
 
 | Nazwa | Typ | Opis |
 | ---- | --- |------------- |
-| genre | Obowiązkowe | Genre; Werte 0-5, siehe unten |
-| price | Obowiązkowe | Preis*faktor*; z.B. 1, 0.4, 0.9 oder 1.5 |
-| quality | Obowiązkowe* | Qualität; Werte nat. Zahlen 0-100 |
+| genre | Obowiązkowe | Gatunek; wartości 0-5, patrz poniżej |
+| price | Obowiązkowe | Cena*współczynnik*; np. 1, 0,4, 0,9 lub 1,5 |
+| quality | Obowiązkowe* | Jakość; wartości nat. liczby 0-100 |
 | flags | opcjonalny | siehe unten; häufigster Anwendungsfall "2": Nachricht steht nur einmalig zur Verfügung |
-| happen_time | opcjonalny | Nachricht muss zur definierten [Zeit](time.md#Zeitattribute) erscheinen |
-| min_subscription_level | opcjonalny | Abolevel (1,2,3), ab dem die Nachricht verfügbar ist |
-| keywords | opcjonalny | Schlüsselbegriffe, die durch die KI für die Erkennung von Nachrichten von Nachrichten verwendet werden kann |
-| available | opcjonalny |  Wahrheitswert - ist die Nachricht verfügbar |
-| fictional | informativ | [Standardeigenschaft](main.md#fictional) |
+| happen_time | opcjonalny | Wiadomość musi zostać wysłana do zdefiniowanego czasu [Czas](time.md#Atrybuty_czasu) pojawiania się |
+| min_subscription_level | opcjonalny | Poziom subskrypcji (1,2,3), z którego wiadomość jest dostępna |
+| keywords | opcjonalny | Kluczowe terminy, które mogą być używane przez sztuczną inteligencję do rozpoznawania wiadomości z wiadomości |
+| available | opcjonalny |  Wartość prawdy - czy wiadomość jest dostępna |
+| fictional | informativ | [Standardowa właściwość](main.md#fictional) |
 
-Anstelle von `quality` können auch `quality_min`, `quality_max` und `quality_slope` definiert werden.
-Dadurch erhält die Nachricht eine zufällige Qualität im Bereich zwischen min und max (siehe auch [Drehbuchwerte](scripts.md#zufalls-werte-für-das-drehbuch-und-ergebnis)).
+Zamiast `quality` można również zdefiniować `quality_min`, `quality_max` i `quality_slope`.
+Daje to wiadomości losową jakość w zakresie od min do max (zobacz także [script-values](scripts.md#losowe_wartości_dla_skryptu_i_wyniku)).
 
-Die Eigenschaft `available` ist im Zusammenhang mit dem Effekttyp `modifyNewsAvailability` interessant.
-Man kann einen Nachrichtenstrang initial deaktiviert anlegen und ihn dann durch eine andere Nachricht aktivieren.
+Właściwość `available` jest interesująca w połączeniu z typem efektu `modifyNewsAvailability`.
+Można utworzyć ciąg wiadomości, który jest początkowo nieaktywny, a następnie aktywować go inną wiadomością.
 
-Im Gegensatz zur Verfügbarkeit (`availability`), die steuert, wann eine Nachricht erscheinen könnte, wird die Veröffentlichung durch `happen_time` erzwungen; ist aber nur für Erstnachrichten sinnvoll, da Nachfolgenachrichten durch die im Effekt definierte Zeit gesteuert werden können.
+W przeciwieństwie do dostępności (`availability`), która kontroluje, kiedy wiadomość może się pojawić, publikacja jest wymuszana przez `happen_time`; ma to jednak sens tylko dla początkowych wiadomości, ponieważ kolejne wiadomości mogą być kontrolowane przez czas zdefiniowany w efekcie.
 
-Beispiel: `... happen_time="4,1995,3,7,14,25"...`
+Przykład: `... happen_time="4,1995,3,7,14,25"...`
 
-`keywords` wird aktuell für die Terroristen betreffende Nachrichten und Wetterberichte verwendet.
-In der Datenbank werden sie noch nicht vergeben, könnten dann für Erfolge genutzt werden.
+`keywords` jest obecnie używany do wiadomości związanych z terroryzmem i raportów pogodowych.
+Nie są one jeszcze przypisane do bazy danych, ale mogą zostać wykorzystane do osiągnięcia sukcesu.
 
-### Effekte (effects)
+### Efekty (effects)
 
-Das dürfte das interessanteste Element für die Nachrichten sein, denn über die Effekte lassen sich z.B. Nachfolgenachrichten anstoßen oder die Beliebtheit von Genre oder Personen beeinflussen.
-Die Syntax ist für Nachrichten-/Programm-/Drehbucheffekte gleich ([Effekte](main.md#effects)).
+Jest to prawdopodobnie najbardziej interesujący element dla wiadomości, ponieważ efekty mogą być wykorzystywane, na przykład, do wywoływania kolejnych wiadomości lub wpływania na popularność gatunków lub osób.
+Składnia jest taka sama dla efektów wiadomości/programu/scenariusza ([Efekty](main.md#effects)).
 
-Für Nachrichteneffekte werden die folgenden Trigger unterstützt
+Dla efektów wiadomości obsługiwane są następujące wyzwalacze
 
-* `happen`- der Effekt tritt in jedem Fall ein; z.B. Nachfolgenachrichten erscheinen, selbst wenn niemand die Nachricht gesendet hat.
-* `broadcast` - der Effekt tritt zu Beginn *jeder einzelnen* Ausstrahlung ein
-* `broadcastDone` - der Effekt tritt am Ende *jeder einzelnen* Ausstrahlung ein
-* `broadcastFirstTime` - der Effekt tritt ein, sobald die Nachricht das erst Mal gesendet wird
-* `broadcastFirstTimeDone` - der Effekt tritt am Ende der ersten Ausstrahlung ein (pro gestarteter Nachrichtenkette, also nicht nur einmal über die gesamte Spielzeit)
+* `happen`- efekt występuje w każdym przypadku; np. wiadomości uzupełniające pojawiają się, nawet jeśli nikt nie wysłał wiadomości.
+* `broadcast` - efekt występuje na początku *każdej* emisji
+* `broadcastDone` - efekt występuje pod koniec *każdej* emisji
+* `broadcastFirstTime` - efekt pojawia się, gdy tylko wiadomość zostanie wysłana po raz pierwszy
+* `broadcastFirstTimeDone` - efekt pojawia się na końcu pierwszej transmisji (na rozpoczęty łańcuch wiadomości, tj. nie tylko raz w całym czasie odtwarzania).
 
-`broadcastFirstTime` würde man beispielsweise nutzen, wenn Nachfolgenachrichten nur verfügbar sein sollen, wenn der Auslöser gesendet wurde ("Bürger reagieren schockiert auf die Meldung...").
-Wenn dieselbe Ursprungsnachricht zu einem späteren Zeitpunkt wieder erscheint, greift `broadcastFirstTime`-Effekt erneut.
+`broadcastFirstTime` byłaby używana, na przykład, jeśli wiadomości uzupełniające powinny być dostępne tylko po wysłaniu wyzwalacza ("Obywatele reagują szokiem na wiadomość...").
+Jeśli ta sama oryginalna wiadomość pojawi się ponownie w późniejszym czasie, efekt "broadcastFirstTime" zadziała ponownie.
 
-`broadcast` könnte man nutzen, wenn sich eine Genreattraktivität bei jeder Ausstrahlung ändern soll.
+`broadcast` może być stosowany, jeśli atrakcyjność genu ma się zmieniać z każdą transmisją.
 
-Beispiel:
+Przykład:
 
 ```
 	<effects> 
@@ -116,85 +118,89 @@ Beispiel:
 	</effects>
 ```
 
-### Zielgruppenattraktivität (targetgroupattractivity)
+### Atrakcyjność dla grupy docelowej (targetgroupattractivity)
 
-Siehe [Standardkindelement](main.md#targetgroupattractivity).
-Aktuell kommen noch keine Beispiele in der Datenbank vor.
+Zobacz [Standard child element](main.md#targetgroupattractivity).
+Obecnie w bazie danych nie ma żadnych przykładów.
 
-### Wertanpassungen (modifiers)
+### Korekty wartości (modifiers)
 
-Siehe [Standardkindelement](main.md#modifiers).
-Aktuell kommen noch keine Beispiele in der Datenbank vor.
+Zobacz [Standardowy element podrzędny](main.md#modifiers).
+Obecnie w bazie danych nie ma żadnych przykładów.
 
-## spezifische Werte für news
+## Konkretne wartości dla wiadomości
 
-| **NewsType** | Bedeutung |
+| **NewsType** | Znaczenie |
 |------------- | --------- |
-| 0 | InitialNews - erste Nachricht einer Kette |
-| 1 | InitialNewsByInGameEvent - erste Nachricht durch Spiel ausgelöst |
-| 2 | FollowingNews - Nachfolgenachricht |
-| 3 | TimedNews - zeitgesteuerte Nachricht |
+| 0 | InitialNews - pierwsza wiadomość łańcucha |
+| 1 | InitialNewsByInGameEvent - Pierwsza wiadomość wywołana przez grę |
+| 2 | FollowingNews - Wiadomość uzupełniająca |
+| 3 | TimedNews - Komunikat sterowany czasem |
 
-Typ 1 wird nur spielintern verwendet und Typ 3 ist obsolet durch Möglichkeiten, die Verfügbarkeit der Nachrichten zu steuern.
+Typ 1 jest używany tylko w grze, a typ 3 jest przestarzały ze względu na opcje kontrolowania dostępności wiadomości.
 
-| **Genre** | Bedeutung |
+| **Genre** | Znaczenie |
 |---------- | --------- |
-| 0 | Politik/Wirtschaft |
-| 1 | Showbiz |
+| 0 | Polityka/ekonomia |
+| 1 | Showbiznes |
 | 2 | Sport |
-| 3 | Medien/Technik |
-| 4 | Tagesgeschehen |
-| 5 | Kultur |
+| 3 | Media/Technologia |
+| 4 | Sprawy bieżące |
+| 5 | Kultura|
 
-| **NewsFlag** | Bedeutung |
+| **NewsFlag** | Znaczenie |
 |------------- | --------- |
-| 1 | sendImmediately | Nachricht steht ohne Verzögerung bereit |
-| 2 | uniqueEvent | einmalige Nachricht; sie wird kein zweites Mal veröffentlicht |
-| 4 | unskippable | wenn niemand die Nachricht erhalten würde (Abolevel) wird sie dennoch veröffentlicht |
-| 8 | sendToAll | Nachricht wird unabhängig vom Abolevel an alle verschickt |
-| 16 | keepTickerTime | andere Nachrichten des Genres *nicht* verzögern (Flag insb. für Initialnachrichten)|
-| 32 | resetTickerTime | andere Nachrichten des Genres *werden* verzögert (Flag insb. für Nachfolgenachrichten) |
-| 64 | resetHappenTime | initial gesetzte happen_time wegen Wiederverwendbarkeit der Nachricht *dann* ignorieren |
-| 128 | specialEvent | besondere Nachricht - optische Hervorhebung |
-| 256 | invisibleEvent | unsichtbare Nachricht - nur Effekte werden ausgeführt |
+| 1 | sendImmediately | Wiadomość jest gotowa bez opóźnień |
+| 2 | uniqueEvent | unikalna wiadomość; nie zostanie opublikowana po raz drugi |
+| 4 | unskippable | jeśli nikt nie otrzyma wiadomości (poziom subskrypcji), zostanie ona opublikowana |
+| 8 | sendToAll | Wiadomość jest wysyłana do wszystkich, niezależnie od poziomu subskrypcji |
+| 16 | keepTickerTime | Nie *opóźniaj* innych wiadomości tego gatunku (flaga szczególnie dla początkowych wiadomości).|
+| 32 | resetTickerTime | inne wiadomości tego typu *będą* opóźnione (szczególnie w przypadku wiadomości uzupełniających) |
+| 64 | resetHappenTime | zignorować początkowo ustawiony happen_time ze względu na możliwość ponownego użycia wiadomości *then |
+| 128 | specialEvent | Wiadomość specjalna - wyróżnienie wizualne |
+| 256 | invisibleEvent | Niewidoczna wiadomość - wykonywane są tylko efekty |
 
-Die Newsflags sind ein Flagwert, d.h. in einer Zahl können mehrere Werte kodiert werden.
-Dafür addiert man die Werte auf.
-`flags="138"` wäre eine einmalige Nachricht, die allen Spielern zur Verfügung steht, selbst wenn sie das Genre nicht abonniert haben. Sie wird zudem optisch hervorgehoben.
+Flagi wiadomości to wartość flagi, tzn. w jednej liczbie można zakodować kilka wartości.
+Aby to zrobić, należy zsumować wartości.
+`flags="138"` byłaby unikalną wiadomością, która jest dostępna dla wszystkich graczy, nawet jeśli nie zasubskrybowali gatunku. Jest ona również wyróżniona wizualnie.
 
-## Beispiele
+## Przykłady
 
-### minimal 
+### minimalny 
 
-Teure Kulturnachricht geringer Qualität ohne Einschränkungen der Verfügbarkeit oder Effekte.
+Drogi, niskiej jakości przekaz kulturowy bez ograniczeń dostępności i efektów.
 
 ```XML
 <news guid="ronny-news-tarotimwandel-01" type="0" creator="5578" created_by="Ronny">
 	<title>
 		<de>"Tarot im Wandel der Zeit" auf Tour</de>
 		<en>"Tarot in the course of time" on tour</en>
+		<pl>"Tarot z biegiem czasu" na trasie koncertowej</pl>
 	</title>
 	<description>
 		<de>Die Ausstellung der "Zunft" ...</de>
 		<en>The exhibition of the "guild" ...</en>
+		<pl>Wystawa "gildii" ...</pl>
 	</description>
 	<data genre="5" price="1.2" quality="23" />
 </news>
 ```
 
-### einfach
+### prosty
 
-Eine zwischen 2001 und 2009 verfügbare Politiknachricht stößt eine Nachfolgenachricht an, deren Typ `type="2"` anzeigt, dass sie nicht beim zufälligen Ermitteln möglicher Nachrichten zur Verfügung steht.
+Komunikat dotyczący polityki dostępny w latach 2001-2009 wywołuje komunikat uzupełniający, którego typ `type="2"` wskazuje, że nie jest on dostępny podczas losowego określania możliwych komunikatów.
 
 ```XML
 <news guid="6b1065dd-36d5-4b4b-9904-1a8b7fd1d9c1" thread_guid="0328d075-c155-43c9-b0c1-e130eb972f38" type="0" creator="">
 	<title>
 		<de>Terrorismusbekämpfung im Weltall</de>
 		<en>Fighting terrorism in the universe</en>
+		<pl>Walka z terroryzmem we wszechświecie</pl>
 	</title>
 	<description>
 		<de>US-Präsident Baush ...</de>
 		<en>For safety reasons ...</en>
+		<pl>Ze względów bezpieczeństwa ...</pl>
 	</description>
 	<effects>
 		<effect trigger="happen" type="triggernews" news="7c2911a9-c9b4-40d1-b4f6-02fb0025358a" />
@@ -207,27 +213,32 @@ Eine zwischen 2001 und 2009 verfügbare Politiknachricht stößt eine Nachfolgen
 	<title>
 		<de>Terrorismusbekämpfung – jetzt 2 Shuttles</de>
 		<en>Fighting terrorism - now 2 shuttles</en>
+		<pl>Fighting terrorism - now 2 shuttles</pl>
 	</title>
 	...
 </news>
 ```
 
-### komplex
+### złożone
 
-Eine Hauptnachricht stößt eine von vier möglichen Nachfolgenachrichten mit unterschiedlicher Wahrscheinlichkeit an.
+Główny komunikat uruchamia jeden z czterech możliwych komunikatów uzupełniających o różnym prawdopodobieństwie.
 
 ```XML
 <news guid="news-jorgaeff-racing-01" type="0" thread_guid="news-jorgaeff-racing" creator="8936" created_by="jorgaeff">
 	<title>
 		<de>Formel X: Wer holt sich die Fahrer-WM?</de>
+		<en>Formula X: Who will win the drivers' world championship?</en>
+		<pl>Formuła X: Kto zdobędzie mistrzostwo świata kierowców?</pl>
 	</title>
 	<description>
 		<de>Zu einem Dreikampf...</de>
+		<en>Triple battle...</en>
+		<pl>Trójstronna bitwa...</pl>
 	</description>
 	<data genre="2" price="0.45" quality="45" fictional="True" />
 	<effects>
-		<!-- "möglicher Effekt: Live-Übertragung" -->
-		<!-- "morgen 6-12 Uhr / News a, b, c oder d" -->
+		<!-- "Możliwy efekt: transmisja na żywo" -->
+		<!-- "jutro 6-12 rano / wiadomości a, b, c lub d" -->
 		<effect trigger="happen" type="triggernewschoice" choose="or" probability="100" time="2,1,1,6,12"
 			news1="news-jorgaeff-racing-02a" probability1="30"
 			news2="news-jorgaeff-racing-02b" probability2="30"
@@ -238,17 +249,18 @@ Eine Hauptnachricht stößt eine von vier möglichen Nachfolgenachrichten mit un
 </news>
 ```
 
-### Nachrichtenkette mit weitergegeben Variablen
+### Łańcuch wiadomości z przekazanymi zmiennymi
 
-Eine Hauptnachricht stößt eine Nachfolgenachricht an.
-Die definierten Variablen werden an die Nachfolgenachrichten weitergegeben und bereits durchgeführte Ersetzungen konsistent verwendet.
-Wird die Hauptnachricht später erneut gesendet, wird neu gewürfelt.
+Komunikat główny uruchamia komunikat uzupełniający.
+Zdefiniowane zmienne są przekazywane do kolejnych komunikatów, a zamiany, które zostały już wykonane, są konsekwentnie stosowane.
+Jeśli główna wiadomość zostanie wysłana później, rzucana jest nowa kostka.
 
 ```
 <news guid="carStrike_0" thread_guid="carStrike" type="0">
 	<title>
 		<de>${brand} schreibt Verluste</de>
 		<en>${brand} records losses</en>
+		<pl>${brand} odnotowuje straty</pl>
 	</title>
 	<description>...
 	</description>
@@ -263,6 +275,7 @@ Wird die Hauptnachricht später erneut gesendet, wird neu gewürfelt.
 		<jobs>
 			<de>4.000|5.000|6.000|7.500</de>
 			<en>4,000|5,000|6,000|7,500</en>
+			<pl>4,000|5,000|6,000|7,500</pl>
 		</jobs>
 	</variables>
 </news>
@@ -270,32 +283,36 @@ Wird die Hauptnachricht später erneut gesendet, wird neu gewürfelt.
 	<title>
 		<de>${brand} will ${jobs} Stellen streichen</de>
 		<en>${brand} to cut ${jobs} jobs</en>
+		<pl>${brand} zwalnia ${jobs} pracowników</pl>
 	</title>
 	<description>
 		<de>Der Amerikanische Autokonzern will aufgrund der hohen Verluste ${jobs} Mitarbeiter entlassen.</de>
 		<en>The American car company plans to lay off ${jobs} employees due to the high losses.</en>
+		<pl>Amerykańska firma motoryzacyjna planuje zwolnić ${jobs} pracowników z powodu wysokich strat.</pl>
 	</description>
 	...
 </news>
 ```
 
-Ein weiteres Beispiel für die Verwendung Variablen sind die Börsennachrichten (GUID `news-stockexchange-generic`) in `user/kieferer.xml`.
-Diese stoßen sich selbst wieder an.
-In diesem Fall ist es zulässig, dass die Nachfolgenachrichten Variablendefinitionen enthalten.
+Innym przykładem użycia zmiennych są wiadomości giełdowe (GUID `news-stockexchange-generic`) w pliku `user/kieferer.xml`.
+Te wyzwalają się ponownie.
+W tym przypadku dopuszczalne jest, aby kolejne wiadomości zawierały definicje zmiennych.
 
-## TODOs und Fragen
+## DO ZROBIENIA i pytania
 
-### Dokumentation
+### Dokumentacja
 
-* Klären, welche Modifiers es überhaupt gibt und welche für Nachrichten unterstützt werden. (Ronny: über Modifier Wirkung einer Ausstrahlung auf X Stunden begrenzen)
+* Wyjaśnienie, które modyfikatory są dostępne i obsługiwane dla wiadomości. (Ronny: użyj modyfikatorów, aby ograniczyć efekt transmisji do X godzin)
 
 ### DB-Cleanup
 
-* Es gibt viele Nachrichten, die nur einmalig verfügbar sind. Hier sollte nochmal analysiert werden, welche sich für häufigeres Senden eignen würden.
-* Newsgenre prüfen (der Outline des Editors eignet sich, leicht das Genre zu erkennen)
+* Istnieje wiele wiadomości, które są dostępne tylko raz. W tym przypadku należy ponownie przeanalizować, które z nich byłyby odpowiednie do częstszego wysyłania.
+* Sprawdź gatunek wiadomości (zarys edytora jest odpowiedni do łatwego rozpoznania gatunku).
 
-### Generell
+### Ogólne
 
-* Es gibt wenige Nachrichten, welche die Attraktivität von Genre oder Personen anpassen. Wenn Filmrollen mehr Verwendung finden würden, könnte auch die Attraktivität von Rollen angepasst werden (neuer Yams Pond-Film, Yams Pond-Darsteller verstorben) - (es werden bereits Ankündigungen für Kinofilme erzeugt)
-* Verwendung von News-Flag 64 prüfen: Wenn eine Nachricht "unique" ist, kann sie ohnehin kein zweites Mal erscheinen, falls sie nicht "unique" ist, muss eine ggf. gesetzte happen_time nach der ersten Veröffentlichung in jedem Fall gelöscht werden (Flag redundant?)
-* News-Flag 16/32 in Klärung, ob Flags zu einem zusammengefasst werden können; unterschiedliche Standardbehandlung für Initial- und Nachfolgenachrichten.
+* Istnieje niewiele wiadomości, które dostosowują atrakcyjność gatunku lub postaci. Gdyby role filmowe były częściej wykorzystywane, atrakcyjność ról również mogłaby zostać dostosowana (nowy film Yams Pond, zmarły aktor Yams Pond) - (zapowiedzi filmów kinowych są już generowane)
+* Sprawdź użycie flagi wiadomości 64: Jeśli news jest "unikalny", to i tak nie może pojawić się drugi raz, jeśli nie jest "unikalny", to ewentualnie ustawiony happen_time i tak musi zostać usunięty po pierwszej publikacji (flaga zbędna?)
+* Flaga wiadomości 16/32 w wyjaśnieniu, czy flagi mogą być łączone w jedną; inna standardowa obsługa wiadomości początkowych i uzupełniających.
+
+
