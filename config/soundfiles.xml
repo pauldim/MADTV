@@ -47,10 +47,12 @@
 		<music name="sound_music_main27" url="res/music/27.ogg" />
 		<music name="sound_music_main28" url="res/music/28.ogg" />
 		<music name="sound_music_main29" url="res/music/29_Fake love (Maxi).ogg" />
-		<music name="sound_music_main29" url="res/music/Cosmic-Dreams-_for-TVTower_.ogg" />
-		<music name="sound_music_main29" url="res/music/Digital-Love-_for-TVTower_.ogg" />
-		<music name="sound_music_main29" url="res/music/Digital-Serenade-_for-TVTower_.ogg" />
-		<music name="sound_music_main29" url="res/music/Echoes-in-the-Night-_for-TVTower_.ogg" />
+		<music name="sound_music_main30" url="res/music/Cosmic-Dreams-_for-TVTower_.ogg" />
+		<music name="sound_music_main31" url="res/music/Digital-Love-_for-TVTower_.ogg" />
+		<music name="sound_music_main32" url="res/music/Digital-Serenade-_for-TVTower_.ogg" />
+		<music name="sound_music_main33" url="res/music/Echoes-in-the-Night-_for-TVTower_.ogg" />
+		<music name="sound_music_main34" url="res/music/34.ogg" />
+		<music name="sound_music_main35" url="res/music/35.ogg" />
 
 		<!--
 			options:
