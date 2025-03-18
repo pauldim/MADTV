@@ -278,49 +278,35 @@
 			<data country="PL" distribution="2" maingenre="6" subgenre="9, 300" flags="0" blocks="1" price_mod="0.5" />
 			<releaseTime year="1988" day="5" />
 			<ratings critics="90" speed="80" outcome="80" />
-				<children>
-					<programme guid="pd-" product="4" licence_type="3" imdb_id="tt0846518" creator="9810">
-						<title_fake>
-							<de></de>
-							<en></en>
-							<pl></pl>
-						</title_fake>
-						<title>
-							<de>Kingsajz</de>
-							<en>Kingsajz</en>
-							<pl>Kingsajz</pl>
-						</title>
-						<description>
-							<de></de>
-							<en>This comedy follows a young scientist in the contemporary world, who actually came from the world of dwarves, thanks to a magic potion, held by the Big Eater, ruler of the dwarves. The dwarf kingdom, Shuflandia, exists in a cellar of a library, and only the most obedient get the chance to grow to king size and inhabit the larger world.</en>
-							<pl>Ta komedia podąża za młodym naukowcem we współczesnym świecie, który tak naprawdę pochodzi ze świata krasnoludów, dzięki magicznej miksturze, będącej w posiadaniu Wielkiego Pożeracza, władcy krasnoludów. Królestwo krasnoludów, Shuflandia, istnieje w piwnicy biblioteki, a tylko najbardziej posłuszni mają szansę urosnąć do rozmiarów króla i zamieszkać w większym świecie.</pl>
-						</description>
-				</children>
-			</programme>
+		</programme>
 			
-			<programme guid="" product="1" licence_type="1" tmdb_id="0" imdb_id="" creator="9810">
+			<programme guid="pd-kingsize" product="2" licence_type="3" creator="9810" imdb_id="tt0135095">
 				<title_fake>
 					<de></de>
 					<en></en>
 					<pl></pl>
 				</title_fake>
 				<title>
-					<de></de>
-					<en></en>
-					<pl></pl>
+					<de>Kingsajz</de>
+					<en>Kingsajz</en>
+					<pl>Kingsajz</pl>
 				</title>
 				<description>
 					<de></de>
-					<en></en>
-					<pl></pl>
+					<en>This comedy follows a young scientist in the contemporary world, who actually came from the world of dwarves, thanks to a magic potion, held by the Big Eater, ruler of the dwarves. The dwarf kingdom, Shuflandia, exists in a cellar of a library, and only the most obedient get the chance to grow to king size and inhabit the larger world.</en>
+					<pl>Ta komedia podąża za młodym naukowcem we współczesnym świecie, który tak naprawdę pochodzi ze świata krasnoludów, dzięki magicznej miksturze, będącej w posiadaniu Wielkiego Pożeracza, władcy krasnoludów. Królestwo krasnoludów, Shuflandia, istnieje w piwnicy biblioteki, a tylko najbardziej posłuszni mają szansę urosnąć do rozmiarów króla i zamieszkać w większym świecie.</pl>
 				</description>
 				<staff>
-					<member index="0" function="1">2b6fb1b7-57b7-44bf-b930-a032d9193475</member>
-					<member index="1" function="2">dc2348e7-382c-4fad-98b6-bd0df974d274</member>
+					<member index="0" function="1">pauldim-person-id002</member>
+					<member index="1" function="2">pauldim-person-id005</member>
+					<member index="2" function="2">pauldim-person-id003</member>
+					<member index="3" function="2">pauldim-person-id004</member>
 				</staff>
-				<groups target_groups="6" pro_pressure_groups="1" contra_pressure_groups="2" />
-				<data country="" year="" distribution="1" maingenre="15" subgenre="7" flags="0" blocks="2" price_mod="0.90" />
-				<ratings critics="" speed="" outcome="" />
+				<groups target_groups="69" pro_pressure_groups="0" contra_pressure_groups="0" />
+				<targetgroupattractivity children="0.7" teenagers_female="0.7" employees="1" unemployed="1" managers="1" pensioners="2" housewives="1" men="1" women="1"/>
+				<data country="PL" distribution="2" maingenre="6" subgenre="9, 300" flags="0" blocks="1" price_mod="0.5" />
+				<releaseTime year="1988" day="5" />
+				<ratings critics="90" speed="80" outcome="80" />
 			</programme>
 
 			<programme guid="" product="1" licence_type="1" tmdb_id="0" imdb_id="" creator="9810">
